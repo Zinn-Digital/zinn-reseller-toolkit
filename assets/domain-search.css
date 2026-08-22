@@ -1,0 +1,64 @@
+/*
+ * Domain search — the minimum needed for the results to be readable.
+ *
+ * Deliberately small and deliberately unopinionated: this renders inside somebody
+ * else's theme, so it sets layout and state colour and nothing else. No fonts, no
+ * container widths, no resets. A reseller restyles it by overriding these classes;
+ * every one of them is documented in readme.txt so they can.
+ *
+ * Logical properties throughout, so an Arabic or Hebrew site lays out correctly
+ * without a second stylesheet.
+ */
+
+.zinn-domain-search {
+	display: flex;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+	margin-block-end: 1.5rem;
+}
+
+.zinn-domain-search input[type="search"] {
+	flex: 1 1 16rem;
+	min-inline-size: 0;
+}
+
+.zinn-domain-results {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.zinn-domain-result {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.5rem;
+	padding-block: 0.6rem;
+	border-block-end: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.zinn-domain-name {
+	font-weight: 600;
+}
+
+/* The three states are three colours because they are three different answers, and
+   the middle one is the point — see `result_row()` in class-domain-search.php. */
+.zinn-domain-result--available .zinn-domain-state {
+	color: #008a20;
+}
+
+.zinn-domain-result--unknown .zinn-domain-state {
+	color: #996800;
+}
+
+.zinn-domain-result--taken .zinn-domain-state {
+	opacity: 0.65;
+}
+
+.zinn-domain-buy {
+	margin-inline-start: auto;
+}
+
+.zinn-domain-error {
+	color: #b32d2e;
+}
