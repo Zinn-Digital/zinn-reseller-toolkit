@@ -6,10 +6,7 @@ Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zi
 
 ## Download
 
-- **[Download the latest version from zinndigital.com](https://zinndigital.com/wordpress-plugins)** — always current, no account needed.
-- Or take the zip from [Releases](../../releases/latest) here on GitHub.
-
-Both are the same file. The download page is the canonical one: it is served from our own infrastructure and is what the plugin's own updater checks against.
+- **[Download the latest release](../../releases/latest)** — the zip is attached to every release here.
 
 ## Requirements
 
@@ -29,7 +26,7 @@ Every release is installed and activated against the current stable WordPress be
 2. In WordPress: **Plugins → Add New → Upload Plugin**, choose the zip, install.
 3. Activate.
 
-Updates appear in WordPress in the ordinary way once it is installed — you do not need to come back here.
+On a site we host this plugin keeps itself up to date. On your own WordPress it has no credentials for our update service and does not contact us — check back here, or watch this repository's releases.
 
 ## What you can sell with Zinn® Reseller Toolkit
 
@@ -54,13 +51,17 @@ Every hosting line on the platform, from one reseller account — your prices, y
 
 You set the retail price on each; the difference between that and your wholesale rate is yours. Nothing on your site carries our branding unless you want it to.
 
+## Getting started
+
+- **[Selling Zinn® hosting from your own systems](https://zinndigital.com/kb/reseller-api-getting-started)** — the step-by-step guide, in your language.
+
 ## Our other WordPress plugins
 
 - **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — Server-side LiteSpeed (LSCache) cache control for WordPress, with smart auto-purge and a Redis object-cache toggle.
 - **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — Full-page, object, database and CSS/JS optimisation for WordPress on LiteSpeed. A GPLv3 fork of LiteSpeed Cache.
 - **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
 
-All of them are free to download from https://zinndigital.com/wordpress-plugins.
+All of them are free, and each has its zip attached to its latest release.
 
 ## Support
 
