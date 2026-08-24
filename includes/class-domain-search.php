@@ -132,18 +132,29 @@ class Domain_Search {
 			array_filter( array_map( 'trim', explode( ',', $tlds ) ) )
 		);
 		if ( ! empty( $list ) ) {
-			// The API refuses more than five with a 422 rather than truncating, because
-			// each miss is a paid registrar lookup. Sending six and being refused is a
-			// clearer failure for the reseller than silently dropping their sixth choice.
+			// ⛔ The PUBLIC endpoint refuses more than five with a 422 rather than truncating,
+			// because each miss is a paid registrar lookup made for an anonymous visitor. The
+			// authenticated one allows more. Either way the list is passed through unchanged
+			// and a refusal is shown — sending six and being refused is a clearer failure for
+			// the reseller than silently dropping their sixth choice.
 			$body['tlds'] = $list;
 		}
 
-		$response = Client::post( '/v1/public/domains/search', $body );
+		// ⛔⛔ **AUTHENTICATED WHEN A KEY IS CONFIGURED, and that is the owner's phrase made
+		// real**: *"domain search intergration or plugin for wp that will link in to their
+		// domain account"*. `/v1/domains/search` runs the search AS THE RESELLER — their
+		// entitlements, their account — and checks the catalogue's top **25** extensions for
+		// a bare name against the public endpoint's top **10**. The response shape is
+		// identical, so nothing below changes.
+		//
+		// ⭐ The public endpoint stays as the fallback rather than being replaced: the
+		// shortcode must work the moment somebody drops it on a page, before they have pasted
+		// a key. A search box that renders an error until an unrelated setting is filled in is
+		// a worse first impression than one that quietly checks ten extensions instead of 25.
+		$path     = Client::is_configured() ? '/v1/domains/search' : '/v1/public/domains/search';
+		$response = Client::post( $path, $body );
 		if ( is_wp_error( $response ) ) {
-			printf(
-				'<p class="zinn-domain-error">%s</p>',
-				esc_html__( 'We could not reach the domain registry just now. Please try again in a moment.', 'zinn-reseller' )
-			);
+			self::render_error( $response );
 			return;
 		}
 
@@ -161,6 +172,57 @@ class Domain_Search {
 			self::result_row( is_array( $result ) ? $result : array() );
 		}
 		echo '</ul>';
+	}
+
+	/**
+	 * Show a failed lookup: one line for the visitor, the real cause for the administrator.
+	 *
+	 * ⛔⛔ The visitor NEVER sees the API's own message. It is written for the reseller
+	 * ("this key does not carry the sites.view permission"), and on a public page it would
+	 * leak how the site is wired to anyone who can load the shortcode.
+	 *
+	 * ⛔⛔ AND "please try again in a moment" IS A LIE FOR MOST OF THESE. A 401 or 403
+	 * is a settings mistake that will still be there tomorrow, so the visitor is told the
+	 * search is unavailable rather than invited to retry forever. Only a genuine transport
+	 * failure or a 5xx earns the retry wording.
+	 *
+	 * ⭐ The administrator gets the actionable half in the same place they are standing,
+	 * because the alternative is a reseller who can see the box is broken and has nothing
+	 * to act on. It is gated on `manage_options`, so a logged-out visitor and a subscriber
+	 * both see only the neutral line.
+	 *
+	 * @param \WP_Error $error The failure from the API client.
+	 */
+	private static function render_error( $error ) {
+		$status    = (int) ( $error->get_error_data()['status'] ?? 0 );
+		$permanent = in_array( $status, array( 400, 401, 403, 404, 422 ), true );
+
+		printf(
+			'<p class="zinn-domain-error">%s</p>',
+			esc_html(
+				$permanent
+					? __( 'Domain search is unavailable on this site at the moment.', 'zinn-reseller' )
+					: __( 'We could not reach the domain registry just now. Please try again in a moment.', 'zinn-reseller' )
+			)
+		);
+
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return;
+		}
+
+		$hint = '';
+		if ( 401 === $status ) {
+			$hint = __( 'The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller.', 'zinn-reseller' );
+		} elseif ( 403 === $status ) {
+			$hint = __( 'This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search.', 'zinn-reseller' );
+		}
+
+		printf(
+			'<p class="zinn-domain-error zinn-domain-error--admin"><strong>%s</strong> %s%s</p>',
+			esc_html__( 'Only administrators see this:', 'zinn-reseller' ),
+			esc_html( $error->get_error_message() ),
+			'' === $hint ? '' : ' ' . esc_html( $hint )
+		);
 	}
 
 	/**

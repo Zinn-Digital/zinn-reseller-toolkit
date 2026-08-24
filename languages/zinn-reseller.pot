@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-22T18:47:30+00:00\n"
+"POT-Creation-Date: 2026-08-23T04:30:42+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-reseller\n"
@@ -51,33 +51,49 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: includes/class-domain-search.php:145
-msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr ""
-
-#: includes/class-domain-search.php:154
+#: includes/class-domain-search.php:165
 msgid "No extensions were checked for that name."
 msgstr ""
 
-#: includes/class-domain-search.php:209
+#: includes/class-domain-search.php:204
+msgid "Domain search is unavailable on this site at the moment."
+msgstr ""
+
+#: includes/class-domain-search.php:205
+msgid "We could not reach the domain registry just now. Please try again in a moment."
+msgstr ""
+
+#: includes/class-domain-search.php:215
+msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
+msgstr ""
+
+#: includes/class-domain-search.php:217
+msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
+msgstr ""
+
+#: includes/class-domain-search.php:222
+msgid "Only administrators see this:"
+msgstr ""
+
+#: includes/class-domain-search.php:271
 msgid "We could not check this one — try again"
 msgstr ""
 
-#: includes/class-domain-search.php:213
+#: includes/class-domain-search.php:275
 msgid "Already registered"
 msgstr ""
 
-#: includes/class-domain-search.php:251
+#: includes/class-domain-search.php:313
 msgid "Available — ask us for a price"
 msgstr ""
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:256
+#: includes/class-domain-search.php:318
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr ""
 
-#: includes/class-domain-search.php:279
+#: includes/class-domain-search.php:341
 msgid "Register it"
 msgstr ""
 
@@ -126,7 +142,7 @@ msgid "Panel address"
 msgstr ""
 
 #: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. Change this if you serve the panel on your own hostname."
+msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
 msgstr ""
 
 #: includes/class-settings.php:242

@@ -62,3 +62,16 @@
 .zinn-domain-error {
 	color: #b32d2e;
 }
+
+/*
+ * Only an administrator ever sees this line, so it is deliberately quieter than the
+ * visitor-facing error above it: it is a note to the person who can fix the setting,
+ * not an alarm on somebody's shop front.
+ */
+.zinn-domain-error--admin {
+	margin-block-start: 0.35em;
+	padding-inline-start: 0.75em;
+	border-inline-start: 3px solid #b32d2e;
+	color: #50575e;
+	font-size: 0.9em;
+}

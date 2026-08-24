@@ -1,85 +1,81 @@
 # Zinn® Reseller Toolkit
 
-Sell Zinn® hosting from your own WordPress site.
+Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS. Search domains, sign clients into their panel, and provision hosting when a WooCommerce order is paid.
 
-Three things, and they are three separate switches — nothing you leave off loads any code,
-registers any hook, or adds a stylesheet to your pages.
+Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zinndigital.com
 
-- **Domain search.** Put `[zinn_domain_search]` on a page. Visitors search, and results come
-  back live from your reseller domain account with your prices on them. No JavaScript: it works
-  with scripting off, it is crawlable, and a result is a shareable URL.
-- **Panel sign-in link.** Put `[zinn_panel_link]` where a signed-in customer will see it. One
-  click takes them into their hosting, already signed in.
-- **WooCommerce provisioning.** Sell hosting as an ordinary WooCommerce product, take the money
-  through your own gateway into your own account, and the hosting is set up the moment the
-  order is paid.
+## Download
 
-## Install
+- **[Download the latest version from zinndigital.com](https://zinndigital.com/wordpress-plugins)** — always current, no account needed.
+- Or take the zip from [Releases](../../releases/latest) here on GitHub.
 
-1. Download the latest release, or clone this repository into `wp-content/plugins/`.
-2. Activate the plugin.
-3. In your Zinn® dashboard, go to **API keys** and create one. Give it only what you need:
-   `org.read`, `sites.create`, `sites.view`, `sites.delete`, `reseller.view`,
-   `reseller.provision`.
-4. In WordPress, go to **Settings → Zinn® Reseller**, paste the key, and save. The
-   **Connection** section makes a real call and tells you what the platform said — it does not
-   simply check that the box is filled in.
-5. Switch on the modules you want.
-
-⛔ Do not give an integration key `reseller.manage`. That permission edits your price list and
-your own payment-gateway credentials; `reseller.provision` exists so a key you paste into a
-website does not need it.
-
-## Shortcodes
-
-```
-[zinn_domain_search placeholder="Find your domain" button="Search" tlds="com,co.uk,io"]
-[zinn_panel_link label="Manage my hosting"]
-```
-
-`tlds` takes up to five extensions. Leave it out for the default set.
-
-## Styling the domain search
-
-The bundled stylesheet sets layout and state colour and nothing else, so it sits inside your
-theme rather than fighting it. Override these classes:
-
-`.zinn-domain-search` `.zinn-domain-results` `.zinn-domain-result`
-`.zinn-domain-result--available` `.zinn-domain-result--taken` `.zinn-domain-result--unknown`
-`.zinn-domain-name` `.zinn-domain-state` `.zinn-domain-buy` `.zinn-domain-error`
-
-Note the three result states. A search has three answers, not two: available, already
-registered, and **we could not check**. Telling a visitor a name is taken when no registrar
-could be reached makes them abandon a name that may well be free, so that case has its own
-wording and its own class.
-
-## WooCommerce
-
-- Set the Zinn® product line on the product's **Inventory** tab, or set one default for the
-  whole shop in the plugin settings.
-- The customer's chosen hostname is read from the order item's `zinn_domain` meta.
-- A product is treated as hosting only if it names a product line **or** carries a hostname, so
-  the rest of your catalogue is left alone.
-- A returning customer's second order lands under the **same** client account.
-- Every call is idempotent, so a gateway retry or an order moved from Processing to Completed
-  cannot provision twice.
-- If provisioning fails, the reason is written to the order as a note **and** shown in a panel
-  on the order screen.
-
-Payments never touch us. WooCommerce settles into your own account through your own gateway;
-this plugin runs afterwards and asks the platform to provision.
-
-## Documentation
-
-- API reference — <https://zinndigital.com/developers/api>
-- Getting started as a reseller — <https://zinndigital.com/kb/reseller-api-getting-started>
+Both are the same file. The download page is the canonical one: it is served from our own infrastructure and is what the plugin's own updater checks against.
 
 ## Requirements
 
-WordPress 6.6+, PHP 8.2+, and a Zinn® reseller account.
+| | |
+|---|---|
+| Version | `1.0.0` |
+| Requires WordPress | 6.6 or later |
+| Tested up to | WordPress **7.1** |
+| Requires PHP | 8.2 or later |
+| Licence | GPL-2.0-or-later |
+
+Every release is installed and activated against the current stable WordPress before it is published, on a real install with WooCommerce alongside — the *Tested up to* figure above is that test, not an estimate.
+
+## Install
+
+1. Download the zip.
+2. In WordPress: **Plugins → Add New → Upload Plugin**, choose the zip, install.
+3. Activate.
+
+Updates appear in WordPress in the ordinary way once it is installed — you do not need to come back here.
+
+## What you can sell with Zinn® Reseller Toolkit
+
+Every hosting line on the platform, from one reseller account — your prices, your brand, your payment gateway:
+
+- **[Footprint-free PBN hosting](https://zinndigital.com/hosting/footprint-free)**
+- **[Managed WordPress hosting](https://zinndigital.com/hosting/wordpress)**
+- **[WooCommerce hosting](https://zinndigital.com/hosting/woocommerce)**
+- **[Premium WordPress & WooCommerce](https://zinndigital.com/hosting/premium)**
+- **[Agency hosting](https://zinndigital.com/hosting/agency)**
+- **[Reseller hosting](https://zinndigital.com/hosting/reseller)**
+- **[Cloud hosting](https://zinndigital.com/hosting/cloud)**
+- **[VPS hosting](https://zinndigital.com/hosting/vps)**
+- **[Zinn® Private Cloud](https://zinndigital.com/hosting/compute)**
+- **[PHP hosting](https://zinndigital.com/hosting/php)**
+- **[Node.js hosting](https://zinndigital.com/hosting/nodejs)**
+- **[Laravel hosting](https://zinndigital.com/hosting/laravel)**
+- **[Magento hosting](https://zinndigital.com/hosting/magento)**
+- **[Joomla hosting](https://zinndigital.com/hosting/joomla)**
+- **[Linux hosting](https://zinndigital.com/hosting/linux)**
+- **[.NET hosting](https://zinndigital.com/hosting/netcore)**
+
+You set the retail price on each; the difference between that and your wholesale rate is yours. Nothing on your site carries our branding unless you want it to.
+
+## Our other WordPress plugins
+
+- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — Server-side LiteSpeed (LSCache) cache control for WordPress, with smart auto-purge and a Redis object-cache toggle.
+- **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — Full-page, object, database and CSS/JS optimisation for WordPress on LiteSpeed. A GPLv3 fork of LiteSpeed Cache.
+- **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
+
+All of them are free to download from https://zinndigital.com/wordpress-plugins.
+
+## Support
+
+- Open an issue here, or contact us through https://zinndigital.com.
+- Customers: everything is in your dashboard at https://app.zinndigital.com.
 
 ## Licence
 
 GPL-2.0-or-later. See [LICENSE](LICENSE).
 
-Author: Neil Lock — CEO, Zinn Digital® Ltd — <https://zinndigital.com>
+---
+
+© Zinn Digital® Ltd. `Zinn`, `Zinner` and `ZINNECTOR` are registered trade marks.
+
+<!-- Generated by scripts/wp-repo-sync.py from wp/plugins.json and the plugin's own
+     headers. Do not edit this file here: an edit is overwritten on the next release,
+     and a hand-maintained copy of a fact is how this repo came to advertise a
+     product name we do not use. Change the source in the platform repository. -->

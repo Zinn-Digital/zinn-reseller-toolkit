@@ -231,7 +231,7 @@ class Settings {
 							<p class="description">
 								<?php
 								echo esc_html__(
-									'Where your clients are sent to manage their hosting. Change this if you serve the panel on your own hostname.',
+									'Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all.',
 									'zinn-reseller'
 								);
 								?>
