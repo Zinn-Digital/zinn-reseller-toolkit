@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-23T04:30:42+00:00\n"
+"POT-Creation-Date: 2026-08-24T16:33:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-reseller\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn® hosting from your own WordPress site. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
 msgstr ""
 
 #. Author of the plugin
