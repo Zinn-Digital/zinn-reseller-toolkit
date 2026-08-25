@@ -6,7 +6,10 @@ Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zi
 
 ## Download
 
-- **[Download the latest release](../../releases/latest)** — the zip is attached to every release here.
+- **[Download the latest version from zinndigital.com](https://zinndigital.com/wordpress-plugins)** — always current, no account needed.
+- Or take the zip from [Releases](../../releases/latest) here on GitHub.
+
+Both are the same file. The download page is the canonical one: it is served from our own infrastructure and is what the plugin's own updater checks against.
 
 ## Requirements
 
@@ -61,7 +64,7 @@ You set the retail price on each; the difference between that and your wholesale
 - **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — Full-page, object, database and CSS/JS optimisation for WordPress on LiteSpeed. A GPLv3 fork of LiteSpeed Cache.
 - **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
 
-All of them are free, and each has its zip attached to its latest release.
+All of them are free to download from https://zinndigital.com/wordpress-plugins.
 
 ## Support
 
