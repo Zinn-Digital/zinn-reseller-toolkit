@@ -11,7 +11,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS. Search domains, sign clients into their panel, and provision hosting when a WooCommerce order is paid.
+Sell Zinn Digital® hosting from your own site: search domains, sign clients into their panel, provision hosting on a paid WooCommerce order.
 
 == Description ==
 

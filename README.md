@@ -1,6 +1,6 @@
 # Zinn® Reseller Toolkit
 
-Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS. Search domains, sign clients into their panel, and provision hosting when a WooCommerce order is paid.
+Sell Zinn Digital® hosting from your own site: search domains, sign clients into their panel, provision hosting on a paid WooCommerce order.
 
 Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zinndigital.com
 
@@ -60,9 +60,11 @@ You set the retail price on each; the difference between that and your wholesale
 
 ## Our other WordPress plugins
 
-- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — Server-side LiteSpeed (LSCache) cache control for WordPress, with smart auto-purge and a Redis object-cache toggle.
-- **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — Full-page, object, database and CSS/JS optimisation for WordPress on LiteSpeed. A GPLv3 fork of LiteSpeed Cache.
+- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, remote purge from your dashboard and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead.
+- **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — A complete caching and optimisation engine — full-page cache, object cache, database cleanup and CSS/JS optimisation — for WordPress sites hosted somewhere that provides no cache layer. On Zinn Digital® hosting, install Zinn® Cache instead. A GPLv3 fork of LiteSpeed Cache.
 - **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
+- **[zinn-offload](https://github.com/Zinn-Digital/zinn-offload)** — Move a WordPress media library to Zinn® object storage and serve it from a CDN. Configured from the Zinn® dashboard — no access key is ever typed into WordPress.
+- **[zinn-translate](https://github.com/Zinn-Digital/zinn-translate)** — Serve a Zinn Digital®-translated site in every language, each on its own web address, with correct hreflang tags. Renders finished translations; generates none.
 
 All of them are free to download from https://zinndigital.com/wordpress-plugins.
 
