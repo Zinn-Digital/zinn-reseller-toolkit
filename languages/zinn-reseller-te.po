@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-reseller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-reseller.php
+#: includes/class-settings.php:94
+#: includes/class-settings.php:170
+msgid "Zinn® Reseller Toolkit"
+msgstr "Zinn® Reseller Toolkit"
+
+#. Plugin URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+
+#. Description of the plugin
+#: zinn-reseller.php
+msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "మీ స్వంత WordPress సైట్ నుండి Zinn Digital® హోస్టింగ్ విక్రయించండి — footprint-free PBN, WordPress, WooCommerce, ఏజెన్సీ, రీసెల్లర్, క్లౌడ్ మరియు VPS హోస్టింగ్. మీ రీసెల్లర్ ఖాతా నుండి డొమైన్‌లను శోధించండి మరియు ఆఫర్ చేయండి, మీ క్లైంట్‌లను నేరుగా వారి హోస్టింగ్ ప్యానెల్‌లోకి సైన్ ఇన్ చేయండి మరియు WooCommerce ఆర్డర్ చెల్లించినప్పుడు స్వయంచాలకంగా హోస్టింగ్‌ను ప్రొవిజన్ చేయండి."
+
+#. Author of the plugin
+#: zinn-reseller.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#. translators: %d: HTTP status code returned by the hosting API.
+#: includes/class-client.php:161
+#, php-format
+msgid "The hosting platform answered with status %d."
+msgstr "హోస్టింగ్ ప్లాట్‌ఫారమ్ %d స్థితితో ప్రతిస్పందించింది."
+
+#: includes/class-domain-search.php:73
+msgid "Find your domain name"
+msgstr "మీ డొమైన్ పేరును కనుగొనండి"
+
+#: includes/class-domain-search.php:74
+msgid "Search"
+msgstr "శోధించు"
+
+#: includes/class-domain-search.php:165
+msgid "No extensions were checked for that name."
+msgstr "ఆ పేరు కోసం ఎలాంటి ఎక్స్‌టెన్షన్‌లు తనిఖీ చేయబడలేదు."
+
+#: includes/class-domain-search.php:204
+msgid "Domain search is unavailable on this site at the moment."
+msgstr "ఈ సైట్‌లో ప్రస్తుతం డొమైన్ శోధన అందుబాటులో లేదు."
+
+#: includes/class-domain-search.php:205
+msgid "We could not reach the domain registry just now. Please try again in a moment."
+msgstr "మేము ప్రస్తుతం డొమైన్ రిజిస్ట్రీని చేరుకోలేకపోయాము. దయచేసి కొద్దిసేపు తర్వాత మళ్లీ ప్రయత్నించండి."
+
+#: includes/class-domain-search.php:215
+msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
+msgstr "API కీ లేదు లేదా ఇకపై చెల్లదు. సెట్టింగ్‌లు → Zinn® రీసెల్లర్ కింద దీన్ని తనిఖీ చేయండి."
+
+#: includes/class-domain-search.php:217
+msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
+msgstr "ఈ API కీలో sites.view అనుమతి లేదు, ఇది డొమైన్ శోధనకు అవసరం. మీ రీసెల్లర్ ప్యానెల్‌లో దీన్ని కీకి జోడించండి లేదా పబ్లిక్ శోధనకు వెళ్లడానికి ఇక్కడ కీని క్లియర్ చేయండి."
+
+#: includes/class-domain-search.php:222
+msgid "Only administrators see this:"
+msgstr "నిర్వాహకులు మాత్రమే దీన్ని చూడగలరు:"
+
+#: includes/class-domain-search.php:271
+msgid "We could not check this one — try again"
+msgstr "దీన్ని మేము తనిఖీ చేయలేకపోయాము — మళ్లీ ప్రయత్నించండి"
+
+#: includes/class-domain-search.php:275
+msgid "Already registered"
+msgstr "이미 నమోదు చేయబడింది"
+
+#: includes/class-domain-search.php:313
+msgid "Available — ask us for a price"
+msgstr "అందుబాటులో ఉంది — ధర కోసం మమ్మల్ని సంప్రదించండి"
+
+#. translators: 1: price, 2: ISO currency code.
+#: includes/class-domain-search.php:318
+#, php-format
+msgid "Available — %1$s %2$s for the first year"
+msgstr "అందుబాటులో ఉంది — మొదటి సంవత్సరానికి %1$s %2$s"
+
+#: includes/class-domain-search.php:341
+msgid "Register it"
+msgstr "నమోదు చేయండి"
+
+#: includes/class-panel-link.php:63
+msgid "Manage my hosting"
+msgstr "నా హోస్టింగ్ నిర్వహించండి"
+
+#: includes/class-panel-link.php:85
+msgid "Please sign in first."
+msgstr "దయచేసి ముందుగా సైన్ ఇన్ చేయండి."
+
+#: includes/class-panel-link.php:92
+msgid "This account is not linked to a hosting service yet."
+msgstr "ఈ ఖాతా ఇంకా హోస్టింగ్ సేవకు లింక్ చేయబడలేదు."
+
+#: includes/class-panel-link.php:102
+msgid "The hosting platform did not return a sign-in link."
+msgstr "అతిథ్య వేదిక (హోస్టింగ్ ప్లాట్‌ఫారమ్) సైన్-ఇన్ లింక్‌ను అందించలేదు."
+
+#: includes/class-settings.php:95
+msgid "Zinn® Reseller"
+msgstr "Zinn® రీసెలర్"
+
+#: includes/class-settings.php:129
+msgid "Settings"
+msgstr "అమరికలు"
+
+#: includes/class-settings.php:173
+msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
+msgstr "ఈ సైట్‌ను మీ Zinn® రీసెలర్ ఖాతాకు కనెక్ట్ చేయండి, ఆపై మీకు కావలసిన భాగాలను మాత్రమే ఆన్ చేయండి."
+
+#: includes/class-settings.php:184
+msgid "API key"
+msgstr "API కీ"
+
+#: includes/class-settings.php:197
+msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
+msgstr "API కీల క్రింద మీ Zinn® డాష్‌బోర్డ్‌లో ఒకదాన్ని సృష్టించండి. దిగువ మాడ్యూళ్లకు అవసరమైన అనుమతులను మాత్రమే దానికి ఇవ్వండి."
+
+#: includes/class-settings.php:207
+msgid "API address"
+msgstr "API చిరునామా"
+
+#: includes/class-settings.php:221
+msgid "Panel address"
+msgstr "ప్యానెల్ చిరునామా"
+
+#: includes/class-settings.php:233
+msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
+msgstr "మీ క్లయింట్లు తమ హోస్టింగ్ నిర్వహించడానికి ఎక్కడికి పంపబడతారు. మీరు రీసెల్లింగ్ → మీ బ్రాండ్ కింద ప్యానెల్ హోస్ట్‌నేమ్‌ని సెట్ చేసినట్లయితే, దాన్ని ఇక్కడ ఉంచండి — అప్పుడు మీ క్లయింట్లు మా చిరునామాను ఎప్పటికీ చూడలేరు."
+
+#: includes/class-settings.php:242
+msgid "Modules"
+msgstr "మాడ్యూల్స్"
+
+#: includes/class-settings.php:253
+msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
+msgstr "డొమైన్ శోధన — [zinn_domain_search] షార్ట్‌కోడ్, మీ స్వంత డొమైన్ ఖాతా నుండి ధర నిర్ణయించబడుతుంది."
+
+#: includes/class-settings.php:267
+msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
+msgstr "ప్యానెల్ లింక్ — [zinn_panel_link] షార్ట్‌కోడ్ లాగిన్ అయిన క్లయింట్‌ను వారి హోస్టింగ్‌లోకి సైన్ ఇన్ చేస్తుంది."
+
+#: includes/class-settings.php:281
+msgid "WooCommerce — provision hosting automatically when an order is paid."
+msgstr "వూకామర్స్ (WooCommerce) — ఆర్డర్ చెల్లించినప్పుడు ఆటోమేటిక్‌గా హోస్టింగ్‌ను ప్రొవిజన్ చేయండి."
+
+#: includes/class-settings.php:290
+msgid "WooCommerce is not active on this site, so this module is doing nothing."
+msgstr "ఈ సైట్‌లో వూకామర్స్ (WooCommerce) యాక్టివ్‌గా లేదు, కాబట్టి ఈ మాడ్యూల్ ఏ పని చేయడం లేదు."
+
+#: includes/class-settings.php:302
+msgid "Default plan code"
+msgstr "డిఫాల్ట్ ప్లాన్ కోడ్"
+
+#: includes/class-settings.php:314
+msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
+msgstr "WooCommerce ఉత్పత్తి పేరును తన సొంత ప్లాన్‌గా పేర్కొనని దాని కోసం ఉపయోగించబడుతుంది. ఇన్వెంటరీ కింద ఉత్పత్తిపైనే ప్రతి ఉత్పత్తి ప్లాన్‌ను సెట్ చేయండి."
+
+#: includes/class-settings.php:325
+msgid "Connection"
+msgstr "కనెక్షన్"
+
+#: includes/class-settings.php:350
+msgid "No API key yet, so nothing is connected."
+msgstr "ఇంకా API కీ లేదు, కాబట్టి ఏదీ కనెక్ట్ కాలేదు."
+
+#. translators: %s: error message returned by the hosting API.
+#: includes/class-settings.php:358
+#, php-format
+msgid "Not connected: %s"
+msgstr "కనెక్ట్ కాలేదు: %s"
+
+#. translators: %s: the reseller programme status, e.g. "active".
+#: includes/class-settings.php:368
+#, php-format
+msgid "Connected. Your reseller programme is %s."
+msgstr "కనెక్ట్ చేయబడింది. మీ రీసెల్లర్ ప్రోగ్రామ్ %s."
+
+#: includes/class-woocommerce-provisioning.php:90
+msgid "No Zinn® API key is configured, so nothing was provisioned."
+msgstr "ఏ Zinn® API కీ కాన్ఫిగర్ చేయబడలేదు, కాబట్టి ఏదీ ప్రొవిజన్ చేయబడలేదు."
+
+#: includes/class-woocommerce-provisioning.php:108
+msgid "This order did not include a domain name, so there was nothing to provision."
+msgstr "ఈ ఆర్డర్‌లో డొమైన్ పేరు లేదు, కాబట్టి ప్రొవిజన్ చేయడానికి ఏమీ లేదు."
+
+#: includes/class-woocommerce-provisioning.php:128
+msgid "The hosting platform did not return a site."
+msgstr "హోస్టింగ్ ప్లాట్‌ఫారమ్ సైట్‌ను అందించలేదు."
+
+#. translators: 1: domain name, 2: hosting service id.
+#: includes/class-woocommerce-provisioning.php:139
+#, php-format
+msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
+msgstr "%1$s (సేవ %2$s) కోసం అందించబడిన Zinn® హోస్టింగ్."
+
+#: includes/class-woocommerce-provisioning.php:203
+msgid "The hosting platform did not return a client account."
+msgstr "హోస్టింగ్ ప్లాట్‌ఫారమ్ క్లయింట్ ఖాతాను ఇవ్వలేదు."
+
+#. translators: %s: the reason provisioning failed.
+#: includes/class-woocommerce-provisioning.php:308
+#, php-format
+msgid "Zinn® hosting was NOT provisioned: %s"
+msgstr "Zinn® హోస్టింగ్ ప్రొవిజన్ కాలేదు: %s"
+
+#: includes/class-woocommerce-provisioning.php:324
+msgid "Zinn® product line"
+msgstr "Zinn® ఉత్పత్తి శ్రేణి"
+
+#: includes/class-woocommerce-provisioning.php:325
+msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
+msgstr "ఈ ఉత్పత్తి కొనుగోలు చేసినప్పుడు ప్రొవిజన్ చేయవలసిన Zinn® ఉత్పత్తి శ్రేణి. ప్లాగిన్ సెట్టింగ్‌ల నుండి డిఫాల్ట్‌ని ఉపయోగించడానికి ఖాళీగా వదలండి."
+
+#: includes/class-woocommerce-provisioning.php:362
+msgid "Zinn® hosting"
+msgstr "Zinn® హోస్టింగ్"
+
+#: includes/class-woocommerce-provisioning.php:386
+msgid "Service id"
+msgstr "సేవా ఐడి"
+
+#: includes/class-woocommerce-provisioning.php:393
+msgid "Nothing provisioned for this order."
+msgstr "ఈ ఆర్డర్ కోసం ఏదీ ప్రొవిజన్ చేయబడలేదు."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-reseller-promo.php:241
+#: includes/class-zinn-reseller-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — గైడ్‌లు మరియు సేవలు"
+
+#: includes/class-zinn-reseller-promo.php:256
+msgid "User guides"
+msgstr "యూజర్ గైడ్‌లు"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-reseller-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s వినియోగదారు మార్గదర్శిని చదవండి"
+
+#: includes/class-zinn-reseller-promo.php:314
+msgid "Hide this"
+msgstr "దీన్ని దాచు"
+
+#: includes/class-zinn-reseller-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress కోసం Zinn® హోస్టింగ్"
+
+#: includes/class-zinn-reseller-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకటి కంటే ఎక్కువ సైట్‌లను నిర్వహించే వ్యక్తుల కోసం రూపొందించబడిన కంట్రోల్ ప్యానెల్."
+
+#: includes/class-zinn-reseller-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® మార్కెట్ ప్లేస్"
+
+#: includes/class-zinn-reseller-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "ఇరుపక్షాలు సంతృప్తి చెందే వరకు మీ డబ్బును సురక్షితంగా ఉంచుతూ, ఇప్పటికే పనిచేస్తున్న వెబ్‌సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనండి మరియు అమ్మండి."
+
+#: includes/class-zinn-reseller-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — దీన్ని వృత్తిగా చేసే నిపుణులను నియమించుకోండి"
+
+#: includes/class-zinn-reseller-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "మా గ్లోబల్ ఫ్రీలాన్స్ మార్కెట్‌ప్లేస్: రైటర్లు, డిజైనర్లు, డెవలపర్లు మరియు SEO నిపుణుల నుండి 10,000 కంటే ఎక్కువ సిద్ధంగా ఉన్న సేవలను బ్రౌజ్ చేయండి లేదా ఒక ప్రాజెక్ట్‌ను పోస్ట్ చేసి వారిని బిడ్ చేయనివ్వండి."

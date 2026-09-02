@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Zinn® Reseller Toolkit
- * Plugin URI:        https://zinndigital.com
+ * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-reseller
  * Description:       Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid.
  * Version:           1.0.0
  * Requires at least: 6.6
@@ -96,3 +96,18 @@ function zinn_reseller_load_textdomain(): void {
 	load_plugin_textdomain( 'zinn-reseller', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 add_action( 'init', __NAMESPACE__ . '\\zinn_reseller_load_textdomain' );
+
+// ── The Zinn® panel ──────────────────────────────────────────────────────────────────────
+//
+// ⚖️ Owner, 2026-09-01: *"each plugin should promote our hosting and marketplace as well as
+// Zinn Hub global marketplace inside people's site in the admin dashboard"*, and *"user
+// guides for them … linked to in the plugins dashboard"*.
+//
+// ⛔ `require_once` rather than the autoloader, and a STRING callable rather than
+// `array( Zinn_Reseller_Promo::class, … )`. The class is deliberately global — it is shipped
+// identically into seven plugins with different namespacing conventions, and three of them
+// bootstrap inside a namespace where `Zinn_Reseller_Promo::class` would resolve to a class that does
+// not exist. A string callable is resolved in the global namespace at call time, which is
+// correct from every one of the seven. `php -l` cannot see that mistake; only running it can.
+require_once __DIR__ . '/includes/class-zinn-reseller-promo.php';
+add_action( 'plugins_loaded', array( 'Zinn_Reseller_Promo', 'register' ) );

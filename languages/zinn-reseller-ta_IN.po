@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-reseller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-reseller.php
+#: includes/class-settings.php:94
+#: includes/class-settings.php:170
+msgid "Zinn® Reseller Toolkit"
+msgstr "Zinn® Reseller Toolkit"
+
+#. Plugin URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+
+#. Description of the plugin
+#: zinn-reseller.php
+msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "Zinn Digital® ஹோஸ்டிங்கை உங்கள் சொந்த WordPress தளத்திலிருந்து விற்கவும் — தடம் இல்லாத (footprint-free) PBN, WordPress, WooCommerce, ஏஜென்சி, ரீசெல்லர், கிளவுட் மற்றும் VPS ஹோஸ்டிங். உங்கள் ரீசெல்லர் கணக்கிலிருந்து டொமைன்களைத் தேடி வழங்குங்கள், உங்கள் வாடிக்கையாளர்களை அவர்களின் ஹோஸ்டிங் பேனலில் நேரடியாக உள்நுழையச் செய்யுங்கள், மேலும் WooCommerce ஆர்டர் செலுத்தப்பட்டவுடன் ஹோஸ்டிங்கைத் தானாகவே வழங்குங்கள்."
+
+#. Author of the plugin
+#: zinn-reseller.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#. translators: %d: HTTP status code returned by the hosting API.
+#: includes/class-client.php:161
+#, php-format
+msgid "The hosting platform answered with status %d."
+msgstr "புரவலன் தளம் %d நிலையுடன் பதிலளித்தது."
+
+#: includes/class-domain-search.php:73
+msgid "Find your domain name"
+msgstr "உங்கள் டொமைன் பெயரைக் கண்டறியவும்"
+
+#: includes/class-domain-search.php:74
+msgid "Search"
+msgstr "தேடு"
+
+#: includes/class-domain-search.php:165
+msgid "No extensions were checked for that name."
+msgstr "அந்த பெயருக்கு எந்த நீட்டிப்புகளும் சரிபார்க்கப்படவில்லை."
+
+#: includes/class-domain-search.php:204
+msgid "Domain search is unavailable on this site at the moment."
+msgstr "இந்த தளத்தில் டொமைன் தேடல் தற்போது கிடைக்கவில்லை."
+
+#: includes/class-domain-search.php:205
+msgid "We could not reach the domain registry just now. Please try again in a moment."
+msgstr "டொமைன் பதிவகத்தை எங்களால் இப்போது தொடர்பு கொள்ள முடியவில்லை. தயவுசெய்து சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-domain-search.php:215
+msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
+msgstr "API விசை விடுபட்டுள்ளது அல்லது இனி செல்லுபராது. அதை அமைப்புகள் (Settings) → Zinn® Reseller என்பதில் சரிபார்க்கவும்."
+
+#: includes/class-domain-search.php:217
+msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
+msgstr "இந்த API விசையில் sites.view அனுமதி இல்லை, இது டொமைன் தேடலுக்குத் தேவைப்படுகிறது. அதை உங்கள் மறுவிற்பனையாளர் பலகத்தில் உள்ள விசையில் சேர்க்கவும், அல்லது பொதுவான தேடலுக்குத் திரும்ப இங்கே விசையை அழிக்கவும்."
+
+#: includes/class-domain-search.php:222
+msgid "Only administrators see this:"
+msgstr "நிர்வாகிகள் மட்டுமே இதைக் காண்கிறார்கள்:"
+
+#: includes/class-domain-search.php:271
+msgid "We could not check this one — try again"
+msgstr "இதைச் சோதிக்க முடியவில்லை — மீண்டும் முயற்சிக்கவும்"
+
+#: includes/class-domain-search.php:275
+msgid "Already registered"
+msgstr "ஏற்கனவே பதிவு செய்யப்பட்டது"
+
+#: includes/class-domain-search.php:313
+msgid "Available — ask us for a price"
+msgstr "கிடைக்கிறது — விலையைக் கேட்கவும்"
+
+#. translators: 1: price, 2: ISO currency code.
+#: includes/class-domain-search.php:318
+#, php-format
+msgid "Available — %1$s %2$s for the first year"
+msgstr "கிடைக்கிறது — முதல் வருடத்திற்கு %1$s %2$s"
+
+#: includes/class-domain-search.php:341
+msgid "Register it"
+msgstr "பதிவு செய்க"
+
+#: includes/class-panel-link.php:63
+msgid "Manage my hosting"
+msgstr "எனது ஹோஸ்டிங்கை நிர்வகிக்கவும்"
+
+#: includes/class-panel-link.php:85
+msgid "Please sign in first."
+msgstr "முதலில் உள்நுழையவும்."
+
+#: includes/class-panel-link.php:92
+msgid "This account is not linked to a hosting service yet."
+msgstr "இந்தக் கணக்கு இன்னும் ஹோஸ்டிங் சேவையுடன் இணைக்கப்படவில்லை."
+
+#: includes/class-panel-link.php:102
+msgid "The hosting platform did not return a sign-in link."
+msgstr "ஹோஸ்டிங் தளம் உள்நுழைவு இணைப்பை வழங்கவில்லை."
+
+#: includes/class-settings.php:95
+msgid "Zinn® Reseller"
+msgstr "Zinn® ரீசெல்லர்"
+
+#: includes/class-settings.php:129
+msgid "Settings"
+msgstr "அமைப்புகள்"
+
+#: includes/class-settings.php:173
+msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
+msgstr "இந்தத் தளத்தை உங்கள் Zinn® மறுவிற்பனையாளர் கணக்குடன் இணைக்கவும், பின்னர் உங்களுக்குத் தேவையான பகுதிகளை மட்டும் இயக்கவும்."
+
+#: includes/class-settings.php:184
+msgid "API key"
+msgstr "API விசை"
+
+#: includes/class-settings.php:197
+msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
+msgstr "Zinn® டாஷ்போர்டில் API விசைகளின் கீழ் ஒன்றை உருவாக்கவும். கீழே உள்ள தொகுதிகளுக்குத் தேவையான அனுமதிகளை மட்டுமே அதற்கு வழங்கவும்."
+
+#: includes/class-settings.php:207
+msgid "API address"
+msgstr "API முகவரி"
+
+#: includes/class-settings.php:221
+msgid "Panel address"
+msgstr "பேனல் முகவரி"
+
+#: includes/class-settings.php:233
+msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
+msgstr "உங்கள் வாடிக்கையாளர்கள் தங்கள் ஹோஸ்டிங்கை நிர்வகிக்க அனுப்பப்படும் இடம். மறுவிற்பனை (Reselling) → உங்கள் பிராண்டின் கீழ் ஒரு பேனல் ஹோஸ்ட்பெயரை நீங்கள் அமைத்திருந்தால், அதை இங்கே வைக்கவும் - இதனால் உங்கள் வாடிக்கையாளர்கள் எங்கள் முகவரியை எப்போதுமே பார்க்க மாட்டார்கள்."
+
+#: includes/class-settings.php:242
+msgid "Modules"
+msgstr "கூறுகள்"
+
+#: includes/class-settings.php:253
+msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
+msgstr "டொமைன் தேடல் — [zinn_domain_search] ஷார்ட்கோட், உங்கள் சொந்த டொமைன் கணக்கிலிருந்து விலை நிர்ணயிக்கப்பட்டது."
+
+#: includes/class-settings.php:267
+msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
+msgstr "பேனல் இணைப்பு — [zinn_panel_link] ஷார்ட்கோட் உள்நுழைந்த வாடிக்கையாளரை அவர்களின் ஹோஸ்டிங்கில் உள்நுழைவு செய்கிறது."
+
+#: includes/class-settings.php:281
+msgid "WooCommerce — provision hosting automatically when an order is paid."
+msgstr "WooCommerce — ஒரு ஆர்டருக்கான கட்டணம் செலுத்தப்பட்டவுடன் ஹோஸ்டிங்கைத் தானாகவே வழங்கிடவும்."
+
+#: includes/class-settings.php:290
+msgid "WooCommerce is not active on this site, so this module is doing nothing."
+msgstr "இந்த தளத்தில் WooCommerce இயக்கத்தில் இல்லை, எனவே இந்த தொகுதி எதுவும் செய்யவில்லை."
+
+#: includes/class-settings.php:302
+msgid "Default plan code"
+msgstr "இயல்புநிலை திட்டக் குறியீடு"
+
+#: includes/class-settings.php:314
+msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
+msgstr "WooCommerce தயாரிப்புக்காகப் பயன்படுத்தப்படுகிறது, அது அதன் சொந்தத் திட்டத்தின் பெயரைக் குறிப்பிடவில்லை. தயாரிப்புக்குரிய திட்டத்தை சரக்கு (Inventory) பிரிவின் கீழ் தயாரிப்பிலேயே அமைக்கவும்."
+
+#: includes/class-settings.php:325
+msgid "Connection"
+msgstr "இணைப்பு"
+
+#: includes/class-settings.php:350
+msgid "No API key yet, so nothing is connected."
+msgstr "இன்னும் API விசை எதுவும் இல்லை, எனவே எதுவும் இணைக்கப்படவில்லை."
+
+#. translators: %s: error message returned by the hosting API.
+#: includes/class-settings.php:358
+#, php-format
+msgid "Not connected: %s"
+msgstr "இணைக்கப்படவில்லை: %s"
+
+#. translators: %s: the reseller programme status, e.g. "active".
+#: includes/class-settings.php:368
+#, php-format
+msgid "Connected. Your reseller programme is %s."
+msgstr "இணைக்கப்பட்டுள்ளது. உங்கள் மறுவிற்பனையாளர் திட்டம் %s ஆகும்."
+
+#: includes/class-woocommerce-provisioning.php:90
+msgid "No Zinn® API key is configured, so nothing was provisioned."
+msgstr "எந்த Zinn® API விசையும் கட்டமைக்கப்படவில்லை, எனவே எதுவும் ஒதுக்கப்படவில்லை."
+
+#: includes/class-woocommerce-provisioning.php:108
+msgid "This order did not include a domain name, so there was nothing to provision."
+msgstr "இந்த ஆர்டரில் டொமைன் பெயர் எதுவும் சேர்க்கப்படவில்லை, எனவே வழங்குவதற்கு எதுவும் இல்லை."
+
+#: includes/class-woocommerce-provisioning.php:128
+msgid "The hosting platform did not return a site."
+msgstr "ஹோஸ்டிங் தளம் எந்தத் தளத்தையும் வழங்கவில்லை."
+
+#. translators: 1: domain name, 2: hosting service id.
+#: includes/class-woocommerce-provisioning.php:139
+#, php-format
+msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
+msgstr "%1$s (சேவை %2$s) க்காக Zinn® ஹோஸ்டிங் வழங்கப்பட்டுள்ளது."
+
+#: includes/class-woocommerce-provisioning.php:203
+msgid "The hosting platform did not return a client account."
+msgstr "ஹோஸ்டிங் தளம் கிளையண்ட் கணக்கைத் தரவில்லை."
+
+#. translators: %s: the reason provisioning failed.
+#: includes/class-woocommerce-provisioning.php:308
+#, php-format
+msgid "Zinn® hosting was NOT provisioned: %s"
+msgstr "Zinn® ஹோஸ்டிங் வழங்கப்படவில்லை: %s"
+
+#: includes/class-woocommerce-provisioning.php:324
+msgid "Zinn® product line"
+msgstr "Zinn® தயாரிப்பு வரிசை"
+
+#: includes/class-woocommerce-provisioning.php:325
+msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
+msgstr "இந்த தயாரிப்பு வாங்கப்படும் போது வழங்கப்பட வேண்டிய Zinn® தயாரிப்பு வரிசை. செருகுநிரல் அமைப்புகளில் இருந்து இயல்நிலையைப் பயன்படுத்த காலியாக விடவும்."
+
+#: includes/class-woocommerce-provisioning.php:362
+msgid "Zinn® hosting"
+msgstr "Zinn® ஹோஸ்டிங்"
+
+#: includes/class-woocommerce-provisioning.php:386
+msgid "Service id"
+msgstr "சேவை ஐடி"
+
+#: includes/class-woocommerce-provisioning.php:393
+msgid "Nothing provisioned for this order."
+msgstr "இந்த ஆர்டருக்கு எதுவும் ஒதுக்கப்படவில்லை."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-reseller-promo.php:241
+#: includes/class-zinn-reseller-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — வழிகாட்டிகளும் சேவைகளும்"
+
+#: includes/class-zinn-reseller-promo.php:256
+msgid "User guides"
+msgstr "பயனர் வழிகாட்டிகள்"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-reseller-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s பயனர் வழிகாட்டியைப் படிக்கவும்"
+
+#: includes/class-zinn-reseller-promo.php:314
+msgid "Hide this"
+msgstr "மறை"
+
+#: includes/class-zinn-reseller-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "வேர்ட்பிரஸ் (WordPress)-க்கான Zinn® ஹோஸ்டிங்"
+
+#: includes/class-zinn-reseller-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, தினசரி காப்புப்பிரதிகள், இலவச இடம்பெயர்வு மற்றும் ஒன்றுக்கும் மேற்பட்ட தளங்களை இயக்குபவர்களுக்காக உருவாக்கப்பட்ட கட்டுப்பாட்டுப் பலகம்."
+
+#: includes/class-zinn-reseller-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® அங்காடி"
+
+#: includes/class-zinn-reseller-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "நிறுவப்பட்ட தளங்கள், டொமைன்கள் மற்றும் இணைப்பு இடங்களை வாங்கலாம் மற்றும் விற்கலாம். இரு தரப்பினரும் திருப்தி அடையும் வரை பணம் பாதுகாப்பாக வைத்திருக்கப்படும்."
+
+#: includes/class-zinn-reseller-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — இதைத் தொழிலாகச் செய்பவர்களை அமர்த்துங்கள்"
+
+#: includes/class-zinn-reseller-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "எங்கள் உலகளாவிய ஃப்ரீலான்ஸ் சந்தை: எழுத்தாளர்கள், வடிவமைப்பாளர்கள், டெவலப்பர்கள் மற்றும் SEO நிபுணர்களிடமிருந்து 10,000-க்கும் மேற்பட்ட ரெடிமேட் சேவைகளை உலவுங்கள் அல்லது ஒரு திட்டத்தைப் பதிவிட்டு அவர்களை ஏலம் எடுக்க அனுமதிக்கவும்."

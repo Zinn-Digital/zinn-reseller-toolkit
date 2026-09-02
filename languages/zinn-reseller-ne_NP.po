@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-reseller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ne_NP\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-reseller.php
+#: includes/class-settings.php:94
+#: includes/class-settings.php:170
+msgid "Zinn® Reseller Toolkit"
+msgstr "Zinn® Reseller Toolkit"
+
+#. Plugin URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+
+#. Description of the plugin
+#: zinn-reseller.php
+msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "तपाईंको आफ्नै वर्डप्रेस (WordPress) साइटबाट जिन डिजिटल (Zinn Digital®) होस्टिङ बेच्नुहोस् — फुटप्रिन्ट-रहित पीबीएन (PBN), वर्डप्रेस (WordPress), वुकमर्स (WooCommerce), एजेन्सी, पुनविक्रेता (reseller), क्लाउड र भीपीएस (VPS) होस्टिङ। आफ्नो पुनविक्रेता खाताबाट डोमेनहरू खोज्नुहोस् र प्रस्ताव गर्नुहोस्, आफ्ना क्लाइन्टहरूलाई सिधै उनीहरूको होस्टिङ प्यानलमा साइन इन गराउनुहोस्, र वुकमर्स (WooCommerce) अर्डरको भुक्तानी हुँदा होस्टिङ स्वचालित रूपमा उपलब्ध गराउनुहोस्।"
+
+#. Author of the plugin
+#: zinn-reseller.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#. translators: %d: HTTP status code returned by the hosting API.
+#: includes/class-client.php:161
+#, php-format
+msgid "The hosting platform answered with status %d."
+msgstr "होस्टिंग प्लेटफर्मले %d स्थिति कोड साथ जवाफ दियो।"
+
+#: includes/class-domain-search.php:73
+msgid "Find your domain name"
+msgstr "तपाईंको डोमेन नाम फेला पार्नुहोस्"
+
+#: includes/class-domain-search.php:74
+msgid "Search"
+msgstr "खोज्नुहोस्"
+
+#: includes/class-domain-search.php:165
+msgid "No extensions were checked for that name."
+msgstr "त्यो नामको लागि कुनै पनि एक्सटेन्सनहरू जाँच गरिएन।"
+
+#: includes/class-domain-search.php:204
+msgid "Domain search is unavailable on this site at the moment."
+msgstr "यो साइटमा डोमेन खोजी हाल उपलब्ध छैन।"
+
+#: includes/class-domain-search.php:205
+msgid "We could not reach the domain registry just now. Please try again in a moment."
+msgstr "हामीले अहिले डोमेन रेजिस्ट्रीमा सम्पर्क गर्न सकेनौं। कृपया केही समय पछि फेरि प्रयास गर्नुहोस्।"
+
+#: includes/class-domain-search.php:215
+msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
+msgstr "API कुञ्जी छुटेको छ वा अब मान्य छैन। यसलाई Settings → Zinn® Reseller अन्तर्गत जाँच गर्नुहोस्।"
+
+#: includes/class-domain-search.php:217
+msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
+msgstr "यो API कुञ्जीसँग sites.view अनुमति छैन, जुन डोमेन खोजीका लागि आवश्यक हुन्छ। यसलाई आफ्नो पुनर्विक्रेता प्यानलमा रहेको कुञ्जीमा थप्नुहोस्, वा सार्वजनिक खोजीमा फर्कन यहाँ कुञ्जी खाली गर्नुहोस्।"
+
+#: includes/class-domain-search.php:222
+msgid "Only administrators see this:"
+msgstr "प्रशासकहरूले मात्र यो देख्न सक्छन्:"
+
+#: includes/class-domain-search.php:271
+msgid "We could not check this one — try again"
+msgstr "हामीले यसलाई जाँच गर्न सकेनौं — फेरि प्रयास गर्नुहोस्"
+
+#: includes/class-domain-search.php:275
+msgid "Already registered"
+msgstr "पहिले नै दर्ता भएको छ"
+
+#: includes/class-domain-search.php:313
+msgid "Available — ask us for a price"
+msgstr "उपलब्ध — मूल्यका लागि हामीलाई सोध्नुहोस्"
+
+#. translators: 1: price, 2: ISO currency code.
+#: includes/class-domain-search.php:318
+#, php-format
+msgid "Available — %1$s %2$s for the first year"
+msgstr "पहिलो वर्षको लागि %1$s %2$s उपलब्ध छ"
+
+#: includes/class-domain-search.php:341
+msgid "Register it"
+msgstr "दर्ता गर्नुहोस्"
+
+#: includes/class-panel-link.php:63
+msgid "Manage my hosting"
+msgstr "मेरो होस्टिङ व्यवस्थापन गर्नुहोस्"
+
+#: includes/class-panel-link.php:85
+msgid "Please sign in first."
+msgstr "कृपया पहिले साइन इन गर्नुहोस्।"
+
+#: includes/class-panel-link.php:92
+msgid "This account is not linked to a hosting service yet."
+msgstr "यो खाता अझै पनि होस्टिङ सेवामा लिङ्क गरिएको छैन।"
+
+#: includes/class-panel-link.php:102
+msgid "The hosting platform did not return a sign-in link."
+msgstr "हस्टिङ प्लेटफर्मले साइन-इन लिङ्क फर्काएन।"
+
+#: includes/class-settings.php:95
+msgid "Zinn® Reseller"
+msgstr "Zinn® रिसेलर"
+
+#: includes/class-settings.php:129
+msgid "Settings"
+msgstr "सेटिङहरू"
+
+#: includes/class-settings.php:173
+msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
+msgstr "यो साइटलाई आफ्नो Zinn® पुनर्विक्रेता खातामा जडान गर्नुहोस्, त्यसपछि आफूलाई आवश्यक पर्ने भागहरू मात्र अन गर्नुहोस्।"
+
+#: includes/class-settings.php:184
+msgid "API key"
+msgstr "API कुञ्जी"
+
+#: includes/class-settings.php:197
+msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
+msgstr "API कुञ्जीहरू अन्तर्गत आफ्नो Zinn® ड्यासबोर्डमा एउटा सिर्जना गर्नुहोस्। तलका मोड्युलहरूलाई आवश्यक पर्ने अनुमतिहरू मात्र यसलाई दिनुहोस्।"
+
+#: includes/class-settings.php:207
+msgid "API address"
+msgstr "API ठेगाना"
+
+#: includes/class-settings.php:221
+msgid "Panel address"
+msgstr "च्यानल ठेगाना"
+
+#: includes/class-settings.php:233
+msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
+msgstr "तapका क्लाइन्टहरूले आफ्नो होस्टिङ व्यवस्थापन गर्न जाने ठाउँ। यदि तपाईंले पुनर्विक्रय (Reselling) → तपाईंको ब्रान्ड अन्तर्गत प्यानल होस्टनाम सेट गर्नुभएको छ भने, यसलाई यहाँ राख्नुहोस्—त्यसपछि तपाईंको क्लाइन्टहरूले हाम्रो ठेगाना कहिल्यै देख्दैनन्।"
+
+#: includes/class-settings.php:242
+msgid "Modules"
+msgstr "मोड्युलहरू"
+
+#: includes/class-settings.php:253
+msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
+msgstr "डोमेन खोज — [zinn_domain_search] सर्टकोड, तपाईंको आफ्नै डोमेन खाताबाट मूल्य निर्धारण गरिएको।"
+
+#: includes/class-settings.php:267
+msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
+msgstr "प्यानल लिङ्क — [zinn_panel_link] सर्टकटले लगइन गरिसकेका क्लाइन्टलाई उनीहरूको होस्टिङमा लगइन गराउँछ।"
+
+#: includes/class-settings.php:281
+msgid "WooCommerce — provision hosting automatically when an order is paid."
+msgstr "WooCommerce — अर्डर भुक्तानी भएपछि स्वचालित रूपमा होस्टिङ उपलब्ध गराउनुहोस्।"
+
+#: includes/class-settings.php:290
+msgid "WooCommerce is not active on this site, so this module is doing nothing."
+msgstr "यो साइटमा WooCommerce सक्रिय छैन, त्यसैले यो module ले केही गरिरहेको छैन।"
+
+#: includes/class-settings.php:302
+msgid "Default plan code"
+msgstr "पूर्वनिर्धारित योजना कोड"
+
+#: includes/class-settings.php:314
+msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
+msgstr "WooCommerce उत्पादनको लागि प्रयोग गरिन्छ जसले आफ्नै योजनाको नाम दिँदैन। इन्भेन्टरी अन्तर्गत उत्पादनमा नै प्रति-उत्पादन योजना सेट गर्नुहोस्।"
+
+#: includes/class-settings.php:325
+msgid "Connection"
+msgstr "कनेक्सन"
+
+#: includes/class-settings.php:350
+msgid "No API key yet, so nothing is connected."
+msgstr "अझै पनि API कुञ्जी छैन, त्यसैले केही पनि जडान गरिएको छैन।"
+
+#. translators: %s: error message returned by the hosting API.
+#: includes/class-settings.php:358
+#, php-format
+msgid "Not connected: %s"
+msgstr "जडान भएको छैन: %s"
+
+#. translators: %s: the reseller programme status, e.g. "active".
+#: includes/class-settings.php:368
+#, php-format
+msgid "Connected. Your reseller programme is %s."
+msgstr "जडान भयो। तपाईंको पुनर्विक्रेता कार्यक्रम %s हो।"
+
+#: includes/class-woocommerce-provisioning.php:90
+msgid "No Zinn® API key is configured, so nothing was provisioned."
+msgstr "कुनै पनि Zinn® API कुञ्जी कन्फिगर गरिएको छैन, त्यसैले केही पनि प्रावधान गरिएको छैन।"
+
+#: includes/class-woocommerce-provisioning.php:108
+msgid "This order did not include a domain name, so there was nothing to provision."
+msgstr "यो अर्डरमा डोमेन नाम समावेश थिएन, त्यसैले सेटअप गर्नका लागि केही पनि थिएन।"
+
+#: includes/class-woocommerce-provisioning.php:128
+msgid "The hosting platform did not return a site."
+msgstr "hosting प्लेटफर्मले साइट फर्काएन।"
+
+#. translators: 1: domain name, 2: hosting service id.
+#: includes/class-woocommerce-provisioning.php:139
+#, php-format
+msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
+msgstr "%1$s का लागि उपलब्ध गराइएको Zinn® होस्टिङ (सेवा %2$s)।"
+
+#: includes/class-woocommerce-provisioning.php:203
+msgid "The hosting platform did not return a client account."
+msgstr "hosting प्लेटफर्मले क्लाइन्ट खाता फर्काएन।"
+
+#. translators: %s: the reason provisioning failed.
+#: includes/class-woocommerce-provisioning.php:308
+#, php-format
+msgid "Zinn® hosting was NOT provisioned: %s"
+msgstr "Zinn® होस्टिङ प्रोभिजन गरिएको थिएन: %s"
+
+#: includes/class-woocommerce-provisioning.php:324
+msgid "Zinn® product line"
+msgstr "Zinn® उत्पादन लाइन"
+
+#: includes/class-woocommerce-provisioning.php:325
+msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
+msgstr "यो उत्पादन खरिद गर्दा प्रावधान गर्नको लागि Zinn® उत्पादन लाइन। प्लगइन सेटिङहरूबाट पूर्वनिर्धारित प्रयोग गर्न खाली छोड्नुहोस्।"
+
+#: includes/class-woocommerce-provisioning.php:362
+msgid "Zinn® hosting"
+msgstr "Zinn® होस्टिङ"
+
+#: includes/class-woocommerce-provisioning.php:386
+msgid "Service id"
+msgstr "सेवा आईडी"
+
+#: includes/class-woocommerce-provisioning.php:393
+msgid "Nothing provisioned for this order."
+msgstr "यस अर्डरका लागि केही पनि उपलब्ध गराइएको छैन।"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-reseller-promo.php:241
+#: includes/class-zinn-reseller-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — गाइडहरू र सेवाहरू"
+
+#: includes/class-zinn-reseller-promo.php:256
+msgid "User guides"
+msgstr "प्रयोगकर्ता गाइडहरू"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-reseller-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s प्रयोगकर्ता गाइड पढ्नुहोस्"
+
+#: includes/class-zinn-reseller-promo.php:314
+msgid "Hide this"
+msgstr "यो लुकाउनुहोस्"
+
+#: includes/class-zinn-reseller-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress को लागि Zinn® होस्टिङ"
+
+#: includes/class-zinn-reseller-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, दैनिक ब्याकअपहरू, नि:शुल्क बसाइँसराइ र एकभन्दा बढी साइटहरू सञ्चालन गर्ने व्यक्तिहरूका लागि तयार गरिएको नियन्त्रण प्यानल।"
+
+#: includes/class-zinn-reseller-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® बजार"
+
+#: includes/class-zinn-reseller-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "स्थापित साइटहरू, डोमेनहरू र लिङ्क प्लेसमेन्टहरू खरिद र बिक्री गर्नुहोस्, दुवै पक्ष सन्तुष्ट नभएसम्म पैसा सुरक्षित रूपमा राखिन्छ।"
+
+#: includes/class-zinn-reseller-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — यसैलाई आफ्नो पेसा बनाएका मानिसहरूलाई काममा लगाउनुहोस्"
+
+#: includes/class-zinn-reseller-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "हाम्रो विश्वव्यापी फ्रिलान्स बजार: लेखकहरू, डिजाइनरहरू, विकासकर्ताहरू र SEO विशेषज्ञहरूबाट १०,००० भन्दा बढी तयार सेवाहरू ब्राउज गर्नुहोस्, वा परियोजना पोस्ट गर्नुहोस् र उनीहरूलाई बोली लगाउन दिनुहोस्।"

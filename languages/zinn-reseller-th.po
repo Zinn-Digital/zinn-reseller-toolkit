@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-reseller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-reseller.php
+#: includes/class-settings.php:94
+#: includes/class-settings.php:170
+msgid "Zinn® Reseller Toolkit"
+msgstr "Zinn® Reseller Toolkit"
+
+#. Plugin URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+
+#. Description of the plugin
+#: zinn-reseller.php
+msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "ขายโฮสติ้งจาก Zinn Digital® บนเว็บไซต์ WordPress ของคุณเอง — โฮสติ้ง PBN, WordPress, WooCommerce, เอเจนซี่, รีเซลเลอร์, คลาวด์ และ VPS ปราศจากฟุตพรินต์ ค้นหาและเสนอโดเมนจากบัญชีรีเซลเลอร์ของคุณ ลงชื่อเข้าใช้ให้ลูกค้าของคุณตรงไปยังแผงควบคุมโฮสติ้ง และจัดสรรโฮสติ้งโดยอัตโนมัติเมื่อมีการชำระเงินคำสั่งซื้อ WooCommerce แล้ว"
+
+#. Author of the plugin
+#: zinn-reseller.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#. translators: %d: HTTP status code returned by the hosting API.
+#: includes/class-client.php:161
+#, php-format
+msgid "The hosting platform answered with status %d."
+msgstr "แพลตฟอร์มโฮสติ้งตอบกลับด้วยสถานะ %d"
+
+#: includes/class-domain-search.php:73
+msgid "Find your domain name"
+msgstr "ค้นหาชื่อโดเมนของคุณ"
+
+#: includes/class-domain-search.php:74
+msgid "Search"
+msgstr "ค้นหา"
+
+#: includes/class-domain-search.php:165
+msgid "No extensions were checked for that name."
+msgstr "ไม่ได้ตรวจสอบนามสกุลใดสำหรับชื่อนั้น"
+
+#: includes/class-domain-search.php:204
+msgid "Domain search is unavailable on this site at the moment."
+msgstr "การค้นหาโดเมนไม่สามารถใช้งานได้บนเว็บไซต์นี้ในขณะนี้"
+
+#: includes/class-domain-search.php:205
+msgid "We could not reach the domain registry just now. Please try again in a moment."
+msgstr "ขณะนี้เราไม่สามารถติดต่อหน่วยงานจดทะเบียนโดเมนได้ โปรดลองอีกครั้งในภายหลัง"
+
+#: includes/class-domain-search.php:215
+msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
+msgstr "คีย์ API หายไปหรือไม่ถูกต้องอีกต่อไป โปรดตรวจสอบภายใต้ การตั้งค่า → Zinn® Reseller"
+
+#: includes/class-domain-search.php:217
+msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
+msgstr "คีย์ API นี้ไม่มีสิทธิ์ sites.view ซึ่งการค้นหาโดเมนต้องใช้ โปรดเพิ่มสิทธิ์ดังกล่าวให้กับคีย์ในแผงตัวแทนจำหน่ายของคุณ หรือล้างคีย์ที่นี่เพื่อกลับไปใช้การค้นหาแบบสาธารณะ"
+
+#: includes/class-domain-search.php:222
+msgid "Only administrators see this:"
+msgstr "เฉพาะผู้ดูแลระบบเท่านั้นที่เห็นสิ่งนี้:"
+
+#: includes/class-domain-search.php:271
+msgid "We could not check this one — try again"
+msgstr "เราไม่สามารถตรวจสอบรายการนี้ได้ในขณะนี้ โปรดลองอีกครั้ง"
+
+#: includes/class-domain-search.php:275
+msgid "Already registered"
+msgstr "ลงทะเบียนแล้ว"
+
+#: includes/class-domain-search.php:313
+msgid "Available — ask us for a price"
+msgstr "มีสินค้า — สอบถามราคาได้ค่ะ"
+
+#. translators: 1: price, 2: ISO currency code.
+#: includes/class-domain-search.php:318
+#, php-format
+msgid "Available — %1$s %2$s for the first year"
+msgstr "ว่างจำหน่าย — %1$s %2$s สำหรับปีแรก"
+
+#: includes/class-domain-search.php:341
+msgid "Register it"
+msgstr "จดทะเบียนชื่อนี้"
+
+#: includes/class-panel-link.php:63
+msgid "Manage my hosting"
+msgstr "จัดการโฮสติ้งของฉัน"
+
+#: includes/class-panel-link.php:85
+msgid "Please sign in first."
+msgstr "โปรดเข้าสู่ระบบก่อน"
+
+#: includes/class-panel-link.php:92
+msgid "This account is not linked to a hosting service yet."
+msgstr "บัญชีนี้ยังไม่ได้เชื่อมโยงกับบริการโฮสติ้ง"
+
+#: includes/class-panel-link.php:102
+msgid "The hosting platform did not return a sign-in link."
+msgstr "แพลตฟอร์มโฮสติ้งไม่ได้ส่งลิงก์สำหรับเข้าสู่ระบบกลับมา"
+
+#: includes/class-settings.php:95
+msgid "Zinn® Reseller"
+msgstr "Zinn® รีเซลเลอร์"
+
+#: includes/class-settings.php:129
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+#: includes/class-settings.php:173
+msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
+msgstr "เชื่อมต่อเว็บไซต์นี้เข้ากับบัญชีผู้แทนจำหน่าย Zinn® ของคุณ จากนั้นเปิดใช้งานเฉพาะส่วนที่คุณต้องการเท่านั้น"
+
+#: includes/class-settings.php:184
+msgid "API key"
+msgstr "คีย์ API"
+
+#: includes/class-settings.php:197
+msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
+msgstr "สร้างขึ้นในแดชบอร์ด Zinn® ของคุณภายใต้คีย์ API ให้สิทธิ์เฉพาะสิทธิ์ที่โมดูลด้านล่างต้องการ"
+
+#: includes/class-settings.php:207
+msgid "API address"
+msgstr "ที่อยู่ API"
+
+#: includes/class-settings.php:221
+msgid "Panel address"
+msgstr "ที่อยู่ของแผงควบคุม"
+
+#: includes/class-settings.php:233
+msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
+msgstr "ตำแหน่งที่ลูกค้าของคุณจะถูกนำไปเพื่อจัดการโฮสติ้งของพวกเขา หากคุณได้ตั้งค่าชื่อโฮสต์ของแผงควบคุมไว้ที่ การขายต่อ → แบรนด์ของคุณ ให้ใส่ที่นี่ — ลูกค้าของคุณจะไม่เห็นที่อยู่ของเราเลย"
+
+#: includes/class-settings.php:242
+msgid "Modules"
+msgstr "มอดูล"
+
+#: includes/class-settings.php:253
+msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
+msgstr "การค้นหาโดเมน — ชอร์ตโค้ด [zinn_domain_search] เริ่มต้นในราคาจากบัญชีโดเมนของคุณ"
+
+#: includes/class-settings.php:267
+msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
+msgstr "ลิงก์แผงควบคุม — ช็อตโค้ด [zinn_panel_link] จะลงชื่อเข้าใช้ระบบโฮสติ้งให้กับลูกค้าที่เข้าสู่ระบบแล้ว"
+
+#: includes/class-settings.php:281
+msgid "WooCommerce — provision hosting automatically when an order is paid."
+msgstr "WooCommerce — จัดเตรียมโฮสติ้งโดยอัตโนมัติเมื่อชำระเงินคำสั่งซื้อแล้ว"
+
+#: includes/class-settings.php:290
+msgid "WooCommerce is not active on this site, so this module is doing nothing."
+msgstr "WooCommerce ไม่ได้ใช้งานอยู่บนเว็บไซต์นี้ โมดูลนี้จึงไม่มีการทำงานใดๆ"
+
+#: includes/class-settings.php:302
+msgid "Default plan code"
+msgstr "รหัสแพ็กเกจเริ่มต้น"
+
+#: includes/class-settings.php:314
+msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
+msgstr "ใช้สำหรับสินค้า WooCommerce ที่ไม่ได้ระบุแผนของตัวเอง กำหนดแผนรายสินค้าได้ที่ตัวสินค้าเองภายใต้หัวข้อสินค้าคงคลัง"
+
+#: includes/class-settings.php:325
+msgid "Connection"
+msgstr "การเชื่อมต่อ"
+
+#: includes/class-settings.php:350
+msgid "No API key yet, so nothing is connected."
+msgstr "ยังไม่มีคีย์ API จึงยังไม่ได้เชื่อมต่ออะไร"
+
+#. translators: %s: error message returned by the hosting API.
+#: includes/class-settings.php:358
+#, php-format
+msgid "Not connected: %s"
+msgstr "ไม่ได้เชื่อมต่อ: %s"
+
+#. translators: %s: the reseller programme status, e.g. "active".
+#: includes/class-settings.php:368
+#, php-format
+msgid "Connected. Your reseller programme is %s."
+msgstr "เชื่อมต่อแล้ว โปรแกรมตัวแทนจำหน่ายของคุณคือ %s"
+
+#: includes/class-woocommerce-provisioning.php:90
+msgid "No Zinn® API key is configured, so nothing was provisioned."
+msgstr "ไม่มีการกำหนดค่าคีย์ API ของ Zinn® จึงไม่มีการจัดเตรียมทรัพยากรใด ๆ"
+
+#: includes/class-woocommerce-provisioning.php:108
+msgid "This order did not include a domain name, so there was nothing to provision."
+msgstr "คำสั่งซื้อนี้ไม่ได้รวมชื่อโดเมน ดังนั้นจึงไม่มีสิ่งใดต้องจัดเตรียมบริการ"
+
+#: includes/class-woocommerce-provisioning.php:128
+msgid "The hosting platform did not return a site."
+msgstr "แพลตฟอร์มโฮสติ้งไม่ได้ส่งคืนเว็บไซต์ใด ๆ"
+
+#. translators: 1: domain name, 2: hosting service id.
+#: includes/class-woocommerce-provisioning.php:139
+#, php-format
+msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
+msgstr "เตรียมโฮสติ้ง Zinn® สำหรับ %1$s (บริการ %2$s)"
+
+#: includes/class-woocommerce-provisioning.php:203
+msgid "The hosting platform did not return a client account."
+msgstr "แพลตฟอร์มโฮสติ้งไม่ส่งคืนบัญชีลูกค้า"
+
+#. translators: %s: the reason provisioning failed.
+#: includes/class-woocommerce-provisioning.php:308
+#, php-format
+msgid "Zinn® hosting was NOT provisioned: %s"
+msgstr "การโฮสต์ Zinn® ไม่ได้ถูกเตรียมใช้งาน: %s"
+
+#: includes/class-woocommerce-provisioning.php:324
+msgid "Zinn® product line"
+msgstr "กลุ่มผลิตภัณฑ์ Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:325
+msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
+msgstr "กลุ่มผลิตภัณฑ์ Zinn® ที่จะจัดสรรเมื่อซื้อผลิตภัณฑ์นี้ เว้นว่างไว้เพื่อใช้ค่าเริ่มต้นจากการตั้งค่าปลั๊กอิน"
+
+#: includes/class-woocommerce-provisioning.php:362
+msgid "Zinn® hosting"
+msgstr "โฮสติ้ง Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:386
+msgid "Service id"
+msgstr "รหัสบริการ"
+
+#: includes/class-woocommerce-provisioning.php:393
+msgid "Nothing provisioned for this order."
+msgstr "ยังไม่มีการจัดสรรทรัพยากรสำหรับคำสั่งซื้อนี้"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-reseller-promo.php:241
+#: includes/class-zinn-reseller-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — คู่มือและบริการ"
+
+#: includes/class-zinn-reseller-promo.php:256
+msgid "User guides"
+msgstr "คู่มือผู้ใช้"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-reseller-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "อ่านคู่มือผู้ใช้ %s"
+
+#: includes/class-zinn-reseller-promo.php:314
+msgid "Hide this"
+msgstr "ซ่อนสิ่งนี้"
+
+#: includes/class-zinn-reseller-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "โฮสติ้ง Zinn® สำหรับ WordPress"
+
+#: includes/class-zinn-reseller-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, การสำรองข้อมูลรายวัน, ย้ายข้อมูลฟรี และแผงควบคุมที่ออกแบบมาสำหรับผู้ที่ดูแลเว็บไซต์มากกว่าหนึ่งเว็บไซต์"
+
+#: includes/class-zinn-reseller-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "ตลาด Zinn®"
+
+#: includes/class-zinn-reseller-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "ซื้อและขายเว็บไซต์ โดเมน และพื้นที่วางลิงก์ที่มีอยู่แล้ว โดยเงินจะถูกเก็บไว้อย่างปลอดภัยจนกว่าทั้งสองฝ่ายจะพอใจ"
+
+#: includes/class-zinn-reseller-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — จ้างมืออาชีพผู้เชี่ยวชาญด้านนี้โดยเฉพาะ"
+
+#: includes/class-zinn-reseller-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ตลาดฟรีแลนซ์ระดับโลกของเรา: เรียกดูบริการสำเร็จรูปกว่า 10,000 รายการจากนักเขียน ดีไซน์เนอร์ นักพัฒนา และผู้เชี่ยวชาญ SEO หรือโพสต์โปรเจกต์ของคุณแล้วปล่อยให้พวกเขาเสนอราคา"

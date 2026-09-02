@@ -324,6 +324,13 @@ class Settings {
 			</form>
 			<h2><?php echo esc_html__( 'Connection', 'zinn-reseller' ); ?></h2>
 			<?php self::render_status(); ?>
+			<?php
+			// ⛔⛔ AT THE BOTTOM OF THE SCREEN, INSIDE `.wrap`, BELOW THE CONTROLS — NEVER ABOVE
+			// THEM. Somebody who opened a settings screen came to change a setting. A promotion
+			// that pushes the thing they came for below the fold is the "disruptive upselling"
+			// a WordPress.org reviewer rejects, and it would deserve it.
+			\Zinn_Reseller_Promo::render_panel();
+			?>
 		</div>
 		<?php
 	}

@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-reseller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-reseller.php
+#: includes/class-settings.php:94
+#: includes/class-settings.php:170
+msgid "Zinn® Reseller Toolkit"
+msgstr "Zinn® Reseller Toolkit"
+
+#. Plugin URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+
+#. Description of the plugin
+#: zinn-reseller.php
+msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "გaყიdeT Zinn Digital® ჰოსტინგი თქვენივე WordPress საიტიდან — ფუტპრინტისაგან თავისუფალი PBN, WordPress, WooCommerce, სააგენტოს, რესელერის, ქლაუდ და VPS ჰოსტინგი. მოძებნეთ და შესთავაზეთ დომენები თქვენი რესელერის ანგარიშიდან, შედით კლიენტები პირდაპირ მათ ჰოსტინგის პანელში და ავტომატურად უზრუნველყეთ ჰოსტინგი WooCommerce-ის შეკვეთის გადახდისას."
+
+#. Author of the plugin
+#: zinn-reseller.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#. translators: %d: HTTP status code returned by the hosting API.
+#: includes/class-client.php:161
+#, php-format
+msgid "The hosting platform answered with status %d."
+msgstr "ჰოსტინგის პლატფორმამ უპასუხა სტატუსით %d."
+
+#: includes/class-domain-search.php:73
+msgid "Find your domain name"
+msgstr "იპოვეთ თქვენი დომენის სახელი"
+
+#: includes/class-domain-search.php:74
+msgid "Search"
+msgstr "ძებნა"
+
+#: includes/class-domain-search.php:165
+msgid "No extensions were checked for that name."
+msgstr "ამ სახელისთვის გაფართოებები არ შემოწმებულა."
+
+#: includes/class-domain-search.php:204
+msgid "Domain search is unavailable on this site at the moment."
+msgstr "ამ საიტზე დომენის ძიება ამჟამად მიუწვდომელია."
+
+#: includes/class-domain-search.php:205
+msgid "We could not reach the domain registry just now. Please try again in a moment."
+msgstr "ამ მომენტში დომენის რეესტრი მიუწვდომელია. გთხოვთ, სცადოთ თავიდან რამდენიმე წუთში."
+
+#: includes/class-domain-search.php:215
+msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
+msgstr "API გასაღები აკდია ან აღარ არის ძალაში. შეამოწმეთ იგი პარამეტრებში → Zinn® Reseller."
+
+#: includes/class-domain-search.php:217
+msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
+msgstr "ამ API გასაღებს არ აქვს sites.view უფლება, რომელიც დომენის ძიებას ესაჭიროება. დაამატეთ ის გასაღებს თქვენს გადამყიდველის პანელში, ან წაშალეთ გასაღები აქ, რომ საჯარო ძიებას დაუბრუნდეთ."
+
+#: includes/class-domain-search.php:222
+msgid "Only administrators see this:"
+msgstr "მხოლოდ ადმინისტრატორები ხედავენ ამას:"
+
+#: includes/class-domain-search.php:271
+msgid "We could not check this one — try again"
+msgstr "ამ ერთის შემოწმება ვერ მოხერხდა — სცადეთ თავიდან"
+
+#: includes/class-domain-search.php:275
+msgid "Already registered"
+msgstr "უკვე რეგისტრირებულია"
+
+#: includes/class-domain-search.php:313
+msgid "Available — ask us for a price"
+msgstr "ხელმისაწვდომია — სთხოვეთ ფასი"
+
+#. translators: 1: price, 2: ISO currency code.
+#: includes/class-domain-search.php:318
+#, php-format
+msgid "Available — %1$s %2$s for the first year"
+msgstr "ხელმისაწვდომია — %1$s %2$s პირველი წლის განმავლობაში"
+
+#: includes/class-domain-search.php:341
+msgid "Register it"
+msgstr "დარეგისტრირდით"
+
+#: includes/class-panel-link.php:63
+msgid "Manage my hosting"
+msgstr "ჩემი ჰოსტინგის მართვა"
+
+#: includes/class-panel-link.php:85
+msgid "Please sign in first."
+msgstr "გთხოვთ, ჯერ შეხვიდეთ სისტემაში."
+
+#: includes/class-panel-link.php:92
+msgid "This account is not linked to a hosting service yet."
+msgstr "ეს ანგარიში ჯერ არ არის დაკავშირებული ჰოსტინგის სერვისთან."
+
+#: includes/class-panel-link.php:102
+msgid "The hosting platform did not return a sign-in link."
+msgstr "ჰოსტინგის პლატფორმამ სისტემაში შესვლის ბმული არ დააბრუნა."
+
+#: includes/class-settings.php:95
+msgid "Zinn® Reseller"
+msgstr "Zinn® გადამყიდველი"
+
+#: includes/class-settings.php:129
+msgid "Settings"
+msgstr "პარამეტრები"
+
+#: includes/class-settings.php:173
+msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
+msgstr "დააკავშირეთ ეს საიტი თქვენს Zinn® გადამყიდველის ანგარიშთან და შემდეგ ჩართეთ მხოლოდ ის ნაწილები, რომლებიც გჭირდებათ."
+
+#: includes/class-settings.php:184
+msgid "API key"
+msgstr "API გასაღები"
+
+#: includes/class-settings.php:197
+msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
+msgstr "შექმენით ერთი თქვენს Zinn® სამართავ პანელში, API გასაღებების განყოფილებაში. მიანიჭეთ მას მხოლოდ ის უფლებები, რომლებიც ქვემოთ მოცემულ მოდულებს ესაჭიროებათ."
+
+#: includes/class-settings.php:207
+msgid "API address"
+msgstr "API მისამართი"
+
+#: includes/class-settings.php:221
+msgid "Panel address"
+msgstr "პანელის მისამართი"
+
+#: includes/class-settings.php:233
+msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
+msgstr "სად იგზავნებიან თქვენი კლიენტები თავიანთი ჰოსტინგის სამართავად. თუ პანელის ჰოსტის სახელი დააყენეთ განყოფილებაში „გაყიდვა → თქვენი ბრენდი“, ჩაწერეთ ის აქ — ამ შემთხვევაში თქვენი კლიენტები ჩვენს მისამართს საერთოდ ვერასდროს ნახავენ."
+
+#: includes/class-settings.php:242
+msgid "Modules"
+msgstr "მოდულები"
+
+#: includes/class-settings.php:253
+msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
+msgstr "დომენის ძიება — [zinn_domain_search] მოკლე კოდი, ფასები თქვენივე დომენის ანგარიშიდან."
+
+#: includes/class-settings.php:267
+msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
+msgstr "პანელის ბმული — [zinn_panel_link] შორთქოდი ავტორიზებულ კლიენტს მის ჰოსტინგზე აერთებს."
+
+#: includes/class-settings.php:281
+msgid "WooCommerce — provision hosting automatically when an order is paid."
+msgstr "WooCommerce — ავტომატურად უზრუნველყეთ ჰოსტინგი შეკვეთის გადახდისას."
+
+#: includes/class-settings.php:290
+msgid "WooCommerce is not active on this site, so this module is doing nothing."
+msgstr "WooCommerce არ არის აქტიური ამ საიტზე, ამიტომ ეს მოდული არაფერს აკეთებს."
+
+#: includes/class-settings.php:302
+msgid "Default plan code"
+msgstr "ნაგულისხმევი გეგმის კოდი"
+
+#: includes/class-settings.php:314
+msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
+msgstr "გამოიყენება WooCommerce-ის პროდუქტისთვის, რომელსაც საკუთარი გეგმა არ აქვს. დააყენეთ პროდუქტის ინდივიდუალური გეგმა თავად პროდუქტზე, მარაგების განყოფილებაში."
+
+#: includes/class-settings.php:325
+msgid "Connection"
+msgstr "დაკავშირება"
+
+#: includes/class-settings.php:350
+msgid "No API key yet, so nothing is connected."
+msgstr "API გასაღები ჯერ არ არის, ამიტომ არაფერია დაკავშირებული."
+
+#. translators: %s: error message returned by the hosting API.
+#: includes/class-settings.php:358
+#, php-format
+msgid "Not connected: %s"
+msgstr "არ არის დაკავშირებული: %s"
+
+#. translators: %s: the reseller programme status, e.g. "active".
+#: includes/class-settings.php:368
+#, php-format
+msgid "Connected. Your reseller programme is %s."
+msgstr "დაკავშირებულია. თქვენი გადამყიდველის პროგრამა არის %s."
+
+#: includes/class-woocommerce-provisioning.php:90
+msgid "No Zinn® API key is configured, so nothing was provisioned."
+msgstr "Zinn® API გასაღები არ არის კონფიგურირებული, ამიტომ არაფერი გამომუშავებულა."
+
+#: includes/class-woocommerce-provisioning.php:108
+msgid "This order did not include a domain name, so there was nothing to provision."
+msgstr "ამ შეკვეთაში დომენის სახელი არ შედიოდა, ამიტომ გამოსაყოფი არაფერი იყო."
+
+#: includes/class-woocommerce-provisioning.php:128
+msgid "The hosting platform did not return a site."
+msgstr "ჰოსტინგის პლატფორმამ საიტი არ დააბრუნა."
+
+#. translators: 1: domain name, 2: hosting service id.
+#: includes/class-woocommerce-provisioning.php:139
+#, php-format
+msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
+msgstr "Zinn® ჰოსტინგი მომზადებულია %1$s-ისთვის (სერვისი %2$s)."
+
+#: includes/class-woocommerce-provisioning.php:203
+msgid "The hosting platform did not return a client account."
+msgstr "სასტუმრო პლატფორმას არ დაუბრუნებია კლიენტის ანგარიში."
+
+#. translators: %s: the reason provisioning failed.
+#: includes/class-woocommerce-provisioning.php:308
+#, php-format
+msgid "Zinn® hosting was NOT provisioned: %s"
+msgstr "Zinn® ჰოსტინგი არ იქნა უზრუნველყოფილი: %s"
+
+#: includes/class-woocommerce-provisioning.php:324
+msgid "Zinn® product line"
+msgstr "Zinn® პროდუქტების ხაზი"
+
+#: includes/class-woocommerce-provisioning.php:325
+msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
+msgstr "პროდუქტის შეძენისას გამოსაყოფი Zinn® პროდუქტების ხაზი. დატოვეთ ცარიელი, რომ გამოიყენოთ ნაგულისხმები პარამეტრები დანართიდან."
+
+#: includes/class-woocommerce-provisioning.php:362
+msgid "Zinn® hosting"
+msgstr "Zinn® ჰოსტინგი"
+
+#: includes/class-woocommerce-provisioning.php:386
+msgid "Service id"
+msgstr "სერვისის ID"
+
+#: includes/class-woocommerce-provisioning.php:393
+msgid "Nothing provisioned for this order."
+msgstr "ამ შეკვეთისთვის არაფერია პროვიზიონირებული."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-reseller-promo.php:241
+#: includes/class-zinn-reseller-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — სახელმძღვანელოები და სერვისები"
+
+#: includes/class-zinn-reseller-promo.php:256
+msgid "User guides"
+msgstr "მომხმარებლის სახელმძღვანელოები"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-reseller-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "წაიკითხეთ %s მომხმარებლის სახელმძღვანელო"
+
+#: includes/class-zinn-reseller-promo.php:314
+msgid "Hide this"
+msgstr "დამალვა"
+
+#: includes/class-zinn-reseller-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "Zinn®-ის ჰოსტინგი WordPress-ისთვის"
+
+#: includes/class-zinn-reseller-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, ყოველდღიური სარეზერვო ასლები, უფასო მიგრაცია და მართვის პანელი, რომელიც შექმნილია ერთზე მეტი საიტის მართვისთვის."
+
+#: includes/class-zinn-reseller-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® ბაზარი"
+
+#: includes/class-zinn-reseller-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "შეიძინეთ და გაყიდეთ მზა საიტები, დომენები და ბმულების განთავსება. თანხა უსაფრთხოდ ინახება მანამ, სანამ ორივე მხარე კმაყოფილი არ იქნება."
+
+#: includes/class-zinn-reseller-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — დაიქირავეთ პროფესიონალები"
+
+#: includes/class-zinn-reseller-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ჩვენი გლობალური ფრილანს-მარკეტპლეისი: დაათვალიერეთ 10 000-ზე მეტი მზა სერვისი მწერლების, დიზაინერების, დეველოპერებისა და SEO სპეციალისტებისგან, ან გამოაქვეყნეთ პროექტი და მისცეთ მათ შეთავაზებების გაკეთების საშუალება."

@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-reseller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-reseller.php
+#: includes/class-settings.php:94
+#: includes/class-settings.php:170
+msgid "Zinn® Reseller Toolkit"
+msgstr "Zinn® Reseller Toolkit"
+
+#. Plugin URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
+
+#. Description of the plugin
+#: zinn-reseller.php
+msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "លក់សេវាហូស្ទីន Zinn Digital® ពីគេហទំព័រ WordPress ផ្ទាល់ខ្លួនរបស់អ្នក — PBN, WordPress, WooCommerce, ភ្នាក់ងារ, អ្នកលក់បន្ត, ក្លោដ និងហូស្ទីន VPS ដែលគ្មានដានជើង (footprint-free)។ ស្វែងរក និងផ្តល់ជូនឈ្មោះដែនពីគណនីអ្នកលក់បន្តរបស់អ្នក, នាំអតិថិជនរបស់អ្នកចូលទៅក្នុងផ្ទាំងគ្រប់គ្រងហូស្ទីនរបស់ពួកគេដោយផ្ទាល់, និងបង្កើតហូស្ទីនដោយស្វ័យប្រវត្តិនៅពេលការបញ្ជាទិញ WooCommerce ត្រូវបានទូទាត់ប្រាក់រួច។"
+
+#. Author of the plugin
+#: zinn-reseller.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-reseller.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#. translators: %d: HTTP status code returned by the hosting API.
+#: includes/class-client.php:161
+#, php-format
+msgid "The hosting platform answered with status %d."
+msgstr "វេទិកាបង្ហោះគេហទំព័របានឆ្លើយតបជាមួយនឹងស្ថានភាព %d។"
+
+#: includes/class-domain-search.php:73
+msgid "Find your domain name"
+msgstr "ស្វែងរកឈ្មោះដែនរបស់អ្នក"
+
+#: includes/class-domain-search.php:74
+msgid "Search"
+msgstr "ស្វែងរក"
+
+#: includes/class-domain-search.php:165
+msgid "No extensions were checked for that name."
+msgstr "គ្មានផ្នែកបន្ថែមណាមួយត្រូវបានពិនិត្យមើលសម្រាប់ឈ្មោះនោះទេ។"
+
+#: includes/class-domain-search.php:204
+msgid "Domain search is unavailable on this site at the moment."
+msgstr "ការស្វែងរកដែនមិនអាចប្រើប្រាស់បាននៅលើគេហទំព័រនេះទេឥឡូវនេះ។"
+
+#: includes/class-domain-search.php:205
+msgid "We could not reach the domain registry just now. Please try again in a moment."
+msgstr "យើងមិនអាចទាក់ទងបញ្ជីឈ្មោះដែនបានទេនៅពេលនេះ។ សូមព្យាយាមម្តងទៀតក្នុងពេលបន្តិចទៀត។"
+
+#: includes/class-domain-search.php:215
+msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
+msgstr "គ្រាប់ចុច API បាត់ ឬលែងមានសុពលភាពទៀតហើយ។ សូមពិនិត្យមើលវានៅក្រោម ការកំណត់ → Zinn® Reseller។"
+
+#: includes/class-domain-search.php:217
+msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
+msgstr "គ្រាប់ចុច API នេះមិនមានការអនុញ្ញាត sites.view ដែលការស្វែងរកដែនត្រូវការនោះទេ។ សូមបន្ថែមវាទៅក្នុងគ្រាប់ចុចនៅក្នុងផ្ទាំងគ្រប់គ្រងអ្នកបន្តលក់របស់អ្នក ឬលុបគ្រាប់ចុចនៅទីនេះដើម្បីត្រឡប់ទៅរកការស្វែងរកជាសាធារណៈវិញ។"
+
+#: includes/class-domain-search.php:222
+msgid "Only administrators see this:"
+msgstr "មានតែអ្នកគ្រប់គ្រងប៉ុណ្ណោះដែលឃើញរឿងនេះ៖"
+
+#: includes/class-domain-search.php:271
+msgid "We could not check this one — try again"
+msgstr "យើងមិនអាចពិនិត្យមើលមួយនេះបានទេ - សូមព្យាយាមម្តងទៀត"
+
+#: includes/class-domain-search.php:275
+msgid "Already registered"
+msgstr "បានចុះឈ្មោះរួចហើយ"
+
+#: includes/class-domain-search.php:313
+msgid "Available — ask us for a price"
+msgstr "មាន — សូមសួរតម្លៃមកកាន់យើងខ្ញុំ"
+
+#. translators: 1: price, 2: ISO currency code.
+#: includes/class-domain-search.php:318
+#, php-format
+msgid "Available — %1$s %2$s for the first year"
+msgstr "មាន — %1$s %2$s សម្រាប់ឆ្នាំដំបូង"
+
+#: includes/class-domain-search.php:341
+msgid "Register it"
+msgstr "ចុះឈ្មោះវា"
+
+#: includes/class-panel-link.php:63
+msgid "Manage my hosting"
+msgstr "គ្រប់គ្រងការបង្ហោះគេហទំព័ររបស់ខ្ញុំ"
+
+#: includes/class-panel-link.php:85
+msgid "Please sign in first."
+msgstr "សូមចូលគណនីរបស់អ្នកជាមុនសិន។"
+
+#: includes/class-panel-link.php:92
+msgid "This account is not linked to a hosting service yet."
+msgstr "គណនីនេះមិនទាន់ត្រូវបានតភ្ជាប់ទៅនឹងសេវាកម្មបង្ហោះបណ្ដាញនៅឡើយទេ។"
+
+#: includes/class-panel-link.php:102
+msgid "The hosting platform did not return a sign-in link."
+msgstr "វេទិកាបង្ហោះគេហទំព័រមិនបានបញ្ជូនតំណចូលប្រព័ន្ធមកវិញទេ។"
+
+#: includes/class-settings.php:95
+msgid "Zinn® Reseller"
+msgstr "អ្នកលក់បន្ត Zinn®"
+
+#: includes/class-settings.php:129
+msgid "Settings"
+msgstr "ការកំណត់"
+
+#: includes/class-settings.php:173
+msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
+msgstr "ភ្ជាប់គេហទំព័រនេះទៅនឹងគណនីអ្នកលក់បន្ត Zinn® របស់អ្នក រួចបើកដំណើរការតែផ្នែកដែលអ្នកត្រូវការប៉ុណ្ណោះ។"
+
+#: includes/class-settings.php:184
+msgid "API key"
+msgstr "គ្រាប់ចុច API"
+
+#: includes/class-settings.php:197
+msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
+msgstr "បង្កើតមួយនៅក្នុងផ្ទាំងគ្រប់គ្រង Zinn® របស់អ្នកក្រោមសោ API។ ផ្តល់ឱ្យវាត្រឹមតែការអនុញ្ញាតដែលម៉ូឌុលខាងក្រោមត្រូវការ។"
+
+#: includes/class-settings.php:207
+msgid "API address"
+msgstr "អាសយដ្ឋាន API"
+
+#: includes/class-settings.php:221
+msgid "Panel address"
+msgstr "អាសយដ្ឋានផ្ទាំងគ្រប់គ្រង"
+
+#: includes/class-settings.php:233
+msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
+msgstr "ទីដែលអតិថិជនរបស់អ្នកត្រូវបានបញ្ជូនទៅដើម្បីគ្រប់គ្រងការបង្ហោះគេហទំព័ររបស់ពួកគេ។ ប្រសិនបើអ្នកបានកំណត់ឈ្មោះហូសស្ទីនរបស់ផ្ទាំងគ្រប់គ្រងក្រោម ការលក់បន្ត → ម៉ាកយីហោរបស់អ្នក សូមដាក់វានៅទីនេះ — នោះអតិថិជនរបស់អ្នកនឹងមិនឃើញអាសយដ្ឋានរបស់យើងទាល់តែសោះ។"
+
+#: includes/class-settings.php:242
+msgid "Modules"
+msgstr "ម៉ូឌុល"
+
+#: includes/class-settings.php:253
+msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
+msgstr "ការស្វែងរកដែន — កូដខ្លី [zinn_domain_search] ដែលមានតម្លៃចាប់ពីគណនីដែនផ្ទាល់ខ្លួនរបស់អ្នក។"
+
+#: includes/class-settings.php:267
+msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
+msgstr "តំណបន្ទះត្រួតពិនិត្យ — លេខកូដខ្លី [zinn_panel_link] នាំអតិថិជនដែលបានចូលគណនីរួច ចូលទៅកាន់ការបង្ហោះគេហទំព័ររបស់ពួកគេ។"
+
+#: includes/class-settings.php:281
+msgid "WooCommerce — provision hosting automatically when an order is paid."
+msgstr "វូខមឺស (WooCommerce) — រៀបចំកន្លែងបង្ហោះគេហទំព័រដោយស្វ័យប្រវត្តិ នៅពេលដែលការបញ្ជាទិញត្រូវបានទូទាត់ប្រាក់។"
+
+#: includes/class-settings.php:290
+msgid "WooCommerce is not active on this site, so this module is doing nothing."
+msgstr "វូខូមើដ (WooCommerce) មិនដំណើរការនៅលើគេហទំព័រនេះទេ ដូច្នេះម៉ូឌុលនេះមិនកំពុងធ្វើអ្វីទាំងអស់។"
+
+#: includes/class-settings.php:302
+msgid "Default plan code"
+msgstr "កូដកញ្ចប់លំនាំដើម"
+
+#: includes/class-settings.php:314
+msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
+msgstr "ប្រើសម្រាប់ផលិតផល WooCommerce ដែលមិនដាក់ឈ្មោះផែនការផ្ទាល់ខ្លួន។ កំណត់ផែនការក្នុងមួយផលិតផលនៅលើផលិតផលផ្ទាល់ស្ថិតក្រោម «សារពើភណ្ឌ»។"
+
+#: includes/class-settings.php:325
+msgid "Connection"
+msgstr "ការតភ្ជាប់"
+
+#: includes/class-settings.php:350
+msgid "No API key yet, so nothing is connected."
+msgstr "មិនទាន់មានកូនសោ API នៅឡើយទេ ដូច្នេះគ្មានអ្វីត្រូវបានភ្ជាប់នោះទេ។"
+
+#. translators: %s: error message returned by the hosting API.
+#: includes/class-settings.php:358
+#, php-format
+msgid "Not connected: %s"
+msgstr "មិនបានភ្ជាប់៖ %s"
+
+#. translators: %s: the reseller programme status, e.g. "active".
+#: includes/class-settings.php:368
+#, php-format
+msgid "Connected. Your reseller programme is %s."
+msgstr "បានតភ្ជាប់។ កម្មវិធី reseller របស់អ្នកគឺ %s។"
+
+#: includes/class-woocommerce-provisioning.php:90
+msgid "No Zinn® API key is configured, so nothing was provisioned."
+msgstr "គ្មានគ្រាប់ចុច API របស់ Zinn® ត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ ដូច្នេះគ្មានអ្វីត្រូវបានផ្តល់ជូនទេ។"
+
+#: includes/class-woocommerce-provisioning.php:108
+msgid "This order did not include a domain name, so there was nothing to provision."
+msgstr "ការបញ្ជាទិញនេះមិនបានរួមបញ្ចូលឈ្មោះដែនទេ ដូច្នេះគ្មានអ្វីត្រូវផ្តល់ជូននោះទេ។"
+
+#: includes/class-woocommerce-provisioning.php:128
+msgid "The hosting platform did not return a site."
+msgstr "វេទិកាបង្ហោះគេហទំព័រមិនបានត្រឡប់គេហទំព័រណាមួយទេ។"
+
+#. translators: 1: domain name, 2: hosting service id.
+#: includes/class-woocommerce-provisioning.php:139
+#, php-format
+msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
+msgstr "សេវាហូស្ទីង Zinn® ត្រូវបានបង្កើតឡើងសម្រាប់ %1$s (សេវា %2$s)។"
+
+#: includes/class-woocommerce-provisioning.php:203
+msgid "The hosting platform did not return a client account."
+msgstr "វេទិកាបង្ហោះគេហទំព័រមិនបានត្រឡប់គណនីអតិថិជនទេ។"
+
+#. translators: %s: the reason provisioning failed.
+#: includes/class-woocommerce-provisioning.php:308
+#, php-format
+msgid "Zinn® hosting was NOT provisioned: %s"
+msgstr "ការបង្ហោះ Zinn® មិនត្រូវបានរៀបចំឡើងទេ៖ %s"
+
+#: includes/class-woocommerce-provisioning.php:324
+msgid "Zinn® product line"
+msgstr "បន្ទាត់ផលិតផល Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:325
+msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
+msgstr "ខ្សែផលិតផល Zinn® ដែលត្រូវផ្តល់ជូននៅពេលដែលផលិតផលនេះត្រូវបានទិញ។ សូមទុកទទេដើម្បីប្រើប្រាស់តម្លៃលំនាំដើមពីការកំណត់របស់កម្មវិធីជំនួយ។"
+
+#: includes/class-woocommerce-provisioning.php:362
+msgid "Zinn® hosting"
+msgstr "ហោសធីង Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:386
+msgid "Service id"
+msgstr "លេខសម្គាល់សេវាកម្ម"
+
+#: includes/class-woocommerce-provisioning.php:393
+msgid "Nothing provisioned for this order."
+msgstr "គ្មានអ្វីត្រូវបានរៀបចំសម្រាប់បញ្ជាទិញនេះទេ។"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-reseller-promo.php:241
+#: includes/class-zinn-reseller-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — មគ្គុទ្ទេសក៍ និងសេវាកម្ម"
+
+#: includes/class-zinn-reseller-promo.php:256
+msgid "User guides"
+msgstr "សៀវភៅណែនាំអ្នកប្រើប្រាស់"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-reseller-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "អានសៀវភៅណែនាំអ្នកប្រើប្រាស់ %s"
+
+#: includes/class-zinn-reseller-promo.php:314
+msgid "Hide this"
+msgstr "លាក់នេះ"
+
+#: includes/class-zinn-reseller-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "ការបង្ហោះបណ្តាញ Zinn® សម្រាប់ WordPress"
+
+#: includes/class-zinn-reseller-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed ការបម្រុងទុកប្រចាំថ្ងៃ ការផ្ទេរទីតាំងដោយឥតគិតថ្លៃ និងផ្ទាំងបញ្ជាដែលត្រូវបានបង្កើតឡើងសម្រាប់អ្នកដែលប្រតិបត្តិការគេហទំព័រច្រើនជាងមួយ។"
+
+#: includes/class-zinn-reseller-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "ផ្សារខ្សែកាប Zinn®"
+
+#: includes/class-zinn-reseller-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "ទិញនិងលក់គេហទំព័រ ដូម៉ែន និងការដាក់តំណភ្ជាប់ដែលបង្កើតរួចជាស្រេច ដោយប្រាក់ត្រូវបានរក្សាទុកដោយសុវត្ថិភាពរហូតដល់ភាគីទាំងសងខាងពេញចិត្ត។"
+
+#: includes/class-zinn-reseller-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® —  thuêអ្នកជំនាញដែលធ្វើការងារនេះជាអាជីព"
+
+#: includes/class-zinn-reseller-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ទីផ្សារឯករាជ្យជាសាកលរបស់យើង៖ រកមើលសេវាកម្មដែលត្រៀមរួចជាស្រេចជាង ១០,០០០ ពីអ្នកសរសេរ អ្នករចនា អ្នកអភិវឌ្ឍន៍ និងអ្នកជំនាញ SEO ឬផុសគម្រោងមួយ ហើយអនុញ្ញាតឱ្យពួកគេដាក់តម្លៃប្រកួតប្រជែង។"

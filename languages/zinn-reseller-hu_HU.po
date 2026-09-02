@@ -1,291 +1,286 @@
-# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
-# This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Reseller Toolkit 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-reseller\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: zinn-reseller\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02T07:25:53+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
 #: includes/class-settings.php:94
 #: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
-msgstr ""
+msgstr "Zinn® Reseller Toolkit"
 
 #. Plugin URI of the plugin
 #: zinn-reseller.php
 msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
-msgstr ""
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr ""
+msgstr "Értékesítsen Zinn Digital® tárhelyet a saját WordPress oldaláról — lábnyommentes PBN, WordPress, WooCommerce, ügynökségi, viszonteladói, felhő- és VPS-tárhely. Keressen és ajánljon domaineket a viszonteladói fiókjából, jelentkeztesse be az ügyfeleit közvetlenül a tárhelykezelőjükbe, és automatikusan biztosítson tárhelyet, amint egy WooCommerce megrendelés kifizetésre kerül."
 
 #. Author of the plugin
 #: zinn-reseller.php
 msgid "Neil Lock — CEO, Zinn Digital® Ltd"
-msgstr ""
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 
 #. Author URI of the plugin
 #: zinn-reseller.php
 msgid "https://zinndigital.com"
-msgstr ""
+msgstr "https://zinndigital.com"
 
 #. translators: %d: HTTP status code returned by the hosting API.
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr ""
+msgstr "A tárhelyplatform a(z) %d státusszal válaszolt."
 
 #: includes/class-domain-search.php:73
 msgid "Find your domain name"
-msgstr ""
+msgstr "Keresse meg a domainnevét"
 
 #: includes/class-domain-search.php:74
 msgid "Search"
-msgstr ""
+msgstr "Keresés"
 
 #: includes/class-domain-search.php:165
 msgid "No extensions were checked for that name."
-msgstr ""
+msgstr "Ehhez a névhez nem lett bejelölve bővítmény."
 
 #: includes/class-domain-search.php:204
 msgid "Domain search is unavailable on this site at the moment."
-msgstr ""
+msgstr "A domainkeresés jelenleg nem érhető el ezen a webhelyen."
 
 #: includes/class-domain-search.php:205
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr ""
+msgstr "Jelenleg nem tudtuk elérni a doménregisztert. Kérjük, próbálja meg újra egy pillanat múlva."
 
 #: includes/class-domain-search.php:215
 msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr ""
+msgstr "Az API-kulcs hiányzik vagy már nem érvényes. Ellenőrizze a Beállítások → Zinn® Reseller menüpont alatt."
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr ""
+msgstr "Ez az API-kulcs nem rendelkezik a sites.view jogosultsággal, amelyre a tartománykeresésnek szüksége van. Adja hozzá a kulcshoz a viszonteladói panelen, vagy törölje a kulcsot itt, hogy a nyilvános keresésre térjen vissza."
 
 #: includes/class-domain-search.php:222
 msgid "Only administrators see this:"
-msgstr ""
+msgstr "Csak az adminisztrátorok látják ezt:"
 
 #: includes/class-domain-search.php:271
 msgid "We could not check this one — try again"
-msgstr ""
+msgstr "Ezt nem sikerült ellenőrizni – próbálja újra"
 
 #: includes/class-domain-search.php:275
 msgid "Already registered"
-msgstr ""
+msgstr "Már regisztrált"
 
 #: includes/class-domain-search.php:313
 msgid "Available — ask us for a price"
-msgstr ""
+msgstr "Elérhető – kérjen tőlünk árat"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:318
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr ""
+msgstr "Elérhető – %1$s %2$s az első évben"
 
 #: includes/class-domain-search.php:341
 msgid "Register it"
-msgstr ""
+msgstr "Regisztráció"
 
 #: includes/class-panel-link.php:63
 msgid "Manage my hosting"
-msgstr ""
+msgstr "Tárhelyem kezelése"
 
 #: includes/class-panel-link.php:85
 msgid "Please sign in first."
-msgstr ""
+msgstr "Kérjük, először jelentkezzen be."
 
 #: includes/class-panel-link.php:92
 msgid "This account is not linked to a hosting service yet."
-msgstr ""
+msgstr "Ez a fiók még nincs összekapcsolva tárhelyszolgáltatással."
 
 #: includes/class-panel-link.php:102
 msgid "The hosting platform did not return a sign-in link."
-msgstr ""
+msgstr "A tárhelyplatform nem küldött bejelentkezési hivatkozást."
 
 #: includes/class-settings.php:95
 msgid "Zinn® Reseller"
-msgstr ""
+msgstr "Zinn® viszonteladó"
 
 #: includes/class-settings.php:129
 msgid "Settings"
-msgstr ""
+msgstr "Beállítások"
 
 #: includes/class-settings.php:173
 msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr ""
+msgstr "Csatlakoztassa ezt a webhelyet a Zinn® viszonteladói fiókjához, majd kapcsolja be csak a szükséges részeket."
 
 #: includes/class-settings.php:184
 msgid "API key"
-msgstr ""
+msgstr "API-kulcs"
 
 #: includes/class-settings.php:197
 msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr ""
+msgstr "Hozzon létre egyet a Zinn® vezérlőpultján az API-kulcsok alatt. Csak azokat a engedélyeket adja meg neki, amelyekre az alábbi moduloknak szükségük van."
 
 #: includes/class-settings.php:207
 msgid "API address"
-msgstr ""
+msgstr "API-cím"
 
 #: includes/class-settings.php:221
 msgid "Panel address"
-msgstr ""
+msgstr "Panel címe"
 
 #: includes/class-settings.php:233
 msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr ""
+msgstr "Ahová az ügyfelei a tárhelyük kezelésére kerülnek. Ha beállított egy vezérlőpult-gazdagépnevet a Viszonteladás → Az Ön márkája menüpontban, adja meg azt itt – így az ügyfelei egyáltalán nem látják a mi címünket."
 
 #: includes/class-settings.php:242
 msgid "Modules"
-msgstr ""
+msgstr "Modulok"
 
 #: includes/class-settings.php:253
 msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr ""
+msgstr "Tartománykereső – a [zinn_domain_search] shortcode, a saját tartományfiókjábólárakon."
 
 #: includes/class-settings.php:267
 msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr ""
+msgstr "Panel hivatkozás — a [zinn_panel_link] rövidkód bejelentkezteti a bejelentkezett ügyfelet a tárhelyére."
 
 #: includes/class-settings.php:281
 msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr ""
+msgstr "WooCommerce — tárhely automatikus kiépítése fizetés után."
 
 #: includes/class-settings.php:290
 msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr ""
+msgstr "A WooCommerce nincs aktiválva ezen a webhelyen, így ez a modul semmit sem csinál."
 
 #: includes/class-settings.php:302
 msgid "Default plan code"
-msgstr ""
+msgstr "Alapértelmezett csomagkód"
 
 #: includes/class-settings.php:314
 msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr ""
+msgstr "Egy olyan WooCommerce-termékhez használatos, amely nemnevezi meg a saját csomagját. Állítsa be a termékszintű csomagot magán a terméken a Készlet menüpont alatt."
 
 #: includes/class-settings.php:325
 msgid "Connection"
-msgstr ""
+msgstr "Kapcsolat"
 
 #: includes/class-settings.php:350
 msgid "No API key yet, so nothing is connected."
-msgstr ""
+msgstr "Még nincs API-kulcs, így semmi sincs csatlakoztatva."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:358
 #, php-format
 msgid "Not connected: %s"
-msgstr ""
+msgstr "Nincs csatlakoztatva: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
 #: includes/class-settings.php:368
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr ""
+msgstr "Csatlakozva. A viszonteladói programod: %s."
 
 #: includes/class-woocommerce-provisioning.php:90
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr ""
+msgstr "Nincs konfigurálva Zinn® API-kulcs, ezért semmi sem lett kiépítve."
 
 #: includes/class-woocommerce-provisioning.php:108
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr ""
+msgstr "Ez a rendelés nem tartalmazott domain nevet, így nem volt mit kiépíteni."
 
 #: includes/class-woocommerce-provisioning.php:128
 msgid "The hosting platform did not return a site."
-msgstr ""
+msgstr "A tárhelyplatform nem küldött vissza webhelyet."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:139
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr ""
+msgstr "A(z) %1$s részére kiépített Zinn® tárhely (%2$s szolgáltatás)."
 
 #: includes/class-woocommerce-provisioning.php:203
 msgid "The hosting platform did not return a client account."
-msgstr ""
+msgstr "A tárhelyplatform nem küldött vissza ügyfélszámlát."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:308
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr ""
+msgstr "A Zinn® tárhely kiépítése NEM történt meg: %s"
 
 #: includes/class-woocommerce-provisioning.php:324
 msgid "Zinn® product line"
-msgstr ""
+msgstr "Zinn® termékcsalád"
 
 #: includes/class-woocommerce-provisioning.php:325
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr ""
+msgstr "A Zinn® termékcsalád, amelyet ki kell alakítani a termék megvásárlásakor. Hagyja üresen a beépülő modul beállításaiban megadott alapértelmezett érték használatához."
 
 #: includes/class-woocommerce-provisioning.php:362
 msgid "Zinn® hosting"
-msgstr ""
+msgstr "Zinn® tárhely"
 
 #: includes/class-woocommerce-provisioning.php:386
 msgid "Service id"
-msgstr ""
+msgstr "Szolgáltatás azonosító"
 
 #: includes/class-woocommerce-provisioning.php:393
 msgid "Nothing provisioned for this order."
-msgstr ""
+msgstr "Ehhez a megrendeléshez nincs semmi kiépítve."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr ""
+msgstr "%s – útmutatók és szolgáltatások"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
-msgstr ""
+msgstr "Felhasználói útmutatók"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-reseller-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr ""
+msgstr "Olvassa el a %s felhasználói útmutatót"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
-msgstr ""
+msgstr "Elrejtés"
 
 #: includes/class-zinn-reseller-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "Zinn® tárhely WordPresshez"
 
 #: includes/class-zinn-reseller-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr ""
+msgstr "LiteSpeed, napi biztonsági mentések, ingyenes migráció és egy olyan vezérlőpult, amelyet egynél több webhelyet üzemeltetők számára terveztek."
 
 #: includes/class-zinn-reseller-promo.php:381
 msgid "The Zinn® marketplace"
-msgstr ""
+msgstr "A Zinn® piac"
 
 #: includes/class-zinn-reseller-promo.php:382
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr ""
+msgstr "Vásároljon és adjon el meglévő webhelyeket, domaineket és hivatkozáselhelyezéseket úgy, hogy a pénzt biztonságban tartjuk mindaddig, amíg mindkét fél elégedett nem lesz."
 
 #: includes/class-zinn-reseller-promo.php:429
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr ""
+msgstr "Zinn Hub® – béreljen fel olyan embereket, akik ebből élnek"
 
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr ""
+msgstr "Globális szabadúszó piacunk: böngésszen több mint 10 000 kész szolgáltatás között íróktól, tervezőktől, fejlesztőktől és SEO-szakemberektől, vagy tegyen közzé egy projektet, és hagyja, hogy ajánlatot tegyenek."

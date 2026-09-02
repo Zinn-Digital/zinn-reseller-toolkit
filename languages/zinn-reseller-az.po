@@ -1,291 +1,286 @@
-# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
-# This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Reseller Toolkit 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-reseller\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: zinn-reseller\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02T07:25:53+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: zinn-reseller\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
 #: includes/class-settings.php:94
 #: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
-msgstr ""
+msgstr "Zinn® Reseller Toolkit"
 
 #. Plugin URI of the plugin
 #: zinn-reseller.php
 msgid "https://zinndigital.com/wordpress-plugins/zinn-reseller"
-msgstr ""
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr ""
+msgstr "Öz WordPress saytınızdan Zinn Digital® hostinqini satın — iz buraxmayan PBN, WordPress, WooCommerce, agentlik, diler, bulud və VPS hostinqi. Diler hesabı vasitəsilə domenlər axtarın və təklif edin, müştərilərinizi birbaşa hostinq panelinə daxil edin və WooCommerce sifarişi ödənildikdə hostinqi avtomatik olaraq təmin edin."
 
 #. Author of the plugin
 #: zinn-reseller.php
 msgid "Neil Lock — CEO, Zinn Digital® Ltd"
-msgstr ""
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 
 #. Author URI of the plugin
 #: zinn-reseller.php
 msgid "https://zinndigital.com"
-msgstr ""
+msgstr "https://zinndigital.com"
 
 #. translators: %d: HTTP status code returned by the hosting API.
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr ""
+msgstr "Hostinq platforması %d statusu ilə cavab verdi."
 
 #: includes/class-domain-search.php:73
 msgid "Find your domain name"
-msgstr ""
+msgstr "Domen adınızı tapın"
 
 #: includes/class-domain-search.php:74
 msgid "Search"
-msgstr ""
+msgstr "Axtarış"
 
 #: includes/class-domain-search.php:165
 msgid "No extensions were checked for that name."
-msgstr ""
+msgstr "Bu ad üçün heç bir uzantı yoxlanılmadı."
 
 #: includes/class-domain-search.php:204
 msgid "Domain search is unavailable on this site at the moment."
-msgstr ""
+msgstr "Hazırda bu saytda domen axtarışı mümkünsüzdür."
 
 #: includes/class-domain-search.php:205
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr ""
+msgstr "Biz hazırda domen reyestrinə qoşula bilmədik. Zəhmət olmasa bir az sonra yenidən cəhd edin."
 
 #: includes/class-domain-search.php:215
 msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr ""
+msgstr "API açarı çatışmır və ya artıq etibarlı deyil. Onu Parametrlər → Zinn® Reseller bölməsində yoxlayın."
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr ""
+msgstr "Bu API açarı domen axtarışının tələb etdiyi sites.view icazəsinə malik deyil. Onu diler panelinizdə açara əlavə edin və ya ictimai axtarışa qayıtmaq üçün açarı burada təmizləyin."
 
 #: includes/class-domain-search.php:222
 msgid "Only administrators see this:"
-msgstr ""
+msgstr "Yalnız administratorlar bunu görür:"
 
 #: includes/class-domain-search.php:271
 msgid "We could not check this one — try again"
-msgstr ""
+msgstr "Bunu yoxlaya bilmədik — yenidən cəhd edin"
 
 #: includes/class-domain-search.php:275
 msgid "Already registered"
-msgstr ""
+msgstr "Artıq qeydiyyatdan keçib"
 
 #: includes/class-domain-search.php:313
 msgid "Available — ask us for a price"
-msgstr ""
+msgstr "Mövcuddur — qiymət üçün bizə müraciət edin"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:318
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr ""
+msgstr "İlk il üçün %1$s %2$s mövcuddur"
 
 #: includes/class-domain-search.php:341
 msgid "Register it"
-msgstr ""
+msgstr "Qeydiyyatdan keçir"
 
 #: includes/class-panel-link.php:63
 msgid "Manage my hosting"
-msgstr ""
+msgstr "Hostinqimi idarə et"
 
 #: includes/class-panel-link.php:85
 msgid "Please sign in first."
-msgstr ""
+msgstr "Zəhmət olmasa əvvəlcə daxil olun."
 
 #: includes/class-panel-link.php:92
 msgid "This account is not linked to a hosting service yet."
-msgstr ""
+msgstr "Bu hesabı hələ heç bir hostinq xidmətinə qoşulmayıb."
 
 #: includes/class-panel-link.php:102
 msgid "The hosting platform did not return a sign-in link."
-msgstr ""
+msgstr "Hostinq platforması daxil olma keçidi qaytarmadı."
 
 #: includes/class-settings.php:95
 msgid "Zinn® Reseller"
-msgstr ""
+msgstr "Zinn® Reseller"
 
 #: includes/class-settings.php:129
 msgid "Settings"
-msgstr ""
+msgstr "Parametrlər"
 
 #: includes/class-settings.php:173
 msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr ""
+msgstr "Bu saytı Zinn® diler hesabınıza qoşun, ardından yalnız sizə lazım olan hissələri aktivləşdirin."
 
 #: includes/class-settings.php:184
 msgid "API key"
-msgstr ""
+msgstr "API açarı"
 
 #: includes/class-settings.php:197
 msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr ""
+msgstr "Onu Zinn® idarə panelinizdə API açarları bölməsində yaradın. Ona yalnız aşağıdakı modulların ehtiyac duyduğu icazələri verin."
 
 #: includes/class-settings.php:207
 msgid "API address"
-msgstr ""
+msgstr "API ünvanı"
 
 #: includes/class-settings.php:221
 msgid "Panel address"
-msgstr ""
+msgstr "Panel ünvanı"
 
 #: includes/class-settings.php:233
 msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr ""
+msgstr "Müştərirlərinizin hostinqlərini idarə etmək üçün yönləndirildiyi yer. Əgər Reseller → Brendiniz bölməsində panel hostinq adı təyin etmisinizsə, onu burada qeyd edin – beləliklə, müştəriləriniz bizim ünvanımızı heç vaxt görməyəcəklər."
 
 #: includes/class-settings.php:242
 msgid "Modules"
-msgstr ""
+msgstr "Modullar"
 
 #: includes/class-settings.php:253
 msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr ""
+msgstr "Domen axtarışı — [zinn_domain_search] qısa kodu, şəxsi domen hesabınızdan qiymətləndirilir."
 
 #: includes/class-settings.php:267
 msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr ""
+msgstr "Panel keçidi — [zinn_panel_link] qısa kodu daxil olmuş müştərini hostinqinə daxil edir."
 
 #: includes/class-settings.php:281
 msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr ""
+msgstr "WooCommerce — sifariş ödənilən kimi hostinqi avtomatik olaraq təmin edin."
 
 #: includes/class-settings.php:290
 msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr ""
+msgstr "Bu saytda WooCommerce aktiv deyil, ona görə də bu modul heç bir iş görmür."
 
 #: includes/class-settings.php:302
 msgid "Default plan code"
-msgstr ""
+msgstr "Defolt plan kodu"
 
 #: includes/class-settings.php:314
 msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr ""
+msgstr "Öz planını adlandırmayan WooCommerce məhsulu üçün istifadə olunur. Məhsulun özündə \"Anbar\" bölməsindən hər məhsul üçün planı təyin edin."
 
 #: includes/class-settings.php:325
 msgid "Connection"
-msgstr ""
+msgstr "Bağlantı"
 
 #: includes/class-settings.php:350
 msgid "No API key yet, so nothing is connected."
-msgstr ""
+msgstr "Hələ ki API açarı yoxdur, ona görə də heç nə qoşulmayıb."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:358
 #, php-format
 msgid "Not connected: %s"
-msgstr ""
+msgstr "Bağlı deyil: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
 #: includes/class-settings.php:368
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr ""
+msgstr "Qoşuldu. Reseller proqramınız %s-dir."
 
 #: includes/class-woocommerce-provisioning.php:90
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr ""
+msgstr "Heç bir Zinn® API açarı quraşdırılmayıb, ona görə də heç nə təmin edilmədi."
 
 #: includes/class-woocommerce-provisioning.php:108
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr ""
+msgstr "Bu sifarişə domen adı daxil edilmədi, ona görə də təmin ediləcək heç nə yox idi."
 
 #: includes/class-woocommerce-provisioning.php:128
 msgid "The hosting platform did not return a site."
-msgstr ""
+msgstr "Hostinq platforması sayt qaytarmadı."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:139
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr ""
+msgstr "%1$s üçün ayrılmış Zinn® hostinqi (xidmət %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:203
 msgid "The hosting platform did not return a client account."
-msgstr ""
+msgstr "Hostinq platforması müştəri hesabı qaytarmadı."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:308
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr ""
+msgstr "Zinn® hostinqi təmin edilmədi: %s"
 
 #: includes/class-woocommerce-provisioning.php:324
 msgid "Zinn® product line"
-msgstr ""
+msgstr "Zinn® məhsul xətti"
 
 #: includes/class-woocommerce-provisioning.php:325
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr ""
+msgstr "Bu məhsul alınarkən təmin ediləcək Zinn® məhsul xətti. Plagin parametrlərindən defolt dəyərdən istifadə etmək üçün boş buraxın."
 
 #: includes/class-woocommerce-provisioning.php:362
 msgid "Zinn® hosting"
-msgstr ""
+msgstr "Zinn® hostinq"
 
 #: includes/class-woocommerce-provisioning.php:386
 msgid "Service id"
-msgstr ""
+msgstr "Xidmət İD"
 
 #: includes/class-woocommerce-provisioning.php:393
 msgid "Nothing provisioned for this order."
-msgstr ""
+msgstr "Bu sifariş üçün heç nə təmin edilməyib."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr ""
+msgstr "%s — bələdçilər və xidmətlər"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
-msgstr ""
+msgstr "İstifadəçi təlimatları"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-reseller-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr ""
+msgstr "%s istifadəçi təlimatını oxuyun"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
-msgstr ""
+msgstr "Gizlət"
 
 #: includes/class-zinn-reseller-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "WordPress üçün Zinn® hostinqi"
 
 #: includes/class-zinn-reseller-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr ""
+msgstr "LiteSpeed, gündəlik ehtiyat nüsxələr, pulsuz miqrasiya və birdən çox sayt idarə edən insanlar üçün hazırlanmış idarəetmə paneli."
 
 #: includes/class-zinn-reseller-promo.php:381
 msgid "The Zinn® marketplace"
-msgstr ""
+msgstr "Zinn® bazarı"
 
 #: includes/class-zinn-reseller-promo.php:382
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr ""
+msgstr "Hər iki tərəf razı qədər pulun təhlükəsiz şəkildə saxlanıldığı hazır saytları, domenləri və link yerləşdirmələrini alqı-satqı edin."
 
 #: includes/class-zinn-reseller-promo.php:429
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr ""
+msgstr "Zinn Hub® — bu sahədə peşəkar olaraq çalışan mütəxəssislər işə götürün"
 
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr ""
+msgstr "Qlobal frilanser bazarımız: yazıçılar, dizaynerlər, tərtibatçılar və SEO mütəxəssislərindən 10 000-dən çox hazır xidməti nəzərdən keçirin və ya layihə yerləşdirərək onların təklif verməsinə icazə verin."
