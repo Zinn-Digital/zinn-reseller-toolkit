@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Reseller Toolkit
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-reseller
  * Description:       Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd

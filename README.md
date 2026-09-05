@@ -15,7 +15,7 @@ Both are the same file. The download page is the canonical one: it is served fro
 
 | | |
 |---|---|
-| Version | `1.0.0` |
+| Version | `1.1.0` |
 | Requires WordPress | 6.6 or later |
 | Tested up to | WordPress **7.1** |
 | Requires PHP | 8.2 or later |
@@ -67,6 +67,14 @@ You set the retail price on each; the difference between that and your wholesale
 - **[zinn-translate](https://github.com/Zinn-Digital/zinn-translate)** — Serve a Zinn Digital®-translated site in every language, each on its own web address, with correct hreflang tags. Renders finished translations; generates none.
 
 All of them are free to download from https://zinndigital.com/wordpress-plugins.
+
+## Languages
+
+This plugin ships **complete translations for 57 languages** — every label, notice, error and setting it adds to your admin, not a subset. The catalogues are bundled, so they work as soon as you set your site language; there is no separate language pack to install.
+
+5 of them are right-to-left (ar, fa_IR, he_IL, ps, ur) and every screen this plugin adds was rendered in a real WordPress install in each of those languages and checked.
+
+The full list of languages is in `readme.txt` under **Translations**. `languages/` holds the `.pot` template plus a `.po`, `.mo` and `.l10n.php` for every language, so corrections and new languages can be contributed directly.
 
 ## Support
 
