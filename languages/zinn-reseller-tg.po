@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — мутахассисонеро киро кунед, ки 
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Бозори глобалии фрилансери мо: аз зиёда аз 10,000 хизматрасонии омода аз нависандагон, тарроҳон, таҳиягарон ва мутахассисони SEO гузаред ё лоиҳаеро ҷойгир кунед ва бидиҳед, ки онҳо пешниҳод кунанд."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Эълонҳои нашри Zinn Digital®-ро бинед."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Азнавкарии зеркашишуда аз санҷиши бехатарӣ гузашта натавонист ва насб карда нашуд."

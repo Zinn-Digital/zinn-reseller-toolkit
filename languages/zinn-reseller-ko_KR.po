@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — 전문적으로 이 일을 하는 전문가 고용하기"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "전 세계 프리랜서 마켓플레이스: 작가, 디자이너, 개발자, SEO 전문가가 제공하는 10,000개 이상의 기성 서비스를 둘러보거나 프로젝트를 등록하고 입찰을 받아보세요."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® 릴리스 노트를 확인하세요."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "다운로드된 업데이트의 무결성 검사에 실패하여 설치되지 않았습니다."

@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — bẹ gba awọn eniyan ti o ṣe eyi fun igbesi aye kan"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ọjà àwọn oníṣẹ́ọwọ́ káríayé wa: ṣíwò fún àwọn iṣẹ́ tó ti ṣetan jẹ́jẹ́ tó lé ní 10,000 láti ọ̀dọ̀ àwọn ònkọ̀wé, apẹ̀rẹ̀, àwọn olùṣẹ̀dá sọfitiwia àti àwọn olùgbéga SEO, tàbí kí o fi iṣẹ́ kan sórí afẹ́fẹ́ kí o sì jẹ́ kí wọ́n fún ní iye owó."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Wo awọn akọsilẹ ifilọlẹ Zinn Digital®."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Ìgbàlàwé tí a ṣe àgbéjọ rẹ̀ kùnà àyẹ̀wò òtítọ́ rẹ̀, a kò sì fi sílẹ̀."

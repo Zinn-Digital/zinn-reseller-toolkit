@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — наймайте професіоналів, які ро�
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Наш глобальний ринок фрилансу: переглядайте понад 10 000 готових послуг від письменників, дизайнерів, розробників та спеціалістів з SEO або опублікуйте проєкт і дозвольте їм робити ставки."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Перегляньте нотатки про випуск Zinn Digital®."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Завантажене оновлення не пройшло перевірку цілісності та не було встановлене."

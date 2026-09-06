@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — हे काम व्यवसाय म्हणून
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "आमची जागतिक फ्रीलांस मार्केटप्लेस: लेखक, डिझायनर्स, डेव्हलपर्स आणि SEOs कडून १०,००० हून अधिक तयार सेवा ब्राउझ करा, किंवा प्रोजेक्ट पोस्ट करा आणि त्यांना बोली लावू द्या."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® च्या रिलीझ नोट्स पहा."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "डाउनलोड केलेल्या अपडेटची अखंडता चाचणी (इंटीग्रिटी चेक) अयशस्वी झाली आणि ते इन्स्टॉल केले गेले नाही."

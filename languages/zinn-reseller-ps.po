@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — هغه کسان وګمارئ چې دا کار د مسلک
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "زموږ د آزاد کارانو نړیوال بازار: د لیکوالانو، ډیزاینرانو، پرمختگ کونکو او د SEO متخصصینو څخه د ۱۰،۰۰۰ څخه زیات چمتو شوي خدمتونه وپلټئ، یا یو پروژه خپره کړئ او هغوی ته د داوطلبۍ اجازه ورکړئ."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "د Zinn Digital® د خپرولو یادښتونه وګورئ."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "د ډاونلوډ شوي تازه معلوماتو د روغتیا معاینه ناکامه شوه او ونه لګول شول."

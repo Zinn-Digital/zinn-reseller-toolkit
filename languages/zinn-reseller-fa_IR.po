@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — افرادی را استخدام کنید که شغلشا
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "بازار جهانی فریلنسر ما: بیش از ۱۰,۰۰۰ خدمت آماده را از نویسندگان، طراحان، توسعه‌دهندگان و متخصصان سئو مرور کنید، یا پروژه‌ای ارسال کنید و اجازه دهید پیشنهاد بدهند."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "یادداشت‌های انتشار Zinn Digital® را مشاهده کنید."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "بررسی صحت به‌روزرسانی بارگیری‌شده با شکست مواجه شد و نصب نگردید."

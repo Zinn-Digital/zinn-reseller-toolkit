@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — プロの専門家を雇う"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "当社のグローバルなフリーランスマーケットプレイス：ライター、デザイナー、開発者、SEO専門家による10,000件以上の既製サービスを閲覧するか、プロジェクトを投稿して入札してもらいましょう。"
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® のリリースノートをご覧ください。"
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ダウンロードしたアップデートの整合性チェックに失敗したため、インストールされませんでした。"

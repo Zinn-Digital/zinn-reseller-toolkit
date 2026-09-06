@@ -284,3 +284,11 @@ msgstr "Zinn Hub® —  thuêអ្នកជំនាញដែលធ្វើក
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ទីផ្សារឯករាជ្យជាសាកលរបស់យើង៖ រកមើលសេវាកម្មដែលត្រៀមរួចជាស្រេចជាង ១០,០០០ ពីអ្នកសរសេរ អ្នករចនា អ្នកអភិវឌ្ឍន៍ និងអ្នកជំនាញ SEO ឬផុសគម្រោងមួយ ហើយអនុញ្ញាតឱ្យពួកគេដាក់តម្លៃប្រកួតប្រជែង។"
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "សូមមើលកំណត់ចំណាំនៃការចេញផ្សាយរបស់ Zinn Digital®។"
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ការទាញយកបច្ចុប្បន្នភាពមិនបានឆ្លងកាត់ការត្រួតពិនិត្យភាពត្រឹមត្រូវទេ ហើយត្រូវបានបរាជ័យក្នុងការដំឡើង។"

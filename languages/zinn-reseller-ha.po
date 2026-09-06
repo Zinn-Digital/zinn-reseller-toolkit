@@ -284,3 +284,11 @@ msgstr "Zinn Hub® — dauki ma'aikatan da suke yin wannan a matsayin sana'a"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Kasuwancinmu na masu zaman kansu na duniya: bincika ayyuka sama da 10,000 da aka riga aka shirya daga marubuta, masu zanen kaya, masu haɓakawa da ƙwararrun SEO, ko sanya wani aikin kuma bari su yi ciniki."
+
+#: includes/class-zinn-reseller-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Duba bayanan fitowar Zinn Digital®."
+
+#: includes/class-zinn-reseller-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Sabuntawar da aka sauke ta gaza gwajin inganci kuma ba a sanya ta ba."
