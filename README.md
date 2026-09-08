@@ -64,7 +64,7 @@ You set the retail price on each; the difference between that and your wholesale
 - **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — A complete caching and optimisation engine — full-page cache, object cache, database cleanup and CSS/JS optimisation — for WordPress sites hosted somewhere that provides no cache layer. On Zinn Digital® hosting, install Zinn® Cache instead. A GPLv3 fork of LiteSpeed Cache.
 - **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
 - **[zinn-offload](https://github.com/Zinn-Digital/zinn-offload)** — Move a WordPress media library to Zinn® object storage and serve it from a CDN. Configured from the Zinn® dashboard — no access key is ever typed into WordPress.
-- **[zinn-translate](https://github.com/Zinn-Digital/zinn-translate)** — Serve a Zinn Digital®-translated site in every language, each on its own web address, with correct hreflang tags. Renders finished translations; generates none.
+- **[zinn-translate](https://github.com/Zinn-Digital/zinn-translate)** — Publish a WordPress site in 58 languages on their own web addresses — translated slugs, SEO metadata, menus, WooCommerce and hreflang — translated with a Zinn Digital® plan or the site owner's own provider key.
 
 All of them are free to download from https://zinndigital.com/wordpress-plugins.
 
