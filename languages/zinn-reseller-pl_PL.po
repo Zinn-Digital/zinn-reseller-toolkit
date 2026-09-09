@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,207 @@ msgstr "To konto nie jest jeszcze powiązane z usługą hostingową."
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Platforma hostingowa nie zwróciła linku do logowania."
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Reseller Zinn®"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "Zestaw narzędzi dla odsprzedawców"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "Konto"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "Ustawienia"
+msgid "Features"
+msgstr "Funkcje"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "Połącz tę witrynę ze swoim kontem odsprzedawcy Zinn®, a następnie włącz tylko te elementy, których potrzebujesz."
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "Stylowanie"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "Klucz API"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "Twoje konto odsprzedawcy Zinn Digital®"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "Utwórz go w swoim panelu Zinn® w sekcji kluczy API. Przyznaj mu tylko takie uprawnienia, jakich potrzebują poniższe moduły."
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "Utwórz klucz API dla odsprzedawców w swoim panelu Zinn® w sekcji Ustawienia → Klucze API i wklej go tutaj."
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "Klucz API odsprzedawcy"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "Przechowywane tylko w tej witrynie i nigdy nie uwzględniane w eksporcie ani w raporcie diagnostycznym."
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "Plan do wdrożenia"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "Kod planu, do którego przypisywani są nowi klienci. Pozostaw puste pole, aby pytać za każdym razem."
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "Adres API"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "Adres panelu"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "Nie zmieniaj tego, chyba że pomoc techniczna Zinn® poprosi Cię o to."
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "Gdzie Twoi klienci są kierowcy w celu zarządzania swoim hostingiem. Jeśli skonfigurowano nazwę hosta panelu w sekcji Reselling → Twoja marka, wpisz ją tutaj – dzięki temu Twoi klienci nigdy nie zobaczą naszego adresu."
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "Adres panelu sterowania"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "Moduły"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "Gdzie link „Mój hosting” przekierowuje Twoich klientów."
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "Wyszukiwanie domen – krótki kod [zinn_domain_search], w cenie z Twojego własnego konta domeny."
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "Wyszukiwanie domen"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "Link do panelu — skrót [zinn_panel_link] automatycznie loguje klienta do jego hostingu."
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "Podaj skrót [zinn_domain_search]"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — automatyczne udostępnianie hostingu po opłaceniu zamówienia."
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "Umieść krótki kod na dowolnej stronie, aby pozwolić odwiedzającym na sprawdzenie domeny i zakup jej za Twoim pośrednictwem."
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "WooCommerce nie jest aktywny w tej witrynie, więc ten moduł nic nie robi."
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "Link do panelu"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "Wyświetl link „Mój hosting” dla zalogowanych klientów"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "Inicjalizacja WooCommerce"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "Automatyczne tworzenie hostingu po zrealizowaniu zamówienia w WooCommerce"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "Działa tylko w przypadku zamówień zawierających produkt powiązany z planem Zinn®."
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "Wygląd wyszukiwania domen"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "Ten widget wyświetla się w Twoim własnym motywie. Wybierz gotowy zestaw ustawień lub skonfiguruj własne kolory — w obu przypadkach na Twoich stronach nie pojawi się nic, co odwiedzający mógłby powiązać z nami."
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "Każda klasa używana przez widżet jest wymieniona w pliku readme wtyczki, dzięki czemu deweloper może dostosować wszystko, czego nie obejmuje zestaw ustawień wstępnych."
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "Śledź mój motyw"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "Delikatny"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "Wysoki kontrast"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "Domyślny kod planu"
+msgid "Compact"
+msgstr "Kompaktowy"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "Używane w przypadku produktu WooCommerce, który nie określa własnego planu. Ustaw plan dla poszczególnych produktów bezpośrednio na karcie produktu w sekcji Magazyn."
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "Kolor linku do zakupu"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "Połączenie"
+msgid "“Available” colour"
+msgstr "Kolor „Dostępne”"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "Kolor „Nie można sprawdzić”"
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "Kolor błędu"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "Zaokrąglenie rogów"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "Odstęp w każdym wierszu"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "Rozmiar tekstu"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "Waga nazwy domeny"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "Brak klucza API odsprzedawcy."
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "Nic tu nie zadziała, zanim nie zostanie ustawiony klucz. Utwórz go w panelu Zinn® w sekcji Ustawienia → Klucze API."
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "Otwórz mój pulpit nawigacyjny Zinn®"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "Klucz jest ustawiony, ale nic nie jest włączone."
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "Żadna z trzech funkcji nie jest włączona, więc ta wtyczka nic nie robi w Twojej witrynie. Włącz to, czego potrzebujesz, w sekcji Funkcje."
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "Otwórz funkcje"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "Gotowe – włączono %d funkcję."
+msgstr[1] "Gotowe — włączono %d funkcji."
+msgstr[2] "Gotowe — włączono %d funkcji."
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "Sprzedaż z"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "Nie masz jeszcze klucza API, więc nic nie jest połączone."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "Nie połączono: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "Połączono. Twój program partnerski to %s."
@@ -240,6 +363,252 @@ msgstr "Identyfikator usługi"
 msgid "Nothing provisioned for this order."
 msgstr "Brak udostępnionych zasobów dla tego zamówienia."
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Zapisano. Wpisz nową wartość, aby ją zastąpić."
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Filtruj tę listę…"
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Filtruj tę listę"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Brak wyników dla tego filtra."
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "Dodaj wiersz"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Usuń ten wiersz"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "Usuń"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — przegląd"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "Przegląd"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Każda wtyczka Zinn® na tej stronie oraz informacja o tym, czy działa."
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Do tej wtyczki nie jest wymagane połączenie internetowe."
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "Otwórz ustawienia"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Nie masz uprawnień do zmiany tych ustawień."
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Sekcje ustawień"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "Pomoc"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "Narzędzia"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "Eksportuj ustawienia"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Przywróć domyślne"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "To przywróci wszystkie ustawienia tej wtyczki do wartości domyślnych. Kontynuować?"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Diagnostyka dla wsparcia"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Zaimportuj plik ustawień"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "Importuj"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Eksportowane pliki nigdy nie zawierają haseł, tokenów ani kluczy API – będziesz musiał wprowadzić je ponownie w nowej witrynie."
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Zapisano ustawienia."
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Wszystkie ustawienia tej wtyczki zostały przywrócone do wartości domyślnych."
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "Gotowe."
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Ta czynność jest niedostępna."
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Nie można odczytać tego pliku. Wybierz plik ustawień wyeksportowany z wtyczki Zinn®."
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Ten plik jest za duży, aby móc stanowić eksport ustawień."
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Ten plik nie jest eksportem ustawień Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Plik ten został wyeksportowany z innej wtyczki (%s), więc jego import tutaj spowoduje zapisanie ustawień, których ta wtyczka nie obsługuje."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Zaimportowano %d ustawienie. Hasła i klucze API nigdy nie są eksportowane, dlatego należy wprowadzić je ponownie."
+msgstr[1] "Zaimportowano ustawień: %d. Hasła i klucze API nigdy nie są uwzględniane w eksportach, dlatego należy wprowadzić je ponownie."
+msgstr[2] "Zaimportowano ustawień: %d. Hasła i klucze API nigdy nie są uwzględniane w eksportach, dlatego należy wprowadzić je ponownie."
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "Połączono"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "Łączenie…"
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Połączono, ale wymagana jest uwaga"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "Niepodłączono"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "Działanie na własnym koncie"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "Nie mogliśmy tego sprawdzić"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Ta wtyczka nie podała powodu. Wyślij raport diagnostyczny, a my to sprawdzimy."
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "Status połączenia"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Ostatnio sprawdzono %s temu."
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(otwiera się w nowej karcie)"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Wyślij to do pomocy technicznej Zinn®"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Dokładnie to zostanie wysłane — nic więcej i nic ukrytego. Twoje hasła, tokeny i klucze API nie znajdują się w tym."
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Raport diagnostyczny, który zostanie wysłany"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Skopiuj do schowka"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Wyślij ten raport do pomocy technicznej Zinn®"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Otwieramy dla Państwa zgłoszenie do pomocy technicznej i odpowiadamy na nie pocztą elektroniczną. Jeśli wolą Państwo go nie wysyłać, proszę skopiować je powyżej i wkleić do zgłoszenia samodzielnie."
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "Skopiowano"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Nie mogliśmy połączyć się z Zinn Digital® z tego serwera (%s). Skopiuj powyższy raport i zamiast tego otwórz zgłoszenie — w Twoich ustawieniach nie ma żadnego błędu."
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Wsparcie Zinn® otrzymało Twoje zgłoszenie i odpowie e-mailowo."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Dział wsparcia Zinn® otrzymał Twoje zgłoszenie (numer referencyjny %s) i odpowie w wiadomości e-mail."
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Wysłano kilka zgłoszeń w krótkim czasie. Odczekaj kilka minut i spróbuj ponownie – poprzednie dotarły."
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® nie mógł teraz przyjąć zgłoszenia — to problem po naszej stronie, nie Twojej. Spróbuj ponownie za chwilę lub skopiuj powyższe zgłoszenie do biletu."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Odrzucono raport (HTTP %d). Skopiuj go powyżej i otwórz zgłoszenie, podając ten numer."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +653,22 @@ msgstr "Zinn Hub® — zatrudnij specjalistów, którzy się tym zajmują na co 
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Nasz globalny rynek zleceniobiorców: przeglądaj ponad 10 000 gotowych usług od pisarzy, projektantów, programistów i specjalistów SEO lub opublikuj projekt i pozwól im licytować."
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "Gotowy styl"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Punkt wyjścia. Wszystko poniżej ma wyższy priorytet."
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Użyj własnych kolorów i rozmiarów"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Wyłącz to, a preset zostanie użyty dokładnie w takiej formie, w jakiej jest."
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."

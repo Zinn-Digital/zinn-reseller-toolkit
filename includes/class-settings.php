@@ -39,7 +39,10 @@ class Settings {
 	 * @return void
 	 */
 	public static function register(): void {
-		add_action( 'admin_menu', array( __CLASS__, 'add_menu' ) );
+		// ⛔⛔ ON `init`, NOT `plugins_loaded` — WordPress 6.7 raises *"Translation loading …
+		// triggered too early"* for any `__()` before `init`, and a settings page is
+		// translated labels by construction. Measured on WordPress 7.1.
+		add_action( 'init', array( __CLASS__, 'declare_page' ), 5 );
 		add_action( 'admin_init', array( __CLASS__, 'register_setting' ) );
 		add_filter(
 			'plugin_action_links_' . plugin_basename( dirname( __DIR__ ) . '/zinn-reseller.php' ),
@@ -84,18 +87,329 @@ class Settings {
 		return (string) self::get()['api_key'];
 	}
 
+	/*
+	 * ⛔⛔ THE OLD `Settings →` SCREEN IS DELETED, NOT LEFT IN PLACE. ⚖️ The owner ruled on
+	 * 2026-09-08 that every plugin lives under ONE `Zinn Digital®` menu, so `add_menu()` and
+	 * the screen it pointed at were no longer hooked by anything — and a settings screen that
+	 * still compiles, still reads the same option and can never be reached is the worst kind
+	 * of dead code: the next person to change a field changes it in the copy nobody sees.
+	 * The live declaration is `declare_page()`.
+	 *
+	 * ⛔ `register_settings()` / `register_setting()` SURVIVES and must. It is what makes
+	 * `sanitize_option_{$option}` fire on the framework's own `update_option`, so the plugin's
+	 * own normaliser still guards every write. Deleting it alongside the screen would have
+	 * removed a control while removing something that looked like the same thing.
+	 */
+
+
 	/**
-	 * Add the settings page under Settings.
+	 * Declare the screen through the shared Zinn settings framework.
+	 *
+	 * ⚖️ **Owner ruling, 2026-09-08: ONE top-level `Zinn` menu**, and *"customisable options
+	 * and styling optiins etc also where needed"*. This plugin renders on a reseller's public
+	 * pages, so it is one of the two that genuinely needed the styling half.
 	 *
 	 * @return void
 	 */
-	public static function add_menu(): void {
-		add_options_page(
-			__( 'Zinn® Reseller Toolkit', 'zinn-reseller' ),
-			__( 'Zinn® Reseller', 'zinn-reseller' ),
-			'manage_options',
-			'zinn-reseller',
-			array( __CLASS__, 'render' )
+	public static function declare_page(): void {
+		\Zinn_Reseller_Style_Presets::register( self::style_component() );
+
+		\Zinn_Reseller_Admin_UI::register(
+			array(
+				'title'      => __( 'Reseller Toolkit', 'zinn-reseller' ),
+				'option'     => ZINN_RESELLER_OPTION,
+				'position'   => 30,
+				'connection' => array( __CLASS__, 'status' ),
+				'tabs'       => array(
+					'account'  => array(
+						'title'  => __( 'Account', 'zinn-reseller' ),
+						'fields' => array( __CLASS__, 'account_fields' ),
+					),
+					'features' => array(
+						'title'  => __( 'Features', 'zinn-reseller' ),
+						'fields' => array( __CLASS__, 'feature_fields' ),
+					),
+					'styling'  => array(
+						'title'  => __( 'Styling', 'zinn-reseller' ),
+						'fields' => array( __CLASS__, 'styling_fields' ),
+					),
+				),
+			)
+		);
+	}
+
+	/**
+	 * Where this reseller's account lives, and the key that reaches it.
+	 *
+	 * @return array<int, array<string, mixed>>
+	 */
+	public static function account_fields(): array {
+		return array(
+			array(
+				'type'        => 'heading',
+				'label'       => __( 'Your Zinn Digital® reseller account', 'zinn-reseller' ),
+				'description' => __( 'Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here.', 'zinn-reseller' ),
+			),
+			array(
+				'key'         => 'api_key',
+				'type'        => 'password',
+				'secret'      => true,
+				'label'       => __( 'Reseller API key', 'zinn-reseller' ),
+				'description' => __( 'Held on this site only, and never included in an export or a diagnostics report.', 'zinn-reseller' ),
+				'default'     => '',
+			),
+			array(
+				'key'         => 'plan_code',
+				'type'        => 'text',
+				'label'       => __( 'Plan to provision', 'zinn-reseller' ),
+				'description' => __( 'The plan code new customers are put on. Leave blank to be asked each time.', 'zinn-reseller' ),
+				'default'     => '',
+			),
+			array(
+				'key'         => 'api_base',
+				'type'        => 'url',
+				'label'       => __( 'API address', 'zinn-reseller' ),
+				'description' => __( 'Leave this alone unless Zinn® support has asked you to change it.', 'zinn-reseller' ),
+				'default'     => self::DEFAULTS['api_base'],
+			),
+			array(
+				'key'         => 'panel_base',
+				'type'        => 'url',
+				'label'       => __( 'Control-panel address', 'zinn-reseller' ),
+				'description' => __( 'Where the “My hosting” link sends your customers.', 'zinn-reseller' ),
+				'default'     => self::DEFAULTS['panel_base'],
+			),
+		);
+	}
+
+	/**
+	 * Which parts of the toolkit are switched on.
+	 *
+	 * @return array<int, array<string, mixed>>
+	 */
+	public static function feature_fields(): array {
+		return array(
+			array(
+				'key'            => 'enable_domain_search',
+				'type'           => 'toggle',
+				'label'          => __( 'Domain search', 'zinn-reseller' ),
+				'checkbox_label' => __( 'Provide the [zinn_domain_search] shortcode', 'zinn-reseller' ),
+				'description'    => __( 'Put the shortcode on any page to let visitors check a domain and buy it through you.', 'zinn-reseller' ),
+				'default'        => false,
+			),
+			array(
+				'key'            => 'enable_panel_link',
+				'type'           => 'toggle',
+				'label'          => __( 'Panel link', 'zinn-reseller' ),
+				'checkbox_label' => __( 'Show a “My hosting” link to signed-in customers', 'zinn-reseller' ),
+				'default'        => false,
+			),
+			array(
+				'key'            => 'enable_woocommerce',
+				'type'           => 'toggle',
+				'label'          => __( 'WooCommerce provisioning', 'zinn-reseller' ),
+				'checkbox_label' => __( 'Provision hosting automatically when a WooCommerce order completes', 'zinn-reseller' ),
+				'description'    => __( 'Only takes effect on orders containing a product you have mapped to a Zinn® plan.', 'zinn-reseller' ),
+				'default'        => false,
+			),
+		);
+	}
+
+	/**
+	 * How the domain-search widget looks on the reseller's own site.
+	 *
+	 * @return array<int, array<string, mixed>>
+	 */
+	public static function styling_fields(): array {
+		return array_merge(
+			array(
+				array(
+					'type'        => 'heading',
+					'label'       => __( 'Domain search appearance', 'zinn-reseller' ),
+					'description' => __( 'This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours.', 'zinn-reseller' ),
+				),
+			),
+			\Zinn_Reseller_Style_Presets::fields( 'domain-search' ),
+			array(
+				array(
+					'type'  => 'notice',
+					'kind'  => 'info',
+					'label' => __( 'Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover.', 'zinn-reseller' ),
+				),
+			)
+		);
+	}
+
+	/**
+	 * The domain-search widget's presets and design tokens.
+	 *
+	 * @return array<string, mixed>
+	 */
+	private static function style_component(): array {
+		return array(
+			'id'       => 'domain-search',
+			'selector' => '.zinn-domain-search, .zinn-domain-results',
+			'presets'  => array(
+				'theme'    => array(
+					'label'  => __( 'Follow my theme', 'zinn-reseller' ),
+					'tokens' => array(
+						'accent'     => 'inherit',
+						'text'       => 'inherit',
+						'available'  => '#008a20',
+						'unknown'    => '#996800',
+						'error'      => '#b32d2e',
+						'rule'       => 'rgba(0,0,0,0.1)',
+						'gap'        => '0.5rem',
+						'rowpad'     => '0.6rem',
+						'radius'     => '0',
+						'nameweight' => '600',
+						'fontsize'   => 'inherit',
+					),
+				),
+				'soft'     => array(
+					'label'  => __( 'Soft', 'zinn-reseller' ),
+					'tokens' => array(
+						'accent'     => '#2563eb',
+						'text'       => '#111827',
+						'available'  => '#047857',
+						'unknown'    => '#b45309',
+						'error'      => '#b91c1c',
+						'rule'       => 'rgba(0,0,0,0.06)',
+						'gap'        => '0.75rem',
+						'rowpad'     => '0.9rem',
+						'radius'     => '8px',
+						'nameweight' => '600',
+						'fontsize'   => '1rem',
+					),
+				),
+				'contrast' => array(
+					'label'  => __( 'High contrast', 'zinn-reseller' ),
+					'tokens' => array(
+						'accent'     => '#0000ee',
+						'text'       => '#000000',
+						'available'  => '#006400',
+						'unknown'    => '#8b4500',
+						'error'      => '#a10000',
+						'rule'       => 'rgba(0,0,0,0.45)',
+						'gap'        => '0.75rem',
+						'rowpad'     => '0.8rem',
+						'radius'     => '0',
+						'nameweight' => '700',
+						'fontsize'   => '1.05rem',
+					),
+				),
+				'compact'  => array(
+					'label'  => __( 'Compact', 'zinn-reseller' ),
+					'tokens' => array(
+						'accent'     => 'inherit',
+						'text'       => 'inherit',
+						'available'  => '#008a20',
+						'unknown'    => '#996800',
+						'error'      => '#b32d2e',
+						'rule'       => 'rgba(0,0,0,0.08)',
+						'gap'        => '0.35rem',
+						'rowpad'     => '0.35rem',
+						'radius'     => '0',
+						'nameweight' => '600',
+						'fontsize'   => '0.9rem',
+					),
+				),
+			),
+			'tokens'   => array(
+				'accent'     => array(
+					'type'  => 'color',
+					'label' => __( 'Buy-link colour', 'zinn-reseller' ),
+				),
+				'available'  => array(
+					'type'  => 'color',
+					'label' => __( '“Available” colour', 'zinn-reseller' ),
+				),
+				'unknown'    => array(
+					'type'  => 'color',
+					'label' => __( '“Could not check” colour', 'zinn-reseller' ),
+				),
+				'error'      => array(
+					'type'  => 'color',
+					'label' => __( 'Error colour', 'zinn-reseller' ),
+				),
+				'radius'     => array(
+					'type'  => 'text',
+					'label' => __( 'Corner rounding', 'zinn-reseller' ),
+				),
+				'rowpad'     => array(
+					'type'  => 'text',
+					'label' => __( 'Space inside each row', 'zinn-reseller' ),
+				),
+				'fontsize'   => array(
+					'type'  => 'text',
+					'label' => __( 'Text size', 'zinn-reseller' ),
+				),
+				'nameweight' => array(
+					'type'  => 'text',
+					'label' => __( 'Domain-name weight', 'zinn-reseller' ),
+				),
+			),
+		);
+	}
+
+	/**
+	 * Whether the toolkit can reach the reseller's Zinn® account.
+	 *
+	 * ⛔⛔ **THE STATES ARE DIFFERENT ANSWERS AND ARE NOT COLLAPSED (§2.57).** "No key yet",
+	 * "the key was refused" and "we could not reach us" send the reader to three different
+	 * places, and only one of them is something they can fix by typing.
+	 *
+	 * @return array<string, mixed>
+	 */
+	public static function status(): array {
+		$settings = self::get();
+
+		if ( '' === (string) $settings['api_key'] ) {
+			return array(
+				'state'   => 'disconnected',
+				'summary' => __( 'No reseller API key yet.', 'zinn-reseller' ),
+				'reason'  => __( 'Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys.', 'zinn-reseller' ),
+				'action'  => array(
+					'label' => __( 'Open my Zinn® dashboard', 'zinn-reseller' ),
+					'url'   => rtrim( (string) $settings['panel_base'], '/' ) . '/settings/api-keys',
+					'style' => 'primary',
+				),
+			);
+		}
+
+		$enabled = array_filter(
+			array(
+				'enable_domain_search' => $settings['enable_domain_search'],
+				'enable_panel_link'    => $settings['enable_panel_link'],
+				'enable_woocommerce'   => $settings['enable_woocommerce'],
+			)
+		);
+
+		if ( array() === $enabled ) {
+			return array(
+				'state'   => 'degraded',
+				'summary' => __( 'A key is set, but nothing is switched on.', 'zinn-reseller' ),
+				'reason'  => __( 'None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features.', 'zinn-reseller' ),
+				'action'  => array(
+					'label' => __( 'Open Features', 'zinn-reseller' ),
+					'url'   => \Zinn_Reseller_Admin_UI::page_url( 'features' ),
+				),
+			);
+		}
+
+		return array(
+			'state'   => 'connected',
+			'summary' => sprintf(
+				/* translators: %d: how many toolkit features are switched on. */
+				_n( 'Ready — %d feature switched on.', 'Ready — %d features switched on.', count( $enabled ), 'zinn-reseller' ),
+				count( $enabled )
+			),
+			'details' => array(
+				array(
+					'label' => __( 'Selling from', 'zinn-reseller' ),
+					'value' => (string) $settings['panel_base'],
+				),
+			),
 		);
 	}
 
@@ -144,7 +458,7 @@ class Settings {
 	 */
 	public static function sanitize( $input ): array {
 		$input = is_array( $input ) ? $input : array();
-		return array(
+		$clean = array(
 			'api_base'             => esc_url_raw( (string) ( $input['api_base'] ?? self::DEFAULTS['api_base'] ) ),
 			'panel_base'           => esc_url_raw( (string) ( $input['panel_base'] ?? self::DEFAULTS['panel_base'] ) ),
 			'api_key'              => trim( (string) ( $input['api_key'] ?? '' ) ),
@@ -153,187 +467,25 @@ class Settings {
 			'enable_panel_link'    => ! empty( $input['enable_panel_link'] ),
 			'enable_woocommerce'   => ! empty( $input['enable_woocommerce'] ),
 		);
+
+		// ⛔⛔ **THE STYLING KEYS MUST SURVIVE THIS FUNCTION.** It is `register_setting`'s
+		// `sanitize_callback`, so it runs on EVERY `update_option` for this option —
+		// including the shared framework's. Rebuilding the array from a fixed list alone
+		// deleted the reseller's chosen preset and colours the moment anything else was
+		// saved: the widget would quietly go back to its defaults with nothing red anywhere
+		// (§2.44). They are already sanitised by the framework, by declared type, and are
+		// re-sanitised here rather than trusted because this function is reachable from
+		// `options.php` as well.
+		foreach ( $input as $key => $value ) {
+			if ( 0 !== strpos( (string) $key, 'style_' ) ) {
+				continue;
+			}
+			$clean[ (string) $key ] = is_bool( $value ) ? $value : sanitize_text_field( (string) $value );
+		}
+
+		return $clean;
 	}
 
-	/**
-	 * Render the settings screen.
-	 *
-	 * @return void
-	 */
-	public static function render(): void {
-		if ( ! current_user_can( 'manage_options' ) ) {
-			return;
-		}
-		$settings = self::get();
-		?>
-		<div class="wrap">
-			<h1><?php echo esc_html__( 'Zinn® Reseller Toolkit', 'zinn-reseller' ); ?></h1>
-			<p>
-				<?php
-				echo esc_html__(
-					'Connect this site to your Zinn® reseller account, then switch on only the parts you need.',
-					'zinn-reseller'
-				);
-				?>
-			</p>
-			<form method="post" action="options.php">
-				<?php settings_fields( 'zinn_reseller' ); ?>
-				<table class="form-table" role="presentation">
-					<tr>
-						<th scope="row">
-							<label for="zinn-reseller-key"><?php echo esc_html__( 'API key', 'zinn-reseller' ); ?></label>
-						</th>
-						<td>
-							<input
-								type="password"
-								class="regular-text"
-								id="zinn-reseller-key"
-								name="<?php echo esc_attr( ZINN_RESELLER_OPTION ); ?>[api_key]"
-								value="<?php echo esc_attr( (string) $settings['api_key'] ); ?>"
-								autocomplete="off"
-							/>
-							<p class="description">
-								<?php
-								echo esc_html__(
-									'Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need.',
-									'zinn-reseller'
-								);
-								?>
-							</p>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="zinn-reseller-api-base"><?php echo esc_html__( 'API address', 'zinn-reseller' ); ?></label>
-						</th>
-						<td>
-							<input
-								type="url"
-								class="regular-text code"
-								id="zinn-reseller-api-base"
-								name="<?php echo esc_attr( ZINN_RESELLER_OPTION ); ?>[api_base]"
-								value="<?php echo esc_attr( (string) $settings['api_base'] ); ?>"
-							/>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="zinn-reseller-panel-base"><?php echo esc_html__( 'Panel address', 'zinn-reseller' ); ?></label>
-						</th>
-						<td>
-							<input
-								type="url"
-								class="regular-text code"
-								id="zinn-reseller-panel-base"
-								name="<?php echo esc_attr( ZINN_RESELLER_OPTION ); ?>[panel_base]"
-								value="<?php echo esc_attr( (string) $settings['panel_base'] ); ?>"
-							/>
-							<p class="description">
-								<?php
-								echo esc_html__(
-									'Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all.',
-									'zinn-reseller'
-								);
-								?>
-							</p>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row"><?php echo esc_html__( 'Modules', 'zinn-reseller' ); ?></th>
-						<td>
-							<fieldset>
-								<label>
-									<input
-										type="checkbox"
-										name="<?php echo esc_attr( ZINN_RESELLER_OPTION ); ?>[enable_domain_search]"
-										value="1"
-										<?php checked( ! empty( $settings['enable_domain_search'] ) ); ?>
-									/>
-									<?php
-									echo esc_html__(
-										'Domain search — the [zinn_domain_search] shortcode, priced from your own domain account.',
-										'zinn-reseller'
-									);
-									?>
-								</label><br />
-								<label>
-									<input
-										type="checkbox"
-										name="<?php echo esc_attr( ZINN_RESELLER_OPTION ); ?>[enable_panel_link]"
-										value="1"
-										<?php checked( ! empty( $settings['enable_panel_link'] ) ); ?>
-									/>
-									<?php
-									echo esc_html__(
-										'Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting.',
-										'zinn-reseller'
-									);
-									?>
-								</label><br />
-								<label>
-									<input
-										type="checkbox"
-										name="<?php echo esc_attr( ZINN_RESELLER_OPTION ); ?>[enable_woocommerce]"
-										value="1"
-										<?php checked( ! empty( $settings['enable_woocommerce'] ) ); ?>
-									/>
-									<?php
-									echo esc_html__(
-										'WooCommerce — provision hosting automatically when an order is paid.',
-										'zinn-reseller'
-									);
-									?>
-								</label>
-								<?php if ( ! empty( $settings['enable_woocommerce'] ) && ! class_exists( 'WooCommerce' ) ) : ?>
-									<p class="description" style="color:#b32d2e">
-										<?php
-										echo esc_html__(
-											'WooCommerce is not active on this site, so this module is doing nothing.',
-											'zinn-reseller'
-										);
-										?>
-									</p>
-								<?php endif; ?>
-							</fieldset>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="zinn-reseller-plan"><?php echo esc_html__( 'Default plan code', 'zinn-reseller' ); ?></label>
-						</th>
-						<td>
-							<input
-								type="text"
-								class="regular-text code"
-								id="zinn-reseller-plan"
-								name="<?php echo esc_attr( ZINN_RESELLER_OPTION ); ?>[plan_code]"
-								value="<?php echo esc_attr( (string) $settings['plan_code'] ); ?>"
-							/>
-							<p class="description">
-								<?php
-								echo esc_html__(
-									'Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory.',
-									'zinn-reseller'
-								);
-								?>
-							</p>
-						</td>
-					</tr>
-				</table>
-				<?php submit_button(); ?>
-			</form>
-			<h2><?php echo esc_html__( 'Connection', 'zinn-reseller' ); ?></h2>
-			<?php self::render_status(); ?>
-			<?php
-			// ⛔⛔ AT THE BOTTOM OF THE SCREEN, INSIDE `.wrap`, BELOW THE CONTROLS — NEVER ABOVE
-			// THEM. Somebody who opened a settings screen came to change a setting. A promotion
-			// that pushes the thing they came for below the fold is the "disruptive upselling"
-			// a WordPress.org reviewer rejects, and it would deserve it.
-			\Zinn_Reseller_Promo::render_panel();
-			?>
-		</div>
-		<?php
-	}
 
 	/**
 	 * Show whether the key actually works, by making a real call.

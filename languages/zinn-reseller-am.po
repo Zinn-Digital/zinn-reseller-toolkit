@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,206 @@ msgstr "ይህ መለያ ገና ከማስተናገጃ አገልግሎት ጋር 
 msgid "The hosting platform did not return a sign-in link."
 msgstr "የማስተናገጃ መድረኩ የመግቢያ አገናኝ አልመለሰም።"
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Zinn® ሪሴለር"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "የዳግም ሻጭ መሣሪያ ስብስብ"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "መለያ"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "ቅንብሮች"
+msgid "Features"
+msgstr "ባህሪያት"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "ይህንን ድረ-ገጽ ከእርስዎ የ Zinn® ሻጭ መለያ ጋር ያገናኙት፣ ከዚያም የሚፈልጓቸውን ክፍሎች ብቻ ያብሩ።"
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "ቅድበ - አቀረራረፅ (Styling)"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "የኤፒአይ ቁልፍ"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "የእርስዎ የZinn Digital® ሻጭ መለያ"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "በAPI ቁልፎች ስር ባለው የZinn® ዳሽቦርድዎ ውስጥ አንድ ይፍጠሩ። ከዚህ በታች ያሉ የሚፈልጓቸውን ፈቃዶች ብቻ ይስጡት።"
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "በ Zinn® ዳሽቦርድዎ ስር በቅንብሮች → የኤፒአይ ቁልፎች ስር የእንደሻጭ ኤፒአይ ቁልፍ ይፍጠሩ እና እዚህ ይለጥፉት።"
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "የዳግም ሻጭ (Reseller) ኤፒአይ (API) ቁልፍ"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "በዚህ ድር ጣቢያ ላይ ብቻ የተያዘ፣ እና በምንም መልኩ ወደ ውጪ መላክ (exporting) ወይም የምርመራ ሪፖርት ላይ የማይካተት።"
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "ለማቋቋም የታቀደ እቅድ"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "አዲስ ደንበኞች የሚመደቡበት የፕላን ኮድ። በእያንዳንዱ ጊዜ እንዲጠየቁ ባዶውን ይተውት።"
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "የኤፒአይ አድራሻ"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "የፓነል አድራሻ"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "የZinn® ድጋፍ ቡድን እንዲቀይሩት ካልጠየቆት በስተቀር ይህን ይተውት።"
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "ደንበኞችዎ ማስተናገጃቸውን እንዲያስተዳድሩ የሚላኩበት ቦታ። በዳግም መሸጥ (Reselling) → የእርስዎ ብራንድ (Your brand) ስር የፓነል አስተናጋጅ ስም (hostname) ካዘጋጁ፣ እዚህ ያስገቡት - በዚህ ጊዜ ደንበኞችዎ የእኛን አድራሻ ፈጽሞ አያዩም።"
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "የመቆጣጠሪያ ፓናል አድራሻ"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "ሞጁሎች"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "ደንበኞችዎ “የእኔ አስተናጋጅ” (My hosting) የሚለውን ሊንክ ሲጫኑ የሚሄዱበት ቦታ።"
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "የዶሜይን ፍለጋ — በገዛ ዶሜይን መለያዎ ዋጋ የተተመነው የ[zinn_domain_search] አጭር ኮድ (shortcode)።"
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "የዶሜይን ፍለጋ"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "የፓነል አገናኝ — [zinn_panel_link] አጭር ኮድ የገቡ ደንበኞችን ወደ ማስተናገጃቸው ያስገባቸዋል።"
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "[zinn_domain_search] አጭር ኮድ (shortcode) ያቅርቡ"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — ትዕዛዙ ሲከፈል አስተናጋጅ በራስ-ሰር ያዘጋጁ።"
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "ጎብኚዎች ዶሜይን አረጋግጠው በእርስዎ በኩል እንዲገዙ ለማድረግ አጭር ኮዱን በማንኛውም ገጽ ላይ ያስቀምጡ።"
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "WooCommerce በዚህ ድረ-ገጽ ላይ ገቢር አይደለም፣ ስለዚህ ይህ ሞጁል ምንም እየሰራ አይደለም።"
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "የፓነል አገናኝ"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "የገቡ ደንበኞች “የእኔ አስተናጋጅ” አገናኝ እንዲያዩ አድርግ"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "የWooCommerce ዝግጅት"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "የWooCommerce ትዕዛዝ ሲጠናቀቅ አስተናጋጅ አገልግሎትን በራስ-ሰር ያዘጋጁ"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "ተግባራዊ የሚሆነው ከZinn® እቅድ ጋር ያገናኘᲗው ምርት ባለባቸው ትዕዛዞች ላይ ብቻ ነው።"
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "የዶሜይን ፍለጋ ገጽታ"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "ይህ ዊጄት በራስዎ ጭብጥ (theme) ውስጥ ይታያል። አስቀድሞ የተዘጋጀን ይምረጡ፣ ወይም የራስዎን ቀለሞች ያዋቅሩ — በሁለቱም መንገድ ጎብኚዎች የእኛ እንደሆነ ሊለዩት የሚችሉት ምንም ነገር ወደ ገጾችዎ አይጨመርም።"
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "ዊጀቱ የሚጠቀመው እያንዳንዱ ክላስ በፕለጊኑ readme ውስጥ ተዘርዝሯል፣ ስለዚህ አልሚው ቅድመ-ማስተካከያው ያላካተተውን ማንኛውንም ነገር በላዩ ላይ መፃፍ (override) ይችላል።"
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "የእኔን ጭብጥ ተከተል"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "ለስላሳ"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "ከፍተኛ ንፅፅር"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "ነባሪ የዕቅድ መመሪያ ኮድ"
+msgid "Compact"
+msgstr "የታመቀ"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "የራሱን ዕቅድ የማይሰይም ለWooCommerce ምርት ያገለግላል። በዕቃ ዝርዝር (Inventory) ስር በራሱ በምርቱ ላይ ለእያንዳንዱ ምርት የሚሆን ዕቅድ ያዘጋጁ።"
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "የግዢ አገናኝ ቀለም"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "ግንኙነት"
+msgid "“Available” colour"
+msgstr "«የሚገኝ» ቀለም"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "“ሊchecked ሊደረግ አልቻለም” ቀለም"
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "የስህተት ቀለም"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "የማዕዘን መክበብ"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "በእያንዳንዱ ረድፍ ውስጥ ያለው ክፍተት"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "የጽሑፍ መጠን"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "የዶሜን ስም ሚዛን"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "تر እስካሁን ምንም የዳግም ሻጭ (reseller) API ቁልፍ የለም።"
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "ቁልፍ እስኪቀመጥ ድረስ እዚህ ምንም ነገር አይሰራም። በZinn® ዳሽዎርድዎ ስር በቅንብሮች → API ቁልፍ ስር ይፍጠሩ።"
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "የእኔን የ Zinn® ዳሽቦርድ ክፈት"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "ቁልፍ ተቀናብሯል፣ ግን ምንም ነገር አልበራም።"
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "ሦስቱ ባህሪያት አንዱም አልነቃም፣ ስለዚህ ይህ ተሰኪ በድር ጣቢያዎ ላይ ምንም እየሰራ አይደለም። ከባህሪዎች ስር የሚያስፈልግዎትን ያብሩ።"
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "ክፈቱ ባህሪያትን"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "ዝግጁ — %d ባህሪ በርቷል።"
+msgstr[1] "ዝግጁ — %d ዋና ዋና ባህሪያት በርተዋል።"
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "ከየት መሸጥ"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "ቅንብሮች"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "እስካሁን ምንም የኤፒአይ ቁልፍ የለም፣ ስለዚህ ምንም ነገር አልተገናኘም።"
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "የተገናኘ አይደለም፡ %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "ተገናኝቷል። የእርስዎ ሻጭ (ሪሴለር) ፕሮግራም %s ነው።"
@@ -240,6 +362,251 @@ msgstr "የአገልግሎት መለያ ቁጥር"
 msgid "Nothing provisioned for this order."
 msgstr "ለዚህ ትዕዛዝ ምንም ነገር አልተዘጋጀም።"
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "ተቀምጧል። ለመተካት አዲስ እሴት ይተይቡ።"
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "ይህንን ዝርዝር አጣራ…"
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "ይህንን ዝርዝር አጣራ"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "ከዚህ ማጣሪያ ጋር የሚዛመድ ምንም ነገር የለም።"
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "ረድፍ አክል"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "ይህንን ረድፍ አስወግድ"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "አስወግድ"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — አጠቃላይ እይታ"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "አጠቃላይ እይታ"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "በዚህድህ ገጽ ላይ ያለ እያንዳንዱ የZinn® ተሰኪ (plugin) እና እየሰራ መሆኑን።"
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "ለዚህ ተሰኪ (ፕለጊን) ምንምግኙነት አያስፈልግም።"
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "ቅንብሮችን ክፈት"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "እነዚህን ቅንብሮች ለመቀየር ፈቃድ የለዎትም።"
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "የቅንብር ክፍሎች"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "ድጋፍ"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "ለውጦችን አስቀምጥ"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "መሳሪያዎች"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "የቅንብሮች ኤክስፖርት ማድረጊያ"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "ወደ ነባሪዎች መልስ"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "ይህ የዚህን ፕለጊን እያንዳንዱ ማስተካከያ ወደነበረበት ይመልሰዋል። መቀጠል ይፈልጋሉ?"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "ለድጋፍ መመርመሪያዎች"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "የቅንብሮች ፋይል አስገባ"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "አስገባ"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "exported የተደረጉ ፋይሎች ποτέ passwörds, tokens ወይም API keys አያይዙም — በአዲሱ  سایټ ላይ እነዚያን እንደገና ማስገባት ይኖርብዎታል።"
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "ቅንብሮች ተቀምጠዋል።"
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "በዚህ ተሰኪ ላይ ያሉ ሁሉም መቼቶች ወደ ነባሪው ተመልሰዋል።"
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "ተጠናቋል።"
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "ይህ እርምጃ አይገኝም።"
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "የዚያን ፋይል ማንበብ አልተቻለም። ከ Zinn® ተሰኪ የወጣውን የማዋቀሪያ ፋይል ይምረጡ።"
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "ይህ ፋይል የቅንብሮች ኤክስፖርት ለመሆን በጣም ትልቅ ነው።"
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "ያ ፋይል የ Zinn® መቼቶች ማዕቀብ አይደለም።"
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "የዚያ ፋይል የተላከው ከሌላ ተሰኪ (%s) ስለሆነ፣ እዚህ ማስገባት ይህ ተሰኪ ሊረዳቸው የማይችሉ ቅንብሮችን ያስቀምጣል።"
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d ቅንብር ገብቷል። የይለፍ ቃሎች እና የ API ቁልፎች በወጪ ውሂብ ውስጥ በፍጹም ስለማይካተቱ፣ እባክዎ እነሱን እንደገና ያስገቡ።"
+msgstr[1] "%d ቅንብሮች ገብተዋል። የይለፍ ቃሎች እና የAPI ቁልፎች ወደ ውጭ በሚላከው ፋይል ውስጥ ስለማይካተቱ፣ እባክዎ እንደገና ያስገቧቸው።"
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "የተገናኘ"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "በማገናኘት ላይ…"
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "ተገናኝቷል፣ ግን ትኩረት የሚሻ ነገር አለ"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "የተቋረጠው"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "በራስዎ መለያ እየሰራ ነው"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "ይህንን ማረጋገጥ አልቻልንም"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "ይህ ፕለጊን ለምን እንደሆነ አልገለጸም። የምርመራ ሪፖርት ይላኩ እና እናየዋለን።"
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "የግንኙነት ሁኔታ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "ለመጨረሻ ጊዜ የተጣራው ከ%s በፊት ነው።"
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(በአዲስ ትር ይከፈታል)"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "ይህንን ለZinn® የድጋፍ ቡድን ይላኩ"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "ልክ የሚላከው ይህ ነው — ሌላ ምንም ነገር የለም፣ የተደበቀም የለም። የእርስዎ የይለፍ ቃሎች፣ ቶከኖች (tokens) እና የኤፒአይ ቁልፎች (API keys) በውስጡ የሉም።"
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "የሚላከው የምርመራ ሪፖርት"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "ወደ ክሊፕቦርድ ቅዳ"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "ይህንን ሪፖርት ወደ Zinn® የድጋፍ ቡድን ይላኩ"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "የድጋፍ ትኬት ከፍተን በኢሜይል እንመልስልዎታለን። መላክ ካልፈለጉ፣ ከላይ ገልብጠው እርስዎኑ በቲኬት ውስጥ ይለጥፉት።"
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "ተገልብጧል"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "ከዚህ አገልጋይ (%s) Zinn Digital® መድረስ አልቻልንም። የላይኛውን ሪፖርት ይቅዱ እና በምትኩ ቲኬት ይክፈቱ — ስለ ቅንብሮችዎ የተሳሳተ ነገር የለም።"
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "የተላከው። የZinn® ድጋፍ ሪፖርትዎን ደርሶታል እና በኢሜይል ይመልሳል።"
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "የ Zinn® ድጋፍ ቡድን ሪፖርትዎን ደርሶታል — መለያ ቁጥር %s — እና በኢሜይል መልስ ይሰጣል።"
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "በአጭር ጊዜ ውስጥ ብዙ ሪፖርቶችን ልከዋል። እባክዎ ጥቂት ደቂቃዎች ጠብቀው እንደገና ይሞክሩ፤ ቀደም ሲል የላኳቸው ደርሰዋል።"
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® አሁን ሪፖርቱን መቀበል አልቻለም — ችግሩ ከእኛ በኩል ነው፣ ከእርስዎ አይደለም። እባክዎ ትንሽ ቆይተው እንደገና ይሞክሩ፣ ወይም ከላይ ያለውን ሪፖርት ወደቲኬት (ticket) ይቅዱ።"
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "ርፖርቱ ተቀባይነት አላገኘም (HTTP %d)። ከላይ ይቅዱትና ቁጥሩን በመጥቀስ ቲኬት ይክፈቱ።"
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +651,22 @@ msgstr "Zinn Hub® — ይህንን በስራቸው ለሚያደርጉ ሰዎች
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "የglobal ነፃ ባለሙያዎች ገበያችን፡ ከጸሐፊዎች፣ ዲዛይነሮች፣ ገንቢዎች እና የSEO ባለሙያዎች ከ10,000 በላይ ዝግጁ አገልግሎቶችን ያስሱ፣ ወይም ፕሮጀክት ይለጥፉ እና ጨረታ እንዲያቀርቡ ያድርጉ።"
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "የቅጥ ቅንብር"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "መነሻ ነጥብ። ከዚህ በታች ያለው ማንኛውም ነገር ይሽረዋል።"
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "የራሴን ቀለሞች እና መጠኖች ተጠቀም"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "ይህንን ያጥፉት እና ቅድመ-ቅምጡ ባለው ሁኔታ ጥቅም ላይ ይውላል።"
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."

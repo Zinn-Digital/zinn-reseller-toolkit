@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,205 @@ msgstr "Ko tii si àkọọlẹ yi ti a so mọ iṣẹ ìgbékalẹ wẹẹbu k
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Pẹpẹ ìgbalejo náà kò dá ìjápọ̀ wọlé sílẹ̀."
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Olùtajà Zinn®"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "Apamọwọ Olùtàjà"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "Akawọ"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "Àwọn ẹ̀rọ̀"
+msgid "Features"
+msgstr "Àwọn Ẹ̀yà Ara"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "So pọ site yii pọ mọ akọọlẹ alabojuto Zinn® rẹ, lẹhinna tan awọn apakan nikan ti o nilo."
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "Àṣà fúnra rẹ̀"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "Bọtínì API"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "Akọọlẹ olùtà taara Zinn Digital® rẹ"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "Ṣẹda ọkan ninu dasibodu Zinn® rẹ labẹ awọn bọtini API. Fun ni awọn igo nikan ti awọn module ni isalẹ nilo."
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "Ṣẹda bọtìkì API olùta-túnṣe kan ninu daṣibọọdu Zinn® rẹ labẹ Eto → Awọn bọtìkì API, ki o si lẹ mọ hín."
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "Bọtìlì API ti Olùtajà Tuntun"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "A nì í sórí ojú-wẹ́bù yìí nìkan, a kò sì ní fi kún ìwé ìgbé-jáde tàbí ìjábọ̀ àyẹ̀wò rárá."
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "Ètò láti pèsè"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "Koodu eto ti a fi awọn alabara tuntun si. Fi silẹ ni ṣofo lati le beere ni gbogbo igba."
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "Adirẹsi API"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "Àdéésì pánẹ̀lì"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "Fi eyi silẹ ayafi ti atilẹyin Zinn® ba beere lọwọ rẹ lati yipada."
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "Ibikùn tẹ́ a máa ́n rán àwọn oníbàárà rẹ sí láti ṣàkóso gbígbéṣọ̀ yín. Tí o bá ti ṣètò orúkọ olùgbàlejò nínú Ìtajà títún → Àmì ìṣòwò rẹ, fi síbí — àwọn oníbàárà rẹ kì yóò rí àdírẹ́sì wa rárá lẹ́yìn náà."
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "Adirẹsi ìṣàkóso bọ́ọ̀dù"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "Àwọn móduùlù"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "Ibikẹẹti ti ọna aṣopọ “My hosting” n fi awọn onibara rẹ ranṣẹ si."
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "Àwárí agbègbè wẹ́bù — kúkúrú kódù [zinn_domain_search], pẹ̀lú iye owó láti inú àkọọ̀sẹ̀ agbègbè wẹ́bù rẹ."
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "Àwárí agbègbè wẹ́bù"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "Ọna asopọ igbimọ — koodu kukuru [zinn_panel_link] n wọle si alabara ti o ti wọle si ile-iṣẹ agbalejo wọn."
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "Pese kúkúrú koodu [zinn_domain_search] sílẹ̀"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — pèsè ìgbàlejò lẹ́sẹ̀kẹsẹ̀ nígbà tí wọ́n bá san owó àṣẹ rẹ̀."
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "Fi shortcode náà sórí èké èkejì èyíkéyìí láti jẹ́ kí àwọn alábẹ̀wò ṣàyẹ̀wò agbègbè kan kí wọ́n sì ra a nípasẹ̀ rẹ."
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "WooCommerce kò ṣiṣẹ lori aaye yii, nitorinaa module yii ko ṣe nkan kankan."
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "Ọna asopọ pátákì"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "Fi ọna asopọ “Ohun-ini mi” han si awọn alabara ti o wọle"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "Pínpèsè WooCommerce"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "Pèsè hosting láìṣeégbàgbé nígbà tí ìbéèrè WooCommerce bá parí"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "Ó ń ṣiṣẹ́ lórí àwọn àṣẹ tí ó ní ọjà kan tí o ti fi sí ètò Zinn® nìkan."
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "Ìfarahàn ìwádìí agbègbè ayélujára"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "Widget yii n ṣe afihan inu akori ti ara rẹ. Yan eto tẹlẹ kan, tabi ṣeto awọn awọ ti ara rẹ — ni ọna kankan ko si ohun ti a fi kun si awọn oju-iwe rẹ ti alejo le ri bii tiwa."
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "Gbogbo kilasi ti wigieti naa nlo ni a ṣe akoṣo rẹ sinu faili readme ti plọọgiini naa, nitorinaa olùgbékalẹ̀ sọfitiwia le sọ ohunkohun di asan ti iṣeto tẹlẹ ko le bo."
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "Tẹ̀lé àkòrí mi"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "Rírọ̀"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "Iyatọ giga"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "Koodu ètò àiyọ̀ǹtán"
+msgid "Compact"
+msgstr "Rẹpẹtẹ"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "Lo fun ọja WooCommerce kan ti ko sọ orukọ ètò tirẹ. Ṣeto ètò fun ọja kọọkan lori ọja naa funrarẹ labẹ Ohun-ini (Inventory)."
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "Àwọ̀ ìjápọ̀ ìràwọ̀"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "Ìsopọ̀"
+msgid "“Available” colour"
+msgstr "Àwọ̀ tó wà fún lílò"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "Àwọ̀ \"Kò lè ṣàyẹ̀wò\""
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "Àwọ̀ àṣìṣe"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "Yiyo igun"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "Ààyè inú ìlà kọọkan"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "Iwọn ọrọ"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "Àwọn agbára orúkọ agbègbè"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "Kò tíì sí bọ́tìnnì API olùtà fúnni."
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "Kò sí ohun tí ó ń ṣiṣẹ́ níhìn-ín títí di ìgbà tí a bá ṣètò bọ́tìnì kan. Ṣẹ̀dá ọkan nínú Dasibọọdu Zinn® rẹ labẹ Eto → Awọn bọ́tìnì API."
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "Ṣí daṣibọọdu Zinn® mi"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "A ti ṣeto bọtọ kan, ṣugbọn kò si ohun ti o tan."
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "Kò sí nínú àwọn ẹ̀yà mẹ́ta yìí tí ó wà ní ìmúṣẹ, nítorí náà àfikún yìí kò ṣe ohunkóohun lórí ojú-wẹ́bù rẹ. Mú èyí tí o nílò ṣiṣẹ́ lábẹ́ Àwọn Ẹ̀yà (Features)."
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "Ṣii Awọn Ẹya"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "Ó ti ṣetan — ohun àrà %d ti wÀ ní títàn."
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "Tita lati"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "Àwọn ẹ̀rọ̀"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "Kò tíì sí bọ́tìnnì API kankan, nítorí náà kò sí ohun tí a ti sopọ̀."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "Ko sopọ: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "A ti sopọ. Eto olutaja rẹ jẹ %s."
@@ -240,6 +361,250 @@ msgstr "Àmì iṣẹ́ ìránṣẹ́"
 msgid "Nothing provisioned for this order."
 msgstr "Kò sí ohunkohun tí a pèsè fẹ́lẹ̀ṣẹ́ fún ìbéèrè yìí."
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Ti fipamọ. Tẹ iye tuntun kan lati rọpo rẹ."
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Ṣe àlẹmọ àkójọ yìí..."
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Ṣe àlẹ̀mọ àkójọ yìí"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Kò sí ohun tó bá àlẹmọ yẹn mu."
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "Fi ìlà kan kún un"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Yọ ila yii"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "Yọ kuro"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — àkópọ̀"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "Àìníwo"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Gbogbo afikun Zinn® lori aaye yii, ati boya o n ṣiṣẹ."
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Kò nílò àsopọ̀ kankan fún plọ́ọ̀gìn yìí."
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "Ṣí awọn ètò"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "O ko ni igbanilaaye lati yipada awọn eto wọnyi."
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Awọn apakan Eto"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "Atilẹyin"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "Fipamọ awọn ayipada"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "Àwọn irinṣẹ́"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "Ṣe agbejade awọn ètò"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Tun unṣe sí ipinlẹ aiyipada"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Èyí máa mú gbogbo ètò inú plọ́ọ̀gìn yìí padà sí ipò ìbẹ̀rẹ̀ wọn. Ṣé o fẹ́ tẹ̀ síwájú?"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Awọn iwadii fun atilẹyin"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Gbe faili awọn eto wọle"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "Wọle"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Awọn faili ti a gbe wọ jade ko ni awọn ọrọ igbaniwọle, awọn token tabi awọn bọtini API ninu rẹ - iwọ yoo nilo lati tẹ awọn wọnyi sii lẹẹkan si lori aaye tuntun naa."
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "A ti fi àwọn ètò náà pamọ́."
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Gbogbo ètò lori plugin yii ti padanu si ipilẹṣẹ rẹ."
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "Wọn ti ṣe é."
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Iṣẹ yẹn ko si."
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "A ko le ka faili yẹn. Yan faili awọn eto ti o ti gbe jade lati inu ohun elo afikun Zinn®."
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Fáìlì náà tóbi jù láti jẹ́ ìfiránṣẹ́ àwọn ètò."
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Fáìlì yẹn kọ́ jẹ́ ìṣejade ètò Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Aṣọ yẹn ti jẹ wíwọlé láti inú plọọgìnnì míràn (%s), nítorí náà wíwọlé rẹ̀ wá síhìn-ín yoo fipamọ́ àwọn ètò tí plọọgìnnì yìí kò yé."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Àwọn ètò %d ni a kó wọlé. Àwọn ọ̀rọ̀ aṣínà àti àwọn bọ́tìnnì API kì í wà nínú ohun tí a kó jáde, nítorí náà ẹ tún wọn ṣe."
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "Asopọ"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "Ńsopọ…"
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Asopọ ti sopọ, ṣugbọn nkan kan nilo ifarabalẹ"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "Ko sopọ̀"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "Wiṣe lori akọọlẹ tirẹ"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "A kò lè ṣàyẹ̀wò èyí"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Àlámọ̀ yìí kò sọ ìdí rẹ̀. Fi ìròyìn àyẹ̀wò ránṣẹ́, a ó sì wo ọ̀rọ̀ náà."
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "Ipo asopọ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "A ti ṣàyẹ̀wò rẹ̀ kẹ́yìn ni %s sẹ́yìn."
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ó ṣí ní tàbù ìtàkùn tuntun)"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Fi eyi ranṣẹ si atilẹyin Zinn®"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Èyí ni déedé ohun tí a óò ránṣẹ́ — kò sí ohun mìíràn, kò sì sí ohùn tí ó pamọ́. Àwọn ọ̀rọ̀ aṣínà rẹ, àwọn àmì ìdánimọ̀, àti àwọn bọ́tìnnì API rẹ kò sí nínú rẹ̀."
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Ìjábọ̀ àyẹ̀wò tí a ó fi ránṣẹ́"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Ṣe àkàkọ sí pátákì àkójọpọ̀ mímú-fún-lò"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Fi ìròyìn yìí ránṣẹ́ sí àtìlẹ́yìn Zinn®"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "A ṣí tìkẹ́tì àtìlẹ́yìn fún ọ, a sì dáhùn nípasẹ̀ ímeèlì. Bí o bá fẹ́ràn kí o má ṣe fi í ránṣẹ́, da ẹ̀kọ́ rẹ̀ sí òkè, kí o sì lẹ mọ́ inú tìkẹ́tì fúnra rẹ̀."
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "Ti daakọ"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "A ko le de ọdọ Zinn Digital® lati sevha yii (%s). Da iroyin oke kọ ati ṣii tikẹti dipo rẹ — ko si ohun ti ko tọ si awọn eto rẹ."
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Atilẹyin Zinn® ti gba ijabọ rẹ yoo si dahun nipasẹ imeeli."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Atilẹyin Zinn® gba ijabọ rẹ — itọkasi %s — yoo si fesi nipasẹ imeeli."
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "O ti fi ọ̀pọ̀lọpọ̀ ìjábọ̀ ránṣẹ́ láàárín àkókò kúkúrú. Dúró fún ìṣẹ́jú mélòó kan kí o sì tún gbiyanju rẹ̀ lẹ́ẹ̀kan si — àwọn tí tẹ́lẹ̀ wọlé dé gan-an."
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ko le gba ijabọ ná característica yẹn báyìí — ìyẹn wà lára wa, kì í ṣe tirẹ. Gbìyànjú lẹ́ẹ̀kan si ní di ìgbà díẹ̀, tàbí da ijabọ tí ó wà lókè yẹn sínú tikẹ́tì kan."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "A kọ ìròyìn náà sílẹ̀ (HTTP %d). Da a sọ́kàn kí o sì ṣí tíkẹ́tì kan, ní sísọ nọ́mbà yẹn."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +649,22 @@ msgstr "Zinn Hub® — bẹ gba awọn eniyan ti o ṣe eyi fun igbesi aye kan"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ọjà àwọn oníṣẹ́ọwọ́ káríayé wa: ṣíwò fún àwọn iṣẹ́ tó ti ṣetan jẹ́jẹ́ tó lé ní 10,000 láti ọ̀dọ̀ àwọn ònkọ̀wé, apẹ̀rẹ̀, àwọn olùṣẹ̀dá sọfitiwia àti àwọn olùgbéga SEO, tàbí kí o fi iṣẹ́ kan sórí afẹ́fẹ́ kí o sì jẹ́ kí wọ́n fún ní iye owó."
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "Ìṣètò àwọn àṣàyàn ìrísí"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Ìpìlẹ̀ kan. Ohunkohun tó wà ní ìsàlẹ̀ bori rẹ̀."
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Lo awon awco ati iwọn temi"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Fi eyi silẹ ki a si lo eto naa gẹgẹ bi o ṣe wa gangan."
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."

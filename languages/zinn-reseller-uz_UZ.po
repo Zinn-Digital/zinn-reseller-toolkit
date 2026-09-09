@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,206 @@ msgstr "Bu hisob hali hosting xizmatiga ulanmagan."
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Hosting platformasi kirish havolasini qaytarmadi."
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Zinn® Reseller"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "Reseller asboblar to'plami"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "Hisob"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "Sozlamalar"
+msgid "Features"
+msgstr "Funksiyalar"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "Ushbu saytni Zinn® dilerlik hisobingizga ulang, so'ngra faqat o'zingizga kerakli qismlarini yoqing."
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "Uslublar"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "API kaliti"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "Sizning Zinn Digital® reseller hisobingiz"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "Zinn® boshqaruv panelingizda API kalitlari boʻlimida birini yarating. Unga faqat quyidagi modullar talab qiladigan ruxsatlarni bering."
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "Zinn® boshqaruv panelidagi Sozlamalar → API kalitlari bo'limida sotuvchi API kalitini yarating va uni shu yerga qo'ying."
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "Reseller API kaliti"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "Faqat ushbu saytda saqlanadi va hech qachon eksport yoki diagnostika hisobotiga kiritilmaydi."
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "Ta’minlanadigan reja"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "Yangi mijozlar biriktiriladigan tarif kodi. Har safar so'ralishi uchun bo'sh qoldiring."
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "API manzili"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "Panel manzili"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "Zinn® ko'magi sizdan buni o'zgartirishni so'ramagan bo'lsa, uni o'zgartirmang."
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "Mijozlaringiz xostingini boshqarish uchun yo'naltiriladigan manzil. Agar Reselling → Brendingiz ostida panel xost nomini o'rnatgan bo'lsangiz, uni shu yerga kiriting — shunda mijozlaringiz bizning manzilimizni umuman ko'rmaydilar."
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "Boshqaruv paneli manzili"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "Modullar"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "“Mening hostingim” havolasi mijozlaringizni qayerga yo‘naltirishi."
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "Domen qidiruvi — [zinn_domain_search] shortcode, o'z domen hisobingizdan boshlanadigan narxlarda."
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "Domenlarni qidirish"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "Panel havolasi — [zinn_panel_link] shortcode tizimga kirgan mijozni uning hostingiga avtomatik ulaydi."
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "[zinn_domain_search] qisqa kodini taqdim eting"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — buyurtma to'langanda xostingni avtomatik ravishda taqdim etish."
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "Tashrif buyuruvchilar domenni tekshirishi va uni siz orqali sotib olishi uchun qisqa kodni istalgan sahifaga joylashtiring."
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "WooCommerce ushbu saytda faol emas, shuning uchun bu modul hech narsa qilmayapti."
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "Panel havolasi"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "Tizimga kirgan mijozlarga \"Mening hostingim\" havolasini ko'rsatish"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "WooCommerce-ni sozlash"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "WooCommerce buyurtmasi bajarilganda xostingni avtomatik ravishda taqdim etish"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "Faqat Zinn® rejasiga bogʻlagan mahsulotingizni oʻz ichiga olgan buyurtmalarga nisbatan amal qiladi."
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "Domen qidiruvi ko'rinishi"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "Bu vidjet o'zingizning mavzuingiz ichida ishlaydi. Oldindan o'rnatilgan sozlamani tanlang yoki o'z ranglaringizni belgilang — qaysi birini tanlasangiz ham, sahifalaringizga tashrif buyuruvchilar biznikidir deb ko'ra oladigan hech qanday narsa qo'shilmaydi."
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "Vidjet foydalanadigan har bir klass plaginning readme faylida ko'rsatilgan, shuning uchun dasturchi presetr qamrab olmagan har qanday narsani o'zgartirishi mumkin."
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "Mening mavzuimga ergashish"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "Yumshoq"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "Yuqori kontrast"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "Standart reja kodi"
+msgid "Compact"
+msgstr "Zichlashtirish"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "O'z rejasini ko'rsatmagan WooCommerce mahsulotlari uchun ishlatiladi. Mahsulotning o'zi uchun rejani Inventar bo'limida belgilang."
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "Sotib olish havolasi rangi"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "Ulanish"
+msgid "“Available” colour"
+msgstr "“Mavjud” rangi"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "“Tekshirib bo‘lmadi” rangi"
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "Xatolik rangi"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "Burchaklarni yaxlitlash"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "Har bir qator ichidagi bo'sh joy"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "Matn o‘lchami"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "Domen nomi vazni"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "Hali resepiter API kaliti yo'q."
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "Kalit o‘rnatilmaguncha bu yerda hech narsa ishlamaydi. Zinn® boshqaruv panelidagi Sozlamalar → API kalitlari bo‘limida bitta yarating."
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "Zinn® boshqaruv panelimni ochish"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "Kalit o'rnatilgan, lekin hech narsa yoqilmagan."
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "Ushbu uchta funksiyaning hech biri yoqilmagan, shuning uchun bu plagin saytingizda hech qanday ish bajarmayapti. \"Funksiyalar\" ostida o'zingizga keraklisini yoqing."
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "Funksiyalarni ochish"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "Tayyor — %d ta funksiya yoqildi."
+msgstr[1] "Tayyor — %d ta funksiya yoqildi."
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "Sotuvchi:"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "Sozlamalar"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "Hozircha API kaliti yo'q, shuning uchun hech narsa ulanmagan."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "Ulanmagan: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "Ulandi. Sizning reeller dasturingiz %s."
@@ -240,6 +362,251 @@ msgstr "Xizmat identifikatori"
 msgid "Nothing provisioned for this order."
 msgstr "Ushbu buyurtma uchun hech narsa tayyorlanmagan."
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Saqlangan. Uni almashtirish uchun yangi qiymat kiriting."
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Bu roʻyxatni filtrlash…"
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Ushbu ro'yxatni filtrlash"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Bu filtrga hech narsa mos kelmadi."
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "Qator qo'shish"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Ushbu qatorni olib tashlash"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "Olib tashlash"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — umumiy koʻrinish"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "Umumiy koʻrinish"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Ushbu saytdagi har bir Zinn® plagin va uning ishlayotgani yoki ishlamayotgani."
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Bu plagin uchun ulanish talab qilinmaydi."
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "Sozlamalarni ochish"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Sizda bu sozlamalarni o‘zgartirish uchun ruxsat yo‘q."
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Sozlamalar bo'limlari"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "Qo'llab-quvvatlash"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "O'zgarishlarni saqlash"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "Vositalar"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "Sozlamalarni eksport qilish"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Standart holatga qaytarish"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Bu ushbu plaginning barcha sozlamalarini standart holatiga qaytaradi. Davom etasizmi?"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Qo'llab-quvvatlash uchun diagnostika"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Sozlamalar faylini import qilish"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "Import qilish"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Eksport qilingan fayllarda hech qachon parollar, tokenlar yoki API kalitlari bo'lmaydi — ularni yangi saytda qaytadan kiritishingiz kerak bo'ladi."
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Sozlamalar saqlandi."
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Ushbu plaginning barcha sozlamalari odatiy holatiga qaytarildi."
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "Bajarildi."
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Bu amal mavjud emas."
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Ushbu faylni oʻqib boʻlmadi. Zinn® plaginidan eksport qilingan sozlamalar faylini tanlang."
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Bu fayl sozlamalar eksporti uchun juda katta."
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Ushbu fayl Zinn® sozlamalari eksporti emas."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Bu fayl boshqa plagindan (%s) eksport qilingan, shuning uchun uni bu yerga import qilish ushbu plagin tushunmaydigan sozlamalarni saqlaydi."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d ta sozlama import qilindi. Parollar va API kalitlari eksportga kiritilmaydi, shuning uchun ularni qaytadan kiriting."
+msgstr[1] "%d ta sozlama import qilindi. Parollar va API kalitlari eksportga kiritilmaydi, shuning uchun ularni qaytadan kiriting."
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "Ulangan"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "Ulanmoqda…"
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Uzlangan, lekin e'tibor talab qiladigan narsa bor"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "Ulanmagan"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "Oʻz hisobingizda ishlayapti"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "Buni tekshira olmadik"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Bu plagin nima sababdan ekanini ko‘rsatmadi. Diagnostika hisobotini yuboring va biz buni ko‘rib chiqamiz."
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "Ulanish holati"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Oxirgi marta %s oldin tekshirilgan."
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(yangi tabda ochiladi)"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® qo‘llab-quvvatlash xizmatiga yuborish"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Bu aynan yuboriladigan narsa — boshqa hech narsa va hech qanday yashirin narsa yo'q. Parollaringiz, tokenlaringiz va API kalitlaringiz uning ichida emas."
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Yuboriladigan diagnostika hisoboti"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Buzlatqichga nusxalash"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Ushbu hisobotni Zinn® qo'llab-quvvatlash xizmatiga yuboring"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Biz siz uchun qo'llab-quvvatlash so'rovini ochamiz va elektron pochta orqali javob beramiz. Agar buni yuborishni xohlamasangiz, yuqoridagidan nusxa oling va uni o'zingiz so'rovga qo'ying."
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "Nusxa olindi"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Ushbu serverdan (%s) Zinn Digital® bilan bog‘lanib bo‘lmadi. Yuqoridagi hisobotni nusxalab oling va uning o‘rniga chekin oching — sozlamalaringizda hech qanday xato yo‘q."
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® qo‘llab-quvvatlash xizmati xabaringizni qabul qildi va elektron pochta orqali javob beradi."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® qo‘llab-quvvatlash xizmati hisobotingizni qabul qildi — maʼlumot raqami %s — va elektron pochta orqali javob beradi."
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Qisqa vaqt ichida bir nechta hisobot yubordingiz. Bir necha daqiqa kuting va qayta urinib ko'ring — avvalgilari yetib borgan."
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® hozircha hisobotni qabul qila olmadi — bu bizning tomonda, siznikida emas. Ozgina vaqtdan keyin qayta urinib ko'ring yoki yuqoridagi hisobotni tiketga nusxalang."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Hisobot rad etildi (HTTP %d). Uni yuqoridan nusxalab oling va shu raqamni ko'rsatgan holda murojaat oching."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +651,22 @@ msgstr "Zinn Hub® — buni kasb qilgan mutaxassislarni yollang"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Bizning global frilanserlar bozori: matn yozuvchilar, dizaynerlar, dasturchilar va SEO mutaxassislarining 10 000 dan ortiq tayyor xizmatlarini ko'rib chiqing yoki loyiha joylashtirib, ularga taklif kiritish imkonini bering."
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "Uslub sozlamasi"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Boshlang‘ich nuqta. Undan pastdagi har qanday narsa buni bekor qiladi."
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "O'z ranglarim va o'lchamlarimdan foydalanish"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Buni o'chirib qo'ying va andoza aynan qanday bo'lsa shunday ishlatiladi."
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."

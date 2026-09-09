@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Reseller Toolkit
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-reseller
  * Description:       Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid.
- * Version:           1.1.2
+ * Version:           1.2.0
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -37,7 +37,7 @@ namespace Zinn\Reseller;
 
 defined( 'ABSPATH' ) || exit;
 
-const ZINN_RESELLER_VERSION = '1.1.2';
+const ZINN_RESELLER_VERSION = '1.2.0';
 
 /**
  * Option name holding every setting this plugin owns.
@@ -49,6 +49,14 @@ const ZINN_RESELLER_VERSION = '1.1.2';
  */
 const ZINN_RESELLER_OPTION = 'zinn_reseller_settings';
 
+// ⛔ The shared settings framework, loaded unconditionally — `Style_Presets` prints the
+// widget's design tokens into `wp_head` on the FRONT end, so an `is_admin()` guard would
+// leave every visitor looking at the unstyled fallbacks (§2.38).
+require_once __DIR__ . '/includes/class-zinn-reseller-admin-fields.php';
+require_once __DIR__ . '/includes/class-zinn-reseller-admin-ui.php';
+require_once __DIR__ . '/includes/class-zinn-reseller-connection.php';
+require_once __DIR__ . '/includes/class-zinn-reseller-diagnostics.php';
+require_once __DIR__ . '/includes/class-zinn-reseller-style-presets.php';
 require_once __DIR__ . '/includes/class-settings.php';
 require_once __DIR__ . '/includes/class-client.php';
 require_once __DIR__ . '/includes/class-domain-search.php';

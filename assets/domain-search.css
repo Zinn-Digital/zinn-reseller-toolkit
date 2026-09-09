@@ -8,13 +8,21 @@
  *
  * Logical properties throughout, so an Arabic or Hebrew site lays out correctly
  * without a second stylesheet.
+ *
+ * ⭐ W41-Q: every value a reseller might reasonably want to change is now a CSS custom
+ * property with the old hard-coded value as its fallback — so this file behaves exactly as
+ * before on a site that has chosen no preset, and the Styling tab can restyle it without
+ * shipping a second stylesheet per preset. The properties are emitted by
+ * `Zinn_Reseller_Style_Presets`; the fallbacks here mean the widget is never unstyled if that
+ * block is missing for any reason.
  */
 
 .zinn-domain-search {
 	display: flex;
-	gap: 0.5rem;
+	gap: var(--zinn-domain-search-gap, 0.5rem);
 	flex-wrap: wrap;
 	margin-block-end: 1.5rem;
+	font-size: var(--zinn-domain-search-fontsize, inherit);
 }
 
 .zinn-domain-search input[type="search"] {
@@ -33,22 +41,24 @@
 	flex-wrap: wrap;
 	align-items: baseline;
 	gap: 0.5rem;
-	padding-block: 0.6rem;
-	border-block-end: 1px solid rgba(0, 0, 0, 0.1);
+	padding-block: var(--zinn-domain-search-rowpad, 0.6rem);
+	border-block-end: 1px solid var(--zinn-domain-search-rule, rgba(0, 0, 0, 0.1));
+	border-radius: var(--zinn-domain-search-radius, 0);
 }
 
 .zinn-domain-name {
-	font-weight: 600;
+	font-weight: var(--zinn-domain-search-nameweight, 600);
+	color: var(--zinn-domain-search-text, inherit);
 }
 
 /* The three states are three colours because they are three different answers, and
    the middle one is the point — see `result_row()` in class-domain-search.php. */
 .zinn-domain-result--available .zinn-domain-state {
-	color: #008a20;
+	color: var(--zinn-domain-search-available, #008a20);
 }
 
 .zinn-domain-result--unknown .zinn-domain-state {
-	color: #996800;
+	color: var(--zinn-domain-search-unknown, #996800);
 }
 
 .zinn-domain-result--taken .zinn-domain-state {
@@ -57,10 +67,11 @@
 
 .zinn-domain-buy {
 	margin-inline-start: auto;
+	color: var(--zinn-domain-search-accent, inherit);
 }
 
 .zinn-domain-error {
-	color: #b32d2e;
+	color: var(--zinn-domain-search-error, #b32d2e);
 }
 
 /*

@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,205 @@ msgstr "Ин ҳисобкунӣ ҳанӯз ба ягон хизматрасон�
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Платформаи хостинг истиноди воридшавиро барнагардонд."
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Агенти Zinn®"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "Маҷмӯаи абзорҳои фурӯшанда"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "Ҳисобдорӣ"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "Танзимот"
+msgid "Features"
+msgstr "Хусусиятҳо"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "Ин сайтро ба ҳисоби фурӯшандаи Zinn®-и худ пайваст кунед, сипас танҳо қисмҳои лозимиро фаъол созед."
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "Услубҳо"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "Калиди API"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "Ҳисоби фурӯшандаи Zinn Digital®-и шумо"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "Онро дар панели идоракунии Zinn® дар зери Калидҳои API эҷод кунед. Ба он танҳо иҷозатҳоеро диҳед, ки модулҳои дар зер овардашуда талаб мекунанд."
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "Kalitи API-и фурӯшандаро дар панели идораи Zinn® дар зери Танзимот → Калидҳои API созед ва онро дар ин ҷо гузоред."
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "Kalitи API-и фурӯшанда"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "Танҳо дар ин сайт нигоҳ дошта мешавад ва ҳеҷ гоҳ ба содирот ё ҳисоботи ташхисӣ дохил карда намешавад."
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "Нақшаи таъминкунӣ"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "Рамзи нақшае, ки муштариёни нав ба он гузошта мешаванд. Барои ҳар дафъа пурсидан холӣ гузоред."
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "Суроғаи API"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "Суроғаи панел"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "Инро ба ҳоли худ гузоред, магар он ки пуштибонии Zinn® аз шумо хоҳиш карда бошад, ки онро тағйир диҳед."
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "Ҷойе, ки мизоҷони шумо барои идора кардани мизбонии худ равона карда мешаванд. Агар шумо номи мизбони панелиро дар қисми Фурӯши дубора → Бренд муайян карда бошед, онро дар ин ҷо ворид кунед — пас мизоҷони шумо суроғаи моро умуман намебинанд."
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "Суроғаи панели идоракунӣ"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "Модулҳо"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "Пайванди «Мизбонии ман» муштариёни шуморо ба куҷо мефиристад."
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "Ҷустуҷӯи домен — кутоҳи [zinn_domain_search], бо нархгузорӣ аз ҳисоби домени шахсии шумо."
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "Ҷустуҷӯи домен"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "Истиноди панел — кӯтоҳакдиди [zinn_panel_link] муштарии воридшударо ба мизбонии онҳо ворид мекунад."
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "Код кӯтоҳи [zinn_domain_search]-ро пешниҳод кунед"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — ҳангоми пардохт шудани фармоиш хостингро ба таври худкор таъмин кунед."
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "Барои он ки ба меҳмонон иҷозат диҳед доменро тафтиш кунанд ва онро тавассути шумо харидорӣ кунанд, рамзи кӯтоҳро ба ягон саҳифа гузоред."
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "WooCommerce дар ин сайт фаъол нест, бинобар ин ин модул ягон коре намекунад."
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "Истиноди панел"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "Барои муштариёни воридшуда истиноди «Мизбонии ман»-ро нишон диҳед"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "Тajhizoti WooCommerce"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "Ҳангоми анҷом ёфтани фармоиши WooCommerce мизбониро ба таври худкор таъмин кунед"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "Танҳо ба фармоишҳое татбиқ мешавад, ки дорои маҳсуле бошанд, ки шумо ба нақшаи Zinn® мутобиқ кардаед."
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "Намуди зоҳирии ҷустуҷӯи домен"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "Ин виджет дар дохили мавзӯи (теми) шахсии шумо намоиш дода мешавад. Як пешфарзро интихоб кунед ё рангҳои худро таъин кунед — дар ҳар сурат, ба саҳифаҳои шумо ягон чизи намоёне, ки ба мо тааллуқ дорад, илова намешавад."
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "Ҳар як синфе, ки виджет истифода мебарад, дар файлҳои хондании (readme) плагин номбар шудааст, то ки таҳиягар тавонад ҳар чизеро, ки пешакӣ муқарраршуда фаро намегирад, бекор кунад."
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "Мавзӯи маро пайравӣ кунед"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "Нарм"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "Конrасти баланд"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "Коди нақшаи пешфарз"
+msgid "Compact"
+msgstr "Мӯъҷаз"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "Барои маҳсули WooCommerce истифода мешавад, ки нақшаи шахсии худро надорад. Нақшаи мушаххаси ҳар як маҳсулро бевосита дар худи маҳсул дар зери қисми Мавод (Inventory) танзим кунед."
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "Ранги истиноди харид"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "Пайвастшавӣ"
+msgid "“Available” colour"
+msgstr "Ранги «Дастрас»"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "Ранги «Натавонист санҷида шавад»"
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "Ранги хатогӣ"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "Гирд кардани кунҷҳо"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "Фазо дар дохили ҳар як қатор"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "Андозаи матн"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "Вазни номи домен"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "Ҳанӯз калиди API-и фурӯшанда мавҷуд нест."
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "То даме, ки калид танзим нашавад, ягон чизи ин ҷо кор намекунад. Якеро дар панели идоракунии Zinn® дар зери Танзимот → Калидҳои API эҷод кунед."
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "Панели идоракунии Zinn®-и маро кушоед"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "Калит таъин шудааст, аммо ягон чиз фаъол нест."
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "Яке аз се хусусият фаъол нест, аз ин рӯ ин плагин дар сайти شما кор намекунад. Он чизеро, ки ба шумо лозим аст, дар зери «Хусусиятҳо» фаъол кунед."
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "Хусусиятҳои кушода"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "Омода — %d хусусият фаъол шуд."
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "Аз фурӯши"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "Танзимот"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "Ҳанӯз калиди API вуҷуд надорад, бинобар ин ягон чиз пайваст нашудааст."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "Пайваст нашудааст: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "Пайваст шуд. Барномаи фурӯшандаи шумо %s аст."
@@ -240,6 +361,250 @@ msgstr "Рақами хизматрасонӣ"
 msgid "Nothing provisioned for this order."
 msgstr "Барои ин фармоиш чизе пешбинӣ нашудааст."
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Нигоҳ дошта шуд. Барои иваз кардани он қимати навро ворид кунед."
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Филтри ин рӯйхат…"
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Филтри ин рӯйхат"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Ягон чиз ба ин филтр мувофиқат намекунад."
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "Илова кардани сатр"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Ин сатрро нест кунед"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "Нustarokh"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — шарҳи умумӣ"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "Шарҳи умумӣ"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Ҳар як плагини Zinn® дар ин сайт ва ҳолати кори он."
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Барои ин плагин ҳеҷ гуна пайвастшавӣ лозим нест."
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "Кушодани танзимот"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Шумо барои тағйири ин танзимот иҷозат надоред."
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Қисмҳои танзимот"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "Дастгирӣ"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "Захираи тағйирот"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "Афзорҳо"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "Содироти танзимот"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Бозхонӣ ба пешфарзҳо"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Ин амал ҳамаи танзимоти ин плагинро ба ҳолати пешфарз бармегардонад. Идома медиҳед?"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Ташхис барои дастгирӣ"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Ворид кардани файли танзимотҳо"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "Ворид кардан"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Файлҳои содиршуда ҳеҷ гоҳ паролҳо, токенҳо ё калитҳои API-ро дар бар намегиранд — шумо бояд онҳоро дар сайти нав аз нав ворид кунед."
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Танзимот захира шуд."
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Ҳамаи танзимоти ин плагин ба ҳолати пешфарз баргаштанд."
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "Иҷро шуд."
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Ин амалиёт дастнорас аст."
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Он файлро хонда намешавад. Файли танзимоти содиршуда аз плагини Zinn®-ро интихоб кунед."
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Он файл барои содироти танзимот хеле калон аст."
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Он файл содироти танзимоти Zinn® нест."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Ин файл аз плагини дигар (%s) содир карда шудааст, аз ин рӯ ворид кардани он дар ин ҷо танзимотеро захира мекунад, ки ин плагин онҳоро намефаҳмад."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d танзимот ворид карда шуд. Рамзҳо ва калитҳои API ҳеҷ гоҳ дар содирот нестанд, бинобар ин онҳоро дубора ворид кунед."
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "Пайвастшуда"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "Пайвастшавӣ…"
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Пайваст аст, аммо чизе диққат талаб мекунад"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "Пайваст нашудааст"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "Дар ҳисоби шахсии худ иҷро шуда истодааст"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "Мо натавонидем инро тафтиш кунем"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Ин плагин сабабҳоро нишон надод. Ҳисоботи ташхисиро фиристед ва мо онро баррасӣ хоҳем кард."
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "Ҳолати пайвастшавӣ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Санҷиши охирин %s пеш."
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(дар варақаи нав кушода мешавад)"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Инро ба дастгирии Zinn® фиристед"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Маҳз ҳамин чиз фиристода мешавад — дигар ҳеҷ чизи дигар ва ҳеҷ чиз пинҳон нест. Рамзҳо, токенҳо ва калитҳои API-и шумо дар он нестанд."
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Ҳисоботи ташхисӣ, ки фиристода мешавад"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Нусхабардорӣ ба буфер"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Ин ҳисоботро ба дастгирии Zinn® фиристед"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Мо барои шумо чиптаи дастгирӣ мекушоем ва тавассути почтаи электронӣ ҷавоб медиҳем. Агар фиристодани онро нахоҳед, онро аз боло нусхабардорӣ кунед ва худатон ба чипта часбонед."
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "Нусхабардорӣ шуд"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Мо аз ин сервер (%s) ба Zinn Digital® дастрасӣ пайдо карда натавонистеҳам. Ҳисоботи болоро нусхабардорӣ кунед ва ба ҷои он тикет кушоед — ягон чизи танзимоти шумо хато нест."
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Дастгирии Zinn® гузориши шуморо қабул кард ва тавассути почтаи электронӣ ҷвоб медиҳад."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Дастгирии Zinn® гузориши шуморо қабул кард — рақами истинод %s — ва тавассути почтаи электронӣ ҷавоб медиҳад."
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Шмо дар муддати кӯтоҳ гузоришҳои зиёде фиристодед. Чанд дақиқа интизор шавед ва бори дигар кӯшиш кунед — гузоришҳои қаблӣ расидаанд."
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® дар айни замон гузоришро қабул карда натавонист — ин мушкили мо аст, на аз шумо. Пас аз лаҳзае дубора кӯшиш кунед ё гузориши дар боло бударо ба чипта (тикет) нусхабардорӣ кунед."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Ҳисобот рад карда шуд (HTTP %d). Онро аз боло нусхабардорӣ кунед ва бо зикри ҳамин рақам дархост кушоед."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +649,22 @@ msgstr "Zinn Hub® — мутахассисонеро киро кунед, ки 
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Бозори глобалии фрилансери мо: аз зиёда аз 10,000 хизматрасонии омода аз нависандагон, тарроҳон, таҳиягарон ва мутахассисони SEO гузаред ё лоиҳаеро ҷойгир кунед ва бидиҳед, ки онҳо пешниҳод кунанд."
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "Андозаи услуб"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Нуқтаи ибтидоӣ. Ҳар чизи дар поён овардашуда онро бекор мекунад."
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Истифодаи рангҳо ва андозаҳои шахсии ман"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Онро хомӯш гузоред ва пешфарз тавре ки ҳаст истифода мешавад."
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."

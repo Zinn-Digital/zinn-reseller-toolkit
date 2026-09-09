@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,205 @@ msgstr "此账户尚未绑定托管服务。"
 msgid "The hosting platform did not return a sign-in link."
 msgstr "托管平台未返回登录链接。"
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Zinn® 经销商"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "分销商工具包"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "账户"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "设置"
+msgid "Features"
+msgstr "功能"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "将此网站连接到您的 Zinn® 分销商账户，然后仅开启您需要的功能。"
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "样式"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "API 密钥"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "您的 Zinn Digital® 分销商账户"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "请在您的 Zinn® 仪表板中的“API 密钥”下创建一个。仅授予其下方模块所需的权限。"
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "请在 Zinn® 控制面板的“设置”→“API 密钥”下创建一个分销商 API 密钥，然后将其粘贴到此处。"
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "分销商 API 密钥"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "仅保存在本网站上，绝不包含在导出或诊断报告中。"
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "待配置套餐"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "新客户适用的套餐代码。留空则每次都进行询问。"
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "API 地址"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "面板地址"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "除非 Zinn® 支持团队要求您进行更改，否则请勿修改此项。"
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "客户前往管理其托管服务的地方。如果您已经在“分销商”→“您的品牌”下设置了面板主机名，请将其填在此处——这样您的客户将完全看不到我们的地址。"
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "控制面板地址"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "模块"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "“我的托管”链接将您的客户发送到的位置。"
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "域名搜索 — [zinn_domain_search] 简码，按您自己的域名账户计费。"
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "域名搜索"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "面板链接 — [zinn_panel_link] 简码可让已登录的客户直接登录其托管后台。"
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "提供 [zinn_domain_search] 简码"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — 订单支付后自动开通托管服务。"
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "将简码放在任意页面上，即可让访客检查域名并通过您进行购买。"
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "WooCommerce 未在此站点上启用，因此此模块未执行任何操作。"
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "面板链接"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "向已登录的客户显示“我的托管”链接"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "WooCommerce 配置"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "当 WooCommerce 订单完成时自动配置托管服务"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "仅对包含您已映射到 Zinn® 套餐的产品的订单生效。"
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "域搜索外观"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "此小组件在您自己的主题内部呈现。请选择一个预设，或者设置您自己的颜色——无论哪种方式，您的页面都不会添加任何访问者能看出属于我们的内容。"
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "插件的说明文件中列出了小部件使用的每个类，以便开发人员可以覆盖预设未涵盖的任何内容。"
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "使用我的主题"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "软件"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "高对比度"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "默认套餐代码"
+msgid "Compact"
+msgstr "精简"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "用于未指定自身套餐的 WooCommerce 产品。请在产品本身的“库存”标签页下设置按产品计算的套餐。"
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "购买链接颜色"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "连接"
+msgid "“Available” colour"
+msgstr "“可用”颜色"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "“无法检查”颜色"
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "错误颜色"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "圆角"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "每行内部间距"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "文字大小"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "域名权重"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "尚未提供分销商 API 密钥。"
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "在设置 API 密钥之前，这里的任何功能都无法使用。请在 Zinn® 仪表板的“设置”→“API 密钥”下创建一个。"
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "打开我的 Zinn® 仪表板"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "已设置密钥，但未启用任何功能。"
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "这三个功能均未启用，因此该插件在您的网站上没有任何作用。请在“功能”下开启您需要的内容。"
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "开启功能"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "准备就绪 — 已启用 %d 项功能。"
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "销售自"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "尚未配置 API 密钥，因此未连接任何内容。"
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "未连接：%s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "已连接。您的分销商计划为 %s。"
@@ -240,6 +361,250 @@ msgstr "服务 ID"
 msgid "Nothing provisioned for this order."
 msgstr "此订单没有任何已配置的资源。"
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "已保存。请输入新值进行替换。"
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "过滤此列表…"
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "筛选此列表"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "没有符合该筛选条件的项。"
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "添加行"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "删除此行"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "移除"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — 概览"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "概览"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "此网站上的每一个 Zinn® 插件及其工作状态。"
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "此插件无需联网。"
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "打开设置"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "您没有权限更改这些设置。"
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "设置部分"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "支持"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "保存更改"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "工具"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "导出设置"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "恢复默认设置"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "这会将此插件的每项设置恢复为默认值。是否继续？"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "支持诊断"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "导入设置文件"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "导入"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "导出的文件中绝不包含密码、令牌或 API 密钥——您需要在新网站上重新输入这些信息。"
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "此插件的所有设置已恢复为默认值。"
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "完成。"
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "该操作不可用。"
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "无法读取该文件。请选择从 Zinn® 插件导出的设置文件。"
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "该文件过大，无法用作设置导出文件。"
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "该文件不是 Zinn® 设置导出文件。"
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "该文件是从另一个插件 (%s) 导出的，因此在这里导入它将存储该插件无法识别的设置。"
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "已导入 %d 个设置。密码和 API 密钥不会包含在导出文件中，请重新输入。"
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "已连接"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "正在连接…"
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "已连接，但有些问题需要处理"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "未连接"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "在您自己的账户上运行"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "无法完成此检查"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "此插件未说明原因。请发送诊断报告，我们将进行查看。"
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "连接状态"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "最后检查于 %s 前。"
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "（在新标签页中打开）"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "发送至 Zinn® 支持团队"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "这正是将要发送的内容——没有别的，也没有隐藏内容。您的密码、令牌和 API 密钥均不包含在其中。"
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "将要发送的诊断报告"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "将此报告发送给 Zinn® 支持人员"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "我们为您创建一个支持工单并通过电子邮件回复。如果您不想发送，请复制上述内容并自行将其粘贴到工单中。"
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "已复制"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "无法从该服务器 (%s) 连接到 Zinn Digital®。请复制上方的报告并提交工单 —— 您的设置没有任何问题。"
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® 支持团队已收到您的报告，并将通过电子邮件回复。"
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® 客服已收到您的报告（参考编号：%s），并将通过电子邮件回复您。"
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "您在短时间内发送了多个报告。请稍候几分钟再试——先前的报告已经送达。"
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® 刚才无法接受该报告——这是我们这边的问题，而非您的。请稍后重试，或将上面的报告复制到工单中。"
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "报告被拒绝（HTTP %d）。请将其复制到上方并提交工单，附上该编号。"
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +649,22 @@ msgstr "Zinn Hub® — 聘请以此为生的人为您代劳"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "我们的全球自由职业者市场：浏览来自作家、设计师、开发人员和 SEO 专家的 10,000 多项现成服务，或者发布项目并让他们竞标。"
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "样式预设"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "一个起点。其下的任何内容都会覆盖它。"
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "使用我自己的颜色和尺寸"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "不勾选此项，预设将完全按原样使用。"
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."

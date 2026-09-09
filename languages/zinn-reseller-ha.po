@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,206 @@ msgstr "Ba a haɗa wannan asusun da sabis na ɗaukar shafuka ba tukuna."
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Dandaminin ajiyar shafin bai dawo da hanyar shiga ba."
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Zinn® Reseller"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "Kayan Aiki na Mai Sayarwa"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "Asusunka"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "Saituna"
+msgid "Features"
+msgstr "Abubuwan da ke ciki"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "Haɗa wannan shafin yanar gizon zuwa asusun dillalin ku na Zinn®, sannan ku kunna sassan da kuke buƙata kawai."
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "Salon Kayan Aiki"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "Maɓullin API"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "Asusun dillalin ku na Zinn Digital®"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "Ƙirƙiri ɗaya a cikin allon sarrafa ku na Zinn® a ƙarƙashin maɓallan API. Ba shi izini kawai waɗanda kayan aikin da ke ƙasa ke buƙata."
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "Ka ƙirƙiri maɓallin API na mai siyarwa a cikin allon sarrafa Zinn® ɗinka a ƙarƙashin Saituna → Maɓallan API, sannan ka manna shi a nan."
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "Maɓallin API na mai siyarwa"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "An adana su a wannan rukunin yanar gizon kawai, kuma ba a haɗa su da wani fitarwa ko rahoton bincike ba."
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "Shirin samarwa"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "Lambar shirin da za a sanya sababbin abokan ciniki a kai. Bar shi a bude domin a tambaye shi a duk lokacin da ake bukata."
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "Adreshin API"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "Adireshin panel"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "Bar wannan shi kadai idan har goyon bayan Zinn® bai nemi ka canza shi ba."
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "Inda ake tura abokan cinikin ku don sarrafa gidan yanar gizon su. Idan kun saita sunan mai masaukin baki a ƙarƙashin Reselling → Alamar ku, sanya shi anan - abokan cinikin ku ba za su ga adreshin mu ba kwata-kwata."
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "Adireshin sashin kula da abubuwa"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "Na'urori"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "Inda mahaɗin “My hosting” ke tura abokan cinikinka."
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "Binciken yankin yanar gizo — gajeren lambar [zinn_domain_search], wanda aka fara farashinsa daga asusun yankin yanar gizon ku."
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "Binciken domain"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "Hanyar haɗin Panel — gajeriyar lamba ta [zinn_panel_link] tana shigar da abokin ciniki da ke da hannu a cikin shafinsa na gidayar yanar gizo."
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "Bayar da gajeren lambar [zinn_domain_search]"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — a ba da hosting ta atomatik lokacin da aka biya oda."
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "Sanya ɗan gajeren lambar akan kowane shafi domin barin baƙi su bincika yanki kuma su saya ta wurinku."
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "Ba a kunna WooCommerce a wannan shafin ba, don haka wannan module din ba ya aikin komai."
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "Hadin shafi"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "Nuna hanyar haɗi ta “Hosting ɗina” ga abokan ciniki da suka shiga shafin"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "Shirye-shiryen WooCommerce"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "Sanya masauki ta atomatik lokacin da oda ta WooCommerce ta kammala"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "Yana aiki ne kawai a kan oda da ta ƙunshi wani samfur da ka tsara zuwa wani tsari na Zinn®."
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "Bayyanar binciken yanki"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "Wannan widget ɗin yana aiki ne a cikin jigarka. Zaɓi wani tsari, ko ka saita launukanka — ta kowace hanya babu abin da ake ƙarawa a shafukanka wanda baƙo zai iya gani a matsayin namu."
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "An all class da widget ke amfani da su an jera su a cikin readme na plugin ɗin, ta yadda mai haɓakawa zai iya ɓata duk abin da ƙa'idar da aka riga aka saita ba ta rufe ba."
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "Bitaken jigo na"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "Mai laushi"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "Babban bambanci"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "Lambar shirin tsohuwa"
+msgid "Compact"
+msgstr "Matsakaici"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "Yi amfani da shi don samfurin WooCommerce wanda bai sanya sunan shirin nasa ba. Saita shirin kowane samfur a kan samfurin da kansa a ƙarƙashin Inventory."
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "Launin hanyar siya"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "Haɗi"
+msgid "“Available” colour"
+msgstr "Launin “Available”"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "Launi mai \"Ba a iya bincika ba\""
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "Launi na kuskure"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "Zagewar kusurwa"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "Sarari a cikin kowane jeri"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "Girman rubutu"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "Nauyin sunan yanki"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "Baabu maɓallin API na mai sayarwa tukunja."
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "Babu abin da yake aiki anan har sai an saita key. Ƙirƙiri ɗaya a cikin dashboard ɗinka na Zinn® a ƙarƙashin Settings → API keys."
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "Buɗe dashboard ɗina na Zinn®"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "An saita maɓalli, amma babu abin da aka kunna."
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "Babu wani abu daga cikin abubuwa uku da aka kunna, saboda haka wannan plugin ɗin ba ya komai a kan shafin ku. Kunna abin da kuke buƙata a ƙarƙashin Features."
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "Bude Fasaloli"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "Shirye — an kunna fasali %d."
+msgstr[1] "Shirye — an kunna fasali %d."
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "Sayarwa daga"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "Saituna"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "Babu maɓallin API tukuna, don haka babu abin da aka haɗa."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "Ba a haɗa ba: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "An haɗa. Shirin dillalin ku shine %s."
@@ -240,6 +362,251 @@ msgstr "Lambar hidima"
 msgid "Nothing provisioned for this order."
 msgstr "Ba abin da aka tsara don wannan oda."
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "An adana shi. Rubuta sabon ƙima don maye gurbin sa."
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Tace wannan jerin..."
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Tace wannan lissafin"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Babu abin da ya dace da wannan matatar."
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "Ƙara jerin shafi"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Cire wannan sahu"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "Cire"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — bayyani"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "Bayani Na Gaba ɗaya"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Kowane plugin na Zinn® a wannan shafin, da kuma ko yana aiki."
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Ba a buƙatar haɗin intanit don wannan plugin ɗin."
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "Buɗe saituna"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Ba ka da izinin canza waɗannan saitunan."
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Sashen saituna"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "Tallafi"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "Ajiye canje-canje"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "Kayan aiki"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "Saitunan fitarwa"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Sake wa ga-tsohuwar sifa"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Wannan zai dawo da duk wani tsari a kan wannan plugin zuwa ga asalin saitinsa na farko. A ci gaba?"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Binciken don goyon baya"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Shigo da fayil ɗin saiti"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "Shigo da kaya"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Fayilolin da aka fitar ba sa ƙunshe da kalmomin sirri, alamomi (tokens), ko maɓallan API — za buƙaci ka sake shigar da su a sabon rukunin yanar gizon."
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "An adana saitunan."
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Kowane saiti a kan wannan plugin ya koma tsohon matsayinsa."
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "An gama."
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Ba a samun damar yin wannan aikin."
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Ba a iya karanta wannan fayil ɗin ba. Zaɓi fayil ɗin saitunan da aka fitar daga wani matosai na Zinn®."
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Waccan fayil din ya yi yawa da zai zama fitar da saituna."
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Wannan fayil ɗin ba fitarwa ba ce ta saitunan Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "An fitar da wannan fayil ɗin ne daga wani plugin daban (%s), don haka shigo da shi anan zai adana saitunan da wannan plugin ɗin bai fahimta ba."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "An shigo da saitin %d. Kalmomin sirri da maɓallan API ba sa cikin fitarwa, don haka a sake shigar da su."
+msgstr[1] "An shigo da saituna %d. Kalmomin sirri da maɓallan API ba sa cikin fitarwa, don haka a sake shigar da su."
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "An Haɗa"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "Ana haɗawa..."
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "An haɗa, amma wani abu na buƙatar kulawa"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "Ba a haɗa ba"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "Ana gudu a kan asusunka naka"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "Ba mu iya bincika wannan ba"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Wannan ffulgin ɗin bai ba da dalili ba. A aika da rahoton bincike kuma za mu duba."
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "Matsayin haɗi"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "An bincika karshe tun %s."
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(yana buɗe a sabon shafin)"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Aiko wa zuwa ga goyon bayan Zinn®"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Wannan shineini abin da za a aika - babu wani abu kuma, kuma babu wani abin da aka ɓoye. Kalmomin sirrinka, alamomi da maɓallan API ba su ciki."
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Rahoton binciken da za a aika"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Kwafi zuwa allo"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Aika da wannan rahoton ga tallafin Zinn®"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Muna bude maka tikitin goyon baya kuma mu ba da amsa ta imel. Idan ka fi son kada ka aiko da shi, ka kwafe shi a sama ka manna shi a cikin tikiti da kanka."
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "An kwafi"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Ba mu iya isa ga Zinn Digital® ba daga wannan uwar garken (%s). Kwafi rahoton da ke sama sannan ka buɗe tikiti maimakon haka — babu abin da ya yi kuskure game da saitunanka."
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "An tura. Taimakon Zinn® yana da rahotonku kuma zai ba da amsa ta imel."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Taimakon Zinn® ya karɓi rahotonku — lamba %s — kuma zai ba da amsa ta imel."
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Ka aika da rahotanni da yawa a cikin dan kankanin lokaci. Jira 'yan mintoci kaɗan sannan ka sake gwadawa — waɗanda suka gabata sun isa."
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ta kasa karɓar rahoton a yanzu — matsalar daga ɓangarenmu ce, ba daga gare ku ba. Gwada sake yi nan ba da jimawa ba, ko kuma ku kwafe rahoton da ke sama zuwa cikin tikiti."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "An ƙi amincewa da rahoton (HTTP %d). Kwafi shi a sama sannan ka buɗe tikiti, tare da ambaton wannan lamba."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +651,22 @@ msgstr "Zinn Hub® — dauki ma'aikatan da suke yin wannan a matsayin sana'a"
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Kasuwancinmu na masu zaman kansu na duniya: bincika ayyuka sama da 10,000 da aka riga aka shirya daga marubuta, masu zanen kaya, masu haɓakawa da ƙwararrun SEO, ko sanya wani aikin kuma bari su yi ciniki."
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "Tsarin salo"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Wani wurin farawa. Duk wani abu da ke ƙasa yana shafe shi."
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Yi amfani da launuka da girmofi na kaina"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Bar wannan a kashe kuma ana amfani da saitaccen tsari yadda yake."
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."

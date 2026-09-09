@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,17 +71,26 @@ for the Zinn® reseller API and requires a reseller account.
   authenticated) to check availability and price. **The search term is the visitor's input; no
   other visitor data, IP address or identifier is added by this plugin.**
 * **Programme and plan data.** `/v1/reseller/program` is read to render your plans and prices.
-* **Provisioning (when a WooCommerce order is paid).** The plugin sends the order's hosting
-  details and the customer's name and e-mail to `/v1/orgs` so the account can be created. This is
-  a transfer of your customer's personal data to Zinn Digital® as a processor, and you should
+* **Provisioning (when a WooCommerce order is paid).** Two requests, in order. The customer's
+  name and e-mail go to `/v1/orgs` so their hosting account can be created, and the ordered
+  plan and domain name then go to `/v1/sites` so the site itself can be provisioned. This is a
+  transfer of your customer's personal data to Zinn Digital® as a processor, and you should
   reflect it in your own privacy policy.
-* **Client sign-in.** Generates a one-time link to `https://app.zinndigital.com`; no credentials
-  pass through this site.
+* **Client sign-in (when a signed-in customer presses "Open hosting panel").** This site asks
+  `/v1/reseller/services/<service-id>/sso`, using your reseller credential, for a one-time link
+  and then redirects the browser to `https://app.zinndigital.com`. No password and no customer
+  credential passes through this site — only the identifier of the service being opened.
 
 Nothing is transmitted until you enter reseller API credentials.
 
 Service terms: https://zinndigital.com/legal/terms
 Privacy policy: https://zinndigital.com/legal/privacy
+
+* **Support diagnostics (only when you press send).** If you ask us for help, the plugin can send
+  a support report to `https://api.zinndigital.com/v1/connector/diagnostics`. **You are shown the
+  exact payload first, already redacted, and nothing leaves your site until you press send.**
+  Credentials are excluded by declaration rather than by matching key names, and render as
+  `[not sent — credential]`. The plugin never sends this on its own initiative.
 
 == Translations ==
 
@@ -142,6 +151,11 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. The Zinn® hosting panel on a WooCommerce order.
 
 == Changelog ==
+
+= 1.2.0 =
+The domain-search widget can be styled — four presets and eight colours and sizes you can override — and the settings screen now tells you whether anything is actually switched on.
+= 1.1.3 =
+* Documented two API requests the plugin has always made and the readme did not mention: creating the site after an order is paid, and minting the one-time hosting-panel sign-in link.
 
 = 1.1.2 =
 * Added: automatic updates from the Zinn Digital® control plane — the same signed, checksum-verified update path the other Zinn® plugins use. Previously a new version could not reach an installed site.

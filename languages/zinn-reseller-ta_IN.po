@@ -11,8 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-reseller.php
-#: includes/class-settings.php:94
-#: includes/class-settings.php:170
 msgid "Zinn® Reseller Toolkit"
 msgstr "Zinn® Reseller Toolkit"
 
@@ -112,82 +110,206 @@ msgstr "இந்தக் கணக்கு இன்னும் ஹோஸ்
 msgid "The hosting platform did not return a sign-in link."
 msgstr "ஹோஸ்டிங் தளம் உள்நுழைவு இணைப்பை வழங்கவில்லை."
 
-#: includes/class-settings.php:95
-msgid "Zinn® Reseller"
-msgstr "Zinn® ரீசெல்லர்"
+#: includes/class-settings.php:119
+msgid "Reseller Toolkit"
+msgstr "மறுவிற்பனையாளர் கருவித்தொகுப்பு"
+
+#: includes/class-settings.php:125
+msgid "Account"
+msgstr "கணக்கு"
 
 #: includes/class-settings.php:129
-msgid "Settings"
-msgstr "அமைப்புகள்"
+msgid "Features"
+msgstr "அம்சங்கள்"
 
-#: includes/class-settings.php:173
-msgid "Connect this site to your Zinn® reseller account, then switch on only the parts you need."
-msgstr "இந்தத் தளத்தை உங்கள் Zinn® மறுவிற்பனையாளர் கணக்குடன் இணைக்கவும், பின்னர் உங்களுக்குத் தேவையான பகுதிகளை மட்டும் இயக்கவும்."
+#: includes/class-settings.php:133
+msgid "Styling"
+msgstr "பாணிமைப்பு"
 
-#: includes/class-settings.php:184
-msgid "API key"
-msgstr "API விசை"
+#: includes/class-settings.php:150
+msgid "Your Zinn Digital® reseller account"
+msgstr "உங்கள் Zinn Digital® மறு விற்பனையாளர் கணக்கு"
 
-#: includes/class-settings.php:197
-msgid "Create one in your Zinn® dashboard under API keys. Give it only the permissions the modules below need."
-msgstr "Zinn® டாஷ்போர்டில் API விசைகளின் கீழ் ஒன்றை உருவாக்கவும். கீழே உள்ள தொகுதிகளுக்குத் தேவையான அனுமதிகளை மட்டுமே அதற்கு வழங்கவும்."
+#: includes/class-settings.php:151
+msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
+msgstr "உங்கள் Zinn® டாஷ்போர்டில் அமைப்புகள் (Settings) → API விசைகள் (API keys) என்பதன் கீழ் மறுவிற்பனையாளர் API விசையை உருவாக்கி, அதை இங்கே ஒட்டவும்."
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:157
+msgid "Reseller API key"
+msgstr "மள் விற்பனையாளர் API விசை"
+
+#: includes/class-settings.php:158
+msgid "Held on this site only, and never included in an export or a diagnostics report."
+msgstr "இந்தத் தளத்தில் மட்டுமே சேமிக்கப்படும், ஏற்றுமதி அல்லது கண்டறிதல் அறிக்கையில் சேர்க்கப்படாது."
+
+#: includes/class-settings.php:164
+msgid "Plan to provision"
+msgstr "வழங்க வேண்டிய திட்டம்"
+
+#: includes/class-settings.php:165
+msgid "The plan code new customers are put on. Leave blank to be asked each time."
+msgstr "புதிய வாடிக்கையாளர்கள் சேர்க்கப்படும் திட்டம் குறிக்கும் குறியீடு. ஒவ்வொரு முறையும் கேட்கப்பட வேண்டுமெனில் காலியாக விடவும்."
+
+#: includes/class-settings.php:171
 msgid "API address"
 msgstr "API முகவரி"
 
-#: includes/class-settings.php:221
-msgid "Panel address"
-msgstr "பேனல் முகவரி"
+#: includes/class-settings.php:172
+msgid "Leave this alone unless Zinn® support has asked you to change it."
+msgstr "Zinn® ஆதரவு மாற்றச் சொன்னால் ஒழிய இதை மாற்ற வேண்டாம்."
 
-#: includes/class-settings.php:233
-msgid "Where your clients are sent to manage their hosting. If you have set a panel hostname under Reselling → Your brand, put it here — your clients then never see our address at all."
-msgstr "உங்கள் வாடிக்கையாளர்கள் தங்கள் ஹோஸ்டிங்கை நிர்வகிக்க அனுப்பப்படும் இடம். மறுவிற்பனை (Reselling) → உங்கள் பிராண்டின் கீழ் ஒரு பேனல் ஹோஸ்ட்பெயரை நீங்கள் அமைத்திருந்தால், அதை இங்கே வைக்கவும் - இதனால் உங்கள் வாடிக்கையாளர்கள் எங்கள் முகவரியை எப்போதுமே பார்க்க மாட்டார்கள்."
+#: includes/class-settings.php:178
+msgid "Control-panel address"
+msgstr "கட்டுப்பாட்டுப் பலக முகவரி"
 
-#: includes/class-settings.php:242
-msgid "Modules"
-msgstr "கூறுகள்"
+#: includes/class-settings.php:179
+msgid "Where the “My hosting” link sends your customers."
+msgstr "“எனது ஹோஸ்டிங்” இணைப்பு உங்கள் வாடிக்கையாளர்களை எங்கு அனுப்புகிறது."
 
-#: includes/class-settings.php:253
-msgid "Domain search — the [zinn_domain_search] shortcode, priced from your own domain account."
-msgstr "டொமைன் தேடல் — [zinn_domain_search] ஷார்ட்கோட், உங்கள் சொந்த டொமைன் கணக்கிலிருந்து விலை நிர்ணயிக்கப்பட்டது."
+#: includes/class-settings.php:195
+msgid "Domain search"
+msgstr "டொமைன் தேடல்"
 
-#: includes/class-settings.php:267
-msgid "Panel link — the [zinn_panel_link] shortcode signs a logged-in client into their hosting."
-msgstr "பேனல் இணைப்பு — [zinn_panel_link] ஷார்ட்கோட் உள்நுழைந்த வாடிக்கையாளரை அவர்களின் ஹோஸ்டிங்கில் உள்நுழைவு செய்கிறது."
+#: includes/class-settings.php:196
+msgid "Provide the [zinn_domain_search] shortcode"
+msgstr "[zinn_domain_search] குறுகிய குறியீட்டை (shortcode) வழங்கவும்"
 
-#: includes/class-settings.php:281
-msgid "WooCommerce — provision hosting automatically when an order is paid."
-msgstr "WooCommerce — ஒரு ஆர்டருக்கான கட்டணம் செலுத்தப்பட்டவுடன் ஹோஸ்டிங்கைத் தானாகவே வழங்கிடவும்."
+#: includes/class-settings.php:197
+msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
+msgstr "பார்வையாளர்கள் டொமைனைச் சோதித்து உங்கள் மூலம் அதை வாங்க அனுமதிப்பதற்காக எந்தப் பக்கத்திலும் ஷார்ட்கோட்டை வைக்கவும்."
 
-#: includes/class-settings.php:290
-msgid "WooCommerce is not active on this site, so this module is doing nothing."
-msgstr "இந்த தளத்தில் WooCommerce இயக்கத்தில் இல்லை, எனவே இந்த தொகுதி எதுவும் செய்யவில்லை."
+#: includes/class-settings.php:203
+msgid "Panel link"
+msgstr "பேனல் இணைப்பு"
+
+#: includes/class-settings.php:204
+msgid "Show a “My hosting” link to signed-in customers"
+msgstr "உள்நுழைந்த வாடிக்கையாளர்களுக்கு “எனது ஹோஸ்டிங்” இணைப்பைக் காட்டுங்கள்"
+
+#: includes/class-settings.php:210
+msgid "WooCommerce provisioning"
+msgstr "WooCommerce வழங்குதல்"
+
+#: includes/class-settings.php:211
+msgid "Provision hosting automatically when a WooCommerce order completes"
+msgstr "WooCommerce ஆர்டர் முடிவடையும் போது ஹோஸ்டிங்கை தானாகவே வழங்குங்கள்"
+
+#: includes/class-settings.php:212
+msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
+msgstr "Zinn® திட்டத்துடன் நீங்கள் வரைபடம் செய்துள்ள தயாரிப்பைக் கொண்ட ஆர்டர்களில் மட்டுமே இது அமல்படுத்தப்படும்."
+
+#: includes/class-settings.php:228
+msgid "Domain search appearance"
+msgstr "டொமைன் தேடல் தோற்றம்"
+
+#: includes/class-settings.php:229
+msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
+msgstr "இந்த விட்ஜெட் உங்கள் சொந்த தீமிற்குள் ரெண்டர் செய்யப்படும். ஒரு முன்னமைவைத் தேர்ந்தெடுக்கவும் அல்லது உங்கள் சொந்த வண்ணங்களை அமைக்கவும் — எப்படிச் செய்தாலும் பார்வையாளர்கள் எங்களுடையது என்று பார்க்கக்கூடிய வகையில் உங்கள் பக்கங்களில் எதுவும் சேர்க்கப்படாது."
+
+#: includes/class-settings.php:237
+msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
+msgstr "விட்செட் பயன்படுத்தும் ஒவ்வொரு வகுப்பும் செருகுநிறைவின் ரீட்மே-ல் பட்டியலிடப்பட்டுள்ளது, எனவே ஒரு முன்னமைவு உள்ளடவாத எதையும் டெவலப்பர் மேலெழுத முடியும்."
+
+#: includes/class-settings.php:254
+msgid "Follow my theme"
+msgstr "எனது தீமைப் பின்பற்றுங்கள்"
+
+#: includes/class-settings.php:270
+msgid "Soft"
+msgstr "மென்மையான"
+
+#: includes/class-settings.php:286
+msgid "High contrast"
+msgstr "அதிக மாறுபாடு"
 
 #: includes/class-settings.php:302
-msgid "Default plan code"
-msgstr "இயல்புநிலை திட்டக் குறியீடு"
+msgid "Compact"
+msgstr "சுருக்குக"
 
-#: includes/class-settings.php:314
-msgid "Used for a WooCommerce product that does not name its own plan. Set the per-product plan on the product itself under Inventory."
-msgstr "WooCommerce தயாரிப்புக்காகப் பயன்படுத்தப்படுகிறது, அது அதன் சொந்தத் திட்டத்தின் பெயரைக் குறிப்பிடவில்லை. தயாரிப்புக்குரிய திட்டத்தை சரக்கு (Inventory) பிரிவின் கீழ் தயாரிப்பிலேயே அமைக்கவும்."
+#: includes/class-settings.php:321
+msgid "Buy-link colour"
+msgstr "வாங்கு-இணைப்பு வண்ணம்"
 
 #: includes/class-settings.php:325
-msgid "Connection"
-msgstr "இணைப்பு"
+msgid "“Available” colour"
+msgstr "“கிடைக்கும்” நிறம்"
 
-#: includes/class-settings.php:350
+#: includes/class-settings.php:329
+msgid "“Could not check” colour"
+msgstr "“சரிபார்க்க முடியவில்லை” நிறம்"
+
+#: includes/class-settings.php:333
+msgid "Error colour"
+msgstr "பிழை நிறம்"
+
+#: includes/class-settings.php:337
+msgid "Corner rounding"
+msgstr "மூலை வளைவு"
+
+#: includes/class-settings.php:341
+msgid "Space inside each row"
+msgstr "ஒவ்வொரு வரிக்கும் உள்ள இடம்"
+
+#: includes/class-settings.php:345
+msgid "Text size"
+msgstr "உரை அளவு"
+
+#: includes/class-settings.php:349
+msgid "Domain-name weight"
+msgstr "டொமைன் பெயர் எடை"
+
+#: includes/class-settings.php:370
+msgid "No reseller API key yet."
+msgstr "இன்னும் ரீசெல்லர் API விசை இல்லை."
+
+#: includes/class-settings.php:371
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
+msgstr "ஒரு விசை (key) அமைக்கப்படும் வரை இங்கு எதுவும் வேலை செய்யாது. அமைப்புகள் (Settings) → API விசைகள் (API keys) என்பதன் கீழ் உங்கள் Zinn® டாஷ்போர்டில் ஒன்றை உருவாக்கவும்."
+
+#: includes/class-settings.php:373
+msgid "Open my Zinn® dashboard"
+msgstr "எனது Zinn® கட்டுப்பாட்டுப் பலகத்தைத் திறக்கவும்"
+
+#: includes/class-settings.php:391
+msgid "A key is set, but nothing is switched on."
+msgstr "ஒரு விசை அமைக்கப்பட்டுள்ளது, ஆனால் எதுவும் இயக்கப்படவில்லை."
+
+#: includes/class-settings.php:392
+msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
+msgstr "மூன்று அம்சங்களில் எதுவும் இயக்கப்படவில்லை, எனவே இந்த செருகுநிரல் உங்கள் தளத்தில் எந்தச் செயலையும் செய்யவில்லை. அம்சங்களின் கீழ் உங்களுக்குத் தேவையானதை இயக்கவும்."
+
+#: includes/class-settings.php:394
+msgid "Open Features"
+msgstr "திறந்த அம்சங்கள்"
+
+#. translators: %d: how many toolkit features are switched on.
+#: includes/class-settings.php:404
+#, php-format
+msgid "Ready — %d feature switched on."
+msgid_plural "Ready — %d features switched on."
+msgstr[0] "தயார் - %d அம்சம் இயக்கப்பட்டது."
+msgstr[1] "தயாராக உள்ளது — %d அம்சங்கள் இயக்கப்பட்டுள்ளன."
+
+#: includes/class-settings.php:409
+msgid "Selling from"
+msgstr "விற்பனை செய்யுமிடம்"
+
+#: includes/class-settings.php:443
+msgid "Settings"
+msgstr "அமைப்புகள்"
+
+#: includes/class-settings.php:502
 msgid "No API key yet, so nothing is connected."
 msgstr "இன்னும் API விசை எதுவும் இல்லை, எனவே எதுவும் இணைக்கப்படவில்லை."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:358
+#: includes/class-settings.php:510
 #, php-format
 msgid "Not connected: %s"
 msgstr "இணைக்கப்படவில்லை: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:368
+#: includes/class-settings.php:520
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "இணைக்கப்பட்டுள்ளது. உங்கள் மறுவிற்பனையாளர் திட்டம் %s ஆகும்."
@@ -240,6 +362,251 @@ msgstr "சேவை ஐடி"
 msgid "Nothing provisioned for this order."
 msgstr "இந்த ஆர்டருக்கு எதுவும் ஒதுக்கப்படவில்லை."
 
+#: includes/class-zinn-reseller-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "சேமிக்கப்பட்டது. அதை மாற்ற புதிய மதிப்பை உள்ளிடவும்."
+
+#: includes/class-zinn-reseller-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "இந்த பட்டியலை வடிகட்டவும்…"
+
+#: includes/class-zinn-reseller-admin-fields.php:636
+msgid "Filter this list"
+msgstr "இந்த பட்டியலை வடிகட்டுங்கள்"
+
+#: includes/class-zinn-reseller-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "அந்த வடிகட்டியுடன் எதுவும் பொருந்தவில்லை."
+
+#: includes/class-zinn-reseller-admin-fields.php:683
+msgid "Add a row"
+msgstr "ஒரு வரியைச் சேர்"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove this row"
+msgstr "இந்த வரிசையை அகற்று"
+
+#: includes/class-zinn-reseller-admin-fields.php:720
+msgid "Remove"
+msgstr "நீக்கு"
+
+#: includes/class-zinn-reseller-admin-ui.php:264
+#: includes/class-zinn-reseller-admin-ui.php:265
+#: includes/class-zinn-reseller-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-reseller-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — கண்ணோட்டம்"
+
+#: includes/class-zinn-reseller-admin-ui.php:279
+msgid "Overview"
+msgstr "கண்ணோட்டம்"
+
+#: includes/class-zinn-reseller-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "இந்தத் தளத்தில் உள்ள ஒவ்வொரு Zinn® செருகுநிரலும், அது இயங்குகிறதா இல்லையா என்பதும்."
+
+#: includes/class-zinn-reseller-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "இந்த செருகுநிரலுக்கு எந்த இணைப்பும் தேவையில்லை."
+
+#: includes/class-zinn-reseller-admin-ui.php:357
+msgid "Open settings"
+msgstr "அமைப்புகளைத் திறக்கவும்"
+
+#: includes/class-zinn-reseller-admin-ui.php:685
+#: includes/class-zinn-reseller-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "இந்த அமைப்புகளை மாற்ற உங்களுக்கு அனுமதி இல்லை."
+
+#: includes/class-zinn-reseller-admin-ui.php:715
+msgid "Settings sections"
+msgstr "அமைப்புப் பிரிவுகள்"
+
+#: includes/class-zinn-reseller-admin-ui.php:788
+msgid "Support"
+msgstr "ஆதரவு"
+
+#: includes/class-zinn-reseller-admin-ui.php:846
+msgid "Save changes"
+msgstr "மாற்றங்களைச் சேமிக்கவும்"
+
+#: includes/class-zinn-reseller-admin-ui.php:875
+msgid "Tools"
+msgstr "கருவிகள்"
+
+#: includes/class-zinn-reseller-admin-ui.php:890
+msgid "Export settings"
+msgstr "அமைப்புகளை ஏற்றுமதி செய்க"
+
+#: includes/class-zinn-reseller-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "இயல்புநிலைகளுக்கு மீட்டமைக்க"
+
+#: includes/class-zinn-reseller-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "இந்த செருகுநிரலின் ஒவ்வொரு அமைப்பையும் அதன் இயல்புநிலைக்கு மாற்றும். தொடர வேண்டுமா?"
+
+#: includes/class-zinn-reseller-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "ஆதரவுக்கான கண்டறிதல்கள்"
+
+#: includes/class-zinn-reseller-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "அமைப்புகள் கோப்பை இறக்குமதி செய்"
+
+#: includes/class-zinn-reseller-admin-ui.php:912
+msgid "Import"
+msgstr "இறக்குமதி"
+
+#: includes/class-zinn-reseller-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ஏற்றுமதி செய்யப்பட்ட கோப்புகளில் கடவுச்சொற்கள், டோக்கன்கள் அல்லது ஏபிஐ விசைகள் (API keys) எப்போதுமே இருக்காது — புதிய தளத்தில் அவற்றை நீங்கள் மீண்டும் உள்ளிட வேண்டும்."
+
+#: includes/class-zinn-reseller-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "அமைப்புகள் சேமிக்கப்பட்டன."
+
+#: includes/class-zinn-reseller-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "இந்த செருகுநிரலில் உள்ள ஒவ்வொரு அமைப்பும் அதன் இயல்புநிலைக்குத் திரும்பியுள்ளது."
+
+#: includes/class-zinn-reseller-admin-ui.php:1103
+msgid "Done."
+msgstr "முடிந்தது."
+
+#: includes/class-zinn-reseller-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "அந்தச் செயல் கிடைக்கவில்லை."
+
+#: includes/class-zinn-reseller-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "அந்தக் கோப்பைப் படிக்க முடியவில்லை. Zinn® செருகுநிறமியிலிருந்து ஏற்றுமதி செய்யப்பட்ட அமைப்புக் கோப்பைத் தேர்ந்தெடுக்கவும்."
+
+#: includes/class-zinn-reseller-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "அந்தக் கோப்பு அமைப்புகள் ஏற்றுமதியாக இருக்க முடியாத அளவுக்கு மிகப்பெரியது."
+
+#: includes/class-zinn-reseller-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "அந்தக் கோப்பு Zinn® அமைப்புகளின் ஏற்றுமதி அல்ல."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-reseller-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "அந்தக் கோப்பு வேறு செருகுநிரலில் (%s) இருந்து ஏற்றுமதி செய்யப்பட்டது, எனவே அதை இங்கே இறக்குமதி செய்வது இந்த செருகுநிரலுக்குப் புரியாத அமைப்புகளைச் சேமிக்கும்."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-reseller-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d அமைப்பு இறக்குமதி செய்யப்பட்டது. கடவுச்சொற்களும் API சாவிகளும் ஒருபோதும் ஏற்றுமதியில் இருக்காது, எனவே அவற்றை மீண்டும் உள்ளிடவும்."
+msgstr[1] "%d அமைப்புகள் இறக்குமதி செய்யப்பட்டன. கடவுச்சொற்களும் API விசைகளும் ஒருபோதும் ஏற்றுமதியில் இருக்காது, எனவே அவற்றை மீண்டும் உள்ளிடவும்."
+
+#: includes/class-zinn-reseller-connection.php:58
+msgid "Connected"
+msgstr "இணைக்கப்பட்டுள்ளது"
+
+#: includes/class-zinn-reseller-connection.php:60
+msgid "Connecting…"
+msgstr "இணைக்கிறது…"
+
+#: includes/class-zinn-reseller-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "இணைக்கப்பட்டுள்ளது, ஆனால் எதையோ கவனிக்க வேண்டும்"
+
+#: includes/class-zinn-reseller-connection.php:64
+msgid "Not connected"
+msgstr "இணைக்கப்படவில்லை"
+
+#: includes/class-zinn-reseller-connection.php:66
+msgid "Running on your own account"
+msgstr "உங்கள் சொந்த கணக்கில் இயங்குகிறது"
+
+#: includes/class-zinn-reseller-connection.php:68
+msgid "We could not check this"
+msgstr "இதைச் சரிபார்க்க முடியவில்லை"
+
+#: includes/class-zinn-reseller-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "இந்த செருகுநிரல் ஏன் என்று குறிப்பிடவில்லை. கண்டறிதல் அறிக்கையை அனுப்பவும், நாங்கள் பரிசீலிக்கிறோம்."
+
+#: includes/class-zinn-reseller-connection.php:161
+msgid "Connection status"
+msgstr "இணைப்பு நிலை"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-reseller-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "கடைசியாக %s முன்பு சரிபார்க்கப்பட்டது."
+
+#: includes/class-zinn-reseller-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(புதிய தாவலில் திறக்கும்)"
+
+#: includes/class-zinn-reseller-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® ஆதரவுப் பிரிவுக்கு இதை அனுப்பவும்"
+
+#: includes/class-zinn-reseller-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "அனுப்பப்படுவது இதுவே — வேறு எதுவும் இல்லை, மறைக்கப்பட்டவையும் இல்லை. இதில் உங்கள் கடவுச்சொற்கள், டோக்கன்கள் மற்றும் API விசைகள் இருக்காது."
+
+#: includes/class-zinn-reseller-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "அனுப்பப்படவுள்ள கண்டறிதல் அறிக்கை"
+
+#: includes/class-zinn-reseller-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "கிளிப் போர்டுக்கு நகலெடு"
+
+#: includes/class-zinn-reseller-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "இந்த அறிக்கையை Zinn® ஆதரவுக் குழுவிற்கு அனுப்பவும்"
+
+#: includes/class-zinn-reseller-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "நாங்கள் உங்களுக்காக ஒரு ஆதரவுச் சீட்டைத் திறந்து மின்னஞ்சல் மூலம் பதிலளிப்போம். அதை அனுப்ப விரும்பவில்லை எனில், மேலே உள்ளதை நகலெடுத்து நீங்களே ஒரு சீட்டில் ஒட்டவும்."
+
+#: includes/class-zinn-reseller-diagnostics.php:228
+msgid "Copied"
+msgstr "நகலெடுக்கப்பட்டது"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-reseller-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "இந்த சேவையகத்திலிருந்து (%s) Zinn Digital®-ஐ எங்களால் அடைய முடியவில்லை. மேலே உள்ள அறிக்கையை நகலெடுத்து அதற்கு பதிலாக ஒரு டிக்கெட்டைத் திறக்கவும் — உங்கள் அமைப்புகளில் எதுவும் தவறில்லை."
+
+#: includes/class-zinn-reseller-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Sent. Zinn® ஆதரவு உங்கள் அறிக்கையைப் பெற்றுள்ளது, மேலும் மின்னஞ்சல் மூலம் பதிலளிக்கும்."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-reseller-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "அனுப்பப்பட்டது. Zinn® ஆதரவு உங்கள் அறிக்கையைப் பெற்றுள்ளது - குறிப்பு %s - மேலும் மின்னஞ்சல் மூலம் பதிலளிக்கும்."
+
+#: includes/class-zinn-reseller-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "நீங்கள் குறுகிய காலத்தில் பல அறிக்கைகளை அனுப்பியுள்ளீர்கள். சில நிமிடங்கள் காத்திருந்து மீண்டும் முயற்சிக்கவும் — முந்தையவை வந்து சேர்ந்துவிட்டன."
+
+#: includes/class-zinn-reseller-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® அறிக்கையை இப்போதைக்கு ஏற்றுக்கொள்ள முடியவில்லை — அது உங்கள் முடிவல்ல, எங்களது முடிவு. சிறிது நேரத்தில் மீண்டும் முயற்சிக்கவும் அல்லது மேலே உள்ள அறிக்கையை ஒரு டிக்கெட்டில் நகலெடுக்கவும்."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-reseller-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "அறிக்கை மறுக்கப்பட்டது (HTTP %d). அதை மேலே நகலெடுத்து, அந்த எண்ணைக் குறிப்பிட்டு ஒரு டிக்கெட் திறக்கவும்."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
@@ -284,6 +651,22 @@ msgstr "Zinn Hub® — இதைத் தொழிலாகச் செய்�
 #: includes/class-zinn-reseller-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "எங்கள் உலகளாவிய ஃப்ரீலான்ஸ் சந்தை: எழுத்தாளர்கள், வடிவமைப்பாளர்கள், டெவலப்பர்கள் மற்றும் SEO நிபுணர்களிடமிருந்து 10,000-க்கும் மேற்பட்ட ரெடிமேட் சேவைகளை உலவுங்கள் அல்லது ஒரு திட்டத்தைப் பதிவிட்டு அவர்களை ஏலம் எடுக்க அனுமதிக்கவும்."
+
+#: includes/class-zinn-reseller-style-presets.php:109
+msgid "Style preset"
+msgstr "பாணி முன்னமைவு"
+
+#: includes/class-zinn-reseller-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "ஒரு தொடக்கப் புள்ளி. கீழே உள்ள எதும் அதை மாற்றி எழுதும்."
+
+#: includes/class-zinn-reseller-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "எனது சொந்த நிறங்கள் மற்றும் அளவுகளைப் பயன்படுத்தவும்"
+
+#: includes/class-zinn-reseller-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "இதை ஆஃப் செய்துவிட்டால், முன்னமைவு அப்படியே பயன்படுத்தப்படும்."
 
 #: includes/class-zinn-reseller-updater.php:233
 msgid "See the Zinn Digital® release notes."
