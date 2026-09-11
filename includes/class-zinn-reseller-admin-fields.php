@@ -136,7 +136,12 @@ final class Zinn_Reseller_Admin_Fields {
 			return is_string( $stored ) ? $stored : '';
 		}
 
-		if ( isset( $field['sanitize'] ) && is_callable( $field['sanitize'] ) ) {
+		// ⛔⛔ A STRING is always a RULE NAME here, never a function — even when PHP has a
+		// function of that name. `is_callable( 'key' )` is TRUE because `key()` is a PHP
+		// builtin, so the `'sanitize' => 'key'` rule called `key( $raw, $field )` instead of
+		// `sanitize_key()`, and every save of the Zinn® Translate settings screen died with
+		// `ArgumentCountError` (D24521). Only a Closure or an array callable is a callable.
+		if ( isset( $field['sanitize'] ) && ! is_string( $field['sanitize'] ) && is_callable( $field['sanitize'] ) ) {
 			return call_user_func( $field['sanitize'], $raw, $field );
 		}
 
