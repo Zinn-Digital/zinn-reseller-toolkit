@@ -202,10 +202,10 @@ msgstr "Zinn® プランにマッピングした商品が含まれるご注文�
 msgid "Domain search appearance"
 msgstr "ドメイン検索の表示形式"
 
-#. zinn-i18n: not translated — MalformedMarkError: [ja] the translation INVENTED a registered mark: ['Digital®'] source: 'This widget renders inside your own t
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-settings.php:229
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr ""
+msgstr "このウィジェットはお使いのテーマの中に表示されます。プリセットを選ぶか、独自の色を設定してください。どちらの場合も、訪問者に当社のものだとわかる要素がページに追加されることはありません。"
 
 #: includes/class-settings.php:237
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."

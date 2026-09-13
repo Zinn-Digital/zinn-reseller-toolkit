@@ -174,10 +174,10 @@ msgstr "Пошук домену"
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "Введіть шорткод [zinn_domain_search]"
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачі', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-settings.php:197
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr ""
+msgstr "Розмістіть шорткод на будь-якій сторінці, щоб відвідувачі могли перевірити домен і купити його через вас."
 
 #: includes/class-settings.php:203
 msgid "Panel link"
@@ -203,10 +203,10 @@ msgstr "Діє лише для замовлень, що містять прод�
 msgid "Domain search appearance"
 msgstr "Вигляд пошуку доменів"
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувач', a token that repeats its own opening — the shape of `revrevendeur` for `
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-settings.php:229
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr ""
+msgstr "Цей віджет відображається всередині вашої власної теми. Виберіть готовий стиль або задайте власні кольори — у будь-якому разі на ваші сторінки не додається нічого, за чим відвідувач міг би впізнати нас."
 
 #: includes/class-settings.php:237
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
