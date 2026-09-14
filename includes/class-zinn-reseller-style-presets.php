@@ -72,11 +72,20 @@ final class Zinn_Reseller_Style_Presets {
 			$component
 		);
 
-		if ( ! has_action( 'wp_head', array( __CLASS__, 'print_front_end_css' ) ) ) {
-			// ⛔ Priority 20: after a theme has printed its own custom properties, so ours
-			// win for our own component without the customer needing `!important` — and
-			// `!important` in a plugin is a thing a site owner cannot override at all.
-			add_action( 'wp_head', array( __CLASS__, 'print_front_end_css' ), 20 );
+		if ( ! has_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_front_end_css' ) ) ) {
+			// ⛔ Priority 20: LAST among enqueued styles, so a theme that registers its own
+			// custom properties has already been queued and ours win for our own component
+			// without the customer needing `!important` — and `!important` in a plugin is a
+			// thing a site owner cannot override at all.
+			//
+			// ⛔⛤ **THIS WAS `wp_head` AT 20 UNTIL 2026-09-14, PRINTING A BARE `<style>`,
+			// AND WORDPRESS.ORG REFUSED IT** while reviewing `zinn-cache` (`docs/730`).
+			// The ordering guarantee is unchanged for the case that matters: enqueued
+			// styles are printed together in `wp_head` at priority 8, in enqueue order, and
+			// ours is enqueued last. What it never covered, before or after, is a theme that
+			// echoes raw CSS into `wp_head` at a priority above ours — that beat the old
+			// form too.
+			add_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_front_end_css' ), 20 );
 		}
 	}
 
@@ -202,7 +211,7 @@ final class Zinn_Reseller_Style_Presets {
 	}
 
 	/**
-	 * Print the resolved custom properties into the front end.
+	 * Put the resolved custom properties on the front end, as an enqueued inline style.
 	 *
 	 * ⛔⛔ **EVERY VALUE IS FILTERED THROUGH AN ALLOW-LIST OF CHARACTERS BEFORE IT REACHES A
 	 * STYLESHEET, AND THAT IS NOT BELT-AND-BRACES.** These values are stored by a settings
@@ -212,9 +221,17 @@ final class Zinn_Reseller_Style_Presets {
 	 * design token is a character allow-list, because a token is a colour, a length or a
 	 * font stack and none of those needs a brace.
 	 *
+	 * ⛔⛔ **AND IT GOES OUT THROUGH `wp_add_inline_style()`, NEVER AN ECHOED TAG.** Both
+	 * halves are load-bearing and they answer different questions: the allow-list above
+	 * decides what may be IN the stylesheet, and the enqueue decides how it REACHES the
+	 * page. WordPress.org required the second while reviewing `zinn-cache` (`docs/730`) —
+	 * an echoed `<style>` cannot be dequeued by a site owner, cannot be reached by a CSS
+	 * optimiser, and is simply lost on a site with a Content-Security-Policy that forbids
+	 * inline code.
+	 *
 	 * @return void
 	 */
-	public static function print_front_end_css(): void {
+	public static function enqueue_front_end_css(): void {
 		$blocks = array();
 
 		foreach ( self::$components as $id => $component ) {
@@ -242,7 +259,19 @@ final class Zinn_Reseller_Style_Presets {
 			return;
 		}
 
-		echo "<style id='zinn-zinn-reseller-tokens'>" . esc_html( implode( '', $blocks ) ) . '</style>' . "\n";
+		$handle = 'zinn-zinn-reseller-tokens';
+
+		// ⭐ A handle with no source: WordPress's own idiom for one that exists so inline
+		// code can hang off it, so the plugin still ships no stylesheet file and still makes
+		// no HTTP request. `wp_add_inline_style()` escapes nothing, which is why `css_value()`
+		// above is an allow-list rather than a call to `esc_html()` — that was never the
+		// right escaper for CSS context, and it is not one here either.
+		if ( ! wp_style_is( $handle, 'registered' ) ) {
+			$version = defined( 'ZINN_RESELLER_VERSION' ) ? (string) constant( 'ZINN_RESELLER_VERSION' ) : false;
+			wp_register_style( $handle, false, array(), $version );
+		}
+		wp_enqueue_style( $handle );
+		wp_add_inline_style( $handle, implode( '', $blocks ) );
 	}
 
 	/**

@@ -49,6 +49,17 @@ final class Zinn_Reseller_Admin_UI {
 	private const PARENT = 'zinn-admin-ui';
 
 	/**
+	 * The hook suffixes of the screens this copy registered, filled in by `build_menu()`.
+	 *
+	 * ⭐ Only the menu-owning copy ever populates this, and that is correct rather than a
+	 * limitation: the framework's CSS and JavaScript are identical in all seven copies, so
+	 * the copy that built the menu can enqueue for every screen on it.
+	 *
+	 * @var array<int, string>
+	 */
+	private static $screens = array();
+
+	/**
 	 * Option holding the schema version, which is what makes the legacy fold run once.
 	 *
 	 * ⛔ An OPTION, not a transient. A transient can be evicted by an object cache under
@@ -260,7 +271,8 @@ final class Zinn_Reseller_Admin_UI {
 			: (string) reset( $caps );
 		$parent_page = self::PARENT;
 
-		add_menu_page(
+		$screens   = array();
+		$screens[] = add_menu_page(
 			__( 'Zinn Digital®', 'zinn-reseller' ),
 			__( 'Zinn Digital®', 'zinn-reseller' ),
 			$parent_cap,
@@ -273,7 +285,7 @@ final class Zinn_Reseller_Admin_UI {
 		// ⛔ WordPress renders the parent as its own first submenu with the parent's title.
 		// Overriding it here is what makes that entry read "Overview" rather than "Zinn
 		// Digital® / Zinn Digital®", which looks like a bug to anyone who sees it.
-		add_submenu_page(
+		$screens[] = add_submenu_page(
 			$parent_page,
 			__( 'Zinn Digital® — overview', 'zinn-reseller' ),
 			__( 'Overview', 'zinn-reseller' ),
@@ -283,8 +295,8 @@ final class Zinn_Reseller_Admin_UI {
 		);
 
 		foreach ( $pages as $slug => $page ) {
-			$owner = (string) $page['class'];
-			add_submenu_page(
+			$owner     = (string) $page['class'];
+			$screens[] = add_submenu_page(
 				$parent_page,
 				(string) $page['title'],
 				(string) $page['title'],
@@ -300,6 +312,76 @@ final class Zinn_Reseller_Admin_UI {
 				}
 			);
 		}
+
+		// ⛔⛔ THE ASSETS ARE ENQUEUED AGAINST THESE SCREENS AND NOWHERE ELSE (§2.22).
+		// `add_menu_page()` and `add_submenu_page()` each return the hook suffix of the
+		// screen they created, or `false` when the current user cannot see it — so this
+		// list is exactly the set of pages that will ever render `.zinn-admin`, computed
+		// by WordPress rather than matched from `$_GET['page']`. A capability the customer
+		// does not hold takes its screen out of the list and its CSS with it.
+		self::$screens = array_values( array_filter( $screens, 'is_string' ) );
+		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'enqueue_assets' ) );
+	}
+
+	/**
+	 * Register and enqueue the framework's CSS and JavaScript for one of our own screens.
+	 *
+	 * ⛔⛔ **THIS REPLACES A BARE `<style>` AND A BARE `<script>` PRINTED INTO THE PAGE BODY,
+	 * AND IT IS A WORDPRESS.ORG REVIEW FINDING, NOT A TIDY-UP** (`docs/730`, reviewing
+	 * `zinn-cache` 1.2.0). Their reasoning is performance and compatibility, and the
+	 * practical half is that a printed tag is invisible to every other component: nothing
+	 * can `wp_dequeue_style()` it, no optimiser can defer or combine it, no
+	 * `script_loader_tag` filter can reach it, and a site with a Content-Security-Policy
+	 * that forbids inline code simply loses the behaviour with nothing to point at.
+	 *
+	 * ⭐ A handle with `false` for its source is WordPress's own idiom for "this handle
+	 * exists so inline code can hang off it" — `WP_Styles::do_item()` and
+	 * `WP_Scripts::do_item()` both have an explicit branch for a registered item with no
+	 * `src`, which prints its inline payload and nothing else. So the plugin still ships no
+	 * `.css` or `.js` file for a reviewer to check the licence of, and still makes no HTTP
+	 * request, while going through the documented door.
+	 *
+	 * ⚠️ Registered lazily rather than on `init`: `wp_register_style()` before
+	 * `wp_enqueue_scripts`/`admin_enqueue_scripts` is a `_doing_it_wrong()` notice on a
+	 * customer's site, and a notice from our framework on every admin page load is a
+	 * support ticket.
+	 *
+	 * @param string $hook_suffix The screen WordPress is about to render.
+	 * @return void
+	 */
+	public static function enqueue_assets( $hook_suffix = '' ): void {
+		if ( ! in_array( (string) $hook_suffix, self::$screens, true ) ) {
+			return;
+		}
+
+		$handle  = 'zinn-admin-ui';
+		$version = defined( 'ZINN_RESELLER_VERSION' ) ? (string) constant( 'ZINN_RESELLER_VERSION' ) : false;
+
+		if ( ! wp_style_is( $handle, 'registered' ) ) {
+			wp_register_style( $handle, false, array(), $version );
+		}
+		wp_enqueue_style( $handle );
+		wp_add_inline_style( $handle, self::styles_css() );
+
+		if ( ! wp_script_is( $handle, 'registered' ) ) {
+			wp_register_script( $handle, false, array(), $version, true );
+		}
+		wp_enqueue_script( $handle );
+
+		// ⛔ `before`, and `wp_json_encode`, and one object rather than loose globals. The
+		// script body is a nowdoc that cannot interpolate PHP at all, so every translated
+		// string the behaviour needs has to arrive as data — which is also the only form
+		// that cannot break the parser on a locale whose translation contains a quote.
+		wp_add_inline_script(
+			$handle,
+			'window.zinnAdminUi = ' . wp_json_encode(
+				array(
+					'copied' => __( 'Copied', 'zinn-reseller' ),
+				)
+			) . ';',
+			'before'
+		);
+		wp_add_inline_script( $handle, self::script_js() );
 	}
 
 	/**
@@ -334,7 +416,6 @@ final class Zinn_Reseller_Admin_UI {
 		echo '<div class="wrap zinn-admin">';
 		echo '<h1>' . esc_html__( 'Zinn Digital®', 'zinn-reseller' ) . '</h1>';
 		echo '<p class="zinn-lede">' . esc_html__( 'Every Zinn® plugin on this site, and whether it is working.', 'zinn-reseller' ) . '</p>';
-		self::print_styles();
 
 		echo '<div class="zinn-cards">';
 		foreach ( $pages as $slug => $page ) {
@@ -693,7 +774,6 @@ final class Zinn_Reseller_Admin_UI {
 		$values  = self::all();
 		$notice  = self::take_notice();
 
-		self::print_styles();
 		?>
 		<div class="wrap zinn-admin">
 			<h1><?php echo esc_html( (string) self::$config['title'] ); ?></h1>
@@ -752,7 +832,6 @@ final class Zinn_Reseller_Admin_UI {
 			?>
 		</div>
 		<?php
-		self::print_script();
 	}
 
 	/**
@@ -1303,7 +1382,7 @@ final class Zinn_Reseller_Admin_UI {
 	}
 
 	/**
-	 * The framework's admin CSS, printed once per request.
+	 * The framework's admin CSS, as a string for `wp_add_inline_style()`.
 	 *
 	 * ⛔⛔ **LOGICAL PROPERTIES ONLY** (§2.7) — `margin-inline-start`, never `margin-left`.
 	 * WordPress ships an RTL admin and a hard-coded `left` is a layout that silently breaks
@@ -1314,15 +1393,17 @@ final class Zinn_Reseller_Admin_UI {
 	 * bytes, it only ever loads on our own screens, and it means the plugin ships no asset a
 	 * WordPress.org reviewer has to check the licence of.
 	 *
-	 * @return void
+	 * ⛔⛤ **THAT SENTENCE WAS TRUE OF THE INTENTION AND FALSE OF THE CODE UNTIL 2026-09-14.**
+	 * It said *"against a registered handle"* while the function it introduced printed a bare
+	 * `<style id="zinn-admin-ui">` into the page body, and the WordPress.org reviewer of
+	 * `zinn-cache` found it (`docs/730`). §2.24 exactly: a docblock and the code beneath it
+	 * are two expressions of one intention, so re-reading confirmed both. The handle is real
+	 * now — see `enqueue_assets()`.
+	 *
+	 * @return string
 	 */
-	private static function print_styles(): void {
-		if ( ! empty( $GLOBALS['zinn_admin_ui_styles_done'] ) ) {
-			return;
-		}
-		$GLOBALS['zinn_admin_ui_styles_done'] = true;
-		?>
-		<style id="zinn-admin-ui">
+	private static function styles_css(): string {
+		return <<<'CSS'
 			.zinn-admin .zinn-lede { max-inline-size: 60ch; color: #50575e; }
 			.zinn-admin .zinn-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1rem; margin-block-start: 1rem; }
 			.zinn-admin .zinn-card { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 1rem 1.25rem; }
@@ -1373,8 +1454,7 @@ final class Zinn_Reseller_Admin_UI {
 			.zinn-admin .zinn-preset { border: 2px solid #c3c4c7; border-radius: 4px; padding: .75rem; cursor: pointer; display: block; }
 			.zinn-admin .zinn-preset:has(input:checked) { border-color: #2271b1; }
 			.zinn-admin .zinn-preset__name { font-weight: 600; display: block; }
-		</style>
-		<?php
+			CSS;
 	}
 
 	/**
@@ -1386,15 +1466,16 @@ final class Zinn_Reseller_Admin_UI {
 	 * settings screen that stops working when a script fails to load is a screen that stops
 	 * working on the exact site whose plugin conflict brought the customer to it.
 	 *
-	 * @return void
+	 * ⭐ Returned rather than printed, so `enqueue_assets()` can hand it to
+	 * `wp_add_inline_script()`. Anything here that needs a translated string reads it from
+	 * `window.zinnAdminUi`, which the same function prints `before` this block — a nowdoc
+	 * cannot interpolate PHP, and that is the point: no string in this file can reach the
+	 * page unescaped.
+	 *
+	 * @return string
 	 */
-	private static function print_script(): void {
-		if ( ! empty( $GLOBALS['zinn_admin_ui_script_done'] ) ) {
-			return;
-		}
-		$GLOBALS['zinn_admin_ui_script_done'] = true;
-		?>
-		<script>
+	private static function script_js(): string {
+		return <<<'JS'
 		( function () {
 			var root = document.querySelector( '.zinn-admin' );
 			if ( ! root ) { return; }
@@ -1469,8 +1550,33 @@ final class Zinn_Reseller_Admin_UI {
 					if ( row ) { row.remove(); }
 				} );
 			} );
+
+			/*
+			 * Copy-to-clipboard for the diagnostics report.
+			 *
+			 * ⭐ It lives HERE, in the framework, rather than in a <script> beside the
+			 * report it serves. `[data-zinn-copy]` and `.zinn-diagnostics` are framework
+			 * classes and the framework's own stylesheet already styles them, so the
+			 * behaviour belongs to the same handle — which is what let the diagnostics
+			 * screen stop printing a tag of its own altogether.
+			 *
+			 * ⛔ `navigator.clipboard` is undefined on a plain-HTTP admin. The button then
+			 * does nothing rather than throwing, and the report is still selectable text
+			 * one keystroke from a manual copy — it was never the only way out.
+			 */
+			root.addEventListener( 'click', function ( event ) {
+				var button = event.target.closest( '[data-zinn-copy]' );
+				if ( ! button || ! navigator.clipboard ) { return; }
+				var block = root.querySelector( '.zinn-diagnostics' );
+				if ( ! block ) { return; }
+				navigator.clipboard.writeText( block.textContent ).then( function () {
+					var was = button.textContent;
+					var data = window.zinnAdminUi || {};
+					button.textContent = data.copied || was;
+					window.setTimeout( function () { button.textContent = was; }, 2000 );
+				} );
+			} );
 		}() );
-		</script>
-		<?php
+		JS;
 	}
 }

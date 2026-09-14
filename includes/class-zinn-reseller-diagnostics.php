@@ -216,22 +216,18 @@ final class Zinn_Reseller_Diagnostics {
 				<?php esc_html_e( 'We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself.', 'zinn-reseller' ); ?>
 			</p>
 		</form>
-
-		<script>
-		( function () {
-			var button = document.querySelector( '[data-zinn-copy]' );
-			var block = document.querySelector( '.zinn-diagnostics' );
-			if ( ! button || ! block || ! navigator.clipboard ) { return; }
-			button.addEventListener( 'click', function () {
-				navigator.clipboard.writeText( block.textContent ).then( function () {
-					var was = button.textContent;
-					button.textContent = <?php echo wp_json_encode( __( 'Copied', 'zinn-reseller' ) ); ?>;
-					window.setTimeout( function () { button.textContent = was; }, 2000 );
-				} );
-			} );
-		}() );
-		</script>
 		<?php
+		/*
+		 * ⛔⛔ THE COPY BUTTON'S BEHAVIOUR IS NOT PRINTED HERE, AND THAT IS THE FIX RATHER
+		 * THAN A RELOCATION. This screen used to emit its own `<script>` block; WordPress.org
+		 * flagged it while reviewing `zinn-cache` (`docs/730`) and they are right — a printed
+		 * tag cannot be dequeued, deferred, filtered or allowed by a Content-Security-Policy.
+		 *
+		 * ⭐ It now rides `Zinn_Reseller_Admin_UI`'s enqueued `zinn-admin-ui` handle, which is already
+		 * on every screen this report can appear on, and reads its translated label from
+		 * `window.zinnAdminUi`. Nothing here needs to know that: the markup above carries
+		 * `data-zinn-copy` and `.zinn-diagnostics`, and the framework binds to them.
+		 */
 	}
 
 	/**
