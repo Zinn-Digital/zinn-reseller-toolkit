@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Reseller Toolkit 1.2.2\n"
+"Project-Id-Version: Zinn® Reseller Toolkit 1.2.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-reseller\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-13T00:37:45+00:00\n"
+"POT-Creation-Date: 2026-09-14T10:07:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-reseller\n"
@@ -395,117 +395,121 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:264
-#: includes/class-zinn-reseller-admin-ui.php:265
-#: includes/class-zinn-reseller-admin-ui.php:335
+#: includes/class-zinn-reseller-admin-ui.php:276
+#: includes/class-zinn-reseller-admin-ui.php:277
+#: includes/class-zinn-reseller-admin-ui.php:417
 msgid "Zinn Digital®"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:278
+#: includes/class-zinn-reseller-admin-ui.php:290
 msgid "Zinn Digital® — overview"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:279
+#: includes/class-zinn-reseller-admin-ui.php:291
 msgid "Overview"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:336
+#: includes/class-zinn-reseller-admin-ui.php:379
+msgid "Copied"
+msgstr ""
+
+#: includes/class-zinn-reseller-admin-ui.php:418
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:352
+#: includes/class-zinn-reseller-admin-ui.php:433
 msgid "No connection is needed for this plugin."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:357
+#: includes/class-zinn-reseller-admin-ui.php:438
 msgid "Open settings"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:685
-#: includes/class-zinn-reseller-admin-ui.php:1248
+#: includes/class-zinn-reseller-admin-ui.php:766
+#: includes/class-zinn-reseller-admin-ui.php:1327
 msgid "You do not have permission to change these settings."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:715
+#: includes/class-zinn-reseller-admin-ui.php:795
 msgid "Settings sections"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:867
 msgid "Support"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:846
+#: includes/class-zinn-reseller-admin-ui.php:925
 msgid "Save changes"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:875
+#: includes/class-zinn-reseller-admin-ui.php:954
 msgid "Tools"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:890
+#: includes/class-zinn-reseller-admin-ui.php:969
 msgid "Export settings"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:893
+#: includes/class-zinn-reseller-admin-ui.php:972
 msgid "Reset to defaults"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:894
+#: includes/class-zinn-reseller-admin-ui.php:973
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:901
+#: includes/class-zinn-reseller-admin-ui.php:980
 msgid "Diagnostics for support"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:910
+#: includes/class-zinn-reseller-admin-ui.php:989
 msgid "Import a settings file"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:912
+#: includes/class-zinn-reseller-admin-ui.php:991
 msgid "Import"
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:914
+#: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:1013
+#: includes/class-zinn-reseller-admin-ui.php:1092
 msgid "Settings saved."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:1060
+#: includes/class-zinn-reseller-admin-ui.php:1139
 msgid "Every setting on this plugin is back to its default."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:1103
+#: includes/class-zinn-reseller-admin-ui.php:1182
 msgid "Done."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:1107
+#: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "That action is not available."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:1174
+#: includes/class-zinn-reseller-admin-ui.php:1253
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:1182
+#: includes/class-zinn-reseller-admin-ui.php:1261
 msgid "That file is too large to be a settings export."
 msgstr ""
 
-#: includes/class-zinn-reseller-admin-ui.php:1195
+#: includes/class-zinn-reseller-admin-ui.php:1274
 msgid "That file is not a Zinn® settings export."
 msgstr ""
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1203
+#: includes/class-zinn-reseller-admin-ui.php:1282
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr ""
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1233
+#: includes/class-zinn-reseller-admin-ui.php:1312
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -578,36 +582,32 @@ msgstr ""
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr ""
 
-#: includes/class-zinn-reseller-diagnostics.php:228
-msgid "Copied"
-msgstr ""
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-reseller-diagnostics.php:274
+#: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr ""
 
-#: includes/class-zinn-reseller-diagnostics.php:288
+#: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr ""
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-reseller-diagnostics.php:291
+#: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr ""
 
-#: includes/class-zinn-reseller-diagnostics.php:300
+#: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr ""
 
-#: includes/class-zinn-reseller-diagnostics.php:307
+#: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr ""
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-reseller-diagnostics.php:315
+#: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr ""
@@ -657,19 +657,19 @@ msgstr ""
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr ""
 
-#: includes/class-zinn-reseller-style-presets.php:109
+#: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
 msgstr ""
 
-#: includes/class-zinn-reseller-style-presets.php:110
+#: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr ""
 
-#: includes/class-zinn-reseller-style-presets.php:117
+#: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr ""
 
-#: includes/class-zinn-reseller-style-presets.php:118
+#: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr ""
 
