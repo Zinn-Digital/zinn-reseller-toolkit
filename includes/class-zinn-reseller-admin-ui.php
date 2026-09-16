@@ -271,10 +271,14 @@ final class Zinn_Reseller_Admin_UI {
 			: (string) reset( $caps );
 		$parent_page = self::PARENT;
 
+		// ⛔ The MENU title (not the page title, which lands in `<title>` where markup is text)
+		// is isolated in `<bdi>`: in a right-to-left admin the bidi algorithm otherwise moves
+		// the trailing ® to the left of the mark and the ® renders on the wrong side of the mark (W43-117,
+		// the same class as D26370). WordPress prints menu titles as HTML.
 		$screens   = array();
 		$screens[] = add_menu_page(
 			__( 'Zinn Digital®', 'zinn-reseller' ),
-			__( 'Zinn Digital®', 'zinn-reseller' ),
+			'<bdi>' . esc_html__( 'Zinn Digital®', 'zinn-reseller' ) . '</bdi>',
 			$parent_cap,
 			$parent_page,
 			array( __CLASS__, 'render_overview' ),
@@ -1431,6 +1435,7 @@ final class Zinn_Reseller_Admin_UI {
 			.zinn-admin .zinn-connection__actions { display: flex; gap: .5rem; flex-wrap: wrap; }
 			.zinn-admin .zinn-connection__checked { color: #646970; font-size: .9em; margin-block: .5rem 0; }
 			.zinn-admin .zinn-fieldset-title { margin-block: 1.5rem .25rem; }
+			.zinn-admin input[type="number"].small-text { inline-size: 10em; }
 			.zinn-admin .zinn-field-row--full > td { padding-inline-start: 0; }
 			.zinn-admin .zinn-multiselect { border: 1px solid #c3c4c7; border-radius: 4px; padding: .5rem; max-inline-size: 32rem; }
 			.zinn-admin .zinn-multiselect__search { inline-size: 100%; margin-block-end: .5rem; }

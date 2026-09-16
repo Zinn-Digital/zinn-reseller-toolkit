@@ -338,24 +338,74 @@ final class Zinn_Reseller_Promo {
 	 */
 	public static function attach_footer_panel( string $screen_prefix ): void {
 		add_action(
+			'admin_enqueue_scripts',
+			static function () use ( $screen_prefix ): void {
+				if ( ! self::is_footer_screen( $screen_prefix ) ) {
+					return;
+				}
+				$handle = 'zinn-promo-footer';
+				if ( ! wp_style_is( $handle, 'registered' ) ) {
+					wp_register_style( $handle, false, array(), '1' ); // An inline-only handle: the version is the rules' own revision, not a file's.
+				}
+				wp_enqueue_style( $handle );
+				wp_add_inline_style( $handle, self::footer_css() );
+			}
+		);
+		add_action(
 			'admin_footer',
 			static function () use ( $screen_prefix ): void {
-				if ( ! function_exists( 'get_current_screen' ) ) {
+				if ( ! self::is_footer_screen( $screen_prefix ) ) {
 					return;
 				}
-				$screen = get_current_screen();
-				// ⛔ The check is on OUR OWN menu slug appearing in the screen id, so the
-				// panel cannot leak onto another plugin's page or onto a core screen. A bare
-				// `admin_footer` with no screen test is an advert on every page of wp-admin,
-				// which is the single clearest WordPress.org rejection there is.
-				if ( null === $screen || false === strpos( (string) $screen->id, $screen_prefix ) ) {
-					return;
-				}
-				echo '<div class="wrap">';
+				echo '<div class="wrap ' . esc_attr( self::FOOTER_CLASS ) . '">';
 				self::render_panel();
 				echo '</div>';
 			}
 		);
+	}
+
+	/**
+	 * The wrapper class the footer panel carries, offset by {@see footer_css()}.
+	 */
+	public const FOOTER_CLASS = 'zinn-promo-footer';
+
+	/**
+	 * Whether the current admin screen belongs to this plugin.
+	 *
+	 * ⛔ The check is on OUR OWN menu slug appearing in the screen id, so the panel cannot
+	 * leak onto another plugin's page or onto a core screen. A bare `admin_footer` with no
+	 * screen test is an advert on every page of wp-admin, which is the single clearest
+	 * WordPress.org rejection there is.
+	 *
+	 * @param string $screen_prefix The plugin's menu slug.
+	 * @return bool
+	 */
+	private static function is_footer_screen( string $screen_prefix ): bool {
+		if ( ! function_exists( 'get_current_screen' ) ) {
+			return false;
+		}
+		$screen = get_current_screen();
+		return null !== $screen && false !== strpos( (string) $screen->id, $screen_prefix );
+	}
+
+	/**
+	 * The offset the footer panel needs to clear the admin menu.
+	 *
+	 * ⛔⛔ `admin_footer` fires AFTER `#wpcontent` has closed, so anything printed there is a
+	 * sibling of the admin menu rather than a child of the content column, and inherits none
+	 * of core's `#wpcontent { margin-left: 160px }`. The panel therefore rendered UNDER the
+	 * admin sidebar, its first 160px hidden — on the one screen a customer opens to configure
+	 * the plugin (W43-117). These rules mirror core's own `#wpcontent` offsets (full menu,
+	 * folded, auto-folded below 961px, no menu below 783px) in logical properties, so a
+	 * right-to-left admin is offset from the correct side.
+	 *
+	 * @return string
+	 */
+	public static function footer_css(): string {
+		return '.' . self::FOOTER_CLASS . '{margin-inline-start:180px;margin-inline-end:20px}'
+			. '.folded .' . self::FOOTER_CLASS . '{margin-inline-start:56px}'
+			. '@media only screen and (max-width:960px){.auto-fold .' . self::FOOTER_CLASS . '{margin-inline-start:56px}}'
+			. '@media screen and (max-width:782px){.auto-fold .' . self::FOOTER_CLASS . '{margin-inline-start:10px;margin-inline-end:10px}}';
 	}
 
 	/**
