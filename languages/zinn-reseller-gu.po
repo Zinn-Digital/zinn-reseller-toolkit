@@ -362,145 +362,149 @@ msgstr "સર્વિસ આઈડી"
 msgid "Nothing provisioned for this order."
 msgstr "આ ઓર્ડર માટે કંઈપણ પ્રોવિઝન કરવામાં આવ્યું નથી."
 
-#: includes/class-zinn-reseller-admin-fields.php:575
+#: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "સંગ્રહિત છે. તેને બદલવા માટે નવું મૂલ્ય ટાઈપ કરો."
 
-#: includes/class-zinn-reseller-admin-fields.php:635
+#: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "આ યાદીને ફિલ્ટર કરો..."
 
-#: includes/class-zinn-reseller-admin-fields.php:636
+#: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
 msgstr "આ યાદીને ફિલ્ટર કરો"
 
-#: includes/class-zinn-reseller-admin-fields.php:652
+#: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "તે ફિલ્ટર સાથે કંઈપણ મેચ થતું નથી."
 
-#: includes/class-zinn-reseller-admin-fields.php:683
+#: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
 msgstr "એક પંક્તિ ઉમેરો"
 
-#: includes/class-zinn-reseller-admin-fields.php:720
+#: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
 msgstr "આ પંક્તિ દૂર કરો"
 
-#: includes/class-zinn-reseller-admin-fields.php:720
+#: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
 msgstr "દૂર કરો"
 
-#: includes/class-zinn-reseller-admin-ui.php:264
-#: includes/class-zinn-reseller-admin-ui.php:265
-#: includes/class-zinn-reseller-admin-ui.php:335
+#: includes/class-zinn-reseller-admin-ui.php:280
+#: includes/class-zinn-reseller-admin-ui.php:281
+#: includes/class-zinn-reseller-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:278
+#: includes/class-zinn-reseller-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — વિહંગાવલોકન"
 
-#: includes/class-zinn-reseller-admin-ui.php:279
+#: includes/class-zinn-reseller-admin-ui.php:295
 msgid "Overview"
 msgstr "ઝાંખી"
 
-#: includes/class-zinn-reseller-admin-ui.php:336
+#: includes/class-zinn-reseller-admin-ui.php:383
+msgid "Copied"
+msgstr "કૉપિ કર્યું"
+
+#: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "આ સાઈટ પરનું દરેક Zinn® પ્લગઇન અને તે કામ કરી રહ્યું છે કે નહીં."
 
-#: includes/class-zinn-reseller-admin-ui.php:352
+#: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "આ પ્લગઇન માટે કોઈ કનેક્શનની જરૂર નથી."
 
-#: includes/class-zinn-reseller-admin-ui.php:357
+#: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
 msgstr "સેટિંગ્સ ખોલો"
 
-#: includes/class-zinn-reseller-admin-ui.php:685
-#: includes/class-zinn-reseller-admin-ui.php:1248
+#: includes/class-zinn-reseller-admin-ui.php:770
+#: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "તમારી પાસે આ સેટિંગ્સ બદલવાની પરવાનગી નથી."
 
-#: includes/class-zinn-reseller-admin-ui.php:715
+#: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
 msgstr "સેટિંગ્સ વિભાગો"
 
-#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
 msgstr "સપોર્ટ"
 
-#: includes/class-zinn-reseller-admin-ui.php:846
+#: includes/class-zinn-reseller-admin-ui.php:929
 msgid "Save changes"
 msgstr "ફેરફારો સાચવો"
 
-#: includes/class-zinn-reseller-admin-ui.php:875
+#: includes/class-zinn-reseller-admin-ui.php:958
 msgid "Tools"
 msgstr "સાધનો"
 
-#: includes/class-zinn-reseller-admin-ui.php:890
+#: includes/class-zinn-reseller-admin-ui.php:973
 msgid "Export settings"
 msgstr "નિકાસ સેટિંગ્સ"
 
-#: includes/class-zinn-reseller-admin-ui.php:893
+#: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "મૂળભૂત સેટિંગ્સ પર રીસેટ કરો"
 
-#: includes/class-zinn-reseller-admin-ui.php:894
+#: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "આ આ પ્લગઇનની દરેક સેટિંગને તેના ડિફોલ્ટ પર પાછી લાવે છે. ચાલુ રાખવું છે?"
 
-#: includes/class-zinn-reseller-admin-ui.php:901
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "સપોર્ટ માટે ડાયગ્નોસ્ટિક્સ"
 
-#: includes/class-zinn-reseller-admin-ui.php:910
+#: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "સેટિંગ્સ ફાઇલ આયાત કરો"
 
-#: includes/class-zinn-reseller-admin-ui.php:912
+#: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
 msgstr "આયાત કરો"
 
-#: includes/class-zinn-reseller-admin-ui.php:914
+#: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "નિકાસ કરેલી ફાઇલોમાં ક્યારેય પાસવર્ડ્સ, ટોકન્સ કે API કી હોતી નથી — તમારે નવી સાઇટ પર તેને ફરીથી દાખલ કરવી પડશે."
 
-#: includes/class-zinn-reseller-admin-ui.php:1013
+#: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "સેટિંગ્સ સાચવવામાં આવી છે."
 
-#: includes/class-zinn-reseller-admin-ui.php:1060
+#: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "આ પ્લગઇનની દરેક સેટિંગ તેના ડિફૉલ્ટ પર પાછી આવી ગઈ છે."
 
-#: includes/class-zinn-reseller-admin-ui.php:1103
+#: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
 msgstr "પૂર્ણ થયું."
 
-#: includes/class-zinn-reseller-admin-ui.php:1107
+#: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "તે ક્રિયા ઉપલબ્ધ નથી."
 
-#: includes/class-zinn-reseller-admin-ui.php:1174
+#: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "પેલી ફાઇલ વાંચી શકાઈ નહીં. Zinn® પ્લગઇનમાંથી નિકાસ કરેલી સેટિંગ્સ ફાઇલ પસંદ કરો."
 
-#: includes/class-zinn-reseller-admin-ui.php:1182
+#: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "તે ફાઇલ સેટિંગ્સ નિકાસ માટે ખૂબ મોટી છે."
 
-#: includes/class-zinn-reseller-admin-ui.php:1195
+#: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "તે ફાઇલ Zinn® સેટિંગ્સ નિકાસ નથી."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1203
+#: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "તે ફાઇલ અન્ય પ્લગઇન (%s) માંથી એક્સપોર્ટ કરવામાં આવી હતી, તેથી તેને અહીં ઇમ્પોર્ટ કરવાથી એવી સેટિંગ્સ સ્ટોર થશે જે આ પ્લગઇન સમજી શકતું નથી."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1233
+#: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -573,36 +577,32 @@ msgstr "આ રિપોર્ટ Zinn® સપોર્ટને મોકલ�
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "અમે તમારા માટે એક સપોર્ટ ટિકિટ ખોલીએ છીએ અને ઇમેઇલ દ્વારા જવાબ આપીએ છીએ. જો તમે તેને મોકલવા માંગતા ન હોવ, તો તેને ઉપરથી કૉપિ કરો અને જાતે જ ટિકિટમાં પેસ્ટ કરો."
 
-#: includes/class-zinn-reseller-diagnostics.php:228
-msgid "Copied"
-msgstr "કૉપિ કર્યું"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-reseller-diagnostics.php:274
+#: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "અમે આ સર્વર (%s) પરથી Zinn Digital® સુધી પહોંચી શક્યા નથી. ઉપરનો રિપોર્ટ કૉપી કરો અને તેના બદલે ટિકિટ ખોલો — તમારી સેટિંગ્સમાં કંઈપણ ખોટું નથી."
 
-#: includes/class-zinn-reseller-diagnostics.php:288
+#: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Sent. Zinn® સપોર્ટને તમારો રિપોર્ટ મળી ગયો છે અને તે ઇમેઇલ દ્વારા જવાબ આપશે."
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-reseller-diagnostics.php:291
+#: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Zinn® સહાયતા પાસે તમારો રિપોર્ટ છે — સંદર્ભ %s — અને ઈમેલ દ્વારા જવાબ આપવામાં આવશે."
 
-#: includes/class-zinn-reseller-diagnostics.php:300
+#: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "તમે ખૂબ ઓછા સમયમાં ઘણા બધા રિપોર્ટ મોકલ્યા છે. થોડી મિનિટો રાહ જુઓ અને ફરીથી પ્રયાસ કરો — અગાઉના રિપોર્ટ મળી ગયા છે."
 
-#: includes/class-zinn-reseller-diagnostics.php:307
+#: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® આ સમયે રિપોર્ટ સ્વીકારી શક્યું નહીં — તે અમારી બાજુની સમસ્યા છે, તમારી નહીં. થોડીવાર પછી ફરી પ્રયાસ કરો અથવા ઉપરનો રિપોર્ટ ટિકિટમાં કૉપિ કરો."
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-reseller-diagnostics.php:315
+#: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "રિપોર્ટ અસ્વીકાર કરવામાં આવ્યો હતો (HTTP %d). તેને ઉપર કૉપિ કરો અને તે નંબર ટાંકીને ટિકિટ ખોલો."
@@ -628,43 +628,43 @@ msgstr "%s યુઝર માર્ગદર્શિકા વાંચો"
 msgid "Hide this"
 msgstr "આ છુપાવો"
 
-#: includes/class-zinn-reseller-promo.php:374
+#: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress માટે Zinn® હોસ્ટિંગ"
 
-#: includes/class-zinn-reseller-promo.php:375
+#: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, દૈનિક બેકઅપ, મફત સ્થળાંતર અને એક કરતાં વધુ સાઇટ્સ ચલાવતા લોકો માટે બનાવેલ કંટ્રોલ પેનલ."
 
-#: includes/class-zinn-reseller-promo.php:381
+#: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Zinn® માર્કેટપ્લેસ"
 
-#: includes/class-zinn-reseller-promo.php:382
+#: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "સ્થાપિત સાઇટ્સ, ડૉમેન્સ અને લિંક પ્લેસમેન્ટ્સ ખરીદો અને વેચો, જ્યાં સુધી બંને પક્ષો ખુશ ન થાય ત્યાં સુધી નાણાં સુરક્ષિત રીતે રાખવામાં આવે છે."
 
-#: includes/class-zinn-reseller-promo.php:429
+#: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — જેઓ આ વ્યવસાયિકરૂપે કરે છે તેમને ભાડે રાખો"
 
-#: includes/class-zinn-reseller-promo.php:430
+#: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "અમારું વૈશ્વિક ફ્રીલાન્સ માર્કેટપ્લેસ: લેખકો, ડિઝાઇનર્સ, ડેવલપર્સ અને SEO નિષ્ણાતોની 10,000 થી વધુ તૈયાર સેવાઓ બ્રાઉઝ કરો, અથવા પ્રોજેક્ટ પોસ્ટ કરો અને તેમને બિડ કરવા દો."
 
-#: includes/class-zinn-reseller-style-presets.php:109
+#: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
 msgstr "શૈલી પ્રીસેટ"
 
-#: includes/class-zinn-reseller-style-presets.php:110
+#: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "એક શરૂઆતનો બિંદુ. તેની નીચેની કોઈપણ વસ્તુ તેને રદ કરે છે."
 
-#: includes/class-zinn-reseller-style-presets.php:117
+#: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "મારા પોતાના રંગો અને માપો વાપરો"
 
-#: includes/class-zinn-reseller-style-presets.php:118
+#: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "આને બંધ રાખો અને પ્રીસેટનો ઉપયોગ બરાબર એ જ રીતે થાય છે જેવો તે છે."
 

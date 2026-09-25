@@ -362,145 +362,149 @@ msgstr "شناسه سرویس"
 msgid "Nothing provisioned for this order."
 msgstr "هیچ‌چیزی برای این سفارش آماده‌سازی نشده است."
 
-#: includes/class-zinn-reseller-admin-fields.php:575
+#: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "ذخیره شد. برای جایگزینی آن، مقدار جدیدی وارد کنید."
 
-#: includes/class-zinn-reseller-admin-fields.php:635
+#: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "فیلتر کردن این فهرست..."
 
-#: includes/class-zinn-reseller-admin-fields.php:636
+#: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
 msgstr "فیلتر کردن این فهرست"
 
-#: includes/class-zinn-reseller-admin-fields.php:652
+#: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "هیچ موردی با این فیلتر مطابقت ندارد."
 
-#: includes/class-zinn-reseller-admin-fields.php:683
+#: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
 msgstr "افزودن سطر"
 
-#: includes/class-zinn-reseller-admin-fields.php:720
+#: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
 msgstr "حذف این ردیف"
 
-#: includes/class-zinn-reseller-admin-fields.php:720
+#: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
 msgstr "حذف"
 
-#: includes/class-zinn-reseller-admin-ui.php:264
-#: includes/class-zinn-reseller-admin-ui.php:265
-#: includes/class-zinn-reseller-admin-ui.php:335
+#: includes/class-zinn-reseller-admin-ui.php:280
+#: includes/class-zinn-reseller-admin-ui.php:281
+#: includes/class-zinn-reseller-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:278
+#: includes/class-zinn-reseller-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — نمای کلی"
 
-#: includes/class-zinn-reseller-admin-ui.php:279
+#: includes/class-zinn-reseller-admin-ui.php:295
 msgid "Overview"
 msgstr "نمای کلی"
 
-#: includes/class-zinn-reseller-admin-ui.php:336
+#: includes/class-zinn-reseller-admin-ui.php:383
+msgid "Copied"
+msgstr "کپی‌شده"
+
+#: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "هر افزونه‌ی Zinn® در این سایت و وضعیت فعال بودن یا نبودن آن."
 
-#: includes/class-zinn-reseller-admin-ui.php:352
+#: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "برای این افزونه نیازی به اتصال نیست."
 
-#: includes/class-zinn-reseller-admin-ui.php:357
+#: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
 msgstr "باز کردن تنظیمات"
 
-#: includes/class-zinn-reseller-admin-ui.php:685
-#: includes/class-zinn-reseller-admin-ui.php:1248
+#: includes/class-zinn-reseller-admin-ui.php:770
+#: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "شما اجازه تغییر این تنظیمات را ندارید."
 
-#: includes/class-zinn-reseller-admin-ui.php:715
+#: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
 msgstr "بخش‌های تنظیمات"
 
-#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
 msgstr "پشتیبانی"
 
-#: includes/class-zinn-reseller-admin-ui.php:846
+#: includes/class-zinn-reseller-admin-ui.php:929
 msgid "Save changes"
 msgstr "ذخیره تغییرات"
 
-#: includes/class-zinn-reseller-admin-ui.php:875
+#: includes/class-zinn-reseller-admin-ui.php:958
 msgid "Tools"
 msgstr "ابزارها"
 
-#: includes/class-zinn-reseller-admin-ui.php:890
+#: includes/class-zinn-reseller-admin-ui.php:973
 msgid "Export settings"
 msgstr "خروجی گرفتن از تنظیمات"
 
-#: includes/class-zinn-reseller-admin-ui.php:893
+#: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "بازنشانی به پیش‌فرض‌ها"
 
-#: includes/class-zinn-reseller-admin-ui.php:894
+#: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "این کار تمام تنظیمات این افزونه را به حالت پیش‌فرض بازمی‌گرداند. ادامه می‌دهید؟"
 
-#: includes/class-zinn-reseller-admin-ui.php:901
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "عیب‌یابی برای پشتیبانی"
 
-#: includes/class-zinn-reseller-admin-ui.php:910
+#: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "وارد کردن پرونده تنظیمات"
 
-#: includes/class-zinn-reseller-admin-ui.php:912
+#: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
 msgstr "درون‌ریزی"
 
-#: includes/class-zinn-reseller-admin-ui.php:914
+#: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "فایل‌های صادرشده هرگز حاوی رمز عبور، توکن یا کلیدهای API نیستند — لازم است آن‌ها را مجدداً در سایت جدید وارد کنید."
 
-#: includes/class-zinn-reseller-admin-ui.php:1013
+#: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "تنظیمات ذخیره شد."
 
-#: includes/class-zinn-reseller-admin-ui.php:1060
+#: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "تمام تنظیمات این افزونه به حالت پیش‌فرض بازگشته است."
 
-#: includes/class-zinn-reseller-admin-ui.php:1103
+#: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
 msgstr "انجام شد."
 
-#: includes/class-zinn-reseller-admin-ui.php:1107
+#: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "آن عملیات در دسترس نیست."
 
-#: includes/class-zinn-reseller-admin-ui.php:1174
+#: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "آن فایل قابل خواندن نیست. یک فایل تنظیمات صادرشده از افزونهٔ Zinn® را انتخاب کنید."
 
-#: includes/class-zinn-reseller-admin-ui.php:1182
+#: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "آن پرونده برای صادرات تنظیمات بیش از حد بزرگ است."
 
-#: includes/class-zinn-reseller-admin-ui.php:1195
+#: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "آن فایل، خروجی تنظیمات Zinn® نیست."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1203
+#: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "آن پرونده از افزونه دیگری (%s) صادر شده است، بنابراین وارد کردن آن در اینجا تنظیماتی را ذخیره می‌کند که این افزونه آن‌ها را درک نمی‌کند."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1233
+#: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -573,36 +577,32 @@ msgstr "این گزارش را به پشتیبانی Zinn® ارسال کنید"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "ما یک تیکت پشتیبانی برای شما ایجاد می‌کنیم و از طریق ایمیل پاسخ می‌دهیم. اگر ترجیح می‌دهید آن را ارسال نکنید، متن بالا را کپی کرده و خودتان در یک تیکت جای‌گذاری کنید."
 
-#: includes/class-zinn-reseller-diagnostics.php:228
-msgid "Copied"
-msgstr "کپی‌شده"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-reseller-diagnostics.php:274
+#: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "امکان دسترسی به Zinn Digital® از این سرور (%s) وجود نداشت. گزارش بالا را کپی کرده و به جای آن یک تیکت باز کنید — هیچ مشکلی در تنظیمات شما وجود ندارد."
 
-#: includes/class-zinn-reseller-diagnostics.php:288
+#: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "پشتیبانی Zinn® گزارش شما را دریافت کرده است و از طریق ایمیل پاسخ خواهد داد."
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-reseller-diagnostics.php:291
+#: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "پشتیبانی Zinn® گزارش شما را دریافت کرده است — شماره مرجع %s — و از طریق ایمیل پاسخ خواهد داد."
 
-#: includes/class-zinn-reseller-diagnostics.php:300
+#: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "شما در مدت کوتاه گزارش‌های زیادی ارسال کرده‌اید. چند دقیقه صبر کنید و دوباره تلاش کنید؛ گزارش‌های قبلی ارسال شده‌اند."
 
-#: includes/class-zinn-reseller-diagnostics.php:307
+#: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® در حال حاضر نتوانست گزارش را بپذیرد — این مشکل از طرف ما است، نه شما. کمی بعد دوباره تلاش کنید، یا گزارش بالا را در یک تیکت کپی کنید."
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-reseller-diagnostics.php:315
+#: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "گزارش رد شد (HTTP %d). آن را در بالا کپی کنید و با ذکر آن شماره، یک تیکت باز کنید."
@@ -628,43 +628,43 @@ msgstr "راهنمای کاربر %s را بخوانید"
 msgid "Hide this"
 msgstr "پنهان کردن این"
 
-#: includes/class-zinn-reseller-promo.php:374
+#: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "میزبانی Zinn® برای WordPress"
 
-#: includes/class-zinn-reseller-promo.php:375
+#: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed، پشتیبان‌گیری روزانه، انتقال رایگان و کنترل‌پنلی که برای افرادی که بیش از یک وب‌سایت را مدیریت می‌کنند ساخته شده است."
 
-#: includes/class-zinn-reseller-promo.php:381
+#: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "بازار Zinn®"
 
-#: includes/class-zinn-reseller-promo.php:382
+#: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "سایت‌ها، دامنه‌ها و جایگاه‌های لینک آماده را خرید و فروش کنید، در حالی که پول تا زمان رضایت هر دو طرف با امنیت نگهداری می‌شود."
 
-#: includes/class-zinn-reseller-promo.php:429
+#: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — افرادی را استخدام کنید که شغلشان این است"
 
-#: includes/class-zinn-reseller-promo.php:430
+#: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "بازار جهانی فریلنسر ما: بیش از ۱۰,۰۰۰ خدمت آماده را از نویسندگان، طراحان، توسعه‌دهندگان و متخصصان سئو مرور کنید، یا پروژه‌ای ارسال کنید و اجازه دهید پیشنهاد بدهند."
 
-#: includes/class-zinn-reseller-style-presets.php:109
+#: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
 msgstr "پیش‌تنظیم سبک"
 
-#: includes/class-zinn-reseller-style-presets.php:110
+#: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "یک نقطه شروع. هر چیزی در زیر آن، آن را بازنویسی می‌کند."
 
-#: includes/class-zinn-reseller-style-presets.php:117
+#: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "از رنگ‌ها و اندازه‌های شخصی من استفاده کنید"
 
-#: includes/class-zinn-reseller-style-presets.php:118
+#: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "این گزینه را غیرفعال بگذارید تا پیش‌تنظیم دقیقاً به همان شکلی که هست استفاده شود."
 

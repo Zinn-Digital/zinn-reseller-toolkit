@@ -361,145 +361,149 @@ msgstr "ဝန်ဆောင်မှု အိုင်ဒီ"
 msgid "Nothing provisioned for this order."
 msgstr "ဤအော်ဒါအတွက် မည်သည့်ပစ္စည်း သို့မဟုတ် ဝန်ဆောင်မှုကိုမျှ မချထားပေးပါ။"
 
-#: includes/class-zinn-reseller-admin-fields.php:575
+#: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "သိမ်းဆည်းပြီးပါပြီ။ ၎င်းကို အစားထိုးရန် တန်ဖိုးအသစ်တစ်ခုကို ရိုက်ထည့်ပါ။"
 
-#: includes/class-zinn-reseller-admin-fields.php:635
+#: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "ဤစာရင်းကို စစ်ထုတ်ပါ..."
 
-#: includes/class-zinn-reseller-admin-fields.php:636
+#: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
 msgstr "ဤစာရင်းကို စစ်ထုတ်ပါ"
 
-#: includes/class-zinn-reseller-admin-fields.php:652
+#: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "ထိုစစ်ထုတ်မှုနှင့် ကိုက်ညီသော မည်သည့်အရာမျှ မရှိပါ။"
 
-#: includes/class-zinn-reseller-admin-fields.php:683
+#: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
 msgstr "အတန်းတစ်ခု ထည့်ပါ"
 
-#: includes/class-zinn-reseller-admin-fields.php:720
+#: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
 msgstr "ဤအတန်းကို ဖယ်ရှားပါ"
 
-#: includes/class-zinn-reseller-admin-fields.php:720
+#: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
 msgstr "ဖယ်ရှားရန်"
 
-#: includes/class-zinn-reseller-admin-ui.php:264
-#: includes/class-zinn-reseller-admin-ui.php:265
-#: includes/class-zinn-reseller-admin-ui.php:335
+#: includes/class-zinn-reseller-admin-ui.php:280
+#: includes/class-zinn-reseller-admin-ui.php:281
+#: includes/class-zinn-reseller-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:278
+#: includes/class-zinn-reseller-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — သုံးသပ်ချက်"
 
-#: includes/class-zinn-reseller-admin-ui.php:279
+#: includes/class-zinn-reseller-admin-ui.php:295
 msgid "Overview"
 msgstr "သုံးသပ်ချက်"
 
-#: includes/class-zinn-reseller-admin-ui.php:336
+#: includes/class-zinn-reseller-admin-ui.php:383
+msgid "Copied"
+msgstr "ကူးယူပြီးပါပြီ"
+
+#: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "ဤဆိုဒ်ရှိ Zinn® ပလပ်အင်တိုင်းနှင့် ၎င်းတို့ အလုပ်လုပ်နေခြင်း ရှိမရှိ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:352
+#: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "ဤပလပ်ဂလပ်အတွက် ချိတ်ဆက်မှု မလိုအပ်ပါ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:357
+#: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
 msgstr "ဆက်တင်များကို ဖွင့်ရန်"
 
-#: includes/class-zinn-reseller-admin-ui.php:685
-#: includes/class-zinn-reseller-admin-ui.php:1248
+#: includes/class-zinn-reseller-admin-ui.php:770
+#: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "ဤဆက်တင်များကို ပြောင်းလဲရန် သင့်တွင် ခွင့်ပြုချက်မရှိပါ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:715
+#: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
 msgstr "ဆက်တင် အပိုင်းများ"
 
-#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
 msgstr "ပံ့ပိုးကူညီမှု"
 
-#: includes/class-zinn-reseller-admin-ui.php:846
+#: includes/class-zinn-reseller-admin-ui.php:929
 msgid "Save changes"
 msgstr "ပြောင်းလဲမှုများကို သိမ်းဆည်းရန်"
 
-#: includes/class-zinn-reseller-admin-ui.php:875
+#: includes/class-zinn-reseller-admin-ui.php:958
 msgid "Tools"
 msgstr "ကိရိယာများ"
 
-#: includes/class-zinn-reseller-admin-ui.php:890
+#: includes/class-zinn-reseller-admin-ui.php:973
 msgid "Export settings"
 msgstr "ဆက်တင်များကို ထုတ်ယူရန်"
 
-#: includes/class-zinn-reseller-admin-ui.php:893
+#: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "မူလအတိုင်းသို့ ပြန်လည်သတ်မှတ်ရန်"
 
-#: includes/class-zinn-reseller-admin-ui.php:894
+#: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "ဤလုပ်ဆောင်ချက်သည် ဤပလပ်ဂင်ရှိ ဆက်တင်အားလုံးကို မူလအတိုင်းသို့ ပြန်လည်ရောက်ရှိစေပါမည်။ ဆက်လုပ်မည်လား။"
 
-#: includes/class-zinn-reseller-admin-ui.php:901
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "ပံ့ပိုးကူညီမှုအတွက် ရောဂါရှာဖွေခြင်း"
 
-#: includes/class-zinn-reseller-admin-ui.php:910
+#: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "ဆက်တင်ဖိုင်တစ်ခုကို တင်သွင်းရန်"
 
-#: includes/class-zinn-reseller-admin-ui.php:912
+#: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
 msgstr "တင်သွင်းရန်"
 
-#: includes/class-zinn-reseller-admin-ui.php:914
+#: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ထုတ်ယူထားသော ဖိုင်များတွင် စကားဝှက်များ၊ တိုကင်များ သို့မဟုတ် API သော့ချက်များ လုံးဝမပါဝင်ပါ — ၎င်းတို့ကို ဆိုက်အသစ်တွင် ထပ်မံထည့်သွင်းရန် လိုအပ်မည်ဖြစ်သည်။"
 
-#: includes/class-zinn-reseller-admin-ui.php:1013
+#: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "ဆက်တင်များကို သိမ်းဆည်းပြီးပါပြီ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:1060
+#: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "ဤ ပလပ်ဂင် ရှိ ဆက်တင် အားလုံး သည် မူလအတိုင်း ပြန်ဖြစ်သွားပါပြီ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:1103
+#: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
 msgstr "ပြီးပါပြီ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:1107
+#: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "ထိုလုပ်ဆောင်ချက်ကို အသုံးမပြုနိုင်ပါ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:1174
+#: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "ထိုဖိုင်ကို ဖတ်မရပါ။ Zinn® ပလပ်အင်မှ ထုတ်ယူထားသော ဆက်တင်ဖိုင်တစ်ခုကို ရွေးပါ။"
 
-#: includes/class-zinn-reseller-admin-ui.php:1182
+#: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "ထိုဖိုင်သည် ဆက်တင်များ တင်ပို့မှုတစ်ခုအတွက် ကြီးလွန်းနေပါသည်။"
 
-#: includes/class-zinn-reseller-admin-ui.php:1195
+#: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "ထိုဖိုင်သည် Zinn® ဆက်တင်များ တင်ပို့မှု မဟုတ်ပါ။"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1203
+#: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ထိုဖိုင်ကို အခြား ပလပ်အင် (%s) တစ်ခုမှ ထုတ်ယူထားခြင်းဖြစ်သောကြောင့် ဤနေရာတွင် တင်သွင်းခြင်းဖြင့် ဤပလပ်အင် နားမလည်သော ဆက်တင်များကို သိမ်းဆည်းသွားမည် ဖြစ်သည်။"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1233
+#: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -571,36 +575,32 @@ msgstr "ဤအစီရင်ခံစာကို Zinn® ပံ့ပိုး�
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "သင့်အတွက် ပံ့ပိုးကူညီမှုလက်မှတ် (support ticket) တစ်စောင်ကို ဖွင့်လှစ်ပေးပြီး အီးမေးလ်ဖြင့် ပြန်လည်ဖြေကြားပေးပါမည်။ ၎င်းကို မပို့လိုပါက အထက်ပါစာသားကို ကူးယူပြီး လက်မှတ်ထဲသို့ သင်ကိုယ်တိုင် ကူးထည့်ပါ။"
 
-#: includes/class-zinn-reseller-diagnostics.php:228
-msgid "Copied"
-msgstr "ကူးယူပြီးပါပြီ"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-reseller-diagnostics.php:274
+#: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "ဤဆာဗာ (%s) မှ Zinn Digital® သို့ ဆက်သွယ်၍မရပါ။ သင့်ဆက်တင်များတွင် တစ်စုံတစ်ရာ မှားယွင်းမှု မရှိပါ — အထက်ပါ အစီရင်ခံစာကို ကူးယူပြီး လက်မှတ် (တစ်စောင်) ဖွင့်ပါ။"
 
-#: includes/class-zinn-reseller-diagnostics.php:288
+#: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Zinn® ပံ့ပိုးကူညီရေးအဖွဲ့သည် သင်၏အစီရင်ခံစာကို လက်ခံရရှိပြီး အီးမေးလ်ဖြင့် ပြန်လည်ဖြေကြားပါမည်။"
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-reseller-diagnostics.php:291
+#: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Zinn® ပံ့ပိုးကူညီရေးအဖွဲ့သည် သင်၏သတင်းပို့ချက်ကို လက်ခံရရှိပြီးပါပြီ — ရည်ညွှန်းနံပါတ် %s — နှင့်အညီ အီးမေးလ်မှတစ်ဆင့် ပြန်လည်အကြောင်းကြားပါမည်။"
 
-#: includes/class-zinn-reseller-diagnostics.php:300
+#: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "သင်သည် အတိုချုံးအတွင်း အစီရင်ခံစာများစွာကို ပေးပို့ပြီးဖြစ်သည်။ မိနစ်အနည်းငယ်စောင့်ပြီး ထပ်ကြိုးစားပါ - ယခင်ပို့ထားသော အစီရင်ခံစာများ ရောက်ရှိပြီးပါပြီ။"
 
-#: includes/class-zinn-reseller-diagnostics.php:307
+#: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® သည် အစီရင်ခံစာကို ယခု မလက်ခံနိုင်ပါ — ထိုသို့ဖြစ်ရခြင်းမှာ သင့်ဘက်ကြောင့် မဟုတ်ဘဲ ကျွန်ုပ်တို့ဘက်ကြောင့် ဖြစ်ပါသည်။ ခဏအကြာတွင် ထပ်မံကြိုးစားပါ သို့မဟုတ် အထက်ပါ အစီရင်ခံစာကို တိုကင်ထဲသို့ ကူးယူထည့်သွင်းပါ။"
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-reseller-diagnostics.php:315
+#: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "အစီရင်ခံစာကို ငြင်းပယ်ခဲ့သည် (HTTP %d)။ ၎င်းကို အထက်တွင် ကူးယူပြီး ထိုနံပါတ်ကို ဖော်ပြလျက် လက်မှတ်တစ်ခု ဖွင့်ပါ။"
@@ -626,43 +626,43 @@ msgstr "%s အသုံးပြုသူ လမ်းညွှန်ကို �
 msgid "Hide this"
 msgstr "ဒါကို ဝှက်ပါ"
 
-#: includes/class-zinn-reseller-promo.php:374
+#: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress အတွက် Zinn® ဟိုစတင်င်း"
 
-#: includes/class-zinn-reseller-promo.php:375
+#: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed၊ နေ့စဉ်ဘက်ကပ်ပြုလုပ်မှုများ၊ အခမဲ့ပြောင်းရွှေ့မှုများနှင့် ဆိုက်တစ်ခုထက်ပို၍ လုပ်ကိုင်သူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်မှုဘောင်။"
 
-#: includes/class-zinn-reseller-promo.php:381
+#: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Zinn® စျေးကွက်"
 
-#: includes/class-zinn-reseller-promo.php:382
+#: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "တည်ထောင်ပြီးသား ဝက်ဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်ချိတ်ဆွဲမှုများကို နှစ်ဖက်စလုံး ကျေနပ်သည်အထိ ငွေကြေးကို လုံခြုံစွာ သိမ်းဆည်းထားကာ ဝယ်ယူရောင်းချပါ။"
 
-#: includes/class-zinn-reseller-promo.php:429
+#: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင်စွာ လုပ်ကိုင်နေသူများကို ငှားရမ်းပါ"
 
-#: includes/class-zinn-reseller-promo.php:430
+#: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ အလွတ်တန်းလုပ်သား ဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဆော့ဖ်ဝဲရေးသားသူများနှင့် SEO ပညာရှင်များထံမှ အသင့်သုံးဝန်ဆောင်မှု ၁၀,၀၀၀ ကျော်ကို ရှာဖွေပါ၊ သို့မဟုတ် စီမံကိန်းတစ်ခုကို တင်ပြီး ၎င်းတို့အား လေလံဆွဲခွင့်ပြုပါ။"
 
-#: includes/class-zinn-reseller-style-presets.php:109
+#: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
 msgstr "စတိုင် ကြိုတင်သတ်မှတ်ချက်"
 
-#: includes/class-zinn-reseller-style-presets.php:110
+#: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "စတင်ရာနေရာ။ အောက်ပါ မည်သည့်အရာမဆို ၎င်းကို ကျော်လွှားပါမည်။"
 
-#: includes/class-zinn-reseller-style-presets.php:117
+#: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "ကျွန်ုပ်၏ ကိုယ်ပိုင်အရောင်များနှင့် အရွယ်အစားများကို အသုံးပြုပါ"
 
-#: includes/class-zinn-reseller-style-presets.php:118
+#: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ဤအရာကို ပိတ်ထားပါက သတ်မှတ်ချက်အတိုင်း ကွက်တိအသုံးပြုမည်ဖြစ်သည်။"
 
