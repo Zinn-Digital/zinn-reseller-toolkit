@@ -21,8 +21,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "আপনার নিজের WordPress সাইট থেকে Zinn Digital® হোস্টিং বিক্রি করুন — ফুটপ্রিন্ট-মুক্ত PBN, WordPress, WooCommerce, এজেন্সি, রিসেলার, ক্লাউড এবং VPS হোস্টিং। আপনার রিসেলার অ্যাকাউন্ট থেকে ডোমেইন অনুসন্ধান করুন এবং অফার করুন, আপনার ক্লায়েন্টদের সরাসরি তাদের হোস্টিং প্যানেলে সাইন ইন করান, এবং WooCommerce অর্ডার পরিশোধ করার সাথে সাথে স্বয়ংক্রিয়ভাবে হোস্টিং প্রভিশন করুন।"
+msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "আপনার নিজস্ব WordPress সাইট থেকে Zinn Digital® হোস্টিং বিক্রি করুন—WordPress, WooCommerce, এজেন্সি, রিসেলার, ক্লাউড এবং VPS হোস্টিং। আপনার রিসেলার অ্যাকাউন্ট থেকে ডোমেন খুঁজুন এবং অফার করুন, আপনার ক্লায়েন্টদের সরাসরি তাদের হোস্টিং প্যানেলে সাইন ইন করান এবং WooCommerce অর্ডার পরিশোধ করার সাথে সাথে স্বয়ংক্রিয়ভাবে হোস্টিং প্রভিশন করুন।"
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -61,8 +61,8 @@ msgid "We could not reach the domain registry just now. Please try again in a mo
 msgstr "আমরা এই মুহূর্তে ডোমেইন রেজিস্ট্রি সার্ভারের সাথে যোগাযোগ করতে পারিনি। অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন।"
 
 #: includes/class-domain-search.php:215
-msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr "এপিআই (API) কি অনুপস্থিত বা আর বৈধ নেই। সেটি সেটিংস (Settings) → Zinn® রিসেলার-এর অধীনে পরীক্ষা করুন।"
+msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
+msgstr "এপিআই (API) চাবিটি অনুপস্থিত বা আর বৈধ নেই। Zinn Digital® → Reseller Toolkit-এর অধীনে এটি পরীক্ষা করুন।"
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
@@ -131,8 +131,8 @@ msgid "Your Zinn Digital® reseller account"
 msgstr "আপনার Zinn Digital® রিসেলার অ্যাকাউন্ট"
 
 #: includes/class-settings.php:151
-msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
-msgstr "আপনার Zinn® ড্যাশবোর্ডের Settings → API keys থেকে একটি রিসেলার API কী তৈরি করুন এবং এখানে পেস্ট করুন।"
+msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
+msgstr "আপনার Zinn® ড্যাশবোর্ডের Developer → API keys এর অধীনে একটি রিসেলার API চাবি তৈরি করুন এবং এখানে পেস্ট করুন।"
 
 #: includes/class-settings.php:157
 msgid "Reseller API key"
@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "এখনও কোনো রিসেলার API কি নেই।"
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
-msgstr "একটি কি সেট না করা পর্যন্ত এখানে কিছুই কাজ করে না। সেটিংস → API কি-এর অধীনে আপনার Zinn® ড্যাশবোর্ডে একটি তৈরি করুন।"
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
+msgstr "একটি কি (key) সেট না করা পর্যন্ত এখানে কিছুই কাজ করবে না। Developer → API keys-এর অধীনে আপনার Zinn® ড্যাশবোর্ডে একটি তৈরি করুন।"
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"

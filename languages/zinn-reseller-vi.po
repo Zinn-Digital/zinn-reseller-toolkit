@@ -21,8 +21,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Bán dịch vụ lưu trữ Zinn Digital® từ trang web WordPress của chính bạn — dịch vụ lưu trữ PBN không để lại footprint, WordPress, WooCommerce, đại lý, reseller, đám mây và VPS. Tìm kiếm và cung cấp tên miền từ tài khoản đại lý của bạn, đăng nhập cho khách hàng trực tiếp vào bảng điều khiển lưu trữ của họ, và tự động cấp phát lưu trữ khi một đơn hàng WooCommerce được thanh toán."
+msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "Bán dịch vụ lưu trữ Zinn Digital® từ chính trang web WordPress của bạn — lưu trữ WordPress, WooCommerce, đại lý, đại lý bán lại, đám mây và VPS. Tìm kiếm và cung cấp tên miền từ tài khoản đại lý của bạn, đăng nhập trực tiếp cho khách hàng vào bảng điều khiển lưu trữ của họ và tự động cung cấp dịch vụ lưu trữ khi đơn hàng WooCommerce được thanh toán."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -61,8 +61,8 @@ msgid "We could not reach the domain registry just now. Please try again in a mo
 msgstr "Chúng tôi hiện không thể kết nối với cơ quan đăng ký tên miền. Vui lòng thử lại sau giây lát."
 
 #: includes/class-domain-search.php:215
-msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr "Khóa API bị thiếu hoặc không còn hợp lệ. Hãy kiểm tra lại trong phần Cài đặt → Zinn® Reseller."
+msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
+msgstr "Khóa API bị thiếu hoặc không còn hợp lệ. Hãy kiểm tra lại trong mục Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
@@ -131,8 +131,8 @@ msgid "Your Zinn Digital® reseller account"
 msgstr "Tài khoản đại lý Zinn Digital® của bạn"
 
 #: includes/class-settings.php:151
-msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
-msgstr "Tạo khóa API đại lý trong bảng điều khiển Zinn® của bạn tại mục Cài đặt → Khóa API, và dán khóa đó vào đây."
+msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
+msgstr "Tạo khóa API đại lý trong bảng điều khiển Zinn® của bạn tại phần Nhà phát triển → Khóa API, sau đó dán khóa đó vào đây."
 
 #: includes/class-settings.php:157
 msgid "Reseller API key"
@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Chưa có khóa API đại lý."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
-msgstr "Không có gì hoạt động cho đến khi khóa được thiết lập. Hãy tạo một khóa trong bảng điều khiển Zinn® của bạn tại Cài đặt → Khóa API."
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Không có gì hoạt động ở đây cho đến khi khóa được thiết lập. Hãy tạo một khóa trong bảng điều khiển Zinn® của bạn tại Developer → API keys."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"

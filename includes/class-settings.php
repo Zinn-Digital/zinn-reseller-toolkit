@@ -148,7 +148,7 @@ class Settings {
 			array(
 				'type'        => 'heading',
 				'label'       => __( 'Your Zinn Digital® reseller account', 'zinn-reseller' ),
-				'description' => __( 'Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here.', 'zinn-reseller' ),
+				'description' => __( 'Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here.', 'zinn-reseller' ),
 			),
 			array(
 				'key'         => 'api_key',
@@ -368,10 +368,10 @@ class Settings {
 			return array(
 				'state'   => 'disconnected',
 				'summary' => __( 'No reseller API key yet.', 'zinn-reseller' ),
-				'reason'  => __( 'Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys.', 'zinn-reseller' ),
+				'reason'  => __( 'Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys.', 'zinn-reseller' ),
 				'action'  => array(
 					'label' => __( 'Open my Zinn® dashboard', 'zinn-reseller' ),
-					'url'   => rtrim( (string) $settings['panel_base'], '/' ) . '/settings/api-keys',
+					'url'   => rtrim( (string) $settings['panel_base'], '/' ) . '/api-keys',
 					'style' => 'primary',
 				),
 			);

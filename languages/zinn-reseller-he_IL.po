@@ -21,8 +21,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "מכור אחסון של Zinn Digital® מאתר ה-WordPress שלך — אחסון PBN, WordPress, WooCommerce, סוכנים, משווקים, ענן ו-VPS ללא עקבות SEO. חפש והצע דומיינים מחשבון המשווק שלך, רשום את הלקוחות שלך ישירות ללוח הבקרה של האחסון שלהם, והקצה אחסון באופן אוטומטי עם תשלום הזמנת WooCommerce."
+msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "מכור אחסון של Zinn Digital® מאתר ה-WordPress שלך — אחסון WordPress, WooCommerce, סוכנויות, משווקים, ענן ו-VPS. חפש והצע דומיינים מחשבון המשווק שלך, רשום את הלקוחות שלך ישירות לתוך לוח הבקרה שלהם, והקצה אחסון באופן אוטומטי כאשר הזמנת WooCommerce משולמת."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -61,8 +61,8 @@ msgid "We could not reach the domain registry just now. Please try again in a mo
 msgstr "לא הצלחנו ליצור קשר עם רשם הדומיינים כרגע. נסו שוב בעוד רגע."
 
 #: includes/class-domain-search.php:215
-msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr "מפתח ה-API חסר או אינו תקף עוד. בדוק אותו תחת הגדרות → Zinn® Reseller."
+msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
+msgstr "מפתח ה-API חסר או שאינו תקף עוד. בדוק אותו תחת Zinn Digital® ← ערכת הכלים למשווקים (Reseller Toolkit)."
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
@@ -131,8 +131,8 @@ msgid "Your Zinn Digital® reseller account"
 msgstr "חשבון המשווק שלך ב-Zinn Digital®"
 
 #: includes/class-settings.php:151
-msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
-msgstr "צור מפתח API של משווק בלוח הבקרה של Zinn® תחת הגדרות → מפתחות API, והדבק אותו כאן."
+msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
+msgstr "צור מפתח API לריסלר בלוח הבקרה של Zinn® תחת Developer → API keys, והדבק אותו כאן."
 
 #: includes/class-settings.php:157
 msgid "Reseller API key"
@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "עדיין אין מפתח API למשווק."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
-msgstr "שום דבר כאן לא עובד עד שמוגדר מפתח. צור אחד בלוח הבקרה של Zinn® תחת הגדרות → מפתחות API."
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
+msgstr "שום דבר כאן לא עובד עד שמוגדר מפתח. צור אחד בלוח הבקרה של Zinn® תחת מפתח API ← מפתחים."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"

@@ -21,8 +21,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "ຂາຍໂຮດຕິ້ງ Zinn Digital® ຈາກເວັບໄຊທ໌ WordPress ຂອງທ່ານເອງ — PBN ທີ່ບໍ່ມີຮອຍຕີນຜີມື່ SEO, WordPress, WooCommerce, ຕົວແທນຈຳໜ່າຍ, ຜູ້ຂາຍຕໍ່, ໂຮດຕິ້ງຄລາວ ແລະ VPS. ຊົກຫາ ແລະ ສະເໜີໂດເມນຈາກບັນຊີຜູ້ຂາຍຕໍ່ຂອງທ່ານ, ພາລູກຄ້າຂອງທ່ານເຂົ້າສູ່ແຜງຄວບຄຸມໂຮດຕິ້ງຂອງພວກເຂົາໂດຍກົງ, ແລະ ຈັດສັນໂຮດຕິ້ງໂດຍອັດຕະໂນມັດເມື່ອການສັ່ງຊື້ WooCommerce ໄດ້ຮັບການຊໍາລະເງິນແລ້ວ."
+msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "ຂາຍໂຮດຕິ້ງ Zinn Digital® ຈາກເວັບໄຊ WordPress ຂອງທ່ານເອງ — WordPress, WooCommerce, ເອເຈນຊີ, ຣີແຊລເລີ, ຄລາວ ແລະ ໂຮດຕິ້ງ VPS. ຄົ້ນຫາ ແລະ ສະເໜີໂດເມນຈາກບັນຊີຣີແຊລເລີຂອງທ່ານ, ເຂົ້າສູ່ລະບົບໃຫ້ລູກຄ້າຂອງທ່ານໂດຍກົງເຂົ້າໄປໃນແຜງໂຮດຕິ້ງຂອງພວກເຂົາ, ແລະ ຈັດສັນໂຮດຕິ້ງໂດຍອັດຕະໂນມັດເມື່ອມີການຈ່າຍເງິນຄຳສັ່ງຊື້ WooCommerce."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -61,8 +61,8 @@ msgid "We could not reach the domain registry just now. Please try again in a mo
 msgstr "ພວກ​ເຮົາ​ບໍ່​ສາ​ມາດ​ຕິດຕໍ່​ຫາ​ທະ​ບຽນ​ໂດ​ເມນ​ໄດ້​ໃນ​ຕອນ​ນີ້. ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ອີກ​ຄັ້ງ​ໃນ​ອີກ​ຈັກ​ໜ້ອຍ."
 
 #: includes/class-domain-search.php:215
-msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr "ລະຫັດ API ຫາຍໄປ ຫຼື ບໍ່ສາມາດໃຊ້ງານໄດ້ອີກຕໍ່ໄປ. ກະລຸນາກວດສອບມັນພາຍໃຕ້ ການຕັ້ງຄ່າ → Zinn® Reseller."
+msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
+msgstr "ລະຫັດ API ຫາຍໄປ ຫຼື ບໍ່ສາມາດໃຊ້ງານໄດ້ອີກຕໍ່ໄປ. ກະລຸນາກວດສອບມັນພາຍໃຕ້ Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
@@ -131,8 +131,8 @@ msgid "Your Zinn Digital® reseller account"
 msgstr "ບັນຊີຕົວແທນຂາຍ Zinn Digital® ຂອງທ່ານ"
 
 #: includes/class-settings.php:151
-msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
-msgstr "ສ້າງກະແຈ API ຂອງຜູ້ຂາຍຕໍ່ໃນແຜງຄວບຄຸມ Zinn® ຂອງທ່ານພາຍໃຕ້ ການຕັ້ງຄ່າ → ກະແຈ API, ແລະວາງມັນລົງທີ່ນີ້."
+msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
+msgstr "ສ້າງຄີ API ຂອງຕົວແທນຂາຍຄືນໃນແດສບອດ Zinn® ຂອງທ່ານພາຍໃຕ້ Developer → API keys, ແລ້ວວາງມັນລົງທີ່ນີ້."
 
 #: includes/class-settings.php:157
 msgid "Reseller API key"
@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "ຍັງບໍ່ມີລະຫັດ API ຕົວແທນຈຳໜ່າຍເທື່ອ."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
-msgstr "ບໍ່ມີຫຍັງເຮັດວຽກຢູ່ບ່ອນນີ້ຈົນກວ່າຈະມີການຕັ້ງຄ່າກະແຈ. ສ້າງອັນໜຶ່ງຂຶ້ນມາໃນແດຊບອດ Zinn® ຂອງທ່ານພາຍໃຕ້ ການຕັ້ງຄ່າ → ກະແຈ API."
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
+msgstr "ບໍ່ມີຫຍັງເຮັດວຽກຢູ່ບ່ອນນີ້ຈົນກວ່າຈະມີການຕັ້ງຄ່າຄີ. ສ້າງອັນໜຶ່ງໃນແດນບອດ Zinn® ຂອງທ່ານພາຍໃຕ້ Developer → API keys."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"

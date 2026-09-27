@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,10 +54,10 @@ Sell hosting as an ordinary WooCommerce product, take the money through your own
 == Installation ==
 
 1. Install and activate the plugin.
-2. In your Zinn® dashboard, go to **API keys** and create a key. Give it only the permissions you need: `sites.create` and `org.read` for WooCommerce provisioning, `reseller.view` and `reseller.provision` for the panel link.
-3. In WordPress, go to **Settings → Zinn® Reseller**, paste the key, and save.
-4. The **Connection** section at the bottom of that screen makes a real call to the API and tells you what it said. It does not simply check that the box is filled in.
-5. Switch on the modules you want.
+2. In your Zinn® dashboard, go to **Developer → API keys** and create a key. Give it only the permissions you need: `sites.create` and `org.read` for WooCommerce provisioning, `reseller.view` and `reseller.provision` for the panel link.
+3. In WordPress, go to **Zinn Digital® → Reseller Toolkit**, paste the key on the **Account** tab, and save.
+4. The status panel at the top of that screen tells you whether a key is set and which features are switched on.
+5. Switch on the modules you want on the **Features** tab.
 
 == External services ==
 
@@ -151,6 +151,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. The Zinn® hosting panel on a WooCommerce order.
 
 == Changelog ==
+
+= 1.2.8 =
+* A neutral plugin description. The installation steps and the missing-key message now point at the real settings screen, Zinn Digital® → Reseller Toolkit, and describe its status panel as it is. Its "Open my Zinn® dashboard" button opened a page that does not exist; it now opens API keys.
 
 = 1.2.7 =
 * Translations: a word written in the wrong alphabet (for example a Korean word inside a Malayalam sentence, or an Urdu word ending a Punjabi one) is corrected in every language that had one. Each affected string was translated again and checked.

@@ -212,7 +212,7 @@ class Domain_Search {
 
 		$hint = '';
 		if ( 401 === $status ) {
-			$hint = __( 'The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller.', 'zinn-reseller' );
+			$hint = __( 'The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit.', 'zinn-reseller' );
 		} elseif ( 403 === $status ) {
 			$hint = __( 'This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search.', 'zinn-reseller' );
 		}

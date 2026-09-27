@@ -21,8 +21,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "자신의 WordPress 사이트에서 Zinn Digital® 호스팅을 판매하세요 — 풋프린트 없는 PBN, WordPress, WooCommerce, 에이전시, 리셀러, 클라우드 및 VPS 호스팅. 리셀러 계정에서 도메인을 검색하고 제안하며, 클라이언트를 호스팅 패널에 직접 로그인시키고, WooCommerce 주문이 결제되면 호스팅을 자동으로 프로비저닝합니다."
+msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "WordPress 및 WooCommerce, 대행사, 리셀러, 클라우드 및 VPS 호스팅을 지원하는 자체 WordPress 사이트에서 Zinn Digital® 호스팅을 판매하세요. 리셀러 계정에서 도메인을 검색하고 제공하며, 클라이언트를 호스팅 패널에 직접 로그인시키고, WooCommerce 주문이 결제될 때 호스팅을 자동으로 프로비저닝하세요."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -61,8 +61,8 @@ msgid "We could not reach the domain registry just now. Please try again in a mo
 msgstr "현재 도메인 등록소에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요."
 
 #: includes/class-domain-search.php:215
-msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr "API 키가 누락되었거나 더 이상 유효하지 않습니다. 설정 → Zinn® 리셀러에서 확인하세요."
+msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
+msgstr "API 키가 누락되었거나 더 이상 유효하지 않습니다. Zinn Digital® → 리셀러 툴킷에서 확인하세요."
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
@@ -131,8 +131,8 @@ msgid "Your Zinn Digital® reseller account"
 msgstr "귀하의 Zinn Digital® 리셀러 계정"
 
 #: includes/class-settings.php:151
-msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
-msgstr "Zinn® 대시보드의 설정 → API 키에서 리셀러 API 키를 생성한 후 여기에 붙여넣으세요."
+msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
+msgstr "Zinn® 대시보드의 개발자(Developer) → API 키(API keys) 메뉴에서 리셀러 API 키를 생성한 후 여기에 붙여넣으세요."
 
 #: includes/class-settings.php:157
 msgid "Reseller API key"
@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "아직 리셀러 API 키가 없습니다."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
-msgstr "키가 설정될 때까지 여기 있는 것은 작동하지 않습니다. 설정 → API 키에서 Zinn® 대시보드에서 하나를 만드세요."
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
+msgstr "키가 설정되기 전까지는 여기서 아무것도 작동하지 않습니다. Zinn® 대시보드의 개발자(Developer) → API 키(API keys)에서 키를 생성하세요."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"

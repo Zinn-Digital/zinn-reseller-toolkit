@@ -21,8 +21,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "သင့်ကိုယ်ပိုင် WordPress ဆိုက်မှ Zinn Digital® ဟို့စ်တင်းကို ရောင်းချပါ — footprint-ကင်းစင်သော PBN၊ WordPress၊ WooCommerce၊ အေဂျင်စီ၊ ပြန်လည်ရောင်းချသူ၊ ကလောက်နှင့် VPS ဟို့စ်တင်းတို့ ဖြစ်သည်။ သင်၏ ပြန်လည်ရောင်းချသူ အကောင့်မှ ဒိုမိန်းများကို ရှာဖွေပြီး ကမ်းလှမ်းပါ၊ သင့်ဖောက်သည်များကို ၎င်းတို့၏ ဟို့စ်တင်း ပန်နယ်သို့ တိုက်ရိုက် လက်မှတ်ထိုးဝင်စေပါ၊ နှင့် WooCommerce အော်ဒါအတွက် ငွေပေးချေပြီးသောအခါ ဟို့စ်တင်းကို အလိုအလျောက် ပံ့ပိုးပေးပါ။"
+msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "သင့်ကိုယ်ပိုင် WordPress ဆိုက်မှ Zinn Digital® ဟို့စ်တင်းကို ရောင်းချပါ— WordPress၊ WooCommerce၊ အေဂျင်စီ၊ ရာရောင်းချသူ၊ ကလောက်နှင့် VPS ဟို့စ်တင်းတို့ ဖြစ်သည်။ သင်၏ ပြန်လည်ရောင်းချသူ အကောင့်မှ ဒိုမိန်းများကို ရှာဖွေပြီး ပေးအပ်ပါ၊ သင့်ဖောက်သည်များကို ၎င်းတို့၏ ဟို့စ်တင်း ပန်နယ်သို့ တိုက်ရိုက် အကောင့်ဝင်ခွင့်ပေးကာ WooCommerce အော်ငွေပေးချေမှု ပြီးမြောက်သည့်အခါ ဟို့စ်တင်းကို အလိုအလျောက် စီစဉ်ပေးပါ။"
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -61,8 +61,8 @@ msgid "We could not reach the domain registry just now. Please try again in a mo
 msgstr "ယခုအချိန်တွင် ဒိုမိန်းမှတ်ပုံတင်ဌာနသို့ ဆက်သွယ်၍ မရပါ။ ခဏအကြာတွင် ထပ်မံကြိုးစားကြည့်ပါ။"
 
 #: includes/class-domain-search.php:215
-msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr "API သော့ မရှိတော့ပါ သို့မဟုတ် သက်တမ်း မကုန်တော့ပါ။ ဆက်တင်များ (Settings) → Zinn® Reseller တွင် စစ်ဆေးပါ။"
+msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
+msgstr "API သော့ မရှိတော့ပါ သို့မဟုတ် တရားမဝင်တော့ပါ။ ၎င်းကို Zinn Digital® → Reseller Toolkit အောက်တွင် စစ်ဆေးပါ။"
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
@@ -131,8 +131,8 @@ msgid "Your Zinn Digital® reseller account"
 msgstr "သင့်၏ Zinn Digital® ရောင်းချသူ အကောင့်"
 
 #: includes/class-settings.php:151
-msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
-msgstr "ကျေးဇူးပြု၍ Zinn® ဒက်ရှ်ဘုတ်ရှိ Settings → API keys အောက်တွင် reseller API key တစ်ခုကို ဖန်တီးပြီး ဤနေရာတွင် ထည့်သွင်းပါ။"
+msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
+msgstr "Developer → API keys အောက်ရှိ သင်၏ Zinn® ဒက်ရှ်ဘုတ်တွင် reseller API သော့တစ်ခုကို ဖန်တီးပြီး ဤနေရာတွင် ကူးထည့်ပါ။"
 
 #: includes/class-settings.php:157
 msgid "Reseller API key"
@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "ပြန်ကြားရေး ဝန်ဆောင်မှုပေးသူ (reseller) API သော့ မရှိသေးပါ။"
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
-msgstr "သော့ချက်တစ်ခုကို မသတ်မှတ်မချင်း ဤနေရာတွင် မည်သည့်အရာမျှ အလုပ်မလုပ်ပါ။ ဆက်တင်များ → API သော့ချက်များ အောက်ရှိ သင့် Zinn® ဒက်ရှ်ဘုတ်တွင် တစ်ခုကို ဖန်တီးပါ။"
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
+msgstr "သော့ချက်တစ်ခုကို မသတ်မှတ်မချင်း ဤနေရာတွင် မည်သည့်အရာမျှ အလုပ်မလုပ်ပါ။ Zinn® ဒက်ရှ်ဘုတ်ရှိ Developer → API keys အောက်တွင် တစ်ခု ဖန်တီးပါ။"
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"

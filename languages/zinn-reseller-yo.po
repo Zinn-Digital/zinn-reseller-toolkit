@@ -21,8 +21,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 
 #. Description of the plugin
 #: zinn-reseller.php
-msgid "Sell Zinn Digital® hosting from your own WordPress site — footprint-free PBN, WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Ta hosting Zinn Digital® lati aaye WordPress tirẹ — PBN ti ko ni footprint, WordPress, WooCommerce, ile-iṣẹ, olutaja (reseller), awọsanma (cloud) ati hosting VPS. Wa ati funni ni awọn agbegbe (domains) lati inu akọọlẹ olutaja rẹ, wọ awọn alabara rẹ taara sinu nronu hosting wọn, ati pese hosting laifọwọyi nigbati a ba san owo aṣẹ WooCommerce kan."
+msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
+msgstr "Ta hosting Zinn Digital® lati ori aaye WordPress tirẹ — WordPress, WooCommerce, ile-iṣẹ, reseller, cloud ati VPS hosting. Wa ki o si funni ni awọn agbegbe lati akọọlẹ reseller rẹ, fowo si awọn alabara rẹ taara sinu nronu hosting wọn, ati pese hosting laifọwọyi nigbati a ba san aṣẹ WooCommerce kan."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -61,8 +61,8 @@ msgid "We could not reach the domain registry just now. Please try again in a mo
 msgstr "Àwa kò lè dé ọ̀dọ̀ ìforíkọ́lu ìtumọ̀ domain ní àkìsí yìí. Jọ̀wọ́ gbiyanjú lẹ́kan síwájú ní ìṣẹ́jú kan."
 
 #: includes/class-domain-search.php:215
-msgid "The API key is missing or no longer valid. Check it under Settings → Zinn® Reseller."
-msgstr "Kò sí bọ́tìnnì API tàbí ó ti di aláìnílari mọ́. Ṣàyẹ̀wò rẹ̀ lábẹ́ Ètò → Zinn® Reseller."
+msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
+msgstr "Bọtìní API náà ti sonù tàbí kò tún wúlè mọ́. Ṣàyèwò rẹ̀ lábé Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:217
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
@@ -131,8 +131,8 @@ msgid "Your Zinn Digital® reseller account"
 msgstr "Akọọlẹ olùtà taara Zinn Digital® rẹ"
 
 #: includes/class-settings.php:151
-msgid "Create a reseller API key in your Zinn® dashboard under Settings → API keys, and paste it here."
-msgstr "Ṣẹda bọtìkì API olùta-túnṣe kan ninu daṣibọọdu Zinn® rẹ labẹ Eto → Awọn bọtìkì API, ki o si lẹ mọ hín."
+msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
+msgstr "Ṣẹda bọ́ọ̀lù aṣàròkọ API reseller kan ninu daṣibọọdu Zinn® rẹ labẹ Developer → API keys, ki o si lẹ mọ́ ibi yìí."
 
 #: includes/class-settings.php:157
 msgid "Reseller API key"
@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Kò tíì sí bọ́tìnnì API olùtà fúnni."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Settings → API keys."
-msgstr "Kò sí ohun tí ó ń ṣiṣẹ́ níhìn-ín títí di ìgbà tí a bá ṣètò bọ́tìnì kan. Ṣẹ̀dá ọkan nínú Dasibọọdu Zinn® rẹ labẹ Eto → Awọn bọ́tìnì API."
+msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Kankan ko ni ṣiṣẹ nibi titi ti a fi ṣeto bọtini kan. Ṣẹda ọkan ninu daṣibọọdu Zinn® rẹ labẹ Onimọ-ẹrọ → Awọn bọtini API."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
