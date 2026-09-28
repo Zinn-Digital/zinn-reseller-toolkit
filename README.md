@@ -6,11 +6,9 @@ Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zi
 
 ## Download
 
-- **[Install it from WordPress.org](https://wordpress.org/plugins/zinn-reseller/)** — or in wp-admin open **Plugins → Add New Plugin** and search for **Zinn® Reseller Toolkit**.
-- **[Download the latest version from zinndigital.com](https://zinndigital.com/wordpress-plugins)** — always current, no account needed.
-- Or take the zip from [Releases](../../releases/latest) here on GitHub.
+**[Install Zinn® Reseller Toolkit from WordPress.org](https://wordpress.org/plugins/zinn-reseller/)** — or in wp-admin open **Plugins → Add New Plugin** and search for **Zinn® Reseller Toolkit**.
 
-Both are the same file. The download page is the canonical one: it is served from our own infrastructure and is what the plugin's own updater checks against.
+It is free, and it updates itself from WordPress.org like any directory plugin.
 
 ## Requirements
 
@@ -26,15 +24,10 @@ Every release is installed and activated against the current stable WordPress be
 
 ## Install
 
-From the directory: **Plugins → Add New Plugin**, search for **Zinn® Reseller Toolkit**, then **Install Now** and **Activate**. Or from the zip:
+1. In WordPress: **Plugins → Add New Plugin**, search for **Zinn® Reseller Toolkit**.
+2. **Install Now**, then **Activate**.
 
-1. Download the zip.
-2. In WordPress: **Plugins → Add New → Upload Plugin**, choose the zip, install.
-3. Activate.
-
-On a site we host this plugin keeps itself up to date. On your own WordPress it has no credentials for our update service and does not contact us — check back here, or watch this repository's releases.
-
-Installed from WordPress.org instead, it updates from the directory like any other directory plugin — WordPress shows the new version on your Plugins screen.
+The listing is at https://wordpress.org/plugins/zinn-reseller/. On a site we host it is already installed and kept current for you. Anywhere else it updates from WordPress.org — WordPress shows the new version on your Plugins screen.
 
 ## What you can sell with Zinn® Reseller Toolkit
 
@@ -65,12 +58,12 @@ You set the retail price on each; the difference between that and your wholesale
 
 ## Our other WordPress plugins
 
-- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, a signed purge endpoint for your own tools and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead.
+- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, a signed purge endpoint for your own tools and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead. · [Install from WordPress.org](https://wordpress.org/plugins/zinn-cache/)
 - **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — A complete caching and optimisation engine — full-page cache, object cache, database cleanup and CSS/JS optimisation — for WordPress sites hosted somewhere that provides no cache layer. On Zinn Digital® hosting, install Zinn® Cache instead. A GPLv3 fork of LiteSpeed Cache.
 - **[zinn-chat](https://github.com/Zinn-Digital/zinn-chat)** — A fast, privacy-respecting live chat for any WordPress site — answered by AI when you are busy, handed to a person when it matters, and emailed to you when you miss it. Under 10 KB on the page, and no requests at all until a visitor opens it.
-- **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
+- **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard. · [Install from WordPress.org](https://wordpress.org/plugins/zinn-connector/)
 - **[zinn-migrate](https://github.com/Zinn-Digital/zinn-migrate)** — Install it on the WordPress site you are LEAVING. It packages that site — files and database — into one archive and gives you a private link to paste into your Zinn Digital® migration. For hosts that give you no FTP, no SSH and no control-panel API; if you have any of those, Zinn® can fetch the site directly and you do not need this.
-- **[zinn-offload](https://github.com/Zinn-Digital/zinn-offload)** — Move a WordPress media library to Zinn® object storage and serve it from a CDN. Configured from the Zinn® dashboard — no access key is ever typed into WordPress.
+- **[zinn-offload](https://github.com/Zinn-Digital/zinn-offload)** — Move a WordPress media library to Zinn® object storage and serve it from a CDN. Configured from the Zinn® dashboard — no access key is ever typed into WordPress. · [Install from WordPress.org](https://wordpress.org/plugins/zinn-offload/)
 - **[zinn-translate](https://github.com/Zinn-Digital/zinn-translate)** — Publish a WordPress site in 58 languages on their own web addresses — translated slugs, SEO metadata, menus, WooCommerce and hreflang — translated with a Zinn Digital® plan or the site owner's own provider key.
 
 All of them are free to download from https://zinndigital.com/wordpress-plugins.
