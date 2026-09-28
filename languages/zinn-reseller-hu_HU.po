@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Még nincs viszonteladói API-kulcs."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Semmi sem működik itt, amíg nincs beállítva egy kulcs. Hozzon létre egyet a Zinn® irányítópultján a Fejlesztő → API-kulcsok menüpont alatt."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "A domain-kereső egy kulcs nélkül is működik, a nyilvános árakon. A vezérlőpult hivatkozásához és a WooCommerce kiépítéséhez szükség van egy kulcsra: hozzon létre egyet a Zinn® vezérlőpultján a Fejlesztő → API-kulcsok menüpont alatt."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -314,51 +314,51 @@ msgstr "Nincs csatlakoztatva: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Csatlakozva. A viszonteladói programod: %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Nincs konfigurálva Zinn® API-kulcs, ezért semmi sem lett kiépítve."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Ez a rendelés nem tartalmazott domain nevet, így nem volt mit kiépíteni."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "A tárhelyplatform nem küldött vissza webhelyet."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "A(z) %1$s részére kiépített Zinn® tárhely (%2$s szolgáltatás)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "A tárhelyplatform nem küldött vissza ügyfélszámlát."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "A Zinn® tárhely kiépítése NEM történt meg: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Zinn® termékcsalád"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "A Zinn® termékcsalád, amelyet ki kell alakítani a termék megvásárlásakor. Hagyja üresen a beépülő modul beállításaiban megadott alapértelmezett érték használatához."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Zinn® tárhely"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "Szolgáltatás azonosító"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Ehhez a megrendeléshez nincs semmi kiépítve."
 

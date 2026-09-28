@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Aún no hay clave de API de revendedor."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Aquí no funciona nada hasta que se configure una clave. Cree una en su panel de Zinn® en Desarrollador → Claves de API."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "La búsqueda de dominios ya funciona sin una, a los precios públicos. El enlace del panel y el aprovisionamiento de WooCommerce necesitan una clave: cree una en su panel de Zinn® en Desarrollador → Claves de API."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -315,51 +315,51 @@ msgstr "No conectado: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Conectado. Su programa de revendedores es %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "No se ha configurado ninguna clave de API de Zinn®, por lo que no se ha aprovisionado nada."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Este pedido no incluía ningún nombre de dominio, por lo que no había nada que aprovisionar."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "La plataforma de alojamiento no devolvió ningún sitio."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Alojamiento de Zinn® aprovisionado para %1$s (servicio %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "La plataforma de alojamiento no devolvió ninguna cuenta de cliente."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "El alojamiento de Zinn® NO se pudo aprovisionar: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Línea de productos Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "La línea de productos Zinn® que se aprovisionará cuando se compre este producto. Déjelo en blanco para utilizar la predeterminada de la configuración del complemento."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Alojamiento web Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "ID de servicio"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "No hay nada aprovisionado para este pedido."
 

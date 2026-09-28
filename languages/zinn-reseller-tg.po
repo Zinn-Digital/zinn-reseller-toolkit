@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Ҳанӯз калиди API-и фурӯшанда мавҷуд нест."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "То он даме, ки калид танзим нашавад, ягон чиз дар ин ҷо кор намекунад. Якеро дар панели идоракунии Zinn® дар зери Developers → API keys эҷод кунед."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Ҷустуҷӯи домен аллакай бидуни он, бо нархҳои умумӣ кор мекунад. Пайванди панел ва таъминоти WooCommerce калидро талаб мекунанд: онро дар панели идоракунии Zinn® зери қисми Developer → API keys эҷод кунед."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -313,51 +313,51 @@ msgstr "Пайваст нашудааст: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Пайваст шуд. Барномаи фурӯшандаи шумо %s аст."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Ягон калиди API-и Zinn® танзим нашудааст, бинобар ин чизе пешбинӣ нашуд."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Дар ин фармоиш номи домен мавҷуд набуд, бинобар ин ягон чиз барои фаъолсозӣ вуҷуд надошт."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Платформаи мизбон ягон сомонаро барнагардонд."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Хостинги Zinn® барои %1$s (хидмати %2$s) таъмин карда шуд."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Платформаи мизбон ҳисоби муштариро барқарор накард."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Мизбонии Zinn® танзим нашуд: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Хатти маҳсулоти Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Хати маҳсулоти Zinn®, ки ҳангоми харидани ин маҳсулот таъмин карда мешавад. Барои истифодаи пешфарз аз танзимоти плагин онро холӣ гузоред."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Мizбонии Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "Рақами хизматрасонӣ"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Барои ин фармоиш чизе пешбинӣ нашудааст."
 

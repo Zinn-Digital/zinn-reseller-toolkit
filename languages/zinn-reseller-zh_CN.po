@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "尚未提供分销商 API 密钥。"
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "设置密钥之前，这里的所有功能都无法使用。请在 Zinn® 仪表板的“开发者”→“API 密钥”下创建一个。"
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "域名搜索无需密钥即可直接使用，并按公开价格计费。面板链接和 WooCommerce 开通需要一个密钥：请在您的 Zinn® 控制面板中的“开发者 → API 密钥”下创建一个。"
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -313,51 +313,51 @@ msgstr "未连接：%s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "已连接。您的分销商计划为 %s。"
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "未配置 Zinn® API 密钥，因此未预配任何内容。"
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "此订单未包含域名，因此无需预配任何内容。"
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "托管平台未返回任何站点。"
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "已为 %1$s（服务 %2$s）配置 Zinn® 托管。"
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "托管平台未返回客户账户。"
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® 托管未成功配置：%s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Zinn® 产品系列"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "购买此产品时要配置的 Zinn® 产品系列。留空则使用插件设置中的默认值。"
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Zinn® 托管"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "服务 ID"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "此订单没有任何已配置的资源。"
 

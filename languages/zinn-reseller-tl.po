@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Wala pang reseller API key."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Walang gagana rito hanggang sa maitakda ang isang susi. Gumawa ng isa sa iyong dashboard ng Zinn® sa ilalim ng Developer → API keys."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Gumagana na ang paghahanap ng domain nang wala nito, sa mga pampublikong presyo. Ang link ng panel at ang provisioning ng WooCommerce ay nangangailangan ng key: gumawa nito sa iyong Zinn® dashboard sa ilalim ng Developer → API keys."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -314,51 +314,51 @@ msgstr "Hindi nakakonekta: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Konektado. Ang iyong reseller programme ay %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Walang nakatakdang Zinn® API key, kaya walang na-provision."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Ang order na ito ay hindi kasama ang isang domain name, kaya walang dapat i-provision."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Hindi nagbalik ng site ang platform ng hosting."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Ang pag-host ng Zinn® ay na-provision para sa %1$s (serbisyo %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Hindi ibinalik ng hosting platform ang isang client account."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Ang Zinn® hosting ay HINDI nai-provision: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Linya ng produkto ng Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Ang linya ng produkto ng Zinn® na ia-activate kapag binili ang produktong ito. Iwanang blanko para gamitin ang default mula sa mga setting ng plugin."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Hosting sa Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "ID ng Serbisyo"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Walang na-provision para sa order na ito."
 

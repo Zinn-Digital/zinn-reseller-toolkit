@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Još nema API ključa za preprodavače."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Ništa ovdje ne radi dok se ne postavi ključ. Izradite ga na svojoj Zinn® upravljačkoj ploči pod Razvojni programeri → API ključevi."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Pretraga domena već radi bez njega, po javnim cijenama. Vezi upravljačke ploče i WooCommerce provizioniranju potreban je ključ: izradite ga na svojoj Zinn® upravljačkoj ploči pod Razvojni programeri → API ključevi."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -315,51 +315,51 @@ msgstr "Nije povezano: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Povezano. Vaš resellerski program je %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Nije konfiguriran nikakav Zinn® API ključ, tako da ništa nije dodijeljeno."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Ova narudžba nije uključivala naziv domene, tako da nije bilo ničega za rezervirati."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Platforma za hosting nije vratila web-mjesto."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Zinn® hosting pripremljen za %1$s (usluga %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Platforma za hosting nije vratila klijentski račun."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® hosting nije isporučen: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Zinn® linija proizvoda"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Linija proizvoda Zinn® za isporuku prilikom kupnje ovog proizvoda. Ostavite prazno za korištenje zadane vrijednosti iz postavki dodatka."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Zinn® hosting"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "ID usluge"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Ništa nije osigurano za ovu narudžbu."
 

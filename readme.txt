@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ It has three parts and **they are separate switches**. Turn on only what you nee
 
 **1. Domain search**
 
-Put `[zinn_domain_search]` on any page. A visitor types a name, and the results come back live from your domain account with your own prices on them.
+Put `[zinn_domain_search]` on any page. A visitor types a name, and the results come back live. Once your reseller key is set they come from your own domain account with your own prices on them; before that, the search already works against the public catalogue and its prices.
 
 * No JavaScript at all. The form is a plain search that works with scripting off, is crawlable, and produces a shareable result URL.
 * Three honest answers, not two. Available, already registered, and **"we could not check"** — because when no registrar can be reached, telling a visitor a name is taken makes them abandon a name that may well be free.
@@ -146,11 +146,14 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 
 == Screenshots ==
 
-1. The settings screen, with a live connection check.
+1. The settings screen and its connection status.
 2. Domain search results on a page.
-3. The Zinn® hosting panel on a WooCommerce order.
+3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.2.9 =
+* WooCommerce provisioning no longer writes "No Zinn® API key is configured" onto orders that are not hosting; the settings screen says domain search already works before a key is set; readme and screenshot captions corrected; listed on WordPress.org.
 
 = 1.2.8 =
 * A neutral plugin description. The installation steps and the missing-key message now point at the real settings screen, Zinn Digital® → Reseller Toolkit, and describe its status panel as it is. Its "Open my Zinn® dashboard" button opened a page that does not exist; it now opens API keys.

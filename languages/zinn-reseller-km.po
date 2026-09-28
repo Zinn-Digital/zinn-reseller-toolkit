@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "មិនទាន់មានសោរ API របស់ភ្នាក់ងារបន្តលក់ទេ។"
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "គ្មានអ្វីដំណើរការនៅទីនេះទេរហូតទាល់តែគ្រាប់ចុចមួយត្រូវបានកំណត់។ សូមបង្កើតមួយនៅក្នុងផ្ទាំងគ្រប់គ្រង Zinn® របស់អ្នកក្រោម Developer → API keys។"
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "ការស្វែងរកឈ្មោះដែនដំណើរការរួចជាស្រេចដោយមិនចាំបាច់មានវា ក្នុងតម្លៃជាសាធារណៈ។ តំណភ្ជាប់ផ្ទាំងគ្រប់គ្រង និងការផ្តល់សេវា WooCommerce ត្រូវការគ្រាប់ចុចមួយ៖ សូមបង្កើតមួយនៅលើផ្ទាំងគ្រប់គ្រង Zinn® របស់អ្នកក្រោម Developer → API keys។"
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -313,51 +313,51 @@ msgstr "មិនបានភ្ជាប់៖ %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "បានតភ្ជាប់។ កម្មវិធី reseller របស់អ្នកគឺ %s។"
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "គ្មានគ្រាប់ចុច API របស់ Zinn® ត្រូវបានកំណត់រចនាសម្ព័ន្ធទេ ដូច្នេះគ្មានអ្វីត្រូវបានផ្តល់ជូនទេ។"
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "ការបញ្ជាទិញនេះមិនបានរួមបញ្ចូលឈ្មោះដែនទេ ដូច្នេះគ្មានអ្វីត្រូវផ្តល់ជូននោះទេ។"
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "វេទិកាបង្ហោះគេហទំព័រមិនបានត្រឡប់គេហទំព័រណាមួយទេ។"
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "សេវាហូស្ទីង Zinn® ត្រូវបានបង្កើតឡើងសម្រាប់ %1$s (សេវា %2$s)។"
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "វេទិកាបង្ហោះគេហទំព័រមិនបានត្រឡប់គណនីអតិថិជនទេ។"
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "ការបង្ហោះ Zinn® មិនត្រូវបានរៀបចំឡើងទេ៖ %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "បន្ទាត់ផលិតផល Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "ខ្សែផលិតផល Zinn® ដែលត្រូវផ្តល់ជូននៅពេលដែលផលិតផលនេះត្រូវបានទិញ។ សូមទុកទទេដើម្បីប្រើប្រាស់តម្លៃលំនាំដើមពីការកំណត់របស់កម្មវិធីជំនួយ។"
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "ហោសធីង Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "លេខសម្គាល់សេវាកម្ម"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "គ្មានអ្វីត្រូវបានរៀបចំសម្រាប់បញ្ជាទិញនេះទេ។"
 

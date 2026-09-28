@@ -6,6 +6,7 @@ Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zi
 
 ## Download
 
+- **[Install it from WordPress.org](https://wordpress.org/plugins/zinn-reseller/)** — or in wp-admin open **Plugins → Add New Plugin** and search for **Zinn® Reseller Toolkit**.
 - **[Download the latest version from zinndigital.com](https://zinndigital.com/wordpress-plugins)** — always current, no account needed.
 - Or take the zip from [Releases](../../releases/latest) here on GitHub.
 
@@ -15,7 +16,7 @@ Both are the same file. The download page is the canonical one: it is served fro
 
 | | |
 |---|---|
-| Version | `1.2.8` |
+| Version | `1.2.9` |
 | Requires WordPress | 6.6 or later |
 | Tested up to | WordPress **7.1** |
 | Requires PHP | 8.2 or later |
@@ -25,11 +26,15 @@ Every release is installed and activated against the current stable WordPress be
 
 ## Install
 
+From the directory: **Plugins → Add New Plugin**, search for **Zinn® Reseller Toolkit**, then **Install Now** and **Activate**. Or from the zip:
+
 1. Download the zip.
 2. In WordPress: **Plugins → Add New → Upload Plugin**, choose the zip, install.
 3. Activate.
 
 On a site we host this plugin keeps itself up to date. On your own WordPress it has no credentials for our update service and does not contact us — check back here, or watch this repository's releases.
+
+Installed from WordPress.org instead, it updates from the directory like any other directory plugin — WordPress shows the new version on your Plugins screen.
 
 ## What you can sell with Zinn® Reseller Toolkit
 

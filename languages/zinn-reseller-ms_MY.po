@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Belum ada kunci API peruncit."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Tiada apa-apa di sini yang berfungsi sehingga kunci ditetapkan. Cipta satu dalam papan pemuka Zinn® anda di bawah Pembangun → Kunci API."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Carian domain sudah berfungsi tanpa kunci, pada harga awam. Pautan panel dan peruntukan WooCommerce memerlukan kunci: buat satu di papan pemuka Zinn® anda di bawah Pembangun → Kekunci API."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -313,51 +313,51 @@ msgstr "Tidak bersambung: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Disambungkan. Program penjual semula anda ialah %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Tiada kunci API Zinn® dikonfigurasikan, jadi tiada apa-apa yang diperuntukkan."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Pesanan ini tidak menyertakan nama domain, jadi tiada apa-apa untuk diperuntukkan."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Platform pengehosan tidak memulangkan sebarang tapak."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Peruntukan pengehosan Zinn® disediakan untuk %1$s (perkhidmatan %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Platform hos tidak mengembalikan akaun pelanggan."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Pengehosan Zinn® TIDAK diperuntukkan: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Barisan produk Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Barisan produk Zinn® untuk diperuntukkan apabila produk ini dibeli. Biarkan kosong untuk menggunakan lalai daripada tetapan palam masuk."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Pengehosan Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "ID Perkhidmatan"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Tiada yang diperuntukkan untuk pesanan ini."
 

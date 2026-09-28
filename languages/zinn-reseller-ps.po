@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "تر اوسه پورې د ریسلر API کلي نشته."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "تر هغه مهال چې کلي نه وي ټاکل شوی، دلته هېڅ شی نه کار کوي. د Zinn® ډشبورډ په Developer → API keys برخه کې یو جوړ کړئ."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "د ډومین لټون دمخه د عامو نرخونو سره پرته له دې کار کوي. د پینل لینک او WooCommerce چمتو کولو لپاره کیلي ته اړتیا ده: په خپل Zinn® ډشبورډ کې د Developer → API keys لاندې یو جوړ کړئ."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -314,51 +314,51 @@ msgstr "وصل نه دی: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "وصل شو. ستاسو د پلورونکي پروګرام %s دی."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "هیڅ د Zinn® API کیلي نه ده شوې ترتیب شوې، نو هیڅ شی هم ونه غوښتل شو."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "په دې سپارښتنه کې د ډومین نوم نه و شامل، نو د برابرولو لپاره هیڅ شی نه و."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "د کوربه توب پلیټ فارم کوم سایټ ونه ګرځاوه."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "د %1$s (خدمت %2$s) لپاره چمتو شوی Zinn® هوسټنګ."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "کوربه توب پلاتفورم د پیرودونکي حساب ونه ګرځاوه."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® کوربه توب ندی چمتو شوی: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "د Zinn® د محصولاتو کرښه"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "کله چې دا محصول پیرودل شي، د چمتو کولو لپاره د Zinn® محصول کرښه. د پلگ ان تنظیماتو څخه د ډیفالټ کارولو لپاره خالي پریږدئ."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "د Zinn® کوربه توب"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "د خدمت پېژندی (ID)"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "د دې امر لپاره هېڅ شی نه دی چمتو شوی."
 

@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Δεν υπάρχει ακόμη κλειδί API μεταπωλητή."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Τίποτα εδώ δεν λειτουργεί μέχρι να οριστεί ένα κλειδί. Δημιουργήστε ένα στον πίνακα ελέγχου του Zinn® στην ενότητα Προγραμματιστής → Κλειδιά API."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Η αναζήτηση domain λειτουργεί ήδη χωρίς αυτό, στις δημόσιες τιμές. Ο σύνδεσμος του πίνακα ελέγχου και η εκτελεστική λειτουργία (provisioning) του WooCommerce χρειάζονται ένα κλειδί: δημιουργήστε ένα στον πίνακα ελέγχου σας Zinn® στην ενότητα Προγραμματιστής (Developer) → Κλειδιά API."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -314,51 +314,51 @@ msgstr "Δεν είναι συνδεδεμένο: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Συνδέθηκε. Το πρόγραμμα μεταπωλητών σας είναι %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Δεν έχει ρυθμιστεί κανένα κλειδί API του Zinn®, οπότε δεν έγινε καμία εκχώρηση."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Αυτή η παραγγελία δεν περιλάμβανε όνομα τομέα, οπότε δεν υπήρχε τίποτα προς εκχώρηση."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Η πλατφόρμα φιλοξενίας δεν επέστρεψε ιστότοπο."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Η φιλοξενία Zinn® ενεργοποιήθηκε για τον/την %1$s (υπηρεσία %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Η πλατφόρμα φιλοξενίας δεν επέστρεψε λογαριασμό πελάτη."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Η φιλοξενία Zinn® ΔΕΝ προβλέφθηκε: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Σειρά προϊόντων Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Η σειρά προϊόντων Zinn® προς διάθεση όταν αγοράζεται αυτό το προϊόν. Αφήστε το κενό για να χρησιμοποιήσετε την προεπιλογή από τις ρυθμίσεις του πρόσθετου."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Φιλοξενία Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "Α αναγνωριστικό υπηρεσίας"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Δεν έχει γίνει καμία εκχώρηση για αυτή τη παραγγελία."
 

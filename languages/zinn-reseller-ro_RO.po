@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Nicio cheie API de reseller încă."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Nimic de aici nu funcționează până nu este setată o cheie. Creați una în tabloul de bord Zinn® la Dezvoltator → Chei API."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Căutarea de domenii funcționează deja fără una, la prețurile publice. Linkul către panou și furnizarea WooCommerce necesită o cheie: creați una în tabloul de bord Zinn® la secțiunea Dezvoltator → Chei API."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -315,51 +315,51 @@ msgstr "Neconectat: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Conectat. Programul dvs. de reseller este %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Nicio cheie API Zinn® nu este configurată, așa că nu a fost furnizat nimic."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Această comandă nu a inclus un nume de domeniu, așa că nu a existat nimic de pus în funcțiune."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Platforma de găzduire nu a returnat niciun site."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Găzduire Zinn® furnizată pentru %1$s (serviciul %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Platforma de găzduire nu a returnat un cont de client."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Găzduirea Zinn® NU a fost furnizată: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Gama de produse Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Linia de produse Zinn® de furnizat atunci când acest produs este cumpărat. Lăsați gol pentru a utiliza valoarea implicită din setările modulului."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Găzduire Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "ID serviciu"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Nu a fost provizionat nimic pentru această comandă."
 

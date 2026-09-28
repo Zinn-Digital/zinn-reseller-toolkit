@@ -86,14 +86,18 @@ class WooCommerce_Provisioning {
 		if ( '' !== (string) $order->get_meta( self::ORDER_SITE_META ) ) {
 			return; // Already done.
 		}
-		if ( ! Client::is_configured() ) {
-			self::fail( $order, __( 'No Zinn® API key is configured, so nothing was provisioned.', 'zinn-reseller' ) );
-			return;
-		}
-
+		// ⛔⛔ Ask "is this hosting?" BEFORE "is there a key?". Until 1.2.9 the key check came
+		// first, so with the module on and no key yet EVERY paid order — a t-shirt included —
+		// had "No Zinn® API key is configured" written onto it: D12895's defect again, one
+		// branch earlier (reproduced on the directory's 1.2.8, order 16 of the proof site).
 		$line = self::hosting_line( $order );
 		if ( null === $line ) {
 			return; // Not a hosting order — nothing to do, and not an error.
+		}
+
+		if ( ! Client::is_configured() ) {
+			self::fail( $order, __( 'No Zinn® API key is configured, so nothing was provisioned.', 'zinn-reseller' ) );
+			return;
 		}
 
 		$org_id = self::client_org( $order );

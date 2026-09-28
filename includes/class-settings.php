@@ -368,7 +368,7 @@ class Settings {
 			return array(
 				'state'   => 'disconnected',
 				'summary' => __( 'No reseller API key yet.', 'zinn-reseller' ),
-				'reason'  => __( 'Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys.', 'zinn-reseller' ),
+				'reason'  => __( 'Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys.', 'zinn-reseller' ),
 				'action'  => array(
 					'label' => __( 'Open my Zinn® dashboard', 'zinn-reseller' ),
 					'url'   => rtrim( (string) $settings['panel_base'], '/' ) . '/api-keys',

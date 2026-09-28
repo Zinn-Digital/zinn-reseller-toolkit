@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "სავენდერო API გასაღები ჯერ არ არის."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "აქ არაფერი იმუშავებს, სანამ გასაღები არ დაყენდება. შექმენით ის თქვენს Zinn®-ის მართვის პანელში: დეველოპერი → API გასაღებები."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "დომენის ძიება უკვე მუშაობს მის გარეშე, საჯარო ფასებით. პანელის ბმულს და WooCommerce პროვიზიონინგს სჭირდება გასაღები: შექმენით ის თქვენს Zinn® სამართავ პანელში, განყოფილებაში „Developer → API keys“."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -314,51 +314,51 @@ msgstr "არ არის დაკავშირებული: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "დაკავშირებულია. თქვენი გადამყიდველის პროგრამა არის %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Zinn® API გასაღები არ არის კონფიგურირებული, ამიტომ არაფერი გამომუშავებულა."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "ამ შეკვეთაში დომენის სახელი არ შედიოდა, ამიტომ გამოსაყოფი არაფერი იყო."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "ჰოსტინგის პლატფორმამ საიტი არ დააბრუნა."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Zinn® ჰოსტინგი მომზადებულია %1$s-ისთვის (სერვისი %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "სასტუმრო პლატფორმას არ დაუბრუნებია კლიენტის ანგარიში."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® ჰოსტინგი არ იქნა უზრუნველყოფილი: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Zinn® პროდუქტების ხაზი"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "პროდუქტის შეძენისას გამოსაყოფი Zinn® პროდუქტების ხაზი. დატოვეთ ცარიელი, რომ გამოიყენოთ ნაგულისხმები პარამეტრები დანართიდან."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Zinn® ჰოსტინგი"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "სერვისის ID"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "ამ შეკვეთისთვის არაფერია პროვიზიონირებული."
 

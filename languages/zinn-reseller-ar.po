@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "لا يوجد مفتاح API لإعادة البيع حتى الآن."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "لا شيء يعمل هنا حتى يتم تعيين مفتاح. أنشئ مفتاحاً في لوحة تحكم Zinn® الخاصة بك ضمن Developer → API keys."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "بحث النطاقات يعمل بالفعل بدون مفتاح، بالأسعار العامة. رابط لوحة التحكم وتجهيز WooCommerce يحتاجان إلى مفتاح: أنشئ مفتاحاً في لوحة تحكم Zinn® الخاصة بك ضمن Developer → API keys."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -318,51 +318,51 @@ msgstr "غير متصل: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "متصل. برنامج إعادة البيع الخاص بك هو %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "لم يتم تكوين مفتاح واجهة برمجة التطبيقات الخاص بـ Zinn®، لذلك لم يتم توفير أي شيء."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "لم يتضمن هذا الطلب اسم نطاق، لذلك لم يكن هناك ما يلزم تخصيصه."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "لم تقم منصة الاستضافة بإرجاع أي موقع."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "استضافة Zinn® مخصصة لـ %1$s (الخدمة %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "لم تقم منصة الاستضافة بإرجاع حساب عميل."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "لم يتم توفير استضافة Zinn®: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "خط منتجات Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "خط منتجات Zinn® المراد توفيره عند شراء هذا المنتج. اتركه فارغاً لاستخدام القيمة الافتراضية من إعدادات الإضافة."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "استضافة Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "معرف الخدمة"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "لم يتم تخصيص أي شيء لهذا الطلب."
 

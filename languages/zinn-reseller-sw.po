@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Bado hakuna ufunguo wa API ya wauzaji reja reja."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Hakuna kinachofanya kazi hapa hadi ufunguo uwekwe. Unda moja katika dashibodi yako ya Zinn® chini ya Developer → API keys."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Utafutaji wa vikoa tayari unafanya kazi bila hiyo, kwa bei za umma. Kiungo cha paneli na utoaji wa huduma wa WooCommerce yanahitaji ufunguo: unda mmoja katika dashibodi yako ya Zinn® chini ya Developer → API keys."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -314,51 +314,51 @@ msgstr "Haijaunganishwa: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Imeunganishwa. Programu yako ya wauzaji reja reja ni %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Hakuna kitufe cha API cha Zinn® kilichosanidiwa, kwa hivyo hakuna kilichotolewa."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Agizo hili halikujumuisha jina la kikoa, kwa hivyo hakukuwa na cha kusanidi."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Jukwaa la upangishaji halikurejesha tovuti."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Huduma ya hosting ya Zinn® imetolewa kwa ajili ya %1$s (huduma %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Jukwaa la upangishaji halikurejesha akaunti ya mteja."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Uandikishaji wa Zinn® haukuwekwa tayari: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Safu ya bidhaa ya Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Safu ya bidhaa ya Zinn® itakayotolewa bidhaa hii inaponunuliwa. Acha wazi ili kutumia chaguo-msingi kutoka kwa mipangilio ya programu jalizi."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Hosting ya Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "Kitambulisho cha huduma"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Hakuna kilichotolewa kwa agizo hili."
 

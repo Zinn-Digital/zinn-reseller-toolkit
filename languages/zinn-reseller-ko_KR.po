@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "아직 리셀러 API 키가 없습니다."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "키가 설정되기 전까지는 여기서 아무것도 작동하지 않습니다. Zinn® 대시보드의 개발자(Developer) → API 키(API keys)에서 키를 생성하세요."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "도메인 검색은 퍼블릭 가격으로 키 없이도 이미 작동합니다. 패널 링크와 WooCommerce 프로비저닝에는 키가 필요합니다: 개발자(Developer) → API 키(API keys) 아래의 Zinn® 대시보드에서 키를 생성하세요."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -313,51 +313,51 @@ msgstr "연결되지 않음: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "연결되었습니다. 리셀러 프로그램은 %s입니다."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "설정된 Zinn® API 키가 없어 프로비저닝된 항목이 없습니다."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "이 주문에는 도메인 이름이 포함되어 있지 않아 프로비저닝할 항목이 없습니다."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "호스팅 플랫폼이 사이트를 반환하지 않았습니다."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "%1$s에 제공되는 Zinn® 호스팅 (서비스 %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "호스팅 플랫폼이 클라이언트 계정을 반환하지 않았습니다."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® 호스팅이 프로비저닝되지 않았습니다: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Zinn® 제품군"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "이 제품을 구매할 때 프로비저닝할 Zinn® 제품 라인입니다. 플러그인 설정의 기본값을 사용하려면 비워 두세요."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Zinn® 호스팅"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "서비스 ID"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "이 주문에 대해 프로비저닝된 항목이 없습니다."
 

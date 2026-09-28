@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "ຍັງບໍ່ມີລະຫັດ API ຕົວແທນຈຳໜ່າຍເທື່ອ."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "ບໍ່ມີຫຍັງເຮັດວຽກຢູ່ບ່ອນນີ້ຈົນກວ່າຈະມີການຕັ້ງຄ່າຄີ. ສ້າງອັນໜຶ່ງໃນແດນບອດ Zinn® ຂອງທ່ານພາຍໃຕ້ Developer → API keys."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "ການຄົ້ນຫາໂດເມນສາມາດໃຊ້ງານໄດ້ແລ້ວໂດຍບໍ່ຕ້ອງມີຄີ, ໃນລາຄາສາທາລະນະ. ລິ້ງແຜງຄວບຄຸມ ແລະ ການຈັດຫາ WooCommerce ຈຳເປັນຕ້ອງມີຄີ: ກະລຸນາສ້າງຄີໜຶ່ງຢູ່ທີ ແຜງຄວບຄຸມ Zinn® ຂອງທ່ານ ພາຍໃຕ້ ນັກພັດທະນາ → API keys."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -313,51 +313,51 @@ msgstr "ບໍ່ໄດ້ເຊື່ອມຕໍ່: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ໂຄງການຕົວແທນຂາຍຕໍ່ຂອງທ່ານແມ່ນ %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "ບໍ່ມີກະແຈ API ຂອງ Zinn® ຖືກກຳນົດຄ່າ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການຈັດສັນຫຍັງເລີຍ."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "ຄໍາສັ່ງຊື້ນີ້ບໍ່ລວມເອົາຊື່ໂດເມນ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີຫຍັງໃຫ້ຈັດສັນ."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "ເວທີໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງຄືນເວັບໄຊ."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "ການຈັດສັນໂຮສຕິ້ງ Zinn® ສຳລັບ %1$s (ບໍລິການ %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "ເວທີໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງຄືນບັນຊີລູກຄ້າ."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "ການໂຮສ Zinn® ບໍ່ໄດ້ຖືກຈັດສັນໃຫ້: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "ສາຍຜະລິດຕະພັນ Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "ສາຍຜະລິດຕະພັນ Zinn® ທີ່ຈະຈັດສັນໃຫ້ ເມື່ອມີການຊື້ຜະລິດຕະພັນນີ້. ປ່ອຍຫວ່າງໄວ້ເພື່ອໃຊ້ຄ່າເລີ່ມຕົ້ນຈາກການຕັ້ງຄ່າປລັກອິນ."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Zinn® ໂຮດຕິ້ງ"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "ລະຫັດການບໍລິການ"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "ບໍ່ມີການຈັດສັນສຳລັບຄຳສັ່ງຊື້ນີ້."
 

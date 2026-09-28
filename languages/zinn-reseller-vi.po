@@ -263,8 +263,8 @@ msgid "No reseller API key yet."
 msgstr "Chưa có khóa API đại lý."
 
 #: includes/class-settings.php:371
-msgid "Nothing here works until a key is set. Create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Không có gì hoạt động ở đây cho đến khi khóa được thiết lập. Hãy tạo một khóa trong bảng điều khiển Zinn® của bạn tại Developer → API keys."
+msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
+msgstr "Tìm kiếm tên miền đã hoạt động mà không cần khóa, với mức giá công khai. Liên kết bảng điều khiển và việc cấp phép WooCommerce cần có khóa: hãy tạo một khóa trong bảng điều khiển Zinn® của bạn tại mục Nhà phát triển → Khóa API."
 
 #: includes/class-settings.php:373
 msgid "Open my Zinn® dashboard"
@@ -313,51 +313,51 @@ msgstr "Chưa kết nối: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Đã kết nối. Chương trình đại lý của bạn là %s."
 
-#: includes/class-woocommerce-provisioning.php:90
+#: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Chưa có khóa API Zinn® nào được định cấu hình, vì vậy không có gì được cung cấp."
 
-#: includes/class-woocommerce-provisioning.php:108
+#: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Đơn hàng này không bao gồm tên miền, vì vậy không có gì để cấp phát."
 
-#: includes/class-woocommerce-provisioning.php:128
+#: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
 msgstr "Nền tảng lưu trữ không trả về trang web nào."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:139
+#: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Dịch vụ lưu trữ Zinn® đã được cung cấp cho %1$s (dịch vụ %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:203
+#: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
 msgstr "Nền tảng lưu trữ không trả về tài khoản khách hàng."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:308
+#: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Việc lưu trữ của Zinn® đã KHÔNG được cung cấp: %s"
 
-#: includes/class-woocommerce-provisioning.php:324
+#: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
 msgstr "Dòng sản phẩm Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:325
+#: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Dòng sản phẩm Zinn® sẽ được cung cấp khi mua sản phẩm này. Để trống để sử dụng mặc định từ cài đặt của plugin."
 
-#: includes/class-woocommerce-provisioning.php:362
+#: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
 msgstr "Lưu trữ Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:386
+#: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
 msgstr "Mã dịch vụ"
 
-#: includes/class-woocommerce-provisioning.php:393
+#: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
 msgstr "Không có dịch vụ nào được cung cấp cho đơn hàng này."
 
