@@ -239,19 +239,31 @@ final class Zinn_Reseller_Style_Presets {
 			if ( array() === $tokens ) {
 				continue;
 			}
+			// ⛔⛔ THE COMPONENT ID IS PART OF A CUSTOM-PROPERTY NAME, SO IT IS VALIDATED LIKE
+			// THE TOKEN NAME BESIDE IT. WordPress.org's review of 2.2.10 (P0TDX377297HGN)
+			// found it interpolated as-is: an id carrying `}` or `</style>` would have closed
+			// the rule or the element. Restricted to `[a-z0-9_-]`, and a component whose id
+			// does not survive that intact is skipped rather than renamed.
+			$slug = self::css_ident( (string) $id );
+			if ( '' === $slug ) {
+				continue;
+			}
 			$declarations = array();
 			foreach ( $tokens as $token => $value ) {
-				$name = preg_replace( '/[^a-z0-9-]/', '', strtolower( (string) $token ) );
+				$name = self::css_ident( (string) $token );
 				$safe = self::css_value( (string) $value );
 				if ( '' === $name || '' === $safe ) {
 					continue;
 				}
-				$declarations[] = '--zinn-' . $id . '-' . $name . ':' . $safe;
+				$declarations[] = '--zinn-' . $slug . '-' . $name . ':' . $safe;
 			}
 			if ( array() === $declarations ) {
 				continue;
 			}
-			$selector = preg_replace( '/[^a-zA-Z0-9 .#_>:()-]/', '', (string) $component['selector'] );
+			$selector = trim( (string) preg_replace( '/[^a-zA-Z0-9 .#_>:()-]/', '', (string) $component['selector'] ) );
+			if ( '' === $selector ) {
+				continue;
+			}
 			$blocks[] = $selector . '{' . implode( ';', $declarations ) . '}';
 		}
 
@@ -271,7 +283,35 @@ final class Zinn_Reseller_Style_Presets {
 			wp_register_style( $handle, false, array(), $version );
 		}
 		wp_enqueue_style( $handle );
-		wp_add_inline_style( $handle, implode( '', $blocks ) );
+		// ⭐ Escaped late, at the one point it leaves PHP: every piece above is already an
+		// allow-list, and this last pass removes `<` outright, so no combination of values
+		// can spell `</style>` — the one sequence that ends an inline stylesheet.
+		wp_add_inline_style( $handle, self::css_block( implode( '', $blocks ) ) );
+	}
+
+	/**
+	 * An identifier safe inside a CSS custom-property name: `[a-z0-9_-]` only.
+	 *
+	 * ⛔ Returns the empty string, never a repaired name, when the input carried anything
+	 * else — a component id or token name is a fixed string in this plugin, so one that
+	 * needs repairing is not one of ours.
+	 *
+	 * @param string $name A component id or token name.
+	 * @return string The identifier, or the empty string.
+	 */
+	private static function css_ident( string $name ): string {
+		$name = strtolower( trim( $name ) );
+		return 1 === preg_match( '/^[a-z0-9_-]{1,64}$/', $name ) ? $name : '';
+	}
+
+	/**
+	 * The assembled stylesheet with every `<` removed, so it cannot close its `<style>`.
+	 *
+	 * @param string $css The rules built from allow-listed parts.
+	 * @return string The stylesheet.
+	 */
+	private static function css_block( string $css ): string {
+		return str_replace( array( '<', '\\' ), '', wp_strip_all_tags( $css ) );
 	}
 
 	/**
