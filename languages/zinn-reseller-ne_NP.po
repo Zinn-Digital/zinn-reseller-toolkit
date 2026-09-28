@@ -668,10 +668,20 @@ msgstr "मेro आफ्नै रङ्ग र साइजहरू प्�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "यसलाई बन्द छोड्नुहोस् र प्रिसेट जस्ताको तस्तै प्रयोग हुनेछ।"
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® को रिलिज नोटहरू हेर्नुहोस्।"
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® अपडेट सेवाले यस अपडेटको लागि डाउनलोड लिङ्क जारी गरेन। यो साइट Zinn® प्लेटफर्ममा पुग्न सक्छ कि सक्दैन जाँच गर्नुहोस्, त्यसपछि फेरि प्रयास गर्नुहोस्।"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® अद्यावधिक सेवा (%s) बाट अद्यावधिक डाउनलोड गर्न सकिएन। केही मिनेट पछि फेरि प्रयास गर्नुहोस्।"
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "डाउनलोड गरिएको अपडेटले यसको इन्टिग्रिटी चेक (सत्यता परीक्षण) पास गर्न सकेन र इन्स्टल गरिएको छैन।"

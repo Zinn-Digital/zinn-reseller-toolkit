@@ -667,10 +667,20 @@ msgstr "独自の配色とサイズを使用する"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "この設定をオフにすると、プリセットがそのままの状態で使用されます。"
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® のリリースノートをご覧ください。"
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® 更新サービスはこの更新プログラムのダウンロードリンクを発行しませんでした。このサイトがZinn® プラットフォームに接続できることを確認してから、もう一度お試しください。"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® アップデートサービスからアップデートをダウンロードできませんでした (%s)。数分後にもう一度お試しください。"
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ダウンロードしたアップデートの整合性チェックに失敗したため、インストールされませんでした。"

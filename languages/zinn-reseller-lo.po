@@ -666,10 +666,20 @@ msgstr "ໃຊ້ສີ ແລະ ຂະໜາດຂອງຂ້ອຍເອງ"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ປິດໄວ້ ເພື່ອໃຊ້ຄ່າຕັ້ງຕົ້ນຕາມທີ່ມັນເປັນຢູ່ແທ້ໆ."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "ເບິ່ງບັນທຶກການປ່ອຍເວີຊັນຂອງ Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "ບໍລິການອັບເດດ Zinn® ບໍ່ໄດ້ອອກລິ້ງດາວໂຫຼດສຳລັບການອັບເດດນີ້. ກະລຸນາ ກວດສອບວ່າເວັບໄຊນີ້ສາມາດເຂົ້າເຖິງແພລດຟອມ Zinn® ໄດ້ ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "ບໍ່ສາມາດດາວໂຫລດການອັບເດດຈາກບໍລິການອັບເດດຂອງ Zinn® (%s) ໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນອີກສອງາມນາທີ."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງ ແລະ ບໍ່ໄດ້ຖືກຕິດຕັ້ງ."

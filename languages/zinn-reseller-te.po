@@ -668,10 +668,20 @@ msgstr "నా స్వంత రంగులు మరియు పరిమ�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "దీన్ని ఆపివేయండి మరియు ప్రీసెట్ ఉన్నది ఉన్నట్లుగా ఉపయోగించబడుతుంది."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® విడుదల గమనికలను చూడండి."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® అప్‌డేట్ సేవ ఈ అప్‌డేట్ కోసం డౌన్‌లోడ్ లింక్‌ను జారీ చేయలేదు. ఈ సైట్ Zinn® ప్లాట్‌ఫారమ్‌ను చేరగలుగుతుందో లేదో తనిఖీ చేసి, ఆపై మళ్లీ ప్రయత్నించండి."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® అప్‌డేట్ సేవ (%s) నుండి అప్‌డేట్‌ను డౌన్‌లోడ్ చేయడం సాధ్యం కాలేదు. కొన్ని నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "డౌన్‌లోడ్ చేసిన అప్‌డేట్ సమగ్రతా తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."

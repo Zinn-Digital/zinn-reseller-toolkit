@@ -668,10 +668,20 @@ msgstr "Өз түстерім мен өлшемдерімді қолдану"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Бұл параметрді өшіріп қойыңыз, сонда алдын ала орнатылған параметр дәл сол күйінде пайдаланылады."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® нұсқарының жазбаларын қараңыз."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® жаңарту қызметі бұл жаңарту үшін жүктеу сілтемесін бермеді. Бұл сайттың Zinn® платформасына қол жеткізе алатынын тексеріп, қайталап көріңіз."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Жаңартуды Zinn® жаңарту қызметінен (%s) жүктеп алу мүмкін болмады. Бірнеше минуттан кейін қайта көріңіз."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Жүктеп алынған жаңарту тұтастықты тексеруден өтпеді және орнатылмады."

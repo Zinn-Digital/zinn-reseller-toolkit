@@ -668,10 +668,20 @@ msgstr "Isticmaal midabadayda iyo cabirradayda"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Tan ha kaga tag oo horay loo sii dejiyay waa sida uu yahay."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Fiiri qoraallada sii-daynta ee Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Adeegga cusboonaysiinta ee Zinn® ayaan soo saarin xiriiriyaha soo dejinta ee cusboonaysiintan. Hubi in boggani uu gaari karo madal Zinn®, kadibna isku day mar labaad."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Cusboonaysiinlama soo dejisan karo adeegga cusboonaysiin ee Zinn® (%s). Iskey mar kale daqiiqado kadib."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Cusboonaysiintii la soo dejiyey ayaa ku guuldareysatay baaritaanka hufnaanta waxaana la rakibay."

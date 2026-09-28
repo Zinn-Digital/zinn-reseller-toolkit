@@ -668,10 +668,20 @@ msgstr "Tumia rangi na saizi zangu mwenyewe"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Wacha hili lisiwashwe na kielelezo kitatumutumiwa jinsi kilivyo."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Tazama maelezo ya toleo la Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Huduma ya usasishaji ya Zinn® haikutoa kiungo cha kupakua kwa sasisho hili. Hakikisha kuwa tovuti hii inaweza kufikia jukwaa la Zinn®, kisha jaribu tena."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Sasisho halikuweza kupakuliwa kutoka kwa huduma ya sasisho ya Zinn® (%s). Jaribu tena baada ya dakika chache."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Sasisho lililopakuliwa limeshindwa ukaguzi wa uadilifu na halijasakinishwa."

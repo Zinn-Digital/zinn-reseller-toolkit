@@ -668,10 +668,20 @@ msgstr "මගේම වර්ණ සහ ප්‍රමාණයන් භා�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "මෙය අක්‍රිය කර තැබුවහොත් පූර්වසැකසුම (preset) එය පවතින ආකාරයෙන්ම භාවිත වේ."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® නිකුතු සටහන් බලන්න."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® යාවත්කාලීන සේවය මෙම යාවත්කාලීනය සඳහා බාගත කිරීමේ සබැඳියක් නිකුත් කර නැත. මෙම වෙබ් අඩවියට Zinn® වේදිකාවට ළඟා විය හැකි බව පරීක්ෂා කර, පසුව නැවත උත්සාහ කරන්න."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "යාවත්කාලීන කිරීම Zinn® යාවත්කාලීන සේවාවෙන් (%s) බාගත කර ගැනීමට නොහැකි විය. මිනිත්තු කිහිපයකින් නැවත උත්සාහ කරන්න."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "බාගත කළ යාවත්කාලීන කිරීමේ අඛණ්ඩතා පරීක්ෂාව අසමත් වූ අතර එය ස්ථාපනය කර නොමැත."

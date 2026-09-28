@@ -666,10 +666,20 @@ msgstr "Gunakan warna dan ukuran saya sendiri"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Biarkan ini tetap mati dan preset akan digunakan persis seperti apa adanya."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Lihat catatan rilis Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Layanan pembaruan Zinn® tidak menerbitkan tautan unduhan untuk pembaruan ini. Periksa apakah situs ini dapat menjangkau platform Zinn®, lalu coba lagi."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Pembaruan tidak dapat diunduh dari layanan pembaruan Zinn® (%s). Coba lagi dalam beberapa menit."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Pembaruan yang diunduh gagal dalam pemeriksaan integritas dan tidak diinstal."

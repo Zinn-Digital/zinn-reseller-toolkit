@@ -668,10 +668,20 @@ msgstr "გამოიყენეთ ჩემი საკუთარი ფ
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ეს გამორთეთ და წინასწარ დაყენებული პარამეტრი ზუსტად ისე გამოიყენება, როგორც არის."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "იხილეთ Zinn Digital®-ის გამოშვების შენიშვნები."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "განახლების Zinn® სერვისმა ამ განახლებისთვის ჩამოტვირთვის ბმული არ გასცა. შეამოწმეთ, შეუძლია თუ არა ამ საიტს Zinn® პლატფორმასთან დაკავშირება და სცადეთ თავიდან."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "განახლების ჩამოტვირთვა Zinn® განახლების სერვისიდან (%s) ვერ მოხერხდა. სცადეთ რამდენიმე წუთში თავიდან."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."

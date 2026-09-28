@@ -668,10 +668,20 @@ msgstr "Përdor ngjyrat dhe madhësitë e mia të preferuara"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Lëreni këtë të fikur dhe parazgjedhja përdoret saktësisht ashtu siç është."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Shihni shënimet e lëshimit për Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Shërbimi i përditësimit Zinn® nuk lëshoi një lidhje shkarkimi për këtë përditësim. Kontrolloni që kjo faqe të mund të arrijë platformën Zinn®, pastaj provoni përsëri."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Përditësimi nuk mund të shkarkohej nga shërbimi i përditësimeve Zinn® (%s). Provoni përsëri pas pak minutash."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."

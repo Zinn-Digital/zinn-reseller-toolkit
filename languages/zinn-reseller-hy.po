@@ -668,10 +668,20 @@ msgstr "Օգտագործել իմ սեփական գույներն ու չափե�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Անջատեք սա, և նախադրյալը կօգտագործվի այնպես, ինչպես որ կա:"
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Տեսե՛ք Zinn Digital®-ի թողարկման նշումները:"
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® թարմացման ծառայությունը ներբեռնման հղում չի տրամադրել այս թարմացման համար: Ստուգեք, թե արդյոք այս կայքը կարող է միանալ Zinn® հարթակին, այնուհետև նորից փորձեք:"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Թարմացումը հնարավոր չեղավ ներբեռնել Zinn® թարմացման ծառայությունից (%s): Փորձեք մի քանի րոպեից:"
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ներբեռնված թարմացումը չի անցել ամբողջականության ստուգումը և չի տեղադրվել։"

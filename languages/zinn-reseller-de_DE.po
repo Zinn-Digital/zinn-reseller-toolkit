@@ -668,10 +668,20 @@ msgstr "Eigene Farben und Größen verwenden"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Wenn Sie dies deaktiviert lassen, wird die Voreinstellung exakt so verwendet, wie sie ist."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Siehe die Zinn Digital® Versionshinweise."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Der Zinn®-Aktualisierungsdienst hat keinen Download-Link für dieses Update bereitgestellt. Überprüfen Sie, ob diese Website die Zinn®-Plattform erreichen kann, und versuchen Sie es dann erneut."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Das Update konnte nicht vom Zinn® Aktualisierungsdienst (%s) heruntergeladen werden. Versuchen Sie es in wenigen Minuten noch einmal."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Das heruntergeladene Update hat die Integritätsprüfung nicht bestanden und wurde nicht installiert."

@@ -670,10 +670,20 @@ msgstr "Folosește propriile mele culori și dimensiuni"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Lăsați această opțiune dezactivată și presetarea va fi folosită exact așa cum este."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Consultați notele de lansare Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Serviciul de actualizare Zinn® nu a emis un link de descărcare pentru această actualizare. Verificați dacă acest site poate accesa platforma Zinn®, apoi încercați din nou."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Actualizarea nu a putut fi descărcată de la serviciul de actualizare Zinn® (%s). Încercați din nou în câteva minute."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Actualizarea descărcată a eșuat la verificarea integrității și nu a fost instalată."

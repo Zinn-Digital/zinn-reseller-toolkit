@@ -668,10 +668,20 @@ msgstr "Gebruik mijn eigen kleuren en formaten"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Laat dit uitgeschakeld en de preset wordt precies zo gebruikt als hij is."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Bekijk de releaseopmerkingen van Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "De update-service van Zinn® heeft geen downloadlink afgegeven voor deze update. Controleer of deze site het Zinn®-platform kan bereiken en probeer het daarna opnieuw."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "De update kon niet worden gedownload van de Zinn®-updateservice (%s). Probeer het over een paar minuten opnieuw."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "De gedownloade update is niet door de integriteitscontrole gekomen en is niet geïnstalleerd."

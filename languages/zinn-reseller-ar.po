@@ -676,10 +676,20 @@ msgstr "استخدام ألواني وأحجامي الخاصة"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "اترك هذا الخيار معطلاً ليتم استخدام الضبط المسبق كما هو تماماً."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "راجع ملاحظات إصدار Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "لم يصدر خدمة التحديث من Zinn® رابط تنزيل لهذا التحديث. تحقق من أن هذا الموقع يمكنه الوصول إلى منصة Zinn®، ثم حاول مرة أخرى."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "تعذر تنزيل التحديث من خدمة تحديث Zinn® (%s). حاول مرة أخرى خلال بضع دقائق."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "فشل التحقق من سلامة التحديث الذي تم تنزيله ولم يتم تثبيته."

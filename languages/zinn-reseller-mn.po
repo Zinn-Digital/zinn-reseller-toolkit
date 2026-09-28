@@ -668,10 +668,20 @@ msgstr "Миний өөрийн өнгө, хэмжээг ашиглах"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Үүнийг унтраалттай орхивол урьдчилан тохируулсан утга яг байгаагаараа ашиглагдана."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® хувилбарын тэмдэглэлийг үзнэ үү."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® шинэчлэлийн үйлчилгээ энэ шинэчлэлд зориулж татаж авах холбоос гаргаж өгсөнгүй. Энэ сайт Zinn® платформд холбогдож чадаж байгаа эсэхийг шалгаад дахин оролдоно уу."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Шинэчлэлтийг Zinn® шинэчлэлтийн үйлчилгээнээс (%s) татаж авч чадсангүй. Хэдэн минутын дараа дахин оролдоно уу."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Татаж авсан шинэчлэлтийн бүрэн бүтэн байдлын шалгалт амжилтгүй болж, суулгасангүй."

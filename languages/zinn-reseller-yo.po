@@ -666,10 +666,20 @@ msgstr "Lo awon awco ati iwọn temi"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Fi eyi silẹ ki a si lo eto naa gẹgẹ bi o ṣe wa gangan."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Wo awọn akọsilẹ ifilọlẹ Zinn Digital®."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Iṣẹ imudojuiwọn Zinn® ko fun ni ọna asopọ igbasilẹ fun imudojuiwọn yii. Ṣayẹwo pe aaye yii le de ọdọ pẹpẹ Zinn®, lẹhinna tun gbiyanju lẹẹkan si."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Ko ṣe e ṣe lati ṣe igbasilẹ imudojuiwọn na lati iṣẹ imudojuiwọn Zinn® (%s). Gbiyanju lẹẹkan si ni iṣẹju diẹ."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ìgbàlàwé tí a ṣe àgbéjọ rẹ̀ kùnà àyẹ̀wò òtítọ́ rẹ̀, a kò sì fi sílẹ̀."

@@ -135,6 +135,26 @@ final class Zinn_Reseller_Updater {
 			|| str_ends_with( $host, '.zinndigital.com' );
 	}
 
+
+	/**
+	 * The package URL WordPress is allowed to STORE: the channel's download URL with no query.
+	 *
+	 * ⛔⛔ OUR UPDATE CHANNEL MUST WORK WHENEVER THE SITE UPDATES — A WEEK OR SIX MONTHS LATER.
+	 * WordPress copies `package` into `update_plugins` and downloads it when a person clicks
+	 * "Update now" or when auto-update runs, which can be any time later. A private release's
+	 * URL carries a signed, EXPIRING ticket, so a stored one failed "Not Found" (PF-341). So the
+	 * URL WordPress keeps carries nothing that expires, and `verify_download` fetches a FRESH
+	 * signed URL from the channel at the moment of download (docs/33 §4a).
+	 *
+	 * Pure: no I/O.
+	 *
+	 * @param string $package Package URL from the channel.
+	 * @return string
+	 */
+	public static function stable_package( string $package ): string {
+		$cut = strcspn( $package, '?#' );
+		return substr( $package, 0, $cut );
+	}
 	/**
 	 * Shape a decoded update payload into a normalised release descriptor.
 	 *
@@ -191,7 +211,7 @@ final class Zinn_Reseller_Updater {
 			'slug'         => $this->slug,
 			'plugin'       => $this->basename,
 			'new_version'  => $release['version'],
-			'package'      => $release['package'],
+			'package'      => self::stable_package( $release['package'] ),
 			'url'          => '' !== $release['homepage'] ? $release['homepage'] : 'https://zinndigital.com',
 			'tested'       => $release['tested'],
 			'requires'     => $release['requires'],
@@ -225,7 +245,7 @@ final class Zinn_Reseller_Updater {
 			'version'       => $release['version'],
 			'author'        => '<a href="https://zinndigital.com">Neil Lock — CEO, Zinn Digital® Ltd</a>',
 			'homepage'      => '' !== $release['homepage'] ? $release['homepage'] : 'https://zinndigital.com',
-			'download_link' => $release['package'],
+			'download_link' => self::stable_package( $release['package'] ),
 			'tested'        => $release['tested'],
 			'requires'      => $release['requires'],
 			'requires_php'  => $release['requires_php'],
@@ -263,23 +283,45 @@ final class Zinn_Reseller_Updater {
 	public function verify_download( $reply, $package, $upgrader = null, $hook_extra = array() ) {
 		unset( $upgrader );
 
-		$release = $this->get_release();
-		if ( null === $release || '' === $release['package_sha256'] || (string) $package !== $release['package'] ) {
-			return $reply;
-		}
 		if ( is_array( $hook_extra ) && isset( $hook_extra['plugin'] ) && $hook_extra['plugin'] !== $this->basename ) {
 			return $reply;
+		}
+		$cached = $this->get_release();
+		$ours   = ( is_array( $hook_extra ) && isset( $hook_extra['plugin'] ) && $hook_extra['plugin'] === $this->basename )
+			|| ( null !== $cached && self::stable_package( (string) $package ) === self::stable_package( $cached['package'] ) );
+		if ( ! $ours ) {
+			return $reply;
+		}
+
+		// ⛔ Never download the URL WordPress stored: it may be days old, and a private
+		// release's signed link expires. Ask the channel for a fresh one, now.
+		$release = $this->get_release( true );
+		if ( null === $release ) {
+			return new WP_Error(
+				'zinn_reseller_update_checksum',
+				__( 'The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again.', 'zinn-reseller' )
+			);
 		}
 
 		if ( ! function_exists( 'download_url' ) ) {
 			require_once ABSPATH . 'wp-admin/includes/file.php';
 		}
 
-		$file = download_url( (string) $package );
+		$file = download_url( $release['package'] );
 		if ( is_wp_error( $file ) ) {
-			return $file;
+			return new WP_Error(
+				'zinn_reseller_update_checksum',
+				sprintf(
+					/* translators: %s: the download error reported by WordPress. */
+					__( 'The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes.', 'zinn-reseller' ),
+					$file->get_error_message()
+				)
+			);
 		}
 
+		if ( '' === $release['package_sha256'] ) {
+			return $file;
+		}
 		$actual = hash_file( 'sha256', $file );
 		if ( ! is_string( $actual ) || ! hash_equals( strtolower( $release['package_sha256'] ), strtolower( $actual ) ) ) {
 			wp_delete_file( $file );
@@ -320,10 +362,11 @@ final class Zinn_Reseller_Updater {
 	/**
 	 * Fetch (and cache) the latest release descriptor from the control plane.
 	 *
+	 * @param bool $fresh Skip the cache (the download path: its signed package URL must be new).
 	 * @return array{version:string,package:string,package_sha256:string,tested:string,requires:string,requires_php:string,changelog:string,homepage:string}|null
 	 */
-	private function get_release(): ?array {
-		$cached = get_transient( self::CACHE_KEY );
+	private function get_release( bool $fresh = false ): ?array {
+		$cached = $fresh ? false : get_transient( self::CACHE_KEY );
 		if ( is_array( $cached ) ) {
 			return $this->accept( self::parse_response( $cached ) );
 		}

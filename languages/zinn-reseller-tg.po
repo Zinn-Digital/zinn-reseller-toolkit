@@ -666,10 +666,20 @@ msgstr "Истифодаи рангҳо ва андозаҳои шахсии м�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Онро хомӯш гузоред ва пешфарз тавре ки ҳаст истифода мешавад."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Эълонҳои нашри Zinn Digital®-ро бинед."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Хизматрасонии навсозии Zinn® истиноди зеркаширо барои ин навсозӣ пешниҳод накард. Санҷед, ки оё ин сайт ба платформаи Zinn® дастрас шуда метавонад, ва сипас дубора кӯшиш кунед."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Навсозӣ аз хидмати навсозии Zinn® зеркашӣ карда нашуд (%s). Пас аз чанд дақиқа дубора кӯшиш кунед."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Азнавкарии зеркашишуда аз санҷиши бехатарӣ гузашта натавонист ва насб карда нашуд."

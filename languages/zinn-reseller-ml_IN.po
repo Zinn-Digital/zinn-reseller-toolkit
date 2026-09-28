@@ -668,10 +668,20 @@ msgstr "എന്റെ സ്വന്തം നിറങ്ങളും വല
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ഇത് ഓഫ് ചെയ്‌താൽ പ്രീസെറ്റ് ഉള്ളതുപോലെ തന്നെ ഉപയോഗിക്കപ്പെടും."
 
-#: includes/class-zinn-reseller-updater.php:233
+#: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® റിലീസ് കുറിപ്പുകൾ കാണുക."
 
-#: includes/class-zinn-reseller-updater.php:288
+#: includes/class-zinn-reseller-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® അപ്‌ഡേറ്റ് സേവനം ഈ അപ്‌ഡേറ്റിനായി ഡൗൺലോഡ് ലിങ്ക് നൽകിയിട്ടില്ല. ഈ സൈറ്റിന് Zinn® പ്ലാറ്റ്‌ഫോമിൽ എത്തിച്ചേരാനാകുമെന്ന് ഉറപ്പുവരുത്തിയ ശേഷം വീണ്ടും ശ്രമിക്കുക."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-reseller-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "അപ്‌ഡേറ്റ് Zinn® അപ്‌ഡേറ്റ് സേവനത്തിൽ നിന്ന് ഡൗൺലോഡ് ചെയ്യാനായില്ല (%s). കുറച്ച് മിനിറ്റുകൾക്ക് ശേഷം വീണ്ടും ശ്രമിക്കുക."
+
+#: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ഡൗൺലോഡ് ചെയ്ത അപ്‌ഡേറ്റിന്റെ സമഗ്രതാ പരിശോധന പരാജയപ്പെട്ടു, അതിനാൽ അത് ഇൻസ്റ്റാൾ ചെയ്തില്ല."
