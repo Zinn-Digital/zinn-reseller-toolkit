@@ -36,6 +36,8 @@ class Panel_Link {
 	 */
 	public static function register(): void {
 		add_shortcode( 'zinn_panel_link', array( __CLASS__, 'render' ) );
+		// The link visitors see names `zd_rt_panel` (PF-442); the old action still answers links made before.
+		add_action( 'admin_post_zd_rt_panel', array( __CLASS__, 'redirect' ) );
 		add_action( 'admin_post_zinn_reseller_panel', array( __CLASS__, 'redirect' ) );
 	}
 
@@ -65,11 +67,11 @@ class Panel_Link {
 			'zinn_panel_link'
 		);
 		$url  = wp_nonce_url(
-			admin_url( 'admin-post.php?action=zinn_reseller_panel' ),
+			admin_url( 'admin-post.php?action=zd_rt_panel' ),
 			'zinn_reseller_panel'
 		);
 		return sprintf(
-			'<a class="zinn-panel-link" href="%1$s" rel="nofollow noopener">%2$s</a>',
+			'<a class="zd-rt-panel-link" href="%1$s" rel="nofollow noopener">%2$s</a>',
 			esc_url( $url ),
 			esc_html( (string) $atts['label'] )
 		);

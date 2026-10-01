@@ -248,7 +248,7 @@ class Settings {
 	private static function style_component(): array {
 		return array(
 			'id'       => 'domain-search',
-			'selector' => '.zinn-domain-search, .zinn-domain-results',
+			'selector' => '.zd-rt-domain-search, .zd-rt-domain-results',
 			'presets'  => array(
 				'theme'    => array(
 					'label'  => __( 'Follow my theme', 'zinn-reseller' ),

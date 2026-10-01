@@ -65,7 +65,7 @@ final class Zinn_Reseller_Style_Presets {
 		}
 		self::$components[ $id ] = array_merge(
 			array(
-				'selector' => '.zinn-' . $id,
+				'selector' => '.zd-rt-' . $id,
 				'presets'  => array(),
 				'tokens'   => array(),
 			),
@@ -255,7 +255,7 @@ final class Zinn_Reseller_Style_Presets {
 				if ( '' === $name || '' === $safe ) {
 					continue;
 				}
-				$declarations[] = '--zinn-' . $slug . '-' . $name . ':' . $safe;
+				$declarations[] = '--zd-rt-' . $slug . '-' . $name . ':' . $safe;
 			}
 			if ( array() === $declarations ) {
 				continue;
@@ -271,7 +271,7 @@ final class Zinn_Reseller_Style_Presets {
 			return;
 		}
 
-		$handle = 'zinn-zinn-reseller-tokens';
+		$handle = 'zd-rt-tokens';
 
 		// ⭐ A handle with no source: WordPress's own idiom for one that exists so inline
 		// code can hang off it, so the plugin still ships no stylesheet file and still makes
