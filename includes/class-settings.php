@@ -31,6 +31,8 @@ class Settings {
 		'enable_panel_link'    => false,
 		'enable_woocommerce'   => false,
 		'plan_code'            => '',
+		// AI agents (MCP): on by default for administrators (owner Q2, 2026-09-30).
+		'mcp'                  => true,
 	);
 
 	/**
@@ -133,8 +135,34 @@ class Settings {
 						'title'  => __( 'Styling', 'zinn-reseller' ),
 						'fields' => array( __CLASS__, 'styling_fields' ),
 					),
+					'agents'   => array(
+						'title'  => __( 'AI agents (MCP)', 'zinn-reseller' ),
+						'fields' => array( __CLASS__, 'agent_fields' ),
+					),
 				),
 			)
+		);
+	}
+
+	/**
+	 * The AI agents (MCP) switch, then the connection details (docs/901).
+	 *
+	 * @return array<int, array<string, mixed>>
+	 */
+	public static function agent_fields(): array {
+		return array(
+			array(
+				'key'            => 'mcp',
+				'type'           => 'toggle',
+				'label'          => __( 'AI agents (MCP)', 'zinn-reseller' ),
+				'checkbox_label' => __( 'Allow AI agents (MCP)', 'zinn-reseller' ),
+				'description'    => __( 'Off: the tools below and their REST routes are not registered at all.', 'zinn-reseller' ),
+				'default'        => true,
+			),
+			array(
+				'type' => 'html',
+				'html' => Mcp\Abilities::panel_html(),
+			),
 		);
 	}
 
@@ -466,6 +494,7 @@ class Settings {
 			'enable_domain_search' => ! empty( $input['enable_domain_search'] ),
 			'enable_panel_link'    => ! empty( $input['enable_panel_link'] ),
 			'enable_woocommerce'   => ! empty( $input['enable_woocommerce'] ),
+			'mcp'                  => array_key_exists( 'mcp', $input ) ? ! empty( $input['mcp'] ) : true,
 		);
 
 		// ⛔⛔ **THE STYLING KEYS MUST SURVIVE THIS FUNCTION.** It is `register_setting`'s

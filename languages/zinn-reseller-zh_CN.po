@@ -40,275 +40,292 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "托管平台返回的状态码为 %d。"
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "查找您的域名"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "搜索"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "未对该名称检查任何扩展程序。"
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "目前此网站无法进行域名搜索。"
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "我们暂时无法连接到域名注册局。请稍后再试。"
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "API 密钥缺失或已失效。请在 Zinn Digital® → Reseller Toolkit 中进行检查。"
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "此 API 密钥不具备域搜索所需的 sites.view 权限。请在您的分销商面板中将其添加到密钥中，或者在此处清除密钥以退回使用公共搜索。"
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "仅限管理员可见："
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "我们无法检查此项 — 请重试"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "已注册"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "可售——请向我们咨询价格"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "可用 — 首年 %1$s %2$s"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "注册"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "管理我的托管服务"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "请先登录。"
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "此账户尚未绑定托管服务。"
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "托管平台未返回登录链接。"
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "分销商工具包"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "账户"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "功能"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "样式"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "AI 代理 (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "允许 AI 代理 (MCP)"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "关闭：以下工具及其 REST 路由完全未注册。"
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "您的 Zinn Digital® 分销商账户"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "请在您的 Zinn® 控制面板中的“开发者 → API 密钥”下创建一个分销商 API 密钥，然后将其粘贴到此处。"
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "分销商 API 密钥"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "仅保存在本网站上，绝不包含在导出或诊断报告中。"
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "待配置套餐"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "新客户适用的套餐代码。留空则每次都进行询问。"
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "API 地址"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "除非 Zinn® 支持团队要求您进行更改，否则请勿修改此项。"
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "控制面板地址"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "“我的托管”链接将您的客户发送到的位置。"
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "域名搜索"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "提供 [zinn_domain_search] 简码"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "将简码放在任意页面上，即可让访客检查域名并通过您进行购买。"
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "面板链接"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "向已登录的客户显示“我的托管”链接"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "WooCommerce 配置"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "当 WooCommerce 订单完成时自动配置托管服务"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "仅对包含您已映射到 Zinn® 套餐的产品的订单生效。"
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "域搜索外观"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "此小组件在您自己的主题内部呈现。请选择一个预设，或者设置您自己的颜色——无论哪种方式，您的页面都不会添加任何访问者能看出属于我们的内容。"
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "插件的说明文件中列出了小部件使用的每个类，以便开发人员可以覆盖预设未涵盖的任何内容。"
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "使用我的主题"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "软件"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "高对比度"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "精简"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "购买链接颜色"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "“可用”颜色"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "“无法检查”颜色"
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "错误颜色"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "圆角"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "每行内部间距"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "文字大小"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "域名权重"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "尚未提供分销商 API 密钥。"
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "域名搜索无需密钥即可直接使用，并按公开价格计费。面板链接和 WooCommerce 开通需要一个密钥：请在您的 Zinn® 控制面板中的“开发者 → API 密钥”下创建一个。"
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "打开我的 Zinn® 仪表板"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "已设置密钥，但未启用任何功能。"
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "这三个功能均未启用，因此该插件在您的网站上没有任何作用。请在“功能”下开启您需要的内容。"
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "开启功能"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "准备就绪 — 已启用 %d 项功能。"
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "销售自"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "设置"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "尚未配置 API 密钥，因此未连接任何内容。"
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "未连接：%s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "已连接。您的分销商计划为 %s。"
@@ -683,3 +700,161 @@ msgstr "无法从 Zinn® 更新服务 (%s) 下载更新。请几分钟后重试�
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "已下载的更新未能通过完整性检查，因此未进行安装。"
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "无法完成该操作。请重试，如果仍未成功，请联系网站管理员。"
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "缺少必填值或格式错误。请检查该功能的数据输入模式。"
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "网站拒绝了该请求。"
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "让诸如 Claude、Cursor 或 VS Code 等 AI 助手通过 MCP（模型上下文协议）为您在此网站上工作。它们将使用应用程序密码以 WordPress 用户身份登录，并且只能执行该用户被允许执行的操作。"
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "AI 代理需要 WordPress 6.9 或更高版本。请更新 WordPress 以使用它们。"
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "连接地址 (MCP 端点)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "为您的用户创建应用程序密码"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "将其添加到您的 AI 应用的 MCP 设置中，并填入您的用户名和该密码："
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code：请在 .vscode/mcp.json 中的 \"servers\" 下添加相同的条目，而不是在 \"mcpServers\" 下。"
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "此处AI代理可使用的工具 (%d)："
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "用户指南：AI 智能体与 MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "开发者文档：功能、REST 与 MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "在此网站上管理您在 Zinn Digital® 上的托管客户、他们的套餐及其网站。"
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "通过您的 Zinn Digital® 分销商账户，管理您的客户、他们的套餐及其网站。"
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "阅读您的分销商账户"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "一次性获取您的代理商账户概览：品牌、套餐、客户数、服务数以及当前配置。"
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "列出您的客户"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "列出您的客户账户，每次显示一页（cursor，limit）。"
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "创建客户"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "在您的账户下创建一个客户账户（名称；default_currency，三位字母代码）。在他们的第一个网站之前为他们选择一个套餐。"
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "查看客户的方案"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "返回客户当前的套餐及为您产生的费用 (client_id)。"
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "为客户分配方案"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "将客户加入您的其中一个方案（client_id, plan_code; interval: month 或 year）。请在他们的第一个站点之前执行此操作。"
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "列出您可以销售的套餐"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "列出托管方案及其价格（可通过 product_line 和 currency 进行筛选）。"
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "列出您的客户网站"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "逐页列出您为客户配置的所有内容（可通过 client_id 和 status 进行筛选）。"
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "为客户创建站点"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "为您的某个客户（client_id, product_line, primary_domain）创建一个托管站点。该站点将按照客户的套餐计费并记在您的账户下，就像由您的店铺创建的一样。"
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "暂停客户网站"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "将客户端网站置于欠费暂停状态 (site_id；原因：您自己的备注，绝不会向客户端展示)。该网站将停止服务，直至解除暂停。"
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "解除客户网站暂停状态"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "解除未付款锁定，使网站恢复访问 (site_id)。"
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "读取分销商工具包设置"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "返回此插件的设置（API 地址、新订单使用的套餐、已启用的功能）。绝不返回 API 密钥，仅返回是否已保存密钥。"
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "更改分销商工具包设置"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "更改您发送的设置 (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) 并保留其余设置。API 密钥和地址仅在屏幕上更改。"
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "请先在“代理商工具包”屏幕上添加您的 Zinn Digital® 代理商 API 密钥。"

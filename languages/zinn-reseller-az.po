@@ -40,276 +40,293 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "Hostinq platforması %d statusu ilə cavab verdi."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "Domen adınızı tapın"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "Axtarış"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "Bu ad üçün heç bir uzantı yoxlanılmadı."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "Hazırda bu saytda domen axtarışı mümkünsüzdür."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "Biz hazırda domen reyestrinə qoşula bilmədik. Zəhmət olmasa bir az sonra yenidən cəhd edin."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "API açısı çatışmır və ya artıq etibarlı deyil. Onu Zinn Digital® → Reseller Toolkit bölməsində yoxlayın."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "Bu API açarı domen axtarışının tələb etdiyi sites.view icazəsinə malik deyil. Onu diler panelinizdə açara əlavə edin və ya ictimai axtarışa qayıtmaq üçün açarı burada təmizləyin."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "Yalnız administratorlar bunu görür:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "Bunu yoxlaya bilmədik — yenidən cəhd edin"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "Artıq qeydiyyatdan keçib"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "Mövcuddur — qiymət üçün bizə müraciət edin"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "İlk il üçün %1$s %2$s mövcuddur"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "Qeydiyyatdan keçir"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "Hostinqimi idarə et"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "Zəhmət olmasa əvvəlcə daxil olun."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "Bu hesabı hələ heç bir hostinq xidmətinə qoşulmayıb."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Hostinq platforması daxil olma keçidi qaytarmadı."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "Reseller Alətlər Dəsti"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "Hesab"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "Funksiyalar"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "Dizayn"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "Süni intellekt agentləri (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "AI agentlərinə (MCP) icazə verin"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "Söndürülüb: aşağıdakı alətlər və onların REST marşrutları ümumiyyətlə qeydiyyatdan keçməyib."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "Sizin Zinn Digital® reseller hesabınız"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "Developer → API keys bölməsindən Zinn® idarə panelinizdə diler API açarı yaradın və onu burada yapışdırın."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "Reseller API açarı"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "Yalnız bu saytda saxlanılır və heç vaxt ixracata və ya diaqnostika hesabatına daxil edilmir."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "Təmin ediləcək plan"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "Yeni müştərilərin təyin olunduğu plan kodu. Hەر dəfə soruşulması üçün boş saxlayın."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "API ünvanı"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "Zinn® dəstəyi sizdən bunu dəyişməyinizi xahiş etməyibsə, bunu olduğu kimi saxlayın."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "İdarəetmə panelinin ünvanı"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "“Mənim hostinqim” keçidinin müştərilərinizi yönləndirdiyi yer."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "Domen axtarışı"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "[zinn_domain_search] şortkodunu təmin edin"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "Ziyarətçilərin domenin mövcudluğunu yoxlaması və onu sizin vasitənizlə alması üçün qısa kodu istənilən səhifəyə yerləşdirin."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "Panel keçidi"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "Daxil olmuş müştərilərə “Mənim hostinqim” keçidini göstər"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "WooCommerce provisioning"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "WooCommerce sifarişi tamamlandıqda hostinqi avtomatik olaraq təmin edin"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "Yalnız Zinn® planına xəritələdiyiniz məhsulu ehtiva edən sifarişlərə tətbiq olunur."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "Domen axtarışının görünüşü"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "Bu vidjet sizin öz temanızın daxilində işləyir. Hazır şablon seçin və ya öz rənglərinizi təyin edin – hər iki halda səhifələrinizə ziyarətçinin bizimki kimi görə biləcəyi heç nə əlavə olunmur."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "Vidcetin istifadə etdiyi hər bir klass pleylinin readme faylında qeyd olunub ki, tərtibatçı ilkin quraşdırmanın əhatə etmədiyi hər şeyi dəyişə bilsin."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "Mövzumu izlə"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "Yumşaq"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "Yüksək kontrast"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "Kompakt"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "Alış keçidi rəngi"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "“Mövcud” rəngi"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "“Yoxlamaq mümkün olmadı” rəngi"
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "Xəta rəngi"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "Künc yuvarlaqlaşdırması"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "Hər sətirdə boşluq"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "Mətn ölçüsü"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "Domen adının çəkisi"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "Hələ diler API açarı yoxdur."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "Domen axtarışı artıq ictimai qiymətlərlə, onsuz da işləyir. Panel keçidi və WooCommerce təminatı açar tələb edir: Zinn® idarə panelinizdə Developer → API keys bölməsindən birini yaradın."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "Zinn® idarə panelimi aç"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "Açar quraşdırılıb, lakin heç nə qoşulmayıb."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "Üç funksiyadan heç biri aktiv deyil, ona görə də bu qoşma saytınızda heç nə etmir. Xüsusiyyətlər bölməsindən lazımlı olanları aktivləşdirin."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "Funksiyaları aç"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "Hazırdır — %d funksiya aktivləşdirilib."
 msgstr[1] "Hazırdır — %d funksiya aktivləşdirilib."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "Satıcı:"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "Parametrlər"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "Hələ ki API açarı yoxdur, ona görə də heç nə qoşulmayıb."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "Bağlı deyil: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "Qoşuldu. Reseller proqramınız %s-dir."
@@ -685,3 +702,161 @@ msgstr "Yeniləmə Zinn® yeniləmə xidmətindən (%s) endirilə bilmədi. Bir 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Yüklənmiş yeniləmə bütövlük yoxlamasından keçmədi və quraşdırılmadı."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "Əməliyyat yerinə yetirilmədi. Yenidən cəhd edin və xəta təkrarlanarsa, sayt administratoru ilə əlaqə saxlayın."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "Tələb olunan dəyər çatışmır və ya səhv formatdadır. Bacarığın daxiletmə sxemini yoxlayın."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "Sayt sorğunu rədd etdi."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "Claude, Cursor və ya VS Code kimi AI köməkçilərinin MCP (Model Context Protocol) vasitəsilə bu sayt üzərində işləməsinə icazə verin. Onlar tətbiq parolu ilə WordPress istifadəçisi kimi daxil olur və yalnız həmin istifadəçiyə icazə verilən əməliyyatları yerinə yetirə bilirlər."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "AI agentləri WordPress 6.9 və ya daha sonrakı versiyasını tələb edir. Onlardan istifadə etmək üçün WordPress-i yeniləyin."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "Bağlantı ünvanı (MCP son nöqtəsi)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "İstifadəçiniz üçün tətbiq parolu yaradın"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Bunu süni intellekt tətbiqinizin MCP parametrlərinə istifadəçi adınız və həmin şifrə ilə əlavə edin:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: \"mcpServers\" altında deyil, .vscode/mcp.json faylında \"servers\" altında eyni girişi yerləşdirin."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "Sunяi agentinin burada istifadə edə biləcəyi alətlər (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "İstifadəçi bələdçisi: Süni intellekt agentləri və MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "Tərtibatçı sənədləri: imkanlar, REST və MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "Bu saytdan Zinn Digital® üzərindən hostinq müştərilərinizi, onların planlarını və saytlarını idarə edin."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "Zinn Digital® reseller hesabınız vasitəsilə müştəriləriniz, onların planları və saytları."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "Rezeller hesabınızı oxuyun"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "Reseller hesabınızı bir oxunuşda qaytarır: brend, planlar, müştərilər və xidmətlər sayı və nəyin quraşdırıldığı."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "Müştərilərinizin siyahısını göstərin"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "Müştəri hesablarınızı səhifə-səhifə sadalayır (kursor, limit)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "Müştəri yarat"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "Sizin hesabınız altında müştəri hesabı yaradır (adı; default_currency, üç hərfli kod). Onların ilk saytından əvvəl onları bir plana daxil edin."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "Müştərinin planını oxu"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "Müştərinin hansı planda olduğunu və bunun sizə nəyə başa gəldiyini qaytarır (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "Müştərini plana daxil edin"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "Müştərini planlarınızdan birinə daxil edir (client_id, plan_code; interval: ay və ya il). Bunu onların ilk saytından əvvəl edin."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "Sata biləcəyiniz planları sadalayın"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "Hostinq planlarını və onların qiymətlərini sadalayır (product_line və currency onları daraldır)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "Müştərilərinizin saytlarını siyahıya alın"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "Müştəriləriniz üçün təmin etdiyiniz hər şeyi (client_id və status ilə daraldılır), hər dəfə bir səhifə olmaqla sadalayır."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "Müştəri üçün sayt yaradın"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "Müştərilərinizdən biri üçün hostinq edilən sayt yaradır (client_id, product_line, primary_domain). Mağazanızdan olduğu kimi, müştərinin planı üzrə hesabınıza ödəniş yazılır."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "Müştərinin saytını dayandırın"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "Müştərinin saytını ödəniş edilmədiyi üçün dayandırılma rejiminə qoyur (site_id; səbəb: müştəriyə heç vaxt göstərilməyən şəxsi qeydiniz). Sayt bərpa olunana qədər işləməyi dayandırır."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "Müştərinin saytının blokunu açın"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "Ödənişin edilməməsi səbəbindən qoyulan məhdudiyyəti aradan qaldırır və saytın işləməsini bərpa edir (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "Reseller Toolkit ayarlarını oxuyun"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "Bu plaqinin parametrlərini qaytarır (API ünvanı, yeni sifarişlərin istifadə etdiyi plan, hansı funksiyaların aktiv olduğu). API açarı heç vaxt qaytarılmır, yalnız onun yadda saxlanılıb-saxlanılmadığı göstərilir."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "Reseller Toolkit ayarlarını dəyişdirin"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "Göndərdiyiniz parametrləri (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) dəyişir və qalanlarını saxlayır. API açarı və ünvan yalnız ekranda dəyişdirilir."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "Əvvəlcə Reseller Toolkit ekranında Zinn Digital® reseller API açarınızı əlavə edin."

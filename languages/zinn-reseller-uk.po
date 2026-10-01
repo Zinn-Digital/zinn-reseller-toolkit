@@ -40,252 +40,269 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "Платформа хостингу відповіла зі статусом %d."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "Знайдіть своє доменне ім'я"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "Пошук"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "Для цього імені не було перевірено жодного розширення."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "Пошук доменів на цьому сайті наразі недоступний."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "Не вдалося зв'язатися з реєстратором домену. Будь ласка, спробуйте ще раз за хвилину."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "Ключ API відсутній або більше не дійсний. Перевірте його в розділі Zinn Digital® → Reseller Toolkit."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "Цей ключ API не має дозволу sites.view, необхідного для пошуку доменів. Додайте його до ключа у своїй панелі реселлера або видаліть ключ тут, щоб повернутися до публічного пошуку."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "Лише адміністратори бачать це:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "Не вдалося перевірити це — спробуйте ще раз"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "Вже зареєстровані"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "Доступно — запитайте у нас ціну"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "Доступно — %1$s %2$s на перший рік"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "Зареєструвати його"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "Керувати моїм хостингом"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "Будь ласка, спочатку увійдіть."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "Цей обліковий запис ще не прив’язано до послуги хостингу."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Платформа хостингу не повернула посилання для входу."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "Набір інструментів реселлера"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "Обліковий запис"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "Функції"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "Стилізація"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "AI-агенти (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "Дозволити агентам штучного інтелекту (MCP)"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "Вимкнено: інструменти нижче та їхні REST-маршрути взагалі не зареєстровані."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "Ваш обліковий запис посередника Zinn Digital®"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "Створіть ключ API реселлера в панелі керування Zinn® у розділі Розробник → Ключі API та вставте його сюди."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "Ключ API посередника"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "Зберігається лише на цьому сайті та ніколи не включається до експорту чи звіту про діагностику."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "План для підключення"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "Код тарифного плану, на який переводяться нові клієнти. Залиште порожнім, щоб запитувати щоразу."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "Адреса API"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "Залиште це без змін, якщо служба підтримки Zinn® не попросила вас змінити це."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "Адреса панелі керування"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "Куди веде посилання «Мій хостинг» для ваших клієнтів."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "Пошук домену"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "Введіть шорткод [zinn_domain_search]"
 
 #. zinn-i18n: human translation — the machine translator refused this string
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "Розмістіть шорткод на будь-якій сторінці, щоб відвідувачі могли перевірити домен і купити його через вас."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "Посилання на панель"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "Показувати посилання «Мій хостинг» для ввійшлих клієнтів"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "Підготовка WooCommerce"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "Автоматичне надання хостингу після завершення замовлення WooCommerce"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "Діє лише для замовлень, що містять продукт, який ви зіставили з планом Zinn®."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "Вигляд пошуку доменів"
 
 #. zinn-i18n: human translation — the machine translator refused this string
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "Цей віджет відображається всередині вашої власної теми. Виберіть готовий стиль або задайте власні кольори — у будь-якому разі на ваші сторінки не додається нічого, за чим відвідувач міг би впізнати нас."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "Кожен клас, який використовує віджет, вказано в файлі readme плагіна, тож розробник може перевизначити все, чого не охоплює пресет."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "Дотримуватися моєї теми"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "М'який"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "Високий контраст"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "Компактний"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "Колір посилання для купівлі"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "Колір «Доступно»"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "Колір «Не вдалося перевірити»"
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "Колір помилки"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "Заокруглення кутів"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "Простір всередині кожного рядка"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "Розмір тексту"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "Вага доменного імені"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "У вас ще немає ключа API реселлера."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "Пошук доменів уже працює без нього за публічними цінами. Посилання на панель і надання ресурсів WooCommerce потребують ключа: створіть його у своїй панелі керування Zinn® у розділі «Розробник» → «Ключі API»."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "Відкрити мою панель керування Zinn®"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "Ключ встановлено, але нічого не ввімкнено."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "Жодна з трьох функцій не ввімкнена, тому цей плагін нічого не робить на вашому сайті. Увімкніть те, що вам потрібно, у розділі «Функції»."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "Відкрити функції"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
@@ -293,26 +310,26 @@ msgstr[0] "Готово — увімкнено %d функцію."
 msgstr[1] "Готово: увімкнено функцій — %d."
 msgstr[2] "Готово: увімкнено функцій — %d."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "Продаж з"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "Налаштування"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "Ще немає ключа API, тому нічого не підключено."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "Не підключено: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "Підключено. Ваша партнерська програма — %s."
@@ -689,3 +706,161 @@ msgstr "Не вдалося завантажити оновлення зі сл�
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Завантажене оновлення не пройшло перевірку цілісності та не було встановлене."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "Не вдалося виконати цю дію. Спробуйте ще раз, а якщо помилка повторюватиметься, зверніться до адміністратора сайту."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "Обов'язкове значення відсутнє або має неправильний формат. Перевірте вхідну схему можливості."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "Сайт відхилив запит."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "Дозвольте ШІ-асистентам, таким як Claude, Cursor або VS Code, працювати над цим сайтом за допомогою MCP (Model Context Protocol). Вони входитимуть як користувач WordPress із паролем застосунку та зможуть виконувати лише те, що дозволено цьому користувачеві."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "Для роботи агентів зі штучним інтелектом потрібен WordPress 6.9 або новішої версії. Оновіть WordPress, щоб використовувати їх."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "Адреса підключення (кінцева точка MCP)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "Створіть пароль додатка для свого користувача"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Додайте це до налаштувань MCP вашого AI-додатка, вказавши своє ім'я користувача та цей пароль:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: помістіть той самий запис у розділі \"servers\" у файлі .vscode/mcp.json, а не в \"mcpServers\"."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "Інструменти, які може використовувати штучний інтелект тут (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "Посібник користувача: агенти штучного інтелекту та MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "Документація розробника: можливості, REST та MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "Керуйте своїми клієнтами хостингу, їхніми планами та сайтами на Zinn Digital® із цього сайту."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "Ваші клієнти, їхні плани та сайти — через ваш реселлерський акаунт Zinn Digital®."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "Прочитайте свій реселерський акаунт"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "Повертає ваш обліковий запис реселлера за один запит: кількість бренду, тарифних планів, клієнтів і послуг, а також налаштування."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "Перелік ваших клієнтів"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "Відображає списком ваші облікові записи клієнтів, по одній сторінці за раз (курсор, ліміт)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "Створити клієнта"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "Створює клієнтський обліковий запис під вашим (name; default_currency, трилітерний код). Призначте їм тарифний план перед створенням їхнього першого сайту."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "Переглянути план клієнта"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "Повертає інформацію про поточний тарифний план клієнта та його вартість для вас (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "Додати клієнта до тарифного плану"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "Додає клієнта до одного з ваших тарифних планів (client_id, plan_code; interval: month або year). Зробіть це перед створення їхнього першого сайту."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "Опишіть плани, які ви можете продавати"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "Відображає списки хостингових тарифів та їхні ціни (product_line і currency звужують пошук)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "Список сайтів ваших клієнтів"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "Відображає все, що ви надали для своїх клієнтів (client_id та status звужують пошук), по одній сторінці за раз."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "Створити сайт для клієнта"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "Створює хостинговий сайт для одного з ваших клієнтів (client_id, product_line, primary_domain). Послуга тарифікується на ваш акаунт за тарифним планом клієнта, як у вашому магазині."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "Заблокувати сайт клієнта"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "Переводить сайт клієнта в режим блокування через несплату (site_id: ваша власна нотатка, яка ніколи не показується клієнту). Сайт припиняє працювати, доки його знову не розблокують."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "Відновити роботу сайту клієнта"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "Знімає блокування через несплату, щоб сайт знову працював (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "Прочитайте налаштування набору інструментів реселлера"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "Повертає налаштування цього плагіна (адреса API, тарифний план для нових замовлень, увімкнені функції). Ключ API ніколи не повертається, лише інформація про те, чи збережено його."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "Змінити налаштування Реселерського набору інструментів"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "Змінює налаштування, які ви надсилаєте (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), і зберігає решту. API-ключ та адреса змінюються лише на екрані."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "Спочатку додайте ваш ключ API реселлера Zinn Digital® на екрані «Інструменти реселлера»."

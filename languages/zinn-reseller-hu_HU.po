@@ -40,276 +40,293 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "A tárhelyplatform a(z) %d státusszal válaszolt."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "Keresse meg a domainnevét"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "Keresés"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "Ehhez a névhez nem lett bejelölve bővítmény."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "A domainkeresés jelenleg nem érhető el ezen a webhelyen."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "Jelenleg nem tudtuk elérni a doménregisztert. Kérjük, próbálja meg újra egy pillanat múlva."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "Az API-kulcurs hiányzik vagy már nem érvényes. Ellenőrizze itt: Zinn Digital® → Reseller Toolkit."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "Ez az API-kulcs nem rendelkezik a sites.view jogosultsággal, amelyre a tartománykeresésnek szüksége van. Adja hozzá a kulcshoz a viszonteladói panelen, vagy törölje a kulcsot itt, hogy a nyilvános keresésre térjen vissza."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "Csak az adminisztrátorok látják ezt:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "Ezt nem sikerült ellenőrizni – próbálja újra"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "Már regisztrált"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "Elérhető – kérjen tőlünk árat"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "Elérhető – %1$s %2$s az első évben"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "Regisztráció"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "Tárhelyem kezelése"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "Kérjük, először jelentkezzen be."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "Ez a fiók még nincs összekapcsolva tárhelyszolgáltatással."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "A tárhelyplatform nem küldött bejelentkezési hivatkozást."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "Viszonteladói Eszközkészlet"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "Fiók"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "Funkciók"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "Stílus"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "MI-ügynökök (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "AI-ügynökök engedélyezése (MCP)"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "Kikapcsolva: az alábbi eszközök és a hozzájuk tartozó REST-útvonalak egyáltalán nincsenek regisztrálva."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "Az Ön Zinn Digital® viszonteladói fiókja"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "Hozzon létre egy viszonteladói API-kulcsot a Zinn® vezérlőpultján a Fejlesztő → API-kulcsok menüpontban, majd illessze be ide."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "Viszonteladói API-kulcs"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "Csak ezen az oldalon szerepel, és soha nem kerül bele exportálásba vagy diagnosztikai jelentésbe."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "Kiépítendő csomag"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "Az az előfizetési kód, amelyre az új ügyfelek kerülnek. Hagyja üresen, ha azt szeretné, hogy a rendszer minden alkalommal rákérdezzen."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "API-cím"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "Ne módosítsa ezt, hacsak a Zinn® támogatás nem kérte erre."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "Vezérlőpult címe"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "Hová mutasson a „Saját tárhely” hivatkozás az ügyfelek számára."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "Domainkeresés"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "Addja meg a [zinn_domain_search] rövid kódot"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "Helyezze el a rövid kódot bármelyik oldalon, hogy a látogatók ellenőrizhessék a domaint, és Önön keresztül megvásárolhassák azt."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "Panel hivatkozás"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "„Saját tárhelyem” hivatkozás megjelenítése a bejelentkezett ügyfeleknek"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "WooCommerce-kiépítés"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "Tárhely automatikus kiépítése a WooCommerce megrendelés teljesítésekor"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "Csak a Zinn®-csomaghoz rendelt terméket tartalmazó megrendelésekre érvényes."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "Domainkeresési megjelenés"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "Ez a widget a saját témáján belül jelenik meg. Válasszon ki egy előbeállítást, vagy állítsa be a saját színeit – így vagy úgy, az oldalaira semmi olyan nem kerül fel, amit a látogató a miénkként láthatna."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "A plugin readme-je felsorolja a widget által használt összes osztályt, így a fejlesztő felülbírálhatja mindazt, amit egy előre beállított érték nem fed le."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "Kövesse a témámat"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "Puha"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "Nagy kontraszt"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "Tömörítés"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "Vásárlási hivatkozás színe"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "“Elérhető” szín"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "„Nem sikerült ellenőrizni” szín"
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "Hiba színe"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "Saroklekerekítés"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "Helyköz minden sorban"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "Szövegméret"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "Domainnév súlya"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "Még nincs viszonteladói API-kulcs."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "A domain-kereső egy kulcs nélkül is működik, a nyilvános árakon. A vezérlőpult hivatkozásához és a WooCommerce kiépítéséhez szükség van egy kulcsra: hozzon létre egyet a Zinn® vezérlőpultján a Fejlesztő → API-kulcsok menüpont alatt."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "Nyissa meg a Zinn® vezérlőpultomat"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "Egy kulcs be van állítva, de semmi nincs bekapcsolva."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "Egyik funkció sincs engedélyezve, így ez a bővítmény semmit sem csinál az Ön webhelyén. A Funkciók menüpont alatt kapcsolja be a kívánt lehetőségeket."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "Funkciók megnyitása"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "Kész – %d funkció bekapcsolva."
 msgstr[1] "Kész — %d funkció bekapcsolva."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "Értékesítési hely:"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "Beállítások"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "Még nincs API-kulcs, így semmi sincs csatlakoztatva."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "Nincs csatlakoztatva: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "Csatlakozva. A viszonteladói programod: %s."
@@ -685,3 +702,161 @@ msgstr "A frissítést nem sikerült letölteni a Zinn® frissítési szolgálta
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "A letöltött frissítés integritási ellenőrzése sikertelen volt, így nem lett a rendszerre telepítve."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "A műveletet nem sikerült befejezni. Próbálja meg újra, és ha a hiba továbbra is fennáll, forduljon a webhely adminisztrátorához."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "Egy kötelező érték hiányzik vagy hibás formátumú. Ellenőrizze a funkció bemeneti sémáját."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "A webhely elutasította a kérést."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "Engedje meg, hogy az olyan AI-asszisztensek, mint a Claude, a Cursor vagy a VS Code, az MCP (Model Context Protocol) segítségével dolgozzanak ezen a webhelyen az Ön számára. Egy WordPress-felhasználóként jelentkeznek be alkalmazásjelszóval, és csak azt tehetik meg, amire az adott felhasználó jogosult."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "Az AI-ügynökök a WordPress 6.9-es vagy újabb verzióját igénylik. Frissítse a WordPress rendszert a használatukhoz."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "Kapcsolódási cím (MCP-végpont)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "Hozzon létre egy alkalmazásjelszót a felhasználójához"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Adja hozzá ezt az AI-alkalmazása MCP-beállításaihoz a felhasználónevével és azzal a jelszóval:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: helyezze ugyanazt a bejegyzést a „servers” alá a .vscode/mcp.json fájlban, ne a „mcpServers” alá."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "Eszközök, amelyeket egy MI-ügynök itt használhat (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "Felhasználói útmutató: MI-ügynökök és MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "Fejlesztői dokumentáció: képességek, REST és MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "Kezelje tárhelyes ügyfeleit, csomagjait és webhelyeit a Zinn Digital® platformon ebből a központból."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "Az Ön ügyfelei, csomagjaik és webhelyei a Zinn Digital® viszonteladói fiókján keresztül."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "Olvassa el a viszonteladói fiókját"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "Egyetlen olvasásra visszaadja a viszonteladói fiókját: a márkát, a csomagokat, az ügyfelek és a szolgáltatások számát, valamint a beállított elemeket."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "Ügyfelek listázása"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "Kilistázza az ügyfélszámláit, oldalanként (kurzor, limit)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "Ügyfél létrehozása"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "Ügyfélszámlát hoz létre az Öné alatt (név; default_currency, egy hárombetűs kód). Tegye őket csomagra az első webhelyük előtt."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "Ügyfél csomagjának megtekintése"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "Visszaadja, hogy egy ügyfél melyik csomagban van, és mennyibe kerül önnek (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "Ügyfél áthelyezése egy csomagra"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "Ügyfél áthelyezése az egyik csomagra (client_id, plan_code; interval: month vagy year). Ezt még az első webhelyük létrehozása előtt tegye meg."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "Sorolja fel az eladható csomagokat"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "Felsorolja a tárhelycsomagokat és áraikat (a product_line és a currency paraméterek szűkítik a kört)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "Ügyfelek webhelyeinek listázása"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "Listázza az összes ügyfelei számára kiépített erőforrást (a client_id és a status szűkíti a kört), oldalanként."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "Hozzon létre egy webhelyet egy ügyfél számára"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "Létrehoz egy tárolt webhelyet az egyik ügyfele számára (client_id, product_line, primary_domain). A számlázás az Ön fiókjára történik az ügyfél csomagja szerint, az Ön áruházából indítva."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "Felfüggeszti egy ügyfél webhelyét"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "Felfüggeszti egy ügyfél webhelyét nemfizetés miatt (site_id; ok: a saját jegyzéke, amely soha nem jelenik meg az ügyfél számára). A webhely kiszolgálása a felfüggesztés feloldásáig szünetel."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "Egy ügyfél webhelyének felfüggesztésének feloldása"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "Feloldja a nem fizetés miatti zárolást, így az oldal ismét elérhetővé válik (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "Olvassa el a Viszonteladói Eszközkészlet beállításait"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "Visszaadja ezen bővítmény beállításait (az API-címet, az új megrendelésekhez használt csomagot, valamint a bekapcsolt funkciókat). Az API-kulcsot a rendszer soha nem adja vissza, csak azt, hogy van-e elmentve."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "A Viszonteladói Eszközkészlet beállításainak módosítása"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "Megváltoztatja a küldött beállításokat (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), a többit pedig megőrzi. Az API-kulcs és a cím csak a képernyőn módosul."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "Előbb adja meg a Zinn Digital® viszonteladói API-kulcsát a Viszonteladói Eszközkészlet képernyőjén."

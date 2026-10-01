@@ -40,276 +40,293 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "હોસ્ટિંગ પ્લેટફોર્મે સ્ટેટસ %d સાથે જવાબ આપ્યો."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "તમારું ડોમેન નામ શોધો"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "શોધો"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "તે નામ માટે કોઈ એક્સટેન્શન તપાસવામાં આવ્યા નથી."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "આ સાઇટ પર હાલમાં ડોમેન શોધ ઉપલબ્ધ નથી."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "અમે આ સમયે ડોમેન રજિસ્ટ્રીનો સંપર્ક કરી શક્યા નથી. કૃપા કરીને થોડીવાર પછી ફરી પ્રયાસ કરો."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "API કી ખૂટે છે અથવા હવે માન્ય નથી. તેને Zinn Digital® → રિસેલર ટૂલકિટ હેઠળ તપાસો."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "આ API કી પાસે sites.view પરમિશન નથી, જે ડોમેન શોધ માટે જરૂરી છે. તેને તમારા રિસેલર પેનલમાં કીમાં ઉમેરો, અથવા જાહેર શોધ પર પાછા જવા માટે અહીં કી સાફ કરો."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "ફક્ત સંચાલકો જ આ જોઈ શકે છે:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "અમે આ તપાસી શક્યા નથી — ફરી પ્રયાસ કરો"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "પહેલેથી જ નોંધાયેલ છે"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "ઉપલબ્ધ — કિંમત માટે અમારો સંપર્ક કરો"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "પ્રથમ વર્ષ માટે ઉપલબ્ધ — %1$s %2$s"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "નોંધણી કરો"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "મારી હોસ્ટિંગનું સંચાલન કરો"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "કૃપા કરીને પહેલા સાઇન ઇન કરો."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "આ ખાતું હજુ સુધી કોઈ હોસ્ટિંગ સેવા સાથે લિંક કરવામાં આવ્યું નથી."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "હોસ્ટિંગ પ્લેટફોર્મે સાઇન-ઇન લિંક પરત કરી નથી."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "રિસેલર ટૂલકિટ"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "એકાઉન્ટ"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "સુવિધાઓ"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "શૈલીઓ"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "AI એજન્ટ્સ (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "AI એજન્ટોને મંજૂરી આપો (MCP)"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "બંધ: નીચેના સાધનો અને તેમના REST રૂટ્સ બિલકુલ રજીસ્ટર થયેલા નથી."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "તમારું Zinn Digital® રિસેલર એકાઉન્ટ"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "તમારી Zinn® ડેશબોર્ડમાં Developer → API keys હેઠળ રિસેલર API કી બનાવો અને તેને અહીં પેસ્ટ કરો."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "રીસેલર API કી"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "આ સાઇટ પર જ રાખવામાં આવે છે, અને નિકાસ અથવા ડાયગ્નોસ્ટિક્સ રિપોર્ટમાં ક્યારેય સામેલ કરવામાં આવતું નથી."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "પ્રોવિઝન કરવા માટેની યોજના"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "નવા ગ્રાહકોને જે પ્લાન કોડ પર મૂકવામાં આવે છે. દરેક વખતે પૂછવા માટે ખાલી રાખો."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "API સરનામું"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "જ્યાં સુધી Zinn® સપોર્ટ તમને તેને બદલવા માટે ન કહે ત્યાં સુધી તેને આ રીતે જ રહેવા દો."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "કંટ્રોલ-પૅનલ સરનામું"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "તમારા ગ્રાહકોને “મારું હોસ્ટિંગ” લિંક ક્યાં મોકલે છે."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "ડોમેન શોધ"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "[zinn_domain_search] શોર્ટકોડ પ્રદાન કરો"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "મુલાકાતીઓને ડોમેન ચકાસવા અને તમારી મારફતે તે ખરીદવા દેવા માટે કોઈપણ પૃષ્ઠ પર શોર્ટકોડ મૂકો."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "પૅનલ લિંક"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "સાઇન-ઇન કરેલા ગ્રાહકો માટે “મારું હોસ્ટિંગ” લિંક બતાવો"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "WooCommerce પ્રોવિઝનિંગ"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "જ્યારે WooCommerce ઓર્ડર પૂર્ણ થાય ત્યારે હોસ્ટિંગ સ્વચાલિત રીતે પ્રોવિઝન કરો"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "માત્ર Zinn® પ્લાન સાથે મેપ કરેલ ઉત્પાદન ધરાવતા ઓર્ડર પર જ લાગુ થાય છે."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "ડોમેન શોધ દેખાવ"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "આ વિજેટ તમારી પોતાની થીમની અંદર રેન્ડર થાય છે. કોઈ પ્રીસેટ પસંદ કરો, અથવા તમારા પોતાના રંગો સેટ કરો — કોઈપણ રીતે તમારા પૃષ્ઠો પર મુલાકાતીને અમારું દેખાય તેવું કંઈપણ ઉમેરવામાં આવતું નથી."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "પ્લગઇનના રીડમીમાં વિજેટ ઉપયોગમાં લેતી દરેક ક્લાસની યાદી આપેલી છે, જેથી ડેવલપર પ્રીસેટ આવરી ન લે તેવી કોઈપણ બાબતને ઓવરરાઈડ કરી શકે છે."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "મારી થીમ અનુસરો"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "સોફ્ટ"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "ઉચ્ચ વિપરીતતા"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "સંકોચો"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "બાય-લિંકનો રંગ"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "“ઉપલબ્ધ” રંગ"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "\"ચકાસી શકાયું નથી\" રંગ"
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "ભૂલનો રંગ"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "કોર્નર રાઉન્ડિંગ"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "દરેક પંક્તિની અંદરની જગ્યા"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "લખાણનું માપ"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "ડોમેન-નામ વજન"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "હજુ સુધી કોઈ રિસેલર API કી નથી."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "ડોમેન શોધ પહેલેથી જ જાહેર કિંmતો પર તેના વગર કામ કરે છે. પેનલ લિંક અને WooCommerce પ્રોવિઝનિંગ માટે એક કીની જરૂર છે: તેને તમારા Zinn® ડેશબોર્ડમાં Developer → API keys અંતર્ગત બનાવો."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "મારું Zinn® ડેશબોર્ડ ખોલો"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "એક કી સેટ છે, પરંતુ કંઈપણ ચાલુ નથી."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "ત્રણેયમાંથી એક પણ સુવિધા સક્રિય કરેલ નથી, તેથી આ પ્લગઇન તમારી સાઇટ પર કંઈ કરી રહ્યું નથી. સુવિધાઓ હેઠળ તમને જે જોઈએ તે ચાલુ કરો."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "સુવિધાઓ ખોલો"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "તૈયાર — %d સુવિધા ચાલુ કરી."
 msgstr[1] "તૈયાર — %d સુવિધાઓ ચાલુ કરી."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "આના તરફથી વેચાણ"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "સેટિંગ્સ"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "હજુ સુધી કોઈ API કી નથી, તેથી કંઈપણ કનેક્ટ થયેલ નથી."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "કનેક્ટ નથી થયું: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "કનેક્ટ થયેલ છે. તમારો રિસેલર પ્રોગ્રામ %s છે."
@@ -685,3 +702,161 @@ msgstr "Zinn® અપડેટ સેવા (%s) પરથી અપડેટ �
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ડાઉનલોડ કરેલ અપડેટ તેની અખંડિતતા ચકાસણીમાં નિષ્ફળ ગયું અને ઇન્સ્ટોલ કરવામાં આવ્યું ન હતું."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "ક્રિયા પૂર્ણ થઈ શકી નથી. ફરી પ્રયાસ કરો, અને જો તે નિષ્ફળ જવાનું ચાલુ રાખે, તો સાઈટ સંચાલકનો સંપર્ક કરો."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "એક જરૂરી મૂલ્ય ખૂટે છે અથવા તેનું ફોર્મ ખોટું છે. એબિલિટીના ઇનપુટ સ્કીમાની ચકાસણી કરો."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "સાઇટે વિનંતીનો અસ્વીકાર કર્યો."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "Claude, Cursor અથવા VS Code જેવા AI આસિસ્ટન્ટ્સને MCP (મોડેલ કોન્ટેક્સ્ટ પ્રોટોકોલ) દ્વારા તમારા વતી આ સાઇટ પર કામ કરવા દો. તેઓ એપ્લિકેશન પાસવર્ડ સાથે WordPress વપરાશકર્તા તરીકે સાઇન ઇન કરે છે અને તે વપરાશકર્તાને જે કરવાની પરવાનગી હોય માત્ર તે જ કરી શકે છે."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "AI એજન્ટ્સ માટે WordPress 6.9 અથવા પછીનું સંસ્કરણ જરૂરી છે. તેનો ઉપયોગ કરવા માટે WordPress અપડેટ કરો."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "કનેક્શન સરનામું (MCP એન્ડપોઇન્ટ)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "તમારા વપરાશકર્તા માટે એપ્લિકેશન પાસવર્ડ બનાવો"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "તમારા યુઝરનેમ અને તે પાસવર્ડ સાથે, આને તમારી AI એપ્લિકેશનની MCP સેટિંગ્સમાં ઉમેરો:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: \"mcpServers\" અંતર્ગત નહીં, પરંતુ .vscode/mcp.json માં \"servers\" અંતર્ગત સમાન એન્ટ્રી મૂકો."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "અહીં AI એજન્ટ વાપરી શકે તેવા સાધનો (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "વપરાશકર્તા માર્ગદર્શિકા: AI એજન્ટો અને MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "ડેવલપર ડૉક્સ: ક્ષમતાઓ, REST અને MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "આ સાઇટ પરથી Zinn Digital® પર તમારા હોસ્ટિંગ ક્લાયન્ટ્સ, તેમની યોજનાઓ અને તેમની સાઇટ્સનું સંચાલન કરો."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "તમારા Zinn Digital® રિસેલર એકાઉન્ટ દ્વારા તમારા ક્લાયન્ટ્સ, તેમની યોજનાઓ અને તેમની સાઇટ્સ."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "તમારું રેસેલર એકાઉન્ટ વાંચો"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "તમારા રિસેલર એકાઉન્ટની તમામ માહિતી એક જ વારમાં આપે છે: બ્રાન્ડ, પ્લાન, ક્લાયન્ટ અને સેવાઓની ગણતરી, અને શું સેટઅપ થયેલ છે."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "તમારા ક્લાયન્ટ્સની યાદી બનાવો"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "તમારા ક્લાયન્ટ ખાતાઓની યાદી આપે છે, એક સમયે એક પૃષ્ઠ (કર્સર, મર્યાદા)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "ક્લાયન્ટ બનાવો"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "તમારા હેઠળ એક ક્લાયંટ એકાઉન્ટ બનાવો (નામ; default_currency, ત્રણ અક્ષરનો કોડ). તેમની પહેલી સાઇટ પહેલાં તેમને કોઈ પ્લાન પર મૂકો."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "ક્લાયન્ટની યોજના વાંચો"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "ક્લાયન્ટ કયા પ્લાન પર છે અને તે તમને કેટલામાં પડે છે તે રિટર્ન કરે છે (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "ક્લાયન્ટને પ્લાન પર મૂકો"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "ક્લાયન્ટને તમારી કોઈપણ યોજના પર મૂકે છે (client_id, plan_code; અંતરાલ: મહિનો અથવા વર્ષ). તેમની પ્રથમ સાઇટ પહેલાં આ કરો."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "તમે વેચી શકો છો તે યોજનાઓની યાદી બનાવો"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "હોસ્ટિંગ પ્લાન અને તેમની કિંમતોની યાદી આપે છે (product_line અને currency તેને મર્યાદિત કરે છે)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "તમારા ગ્રાહકોની સાઇટ્સની સૂચિ બનાવો"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "તમારા ગ્રાહકો માટે તમે જે કંઈ પણ પ્રોવિઝન કર્યું છે તેની યાદી આપે છે (client_id અને status તેને મર્યાદિત કરે છે), એક સમયે એક પૃષ્ઠ."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "ક્લાયન્ટ માટે સાઇટ બનાવો"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "તમારા ક્લાયન્ટ્સમાંથી એક માટે હોસ્ટેડ સાઇટ બનાવે છે (client_id, product_line, primary_domain). તમારી દુકાન પરથી, તે ક્લાયન્ટની યોજના અનુસાર તમારા ખાતામાં બિલ કરવામાં આવે છે."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "ક્લાયન્ટની સાઇટ સસ્પેન્ડ કરો"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "ક્લાયંટની સાઇટને બિન-ચુકવણી હોલ્ડ પર મૂકે છે (site_id; કારણ: તમારી પોતાની નોંધ, ક્લાયંટને ક્યારેય બતાવવામાં આવતી નથી). જ્યાં સુધી સાઇટને અનસસ્પેન્ડ કરવામાં ન આવે ત્યાં સુધી તે સર્વ કરવાનું બંધ કરી દે છે."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "ગ્રાહકની સાઇટ પરથી સસ્પેન્શન હટાઓ"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "બિન-ચુકવણી હોલ્ડ દૂર કરે છે, જેથી સાઇટ ફરીથી સેવા આપે (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "રીસેલર ટૂલકિટ સેટિંગ્સ વાંચો"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "આ પ્લગઇનની સેટિંગ્સ પરત કરે છે (API સરનામું, નવા ઓર્ડર જે પ્લાનનો ઉપયોગ કરે છે, કઈ સુવિધાઓ ચાલુ છે). API કી ક્યારેય પરત કરવામાં આવતી નથી, ફક્ત તે જ કે તે સાચવવામાં આવી છે કે નહીં."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "રસેલર ટૂલકિટ સેટિંગ્સ બદલો"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "તમે મોકલો છો તે સેટિંગ્સ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) બદલે છે અને બાકીની જાળવી રાખે છે. API કી અને સરનામું ફક્ત સ્ક્રીન પર બદલાય છે."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "પ્રથમ રિસેલર ટૂલકિટ સ્ક્રીન પર તમારી Zinn Digital® રિસેલર API કી ઉમેરો."

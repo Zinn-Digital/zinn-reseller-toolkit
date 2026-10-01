@@ -40,275 +40,292 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "Pẹpẹ agbalejo naa dahun pẹlu ipo %d."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "Wá orúkọ ìdánimọ̀ rẹ"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "Wá a"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "A kò ṣàyẹ̀wò àwọn ìfikún èyíkéyìí fún orúkọ yẹn."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "Àwárí agbègbè kò sí lórí ojú-òpẹ́ yìí fúngbà díẹ̀."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "Àwa kò lè dé ọ̀dọ̀ ìforíkọ́lu ìtumọ̀ domain ní àkìsí yìí. Jọ̀wọ́ gbiyanjú lẹ́kan síwájú ní ìṣẹ́jú kan."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "Bọtìní API náà ti sonù tàbí kò tún wúlè mọ́. Ṣàyèwò rẹ̀ lábé Zinn Digital® → Reseller Toolkit."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "Bọtìlì API yii ko ni igbanilaaye sites.view, eyiti wiwa agbegbe nilo. Fi kun bọtìlì naa ninu igbimọ oniṣowo rẹ, tabi mu bọtìlì naa kuro nibi lati pada si wiwa ti gbogbo eniyan."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "Àwọn aláṣẹ nìkan ló lè rí èyí:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "A kò lè ṣàyẹ̀wò èyí – gbiyanju lẹ́ẹ̀kan si"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "Ti forukọ silẹ tẹlẹ"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "Ó wà — béèrè iye owó lọ́wọ́ wa"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "O wa — %1$s %2$s fún ọdún akọkọ"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "Forukọ silẹ"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "Ṣàkóso ìgbékalẹ̀ wẹ́bù mi"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "Jọwọ wọlé kọkọ."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "Ko tii si àkọọlẹ yi ti a so mọ iṣẹ ìgbékalẹ wẹẹbu kan sí."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Pẹpẹ ìgbalejo náà kò dá ìjápọ̀ wọlé sílẹ̀."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "Apamọwọ Olùtàjà"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "Akawọ"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "Àwọn Ẹ̀yà Ara"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "Àṣà fúnra rẹ̀"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "Àwọn olùrànlọ́wọ́ AI (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "Gbà fún àwọn aṣojú AI (MCP)"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "Pa: àwọn ohun èlò tó wà ní ìsàlẹ̀ àti àwọn ọ̀nà REST wọn kò ní ìforúkọsilẹ rárá."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "Akọọlẹ olùtà taara Zinn Digital® rẹ"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "Ṣẹda bọ́ọ̀lù aṣàròkọ API reseller kan ninu daṣibọọdu Zinn® rẹ labẹ Developer → API keys, ki o si lẹ mọ́ ibi yìí."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "Bọtìlì API ti Olùtajà Tuntun"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "A nì í sórí ojú-wẹ́bù yìí nìkan, a kò sì ní fi kún ìwé ìgbé-jáde tàbí ìjábọ̀ àyẹ̀wò rárá."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "Ètò láti pèsè"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "Koodu eto ti a fi awọn alabara tuntun si. Fi silẹ ni ṣofo lati le beere ni gbogbo igba."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "Adirẹsi API"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "Fi eyi silẹ ayafi ti atilẹyin Zinn® ba beere lọwọ rẹ lati yipada."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "Adirẹsi ìṣàkóso bọ́ọ̀dù"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "Ibikẹẹti ti ọna aṣopọ “My hosting” n fi awọn onibara rẹ ranṣẹ si."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "Àwárí agbègbè wẹ́bù"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "Pese kúkúrú koodu [zinn_domain_search] sílẹ̀"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "Fi shortcode náà sórí èké èkejì èyíkéyìí láti jẹ́ kí àwọn alábẹ̀wò ṣàyẹ̀wò agbègbè kan kí wọ́n sì ra a nípasẹ̀ rẹ."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "Ọna asopọ pátákì"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "Fi ọna asopọ “Ohun-ini mi” han si awọn alabara ti o wọle"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "Pínpèsè WooCommerce"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "Pèsè hosting láìṣeégbàgbé nígbà tí ìbéèrè WooCommerce bá parí"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "Ó ń ṣiṣẹ́ lórí àwọn àṣẹ tí ó ní ọjà kan tí o ti fi sí ètò Zinn® nìkan."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "Ìfarahàn ìwádìí agbègbè ayélujára"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "Widget yii n ṣe afihan inu akori ti ara rẹ. Yan eto tẹlẹ kan, tabi ṣeto awọn awọ ti ara rẹ — ni ọna kankan ko si ohun ti a fi kun si awọn oju-iwe rẹ ti alejo le ri bii tiwa."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "Gbogbo kilasi ti wigieti naa nlo ni a ṣe akoṣo rẹ sinu faili readme ti plọọgiini naa, nitorinaa olùgbékalẹ̀ sọfitiwia le sọ ohunkohun di asan ti iṣeto tẹlẹ ko le bo."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "Tẹ̀lé àkòrí mi"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "Rírọ̀"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "Iyatọ giga"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "Rẹpẹtẹ"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "Àwọ̀ ìjápọ̀ ìràwọ̀"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "Àwọ̀ tó wà fún lílò"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "Àwọ̀ \"Kò lè ṣàyẹ̀wò\""
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "Àwọ̀ àṣìṣe"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "Yiyo igun"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "Ààyè inú ìlà kọọkan"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "Iwọn ọrọ"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "Àwọn agbára orúkọ agbègbè"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "Kò tíì sí bọ́tìnnì API olùtà fúnni."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "Àwárí agbègbè ti ń ṣiṣẹ́ tẹ́lẹ̀ láìsí rẹ̀, ní àwọn owó gbangba. Ọ̀nà ìsopọ̀ pẹ́lììlì àti ìpèsè WooCommerce nílò bọ́tìnì kan: dá ọ̀kan sílẹ̀ nínú apá kan àbójútó Zinn® rẹ̀ lábẹ́ Developer → API keys."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "Ṣí daṣibọọdu Zinn® mi"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "A ti ṣeto bọtọ kan, ṣugbọn kò si ohun ti o tan."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "Kò sí nínú àwọn ẹ̀yà mẹ́ta yìí tí ó wà ní ìmúṣẹ, nítorí náà àfikún yìí kò ṣe ohunkóohun lórí ojú-wẹ́bù rẹ. Mú èyí tí o nílò ṣiṣẹ́ lábẹ́ Àwọn Ẹ̀yà (Features)."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "Ṣii Awọn Ẹya"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "Ó ti ṣetan — ohun àrà %d ti wÀ ní títàn."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "Tita lati"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "Àwọn ẹ̀rọ̀"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "Kò tíì sí bọ́tìnnì API kankan, nítorí náà kò sí ohun tí a ti sopọ̀."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "Ko sopọ: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "A ti sopọ. Eto olutaja rẹ jẹ %s."
@@ -683,3 +700,161 @@ msgstr "Ko ṣe e ṣe lati ṣe igbasilẹ imudojuiwọn na lati iṣẹ imudoj
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ìgbàlàwé tí a ṣe àgbéjọ rẹ̀ kùnà àyẹ̀wò òtítọ́ rẹ̀, a kò sì fi sílẹ̀."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "A kò lè parí ìṣe náà. Gbìyànjú lẹ́ẹ̀kan sí i, tó bá tún kùnà, kàn sí alábòójútó ojú-wẹ́bù náà."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "Ojutu to nilo ko si tabi o ni awọn iṣoro. Ṣayẹwo iṣeto igbewọle agbara naa."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "Ojula kọ ìbéèrè náà."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "Jẹ́ kí àwọn olùrànlọ́wọ́ AI bíi Claude, Cursor tàbí VS Code ṣiṣẹ́ lórí ojú-wẹ́bù yìí fún ọ nípasẹ̀ MCP (Model Context Protocol). Wọ́n ń wọlé gẹ́gẹ́ bí olùlò WordPress pẹ̀lú ọ̀rọ̀ aṣínà ìwọ̀lé (application password) wọ́n sì lè ṣe ohun tí a gbàyè aṣoju olùlò yẹn láti ṣe nìkan."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "Àwọn olùrànlọ́wọ́ AI nílò WordPress 6.9 tàbí àwọn tí ó tẹ̀ lé e. Ṣe imudojuiwọn WordPress láti lo wọn."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "Adirẹsi asopọ (opin MCP)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "Ṣẹda ọ̀rọ̀ aṣínà ìṣètò fún olùṣe rẹ"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Fi èn sí àwọn ètò MCP ti ìṣírò AI rẹ, pẹlu orúkọ olùlò rẹ ati ọ̀rọ̀ aṣínà yẹn:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: fi akọsilẹ kanna si abẹ \"servers\" ninu .vscode/mcp.json, ki o maṣe fi si abẹ \"mcpServers\"."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "Awọn irinṣẹ ti oluranlọwọ AI le lo nibi (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "Itọsọna olumulo: Awọn aṣoju AI ati MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "Àwọn ìwé ìtọ́nisọ́nà fún àwọn olùṣẹ̀dá sọfitiwia: àwọn agbára, REST àti MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "Ṣàkóso àwọn oníbàárà hosting rẹ, àwọn ètò wọn àti àwọn ojú-wọ̀ṣẹ́ wọn lórí Zinn Digital® láti ojú-wọ̀ṣẹ́ yìí."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "Awọn alabara rẹ, awọn eto wọn ati awọn aaye wọn, nipasẹ akọọlẹ alagbata Zinn Digital® rẹ."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "Ka akọọlẹ olutaja rẹ"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "Ó dá ìròyìn àkọọ́lẹ́ olùtà-ṣàtúnṣe rẹ padà ní ẹ̀kan ṣoṣo: àmì, àwọn ètò, iye àwọn oníbàárà àti iṣẹ́, àti ohun tí a ti ṣètò."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "Ṣe àkójọ awọn alabara rẹ"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "Ó ṣe àkójọ àwọn àkáǹtì oníbàárà rẹ̀, ojú ewé kan ní ẹ̀kan náà (kọ́ṣọ̀ọ̀sì, àlà)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "Ṣẹ́dá oníbàárà kan"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "Ó ń ṣẹ̀dá àkáǹtì oníbàárọ̀ kan lábẹ́ tirẹ̀ (name; default_currency, kóòdù lẹ́tà mẹ́ta). Fi sí ojú ọ̀nà ètò kan kí ojú òpó wẹ́bù wọn àkọ́kọ́ tó dé."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "Ka ètò Oníbàárù"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "Ó dá ètò wo tí oníbàárùkọ wà lórí àti iye tí ó jé fún ọ (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "Fi onibara sori ètò kan"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "Fi onibara sori ọkan ninu awọn eto rẹ (client_id, plan_code; interval: oṣu tabi ọdun). Ṣe eyi ṣaaju aaye akọkọ wọn."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "Ṣe àkọsọ àwọn ètò tí o lè ta"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "Ó ṣe àkójọ àwọn ètòìgbale kháchì (hosting plans) àti àwọn iye owó wọn (product_line àti currency ti sọ ọ́ di dín-dín)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "Ṣe àkọsọ àwọn ojú-wẹ̀bù àwọn oníbàárà yín"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "O ṣe àkọsọ ohun gbogbo ti o ti pèsè fún àwọn oníbàárà rẹ (client_id àti status dín ìwọ̀n yìí kù), ojú ìwé kan nígbà kan."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "Ṣẹ̀dá ojú-wẹ̀bù kan fún oníbàárà kan"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "Ó ń ṣẹ̀dá ojú òpó wẹ́bù tí a gbàlejò fún ọ̀kan lára ​​wọn (client_id, product_line, primary_domain). A óò gbógun ẹ̀sùn náà sórí àkọọ́lẹ̀ rẹ lórí ètò alabara náà, gẹ́gẹ́ bí ó ti wá láti ilé ìtajà rẹ."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "Daduro aaye alabara kan"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "Ó fi ojú súwònnì sí ojú-wọ́wọ́ oníbàárà kan nítorí àìsanwó (site_id; ìdí: àkọsílẹ̀ rẹ, tí a kì í fi hàn oníbàárà rẹ̀ láé). Ojú-wọ́wọ́ náà yóò dáwọ́ iṣẹ́ dúró títí a ó fi tún un gbé kalẹ̀."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "Mú kí ojula alabara padà sípò"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "Ó mú ìdènà àìsanwó kúrò, nítorí náà ojú òpó wẹ́bù náà tún ń ṣiṣẹ́ lẹ́ẹ̀kan sí i (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "Ka àwọn ètò Irinṣẹ́ Olùtàrí (Reseller Toolkit)"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "Ó dá àwọn ètò plọ́ọ̀gìn yìí padà (àdírẹ́sì API, ètò tí àwọn àṣẹ tuntun ń lò, àwọn ẹ̀yà wo ni ó wà ní títàn). Kò ní dá kọ́kọ́rọ́ API padà láé, àfikún sí i nìkan ni pé bóya a ti fi pamọ́."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "Ṣati awọn eto irinṣẹ Alatunta"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "Ó ṣe àwọn àyípadà sí àwọn ètò tí o ránṣẹ́ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ó sì pa àwọn tó kù mọ́. Bọ́tínì API àti àdéréṣì náà wà nípa ìyípadà lórí ojú-ìwé náà nìkan."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "Fi bọtọni API olutaja Zinn Digital® rẹ sori iboju Ọpa Olutaja ni akọkọ."

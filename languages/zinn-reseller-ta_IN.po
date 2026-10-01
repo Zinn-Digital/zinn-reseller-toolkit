@@ -40,276 +40,293 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "புரவலன் தளம் %d நிலையுடன் பதிலளித்தது."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "உங்கள் டொமைன் பெயரைக் கண்டறியவும்"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "தேடு"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "அந்த பெயருக்கு எந்த நீட்டிப்புகளும் சரிபார்க்கப்படவில்லை."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "இந்த தளத்தில் டொமைன் தேடல் தற்போது கிடைக்கவில்லை."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "டொமைன் பதிவகத்தை எங்களால் இப்போது தொடர்பு கொள்ள முடியவில்லை. தயவுசெய்து சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "ஏபிஐ (API) விசை இல்லை அல்லது இனி செல்லுபராது. அதை Zinn Digital® → ரிசெல்லர் டூல்சிட் (Reseller Toolkit) என்பதன் கீழ் சரிபார்க்கவும்."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "இந்த API விசையில் sites.view அனுமதி இல்லை, இது டொமைன் தேடலுக்குத் தேவைப்படுகிறது. அதை உங்கள் மறுவிற்பனையாளர் பலகத்தில் உள்ள விசையில் சேர்க்கவும், அல்லது பொதுவான தேடலுக்குத் திரும்ப இங்கே விசையை அழிக்கவும்."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "நிர்வாகிகள் மட்டுமே இதைக் காண்கிறார்கள்:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "இதைச் சோதிக்க முடியவில்லை — மீண்டும் முயற்சிக்கவும்"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "ஏற்கனவே பதிவு செய்யப்பட்டது"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "கிடைக்கிறது — விலையைக் கேட்கவும்"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "கிடைக்கிறது — முதல் வருடத்திற்கு %1$s %2$s"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "பதிவு செய்க"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "எனது ஹோஸ்டிங்கை நிர்வகிக்கவும்"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "முதலில் உள்நுழையவும்."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "இந்தக் கணக்கு இன்னும் ஹோஸ்டிங் சேவையுடன் இணைக்கப்படவில்லை."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "ஹோஸ்டிங் தளம் உள்நுழைவு இணைப்பை வழங்கவில்லை."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "மறுவிற்பனையாளர் கருவித்தொகுப்பு"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "கணக்கு"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "அம்சங்கள்"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "பாணிமைப்பு"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "AI முகவர்கள் (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "செயற்கை நுண்ணறிவு முகவர்களை (MCP) அனுமதிக்கவும்"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "முடக்கம்: கீழே உள்ள கருவிகளும் அவற்றின் REST வழிகளும் பதிவு செய்யப்படவில்லை."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "உங்கள் Zinn Digital® மறு விற்பனையாளர் கணக்கு"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "உங்கள் Zinn® டாஷ்போர்டில் Developer → API keys பிரிவில் ஒரு ரெசெல்லர் API விசையை உருவாக்கி, அதை இங்கே ஒட்டவும்."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "மள் விற்பனையாளர் API விசை"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "இந்தத் தளத்தில் மட்டுமே சேமிக்கப்படும், ஏற்றுமதி அல்லது கண்டறிதல் அறிக்கையில் சேர்க்கப்படாது."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "வழங்க வேண்டிய திட்டம்"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "புதிய வாடிக்கையாளர்கள் சேர்க்கப்படும் திட்டம் குறிக்கும் குறியீடு. ஒவ்வொரு முறையும் கேட்கப்பட வேண்டுமெனில் காலியாக விடவும்."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "API முகவரி"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "Zinn® ஆதரவு மாற்றச் சொன்னால் ஒழிய இதை மாற்ற வேண்டாம்."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "கட்டுப்பாட்டுப் பலக முகவரி"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "“எனது ஹோஸ்டிங்” இணைப்பு உங்கள் வாடிக்கையாளர்களை எங்கு அனுப்புகிறது."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "டொமைன் தேடல்"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "[zinn_domain_search] குறுகிய குறியீட்டை (shortcode) வழங்கவும்"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "பார்வையாளர்கள் டொமைனைச் சோதித்து உங்கள் மூலம் அதை வாங்க அனுமதிப்பதற்காக எந்தப் பக்கத்திலும் ஷார்ட்கோட்டை வைக்கவும்."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "பேனல் இணைப்பு"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "உள்நுழைந்த வாடிக்கையாளர்களுக்கு “எனது ஹோஸ்டிங்” இணைப்பைக் காட்டுங்கள்"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "WooCommerce வழங்குதல்"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "WooCommerce ஆர்டர் முடிவடையும் போது ஹோஸ்டிங்கை தானாகவே வழங்குங்கள்"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "Zinn® திட்டத்துடன் நீங்கள் வரைபடம் செய்துள்ள தயாரிப்பைக் கொண்ட ஆர்டர்களில் மட்டுமே இது அமல்படுத்தப்படும்."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "டொமைன் தேடல் தோற்றம்"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "இந்த விட்ஜெட் உங்கள் சொந்த தீமிற்குள் ரெண்டர் செய்யப்படும். ஒரு முன்னமைவைத் தேர்ந்தெடுக்கவும் அல்லது உங்கள் சொந்த வண்ணங்களை அமைக்கவும் — எப்படிச் செய்தாலும் பார்வையாளர்கள் எங்களுடையது என்று பார்க்கக்கூடிய வகையில் உங்கள் பக்கங்களில் எதுவும் சேர்க்கப்படாது."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "விட்செட் பயன்படுத்தும் ஒவ்வொரு வகுப்பும் செருகுநிறைவின் ரீட்மே-ல் பட்டியலிடப்பட்டுள்ளது, எனவே ஒரு முன்னமைவு உள்ளடவாத எதையும் டெவலப்பர் மேலெழுத முடியும்."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "எனது தீமைப் பின்பற்றுங்கள்"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "மென்மையான"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "அதிக மாறுபாடு"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "சுருக்குக"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "வாங்கு-இணைப்பு வண்ணம்"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "“கிடைக்கும்” நிறம்"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "“சரிபார்க்க முடியவில்லை” நிறம்"
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "பிழை நிறம்"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "மூலை வளைவு"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "ஒவ்வொரு வரிக்கும் உள்ள இடம்"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "உரை அளவு"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "டொமைன் பெயர் எடை"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "இன்னும் ரீசெல்லர் API விசை இல்லை."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "டொமைன் தேடல் ஏற்கனவே பொது விலைகளில் கீ இல்லாமல் செயல்படுகிறது. பேனல் இணைப்பு மற்றும் WooCommerce ஏற்பாடு செய்வதற்கு ஒரு கீ தேவைப்படுகிறது: டெவலப்பர் → API கீகள் என்பதன் கீழ் உங்கள் Zinn® டாஷ்போர்டில் ஒன்றை உருவாக்கவும்."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "எனது Zinn® கட்டுப்பாட்டுப் பலகத்தைத் திறக்கவும்"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "ஒரு விசை அமைக்கப்பட்டுள்ளது, ஆனால் எதுவும் இயக்கப்படவில்லை."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "மூன்று அம்சங்களில் எதுவும் இயக்கப்படவில்லை, எனவே இந்த செருகுநிரல் உங்கள் தளத்தில் எந்தச் செயலையும் செய்யவில்லை. அம்சங்களின் கீழ் உங்களுக்குத் தேவையானதை இயக்கவும்."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "திறந்த அம்சங்கள்"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "தயார் - %d அம்சம் இயக்கப்பட்டது."
 msgstr[1] "தயாராக உள்ளது — %d அம்சங்கள் இயக்கப்பட்டுள்ளன."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "விற்பனை செய்யுமிடம்"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "அமைப்புகள்"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "இன்னும் API விசை எதுவும் இல்லை, எனவே எதுவும் இணைக்கப்படவில்லை."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "இணைக்கப்படவில்லை: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "இணைக்கப்பட்டுள்ளது. உங்கள் மறுவிற்பனையாளர் திட்டம் %s ஆகும்."
@@ -685,3 +702,161 @@ msgstr "புதுப்பிப்பை Zinn® புதுப்பிப�
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "பதிவிறக்கம் செய்யப்பட்ட புதுப்பிப்பு அதன் ஒருமைமைச் சோதனையில் தோல்வியுற்றது மற்றும் நிறுவப்படவில்லை."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "செயலை முடிக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும், தொடர்ந்து தோல்வியுற்றால், தள நிர்வாகியைத் தொடர்பு கொள்ளவும்."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "தேவையான மதிப்பு விடுபட்டுள்ளது அல்லது தவறான வடிவத்தில் உள்ளது. திறனின் உள்ளீட்டு நிரலைச் சரிபார்க்கவும்."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "தளம் கோரிக்கையை நிராகரித்தது."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "Claude, Cursor அல்லது VS Code போன்ற AI உதவியாளர்களை MCP (Model Context Protocol) மூலம் இந்தத் தளத்தில் உங்களுக்காகப் பணியாற்ற அனுமதிக்கவும். அவர்கள் பயன்பாட்டுக் கடவுச்சொல் மூலம் WordPress பயனராக உள்நுழைந்து, அந்தப் பயனர் செய்ய அனுமதிக்கப்பட்டதை மட்டுமே செய்ய முடியும்."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "AI முகவர்கள் WordPress 6.9 அல்லது அதற்குப் பிந்தைய பதிப்பு தேவை. அவற்றைப் பயன்படுத்த WordPress ஐப் புதுப்பிக்கவும்."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "இணைப்பு முகவரி (MCP முடிவுப் புள்ளி)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "உங்கள் பயனருக்கான பயன்பாட்டு கடவுச்சொல்லை உருவாக்கவும்"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "உங்கள் பயனர் பெயர் மற்றும் அந்த கடவுச்சொல்லுடன், இதை உங்கள் AI செயலியின் MCP அமைப்புகளில் சேர்க்கவும்:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: \"mcpServers\"-க்கு பதிலாக .vscode/mcp.json கோப்பில் \"servers\"-ன் கீழ் அதே உள்ளீட்டை வைக்கவும்."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "இங்கு AI முகவர் பயன்படுத்தக்கூடிய கருவிகள் (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "பயனர் வழிகாட்டி: AI முகவர்கள் மற்றும் MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "டெவலப்பர் ஆவணங்கள்: திறன்கள், REST மற்றும் MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "Zinn Digital® இல் உங்கள் ஹோஸ்டிங் வாடிக்கையாளர்கள், அவர்களின் திட்டங்கள் மற்றும் அவர்களின் தளங்களை இந்தத் தளத்திலிருந்து நிர்வகிக்கவும்."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "உங்கள் Zinn Digital® ரீசெல்லர் கணக்கின் மூலம் உங்கள் வாடிக்கையாளர்கள், அவர்களின் திட்டங்கள் மற்றும் அவர்களின் தளங்கள்."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "உங்கள் மறுவிற்பனையாளர் கணக்கைப் படிக்கவும்"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "உங்கள் ரீசெல்லர் கணக்கை ஒரே பார்வையில் வழங்குகிறது: பிராண்ட், திட்டங்கள், வாடிக்கையாளர்கள் மற்றும் சேவைகளின் எண்ணிக்கைகள் மற்றும் என்ன அமைக்கப்பட்டுள்ளது."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "உங்கள் வாடிக்கையாளர்களைப் பட்டியலிடுங்கள்"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "உங்கள் வாடிக்கையாளர் கணக்குகளை, ஒரு நேரத்திற்கு ஒரு பக்கமாகப் பட்டியலிடுகிறது (cursor, limit)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "வாடிக்கையாளரை உருவாக்குங்கள்"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "உங்கள் கணக்கின் கீழ் ஒரு வாடிக்கையாளர் கணக்கை உருவாக்குகிறது (பெயர்; default_currency, மூன்று எழுத்து குறியீடு). அவர்களின் முதல் தளத்திற்கு முன்பு அவர்களை ஒரு திட்டத்தில் சேர்க்கவும்."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "வாடிக்கையாளரின் திட்டத்தைப் படிக்கவும்"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "வாடிக்கையாளர் எந்தத் திட்டத்தில் உள்ளார் மற்றும் அதன் விலை என்ன என்பதைத் தருகிறது (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "வாடிக்கையாளரை ஒரு திட்டத்தில் சேருங்கள்"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "ஒரு வாடிக்கையாளரை உங்களின் திட்டங்களில் ஒன்றில் சேர்க்கிறது (client_id, plan_code; இடைவெளி: மாதம் அல்லது ஆண்டு). அவர்களின் முதல் தளத்திற்கு முன்பு இதைச் செய்யுங்கள்."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "நீங்கள் விற்கக்கூடிய திட்டங்களைப் பட்டியலிடுங்கள்"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "ஹோஸ்டிங் திட்டங்கள் மற்றும் அவற்றின் விலைகளைப் பட்டியலிடுகிறது (product_line மற்றும் currency ஆகியவை அவற்றைக் சுருக்குகின்றன)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "உங்கள் வாடிக்கையாளர்களின் தளங்களைப் பட்டியலிடுங்கள்"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "உங்கள் வாடிக்கையாளர்களுக்காக நீங்கள் வழங்கிய அனைத்தையும் பட்டியலிடுகிறது (client_id மற்றும் status அவற்றைக் சுருக்கும்), ஒரே நேரத்தில் ஒரு பக்கம்."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "வாடிக்கையாளர் ஒருவருக்காக ஒரு தளத்தை உருவாக்கவும்"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "உங்கள் வாடிக்கையாளர்களில் ஒருவருக்காக (client_id, product_line, primary_domain) ஹோஸ்ட் செய்யப்பட்ட தளத்தை உருவாக்குகிறது. இது உங்கள் கடையில் இருந்து, வாடிக்கையாளரின் திட்டத்தில் உங்கள் கணக்கிற்கு பில் செய்யப்படுகிறது."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "வாடிக்கையாளரின் தளத்தை முடக்கு"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "வாடிக்கையாளரின் தளத்தை கட்டணம் செலுத்தாததால் நிறுத்தி வைக்கும் (site_id; காரணம்: உங்கள் சொந்த குறிப்பு, வாடிக்கையாளருக்கு எப்போதுமே காட்டப்படாது). நிறுத்தம் நீக்கப்படும் வரை தளம் இயங்குவது நிற்கும்."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "வாடிக்கையாளரின் தளத்தை இடைநீக்கம் நீக்கு"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "பணம் செலுத்தாத காரணத்தினால் ஏற்பட்ட முடக்கத்தை நீக்குகிறது, இதனால் தளம் மீண்டும் செயல்படும் (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "மறுவிற்பனையாளர் கருவித்தொகுப்பு அமைப்புகளைப் படிக்கவும்"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "இந்த செருகுநிரலின் அமைப்புகளை வழங்கும் (API முகவரி, புதிய ஆர்டர்கள் பயன்படுத்தும் திட்டம், எந்த அம்சங்கள் இயக்கப்பட்டுள்ளன). API விசை எப்போதுமே திருப்பித் தரப்படாது, ஒன்று சேமிக்கப்பட்டுள்ளதா என்பது மட்டுமே."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "மறுவிற்பனையாளர் டூல்கிட் அமைப்புகளை மாற்றுக"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "நீங்கள் அனுப்பும் அமைப்புகளை (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) மாற்றுகிறது மற்றும் மீதமுள்ளவற்றை வைத்திருக்கும். API விசை மற்றும் முகவரி திரையில் மட்டுமே மாற்றப்படும்."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "முதலில் ரீசெல்லர் டூல்சிட் திரையில் உங்களின் Zinn Digital® ரீசெல்லர் API விசையைச் சேர்க்கவும்."

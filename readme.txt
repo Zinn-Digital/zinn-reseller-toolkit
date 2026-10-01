@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.6.0
+Stable tag: 1.6.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,6 +80,14 @@ for the Zinn® reseller API and requires a reseller account.
   `/v1/reseller/services/<service-id>/sso`, using your reseller credential, for a one-time link
   and then redirects the browser to `https://app.zinndigital.com`. No password and no customer
   credential passes through this site — only the identifier of the service being opened.
+* **AI agents (MCP), only when an administrator's AI app asks.** Each request uses your reseller
+  credential: `/v1/reseller/overview`, `/v1/orgs` (list or create a client: its name and
+  currency), `/v1/reseller/clients/<client-id>/plan` (read or set a client's plan),
+  `/v1/catalog/plans`, `/v1/reseller/services` (list sites) and
+  `/v1/reseller/services/<site-id>/suspend` / `unsuspend` (with your own note), and `/v1/sites`
+  (create a site: client, product line and domain name). Nothing is sent unless an administrator
+  connected an AI app with an application password and that app called the action; switch it off
+  under Reseller Toolkit → AI agents (MCP).
 
 Nothing is transmitted until you enter reseller API credentials.
 
@@ -151,6 +159,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.6.1 =
+* AI agents (MCP) and REST: list and create clients, put them on plans, list, create, suspend and unsuspend their sites through your reseller account — from AI apps, administrators only. On by default; switch under Reseller Toolkit → AI agents (MCP).
 
 = 1.6.0 =
 * On sites hosted by Zinn Digital®, this plugin is now installed from WordPress.org, so it updates from WordPress.org like any directory plugin. No change to what it does.

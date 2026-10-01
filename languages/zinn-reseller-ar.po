@@ -40,250 +40,267 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "استجابت منصة الاستضافة بالحالة %d."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "ابحث عن اسم نطاقك"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "بحث"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "لم يتم التحقق من أي امتدادات لهذا الاسم."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "بحث النطاقات غير متاح على هذا الموقع في الوقت الحالي."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "تعذر علينا الاتصال بسجل النطاقات في الوقت الحالي. يُرجى المحاولة مرة أخرى بعد قليل."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "مفتاح واجهة برمجة التطبيقات مفقود أو لم يعد صالحاً. تحقق منه ضمن Zinn Digital® ← أدوات الموزع."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "لا تحمل مفتاح واجهة برمجة التطبيقات (API) هذا إذن sites.view، والذي يحتاجه البحث عن النطاقات. أضفه إلى المفتاح في لوحة الموزع الخاصة بك، أو احذف المفتاح من هنا للرجوع إلى البحث العام."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "لا يرى هذا سوى المسؤولين:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "تعذر علينا التحقق من هذا العنصر — حاول مرة أخرى"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "مسجل مسبقاً"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "متوفر — اسألنا عن السعر"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "متاح — %1$s %2$s للسنة الأولى"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "تسجيله"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "إدارة استضافتي"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "يرجى تسجيل الدخول أولاً."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "لم يتم ربط هذا الحساب بخدمة استضافة بعد."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "لم تُرجع منصة الاستضافة رابط تسجيل الدخول."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "مجموعة أدوات الموزع"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "حساب"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "الميزات"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "التصميم"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "وكلاء الذكاء الاصطناعي (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "السماح لوكلاء الذكاء الاصطناعي (MCP)"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "معطل: الأدوات أدناه ومسارات REST الخاصة بها غير مسجلة على الإطلاق."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "حساب الموزع الخاص بك في Zinn Digital®"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "أنشئ مفتاح واجهة برمجة تطبيقات للبائع في لوحة تحكم Zinn® ضمن \"المطور\" (Developer) ← \"مفاتيح واجهة برمجة التطبيقات\" (API keys)، والصقه هنا."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "مفتاح واجهة برمجة تطبيقات الموزع"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "محفوظ على هذا الموقع فقط، ولا يتم تضمينه أبداً في أي عملية تصدير أو تقرير تشخيصي."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "خطة التجهيز"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "رمز الخطة الذي يتم تعيين العملاء الجدد عليها. اترك الحقل فارغاً ليُطلب منك في كل مرة."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "عنوان API"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "لا تقم بتغيير هذا الإعداد إلا إذا طلبت منك دعم Zinn® القيام بذلك."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "عنوان لوحة التحكم"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "إلى أين يُوجّه رابط \"استضافتي\" عملاءك."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "بحث النطاقات"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "قدم الرمز المختصر [zinn_domain_search]"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "ضع الرمز القصير في أي صفحة لتمكين الزوار من التحقق من النطاق وشرائه من خلالك."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "رابط لوحة التحكم"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "إظهار رابط \"استضافتي\" للعملاء المسجلين دخولهم"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "تجهيز WooCommerce"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "توفير الاستضافة تلقائياً عند إكمال طلب WooCommerce"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "يسري المفعول فقط على الطلبات التي تحتوي على منتج قمت بربطه بخطة Zinn®."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "ظهار بحث النطاق"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "يتم عرض هذه القطعة البرمجية داخل قالبك الخاص. اختر إعداداً مسبقاً، أو حدد ألوانك الخاصة — وفي كلتا الحالتين، لن تتم إضافة أي شيء إلى صفحاتك يمكن للزوار رؤيته على أنه يخصنا."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "تم إدراج كل فئة يستخدمها الودجت في ملف التمهيد (readme) الخاص بالإضافة، بحيث يمكن للمطور تجاوز أي شيء لا تغطيه الإعدادات المسبقة."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "اتبع سماتي"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "ناعم"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "تباين عالٍ"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "ضغط"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "لون رابط الشراء"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "لون “متاح”"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "لون \"تعذر التحقق\""
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "لون الخطأ"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "تدوير الزوايا"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "مسافة داخل كل صف"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "حجم النص"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "وزن اسم النطاق"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "لا يوجد مفتاح API لإعادة البيع حتى الآن."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "بحث النطاقات يعمل بالفعل بدون مفتاح، بالأسعار العامة. رابط لوحة التحكم وتجهيز WooCommerce يحتاجان إلى مفتاح: أنشئ مفتاحاً في لوحة تحكم Zinn® الخاصة بك ضمن Developer → API keys."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "افتح لوحة تحكم Zinn® الخاصة بي"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "المفتاح مضبوط، ولكن لم يتم تشغيل أي شيء."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "لم يتم تفعيل أي من الميزات الثلاث، لذا لا يقوم هذا الملحق بأي شيء على موقعك. قم بتفعيل ما تحتاج إليه ضمن الميزات."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "الميزات المفتوحة"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
@@ -294,26 +311,26 @@ msgstr[3] "جاهز — تم تفعيل %d ميزة."
 msgstr[4] "جاهز — تم تفعيل %d ميزة."
 msgstr[5] "جاهز — تم تفعيل %d ميزة."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "البيع من"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "لا يوجد مفتاح واجهة برمجة تطبيقات حتى الآن، لذا لم يتم توصيل أي شيء."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "غير متصل: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "متصل. برنامج إعادة البيع الخاص بك هو %s."
@@ -693,3 +710,161 @@ msgstr "تعذر تنزيل التحديث من خدمة تحديث Zinn® (%s).
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "فشل التحقق من سلامة التحديث الذي تم تنزيله ولم يتم تثبيته."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "تعذر إكمال الإجراء. حاول مرة أخرى، وإذا استمر الفشل، فاتصل بمسؤول الموقع."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "قيمة مطلوبة مفقودة أو لها تنسيق غير صحيح. تحقق من مخطط إدخال الخاصية."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "رفض الموقع الطلب."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "دع مساعدين الذكاء الاصطناعي مثل Claude أو Cursor أو VS Code يعملون على هذا الموقع نيابةً عنك من خلال بروتوكول سياق النموذج (Model Context Protocol). إنهم يسجلون الدخول كمستخدم في WordPress باستخدام كلمة مرور تطبيق ولا يمكنهم سوى تنفيذ ما يُسمح لهذا المستخدم بفعله."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "تتحتاج وكلاء الذكاء الاصطناعي إلى WordPress 6.9 أو إصدار أحدث. قم بتحديث WordPress لاستخدامهم."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "عنوان الاتصال (نقطة نهاية MCP)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "أنشئ كلمة مرور للتطبيق خاصة بمستخدمك"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "أضف هذا إلى إعدادات بروتوكول السياق النموذجي (MCP) الخاصة بتطبيق الذكاء الاصطناعي الخاص بك، مع اسم المستخدم وكلمة المرور تلك:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: ضع الإدخال نفسه ضمن \"servers\" في ملف .vscode/mcp.json، وليس ضمن \"mcpServers\"."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "الأدوات التي يمكن لوكيل الذكاء الاصطناعي استخدامها هنا (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "دليل المستخدم: وكلاء الذكاء الاصطناعي و MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "وثائق المطورين: القدرات، وREST وMCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "أدر عملاء الاستضافة الخاصين بك، وخططهم ومواقعهم على Zinn Digital® من هذا الموقع."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "عملاؤك، وخططهم ومواقعهم، من خلال حساب الموزع الخاص بك في Zinn Digital®."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "اقرأ حساب الموزع الخاص بك"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "يعيد حساب الموزع الخاص بك في قراءة واحدة: العلامة التجارية، والخطط، وعدد العملاء والخدمات، وما تم إعداده."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "قائمة عملائك"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "يعرض حسابات عملائك، صفحة تلو الأخرى (المؤشر، الحد)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "إنشاء عميل"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "ينشئ حساب عميل تحت حسابك (name؛ default_currency، رمز مكون من ثلاثة أحرف). قم بتعيينهم على خطة قبل موقعهم الأول."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "قراءة خطة عميل"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "يُرجع الخطة المشترك فيها العميل وتكلفتها عليك (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "ضع عميلاً على خطة"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "يضع العميل على إحدى خططك (client_id، plan_code؛ الفترة: شهر أو سنة). قم بذلك قبل إنشاء أول موقع إلكتروني له."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "أدرج الخطط التي يمكنك بيعها"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "يعرض خطط الاستضافة وأسعارها (حيث يحدد product_line وcurrency نطاق البحث)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "عرض مواقع عملائك"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "يعرض كل ما قمت بتجهيزه لعملائك (حيث يعمل client_id و status على تضييق النطاق)، صفحة تلو الأخرى."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "إنشاء موقع إلكتروني لعميل"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "ينشئ موقعاً مستضافاً لأحد عملائك (client_id، product_line، primary_domain). تتم فوترة ذلك على حسابك وفقاً لخطة العميل، كما لو كان صادراً من متجرك."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "إيقاف موقع العميل مؤقتاً"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "يضع موقع العميل في حالة تعليق بسبب عدم الدفع (site_id؛ السبب: ملاحظتك الخاصة، لا تظهر أبدًا للعميل). يتوقف الموقع عن العمل حتى يتم إلغاء تعليقه."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "إلغاء تعليق موقع العميل"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "يزيل تعليق عدم الدفع، ليعود الموقع للعمل (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "قراءة إعدادات مجموعة أدوات الموزع"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "يعيد إعدادات هذا الملحق (عنوان واجهة برمجة التطبيقات، والخطة التي تستخدمها الطلبات الجديدة، والميزات المفعلة). لا يتم إرجاع مفتاح واجهة برمجة التطبيقات أبداً، بل يُعاد فقط ما إذا كان قد تم حفظ مفتاح أم لا."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "تغيير إعدادات مجموعة أدوات الموزع"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "يغير الإعدادات التي ترسلها (plan_code، وenable_domain_search، وenable_panel_link، وenable_woocommerce) ويحتفظ بالبقية. يتم تغيير مفتاح واجهة برمجة التطبيقات (API key) والعنوان على الشاشة فقط."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "أضف مفتاح واجهة برمجة تطبيقات الموزع الخاص بك في Zinn Digital® على شاشة أدوات الموزع أولاً."

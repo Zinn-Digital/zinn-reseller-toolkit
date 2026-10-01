@@ -40,276 +40,293 @@ msgstr "https://zinndigital.com"
 msgid "The hosting platform answered with status %d."
 msgstr "Tumugon ang platform ng hosting na may katayuang %d."
 
-#: includes/class-domain-search.php:73
+#: includes/class-domain-search.php:74
 msgid "Find your domain name"
 msgstr "Hanapin ang iyong domain name"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:75
 msgid "Search"
 msgstr "Maghanap"
 
-#: includes/class-domain-search.php:165
+#: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
 msgstr "Walang nasuring mga extension para sa pangalang iyon."
 
-#: includes/class-domain-search.php:204
+#: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "Kasalukuyang hindi available ang paghahanap ng domain sa site na ito."
 
-#: includes/class-domain-search.php:205
+#: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "Hindi namin maabot ang registry ng domain sa ngayon. Mangyaring subukang muli mamaya."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "Nawawala o hindi na balido ang API key. Suriin ito sa ilalim ng Zinn Digital® → Reseller Toolkit."
 
-#: includes/class-domain-search.php:217
+#: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "Ang API key na ito ay walang pahintulot na sites.view, na kailangan ng domain search. Idagdag ito sa key sa iyong reseller panel, o i-clear ang key dito upang bumalik sa pampublikong paghahanap."
 
-#: includes/class-domain-search.php:222
+#: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
 msgstr "Ang mga administrador lamang ang makakakita nito:"
 
-#: includes/class-domain-search.php:271
+#: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
 msgstr "Hindi namin ito nasuri — subukan ulit"
 
-#: includes/class-domain-search.php:275
+#: includes/class-domain-search.php:285
 msgid "Already registered"
 msgstr "Nakarehistro na"
 
-#: includes/class-domain-search.php:313
+#: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
 msgstr "Magagamit — itanong sa amin ang presyo"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:318
+#: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "Available — %1$s %2$s para sa unang taon"
 
-#: includes/class-domain-search.php:341
+#: includes/class-domain-search.php:351
 msgid "Register it"
 msgstr "Irehistro ito"
 
-#: includes/class-panel-link.php:63
+#: includes/class-panel-link.php:65
 msgid "Manage my hosting"
 msgstr "Pamahalaan ang aking pagho-host"
 
-#: includes/class-panel-link.php:85
+#: includes/class-panel-link.php:87
 msgid "Please sign in first."
 msgstr "Mangyaring mag-sign in muna."
 
-#: includes/class-panel-link.php:92
+#: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
 msgstr "Ang account na ito ay hindi pa naka-link sa isang hosting service."
 
-#: includes/class-panel-link.php:102
+#: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Hindi nagbalik ang platform ng pag-host ng sign-in link."
 
-#: includes/class-settings.php:119
+#: includes/class-settings.php:121
+#: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "Reseller Toolkit"
 
-#: includes/class-settings.php:125
+#: includes/class-settings.php:127
 msgid "Account"
 msgstr "Account"
 
-#: includes/class-settings.php:129
+#: includes/class-settings.php:131
 msgid "Features"
 msgstr "Mga Tampok"
 
-#: includes/class-settings.php:133
+#: includes/class-settings.php:135
 msgid "Styling"
 msgstr "Pag-istilo"
 
-#: includes/class-settings.php:150
+#: includes/class-settings.php:139
+#: includes/class-settings.php:157
+#: includes/mcp-kit/class-server.php:216
+msgid "AI agents (MCP)"
+msgstr "Mga AI agent (MCP)"
+
+#: includes/class-settings.php:158
+#: includes/mcp-kit/class-server.php:225
+msgid "Allow AI agents (MCP)"
+msgstr "Payagan ang mga AI agent (MCP)"
+
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:227
+msgid "Off: the tools below and their REST routes are not registered at all."
+msgstr "Naka-off: ang mga tool sa ibaba at ang mga REST route nito ay hindi nakarehistro."
+
+#: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
 msgstr "Ang iyong reseller account sa Zinn Digital®"
 
-#: includes/class-settings.php:151
+#: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "Lumikha ng isang reseller API key sa iyong Zinn® dashboard sa ilalim ng Developer → API keys, at i-paste ito dito."
 
-#: includes/class-settings.php:157
+#: includes/class-settings.php:185
 msgid "Reseller API key"
 msgstr "API key ng Reseller"
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "Naka-save sa site na ito lamang, at hinding-hindi kasama sa isang export o sa diagnostics report."
 
-#: includes/class-settings.php:164
+#: includes/class-settings.php:192
 msgid "Plan to provision"
 msgstr "Plan na i-provision"
 
-#: includes/class-settings.php:165
+#: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "Ang plan code kung saan inilalagay ang mga bagong customer. Iwanang blangko upang itanong sa bawat pagkakataon."
 
-#: includes/class-settings.php:171
+#: includes/class-settings.php:199
 msgid "API address"
 msgstr "Address ng API"
 
-#: includes/class-settings.php:172
+#: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "Huwag itong galawin maliban na lamang kung hiniling sa iyo ng suporta ng Zinn® na baguhin ito."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:206
 msgid "Control-panel address"
 msgstr "Address ng control panel"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
 msgstr "Kung saan ipinapadala ng link na “Aking hosting” ang iyong mga customer."
 
-#: includes/class-settings.php:195
+#: includes/class-settings.php:223
 msgid "Domain search"
 msgstr "Paghahanap ng domain"
 
-#: includes/class-settings.php:196
+#: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "Ibinigay ang [zinn_domain_search] shortcode"
 
-#: includes/class-settings.php:197
+#: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "Ilagay ang shortcode sa anumang pahina para hayaang suriin ng mga bisita ang isang domain at bilhin ito sa pamamagitan mo."
 
-#: includes/class-settings.php:203
+#: includes/class-settings.php:231
 msgid "Panel link"
 msgstr "Link ng panel"
 
-#: includes/class-settings.php:204
+#: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "Magpakita ng link na “Aking hosting” sa mga naka-sign in na customer"
 
-#: includes/class-settings.php:210
+#: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
 msgstr "Paglalaan ng WooCommerce"
 
-#: includes/class-settings.php:211
+#: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "Awtomatikong mag-provision ng hosting kapag nakumpleto ang isang order sa WooCommerce"
 
-#: includes/class-settings.php:212
+#: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "Magkakabisa lamang sa mga order na naglalaman ng produktong na-map mo sa isang Zinn® plan."
 
-#: includes/class-settings.php:228
+#: includes/class-settings.php:256
 msgid "Domain search appearance"
 msgstr "Hitsura ng paghahanap ng domain"
 
-#: includes/class-settings.php:229
+#: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "Naglo-load ang widget na ito sa loob ng iyong sariling tema. Pumili ng preset, o itakda ang sarili mong mga kulay — sa alinmang paraan, walang idinaragdag sa iyong mga pahina na makikita ng bisita bilang amin."
 
-#: includes/class-settings.php:237
+#: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "Nakalista sa readme ng plugin ang bawat klase na ginagamit ng widget, kaya maaaring i-override ng isang developer ang anumang hindi nasasaklawan ng isang preset."
 
-#: includes/class-settings.php:254
+#: includes/class-settings.php:282
 msgid "Follow my theme"
 msgstr "Sundin ang tema ko"
 
-#: includes/class-settings.php:270
+#: includes/class-settings.php:298
 msgid "Soft"
 msgstr "Malambot"
 
-#: includes/class-settings.php:286
+#: includes/class-settings.php:314
 msgid "High contrast"
 msgstr "Mataas ang contrast"
 
-#: includes/class-settings.php:302
+#: includes/class-settings.php:330
 msgid "Compact"
 msgstr "Pag-ikliin"
 
-#: includes/class-settings.php:321
+#: includes/class-settings.php:349
 msgid "Buy-link colour"
 msgstr "Kulay ng link na pambili"
 
-#: includes/class-settings.php:325
+#: includes/class-settings.php:353
 msgid "“Available” colour"
 msgstr "Kulay na “Available”"
 
-#: includes/class-settings.php:329
+#: includes/class-settings.php:357
 msgid "“Could not check” colour"
 msgstr "Kulay ng “Hindi nasuri”"
 
-#: includes/class-settings.php:333
+#: includes/class-settings.php:361
 msgid "Error colour"
 msgstr "Kulay ng error"
 
-#: includes/class-settings.php:337
+#: includes/class-settings.php:365
 msgid "Corner rounding"
 msgstr "Pagbilog ng sulok"
 
-#: includes/class-settings.php:341
+#: includes/class-settings.php:369
 msgid "Space inside each row"
 msgstr "Espasyo sa loob ng bawat hilera"
 
-#: includes/class-settings.php:345
+#: includes/class-settings.php:373
 msgid "Text size"
 msgstr "Laki ng teksto"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:377
 msgid "Domain-name weight"
 msgstr "Bigat ng pangalan ng domain"
 
-#: includes/class-settings.php:370
+#: includes/class-settings.php:398
 msgid "No reseller API key yet."
 msgstr "Wala pang reseller API key."
 
-#: includes/class-settings.php:371
+#: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "Gumagana na ang paghahanap ng domain nang wala nito, sa mga pampublikong presyo. Ang link ng panel at ang provisioning ng WooCommerce ay nangangailangan ng key: gumawa nito sa iyong Zinn® dashboard sa ilalim ng Developer → API keys."
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
 msgstr "Buksan ang aking Zinn® dashboard"
 
-#: includes/class-settings.php:391
+#: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
 msgstr "Naka-set ang isang key, pero walang naka-on."
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "Wala sa tatlong feature ang naka-enable, kaya walang ginagawa ang plugin na ito sa iyong site. I-on ang kailangan mo sa ilalim ng Features."
 
-#: includes/class-settings.php:394
+#: includes/class-settings.php:422
 msgid "Open Features"
 msgstr "Buksan ang mga Tampok"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:404
+#: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "Handa na — %d tampok ang naka-on."
 msgstr[1] "Handa na — %d na feature ang naka-on."
 
-#: includes/class-settings.php:409
+#: includes/class-settings.php:437
 msgid "Selling from"
 msgstr "Nagbebenta mula sa"
 
-#: includes/class-settings.php:443
+#: includes/class-settings.php:471
 msgid "Settings"
 msgstr "Mga Setting"
 
-#: includes/class-settings.php:502
+#: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
 msgstr "Wala pang API key, kaya walang nakakonekta."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:510
+#: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
 msgstr "Hindi nakakonekta: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:520
+#: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "Konektado. Ang iyong reseller programme ay %s."
@@ -685,3 +702,161 @@ msgstr "Hindi na-download ang update mula sa serbisyo ng pag-update ng Zinn® (%
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ang na-download na update ay nabigo sa pagsusuri ng integridad at hindi na-install."
+
+#: includes/mcp-kit/class-ability.php:82
+msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
+msgstr "Hindi natapos ang aksiyon. Subukang muli, at kung magpapatuloy ang pagkabigo, makipag-ugnayan sa administrator ng site."
+
+#: includes/mcp-kit/class-rest-bridge.php:281
+msgid "A required value is missing or has the wrong form. Check the ability's input schema."
+msgstr "May nawawalang kinakailangang halaga o mali ang anyo nito. Suriin ang input schema ng kakayahan."
+
+#: includes/mcp-kit/class-rest-bridge.php:314
+msgid "The site refused the request."
+msgstr "Tinanggihan ng site ang kahilingan."
+
+#: includes/mcp-kit/class-server.php:217
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
+msgstr "Hayaan ang mga AI assistant tulad ng Claude, Cursor o VS Code na gumawa sa site na ito para sa iyo sa pamamagitan ng MCP (Model Context Protocol). Nag-sign in sila bilang isang WordPress user gamit ang application password at magagawa lamang nila ang pinahihintulutang gawin ng user na iyon."
+
+#: includes/mcp-kit/class-server.php:219
+msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
+msgstr "Kailangan ng mga AI agent ang WordPress 6.9 o mas bago. I-update ang WordPress para magamit ang mga ito."
+
+#: includes/mcp-kit/class-server.php:232
+msgid "Connection address (MCP endpoint)"
+msgstr "Address ng koneksyon (MCP endpoint)"
+
+#: includes/mcp-kit/class-server.php:235
+msgid "Create an application password for your user"
+msgstr "Gumawa ng password ng aplikasyon para sa iyong user"
+
+#: includes/mcp-kit/class-server.php:236
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Idagdag ito sa mga setting ng MCP ng iyong AI app, kasama ang iyong username at ang password na iyon:"
+
+#: includes/mcp-kit/class-server.php:238
+msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
+msgstr "VS Code: ilagay ang parehong entry sa ilalim ng \"servers\" sa .vscode/mcp.json, at huwag sa ilalim ng \"mcpServers\"."
+
+#. translators: %d: how many tools an AI agent can use.
+#: includes/mcp-kit/class-server.php:242
+#, php-format
+msgid "Tools an AI agent can use here (%d):"
+msgstr "Mga tool na magagamit ng AI agent dito (%d):"
+
+#: includes/mcp-kit/class-server.php:253
+msgid "User guide: AI agents and MCP"
+msgstr "Gabay sa gumagamit: Mga AI agent at MCP"
+
+#: includes/mcp-kit/class-server.php:256
+msgid "Developer docs: abilities, REST and MCP"
+msgstr "Mga dokumento ng developer: mga kakayahan, REST at MCP"
+
+#: includes/mcp/class-abilities.php:54
+msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
+msgstr "Pamahalaan ang iyong mga kliyente sa pagho-host, ang kanilang mga plano at ang kanilang mga site sa Zinn Digital® mula sa site na ito."
+
+#: includes/mcp/class-abilities.php:60
+msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
+msgstr "Ang iyong mga kliyente, ang kanilang mga plano, at ang kanilang mga site, sa pamamagitan ng iyong Zinn Digital® reseller account."
+
+#: includes/mcp/class-abilities.php:108
+msgid "Read your reseller account"
+msgstr "Basahin ang iyong reseller account"
+
+#: includes/mcp/class-abilities.php:109
+msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
+msgstr "Ibinabalik ang iyong reseller account sa isang basa: tatak, mga plano, mga bilang ng kliyente at serbisyo, at kung ano ang naka-set up."
+
+#: includes/mcp/class-abilities.php:115
+msgid "List your clients"
+msgstr "Ilista ang iyong mga kliyente"
+
+#: includes/mcp/class-abilities.php:116
+msgid "Lists your client accounts, a page at a time (cursor, limit)."
+msgstr "Nlilista ang iyong mga account ng kliyente, isang pahina sa isang pagkakataon (cursor, limit)."
+
+#: includes/mcp/class-abilities.php:122
+msgid "Create a client"
+msgstr "Gumawa ng kliyente"
+
+#: includes/mcp/class-abilities.php:123
+msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
+msgstr "Lumilikha ng isang account ng kliyente sa ilalim ng sa iyo (name; default_currency, isang tatlong-titik na code). Ilagay sila sa isang plan bago ang kanilang unang site."
+
+#: includes/mcp/class-abilities.php:142
+msgid "Read a client's plan"
+msgstr "Basahin ang plan ng kliyente"
+
+#: includes/mcp/class-abilities.php:143
+msgid "Returns which plan a client is on and what it costs you (client_id)."
+msgstr "Ibinabalik kung sa aling plano nakatala ang isang kliyente at kung magkano ang gastos nito sa iyo (client_id)."
+
+#: includes/mcp/class-abilities.php:149
+msgid "Put a client on a plan"
+msgstr "Ilagay ang isang kliyente sa isang plano"
+
+#: includes/mcp/class-abilities.php:150
+msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
+msgstr "Inilalagay ang isang kliyente sa isa sa iyong mga plano (client_id, plan_code; interval: buwan o taon). Gawin ito bago ang kanilang unang site."
+
+#: includes/mcp/class-abilities.php:169
+msgid "List the plans you can sell"
+msgstr "Ilista ang mga planong maaari mong ibenta"
+
+#: includes/mcp/class-abilities.php:170
+msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
+msgstr "Inililista ang mga plano sa pag-host at ang mga presyo nito (pinapakitid ng product_line at currency)."
+
+#: includes/mcp/class-abilities.php:184
+msgid "List your clients' sites"
+msgstr "Ilista ang mga site ng iyong mga kliyente"
+
+#: includes/mcp/class-abilities.php:185
+msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
+msgstr "Nakalista ang lahat ng inilaan mo para sa iyong mga kliyente (nililimitahan ng client_id at status), isang pahina sa isang pagkakataon."
+
+#: includes/mcp/class-abilities.php:196
+msgid "Create a site for a client"
+msgstr "Lumikha ng site para sa isang kliyente"
+
+#: includes/mcp/class-abilities.php:197
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "Lumilikha ng naka-host na site para sa isa sa iyong mga kliyente (client_id, product_line, primary_domain). Siningil ito sa iyong account sa plano ng kliyente, gaya ng sa iyong shop."
+
+#: includes/mcp/class-abilities.php:217
+msgid "Suspend a client's site"
+msgstr "I-suspend ang site ng kliyente"
+
+#: includes/mcp/class-abilities.php:218
+msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
+msgstr "Inilalagay ang site ng isang kliyente sa hold dahil sa hindi pagbabayad (site_id; dahilan: sarili mong tala, hindi kailanman ipinapakita sa kliyente). Humihinto sa pag-serve ang site hanggang sa ito ay ma-unsuspend."
+
+#: includes/mcp/class-abilities.php:236
+msgid "Unsuspend a client's site"
+msgstr "Alisin sa suspensiyon ang site ng kliyente"
+
+#: includes/mcp/class-abilities.php:237
+msgid "Lifts a non-payment hold, so the site serves again (site_id)."
+msgstr "Inaalis ang hold sa hindi pagbabayad, kaya muling mapagsisilbihan ang site (site_id)."
+
+#: includes/mcp/class-abilities.php:243
+msgid "Read the Reseller Toolkit settings"
+msgstr "Basahin ang mga setting ng Reseller Toolkit"
+
+#: includes/mcp/class-abilities.php:244
+msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
+msgstr "Ibinabalik ang mga setting ng plugin na ito (ang address ng API, ang planong ginagamit ng mga bagong order, kung aling mga feature ang naka-on). Ang API key ay hindi kailanman ibinabalik, kundi kung may nakompyuter o nakaimbak ba nito."
+
+#: includes/mcp/class-abilities.php:250
+msgid "Change the Reseller Toolkit settings"
+msgstr "Palitan ang mga setting ng Reseller Toolkit"
+
+#: includes/mcp/class-abilities.php:251
+msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
+msgstr "Binabago nito ang mga setting na ipinapadala mo (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) at pinapanatili ang natitira. Ang API key at address ay binabago lamang sa screen."
+
+#: includes/mcp/class-abilities.php:297
+msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
+msgstr "Idagdag muna ang iyong Zinn Digital® reseller API key sa screen ng Reseller Toolkit."
