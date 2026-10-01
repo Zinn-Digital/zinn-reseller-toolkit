@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.0
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -151,6 +151,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.6.0 =
+* On sites hosted by Zinn Digital®, this plugin is now installed from WordPress.org, so it updates from WordPress.org like any directory plugin. No change to what it does.
 
 = 1.5.0 =
 * White label: the domain search and the "Manage my hosting" link no longer show our name to your visitors — neutral class names, form fields and stylesheet handle, and the stylesheet is inlined instead of linked from the plugin folder. Old search links and panel links keep working.
