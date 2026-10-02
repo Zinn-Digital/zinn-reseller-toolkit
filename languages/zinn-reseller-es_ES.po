@@ -627,47 +627,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "Se ha rechazado el informe (HTTP %d). Cópialo arriba y abre un ticket indicando ese número."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:241
-#: includes/class-zinn-reseller-promo.php:299
+#: includes/class-zinn-reseller-promo.php:326
+#: includes/class-zinn-reseller-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s: guías y servicios"
 
-#: includes/class-zinn-reseller-promo.php:256
+#: includes/class-zinn-reseller-promo.php:341
 msgid "User guides"
 msgstr "Guías de usuario"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:306
+#: includes/class-zinn-reseller-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Lee la guía de usuario de %s"
 
-#: includes/class-zinn-reseller-promo.php:314
+#: includes/class-zinn-reseller-promo.php:399
 msgid "Hide this"
 msgstr "Ocultar esto"
 
-#: includes/class-zinn-reseller-promo.php:424
+#: includes/class-zinn-reseller-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Alojamiento de Zinn® para WordPress"
 
-#: includes/class-zinn-reseller-promo.php:425
+#: includes/class-zinn-reseller-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, copias de seguridad diarias, migración gratuita y un panel de control diseñado para personas que gestionan más de un sitio."
 
-#: includes/class-zinn-reseller-promo.php:431
+#: includes/class-zinn-reseller-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "El mercado de Zinn®"
 
-#: includes/class-zinn-reseller-promo.php:432
+#: includes/class-zinn-reseller-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Compra y vende sitios web establecidos, dominios y ubicaciones de enlaces, con el dinero retenido de forma segura hasta que ambas partes estén satisfechas."
 
-#: includes/class-zinn-reseller-promo.php:479
+#: includes/class-zinn-reseller-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub®: contrata a profesionales que se dedican a esto"
 
-#: includes/class-zinn-reseller-promo.php:480
+#: includes/class-zinn-reseller-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Nuestro mercado global de freelancers: explora más de 10 000 servicios listos para usar de redactores, diseñadores, desarrolladores y especialistas en SEO, o publica un proyecto y deja que envíen sus propuestas."
 
@@ -709,52 +709,52 @@ msgstr "La actualización descargada falló en su comprobación de integridad y 
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "No se ha podido completar la acción. Inténtalo de nuevo y, si sigue fallando, contacta con el administrador del sitio."
 
-#: includes/mcp-kit/class-oauth.php:639
-#: includes/mcp-kit/class-oauth.php:650
+#: includes/mcp-kit/class-oauth.php:657
+#: includes/mcp-kit/class-oauth.php:668
 msgid "Connect an AI app"
 msgstr "Conecta una app de IA"
 
-#: includes/mcp-kit/class-oauth.php:652
-#: includes/mcp-kit/class-oauth.php:658
-#: includes/mcp-kit/class-oauth.php:699
+#: includes/mcp-kit/class-oauth.php:670
+#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:717
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "Esta solicitud de conexión ha caducado. Vuelve a la aplicación y empieza a conectarte de nuevo."
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:666
+#: includes/mcp-kit/class-oauth.php:684
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s solicita usar %2$s en este sitio como %3$s. Solo puede hacer lo que tu cuenta de WordPress tenga permitido hacer, y puedes desconectarlo en cualquier momento desde los ajustes de agentes de IA (MCP)."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:669
+#: includes/mcp-kit/class-oauth.php:687
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s se identificó desde %2$s."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:672
+#: includes/mcp-kit/class-oauth.php:690
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s se registró automáticamente. Solo continúa si iniciaste esto desde %2$s."
 
-#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:694
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "Tu cuenta no puede usar estas herramientas en este sitio. Pregunta a un administrador."
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:679
+#: includes/mcp-kit/class-oauth.php:697
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "Después de responder, volverás a %s."
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:702
 #, php-format
 msgid "Allow %s"
 msgstr "Permitir %s"
 
-#: includes/mcp-kit/class-oauth.php:685
+#: includes/mcp-kit/class-oauth.php:703
 msgid "Do not allow"
 msgstr "No permitir"
 
@@ -808,7 +808,7 @@ msgstr "Añade esto a los ajustes de MCP de tu aplicación de IA, con tu nombre 
 
 #: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: pon la misma entrada bajo \"servers\" en .vscode/mcp.json, no bajo \"mcpServers\"."
+msgstr "VS Code: pon la misma entrada bajo «servers» en .vscode/mcp.json, no bajo «mcpServers»."
 
 #. translators: %d: how many tools an AI agent can use.
 #: includes/mcp-kit/class-server.php:284

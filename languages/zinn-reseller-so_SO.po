@@ -625,47 +625,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "Warbixinta waa la diiday (HTTP %d). Nuqul ka samee xagga sare oo fur tigidh, adoo xusaya lambarkaas."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:241
-#: includes/class-zinn-reseller-promo.php:299
+#: includes/class-zinn-reseller-promo.php:326
+#: includes/class-zinn-reseller-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — hagayaal iyo adeegyo"
 
-#: includes/class-zinn-reseller-promo.php:256
+#: includes/class-zinn-reseller-promo.php:341
 msgid "User guides"
 msgstr "Hagayaasha isticmaalaha"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:306
+#: includes/class-zinn-reseller-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Akhri buug-tilmaameedka isticmaalaha %s"
 
-#: includes/class-zinn-reseller-promo.php:314
+#: includes/class-zinn-reseller-promo.php:399
 msgid "Hide this"
 msgstr "Qari kani"
 
-#: includes/class-zinn-reseller-promo.php:424
+#: includes/class-zinn-reseller-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Martigelinta Zinn® ee WordPress"
 
-#: includes/class-zinn-reseller-promo.php:425
+#: includes/class-zinn-reseller-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, kaydinta xogta maalinlaha ah, wareejin bilaash ah iyo qaybta xakamaynta oo loo dhisay dadka maamula wax ka badan hal goob."
 
-#: includes/class-zinn-reseller-promo.php:431
+#: includes/class-zinn-reseller-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Suuqa Zinn®"
 
-#: includes/class-zinn-reseller-promo.php:432
+#: includes/class-zinn-reseller-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Iibso oo iibi boggag dhisan, magacyada domain-ka iyo meelaynta xiriiriyeyaasha, iyadoo lacagta si ammaan ah loo haynayo ilaa ay labada dhinacba ku qancaan."
 
-#: includes/class-zinn-reseller-promo.php:479
+#: includes/class-zinn-reseller-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — shaqaalayso dad shaqo ahaan u qabta arrintan"
 
-#: includes/class-zinn-reseller-promo.php:480
+#: includes/class-zinn-reseller-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Suuqa xorta ah ee caalamiga ah: baadh in ka badan 10,000 oo adeegyo diyaarsan oo ka yimid qorayaal, naqshadeeyayaal, sameeyayaal softiweer iyo khubaro SEO, ama daabac mashruuc oo u oggolow inay dalab ku soo gudbiyaan."
 
@@ -707,52 +707,52 @@ msgstr "Cusboonaysiinta la soo dejiyay waxay ku guuldarraysatay hubinta sugnaans
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Falka lama dhamaystiri karin. Fadlan mar kale isku day, haddii ay weli shaqayn weydana, la xiriir maamulaha goobta."
 
-#: includes/mcp-kit/class-oauth.php:639
-#: includes/mcp-kit/class-oauth.php:650
+#: includes/mcp-kit/class-oauth.php:657
+#: includes/mcp-kit/class-oauth.php:668
 msgid "Connect an AI app"
 msgstr "Ku xidh barnaamijka AI"
 
-#: includes/mcp-kit/class-oauth.php:652
-#: includes/mcp-kit/class-oauth.php:658
-#: includes/mcp-kit/class-oauth.php:699
+#: includes/mcp-kit/class-oauth.php:670
+#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:717
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "Codsigan isku-xirka wuu dhacay. Ku noqo abka oo mar kale billow isku-xirka."
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:666
+#: includes/mcp-kit/class-oauth.php:684
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s waxa uu codsanayaa in uu ku isticmaalo %2$s goobtan sidii %3$s. Waxa kaliya ee uu samayn karaa waa waxa akoonkaaga WordPress loo oggol yahay inuu sameeyo, waxaanad ka jari kartaa wakhti kasta goobaha wakiilada AI (MCP)."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:669
+#: includes/mcp-kit/class-oauth.php:687
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s waxa uu iska aqoonsaday %2$s."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:672
+#: includes/mcp-kit/class-oauth.php:690
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s ayaa si toos ah isu diiwaangeliyay. Kaliya sii wad haddii aad tan ka bilowday %2$s."
 
-#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:694
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "Koontadaadu ma isticmaali karto aaladahan boggan. Weydii maamulaha."
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:679
+#: includes/mcp-kit/class-oauth.php:697
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "Markaad jawaabto ka dib waxaad dib ugu noqon doontaa %s."
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:702
 #, php-format
 msgid "Allow %s"
 msgstr "Oggolow %s"
 
-#: includes/mcp-kit/class-oauth.php:685
+#: includes/mcp-kit/class-oauth.php:703
 msgid "Do not allow"
 msgstr "Ha oggolaan"
 

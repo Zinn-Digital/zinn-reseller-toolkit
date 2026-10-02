@@ -625,47 +625,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "ሪፖርቱ ተቀባይነት አላገኘም (HTTP %d)። ከላይ ይቅዱት እና ያንን ቁጥር በመጥቀስ ቲኬት ይክፈቱ።"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:241
-#: includes/class-zinn-reseller-promo.php:299
+#: includes/class-zinn-reseller-promo.php:326
+#: includes/class-zinn-reseller-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — መመሪያዎች እና አገልግሎቶች"
 
-#: includes/class-zinn-reseller-promo.php:256
+#: includes/class-zinn-reseller-promo.php:341
 msgid "User guides"
 msgstr "የተጠቃሚ መመሪያዎች"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:306
+#: includes/class-zinn-reseller-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "የ%s የተጠቃሚ መመሪያን ያንብቡ"
 
-#: includes/class-zinn-reseller-promo.php:314
+#: includes/class-zinn-reseller-promo.php:399
 msgid "Hide this"
 msgstr "ይህን ደብቅ"
 
-#: includes/class-zinn-reseller-promo.php:424
+#: includes/class-zinn-reseller-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn® ሆስቲንግ ለWordPress"
 
-#: includes/class-zinn-reseller-promo.php:425
+#: includes/class-zinn-reseller-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed፣ ዕለታዊ ምትኬዎች፣ ነጻ ፍልሰት እና ከአንድ በላይ ድረ-ገጾችን ለሚያስተዳድሩ ሰዎች የተዘጋጀ የቁጥጥር ፓነል።"
 
-#: includes/class-zinn-reseller-promo.php:431
+#: includes/class-zinn-reseller-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "የ Zinn® የገበያ ቦታ"
 
-#: includes/class-zinn-reseller-promo.php:432
+#: includes/class-zinn-reseller-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ሁለቱም ወገኖች ደስተኛ እስኪሆኑ ድረስ ገንዘቡ በደህና ተይዞ የቆዩ ጣቢያዎችን፣ ዶሜይኖችን እና የአገናኝ ምደባዎችን ይግዙ እና ይሽጡ።"
 
-#: includes/class-zinn-reseller-promo.php:479
+#: includes/class-zinn-reseller-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ይህን በሙያቸው የሚያከናውኑ ሰዎችን ይቅጠሩ"
 
-#: includes/class-zinn-reseller-promo.php:480
+#: includes/class-zinn-reseller-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ዓለም አቀፍ የፍሪላንስ የገበያ ቦታችን፡ ከጸሐፊዎች፣ ዲዛይነሮች፣ ገንቢዎች እና የSEO ባለሙያዎች የቀረቡ ከ10,000 በላይ ዝግጁ አገልግሎቶችን ያስሱ፣ ወይም ፕሮጀክት ለጥፈው ዋጋ እንዲያቀርቡ ያድርጉ።"
 
@@ -707,52 +707,52 @@ msgstr "የወረደው ዝማኔ የደህንነት ትክክለኛነት ማ�
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "ድርጊቱን ማጠናቀቅ አልተቻለም። እንደገና ይሞክሩ፣ እና አሁንም ካልተሳካ የጣቢያውን አስተዳዳሪ ያነጋግሩ።"
 
-#: includes/mcp-kit/class-oauth.php:639
-#: includes/mcp-kit/class-oauth.php:650
+#: includes/mcp-kit/class-oauth.php:657
+#: includes/mcp-kit/class-oauth.php:668
 msgid "Connect an AI app"
 msgstr "የ AI መተግበሪያ ያገናኙ"
 
-#: includes/mcp-kit/class-oauth.php:652
-#: includes/mcp-kit/class-oauth.php:658
-#: includes/mcp-kit/class-oauth.php:699
+#: includes/mcp-kit/class-oauth.php:670
+#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:717
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "ይህ የግንኙነት ጥያቄ ጊዜው አልፎበታል። ወደ መተግበሪያው ይመለሱና እንደገና ማገናኘት ይጀምሩ።"
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:666
+#: includes/mcp-kit/class-oauth.php:684
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s በዚህ ጣቢያ ላይ %2$sን እንደ %3$s ለመጠቀም እየጠየቀ ነው። የእርስዎ የWordPress መለያ እንዲያደርግ የተፈቀደለትን ብቻ ማድረግ ይችላል፣ እና በማንኛውም ጊዜ ከAI ወኪሎች (MCP) ቅንብሮች ማቋረጥ ይችላሉ።"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:669
+#: includes/mcp-kit/class-oauth.php:687
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s ራሱን ከ%2$s ለይቷል።"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:672
+#: includes/mcp-kit/class-oauth.php:690
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s ራሱን በራሱ በራስ-ሰር አስመዝግቧል። ይህን ከ%2$s ከጀመሩት ብቻ ይቀጥሉ።"
 
-#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:694
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "የእርስዎ መለያ በዚህ ጣቢያ ላይ እነዚህን መሣሪያዎች መጠቀም አይችልም። አስተዳዳሪን ይጠይቁ።"
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:679
+#: includes/mcp-kit/class-oauth.php:697
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "ከመለሱ በኋላ ወደ %s ይመለሳሉ።"
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:702
 #, php-format
 msgid "Allow %s"
 msgstr "%s ፍቀድ"
 
-#: includes/mcp-kit/class-oauth.php:685
+#: includes/mcp-kit/class-oauth.php:703
 msgid "Do not allow"
 msgstr "አይፍቀዱ"
 

@@ -623,47 +623,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "Báo cáo đã bị từ chối (HTTP %d). Hãy sao chép nó ở trên và mở yêu cầu hỗ trợ, kèm theo số đó."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:241
-#: includes/class-zinn-reseller-promo.php:299
+#: includes/class-zinn-reseller-promo.php:326
+#: includes/class-zinn-reseller-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — hướng dẫn và dịch vụ"
 
-#: includes/class-zinn-reseller-promo.php:256
+#: includes/class-zinn-reseller-promo.php:341
 msgid "User guides"
 msgstr "Hướng dẫn sử dụng"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:306
+#: includes/class-zinn-reseller-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Đọc hướng dẫn sử dụng %s"
 
-#: includes/class-zinn-reseller-promo.php:314
+#: includes/class-zinn-reseller-promo.php:399
 msgid "Hide this"
 msgstr "Ẩn mục này"
 
-#: includes/class-zinn-reseller-promo.php:424
+#: includes/class-zinn-reseller-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Dịch vụ lưu trữ Zinn® cho WordPress"
 
-#: includes/class-zinn-reseller-promo.php:425
+#: includes/class-zinn-reseller-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, sao lưu hàng ngày, chuyển dữ liệu miễn phí và bảng điều khiển được thiết kế cho những người quản lý nhiều trang web."
 
-#: includes/class-zinn-reseller-promo.php:431
+#: includes/class-zinn-reseller-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Thị trường Zinn®"
 
-#: includes/class-zinn-reseller-promo.php:432
+#: includes/class-zinn-reseller-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Mua và bán các trang web đã phát triển, tên miền và vị trí đặt liên kết, với tiền được giữ an toàn cho đến khi cả hai bên đều hài lòng."
 
-#: includes/class-zinn-reseller-promo.php:479
+#: includes/class-zinn-reseller-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — thuê những người làm công việc này để kiếm sống"
 
-#: includes/class-zinn-reseller-promo.php:480
+#: includes/class-zinn-reseller-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Thị trường làm việc tự do toàn cầu của chúng tôi: khám phá hơn 10.000 dịch vụ có sẵn từ các cây viết, nhà thiết kế, lập trình viên và chuyên gia SEO, hoặc đăng dự án và để họ đấu thầu."
 
@@ -705,52 +705,52 @@ msgstr "Bản cập nhật đã tải xuống không vượt qua được bướ
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Không thể hoàn thành tác vụ. Hãy thử lại, và nếu vẫn thất bại, hãy liên hệ với quản trị viên trang web."
 
-#: includes/mcp-kit/class-oauth.php:639
-#: includes/mcp-kit/class-oauth.php:650
+#: includes/mcp-kit/class-oauth.php:657
+#: includes/mcp-kit/class-oauth.php:668
 msgid "Connect an AI app"
 msgstr "Kết nối ứng dụng AI"
 
-#: includes/mcp-kit/class-oauth.php:652
-#: includes/mcp-kit/class-oauth.php:658
-#: includes/mcp-kit/class-oauth.php:699
+#: includes/mcp-kit/class-oauth.php:670
+#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:717
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "Yêu cầu kết nối này đã hết hạn. Hãy quay lại ứng dụng và bắt đầu kết nối lại."
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:666
+#: includes/mcp-kit/class-oauth.php:684
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s đang yêu cầu sử dụng %2$s trên trang web này dưới dạng %3$s. Nó chỉ có thể thực hiện những gì tài khoản WordPress của bạn được phép làm và bạn có thể ngắt kết nối nó bất cứ lúc nào từ cài đặt tác nhân AI (MCP)."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:669
+#: includes/mcp-kit/class-oauth.php:687
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s đã tự nhận diện từ %2$s."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:672
+#: includes/mcp-kit/class-oauth.php:690
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s đã tự động đăng ký. Chỉ tiếp tục nếu bạn đã bắt đầu thao tác này từ %2$s."
 
-#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:694
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "Tài khoản của bạn không thể sử dụng các công cụ này trên trang này. Hãy hỏi quản trị viên."
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:679
+#: includes/mcp-kit/class-oauth.php:697
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "Sau khi trả lời, bạn sẽ quay lại %s."
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:702
 #, php-format
 msgid "Allow %s"
 msgstr "Cho phép %s"
 
-#: includes/mcp-kit/class-oauth.php:685
+#: includes/mcp-kit/class-oauth.php:703
 msgid "Do not allow"
 msgstr "Không cho phép"
 

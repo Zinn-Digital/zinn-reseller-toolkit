@@ -625,47 +625,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "റിപ്പോർട്ട് നിരസിക്കപ്പെട്ടു (HTTP %d). മുകളിൽ അത് പകർത്തി, ആ നമ്പർ ഉദ്ധരിച്ച് ഒരു ടിക്കറ്റ് തുറക്കുക."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:241
-#: includes/class-zinn-reseller-promo.php:299
+#: includes/class-zinn-reseller-promo.php:326
+#: includes/class-zinn-reseller-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — വഴികാട്ടികളും സേവനങ്ങളും"
 
-#: includes/class-zinn-reseller-promo.php:256
+#: includes/class-zinn-reseller-promo.php:341
 msgid "User guides"
 msgstr "ഉപയോക്തൃ ഗൈഡുകൾ"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:306
+#: includes/class-zinn-reseller-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s ഉപയോക്തൃ ഗൈഡ് വായിക്കുക"
 
-#: includes/class-zinn-reseller-promo.php:314
+#: includes/class-zinn-reseller-promo.php:399
 msgid "Hide this"
 msgstr "ഇത് മറയ്ക്കുക"
 
-#: includes/class-zinn-reseller-promo.php:424
+#: includes/class-zinn-reseller-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress-നായുള്ള Zinn® ഹോസ്റ്റിംഗ്"
 
-#: includes/class-zinn-reseller-promo.php:425
+#: includes/class-zinn-reseller-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, പ്രതിദിന ബാക്കപ്പുകൾ, സൗജന്യ മൈഗ്രേഷൻ, ഒന്നിലധികം സൈറ്റുകൾ കൈകാര്യം ചെയ്യുന്ന ആളുകൾക്കായി നിർമ്മിച്ച ഒരു കൺട്രോൾ പാനൽ."
 
-#: includes/class-zinn-reseller-promo.php:431
+#: includes/class-zinn-reseller-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Zinn® മാർക്കറ്റ്പ്ലേസ്"
 
-#: includes/class-zinn-reseller-promo.php:432
+#: includes/class-zinn-reseller-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "രണ്ട് കക്ഷികളും തൃപ്തരാകുന്നതുവരെ പണം സുരക്ഷിതമായി സൂക്ഷിച്ചുകൊണ്ട്, നിലവിലുള്ള സൈറ്റുകൾ, ഡൊമെയ്‌നുകൾ, ലിങ്ക് പ്ലേസ്‌മെന്റുകൾ എന്നിവ വാങ്ങുകയും വിൽക്കുകയും ചെയ്യുക."
 
-#: includes/class-zinn-reseller-promo.php:479
+#: includes/class-zinn-reseller-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ഇത് ഉപജീവനമാർഗ്ഗമായി ചെയ്യുന്ന ആളുകളെ നിയമിക്കുക"
 
-#: includes/class-zinn-reseller-promo.php:480
+#: includes/class-zinn-reseller-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ഞങ്ങളുടെ ആഗോള ഫ്രീലാൻസ് മാർക്കറ്റ്പ്ലേസ്: എഴുത്തുകാർ, ഡിസൈനർമാർ, ഡെവലപ്പർമാർ, എസ്ഇഒ വിദഗ്ദ്ധർ എന്നിവരിൽ നിന്നുള്ള 10,000-ലധികം സേവനങ്ങൾ ബ്രൗസ് ചെയ്യുക, അല്ലെങ്കിൽ ഒരു പ്രോജക്റ്റ് പോസ്റ്റ് ചെയ്ത് ലേലം വിളിക്കാൻ അവരെ അനുവദിക്കുക."
 
@@ -707,52 +707,52 @@ msgstr "ഡൗൺലോഡ് ചെയ്ത അപ്‌ഡേറ്റിന�
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "പ്രവൃത്തി പൂർത്തിയാക്കാൻ കഴിഞ്ഞില്ല. വീണ്ടും ശ്രമിക്കുക, പരാജയപ്പെടുന്നത് തുടരുകയാണെങ്കിൽ സൈറ്റ് അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക."
 
-#: includes/mcp-kit/class-oauth.php:639
-#: includes/mcp-kit/class-oauth.php:650
+#: includes/mcp-kit/class-oauth.php:657
+#: includes/mcp-kit/class-oauth.php:668
 msgid "Connect an AI app"
 msgstr "ഒരു AI ആപ്പ് കണക്റ്റ് ചെയ്യുക"
 
-#: includes/mcp-kit/class-oauth.php:652
-#: includes/mcp-kit/class-oauth.php:658
-#: includes/mcp-kit/class-oauth.php:699
+#: includes/mcp-kit/class-oauth.php:670
+#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:717
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "ഈ കണക്ഷൻ അഭ്യർത്ഥനയുടെ കാലാവധി കഴിഞ്ഞു. ആപ്പിലേക്ക് മടങ്ങിപ്പോയി വീണ്ടും കണക്റ്റുചെയ്യാൻ ആരംഭിക്കുക."
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:666
+#: includes/mcp-kit/class-oauth.php:684
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "ഈ സൈറ്റിൽ %1$s, %3$s ആയി %2$s ഉപയോഗിക്കാൻ അഭ്യർത്ഥിക്കുന്നു. നിങ്ങളുടെ WordPress അക്കൗണ്ടിന് ചെയ്യാൻ അനുവാദമുള്ള കാര്യങ്ങൾ മാത്രമേ ഇതിന് ചെയ്യാനാകൂ, കൂടാതെ AI ഏജന്റ്സ് (MCP) ക്രമീകരണങ്ങളിൽ നിന്ന് എപ്പോൾ വേണമെങ്കിലും നിങ്ങൾക്ക് ഇതിന്റെ കണക്ഷൻ വിച്ഛേദിക്കാം."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:669
+#: includes/mcp-kit/class-oauth.php:687
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s %2$s-ൽ നിന്ന് സ്വയം തിരിച്ചറിഞ്ഞു."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:672
+#: includes/mcp-kit/class-oauth.php:690
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s സ്വയമേവ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ട്. നിങ്ങൾ ഇത് %2$s-ൽ നിന്നാണ് ആരംഭിച്ചതെങ്കിൽ മാത്രം തുടരുക."
 
-#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:694
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "നിങ്ങളുടെ അക്കൗണ്ടിന് ഈ സൈറ്റിൽ ഈ ഉപകരണങ്ങൾ ഉപയോഗിക്കാൻ കഴിയില്ല. ഒരു അഡ്മിനിസ്ട്രേറ്ററോട് ചോദിക്കുക."
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:679
+#: includes/mcp-kit/class-oauth.php:697
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "മറുപടി നൽകിയ ശേഷം നിങ്ങൾ %s-ലേക്ക് മടങ്ങും."
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:702
 #, php-format
 msgid "Allow %s"
 msgstr "%s അനുവദിക്കുക"
 
-#: includes/mcp-kit/class-oauth.php:685
+#: includes/mcp-kit/class-oauth.php:703
 msgid "Do not allow"
 msgstr "അനുവദിക്കരുത്"
 

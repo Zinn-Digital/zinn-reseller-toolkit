@@ -181,7 +181,7 @@ msgstr "Adres panelu sterowania"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Dokąd odnośnik „Mój hosting” kieruje Twoich klientów."
+msgstr "Dokąd odnośnik „Mój hosting” kieruje twoich klientów."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -193,7 +193,7 @@ msgstr "Podaj shortcode [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Umieść shortcode na dowolnej stronie, aby umożliwić odwiedzającym sprawdzenie domeny i jej zakup za Twoim pośrednictwem."
+msgstr "Umieść shortcode na dowolnej stronie, aby umożliwić odwiedzającym sprawdzenie domeny i jej zakup za twoim pośrednictwem."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -213,7 +213,7 @@ msgstr "Udostępniaj hosting automatycznie po zrealizowaniu zamówienia WooComme
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "Działa tylko w przypadku zamówień zawierających produkt przypisany przez Ciebie do planu Zinn®."
+msgstr "Działa tylko w przypadku zamówień zawierających produkt przypisany przez ciebie do planu Zinn®."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
@@ -548,7 +548,7 @@ msgstr "Nie połączono"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "Działa na Twoim własnym koncie"
+msgstr "Działa na twoim własnym koncie"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
@@ -594,7 +594,7 @@ msgstr "Wyślij ten raport do pomocy technicznej Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Otwieramy dla Ciebie zgłoszenie do pomocy technicznej i odpowiadamy e-mailem. Jeśli wolisz go nie wysyłać, skopiuj go powyżej i wklej do zgłoszenia samodzielnie."
+msgstr "Otwieramy dla ciebie zgłoszenie do pomocy technicznej i odpowiadamy e-mailem. Jeśli wolisz go nie wysyłać, skopiuj go powyżej i wklej do zgłoszenia samodzielnie."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
@@ -604,13 +604,13 @@ msgstr "Nie udało się nawiązać połączenia z Zinn Digital® z tego serwera 
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Wysłano. Wsparcie Zinn® otrzymało Twoje zgłoszenie i odpowie pocztą e-mail."
+msgstr "Wysłano. Wsparcie Zinn® otrzymało twoje zgłoszenie i odpowie pocztą e-mail."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Wysłano. Wsparcie Zinn® otrzymało Twoje zgłoszenie — numer referencyjny %s — i odpowie drogą mailową."
+msgstr "Wysłano. Wsparcie Zinn® otrzymało twoje zgłoszenie — numer referencyjny %s — i odpowie drogą mailową."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
@@ -618,7 +618,7 @@ msgstr "Wysłałeś kilka zgłoszeń w krótkim czasie. Odczekaj kilka minut i s
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® nie może teraz przyjąć zgłoszenia — to problem po naszej stronie, nie Twojej. Spróbuj ponownie za chwilę lub skopiuj powyższe zgłoszenie do zgłoszenia serwisowego."
+msgstr "Zinn Digital® nie może teraz przyjąć zgłoszenia — to problem po naszej stronie, nie twojej. Spróbuj ponownie za chwilę lub skopiuj powyższe zgłoszenie do zgłoszenia serwisowego."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
@@ -627,47 +627,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "Raport został odrzucony (HTTP %d). Skopiuj go powyżej i otwórz zgłoszenie, podając ten numer."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:241
-#: includes/class-zinn-reseller-promo.php:299
+#: includes/class-zinn-reseller-promo.php:326
+#: includes/class-zinn-reseller-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — przewodniki i usługi"
 
-#: includes/class-zinn-reseller-promo.php:256
+#: includes/class-zinn-reseller-promo.php:341
 msgid "User guides"
 msgstr "Przewodniki użytkownika"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:306
+#: includes/class-zinn-reseller-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Przeczytaj instrukcję obsługi %s"
 
-#: includes/class-zinn-reseller-promo.php:314
+#: includes/class-zinn-reseller-promo.php:399
 msgid "Hide this"
 msgstr "Ukryj to"
 
-#: includes/class-zinn-reseller-promo.php:424
+#: includes/class-zinn-reseller-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Hosting Zinn® dla WordPress"
 
-#: includes/class-zinn-reseller-promo.php:425
+#: includes/class-zinn-reseller-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, codzienne kopie zapasowe, bezpłatna migracja i panel kontrolny stworzony dla osób zarządzających więcej niż jedną stroną."
 
-#: includes/class-zinn-reseller-promo.php:431
+#: includes/class-zinn-reseller-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Rynek Zinn®"
 
-#: includes/class-zinn-reseller-promo.php:432
+#: includes/class-zinn-reseller-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Kupuj i sprzedawaj istniejące strony, domeny i miejsca na linki, z bezpiecznie zdeponowanymi środkami, dopóki obie strony nie będą zadowolone."
 
-#: includes/class-zinn-reseller-promo.php:479
+#: includes/class-zinn-reseller-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — zatrudnij ludzi, którzy robią to zawodowo"
 
-#: includes/class-zinn-reseller-promo.php:480
+#: includes/class-zinn-reseller-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Nasz globalny rynek freelancerów: przeglądaj ponad 10 000 gotowych usług oferowanych przez copywriterów, projektantów, programistów i specjalistów SEO, lub dodaj projekt i pozwól im składać oferty."
 
@@ -709,52 +709,52 @@ msgstr "Pobrana aktualizacja nie przeszła pomyślnie weryfikacji integralności
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Nie udało się ukończyć tej czynności. Spróbuj ponownie, a jeśli problem będzie się powtarzał, skontaktuj się z administratorem witryny."
 
-#: includes/mcp-kit/class-oauth.php:639
-#: includes/mcp-kit/class-oauth.php:650
+#: includes/mcp-kit/class-oauth.php:657
+#: includes/mcp-kit/class-oauth.php:668
 msgid "Connect an AI app"
 msgstr "Połącz aplikację AI"
 
-#: includes/mcp-kit/class-oauth.php:652
-#: includes/mcp-kit/class-oauth.php:658
-#: includes/mcp-kit/class-oauth.php:699
+#: includes/mcp-kit/class-oauth.php:670
+#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:717
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "To żądanie połączenia wygasło. Wróć do aplikacji i rozpocznij łączenie ponownie."
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:666
+#: includes/mcp-kit/class-oauth.php:684
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s prosi o użycie %2$s na tej stronie jako %3$s. Może robić tylko to, do czego uprawnione jest twoje konto WordPress, i możesz je w każdej chwili rozłączyć w ustawieniach agentów AI (MCP)."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:669
+#: includes/mcp-kit/class-oauth.php:687
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s zidentyfikował się z %2$s."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:672
+#: includes/mcp-kit/class-oauth.php:690
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s zarejestrował się automatycznie. Kontynuuj tylko wtedy, gdy ta operacja została zainicjowana z %2$s."
 
-#: includes/mcp-kit/class-oauth.php:676
+#: includes/mcp-kit/class-oauth.php:694
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "Twoje konto nie może używać tych narzędzi w tej witrynie. Zapytaj administratora."
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:679
+#: includes/mcp-kit/class-oauth.php:697
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "Gdy odpowiesz, wrócisz do %s."
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:702
 #, php-format
 msgid "Allow %s"
 msgstr "Zezwól na %s"
 
-#: includes/mcp-kit/class-oauth.php:685
+#: includes/mcp-kit/class-oauth.php:703
 msgid "Do not allow"
 msgstr "Nie zezwalaj"
 
@@ -830,7 +830,7 @@ msgstr "Zarządzaj swoimi klientami hostingowymi, ich pakietami i witrynami na Z
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "Twoi klienci, ich plany i ich witryny za pośrednictwem Twojego konta resellera Zinn Digital®."
+msgstr "Twoi klienci, ich plany i ich witryny za pośrednictwem twojego konta resellera Zinn Digital®."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
@@ -838,7 +838,7 @@ msgstr "Odczytaj swoje konto resellera"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Zwraca Twoje konto dystrybutora w jednym odczycie: markę, plany, liczbę klientów i usług oraz informacje o tym, co jest skonfigurowane."
+msgstr "Zwraca twoje konto dystrybutora w jednym odczycie: markę, plany, liczbę klientów i usług oraz informacje o tym, co jest skonfigurowane."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
@@ -854,7 +854,7 @@ msgstr "Utwórz klienta"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Tworzy konto klienta pod Twoim kontem (name; default_currency, trzyliterowy kod). Przypisz ich do planu przed ich pierwszą witryną."
+msgstr "Tworzy konto klienta pod twoim kontem (name; default_currency, trzyliterowy kod). Przypisz ich do planu przed ich pierwszą witryną."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
@@ -862,7 +862,7 @@ msgstr "Odczytaj plan klienta"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "Zwraca informację o tym, jaki plan ma klient i ile Cię on kosztuje (client_id)."
+msgstr "Zwraca informację o tym, jaki plan ma klient i ile cię on kosztuje (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
@@ -870,7 +870,7 @@ msgstr "Przypisz klienta do planu"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "Przypisuje klienta do jednego z Twoich planów (client_id, plan_code; interval: month lub year). Zrób to przed jego pierwszą witryną."
+msgstr "Przypisuje klienta do jednego z twoich planów (client_id, plan_code; interval: month lub year). Zrób to przed jego pierwszą witryną."
 
 #: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
@@ -886,7 +886,7 @@ msgstr "Wyświetl witryny swoich klientów"
 
 #: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Wyświetla listę wszystkiego, co zostało przez Ciebie skonfigurowane dla Twoich klientów (client_id i status zawężają wyniki), strona po stronie."
+msgstr "Wyświetla listę wszystkiego, co zostało przez ciebie skonfigurowane dla twoich klientów (client_id i status zawężają wyniki), strona po stronie."
 
 #: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
@@ -926,7 +926,7 @@ msgstr "Zmień ustawienia Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "Zmienia przesyłane przez Ciebie ustawienia (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) i zachowuje resztę. Klucz API i adres są zmieniane tylko na ekranie."
+msgstr "Zmienia przesyłane przez ciebie ustawienia (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) i zachowuje resztę. Klucz API i adres są zmieniane tylko na ekranie."
 
 #: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
