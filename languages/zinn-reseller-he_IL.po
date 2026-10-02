@@ -129,17 +129,17 @@ msgstr "עיצוב"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "סוכני בינה מלאכותית (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "אפשר סוכני בינה מלאכותית (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "כבוי: הכלים שלהלן ונתיבי ה-REST שלהם אינם רשומים כלל."
 
@@ -705,9 +705,58 @@ msgstr "לא ניתן היה להוריד את העדכון משירות העד�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "העדכון שהורד נכשל בבדיקת התקינות שלו ולא הותקן."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "לא ניתן היה להשלים את הפעולה. יש לנסות שוב, ואם התקלה נמשכת, יש לפנות למנהל האתר."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "חיבור יישום AI"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "תוקף בקשת התחברות זו פג. יש לחזור לאפליקציה ולהתחיל להתחבר מחדש."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "היישום %1$s מבקש להשתמש ב-%2$s באתר זה בתור %3$s. באפשרותו לבצע רק פעולות שמותר לחשבון ה-WordPress שלך לבצע, וניתן לנתק אותו בכל עת מהגדרות סוכני ה-AI (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s הזדהה מ-%2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s נרשם באופן אוטומטי. יש להמשיך רק אם התחלת זאת מ-%2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "החשבון שלך אינו יכול להשתמש בכלים אלה באתר זה. יש לפנות למנהל המערכת."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "לאחר שתענה, תחזור אל %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "אפשר את %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "אל תאפשר"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -717,41 +766,61 @@ msgstr "ערך חובה חסר או בעל מבנה שגוי. יש לבדוק א
 msgid "The site refused the request."
 msgstr "האתר דחה את הבקשה."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "אפשרו לעוזרי AI כמו Claude, Cursor או VS Code לעבוד באתר זה עבורכם באמצעות MCP (Model Context Protocol). הם מתחברים כמשתמשי WordPress עם סיסמת אפליקציה ויכולים לבצע רק מה שמורשה לאותו משתמש."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "אפשרו לעוזרי AI כמו Claude, Cursor או VS Code לעבוד באתר זה עבורכם באמצעות MCP (Model Context Protocol). הם מתחברים כמשתמשי WordPress (Claude ו-ChatGPT על ידי אישורם כאן, ואחרים באמצעות סיסמת אפליקציה) ויכולים לעשות רק את מה שמותר למשתמש זה לעשות."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "סוכני בינה מלאכותית דורשים את WordPress 6.9 ואילך. יש לעדכן את WordPress כדי להשתמש בהם."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "כתובת התחברות (נקודת קצה של MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude ו-ChatGPT: יש להתחבר במקום זאת"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "הוסף את כתובת החיבור כמחבר מותאם אישית ב-Claude, או כאפליקציה במצב מפתח של ChatGPT. הם פותחים אתר זה כדי שתוכל לאשר אותם; אין סיסמה להעתקה."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "יישומי AI המחוברים לחשבונך:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "התנתק"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "יישומי בינה מלאכותית אחרים: סיסמת אפליקציה"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "יצירת סיסמת יישום עבור המשתמש שלך"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "הוסף זאת להגדרות ה-MCP של אפליקציית ה-AI שלך, עם שם המשתמש שלך והסיסמה הזו:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: שים את אותה רשומה תחת \"servers\" ב-.vscode/mcp.json, לא תחת \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "כלים שסוכן בינה מלאכותית יכול להשתמש בהם כאן (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "מדריך למשתמש: סוכני בינה מלאכותית ו-MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "תיעוד למפתחים: יכולות, REST ו-MCP"
 
@@ -803,62 +872,62 @@ msgstr "הקצאת תוכנית ללקוח"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "משייך לקוח לאחת מהתוכניות שלך (client_id, plan_code; interval: month או year). יש לבצע זאת לפני האתר הראשון שלהם."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "הצגת התוכניות שבאפשרותך למכור"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "מציג את חבילות האחסון והמחירים שלהן (product_line ו-currency מצמצמים את התוצאות)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "הצגת אתרי הלקוחות שלך"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "מפרט כל מה שהקצאת עבור הלקוחות שלך (client_id ו-status מצמצמים את התוצאות), עמוד אחד בכל פעם."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "יצירת אתר עבור לקוח"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "יוצר אתר מאוחסן עבור אחד מלקוחותיך (client_id, product_line, primary_domain). החיוב מתבצע לחשבונך לפי תוכנית הלקוח, כמו מהחנות שלך."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "השהיית אתר לקוח"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "מעביר את האתר של לקוח להשהיה עקב אי-תשלום (site_id; reason: הערה משלך, שלעולם אינה מוצגת ללקוח). האתר מפסיק לפעול עד לביטול ההשעיה."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "בטל השעיה של אתר לקוח"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "מסיר השהיה עקב אי-תשלום, כך שהאתר חוזר לפעול (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "קרא את הגדרות ערכת הכלים למשווקים"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "מחזיר את הגדרות התוסף הזה (כתובת ה-API, התוכנית שבה משתמשות הזמנות חדשות, ואילו תכונות מופעלות). מפתח ה-API לעולם אינו מוחזר, אלא רק אם שמור כזה."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "שינוי הגדרות Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "משנה את ההגדרות שאתה שולח (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ושומר את השאר. מפתח ה-API והכתובת משתנים במסך בלבד."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "הוסף תחילה את מפתח ה-API של משווק Zinn Digital® במסך Reseller Toolkit."

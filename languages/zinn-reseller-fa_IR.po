@@ -129,17 +129,17 @@ msgstr "سبک‌بندی"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "عامل‌های هوش مصنوعی (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "مجاز کردن عامل‌های هوش مصنوعی (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "خاموش: ابزارهای زیر و مسیرهای REST آن‌ها به‌هیچ‌وجه ثبت نشده‌اند."
 
@@ -703,9 +703,58 @@ msgstr "به‌روزرسانی نتوانست از سرویس به‌روزرس
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "بررسی سلامت به‌روزرسانی بارگیری‌شده ناموفق بود و نصب نشد."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "عملیات انجام نشد. لطفاً دوباره تلاش کنید و در صورت تکرار خطا، با مدیر سایت تماس بگیرید."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "اتصال یک برنامه هوش مصنوعی"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "مدت زمان این درخواست اتصال به پایان رسیده است. به برنامه بازگردید و اتصال را دوباره آغاز نمایید."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s درخواست استفاده از %2$s را در این سایت به عنوان %3$s دارد. این برنامه فقط کارهایی را می‌تواند انجام دهد که حساب WordPress شما مجاز به انجام آن‌ها است، و شما می‌توانید هر زمان که بخواهید آن را از تنظیمات عامل‌های هوش مصنوعی (MCP) قطع کنید."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s خود را از %2$s شناسایی کرد."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s به‌طور خودکار ثبت نام کرد. تنها در صورتی ادامه دهید که این کار را از %2$s شروع کرده باشید."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "حساب شما نمی‌تواند از این ابزارها در این سایت استفاده کند. از یک مدیر بپرسید."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "پس از پاسخ دادن، به %s بازخواهید گشت."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "اجازه دادن به %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "اجازه ندهید"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -715,41 +764,61 @@ msgstr "یک مقدار الزامی ناموجود است یا قالب ناد�
 msgid "The site refused the request."
 msgstr "سایت درخواست را رد کرد."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "به دستیاران هوش مصنوعی مانند Claude، Cursor یا VS Code اجازه دهید از طریق MCP (Model Context Protocol) روی این سایت برای شما کار کنند. آن‌ها با یک رمز عبور برنامه به‌عنوان کاربر WordPress وارد می‌شوند و فقط می‌توانند کارهایی را انجام دهند که آن کاربر مجاز به انجام آن‌ها است."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "به دستیاران هوش مصنوعی مانند Claude، Cursor یا VS Code اجازه دهید از طریق MCP (Model Context Protocol) برای شما روی این سایت کار کنند. آنها به عنوان یک کاربر WordPress وارد می‌شوند (Claude و ChatGPT با تأیید آنها در اینجا، سایرین با رمز عبور برنامه) و فقط می‌توانند کارهایی را انجام دهند که آن کاربر مجاز به انجام آنها است."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "عامل‌های هوش مصنوعی نیازمند WordPress نسخهٔ 6.9 یا جدیدتر هستند. برای استفاده از آن‌ها، WordPress را به‌روزرسانی کنید."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "نشانی اتصال (نقطه پایانی MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude و ChatGPT: در عوض وارد شوید"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "نشانی اتصال را به عنوان یک رابط سفارشی در Claude یا به عنوان یک برنامه در حالت توسعه‌دهنده ChatGPT اضافه کنید. آن‌ها این سایت را باز می‌کنند تا بتوانید آن‌ها را تأیید کنید؛ هیچ رمزی برای کپی کردن وجود ندارد."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "برنامه‌های هوش مصنوعی متصل به حساب شما:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "سایر برنامه‌های هوش مصنوعی: یک گذرواژه برنامه"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "یک رمز عبور برنامه برای کاربر خود ایجاد کنید"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "این را با نام کاربری و آن گذرواژهٔ خود به تنظیمات MCP برنامهٔ هوش مصنوعی‌تان اضافه کنید:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: همان مدخل را در .vscode/mcp.json در زیر \"servers\" قرار دهید، نه در زیر \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "ابزارهایی که یک عامل هوش مصنوعی می‌تواند در اینجا استفاده کند (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "راهنمای کاربر: عامل‌های هوش مصنوعی و MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "مستندات توسعه‌دهنده: توانایی‌ها، REST و MCP"
 
@@ -801,62 +870,62 @@ msgstr "مشتری را به یک پلن اختصاص دهید"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "یک مشتری را در یکی از طرح‌های شما قرار می‌دهد (client_id، plan_code؛ interval: month یا year). این کار را قبل از اولین سایت آن‌ها انجام دهید."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "فهرست کردن طرح‌هایی که می‌توانید بفروشید"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "پلن‌های میزبانی و قیمت‌های آن‌ها را فهرست می‌کند (product_line و currency آن را محدود می‌کنند)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "فهرست وب‌سایت‌های مشتریان شما"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "همه مواردی را که برای مشتریان خود آماده کرده‌اید (client_id و status آن را محدود می‌کنند)، صفحه به صفحه فهرست می‌کند."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "ایجاد یک سایت برای یک مشتری"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "یک سایت میزبانی‌شده برای یکی از مشتریان شما ایجاد می‌کند (client_id, product_line, primary_domain). این مورد بر اساس طرح مشتری و همانند فروشگاه شما، به حساب شما صورت‌حساب می‌شود."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "تعلیق سایت مشتری"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "سایت یک مشتری را در وضعیت تعلیق به دلیل عدم پرداخت قرار می‌دهد (site_id؛ reason: یادداشت اختصاصی شما، هرگز به مشتری نمایش داده نمی‌شود). ارائه خدمات سایت تا زمان رفع تعلیق متوقف می‌شود."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "رفع تعلیق سایت یک مشتری"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "تعلیق ناشی از عدم پرداخت را لغو می‌کند تا سایت دوباره دردسترس قرار گیرد (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "خواندن تنظیمات Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "تنظیمات این افزونه را برمی‌گرداند (نشانی API، طرحی که سفارش‌های جدید استفاده می‌کنند، کدام ویژگی‌ها روشن هستند). کلید API هرگز بازگردانده نمی‌شود، فقط مشخص می‌شود که آیا کلیدی ذخیره شده است یا خیر."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "تغییر تنظیمات Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "تنظیماتی را که ارسال می‌کنید (plan_code، enable_domain_search، enable_panel_link، enable_woocommerce) تغییر می‌دهد و باقی را حفظ می‌کند. کلید API و نشانی فقط روی صفحه نمایش تغییر می‌کنند."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "ابتدا کلید API نمایندگی فروش Zinn Digital® خود را در صفحه Reseller Toolkit اضافه کنید."

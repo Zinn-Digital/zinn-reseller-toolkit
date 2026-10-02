@@ -129,17 +129,17 @@ msgstr "Стилизовање"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "ВИ агенти (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "Дозволите AI агенте (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Искључено: алати испод и њихове REST руте уопште нису регистровани."
 
@@ -705,9 +705,58 @@ msgstr "Није могуће преузети ажурирање са Zinn® у
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Преузето ажурирање није прошло проверу интегритета и није инсталирано."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Радња није могла бити довршена. Покушајте поново, а ако се проблем настави, обратите се администратору веб-места."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Повежите апликацију вештачке интелигенције"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Овај захтев за повезивање је истекао. Вратите се у апликацију и поново започните повезивање."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s тражи да користи %2$s на овом веб-месту као %3$s. Може радити само оно што је вашем WordPress налогу дозвољено да ради, а можете га прекинути у било ком тренутку у подешавањима за AI агенте (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s се идентификовао са %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s се аутоматски регистровао. Наставите само ако сте ово покренули са %2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Ваш налог не може да користи ове алатке на овом веб-месту. Обратите се администратору."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Након што одговорите, вратићете се на %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "Дозволи %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Немојте дозволити"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -717,41 +766,61 @@ msgstr "Недостаје обавезна вредност или је у по
 msgid "The site refused the request."
 msgstr "Сајт је одбио захтев."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Дозволите AI помоћницима као што су Claude, Cursor или VS Code да раде на овом веб-месту за вас преко MCP (Model Context Protocol). Они се пријављују као WordPress корисник помоћу лозинке апликације и могу да раде само оно што је том кориснику дозвољено."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Дозволите AI помоћницима као што су Claude, Cursor или VS Code да раде на овом сајту за вас путем MCP (Model Context Protocol). Они се пријављују као WordPress корисник (Claude и ChatGPT тако што ћете их овде одобрити, а остали помоћу лозинке апликације) и могу да раде само оно што је том кориснику дозвољено."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "АИ агентима је потребан WordPress 6.9 или новији. Ажурирајте WordPress да бисте их користили."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Адреса везе (крајња тачка MCP-а)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude и ChatGPT: уместо тога се пријавите"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Додајте адресу везе као прилагођени конектор у Claude, или као апликацију у режиму за програмере у ChatGPT. Они отварају ово веб-место како бисте могли да их одобрите; нема лозинке за копирање."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "АИ апликације повезане са Вашим налогом:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Прекини везу"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Остале AI апликације: лозинка апликације"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Направите лозинку апликације за свог корисника"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Додајте ово у МЦП подешавања ваше АИ апликације, са својим корисничким именом и том лозинком:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ставите исти унос под „servers“ у .vscode/mcp.json, а не под „mcpServers“."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Алатке које агент вештачке интелигенције овде може користити (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Упутство за кориснике: AI агенти и MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Документација за програмере: могућности, REST и MCP"
 
@@ -803,62 +872,62 @@ msgstr "Доделите клијента плану"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Додељује клијента једном од ваших планова (client_id, plan_code; interval: month или year). Урадите ово пре њиховог првог сајта."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Наведите пакете које можете продавати"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Исписује планове хостинга и њихове цене (product_line и currency то сужавају)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Наведите сајтове својих клијената"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Исписује све што сте обезбедили за своје клијенте (client_id и status то сужавају), страницу по страницу."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Направите сајт за клијента"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Креира хостовани сајт за једног од ваших клијената (client_id, product_line, primary_domain). Наплаћује се са вашег налога према тарифном пакету клијента, као из ваше продавнице."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Суспендујте сајт клијента"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Ставља сајт клијента на чекање због неплаћања (site_id; reason: Ваша сопствена белешка, никада се не приказује клијенту). Сајт престаје са радом док му се не укине суспензија."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Опозовите суспензију сајта клијента"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Уклања суспензију због неплаћања, тако да сајт поново ради (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Прочитајте подешавања за Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Враћа подешавања овог додатка (API адресу, план који користе нове поруџбине, које су функције укључене). API кључ се никада не враћа, већ само податак да ли је сачуван."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Промените подешавања за Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Мења подешавања која пошаљете (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) и задржава остала. API кључ и адреса се мењају само на екрану."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Прво додајте свој Zinn Digital® API кључ препродавца на екрану Reseller Toolkit."

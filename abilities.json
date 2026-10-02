@@ -303,7 +303,7 @@
       "capability": "manage_options",
       "annotations": {
         "readonly": false,
-        "destructive": false,
+        "destructive": true,
         "idempotent": true
       },
       "input_schema": {
@@ -418,7 +418,7 @@
       "capability": "manage_options",
       "annotations": {
         "readonly": false,
-        "destructive": false,
+        "destructive": true,
         "idempotent": true
       },
       "input_schema": {

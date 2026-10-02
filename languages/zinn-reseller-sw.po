@@ -129,17 +129,17 @@ msgstr "Mtindo"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "Mawakala wa AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "Ruhusu mawakala wa AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Imezimwa: zana zilizo hapa chini na njia zao za REST hazijasajiliwa kabisa."
 
@@ -703,9 +703,58 @@ msgstr "Sasisho halikuweza kupakuliwa kutoka kwa huduma ya sasisho ya Zinn® (%s
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Sasisho lililopakuliwa limeshindwa kukaguliwa uadilifu wake na halijasakinishwa."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Kitendo hakikuweza kukamilika. Jaribu tena, na kikiendelea kushindwa, wasiliana na msimamizi wa tovuti."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Unganisha programu ya AI"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Ombi hili la muunganisho limekwisha muda wake. Rudi kwenye programu na uanze kuunganisha tena."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s inaomba kutumia %2$s kwenye tovuti hii kama %3$s. Inaweza kufanya kile tu ambacho akaunti yako ya WordPress inaruhusiwa kufanya, na unaweza kuiondoa wakati wowote kutoka kwenye mipangilio ya mawakala wa AI (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s imejitambulisha kutoka %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s imejisajili yenyewe kiotomatiki. Endelea tu ikiwa ulianzisha hii kutoka %2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Akaunti yako haiwezi kutumia zana hizi kwenye tovuti hii. Uliza msimamizi."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Baada ya kujibu utarudi kwenye %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "Ruhusu %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Usiruhusu"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -715,41 +764,61 @@ msgstr "Thamani inayohitajika haipo au ina muundo usio sahihi. Angalia muundo wa
 msgid "The site refused the request."
 msgstr "Tovuti imekataa ombi hilo."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Ruhusu wasaidizi wa AI kama vile Claude, Cursor au VS Code wakufanyie kazi kwenye tovuti hii kupitia MCP (Model Context Protocol). Wanaingia kama mtumiaji wa WordPress kwa nenosiri la programu na wanaweza tu kufanya kile ambacho mtumiaji huyo anaruhusiwa kufanya."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Ruhusu wasaidizi wa AI kama vile Claude, Cursor au VS Code wakufanyie kazi kwenye tovuti hii kupitia MCP (Model Context Protocol). Wanaingia kama mtumiaji wa WordPress (Claude na ChatGPT kwa kuwaidhinisha hapa, wengine kwa nenosiri la programu) na wanaweza kufanya kile tu ambacho mtumiaji huyo anaruhusiwa kufanya."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Wakala wa AI wanahitaji WordPress 6.9 au toleo jipya zaidi. Sasisha WordPress ili kuwatumia."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Anwani ya muunganisho (kikomo cha MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude na ChatGPT: ingia badala yake"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Ongeza anwani ya muunganisho kama kiunganishi maalum katika Claude, au kama programu katika hali ya msanidi wa ChatGPT. Zinafungua tovuti hii ili uweze kuziidhinisha; hakuna nenosiri la kunakili."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "Programu za AI zilizounganishwa kwenye akaunti yako:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Tenganisha"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Programu nyingine za AI: nenosiri la programu"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Unda nenosiri la programu kwa ajili ya mtumiaji wako"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Ongeza hii kwenye mipangilio ya MCP ya programu yako ya AI, pamoja na jina lako la mtumiaji na nenosiri hilo:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: weka ingizo sawa chini ya \"servers\" katika .vscode/mcp.json, si chini ya \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Zana ambazo wakala wa AI anaweza kutumia hapa (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Mwongozo wa mtumiaji: Mawakala wa AI na MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Nyaraka za wasanidi programu: uwezo, REST na MCP"
 
@@ -801,62 +870,62 @@ msgstr "Weka mteja kwenye mpango"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Huweka mteja kwenye moja ya mipango yako (client_id, plan_code; interval: month au year). Fanya hivi kabla ya tovuti yao ya kwanza."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Orodhesha mipango unayoweza kuuza"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Huorodhesha mipango ya upangishaji na bei zake (product_line na currency huipunguza)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Orodhesha tovuti za wateja wako"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Huorodhesha kila kitu ulichotoa kwa ajili ya wateja wako (client_id na status huipunguza), ukurasa mmoja kwa wakati mmoja."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Tengeneza tovuti kwa ajili ya mteja"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Hutengeneza tovuti inayopangishwa kwa ajili ya mmoja wa wateja wako (client_id, product_line, primary_domain). Inatozwa kwenye akaunti yako kulingana na mpango wa mteja, kama kutoka kwenye duka lako."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Simamisha tovuti ya mteja"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Huweka tovuti ya mteja kwenye usitishaji kwa sababu ya kutolipa (site_id; reason: dokezo lako mwenyewe, halionyeshwi mteja kamwe). Tovuti huacha kutoa huduma hadi kusimamishwa kwake kuondolewe."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Rejesha tovuti ya mteja iliyosimamishwa"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Huondoa kizuizi cha kutolipa, ili tovuti ianze kufanya kazi tena (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Soma mipangilio ya Zana za Muuzaji Mkuu"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Hurejesha mipangilio ya programu-jalizi hii (anwani ya API, mpango unaotumiwa na maagizo mapya, vipengele vilivyowashwa). Ufunguo wa API haurejeshwi kamwe, bali iwapo kuna uliowekwa akiba pekee."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Badilisha mipangilio ya Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Hubadilisha mipangilio unayotuma (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) na kuhifadhi iliyobaki. Ufunguo wa API na anwani hubadilishwa kwenye skrini pekee."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Kwanza ongeza ufunguo wako wa API ya muuzaji wa Zinn Digital® kwenye skrini ya Reseller Toolkit."

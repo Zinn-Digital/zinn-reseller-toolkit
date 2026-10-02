@@ -129,17 +129,17 @@ msgstr "Stile"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "Agenti IA (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "Consenti agenti IA (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Disattivato: gli strumenti sottostanti e i loro percorsi REST non sono affatto registrati."
 
@@ -705,9 +705,58 @@ msgstr "Impossibile scaricare l'aggiornamento dal servizio di aggiornamento Zinn
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "L'aggiornamento scaricato non ha superato il controllo di integrità e non è stato installato."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Impossibile completare l'azione. Riprova e, se continua a non funzionare, contatta l'amministratore del sito."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Collega un'app di IA"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Questa richiesta di connessione è scaduta. Torna all'applicazione e avvia nuovamente la connessione."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s sta chiedendo di utilizzare %2$s su questo sito come %3$s. Può fare solo ciò che il tuo account WordPress è autorizzato a fare e puoi disconnetterlo in qualsiasi momento dalle impostazioni degli agenti IA (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s si è identificato da %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s si è registrato automaticamente. Continua solo se hai avviato tu questa operazione da %2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Il tuo account non può utilizzare questi strumenti su questo sito. Chiedi a un amministratore."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Dopo aver risposto tornerai a %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "Consenti %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Non consentire"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -717,41 +766,61 @@ msgstr "Manca un valore obbligatorio o il formato non è corretto. Controlla lo 
 msgid "The site refused the request."
 msgstr "Il sito ha rifiutato la richiesta."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Consenti agli assistenti IA come Claude, Cursor o VS Code di lavorare su questo sito per te tramite MCP (Model Context Protocol). Accedono come utente WordPress con una password dell'applicazione e possono fare solo ciò che è consentito a quell'utente."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Consenti ad assistenti IA come Claude, Cursor o VS Code di lavorare su questo sito per te tramite MCP (Model Context Protocol). Accedono come utente WordPress (Claude e ChatGPT approvandoli qui, altri con una password dell'applicazione) e possono fare solo ciò che quell'utente è autorizzato a fare."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Gli agenti IA richiedono WordPress 6.9 o versioni successive. Aggiorna WordPress per usarli."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Indirizzo di connessione (endpoint MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude e ChatGPT: accedi invece"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Aggiungi l'indirizzo di connessione come connettore personalizzato in Claude o come app nella modalità sviluppatore di ChatGPT. Aprono questo sito in modo che tu possa approvarli; nessuna password da copiare."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "App IA collegate al tuo account:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Disconnetti"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Altre app di IA: una password per l'applicazione"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Crea una password per l'applicazione per il tuo utente"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Aggiungi questo alle impostazioni MCP della tua app IA, con il tuo nome utente e quella password:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: inserisci la stessa voce sotto \"servers\" in .vscode/mcp.json, non sotto \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Strumenti che un agente IA può usare qui (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Guida per l'utente: Agenti IA e MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Documentazione per sviluppatori: abilità, REST e MCP"
 
@@ -803,62 +872,62 @@ msgstr "Assegna un piano a un cliente"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Associa un cliente a uno dei tuoi piani (client_id, plan_code; interval: month o year). Esegui questa operazione prima del suo primo sito."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Elenca i piani che puoi vendere"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Elenca i piani di hosting e i relativi prezzi (product_line e currency lo restringono)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Elenca i siti dei tuoi clienti"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Elenca tutto ciò che hai fornito per i tuoi clienti (client_id e status lo restringono), una pagina alla volta."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Crea un sito per un cliente"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Crea un sito ospitato per uno dei tuoi clienti (client_id, product_line, primary_domain). Viene fatturato sul tuo account in base al piano del cliente, come dal tuo negozio."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Sospendi il sito di un cliente"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Mette il sito di un cliente in sospensione per mancato pagamento (site_id; reason: la tua nota personale, mai mostrata al cliente). Il sito smette di funzionare finché non viene revocata la sospensione."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Riattiva il sito di un cliente"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Rimuove un blocco per mancato pagamento, così il sito torna a essere attivo (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Leggi le impostazioni del Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Restituisce le impostazioni di questo plugin (l'indirizzo dell'API, il piano utilizzato dai nuovi ordini, quali funzionalità sono attive). La chiave API non viene mai restituita, ma solo se ne è stata salvata una."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Modifica le impostazioni di Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Modifica le impostazioni che invii (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) e mantiene le altre. La chiave API e l'indirizzo vengono modificati solo sullo schermo."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Aggiungi prima la tua chiave API rivenditore Zinn Digital® nella schermata Reseller Toolkit."

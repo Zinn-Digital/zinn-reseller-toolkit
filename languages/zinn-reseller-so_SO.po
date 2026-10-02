@@ -129,17 +129,17 @@ msgstr "Habeynta muuqaalka"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "Wakiilada AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "U oggolow wakiillada AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Dami: aaladaha hoose iyo waddooyinkooda REST gabi ahaanba ma diiwaangashana."
 
@@ -703,9 +703,58 @@ msgstr "Cusboonaysiinta lagama soo dejisan karin adeegga cusboonaysiinta ee Zinn
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Cusboonaysiinta la soo dejiyay waxay ku guuldarraysatay hubinta sugnaanshaheeda lamana rakibin."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Falka lama dhamaystiri karin. Fadlan mar kale isku day, haddii ay weli shaqayn weydana, la xiriir maamulaha goobta."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Ku xidh barnaamijka AI"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Codsigan isku-xirka wuu dhacay. Ku noqo abka oo mar kale billow isku-xirka."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s waxa uu codsanayaa in uu ku isticmaalo %2$s goobtan sidii %3$s. Waxa kaliya ee uu samayn karaa waa waxa akoonkaaga WordPress loo oggol yahay inuu sameeyo, waxaanad ka jari kartaa wakhti kasta goobaha wakiilada AI (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s waxa uu iska aqoonsaday %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s ayaa si toos ah isu diiwaangeliyay. Kaliya sii wad haddii aad tan ka bilowday %2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Koontadaadu ma isticmaali karto aaladahan boggan. Weydii maamulaha."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Markaad jawaabto ka dib waxaad dib ugu noqon doontaa %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "Oggolow %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Ha oggolaan"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -715,41 +764,61 @@ msgstr "Qiime loo baahnaa ayaa maqan ama qaab khaldan ku jira. Hubi nidaamka gel
 msgid "The site refused the request."
 msgstr "Boggu wuxuu diiday codsigii."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "U oggolow kaaliyeyaasha AI sida Claude, Cursor ama VS Code inay boggan kuugu shaqeeyaan iyagoo adeegsanaya MCP (Model Context Protocol). Waxay ku galaan sidii isticmaale WordPress oo wata furaha sirta ah ee arjiga, waxayna qaban karaan oo keliya waxa isticmaalahaas loo oggol yahay."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "U oggolow kaaliyeyaasha AI sida Claude, Cursor ama VS Code inay boggan kaaga shaqeeyaan iyagoo adeegsanaya MCP (Model Context Protocol). Waxay ku soo galaan isticmaale WordPress ahaan (Claude iyo ChatGPT adoo halkan ku ansixinaya, kuwa kalena sirta arjiga) waxayna samayn karaan oo keliya waxa isticmaalahaas loo oggol yahay inuu sameeyo."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Wakiilada AI waxay u baahan yihiin WordPress 6.9 ama ka dambeeya. Cusboonaysii WordPress si aad u isticmaasho."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Cinwaanka xiriirka (barta dhammaadka ee MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude iyo ChatGPT: taa beddelkeeda gal"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Ku dar ciwaanka xiriirinta sidii xiriiriye gaar ah oo ku jira Claude, ama sidii app ku jira qaabka horumariyaha ChatGPT. Waxay furaan boggan si aad u ansixiso; ma jirto furaha sirta ah oo la koobiyeeyo."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "Barnaamijyada AI ee ku xiran koontadaada:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Ka jar"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "App-yada kale ee AI: furaha sirta ah ee abka"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "U samee furaha sirta ah ee abka isticmaalahaaga"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Ku dar tan habaynta MCP ee barnaamijkaaga AI, adigoo isticmaalaya magacaaga isticmaale iyo eraygaas sirta ah:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: geli isla gelitaanka hoosta \"servers\" ee .vscode/mcp.json, hana gelin hoosta \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Aaladaha wakiilka AI uu halkan ku isticmaali karo (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Hagaha isticmaalaha: Wakiilada AI iyo MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Dukumentiyada horumariyaha: awoodaha, REST iyo MCP"
 
@@ -801,62 +870,62 @@ msgstr "Macaamiil u qoondee qorshe"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Macaamiil ku dara mid ka mid ah qorshayaashaada (client_id, plan_code; interval: month ama year). Tan samee ka hor barta ay ku leeyihiin ee ugu horreysa."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Liis garee qorshayaasha aad iibin karto"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Wuxuu taxaa qorshayaasha martigelinta iyo qiimahooda (product_line iyo currency ayaa soo koobaya)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Liis garee boggaga macaamiishaada"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Waxay liis gareysaa wax walba oo aad u diyaarisay macaamiishaada (client_id iyo status ayaa xadida), hal bog markiiba."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Macaamiil u samee degel"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Waxay u abuurtaa degel la martigeliyay mid ka mid ah macaamiishaada (client_id, product_line, primary_domain). Waxaa lagugu soo dalacayaa koontadaada iyadoo la raacayo qorshaha macmiilka, sida dukaankaaga oo kale."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Jooji bogga macmiilka"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Waxay gelinaysaa bogga macmiilka hakad lacag-bixin la'aan awgeed (site_id; reason: qoraalkaaga gaarka ah, waligeed lama tuso macmiilka). Boggu wuxuu joojinayaa shaqada ilaa laga qaado hakinta."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Ka qaad joojinta goobta macmiilka"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Waxay meesha ka saaraysaa xayiraadda lacag-bixin la'aanta, si goobtu mar kale u shaqeyso (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Akhriso habaynta Reseller Toolkit-ka"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Waxay soo celisaa habaynta furinkan (cinwaanka API-ga, qorshaha ay isticmaalaan dalabyada cusub, astaamaha shaqaynaya). Furaha API-ga waligii lama soo celiyo, kaliya haddii mid la keydiyay iyo haddii kale."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Beddel habaynta Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Waxay beddeshaa habaynta aad dirtay (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) waxayna haysaa inta kale. Furaha API-ga iyo ciwaanka waxa laga beddelay shaashadda oo keliya."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Marka hore ku dar furahaaga API ee dib-u-iibiyaha Zinn Digital® shaashadda Reseller Toolkit."

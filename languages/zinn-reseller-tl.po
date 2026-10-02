@@ -129,17 +129,17 @@ msgstr "Pag-istilo"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "Mga AI agent (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "Payagan ang mga AI agent (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Naka-off: ang mga tool sa ibaba at ang kanilang mga REST route ay hindi nakarehistro."
 
@@ -703,9 +703,58 @@ msgstr "Hindi ma-download ang update mula sa serbisyo ng pag-update ng Zinn® (%
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Bumagsak ang na-download na update sa pagsusuri sa integridad nito at hindi na-install."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Hindi makumpleto ang aksyon. Subukan muli, at kung patuloy itong mabigo, makipag-ugnayan sa administrator ng site."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Magkonekta ng isang AI app"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Nag-expire na ang kahilingang ito sa koneksyon. Bumalik sa app at magsimulang kumonekta muli."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "Humihiling ang %1$s na gamitin ang %2$s sa site na ito bilang %3$s. Magagawa lamang nito kung ano ang pinapayagang gawin ng iyong WordPress account, at maaari mo itong idiskonekta anumang oras mula sa mga setting ng AI agents (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "Ipinakilala ng %1$s ang sarili nito mula sa %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "Awtomatikong nagparehistro ang %1$s. Magpatuloy lamang kung sinimulan mo ito mula sa %2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Hindi maaaring gamitin ng iyong account ang mga tool na ito sa site na ito. Magtanong sa isang administrator."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Pagkatapos mong sumagot babalik ka sa %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "Payagan ang %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Huwag payagan"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -715,41 +764,61 @@ msgstr "May nawawalang kinakailangang value o mali ang anyo nito. Suriin ang inp
 msgid "The site refused the request."
 msgstr "Tinanggihan ng site ang kahilingan."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Pahintulutan ang mga AI assistant tulad ng Claude, Cursor o VS Code na magtrabaho sa site na ito para sa iyo sa pamamagitan ng MCP (Model Context Protocol). Nagsa-sign in sila bilang isang user ng WordPress gamit ang application password at magagawa lamang kung ano ang pinapayagan para sa naturang user."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Pahintulutan ang mga AI assistant tulad ng Claude, Cursor, o VS Code na magtrabaho sa site na ito para sa iyo sa pamamagitan ng MCP (Model Context Protocol). Nagsa-sign in sila bilang isang WordPress user (ang Claude at ChatGPT sa pamamagitan ng pag-apruba sa kanila rito, ang iba ay gamit ang application password) at magagawa lamang kung ano ang pinapayagang gawin ng user na iyon."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Kailangan ng mga AI agent ang WordPress 6.9 o mas bago. I-update ang WordPress para magamit ang mga ito."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Address ng koneksyon (MCP endpoint)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude at ChatGPT: mag-sign in na lang"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Idagdag ang address ng koneksyon bilang isang custom na connector sa Claude, o bilang isang app sa developer mode ng ChatGPT. Binubuksan nila ang site na ito para maaprubahan mo ang mga ito; walang password na kokopyahin."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "Mga AI app na nakakonekta sa iyong account:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Idiskonekta"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Iba pang mga AI app: isang password ng application"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Gumawa ng password ng application para sa iyong user"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Idagdag ito sa mga setting ng MCP ng iyong AI app, kasama ang iyong username at ang password na iyon:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ilagay ang parehong entry sa ilalim ng \"servers\" sa .vscode/mcp.json, hindi sa ilalim ng \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Mga tool na maaaring gamitin ng isang AI agent dito (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Gabay ng gumagamit: Mga AI agent at MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Mga doc ng developer: mga kakayahan, REST at MCP"
 
@@ -801,62 +870,62 @@ msgstr "Maglagay ng kliyente sa isang plano"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Inilalagay ang isang kliyente sa isa sa iyong mga plano (client_id, plan_code; interval: month o year). Gawin ito bago ang kanilang unang site."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Ilista ang mga planong maaari mong ibenta"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Inililista ang mga plano sa pag-host at ang kanilang mga presyo (nililimitahan ito ng product_line at currency)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Ilista ang mga site ng iyong mga kliyente"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Inililista ang lahat ng na-provision mo para sa iyong mga kliyente (nililimitahan ito ng client_id at status), nang tig-isang pahina bawat pagkakataon."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Gumawa ng site para sa isang kliyente"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Lumilikha ng isang hosted site para sa isa sa iyong mga kliyente (client_id, product_line, primary_domain). Sisingilin ito sa iyong account batay sa plano ng kliyente, tulad ng mula sa iyong tindahan."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Isuspinde ang site ng kliyente"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Inilalagay ang site ng kliyente sa hold dahil sa hindi pagbabayad (site_id; reason: sarili mong tala, hindi kailanman ipinapakita sa kliyente). Hihinto ang site sa pagseserbisyo hanggang sa maalis ang pagkakasuspinde nito."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "I-unsuspend ang site ng isang kliyente"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Tinatanggal ang hold dahil sa hindi pagbabayad, upang muling gumana ang site (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Basahin ang mga setting ng Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Ibinabalik ang mga setting ng plugin na ito (ang address ng API, ang planong ginagamit ng mga bagong order, kung aling mga feature ang naka-on). Hindi kailanman ibinabalik ang API key, kundi kung may naka-save lamang."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Baguhin ang mga setting ng Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Binabago ang mga setting na ipapadala mo (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) at pinapanatili ang iba pa. Ang API key at address ay binabago sa screen lamang."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Idagdag muna ang iyong Zinn Digital® reseller API key sa screen ng Reseller Toolkit."

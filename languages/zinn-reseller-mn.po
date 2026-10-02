@@ -129,17 +129,17 @@ msgstr "Загварчлал"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "ХИ агентууд (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "Хиймэл оюун ухааны агентуудыг (MCP) зөвшөөрөх"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Унтраалттай: доорх хэрэгслүүд болон тэдгээрийн REST чиглэлүүд огт бүртгэгдээгүй байна."
 
@@ -703,9 +703,58 @@ msgstr "Шинэчлэлийг Zinn®-ийн шинэчлэлийн үйлчил
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Татаж авсан шинэчлэлтийн бүрэн бүтэн байдлыг шалгах явцад алдаа гарсан тул суулгасангүй."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Үйлдлийг дуусгах боломжгүй байв. Дахин оролдоно уу, хэрэв алдаа гарсаар байвал сайтын админтай холбогдоно уу."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Хиймэл оюун ухааны апп холбох"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Энэ холболтын хүсэлтийн хугацаа дууссан байна. Апп руу буцаж очоод дахин холбогдож эхэлнэ үү."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s нь энэ сайт дээр %2$s-г %3$s-р ашиглах хүсэлт гаргаж байна. Энэ нь зөвхөн таны WordPress бүртгэлд зөвшөөрөгдсөн үйлдлийг л хийх боломжтой бөгөөд та хүссэн үедээ ХИ төлөөлөгчид (MCP) тохиргооноос холболтыг нь салгаж болно."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s өөрийгөө %2$s-с тодорхойлсон."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s автоматаар бүртгэгдлээ. Хэрэв та үүнийг %2$s-с эхлүүлсэн бол л үргэлжлүүлнэ үү."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Таны бүртгэл энэ сайт дээр эдгээр хэрэгслийг ашиглах боломжгүй байна. Администратороос лавлана уу."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Та хариулсны дараа %s руу буцах болно."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "%s зөвшөөрөх"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Зөвшөөрөхгүй"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -715,41 +764,61 @@ msgstr "Шаардлагатай утга дутуу эсвэл буруу хэ�
 msgid "The site refused the request."
 msgstr "Сайт хүсэлтээс татгалзлаа."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Claude, Cursor эсвэл VS Code зэрэг AI туслахуудад MCP (Model Context Protocol)-оор дамжуулан энэ сайт дээр таны өмнөөс ажиллахыг зөвшөөрнө үү. Тэд аппликейшний нууц үгээр WordPress хэрэглэгчээр нэвтэрч, зөвхөн тухайн хэрэглэгчид зөвшөөрөгдсөн зүйлсийг хийх боломжтой байдаг."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Claude, Cursor эсвэл VS Code зэрэг хиймэл оюун ухааны туслахуудад MCP (Model Context Protocol)-ээр дамжуулан энэ сайт дээр таны өмнөөс ажиллах боломжийг олгоно уу. Тэд WordPress хэрэглэгчийн эрхээр нэвтэрдэг (Claude болон ChatGPT-г энд зөвшөөрснөөр, бусдыг нь аппликейшны нууц үгээр) бөгөөд зөвхөн тухайн хэрэглэгчийн эрх бүхий үйлдлүүдийг л хийх боломжтой."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Хиймэл оюуны агентуудад WordPress 6.9 буюу түүнээс хойших хувилбар шаардлагатай. Тэдгээрийг ашиглахын тулд WordPress-ийг шинэчилнэ үү."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Холболтын хаяг (MCP эцсийн цэг)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude болон ChatGPT: оронд нь нэвтрэх"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Холболтын хаягийг Claude дотор өөрчилсөн холбогч хэлбэрээр эсвэл ChatGPT хөгжүүлэгчийн горимд апп болгон нэмнэ үү. Таныг баталгаажуулах боломжтой болгохын тулд тэд энэ сайтыг нээнэ; хуулах нууц үг байхгүй."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "Таны бүртгэлд холбогдсон AI аппууд:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Салгах"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Бусад хиймэл оюун ухааны аппууд: аппликэйшний нууц үг"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Хэрэглэгчдээ зориулж аппликэйшний нууц үг үүсгэнэ үү"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Үүнийг өөрийн хэрэглэгчийн нэр болон тэрхүү нууц үгийн хамт AI аппынхаа MCP тохиргоонд нэмнэ үү:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ижил бичилтийг .vscode/mcp.json файлын \"mcpServers\" дор биш, \"servers\" дор оруулна уу."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Хиймэл оюун ухааны агент энд ашиглаж болох хэрэгслүүд (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Хэрэглэгчийн гарын авлага: AI агентууд ба MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Хөгжүүлэгчийн баримт бичиг: чадварууд, REST ба MCP"
 
@@ -801,62 +870,62 @@ msgstr "Харилцагчид багц оноох"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Харилцагчийг таны төлөвлөгөөнүүдийн нэгэнд онооно (client_id, plan_code; interval: month эсвэл year). Үүнийг тэдний анхны сайтаас өмнө хийнэ үү."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Борлуулах боломжтой багцуудын жагсаалт"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Хостинг төлөвлөгөөнүүд болон тэдгээрийн үнийг жагсаана (product_line болон currency үүнийг нарийвчилна)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Харилцагчдынхаа сайтуудыг жагсаах"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Харилцагчдадаа зориулан бэлтгэсэн бүх зүйлийг (client_id болон status нь үүнийг хумьж нарийсгана) нэг удаад нэг хуудсаар жагсаана."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Үйлчлүүлэгчид зориулж сайт үүсгэх"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Таны харилцагчдын нэгд зориулсан байршуулсан сайтыг үүсгэнэ (client_id, product_line, primary_domain). Үүнийг таны дэлгүүрээс авсан мэт харилцагчийн багцын дагуу таны дансанд нэхэмжилнэ."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Үйлчлүүлэгчийн сайтыг түдгэлзүүлэх"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Харилцагчийн сайтыг төлбөр төлөгдөөгүй түр зогсолтод оруулна (site_id; reason: Танд зориулсан тэмдэглэл, харилцагчид хэзээ ч харагдахгүй). Түр зогсолтыг цуцлах хүртэл сайт ажиллахаа болино."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Харилцагчийн сайтын түдгэлзүүлэлтийг цуцлах"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Төлбөр төлөөгүйн улмаас тавьсан хязгаарлалтыг цуцалснаар сайт дахин ажиллах болно (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Reseller Toolkit-ийн тохиргоог унших"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Энэ залгаасын тохиргоог (API хаяг, шинэ захиалгуудад ашиглагдах багц, ямар боломжууд идэвхжсэн эсэхийг) буцаана. API түлхүүр хэзээ ч буцаагдахгүй, зөвхөн хадгалагдсан эсэх нь л буцаагдана."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Reseller Toolkit тохиргоог өөрчлөх"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Таны илгээсэн тохиргоог (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) өөрчилж, үлдсэнийг нь хэвээр үлдээнэ. API түлхүүр болон хаяг нь зөвхөн дэлгэц дээр өөрчлөгдөнө."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Эхлээд Reseller Toolkit дэлгэц дээр өөрийн Zinn Digital® борлуулагчийн API түлхүүрийг нэмнэ үү."

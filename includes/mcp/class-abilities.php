@@ -136,7 +136,7 @@ final class Abilities {
 					array( 'name' )
 				),
 				array( self::class, 'create_client' ),
-				array(),
+				array( 'destructive' => false ),
 			),
 			'zinn-reseller/get-client-plan' => array(
 				__( 'Read a client\'s plan', 'zinn-reseller' ),
@@ -163,7 +163,10 @@ final class Abilities {
 					array( 'client_id', 'plan_code' )
 				),
 				array( self::class, 'set_client_plan' ),
-				array( 'idempotent' => true ),
+				array(
+					'destructive' => true,
+					'idempotent'  => true,
+				),
 			),
 			'zinn-reseller/list-plans'      => array(
 				__( 'List the plans you can sell', 'zinn-reseller' ),
@@ -211,7 +214,7 @@ final class Abilities {
 					array( 'client_id', 'product_line', 'primary_domain' )
 				),
 				array( self::class, 'create_site' ),
-				array(),
+				array( 'destructive' => false ),
 			),
 			'zinn-reseller/suspend-site'    => array(
 				__( 'Suspend a client\'s site', 'zinn-reseller' ),
@@ -237,7 +240,10 @@ final class Abilities {
 				__( 'Lifts a non-payment hold, so the site serves again (site_id).', 'zinn-reseller' ),
 				$schema( array( 'site_id' => $id ), array( 'site_id' ) ),
 				array( self::class, 'unsuspend_site' ),
-				array( 'idempotent' => true ),
+				array(
+					'destructive' => false,
+					'idempotent'  => true,
+				),
 			),
 			'zinn-reseller/get-settings'    => array(
 				__( 'Read the Reseller Toolkit settings', 'zinn-reseller' ),
@@ -258,7 +264,10 @@ final class Abilities {
 					)
 				),
 				array( self::class, 'update_settings' ),
-				array( 'idempotent' => true ),
+				array(
+					'destructive' => true,
+					'idempotent'  => true,
+				),
 			),
 		);
 

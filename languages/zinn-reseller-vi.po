@@ -129,17 +129,17 @@ msgstr "Định kiểu"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "Tác nhân AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "Cho phép tác tử AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Tắt: các công cụ bên dưới và các tuyến REST của chúng hoàn toàn không được đăng ký."
 
@@ -701,9 +701,58 @@ msgstr "Không thể tải bản cập nhật từ dịch vụ cập nhật Zinn
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Bản cập nhật đã tải xuống không vượt qua được bước kiểm tra tính toàn vẹn và chưa được cài đặt."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Không thể hoàn thành tác vụ. Hãy thử lại, và nếu vẫn thất bại, hãy liên hệ với quản trị viên trang web."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Kết nối ứng dụng AI"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Yêu cầu kết nối này đã hết hạn. Hãy quay lại ứng dụng và bắt đầu kết nối lại."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s đang yêu cầu sử dụng %2$s trên trang web này dưới dạng %3$s. Nó chỉ có thể thực hiện những gì tài khoản WordPress của bạn được phép làm và bạn có thể ngắt kết nối nó bất cứ lúc nào từ cài đặt tác nhân AI (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s đã tự nhận diện từ %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s đã tự động đăng ký. Chỉ tiếp tục nếu bạn đã bắt đầu thao tác này từ %2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Tài khoản của bạn không thể sử dụng các công cụ này trên trang này. Hãy hỏi quản trị viên."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Sau khi trả lời, bạn sẽ quay lại %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "Cho phép %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Không cho phép"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -713,41 +762,61 @@ msgstr "Một giá trị bắt buộc bị thiếu hoặc có định dạng sai
 msgid "The site refused the request."
 msgstr "Trang web đã từ chối yêu cầu."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Cho phép các trợ lý AI như Claude, Cursor hoặc VS Code làm việc trên trang web này cho bạn thông qua MCP (Model Context Protocol). Họ đăng nhập với tư cách là người dùng WordPress bằng mật khẩu ứng dụng và chỉ có thể làm những gì người dùng đó được phép làm."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Cho phép các trợ lý AI như Claude, Cursor hoặc VS Code làm việc trên trang web này cho bạn thông qua MCP (Model Context Protocol). Chúng đăng nhập với tư cách là người dùng WordPress (Claude và ChatGPT bằng cách phê duyệt chúng tại đây, những trợ lý khác bằng mật khẩu ứng dụng) và chỉ có thể thực hiện những gì người dùng đó được phép làm."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Các tác nhân AI yêu cầu WordPress 6.9 trở lên. Hãy cập nhật WordPress để sử dụng chúng."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Địa chỉ kết nối (điểm cuối MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude và ChatGPT: thay vào đó hãy đăng nhập"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Thêm địa chỉ kết nối dưới dạng trình kết nối tùy chỉnh trong Claude hoặc dưới dạng ứng dụng trong chế độ nhà phát triển của ChatGPT. Chúng sẽ mở trang web này để bạn có thể phê duyệt; không cần sao chép mật khẩu."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "Các ứng dụng AI được kết nối với tài khoản của bạn:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Ngắt kết nối"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Các ứng dụng AI khác: mật khẩu ứng dụng"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Tạo mật khẩu ứng dụng cho người dùng của bạn"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Thêm nội dung này vào cài đặt MCP của ứng dụng AI với tên người dùng và mật khẩu đó:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: đặt cùng mục nhập dưới \"servers\" trong .vscode/mcp.json, không phải dưới \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Các công cụ mà một tác nhân AI có thể sử dụng ở đây (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Hướng dẫn sử dụng: Đại lý AI và MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Tài liệu cho nhà phát triển: khả năng, REST và MCP"
 
@@ -799,62 +868,62 @@ msgstr "Gán gói cho khách hàng"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Gán một khách hàng vào một trong các gói của bạn (client_id, plan_code; interval: month hoặc year). Hãy thực hiện việc này trước trang web đầu tiên của họ."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Liệt kê các gói bạn có thể bán"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Liệt kê các gói lưu trữ và giá của chúng (product_line và currency dùng để thu hẹp phạm vi)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Liệt kê các trang web của khách hàng của bạn"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Liệt kê mọi thứ bạn đã cấp phép cho khách hàng của mình (client_id và status giúp thu hẹp phạm vi), mỗi lần một trang."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Tạo một trang web cho khách hàng"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Tạo một trang web được lưu trữ cho một trong những khách hàng của bạn (client_id, product_line, primary_domain). Phí được tính vào tài khoản của bạn theo gói của khách hàng, như từ cửa hàng của bạn."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Tạm ngưng trang web của khách hàng"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Đưa trang web của khách hàng vào trạng thái tạm ngưng do chưa thanh toán (site_id; lý do: ghi chú riêng của bạn, không bao giờ hiển thị cho khách hàng). Trang web sẽ ngừng hoạt động cho đến khi được mở lại."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Bỏ tạm ngưng trang web của khách hàng"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Gỡ bỏ lệnh tạm ngưng do chưa thanh toán, để trang web hoạt động trở lại (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Đọc cài đặt Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Trả về cài đặt của plugin này (địa chỉ API, gói mà các đơn hàng mới sử dụng, các tính năng nào đang được bật). Khóa API không bao giờ được trả về, chỉ cho biết liệu đã có khóa được lưu hay chưa."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Thay đổi cài đặt Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Thay đổi các cài đặt bạn gửi (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) và giữ nguyên các cài đặt còn lại. Khóa API và địa chỉ chỉ được thay đổi trên màn hình."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Trước tiên hãy thêm khóa API đại lý Zinn Digital® của bạn trên màn hình Reseller Toolkit."

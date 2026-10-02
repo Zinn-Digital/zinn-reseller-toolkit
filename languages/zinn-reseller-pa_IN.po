@@ -129,17 +129,17 @@ msgstr "ਸਟਾਈਲਿੰਗ"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "AI ਏਜੰਟ (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "AI ਏਜੰਟਾਂ (MCP) ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "ਬੰਦ: ਹੇਠਾਂ ਦਿੱਤੇ ਟੂਲ ਅਤੇ ਉਹਨਾਂ ਦੇ REST ਰੂਟ ਬਿਲਕੁਲ ਵੀ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹਨ।"
 
@@ -703,9 +703,59 @@ msgstr "Zinn® ਅੱਪਡੇਟ ਸੇਵਾ (%s) ਤੋਂ ਅੱਪਡੇਟ
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ਡਾਊਨਲੋਡ ਕੀਤਾ ਅੱਪਡੇਟ ਆਪਣੀ ਇਕਸਾਰਤਾ ਜਾਂਚ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ ਅਤੇ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਸੀ।"
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "ਇਹ ਕਾਰਵਾਈ ਪੂਰੀ ਨਹੀਂ ਹੋ ਸਕੀ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਅਤੇ ਜੇਕਰ ਇਹ ਅਸਫ਼ਲ ਹੁੰਦੀ ਰਹਿੰਦੀ ਹੈ, ਤਾਂ ਸਾਈਟ ਪ੍ਰਬੰਧਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "ਇੱਕ AI ਐਪ ਕਨੈਕਟ ਕਰੋ"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "ਇਸ ਕਨੈਕਸ਼ਨ ਬੇਨਤੀ ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ। ਐਪ 'ਤੇ ਵਾਪਸ ਜਾਓ ਅਤੇ ਦੁਬਾਰਾ ਕਨੈਕਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ।"
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#. zinn-i18n: human translation — the machine translator refused this string
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s ਇਸ ਸਾਈਟ 'ਤੇ %2$s ਨੂੰ %3$s ਵਜੋਂ ਵਰਤਣ ਦੀ ਇਜਾਜ਼ਤ ਮੰਗ ਰਿਹਾ ਹੈ। ਇਹ ਸਿਰਫ਼ ਉਹੀ ਕਰ ਸਕਦਾ ਹੈ ਜਿਸਦੀ ਤੁਹਾਡੇ WordPress ਖਾਤੇ ਨੂੰ ਇਜਾਜ਼ਤ ਹੈ, ਅਤੇ ਤੁਸੀਂ ਇਸਨੂੰ ਕਿਸੇ ਵੀ ਸਮੇਂ AI ਏਜੰਟ (MCP) ਸੈਟਿੰਗਾਂ ਤੋਂ ਡਿਸਕਨੈਕਟ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s ਨੇ %2$s ਤੋਂ ਆਪਣੀ ਪਛਾਣ ਕੀਤੀ।"
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s ਆਪਣੇ ਆਪ ਰਜਿਸਟਰ ਹੋ ਗਿਆ ਹੈ। ਸਿਰਫ਼ ਤਾਂ ਹੀ ਜਾਰੀ ਰੱਖੋ ਜੇਕਰ ਤੁਸੀਂ ਇਸਨੂੰ %2$s ਤੋਂ ਸ਼ੁਰੂ ਕੀਤਾ ਹੈ।"
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "ਤੁਹਾਡਾ ਖਾਤਾ ਇਸ ਸਾਈਟ ਉੱਤੇ ਇਹ ਸਾਧਨ ਨਹੀਂ ਵਰਤ ਸਕਦਾ ਹੈ। ਪ੍ਰਬੰਧਕ ਨੂੰ ਪੁੱਛੋ।"
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "ਤੁਹਾਡੇ ਜਵਾਬ ਦੇਣ ਤੋਂ ਬਾਅਦ ਤੁਸੀਂ %s 'ਤੇ ਵਾਪਸ ਜਾਓਗੇ।"
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "%s ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "ਇਜਾਜ਼ਤ ਨਾ ਦਿਓ"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -715,41 +765,61 @@ msgstr "ਇੱਕ ਲੋੜੀਂਦਾ ਮੁੱਲ ਗੁੰਮ ਹੈ ਜਾ�
 msgid "The site refused the request."
 msgstr "ਸਾਈਟ ਨੇ ਬੇਨਤੀ ਅਸਵੀਕਾਰ ਕਰ ਦਿੱਤੀ।"
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "AI ਸਹਾਇਕਾਂ ਜਿਵੇਂ ਕਿ Claude, Cursor ਜਾਂ VS Code ਨੂੰ MCP (Model Context Protocol) ਰਾਹੀਂ ਤੁਹਾਡੇ ਲਈ ਇਸ ਸਾਈਟ 'ਤੇ ਕੰਮ ਕਰਨ ਦਿਓ। ਉਹ ਇੱਕ ਐਪਲੀਕੇਸ਼ਨ ਪਾਸਵਰਡ ਨਾਲ WordPress ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਸਾਈਨ ਇਨ ਕਰਦੇ ਹਨ ਅਤੇ ਸਿਰਫ਼ ਉਹੀ ਕਰ ਸਕਦੇ ਹਨ ਜੋ ਉਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ।"
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Claude, Cursor ਜਾਂ VS Code ਵਰਗੇ AI ਸਹਾਇਕਾਂ ਨੂੰ MCP (Model Context Protocol) ਰਾਹੀਂ ਇਸ ਸਾਈਟ 'ਤੇ ਤੁਹਾਡੇ ਲਈ ਕੰਮ ਕਰਨ ਦਿਓ। ਉਹ ਇੱਕ WordPress ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਸਾਈਨ ਇਨ ਕਰਦੇ ਹਨ (Claude ਅਤੇ ChatGPT ਨੂੰ ਇੱਥੇ ਮਨਜ਼ੂਰੀ ਦੇ ਕੇ, ਬਾਕੀਆਂ ਨੂੰ ਇੱਕ ਐਪਲੀਕੇਸ਼ਨ ਪਾਸਵਰਡ ਨਾਲ) ਅਤੇ ਸਿਰਫ਼ ਉਹੀ ਕਰ ਸਕਦੇ ਹਨ ਜੋ ਉਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ।"
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "AI ਏਜੰਟਾਂ ਲਈ WordPress 6.9 ਜਾਂ ਬਾਅਦ ਦੇ ਵਰਜਨ ਦੀ ਲੋੜ ਹੈ। ਉਹਨਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ WordPress ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ।"
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "ਕਨੈਕਸ਼ਨ ਪਤਾ (MCP ਅੰਤਮ ਬਿੰਦੂ)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude ਅਤੇ ChatGPT: ਇਸ ਦੀ ਬਜਾਏ ਸਾਈਨ ਇਨ ਕਰੋ"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "ਕਨੈਕਸ਼ਨ ਐਡਰੈੱਸ ਨੂੰ Claude ਵਿੱਚ ਇੱਕ ਕਸਟਮ ਕਨੈਕਟਰ ਵਜੋਂ, ਜਾਂ ChatGPT ਡਿਵੈਲਪਰ ਮੋਡ ਵਿੱਚ ਇੱਕ ਐਪ ਵਜੋਂ ਸ਼ਾਮਲ ਕਰੋ। ਉਹ ਇਸ ਸਾਈਟ ਨੂੰ ਖੋਲ੍ਹਦੇ ਹਨ ਤਾਂ ਜੋ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦੇ ਸਕੋ; ਕਾਪੀ ਕਰਨ ਲਈ ਕੋਈ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ।"
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਕਨੈਕਟ ਕੀਤੀਆਂ AI ਐਪਾਂ:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "ਡਿਸਕਨੈਕਟ ਕਰੋ"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "ਹੋਰ AI ਐਪਸ: ਇੱਕ ਐਪਲੀਕੇਸ਼ਨ ਪਾਸਵਰਡ"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "ਆਪਣੇ ਵਰਤੋਂਕਾਰ ਲਈ ਇੱਕ ਐਪਲੀਕੇਸ਼ਨ ਪਾਸਵਰਡ ਬਣਾਓ"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "ਆਪਣੇ ਉਪਭੋਗਤਾ ਨਾਮ ਅਤੇ ਉਸ ਪਾਸਵਰਡ ਨਾਲ ਇਸਨੂੰ ਆਪਣੀ AI ਐਪ ਦੀਆਂ MCP ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ਉਹੀ ਇੰਦਰਾਜ .vscode/mcp.json ਵਿੱਚ \"servers\" ਦੇ ਅਧੀਨ ਰੱਖੋ, \"mcpServers\" ਦੇ ਅਧੀਨ ਨਹੀਂ।"
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "ਟੂਲ ਜੋ ਇੱਕ AI ਏਜੰਟ ਇੱਥੇ ਵਰਤ ਸਕਦਾ ਹੈ (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "ਵਰਤੋਂਕਾਰ ਗਾਈਡ: AI ਏਜੰਟ ਅਤੇ MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "ਡਿਵੈਲਪਰ ਦਸਤਾਵੇਜ਼: ਸਮਰੱਥਾਵਾਂ, REST ਅਤੇ MCP"
 
@@ -801,62 +871,62 @@ msgstr "ਕਿਸੇ ਗਾਹਕ ਨੂੰ ਪਲਾਨ ਸੌਂਪੋ"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "ਕਿਸੇ ਗਾਹਕ ਨੂੰ ਤੁਹਾਡੀਆਂ ਯੋਜਨਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ 'ਤੇ ਰੱਖਦਾ ਹੈ (client_id, plan_code; interval: month ਜਾਂ year)। ਉਹਨਾਂ ਦੀ ਪਹਿਲੀ ਸਾਈਟ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਕਰੋ।"
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "ਉਹਨਾਂ ਪਲਾਨਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ ਜੋ ਤੁਸੀਂ ਵੇਚ ਸਕਦੇ ਹੋ"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "ਹੋਸਟਿੰਗ ਪਲਾਨ ਅਤੇ ਉਹਨਾਂ ਦੀਆਂ ਕੀਮਤਾਂ ਦੀ ਸੂਚੀ ਦਿੰਦਾ ਹੈ (product_line ਅਤੇ currency ਇਸਨੂੰ ਸੀਮਤ ਕਰਦੇ ਹਨ)।"
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "ਆਪਣੇ ਗਾਹਕਾਂ ਦੀਆਂ ਸਾਈਟਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "ਤੁਹਾਡੇ ਗਾਹਕਾਂ ਲਈ ਤੁਹਾਡੇ ਵੱਲੋਂ ਪ੍ਰਬੰਧ ਕੀਤੀ ਹਰੇਕ ਚੀਜ਼ ਦੀ ਸੂਚੀ ਬਣਾਉਂਦਾ ਹੈ (client_id ਅਤੇ status ਇਸਨੂੰ ਸੀਮਤ ਕਰਦੇ ਹਨ), ਇੱਕ ਵਾਰ ਵਿੱਚ ਇੱਕ ਪੰਨਾ।"
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "ਕਿਸੇ ਗਾਹਕ ਲਈ ਸਾਈਟ ਬਣਾਓ"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "ਤੁਹਾਡੇ ਗਾਹਕਾਂ ਵਿੱਚੋਂ ਇੱਕ ਲਈ ਇੱਕ ਹੋਸਟ ਕੀਤੀ ਸਾਈਟ ਬਣਾਉਂਦਾ ਹੈ (client_id, product_line, primary_domain)। ਇਹ ਤੁਹਾਡੇ ਸਟੋਰ ਵਾਂਗ ਹੀ ਗਾਹਕ ਦੇ ਪਲਾਨ ਅਨੁਸਾਰ ਤੁਹਾਡੇ ਖਾਤੇ ਵਿੱਚ ਬਿਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "ਕਿਸੇ ਕਲਾਇੰਟ ਦੀ ਸਾਈਟ ਮੁਅੱਤਲ ਕਰੋ"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "ਕਿਸੇ ਗਾਹਕ ਦੀ ਸਾਈਟ ਨੂੰ ਗੈਰ-ਭੁਗਤਾਨ ਰੋਕ 'ਤੇ ਰੱਖਦਾ ਹੈ (site_id; reason: ਤੁਹਾਡਾ ਆਪਣਾ ਨੋਟ, ਗਾਹਕ ਨੂੰ ਕਦੇ ਨਹੀਂ ਦਿਖਾਇਆ ਜਾਂਦਾ)। ਮੁਅੱਤਲੀ ਹਟਾਏ ਜਾਣ ਤੱਕ ਸਾਈਟ ਸੇਵਾ ਦੇਣੀ ਬੰਦ ਕਰ ਦਿੰਦੀ ਹੈ।"
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "ਕਲਾਇੰਟ ਦੀ ਸਾਈਟ ਮੁੜ-ਚਾਲੂ ਕਰੋ"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "ਗ਼ੈਰ-ਭੁਗਤਾਨ ਵਾਲੀ ਰੋਕ ਹਟਾਉਂਦਾ ਹੈ, ਤਾਂ ਜੋ ਸਾਈਟ ਦੁਬਾਰਾ ਕੰਮ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰ ਸਕੇ (site_id)।"
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "ਰੀਸੈਲਰ ਟੂਲਕਿੱਟ ਸੈਟਿੰਗਾਂ ਪੜ੍ਹੋ"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "ਇਸ ਪਲੱਗਇਨ ਦੀਆਂ ਸੈਟਿੰਗਾਂ (API ਪਤਾ, ਨਵੇਂ ਆਰਡਰਾਂ ਵੱਲੋਂ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਪਲਾਨ, ਕਿਹੜੇ ਫੀਚਰ ਚਾਲੂ ਹਨ) ਵਾਪਸ ਕਰਦਾ ਹੈ। API ਕੁੰਜੀ ਕਦੇ ਵੀ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ, ਸਿਰਫ਼ ਇਹ ਦੱਸਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਕੋਈ ਕੁੰਜੀ ਸੁਰੱਖਿਅਤ ਹੈ ਜਾਂ ਨਹੀਂ।"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Reseller Toolkit ਸੈਟਿੰਗਾਂ ਬਦਲੋ"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "ਤੁਹਾਡੇ ਵੱਲੋਂ ਭੇਜੀਆਂ ਗਈਆਂ ਸੈਟਿੰਗਾਂ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ਨੂੰ ਬਦਲਦਾ ਹੈ ਅਤੇ ਬਾਕੀ ਨੂੰ ਰੱਖਦਾ ਹੈ। API ਕੁੰਜੀ ਅਤੇ ਪਤਾ ਸਿਰਫ਼ ਸਕ੍ਰੀਨ 'ਤੇ ਹੀ ਬਦਲੇ ਜਾਂਦੇ ਹਨ।"
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "ਪਹਿਲਾਂ Reseller Toolkit ਸਕ੍ਰੀਨ 'ਤੇ ਆਪਣੀ Zinn Digital® ਰੀਸੇਲਰ API ਕੁੰਜੀ ਸ਼ਾਮਲ ਕਰੋ।"

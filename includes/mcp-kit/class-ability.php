@@ -41,8 +41,9 @@ final class Ability {
 	 *                                   `output_schema`, `execute_callback`,
 	 *                                   `permission_callback`, `capability` (the check in words,
 	 *                                   for the ability registry and docs), `edition` (`free` or
-	 *                                   `pro`), and optional `annotations` (`readonly`,
-	 *                                   `destructive`, `idempotent`).
+	 *                                   `pro`), and `annotations` (`readonly`, `destructive`,
+	 *                                   `idempotent`): a tool must declare `readonly => true` or
+	 *                                   `destructive` as a bool (a prompt is exempt).
 	 * @return bool Registered.
 	 */
 	public static function register( string $name, array $args ): bool {
@@ -57,6 +58,18 @@ final class Ability {
 			_doing_it_wrong( __METHOD__, esc_html( $name . ': an ability must say which capability it checks.' ), '1.0.0' );
 			return false;
 		}
+		$annot = (array) ( $args['annotations'] ?? array() );
+		if ( 'prompt' !== ( $args['mcp_type'] ?? 'tool' ) && true !== ( $annot['readonly'] ?? null ) && ! is_bool( $annot['destructive'] ?? null ) ) {
+			// The Claude and ChatGPT connector directories require every tool to say whether it is
+			// read-only or destructive; a silent default would advertise a delete as harmless.
+			_doing_it_wrong( __METHOD__, esc_html( $name . ': a tool must declare annotations readonly => true, or destructive => true|false.' ), '1.0.0' );
+			return false;
+		}
+		if ( '' === trim( (string) ( $args['label'] ?? '' ) ) ) {
+			// The label is the tool's MCP `title`, which both directories require.
+			_doing_it_wrong( __METHOD__, esc_html( $name . ': an ability needs a label (its MCP title).' ), '1.0.0' );
+			return false;
+		}
 		$schema = (array) ( $args['input_schema'] ?? array() );
 		// An object input with nothing required defaults to {} — so a read-only ability runs as a
 		// plain `GET …/run` with no `input` at all, instead of refusing it as "not an object".
@@ -65,7 +78,6 @@ final class Ability {
 		}
 		$check   = $args['permission_callback'];
 		$execute = $args['execute_callback'];
-		$annot   = (array) ( $args['annotations'] ?? array() );
 
 		$registered = wp_register_ability(
 			$name,

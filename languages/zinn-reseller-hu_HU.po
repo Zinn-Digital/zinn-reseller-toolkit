@@ -129,17 +129,17 @@ msgstr "Stílusok beállítása"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "MI-ágensek (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "MI-ágensek engedélyezése (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Kikapcsolva: az alábbi eszközök és a hozzájuk tartozó REST-útvonalak egyáltalán nincsenek regisztrálva."
 
@@ -703,9 +703,58 @@ msgstr "A frissítést nem sikerült letölteni a Zinn® frissítési szolgálta
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "A letöltött frissítés ellenőrző összege hibás, ezért a telepítés nem sikerült."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "A műveletet nem sikerült befejezni. Érdemes újra megpróbálni, és ha a hiba továbbra is fennáll, forduljon a webhely adminisztrátorához."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "MI-alkalmazás csatlakoztatása"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Ez a kapcsolódási kérelem lejárt. Térjen vissza az alkalmazáshoz, és kezdje újra a kapcsolódást."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "A(z) %1$s a(z) %2$s használatát kéri ezen a webhelyen mint %3$s. Kizárólag azt teheti meg, amire a WordPress-fiók jogosult, és a kapcsolat bármikor megszakítható az MI-ügynökök (MCP) beállításaiban."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "A(z) %1$s innen azonosította magát: %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "A(z) %1$s automatikusan regisztrálta magát. Csak akkor folytassa a műveletet, ha a folyamat a következőből indult: %2$s."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "A fiók nem használhatja ezeket az eszközöket ezen a webhelyen. Forduljunk egy adminisztrátorhoz."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "A válaszadást követően a visszatérés helye: %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "%s engedélyezése"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Tiltás"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -715,41 +764,61 @@ msgstr "Egy kötelező érték hiányzik vagy hibás a formátuma. Ellenőrizend
 msgid "The site refused the request."
 msgstr "A webhely elutasította a kérést."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Lehetővé tehető olyan AI-asszisztensek számára, mint a Claude, a Cursor vagy a VS Code, hogy az MCP-n (Model Context Protocol) keresztül dolgozzanak ezen a webhelyen. Alkalmazásjelszóval jelentkeznek be WordPress-felhasználóként, és kizárólag azt tehetik meg, ami az adott felhasználó számára engedélyezett."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Lehetőség van olyan MI-asszisztensek használatára ezen a webhelyen az MCP (Model Context Protocol) segítségével, mint a Claude, a Cursor vagy a VS Code. Ezek WordPress felhasználóként jelentkeznek be (a Claude és a ChatGPT itt hagyható jóvá, mások alkalmazásjelszóval működnek), és kizárólag azt tehetik meg, amire az adott felhasználó jogosult."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Az MI-ügynökök működéséhez a WordPress 6.9-es vagy újabb verziója szükséges. A használatukhoz frissíteni kell a WordPress-t."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Kapcsolati cím (MCP-végpont)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude és ChatGPT: bejelentkezés helyette"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "A kapcsolati cím hozzáadható egyéni összekötőként a Claude-ban, vagy alkalmazásként a ChatGPT fejlesztői módjában. Megnyitják ezt a webhelyet a jóváhagyásukhoz; nem szükséges jelszót másolni."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "A fiókhoz kapcsolt MI-alkalmazások:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Kapcsolat bontása"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Egyéb MI-alkalmazások: egy alkalmazásjelszó"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Alkalmazásjelszó létrehozása a felhasználóhoz"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Adja hozzá ezt az AI-alkalmazás MCP-beállításaihoz a felhasználónévvel és azzal a jelszóval:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: tegye ugyanezt a bejegyzést a \"servers\" alá a .vscode/mcp.json fájlban, ne pedig a \"mcpServers\" alá."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Eszközök, amelyeket egy MI-ügynök itt használhat (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Felhasználói útmutató: MI-ágensek és MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Fejlesztői dokumentáció: képességek, REST és MCP"
 
@@ -801,62 +870,62 @@ msgstr "Ügyfél csomaghoz rendelése"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Hozzárendeli az ügyfelet a csomagok egyikéhez (client_id, plan_code; interval: month vagy year). Ezt az első webhelyük előtt kell elvégezni."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Az eladható csomagok listázása"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Kilistázza a tárhelycsomagokat és azok árait (a product_line és a currency szűkíti a listát)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Ügyfelek webhelyeinek listázása"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Oldalanként kilistáz mindent, ami az ügyfelek számára ki lett építve (a client_id és a status szűkíti a találatokat)."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Webhely létrehozása egy ügyfél számára"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Tárhelyes webhelyet hoz létre az egyik ügyfél számára (client_id, product_line, primary_domain). A számlázása a felhasználói fiókra történik az ügyfél csomagja szerint, akárcsak a saját áruházból."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Ügyfél webhelyének felfüggesztése"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Fizetéselmaradás miatti felfüggesztésbe helyezi az ügyfél webhelyét (site_id; reason: saját megjegyzés, amely soha nem jelenik meg az ügyfélnek). A webhely kiszolgálása leáll a felfüggesztés feloldásáig."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Ügyfél webhelye felfüggesztésének feloldása"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Feloldja a nemfizetés miatti zárolást, így a webhely újra működik (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "A Reseller Toolkit beállításainak megtekintése"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Visszaadja a bővítmény beállításait (az API-címet, az új megrendelések által használt díjcsomagot, valamint a bekapcsolt funkciókat). Az API-kulcs soha nem kerül visszaadásra, csak az, hogy van-e elmentve egy."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "A Reseller Toolkit beállításainak módosítása"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Módosítja a beküldött beállításokat (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), a többit pedig megtartja. Az API-kulcs és a cím csak a képernyőn módosul."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Először adja hozzá a Zinn Digital® viszonteladói API-kulcsot a Reseller Toolkit képernyőn."

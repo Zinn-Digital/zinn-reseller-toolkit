@@ -129,17 +129,17 @@ msgstr "ການຈັດຮູບແບບ"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "ຕົວແທນ AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "ອະນຸຍາດໃຫ້ຕົວແທນ AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "ປິດ: ເຄື່ອງມືລຸ່ມນີ້ ແລະ ເສັ້ນທາງ REST ຂອງພວກມັນບໍ່ໄດ້ຖືກລົງທະບຽນເລີຍ."
 
@@ -701,9 +701,58 @@ msgstr "ບໍ່ສາມາດດາວໂຫລດການອັບເດດ
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງສົມບູນ ແລະ ບໍ່ໄດ້ຮັບການຕິດຕັ້ງ."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "ບໍ່ສາມາດດຳເນີນການໃຫ້ສຳເລັດໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ, ແລະ ຖ້າຍັງຫຼົ້ມເຫຼວຢູ່, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງເວັບໄຊ."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "ເຊື່ອມຕໍ່ແອັບ AI"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "ຄຳຂໍການເຊື່ອມຕໍ່ນີ້ໝົດອາຍຸແລ້ວ. ກະລຸນາກັບໄປທີ່ແອັບ ແລະ ເລີ່ມຕົ້ນການເຊື່ອມຕໍ່ໃໝ່ອີກຄັ້ງ."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s ກຳລັງຮ້ອງຂໍນຳໃຊ້ %2$s ໃນເວັບໄຊນີ້ເປັນ %3$s. ມັນສາມາດເຮັດໄດ້ພຽງສິ່ງທີ່ບັນຊີ WordPress ຂອງທ່ານໄດ້ຮັບອະນຸຍາດໃຫ້ເຮັດເທົ່ານັ້ນ, ແລະ ທ່ານສາມາດຕັດການເຊື່ອມຕໍ່ມັນໄດ້ທຸກເວລາຈາກການຕັ້ງຄ່າຕົວແທນ AI (MCP)."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s ໄດ້ລະບຸຕົວຕົນຈາກ %2$s."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s ໄດ້ລົງທະບຽນຕົນເອງໂດຍອັດຕະໂນມັດ. ສືບຕໍ່ຕໍ່ເມື່ອທ່ານໄດ້ເລີ່ມຕົ້ນສິ່ງນີ້ຈາກ %2$s ເທົ່ານັ້ນ."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "ບັນຊີຂອງທ່ານບໍ່ສາມາດໃຊ້ເຄື່ອງມືເຫຼົ່ານີ້ຢູ່ໃນເວັບໄຊນີ້ໄດ້. ຖາມຜູ້ເບິ່ງແຍງລະບົບ."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "ຫຼັງຈາກທ່ານຕອບແລ້ວ ທ່ານຈະກັບຄືນໄປຫາ %s."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "ອະນຸຍາດ %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "ບໍ່ອະນຸຍາດ"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -713,41 +762,61 @@ msgstr "ຄ່າທີ່ຕ້ອງການຂາດຫາຍໄປ ຫຼ�
 msgid "The site refused the request."
 msgstr "ເວັບໄຊປະຕິເສດຄຳຮ້ອງຂໍ."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "ອະນຸຍາດໃຫ້ຜູ້ຊ່ວຍ AI ເຊັ່ນ Claude, Cursor ຫຼື VS Code ເຮັດວຽກຢູ່ໃນເວັບໄຊນີ້ສຳລັບທ່ານຜ່ານ MCP (Model Context Protocol). ພວກເຂົາເຂົ້າສູ່ລະບົບໃນຖານະຜູ້ໃຊ້ WordPress ດ້ວຍລະຫັດຜ່ານແອັບພລິເຄຊັນ ແລະ ສາມາດເຮັດໄດ້ສະເພາະສິ່ງທີ່ຜູ້ໃຊ້ນັ້ນໄດ້ຮັບອະນຸຍາດເທົ່ານັ້ນ."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "ອະນຸຍາດໃຫ້ຜູ້ຊ່ວຍ AI ເຊັ່ນ Claude, Cursor ຫຼື VS Code ເຮັດວຽກຢູ່ໃນເວັບໄຊນີ້ສຳລັບທ່ານຜ່ານ MCP (Model Context Protocol). ພວກເຂົາເຂົ້າສູ່ລະບົບໃນຖານະຜູ້ໃຊ້ WordPress (Claude ແລະ ChatGPT ໂດຍການອະນຸມັດພວກເຂົາຢູ່ທີ່ນີ້, ສ່ວນອື່ນໆແມ່ນໃຊ້ລະຫັດຜ່ານແອັບພລິເຄຊັນ) ແລະ ສາມາດເຮັດໄດ້ພຽງແຕ່ສິ່ງທີ່ຜູ້ໃຊ້ນັ້ນໄດ້ຮັບອະນຸຍາດໃຫ້ເຮັດເທົ່ານັ້ນ."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "ຕົວແທນ AI ຕ້ອງການ WordPress 6.9 ຫຼືໃໝ່ກວ່າ. ອັບເດດ WordPress ເພື່ອນຳໃຊ້ພວກມັນ."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "ທີ່ຢູ່ການເຊື່ອມຕໍ່ (ຈຸດສິ້ນສຸດ MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude ແລະ ChatGPT: ເຂົ້າສູ່ລະບົບແທນ"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "ເພີ່ມທີ່ຢູ່ການເຊື່ອມຕໍ່ເປັນຕົວເຊື່ອມຕໍ່ແບບກຳນົດເອງໃນ Claude, ຫຼື ເປັນແອັບໃນໂໝດນັກພັດທະນາຂອງ ChatGPT. ພວກມັນຈະເປີດເວັບໄຊນີ້ເພື່ອໃຫ້ທ່ານສາມາດອະນຸມັດໄດ້; ບໍ່ມີລະຫັດຜ່ານທີ່ຕ້ອງສຳເນົາ."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "ແອັບ AI ທີ່ເຊື່ອມຕໍ່ກັບບັນຊີຂອງທ່ານ:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "ຕັດການເຊື່ອມຕໍ່"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "ແອັບ AI ອື່ນໆ: ລະຫັດຜ່ານແອັບພລິເຄຊັນ"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "ສ້າງລະຫັດຜ່ານແອັບພລິເຄຊັນສຳລັບຜູ້ໃຊ້ຂອງທ່ານ"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "ເພີ່ມສິ່ງນີ້ໃສ່ການຕັ້ງຄ່າ MCP ຂອງແອັບ AI ຂອງທ່ານ, ພ້ອມກັບຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານນັ້ນ:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ໃສ່ລາຍການດຽວກັນພາຍໃຕ້ \"servers\" ໃນ .vscode/mcp.json, ບໍ່ແມ່ນພາຍໃຕ້ \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "ເຄື່ອງມືທີ່ຕົວແທນ AI ສາມາດໃຊ້ຢູ່ທີ່ນີ້ (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "ຄູ່ມືຜູ້ໃຊ້: ຕົວແທນ AI ແລະ MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "ເອກະສານນັກພັດທະນາ: ຄວາມສາມາດ, REST ແລະ MCP"
 
@@ -799,62 +868,62 @@ msgstr "ກຳນົດແຜນໃຫ້ລູກຄ້າ"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "ກຳນົດລູກຄ້າໃສ່ໜຶ່ງໃນແຜນຂອງທ່ານ (client_id, plan_code; interval: month ຫຼື year). ດຳເນີນການນີ້ກ່ອນເວັບໄຊທຳອິດຂອງພວກເຂົາ."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "ລະບຸແຜນທີ່ທ່ານສາມາດຂາຍໄດ້"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "ສະແດງລາຍການແຜນໂຮດຕິ້ງ ແລະ ລາຄາຂອງພວກມັນ (product_line ແລະ currency ຈະຈຳກັດໃຫ້ແຄບລົງ)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "ລາຍຊື່ເວັບໄຊຂອງລູກຄ້າຂອງທ່ານ"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "ສະແດງລາຍການທຸກຢ່າງທີ່ທ່ານໄດ້ຈັດສັນໃຫ້ກັບລູກຄ້າຂອງທ່ານ (client_id ແລະ status ຈະຈຳກັດໃຫ້ແຄບລົງ), ເທື່ອລະໜ້າ."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "ສ້າງເວັບໄຊສຳລັບລູກຄ້າ"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "ສ້າງເວັບໄຊທີ່ໂຮສໄວ້ສຳລັບລູກຄ້າຂອງທ່ານຄົນໜຶ່ງ (client_id, product_line, primary_domain). ມັນຈະຖືກຮຽກເກັບເງິນໄປຍັງບັນຊີຂອງທ່ານຕາມແຜນຂອງລູກຄ້າ, ຄືກັນກັບຈາກຮ້ານຂອງທ່ານ."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "ໂຈະເວັບໄຊຂອງລູກຄ້າ"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "ເຮັດໃຫ້ເວັບໄຊຂອງລູກຄ້າຖືກລະງັບໄວ້ຍ້ອນບໍ່ມີການຊຳລະເງິນ (site_id; reason: ບັນທຶກຂອງທ່ານເອງ, ບໍ່ເຄີຍສະແດງໃຫ້ລູກຄ້າເຫັນ). ເວັບໄຊຈະຢຸດໃຫ້ບໍລິການຈົນກວ່າຈະຖືກຍົກເລີກການລະງັບ."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "ຍົກເລີກການລະງັບເວັບໄຊຂອງລູກຄ້າ"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "ຍົກເລີກການລະງັບຍ້ອນບໍ່ຊຳລະເງິນ, ເພື່ອໃຫ້ເວັບໄຊກັບມາເຮັດວຽກໄດ້ອີກຄັ້ງ (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "ອ່ານການຕັ້ງຄ່າ Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "ສົ່ງຄືນການຕັ້ງຄ່າຂອງປລັກອິນນີ້ (ທີ່ຢູ່ API, ແພັກເກດທີ່ຄຳສັ່ງຊື້ໃໝ່ໃຊ້, ຄຸນສົມບັດໃດທີ່ເປີດຢູ່). ຄີ API ຈະບໍ່ຖືກສົ່ງຄືນຢ່າງເດັດຂາດ, ພຽງແຕ່ບອກວ່າມີການບັນທຶກໄວ້ຫຼືບໍ່ເທົ່ານັ້ນ."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "ປ່ຽນການຕັ້ງຄ່າ Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "ປ່ຽນແປງການຕັ້ງຄ່າທີ່ທ່ານສົ່ງ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ແລະ ຮັກສາສ່ວນທີ່ເຫຼືອໄວ້. ຄີ API ແລະ ທີ່ຢູ່ແມ່ນຖືກປ່ຽນແປງຢູ່ໜ້າຈໍເທົ່ານັ້ນ."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "ກະລຸນາເພີ່ມລະຫັດ API ຕົວແທນຈຳໜ່າຍ Zinn Digital® ຂອງທ່ານໃນໜ້າຈໍ Reseller Toolkit ກ່ອນ."

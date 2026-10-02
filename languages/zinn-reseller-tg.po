@@ -129,17 +129,17 @@ msgstr "Ороишдиҳӣ"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:220
+#: includes/mcp-kit/class-server.php:237
 msgid "AI agents (MCP)"
 msgstr "Агентҳои зеҳни сунъӣ (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:229
+#: includes/mcp-kit/class-server.php:246
 msgid "Allow AI agents (MCP)"
 msgstr "Иҷозат додан ба агентҳои зеҳни сунъӣ (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:231
+#: includes/mcp-kit/class-server.php:248
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Хомӯш: абзорҳои дар поён овардашуда ва масирҳои REST-и онҳо умуман сабт нашудаанд."
 
@@ -701,9 +701,58 @@ msgstr "Навсозӣ аз хадамоти навсозии Zinn® (%s) бор
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Навсозии боргиришуда аз санҷиши беайбӣ нагузашт ва насб карда нашуд."
 
-#: includes/mcp-kit/class-ability.php:82
+#: includes/mcp-kit/class-ability.php:94
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "Амалро анҷом додан ғайриимкон буд. Лутфан, аз нав кӯшиш кунед ва агар хато такрор шавад, ба мудири сомона муроҷиат намое."
+
+#: includes/mcp-kit/class-oauth.php:639
+#: includes/mcp-kit/class-oauth.php:650
+msgid "Connect an AI app"
+msgstr "Барномаи зеҳни сунъиро пайваст кунед"
+
+#: includes/mcp-kit/class-oauth.php:652
+#: includes/mcp-kit/class-oauth.php:658
+#: includes/mcp-kit/class-oauth.php:699
+msgid "This connection request has expired. Go back to the app and start connecting again."
+msgstr "Мӯҳлати ин дархости пайвастшавӣ ба охир расид. Ба барнома баргардед ва пайвастшавиро аз нав оғоз кунед."
+
+#. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
+#: includes/mcp-kit/class-oauth.php:666
+#, php-format
+msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
+msgstr "%1$s дархост дорад, ки %2$s-ро дар ин сомона ҳамчун %3$s истифода барад. Он танҳо метавонад он кореро анҷом диҳад, ки ба ҳисоби WordPress-и шумо иҷозат дода шудааст ва шумо метавонед онро дар дилхоҳ вақт аз танзимоти намояндагони AI (MCP) ҷудо кунед."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:669
+#, php-format
+msgid "%1$s identified itself from %2$s."
+msgstr "%1$s худро аз %2$s муайян кард."
+
+#. translators: 1: the AI app's name, 2: a domain name.
+#: includes/mcp-kit/class-oauth.php:672
+#, php-format
+msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
+msgstr "%1$s ба таври худкор худро сабти ном кард. Танҳо дар сурате идома диҳед, агар ин амалро аз %2$s оғоз карда бошед."
+
+#: includes/mcp-kit/class-oauth.php:676
+msgid "Your account cannot use these tools on this site. Ask an administrator."
+msgstr "Ҳисоби шумо наметавонад ин абзорҳоро дар ин сомона истифода барад. Ба маъмур муроҷиат намоед."
+
+#. translators: %s: a domain name.
+#: includes/mcp-kit/class-oauth.php:679
+#, php-format
+msgid "After you answer you will go back to %s."
+msgstr "Баъд аз он ки шумо ҷавоб додед, ба %s бармегардед."
+
+#. translators: %s: the AI app's name.
+#: includes/mcp-kit/class-oauth.php:684
+#, php-format
+msgid "Allow %s"
+msgstr "Иҷозат додан ба %s"
+
+#: includes/mcp-kit/class-oauth.php:685
+msgid "Do not allow"
+msgstr "Иҷозат надиҳед"
 
 #: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
@@ -713,41 +762,61 @@ msgstr "Қимати зарурӣ намерасад ё шакли нодуру�
 msgid "The site refused the request."
 msgstr "Сомона дархостро рад кард."
 
-#: includes/mcp-kit/class-server.php:221
-msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Иҷозат диҳед ёварони зеҳни сунъӣ ба монанди Claude, Cursor ё VS Code тавассути MCP (Model Context Protocol) барои шумо дар ин сомона кор кунанд. Онҳо ҳамчун корбари WordPress бо гузарвожаи барнома ворид мешаванд ва танҳо метавонанд корҳоеро анҷом диҳанд, ки барои он корбар иҷозат дода шудааст."
+#: includes/mcp-kit/class-server.php:238
+msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
+msgstr "Ба ёварони AI ба монанди Claude, Cursor ё VS Code иҷозат диҳед, ки тавассути MCP (Model Context Protocol) дар ин сайт барои шумо кор кунанд. Онҳо ҳамчун корбари WordPress ворид мешаванд (Claude ва ChatGPT бо тасдиқи онҳо дар ин ҷо, дигарон бошанд бо пароли барнома) ва танҳо кореро анҷом дода метавонанд, ки ба он корбар иҷозат дода шудааст."
 
-#: includes/mcp-kit/class-server.php:223
+#: includes/mcp-kit/class-server.php:240
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "Барои агентҳои AI нусхаи WordPress 6.9 ё навтар лозим аст. Барои истифодаи онҳо WordPress-ро навсозӣ кунед."
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:253
 msgid "Connection address (MCP endpoint)"
 msgstr "Суроғаи пайвастшавӣ (нуқтаи ниҳоии MCP)"
 
-#: includes/mcp-kit/class-server.php:239
+#: includes/mcp-kit/class-server.php:257
+msgid "Claude and ChatGPT: sign in instead"
+msgstr "Claude ва ChatGPT: ба ҷои ин ворид шавед"
+
+#: includes/mcp-kit/class-server.php:258
+msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
+msgstr "Суроғаи пайвастро ҳамчун пайвасткунандаи фармоишӣ дар Claude ё ҳамчун барнома дар ҳолати таҳиягари ChatGPT илова намоед. Онҳо ин сомонаро боз мекунанд, то шумо тавонед онҳоро тасдиқ кунед; ягон гузарвожа барои нусхабардорӣ нест."
+
+#: includes/mcp-kit/class-server.php:260
+msgid "AI apps connected to your account:"
+msgstr "Барномаҳои AI, ки ба ҳисоби шумо пайвастанд:"
+
+#: includes/mcp-kit/class-server.php:269
+msgid "Disconnect"
+msgstr "Қатъ кардани пайваст"
+
+#: includes/mcp-kit/class-server.php:275
+msgid "Other AI apps: an application password"
+msgstr "Барномаҳои дигари ҲМ: пароли барнома"
+
+#: includes/mcp-kit/class-server.php:277
 msgid "Create an application password for your user"
 msgstr "Барои корбари худ пароли барнома эҷод кунед"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:278
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Инро бо номи корбар ва он пароли худ ба танзимоти MCP-и барномаи AI-и худ илова кунед:"
 
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:280
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ҳамон вурудро дар .vscode/mcp.json зери \"servers\" гузоред, на зери \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:284
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Воситаҳое, ки як агенти зеҳни сунъӣ метавонад дар ин ҷо истифода барад (%d):"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:295
 msgid "User guide: AI agents and MCP"
 msgstr "Дастури корбар: Агентҳои AI ва MCP"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:298
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Ҳуҷҷатҳои таҳиягар: қобилиятҳо, REST ва MCP"
 
@@ -799,62 +868,62 @@ msgstr "Мизоҷро ба як нақша вобаста намоед"
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
 msgstr "Мизоҷро ба яке аз нақшаҳои шумо вобаста мекунад (client_id, plan_code; interval: month ё year). Инро пеш аз сомонаи аввалини онҳо иҷро кунед."
 
-#: includes/mcp/class-abilities.php:169
+#: includes/mcp/class-abilities.php:172
 msgid "List the plans you can sell"
 msgstr "Нақшаҳоеро, ки метавонед бифурӯшед, номбар кунед"
 
-#: includes/mcp/class-abilities.php:170
+#: includes/mcp/class-abilities.php:173
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
 msgstr "Нақшаҳои мизбонӣ ва нархи онҳоро рӯйхат мекунад (product_line ва currency онро маҳдуд мекунанд)."
 
-#: includes/mcp/class-abilities.php:184
+#: includes/mcp/class-abilities.php:187
 msgid "List your clients' sites"
 msgstr "Сомонаҳои мизоҷони худро номбар кунед"
 
-#: includes/mcp/class-abilities.php:185
+#: includes/mcp/class-abilities.php:188
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
 msgstr "Ҳама чизеро, ки барои муштариёни худ таъмин кардаед (client_id ва status онро маҳдуд мекунанд), саҳифа ба саҳифа номбар мекунад."
 
-#: includes/mcp/class-abilities.php:196
+#: includes/mcp/class-abilities.php:199
 msgid "Create a site for a client"
 msgstr "Барои муштарӣ сомона эҷод кунед"
 
-#: includes/mcp/class-abilities.php:197
+#: includes/mcp/class-abilities.php:200
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
 msgstr "Барои яке аз муштариёни шумо сайти мизбонишуда эҷод мекунад (client_id, product_line, primary_domain). Он ба ҳисоби шумо аз рӯи нақшаи муштарӣ, ба монанди аз мағозаи шумо, ҳисоб карда мешавад."
 
-#: includes/mcp/class-abilities.php:217
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Муваққатан боздоштани сомонаи мизоҷ"
 
-#: includes/mcp/class-abilities.php:218
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Сомонаи муштариро бо сабаби напардохтани маблағ боздошта менамояд (site_id; reason: ёддошти худи шумо, ҳеҷ гоҳ ба муштарӣ нишон дода намешавад). Сомона то бекор кардани боздошт хидматрасониро қатъ мекунад."
 
-#: includes/mcp/class-abilities.php:236
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Боздоштани сомонаи муштариро бекор кунед"
 
-#: includes/mcp/class-abilities.php:237
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Боздориро аз сабаби пардохт нашудан бекор мекунад, то ин ки сомона дубора кор кунад (site_id)."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Танзимоти Reseller Toolkit-ро бихонед"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Танзимоти ин васлкунакро (суроғаи API, нақшае, ки фармоишҳои нав истифода мебаранд, кадом хусусиятҳо фаъоланд) бармегардонад. Калиди API ҳеҷ гоҳ баргардонида намешавад, танҳо маълумот дар бораи маҳфуз будани он дода мешавад."
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Танзимоти Reseller Toolkit-ро иваз кунед"
 
-#: includes/mcp/class-abilities.php:251
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Танзимоти фиристодаи шуморо (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) тағйир медиҳад ва боқимондаро нигоҳ медорад. Калиди API ва нишонӣ танҳо дар экран тағйир меёбанд."
 
-#: includes/mcp/class-abilities.php:297
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Аввал калиди API-и фурӯшандаи Zinn Digital®-и худро дар экрани Reseller Toolkit илова кунед."
