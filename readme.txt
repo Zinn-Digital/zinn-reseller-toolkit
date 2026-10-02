@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.2
+Stable tag: 1.7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -159,6 +159,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.3 =
+* Japanese follows the WordPress.org Japanese team's style guide: a half-width space around Latin text, half-width colons and question marks.
 
 = 1.7.2 =
 * New: two wp-config.php switches for the Zinn Digital® panel. define( 'ZINN_RESELLER_PROMO', false ); removes the panel (dashboard widget, settings block and footer), and define( 'ZINN_RESELLER_PROMO_HOSTING_URL', 'https://…' ); points its hosting offer at another https address.
