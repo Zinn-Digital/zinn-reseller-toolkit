@@ -62,6 +62,83 @@ final class Server {
 		add_action( 'wp_abilities_api_categories_init', array( self::class, 'register_category' ) );
 		add_action( 'wp_abilities_api_init', $config['abilities'] );
 		add_action( 'mcp_adapter_init', array( self::class, 'create' ) );
+		add_filter( 'mcp_adapter_tool_call_result', array( self::class, 'object_result' ) );
+		add_filter( 'mcp_adapter_tools_list', array( self::class, 'directory_tools' ) );
+		add_filter( 'mcp_adapter_pre_tool_call', array( self::class, 'directory_call' ), 10, 2 );
+	}
+
+	/**
+	 * Tool names a connector-directory app is not served on this request (abilities registered
+	 * with `directory => false`); empty for every other client.
+	 *
+	 * @return list<string>
+	 */
+	public static function directory_hidden(): array {
+		if ( ! OAuth::directory_client() || ! function_exists( 'wp_get_abilities' ) ) {
+			return array();
+		}
+		$hidden = array();
+		foreach ( (array) wp_get_abilities() as $ability ) {
+			$meta = method_exists( $ability, 'get_meta' ) ? (array) $ability->get_meta() : array();
+			if ( isset( $meta['zinn']['directory'] ) && false === $meta['zinn']['directory'] ) {
+				$hidden[] = str_replace( '/', '-', (string) $ability->get_name() );
+			}
+		}
+		return $hidden;
+	}
+
+	/**
+	 * Filter `mcp_adapter_tools_list`: a directory app's list leaves out the tools it may not use.
+	 *
+	 * @param mixed $tools Tool DTOs.
+	 * @return mixed
+	 */
+	public static function directory_tools( $tools ) {
+		$hidden = self::directory_hidden();
+		if ( array() === $hidden || ! is_array( $tools ) ) {
+			return $tools;
+		}
+		return array_values(
+			array_filter(
+				$tools,
+				static fn( $tool ): bool => ! ( is_object( $tool ) && method_exists( $tool, 'getName' ) && in_array( $tool->getName(), $hidden, true ) )
+			)
+		);
+	}
+
+	/**
+	 * Filter `mcp_adapter_pre_tool_call`: such a tool answers as unknown to a directory app.
+	 *
+	 * @param mixed  $args      Arguments.
+	 * @param string $tool_name Tool name.
+	 * @return mixed
+	 */
+	public static function directory_call( $args, $tool_name = '' ) {
+		if ( in_array( (string) $tool_name, self::directory_hidden(), true ) ) {
+			return new \WP_Error( 'zinn_mcp_unknown_tool', __( 'Unknown tool.', 'zinn-reseller' ) );
+		}
+		return $args;
+	}
+
+	/**
+	 * A tool's result as an MCP `structuredContent` OBJECT.
+	 *
+	 * MCP (2025-06-18) requires `structuredContent` to be a JSON object, and the adapter returns
+	 * whatever the ability returned — so a list (`pbs/list-forms`, `tranzly/list-jobs`) or an empty
+	 * result went out as a JSON ARRAY, and a spec-following client refuses the whole call: the
+	 * official TypeScript SDK answers "expected record, received array" (measured 2026-10-02 on
+	 * the review site, lane MCP-STORE: 5 tools across PBS and Tranzly). A list becomes
+	 * `{"items": [...]}`; an object, a WP_Error or anything else passes through unchanged, so
+	 * running this once per plugin on the same site is harmless. REST (`…/run`) is untouched.
+	 *
+	 * @param mixed $result The tool's raw result.
+	 * @return mixed
+	 */
+	public static function object_result( $result ) {
+		if ( is_array( $result ) && array_is_list( $result ) ) {
+			return array( 'items' => $result );
+		}
+		return $result;
 	}
 
 	/**

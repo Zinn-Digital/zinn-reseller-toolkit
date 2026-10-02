@@ -129,17 +129,17 @@ msgstr "样式"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:237
+#: includes/mcp-kit/class-server.php:314
 msgid "AI agents (MCP)"
 msgstr "AI 智能体 (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:323
 msgid "Allow AI agents (MCP)"
 msgstr "允许 AI 代理 (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:248
+#: includes/mcp-kit/class-server.php:325
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "关闭：以下工具及其 REST 路由完全未注册。"
 
@@ -705,118 +705,122 @@ msgstr "已下载的更新未能通过完整性检查，未被安装。"
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "无法完成该操作。请重试，如果仍然失败，请联系网站管理员。"
 
-#: includes/mcp-kit/class-oauth.php:657
-#: includes/mcp-kit/class-oauth.php:668
+#: includes/mcp-kit/class-oauth.php:704
+#: includes/mcp-kit/class-oauth.php:715
 msgid "Connect an AI app"
 msgstr "连接 AI 应用程序"
 
-#: includes/mcp-kit/class-oauth.php:670
-#: includes/mcp-kit/class-oauth.php:676
 #: includes/mcp-kit/class-oauth.php:717
+#: includes/mcp-kit/class-oauth.php:723
+#: includes/mcp-kit/class-oauth.php:764
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "此连接请求已过期。请返回该应用程序并重新开始连接。"
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:731
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s 正在申请作为 %3$s 在本网站上使用 %2$s。它只能执行您的 WordPress 账户有权执行的操作，并且您可以随时在 AI 代理 (MCP) 设置中将其断开连接。"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:687
+#: includes/mcp-kit/class-oauth.php:734
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s 从 %2$s 识别了自身。"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:690
+#: includes/mcp-kit/class-oauth.php:737
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s 已自动注册。仅当您是从 %2$s 发起此操作时才继续。"
 
-#: includes/mcp-kit/class-oauth.php:694
+#: includes/mcp-kit/class-oauth.php:741
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "您的账户不能在此站点上使用这些工具。请咨询管理员。"
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:697
+#: includes/mcp-kit/class-oauth.php:744
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "回答后，您将返回 %s。"
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:702
+#: includes/mcp-kit/class-oauth.php:749
 #, php-format
 msgid "Allow %s"
 msgstr "允许 %s"
 
-#: includes/mcp-kit/class-oauth.php:703
+#: includes/mcp-kit/class-oauth.php:750
 msgid "Do not allow"
 msgstr "不允许"
 
-#: includes/mcp-kit/class-rest-bridge.php:322
+#: includes/mcp-kit/class-rest-bridge.php:325
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
 msgstr "缺少必填值或格式不正确。请检查该能力的输入架构（input schema）。"
 
-#: includes/mcp-kit/class-rest-bridge.php:355
+#: includes/mcp-kit/class-rest-bridge.php:358
 msgid "The site refused the request."
 msgstr "该站点拒绝了请求。"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:118
+msgid "Unknown tool."
+msgstr "未知工具。"
+
+#: includes/mcp-kit/class-server.php:315
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
 msgstr "让诸如 Claude、Cursor 或 VS Code 等 AI 助手通过 MCP（模型上下文协议）为您在此站点上工作。它们以 WordPress 用户的身份登录（Claude 和 ChatGPT 通过在此处批准登录，其他助手则使用应用程序密码登录），并且只能执行该用户获准执行的操作。"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:317
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "AI 代理需要 WordPress 6.9 或更高版本。请更新 WordPress 以使用它们。"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:330
 msgid "Connection address (MCP endpoint)"
 msgstr "连接地址 (MCP 端点)"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:334
 msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude 和 ChatGPT：改为登录"
 
-#: includes/mcp-kit/class-server.php:258
+#: includes/mcp-kit/class-server.php:335
 msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
 msgstr "请将连接地址作为自定义连接器添加到 Claude 中，或在 ChatGPT 开发者模式中作为应用程序添加。它们会打开此网站以便您批准；无需复制密码。"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:337
 msgid "AI apps connected to your account:"
 msgstr "已关联到您账户的 AI 应用程序："
 
-#: includes/mcp-kit/class-server.php:269
+#: includes/mcp-kit/class-server.php:346
 msgid "Disconnect"
 msgstr "断开连接"
 
-#: includes/mcp-kit/class-server.php:275
+#: includes/mcp-kit/class-server.php:352
 msgid "Other AI apps: an application password"
 msgstr "其他 AI 应用程序：应用程序密码"
 
-#: includes/mcp-kit/class-server.php:277
+#: includes/mcp-kit/class-server.php:354
 msgid "Create an application password for your user"
 msgstr "为您的用户创建应用程序密码"
 
-#: includes/mcp-kit/class-server.php:278
+#: includes/mcp-kit/class-server.php:355
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "请将此内容添加到您的 AI 应用程序的 MCP 设置中，并附上您的用户名和该密码："
 
-#: includes/mcp-kit/class-server.php:280
+#: includes/mcp-kit/class-server.php:357
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code：请将相同的条目放在 .vscode/mcp.json 中的 \"servers\" 下，而不是放在 \"mcpServers\" 下。"
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:284
+#: includes/mcp-kit/class-server.php:361
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "AI 代理可以在此处使用的工具 (%d)："
 
-#: includes/mcp-kit/class-server.php:295
+#: includes/mcp-kit/class-server.php:372
 msgid "User guide: AI agents and MCP"
 msgstr "用户指南：AI 智能体与 MCP"
 
-#: includes/mcp-kit/class-server.php:298
+#: includes/mcp-kit/class-server.php:375
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "开发者文档：能力、REST 和 MCP"
 

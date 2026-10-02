@@ -465,6 +465,46 @@ final class OAuth {
 	}
 
 	/**
+	 * Is this request from a connector-directory app — Claude or ChatGPT — by its metadata
+	 * document, or a registered client whose every redirect is that app's? The same rule as the
+	 * platform's `engine/mcp/directory.py`; such a connection is not offered tools that generate
+	 * images, video or audio (docs/925 §1a).
+	 *
+	 * @return bool
+	 */
+	public static function directory_client(): bool {
+		$id = (string) ( $GLOBALS['zinn_mcp_oauth_client'] ?? '' );
+		if ( '' === $id ) {
+			return false;
+		}
+		if ( in_array( $id, array( 'https://claude.ai/oauth/mcp-oauth-client-metadata', 'https://chatgpt.com/oauth/client.json' ), true ) ) {
+			return true;
+		}
+		$client = self::client( $id );
+		$uris   = is_array( $client ) ? (array) ( $client['redirect'] ?? $client['redirect_uris'] ?? array() ) : array();
+		if ( array() === $uris ) {
+			return false;
+		}
+		foreach ( $uris as $uri ) {
+			$host = strtolower( (string) wp_parse_url( (string) $uri, PHP_URL_HOST ) );
+			if ( 'https' !== wp_parse_url( (string) $uri, PHP_URL_SCHEME ) || ! in_array( $host, array( 'claude.ai', 'claude.com', 'chatgpt.com', 'chat.openai.com' ), true ) ) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/**
+	 * Test seam: set the signed-in client without a token.
+	 *
+	 * @param string $id Client id.
+	 * @return void
+	 */
+	public static function set_client_for_tests( string $id ): void {
+		$GLOBALS['zinn_mcp_oauth_client'] = $id;
+	}
+
+	/**
 	 * The client for an id: a registered one, or a metadata document fetched (cached a day).
 	 *
 	 * @param string $id Client id.
@@ -1017,6 +1057,9 @@ final class OAuth {
 		if ( ! isset( $grants[ $row['family'] ] ) ) {
 			return $user_id; // The app was disconnected.
 		}
+		// A GLOBAL, not a static: each plugin carries its own copy of this class, and only the first
+		// copy's filter signs the request in — the other copies must still see which app it is.
+		$GLOBALS['zinn_mcp_oauth_client'] = (string) ( $grants[ $row['family'] ]['client_id'] ?? '' );
 		if ( time() - (int) $grants[ $row['family'] ]['last_used'] > 300 ) {
 			$grants[ $row['family'] ]['last_used'] = time();
 			update_user_meta( (int) $row['user'], self::GRANTS, $grants );

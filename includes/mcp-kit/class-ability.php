@@ -112,6 +112,9 @@ final class Ability {
 					'zinn'         => array(
 						'edition'    => 'pro' === ( $args['edition'] ?? 'free' ) ? 'pro' : 'free',
 						'capability' => (string) $args['capability'],
+						// false: left out for a connector-directory app (Claude, ChatGPT), whose listing
+						// promises no AI image/video/audio generation (docs/925 §1a).
+						'directory'  => false !== ( $args['directory'] ?? true ),
 					),
 					'mcp'          => array(
 						'public' => true,

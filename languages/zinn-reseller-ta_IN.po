@@ -129,17 +129,17 @@ msgstr "பாணி அமைத்தல்"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:237
+#: includes/mcp-kit/class-server.php:314
 msgid "AI agents (MCP)"
 msgstr "AI ஏஜென்ட்டுகள் (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:323
 msgid "Allow AI agents (MCP)"
 msgstr "AI முகவர்களை (MCP) அனுமதிக்கவும்"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:248
+#: includes/mcp-kit/class-server.php:325
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "முடக்கு: கீழே உள்ள கருவிகளும் அவற்றின் REST வழிகளும் பதிவு செய்யப்படவில்லை."
 
@@ -707,118 +707,122 @@ msgstr "பதிவிறக்கப்பட்ட புதுப்பி�
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "செயலை முடிக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும், தொடர்ந்து தோல்வியுற்றால் தள நிர்வாகியைத் தொடர்பு கொள்ளவும்."
 
-#: includes/mcp-kit/class-oauth.php:657
-#: includes/mcp-kit/class-oauth.php:668
+#: includes/mcp-kit/class-oauth.php:704
+#: includes/mcp-kit/class-oauth.php:715
 msgid "Connect an AI app"
 msgstr "AI செயலியை இணைக்கவும்"
 
-#: includes/mcp-kit/class-oauth.php:670
-#: includes/mcp-kit/class-oauth.php:676
 #: includes/mcp-kit/class-oauth.php:717
+#: includes/mcp-kit/class-oauth.php:723
+#: includes/mcp-kit/class-oauth.php:764
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "இந்த இணைப்புக் கோரிக்கையின் காலாவதி முடிந்துவிட்டது. பயன்பாட்டிற்குத் திரும்பிச் சென்று மீண்டும் இணைக்கத் தொடங்குங்கள்."
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:731
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s இந்த தளத்தில் %2$s ஐ %3$s ஆகப் பயன்படுத்தக் கேட்கிறது. உங்கள் WordPress கணக்கிற்கு என்ன அனுமதி உள்ளதோ அதை மட்டுமே இது செய்ய முடியும், மேலும் AI முகவர்கள் (MCP) அமைப்புகளில் இருந்து எப்போது வேண்டுமானாலும் இதை நீங்கள் துண்டிக்கலாம்."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:687
+#: includes/mcp-kit/class-oauth.php:734
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s தன்னையே %2$s இலிருந்து அடையாளம் கண்டுள்ளது."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:690
+#: includes/mcp-kit/class-oauth.php:737
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s தானாகவே பதிவுசெய்யப்பட்டது. இதை %2$s இலிருந்து தொடங்கியிருந்தால் மட்டுமே தொடரவும்."
 
-#: includes/mcp-kit/class-oauth.php:694
+#: includes/mcp-kit/class-oauth.php:741
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "உங்கள் கணக்கு இந்த தளத்தில் இந்தக் கருவிகளைப் பயன்படுத்த முடியாது. நிர்வாகியிடம் கேளுங்கள்."
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:697
+#: includes/mcp-kit/class-oauth.php:744
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "நீங்கள் பதிலளித்த பிறகு %s-க்குத் திரும்புவீர்கள்."
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:702
+#: includes/mcp-kit/class-oauth.php:749
 #, php-format
 msgid "Allow %s"
 msgstr "%s-ஐ அனுமதி"
 
-#: includes/mcp-kit/class-oauth.php:703
+#: includes/mcp-kit/class-oauth.php:750
 msgid "Do not allow"
 msgstr "அனுமதிக்க வேண்டாம்"
 
-#: includes/mcp-kit/class-rest-bridge.php:322
+#: includes/mcp-kit/class-rest-bridge.php:325
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
 msgstr "தேவையான மதிப்பு விடுபட்டுள்ளது அல்லது தவறான வடிவத்தில் உள்ளது. திறனின் உள்ளீட்டுத் திட்டத்தை (input schema) சரிபார்க்கவும்."
 
-#: includes/mcp-kit/class-rest-bridge.php:355
+#: includes/mcp-kit/class-rest-bridge.php:358
 msgid "The site refused the request."
 msgstr "தளம் கோரிக்கையை நிராகரித்தது."
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:118
+msgid "Unknown tool."
+msgstr "தெரியாத கருவி."
+
+#: includes/mcp-kit/class-server.php:315
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
 msgstr "Claude, Cursor அல்லது VS Code போன்ற AI உதவியாளர்களை MCP (Model Context Protocol) வழியாக உங்களுக்காக இந்த தளத்தில் பணியாற்ற அனுமதியுங்கள். அவர்கள் ஒரு WordPress பயனராக உள்நுழைகிறார்கள் (Claude மற்றும் ChatGPT ஆகியவற்றை இங்கே அங்கீகரிப்பதன் மூலமும், மற்றவற்றை பயன்பாட்டு கடவுச்சொல் மூலமும்) மற்றும் அந்த பயனருக்கு அனுமதிக்கப்பட்டதை மட்டுமே அவர்களால் செய்ய முடியும்."
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:317
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "AI முகவர்களுக்கு WordPress 6.9 அல்லது அதற்குப் பிந்தைய பதிப்பு தேவை. அவற்றைப் பயன்படுத்த WordPress-ஐப் புதுப்பிக்கவும்."
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:330
 msgid "Connection address (MCP endpoint)"
 msgstr "இணைப்பு முகவரி (MCP இறுதிப்புள்ளி)"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:334
 msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude மற்றும் ChatGPT: பதிலாக உள்நுழையவும்"
 
-#: includes/mcp-kit/class-server.php:258
+#: includes/mcp-kit/class-server.php:335
 msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
 msgstr "இணைப்பு முகவரியை Claude இல் தனிப்பயன் இணைப்பியாக அல்லது ChatGPT டெவலப்பர் பயன்முறையில் ஒரு பயன்பாடாகச் சேர்க்கவும். நீங்கள் அவற்றை அங்கீகரிக்கும் வகையில் அவை இந்தத் தளத்தைத் திறக்கின்றன; நகலெடுக்க எந்தக் கடவுச்சொல்லும் இல்லை."
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:337
 msgid "AI apps connected to your account:"
 msgstr "உங்கள் கணக்குடன் இணைக்கப்பட்ட AI செயலிகள்:"
 
-#: includes/mcp-kit/class-server.php:269
+#: includes/mcp-kit/class-server.php:346
 msgid "Disconnect"
 msgstr "இணைப்பைத் துண்டி"
 
-#: includes/mcp-kit/class-server.php:275
+#: includes/mcp-kit/class-server.php:352
 msgid "Other AI apps: an application password"
 msgstr "பிற AI செயலிகள்: ஒரு பயன்பாட்டு கடவுச்சொல்"
 
-#: includes/mcp-kit/class-server.php:277
+#: includes/mcp-kit/class-server.php:354
 msgid "Create an application password for your user"
 msgstr "உங்கள் பயனருக்கு ஒரு பயன்பாட்டு கடவுச்சொல்லை உருவாக்கவும்"
 
-#: includes/mcp-kit/class-server.php:278
+#: includes/mcp-kit/class-server.php:355
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "உங்கள் பயனர்பெயர் மற்றும் அந்த கடவுச்சொல்லுடன் இதை உங்கள் AI செயலியின் MCP அமைப்புகளில் சேர்க்கவும்:"
 
-#: includes/mcp-kit/class-server.php:280
+#: includes/mcp-kit/class-server.php:357
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: அதே உள்ளீட்டை .vscode/mcp.json-இல் \"servers\" என்பதன் கீழ் வைக்கவும், \"mcpServers\" என்பதன் கீழ் அல்ல."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:284
+#: includes/mcp-kit/class-server.php:361
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "இங்கே ஒரு AI முகவர் பயன்படுத்தக்கூடிய கருவிகள் (%d):"
 
-#: includes/mcp-kit/class-server.php:295
+#: includes/mcp-kit/class-server.php:372
 msgid "User guide: AI agents and MCP"
 msgstr "பயனர் வழிகாட்டி: AI ஏஜெண்டுகள் மற்றும் MCP"
 
-#: includes/mcp-kit/class-server.php:298
+#: includes/mcp-kit/class-server.php:375
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "டெவெலப்பர் ஆவணங்கள்: திறன்கள், REST மற்றும் MCP"
 

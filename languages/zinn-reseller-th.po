@@ -129,17 +129,17 @@ msgstr "การจัดรูปแบบสไตล์"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:237
+#: includes/mcp-kit/class-server.php:314
 msgid "AI agents (MCP)"
 msgstr "ตัวแทน AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:323
 msgid "Allow AI agents (MCP)"
 msgstr "อนุญาตให้ตัวแทน AI (MCP) ทำงาน"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:248
+#: includes/mcp-kit/class-server.php:325
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "ปิด: เครื่องมือด้านล่างและเส้นทาง REST ของเครื่องมือเหล่านั้นไม่ได้ลงทะเบียนไว้เลย"
 
@@ -705,118 +705,122 @@ msgstr "การอัปเดตที่ดาวน์โหลดมาไ
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "ไม่สามารถดำเนินการให้เสร็จสิ้นได้ โปรดลองอีกครั้ง และหากยังคงล้มเหลว โปรดติดต่อผู้ดูแลเว็บไซต์"
 
-#: includes/mcp-kit/class-oauth.php:657
-#: includes/mcp-kit/class-oauth.php:668
+#: includes/mcp-kit/class-oauth.php:704
+#: includes/mcp-kit/class-oauth.php:715
 msgid "Connect an AI app"
 msgstr "เชื่อมต่อแอป AI"
 
-#: includes/mcp-kit/class-oauth.php:670
-#: includes/mcp-kit/class-oauth.php:676
 #: includes/mcp-kit/class-oauth.php:717
+#: includes/mcp-kit/class-oauth.php:723
+#: includes/mcp-kit/class-oauth.php:764
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "คำขอการเชื่อมต่อนี้หมดอายุแล้ว โปรดกลับไปที่แอปและเริ่มเชื่อมต่อใหม่อีกครั้ง"
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:731
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s กำลังขอใช้ %2$s บนไซต์นี้ในฐานะ %3$s ซึ่งสามารถทำได้เฉพาะสิ่งที่บัญชี WordPress ของคุณได้รับอนุญาตให้ทำเท่านั้น และคุณสามารถตัดการเชื่อมต่อได้ตลอดเวลาจากการตั้งค่าตัวแทน AI (MCP)"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:687
+#: includes/mcp-kit/class-oauth.php:734
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s ระบุตัวเองจาก %2$s"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:690
+#: includes/mcp-kit/class-oauth.php:737
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s ได้ลงทะเบียนโดยอัตโนมัติ ดำเนินการต่อเฉพาะเมื่อคุณเริ่มขั้นตอนนี้จาก %2$s เท่านั้น"
 
-#: includes/mcp-kit/class-oauth.php:694
+#: includes/mcp-kit/class-oauth.php:741
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "บัญชีของคุณไม่สามารถใช้เครื่องมือเหล่านี้บนไซต์นี้ได้ โปรดสอบถามผู้ดูแลระบบ"
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:697
+#: includes/mcp-kit/class-oauth.php:744
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "หลังจากที่คุณตอบ คุณจะกลับไปที่ %s"
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:702
+#: includes/mcp-kit/class-oauth.php:749
 #, php-format
 msgid "Allow %s"
 msgstr "อนุญาต %s"
 
-#: includes/mcp-kit/class-oauth.php:703
+#: includes/mcp-kit/class-oauth.php:750
 msgid "Do not allow"
 msgstr "ไม่อนุญาต"
 
-#: includes/mcp-kit/class-rest-bridge.php:322
+#: includes/mcp-kit/class-rest-bridge.php:325
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
 msgstr "ไม่มีค่าที่จำเป็นหรือมีรูปแบบที่ไม่ถูกต้อง ตรวจสอบสกีมาอินพุต (input schema) ของความสามารถนี้"
 
-#: includes/mcp-kit/class-rest-bridge.php:355
+#: includes/mcp-kit/class-rest-bridge.php:358
 msgid "The site refused the request."
 msgstr "ไซต์ปฏิเสธคำขอ"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:118
+msgid "Unknown tool."
+msgstr "เครื่องมือที่ไม่รู้จัก"
+
+#: includes/mcp-kit/class-server.php:315
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
 msgstr "อนุญาตให้ผู้ช่วย AI เช่น Claude, Cursor หรือ VS Code ทำงานบนไซต์นี้เพื่อคุณผ่าน MCP (Model Context Protocol) โดยพวกเขาจะลงชื่อเข้าใช้ในฐานะผู้ใช้ WordPress (Claude และ ChatGPT โดยการอนุมัติที่นี่ ส่วนรายอื่นใช้รหัสผ่านสำหรับแอปพลิเคชัน) และสามารถทำได้เฉพาะสิ่งที่ผู้ใช้รายนั้นได้รับอนุญาตให้ทำเท่านั้น"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:317
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "เอเจนต์ AI ต้องใช้ WordPress 6.9 หรือใหม่กว่า อัปเดต WordPress เพื่อใช้งาน"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:330
 msgid "Connection address (MCP endpoint)"
 msgstr "ที่อยู่การเชื่อมต่อ (จุดสิ้นสุด MCP)"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:334
 msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude และ ChatGPT: ลงชื่อเข้าใช้แทน"
 
-#: includes/mcp-kit/class-server.php:258
+#: includes/mcp-kit/class-server.php:335
 msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
 msgstr "เพิ่มที่อยู่การเชื่อมต่อเป็นตัวเชื่อมต่อแบบกำหนดเองใน Claude หรือเป็นแอปในโหมดนักพัฒนาของ ChatGPT พวกมันจะเปิดไซต์นี้เพื่อให้คุณสามารถอนุมัติได้ โดยไม่ต้องคัดลอกรหัสผ่าน"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:337
 msgid "AI apps connected to your account:"
 msgstr "แอป AI ที่เชื่อมต่อกับบัญชีของคุณ:"
 
-#: includes/mcp-kit/class-server.php:269
+#: includes/mcp-kit/class-server.php:346
 msgid "Disconnect"
 msgstr "ตัดการเชื่อมต่อ"
 
-#: includes/mcp-kit/class-server.php:275
+#: includes/mcp-kit/class-server.php:352
 msgid "Other AI apps: an application password"
 msgstr "แอป AI อื่นๆ: รหัสผ่านแอปพลิเคชัน"
 
-#: includes/mcp-kit/class-server.php:277
+#: includes/mcp-kit/class-server.php:354
 msgid "Create an application password for your user"
 msgstr "สร้างรหัสผ่านแอปพลิเคชันสำหรับผู้ใช้ของคุณ"
 
-#: includes/mcp-kit/class-server.php:278
+#: includes/mcp-kit/class-server.php:355
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "เพิ่มสิ่งนี้ลงในการตั้งค่า MCP ของแอป AI ของคุณ พร้อมชื่อผู้ใช้และรหัสผ่านนั้น:"
 
-#: includes/mcp-kit/class-server.php:280
+#: includes/mcp-kit/class-server.php:357
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ใส่รายการเดียวกันไว้ใต้ \"servers\" ใน .vscode/mcp.json ไม่ใช่ใต้ \"mcpServers\""
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:284
+#: includes/mcp-kit/class-server.php:361
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "เครื่องมือที่เอเจนต์ AI สามารถใช้ได้ที่นี่ (%d):"
 
-#: includes/mcp-kit/class-server.php:295
+#: includes/mcp-kit/class-server.php:372
 msgid "User guide: AI agents and MCP"
 msgstr "คู่มือผู้ใช้: ตัวแทน AI และ MCP"
 
-#: includes/mcp-kit/class-server.php:298
+#: includes/mcp-kit/class-server.php:375
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "เอกสารสำหรับนักพัฒนา: ความสามารถ, REST และ MCP"
 

@@ -129,17 +129,17 @@ msgstr "စတိုင်ပုံစံပြုလုပ်ခြင်း"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:237
+#: includes/mcp-kit/class-server.php:314
 msgid "AI agents (MCP)"
 msgstr "AI အေဂျင့်များ (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:323
 msgid "Allow AI agents (MCP)"
 msgstr "AI အေးဂျင့်များ (MCP) ကို ခွင့်ပြုရန်"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:248
+#: includes/mcp-kit/class-server.php:325
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "ပိတ်ထားသည်- အောက်ပါ ကိရိယာများနှင့် ၎င်းတို့၏ REST လမ်းကြောင်းများကို မှတ်ပုံတင်ထားခြင်း လုံးဝ မရှိပါ။"
 
@@ -705,118 +705,122 @@ msgstr "ဒေါင်းလုဒ်လုပ်ထားသော အပ်�
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "လုပ်ဆောင်ချက် မပြီးမြောက်နိုင်ပါ။ ထပ်မံကြိုးစားကြည့်ပါ၊ မအောင်မြင်သေးပါက ဆိုက်အက်ဒမင်ထံ ဆက်သွယ်ပါ။"
 
-#: includes/mcp-kit/class-oauth.php:657
-#: includes/mcp-kit/class-oauth.php:668
+#: includes/mcp-kit/class-oauth.php:704
+#: includes/mcp-kit/class-oauth.php:715
 msgid "Connect an AI app"
 msgstr "AI အက်ပ်တစ်ခုကို ချိတ်ဆက်ပါ"
 
-#: includes/mcp-kit/class-oauth.php:670
-#: includes/mcp-kit/class-oauth.php:676
 #: includes/mcp-kit/class-oauth.php:717
+#: includes/mcp-kit/class-oauth.php:723
+#: includes/mcp-kit/class-oauth.php:764
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "ဤချိတ်ဆက်မှုတောင်းဆိုမှု သက်တမ်းကုန်သွားပါပြီ။ အက်ပ်သို့ ပြန်သွားပြီး ချိတ်ဆက်မှုကို နောက်တစ်ကြိမ် ပြန်စပါ။"
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:731
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s သည် ဤဆိုက်တွင် %2$s ကို %3$s အဖြစ် အသုံးပြုရန် တောင်းဆိုနေပါသည်။ ၎င်းသည် သင်၏ WordPress အကောင့်ကို ခွင့်ပြုထားသည့်အရာများကိုသာ လုပ်ဆောင်နိုင်ပြီး AI အေးဂျင့်များ (MCP) ဆက်တင်များမှ အချိန်မရွေး ဖြုတ်နိုင်ပါသည်။"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:687
+#: includes/mcp-kit/class-oauth.php:734
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s သည် %2$s မှ ၎င်းကိုယ်တိုင် အတည်ပြုခဲ့သည်။"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:690
+#: includes/mcp-kit/class-oauth.php:737
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s သည် အလိုအလျောက် မှတ်ပုံတင်ပြီးဖြစ်သည်။ ဤအရာကို %2$s မှ စတင်ခဲ့လျှင်သာ ဆက်လက်လုပ်ဆောင်ပါ။"
 
-#: includes/mcp-kit/class-oauth.php:694
+#: includes/mcp-kit/class-oauth.php:741
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "သင့်အကောင့်သည် ဤဆိုဒ်တွင် ဤကိရိယာများကို အသုံးမပြုနိုင်ပါ။ စီမံခန့်ခွဲသူကို မေးမြန်းပါ။"
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:697
+#: includes/mcp-kit/class-oauth.php:744
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "သင်ဖြေဆိုပြီးပါက %s သို့ ပြန်သွားပါမည်။"
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:702
+#: includes/mcp-kit/class-oauth.php:749
 #, php-format
 msgid "Allow %s"
 msgstr "%s ကို ခွင့်ပြုရန်"
 
-#: includes/mcp-kit/class-oauth.php:703
+#: includes/mcp-kit/class-oauth.php:750
 msgid "Do not allow"
 msgstr "ခွင့်မပြုပါနှင့်"
 
-#: includes/mcp-kit/class-rest-bridge.php:322
+#: includes/mcp-kit/class-rest-bridge.php:325
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
 msgstr "လိုအပ်သော တန်ဖိုးတစ်ခု ပျောက်ဆုံးနေသည် သို့မဟုတ် ပုံစံ မှားယွင်းနေပါသည်။ စွမ်းဆောင်ရည်၏ input schema ကို စစ်ဆေးပါ။"
 
-#: includes/mcp-kit/class-rest-bridge.php:355
+#: includes/mcp-kit/class-rest-bridge.php:358
 msgid "The site refused the request."
 msgstr "ဝက်ဘ်ဆိုက်က တောင်းဆိုချက်ကို ငြင်းပယ်ခဲ့သည်။"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:118
+msgid "Unknown tool."
+msgstr "အမည်မသိ ကိရိယာ။"
+
+#: includes/mcp-kit/class-server.php:315
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
 msgstr "Claude၊ Cursor သို့မဟုတ် VS Code ကဲ့သို့သော AI အကူများကို MCP (Model Context Protocol) မှတစ်ဆင့် ဤဆိုက်တွင် သင့်အတွက် လုပ်ဆောင်ခွင့်ပြုပါ။ ၎င်းတို့သည် WordPress အသုံးပြုသူအဖြစ် လက်မှတ်ထိုးဝင်ရောက်ကြပြီး (Claude နှင့် ChatGPT ကို ဤနေရာတွင် အတည်ပြုပေးခြင်းဖြင့်ဖြစ်စေ၊ အခြားအရာများကို အက်ပ်စကားဝှက်ဖြင့်ဖြစ်စေ) ထိုအသုံးပြုသူ လုပ်ပိုင်ခွင့်ရှိသည့်အရာများကိုသာ လုပ်ဆောင်နိုင်ပါသည်။"
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:317
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "AI အေးဂျင့်များသည် WordPress 6.9 သို့မဟုတ် နောက်ပိုင်းဗားရှင်း လိုအပ်ပါသည်။ ၎င်းတို့ကို အသုံးပြုရန် WordPress ကို အပ်ဒိတ်လုပ်ပါ။"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:330
 msgid "Connection address (MCP endpoint)"
 msgstr "ချိတ်ဆက်မှု လိပ်စာ (MCP အဆုံးသတ်မှတ်)"
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:334
 msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude နှင့် ChatGPT- အစားထိုး အကောင့်ဝင်ပါ"
 
-#: includes/mcp-kit/class-server.php:258
+#: includes/mcp-kit/class-server.php:335
 msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
 msgstr "ချိတ်ဆက်မှုလိပ်စာကို Claude တွင် စိတ်ကြိုက်ချိတ်ဆက်ကိရိယာအဖြစ် သို့မဟုတ် ChatGPT ဆော့ဖ်ဝဲအင်ဂျင်နီယာမုဒ်တွင် အက်ပ်တစ်ခုအဖြစ် ထည့်ပါ။ ၎င်းတို့ကို သင်အတည်ပြုနိုင်ရန် ဤဆိုက်ကို ၎င်းတို့ဖွင့်ပေးသည်၊ ကူးယူရန် စကားဝှက်မရှိပါ။"
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:337
 msgid "AI apps connected to your account:"
 msgstr "သင့်အကောင့်နှင့် ချိတ်ဆက်ထားသော AI အက်ပ်များ-"
 
-#: includes/mcp-kit/class-server.php:269
+#: includes/mcp-kit/class-server.php:346
 msgid "Disconnect"
 msgstr "ချိတ်ဆက်မှု ဖြတ်ရန်"
 
-#: includes/mcp-kit/class-server.php:275
+#: includes/mcp-kit/class-server.php:352
 msgid "Other AI apps: an application password"
 msgstr "အခြား AI အက်ပ်များ- အက်ပ်စကားဝှက်တစ်ခု"
 
-#: includes/mcp-kit/class-server.php:277
+#: includes/mcp-kit/class-server.php:354
 msgid "Create an application password for your user"
 msgstr "သင့်အသုံးပြုသူအတွက် အက်ပ်စကားဝှက်တစ်ခု ဖန်တီးပါ"
 
-#: includes/mcp-kit/class-server.php:278
+#: includes/mcp-kit/class-server.php:355
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "သင့်အသုံးပြုသူအမည်နှင့် ထိုစကားဝှက်ဖြင့် ၎င်းကို သင့် AI အက်ပ်၏ MCP ဆက်တင်များသို့ ထည့်ပါ-"
 
-#: includes/mcp-kit/class-server.php:280
+#: includes/mcp-kit/class-server.php:357
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code- တူညီသောထည့်သွင်းမှုကို .vscode/mcp.json ရှိ \"mcpServers\" အောက်တွင်မဟုတ်ဘဲ \"servers\" အောက်တွင် ထည့်ပါ။"
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:284
+#: includes/mcp-kit/class-server.php:361
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "AI အေးဂျင့် ဤနေရာတွင် အသုံးပြုနိုင်သည့် ကိရိယာများ (%d):"
 
-#: includes/mcp-kit/class-server.php:295
+#: includes/mcp-kit/class-server.php:372
 msgid "User guide: AI agents and MCP"
 msgstr "အသုံးပြုသူလမ်းညွှန်- AI အေးဂျင့်များနှင့် MCP"
 
-#: includes/mcp-kit/class-server.php:298
+#: includes/mcp-kit/class-server.php:375
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "ဆော့ဖ်ဝဲရေးသားသူဆိုင်ရာ စာရွက်စာတမ်းများ- စွမ်းဆောင်ရည်များ၊ REST နှင့် MCP"
 

@@ -77,8 +77,8 @@ final class Rest_Bridge {
 	 * Register an ability for every bridged entry whose route is registered on this request
 	 * (a Pro route exists only while Pro is licensed, so its ability does too).
 	 *
-	 * @param array<int, array<string, string>> $entries  Rest_Map::entries().
-	 * @param string                            $category Ability category.
+	 * @param array<int, array<string, mixed>> $entries  Rest_Map::entries(); an entry may carry `args` (MCP input properties its route reads but does not declare).
+	 * @param string                           $category Ability category.
 	 * @return int How many were registered.
 	 */
 	public static function register( array $entries, string $category ): int {
@@ -103,7 +103,10 @@ final class Rest_Bridge {
 					'category'            => $category,
 					'edition'             => (string) $entry['edition'],
 					'capability'          => (string) $entry['capability'],
-					'input_schema'        => self::schema( $handler['pattern'], (array) ( $handler['args'] ?? array() ) ),
+					// A route that reads parameters without declaring them (most admin-screen routes)
+					// declares them on its map entry instead, so an MCP client can see them: an
+					// empty schema left the model guessing `message` for `body` (MCP-STORE 2026-10-02).
+					'input_schema'        => self::schema( $handler['pattern'], array_merge( (array) ( $handler['args'] ?? array() ), (array) ( $entry['args'] ?? array() ) ) ),
 					'execute_callback'    => static fn( array $input ) => self::dispatch( $entry, $input ),
 					'permission_callback' => static fn( array $input ): bool => self::allowed( $entry, $input ),
 					'annotations'         => array(

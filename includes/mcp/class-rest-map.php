@@ -26,7 +26,7 @@ final class Rest_Map {
 	/**
 	 * The entries. Called on `wp_abilities_api_init`, when translations are loaded.
 	 *
-	 * @return array<int, array<string, string>>
+	 * @return array<int, array<string, mixed>>
 	 */
 	public static function entries(): array {
 		return array();
