@@ -181,7 +181,7 @@ msgstr "Адреса контролног панела"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Место на које веза „Мој хостинг” шаље ваше клијенте."
+msgstr "Место на које веза „Мој хостинг“ шаље ваше клијенте."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -201,7 +201,7 @@ msgstr "Веза до контролне табле"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "Прикажи везу „Мој хостинг” пријављеним корисницима"
+msgstr "Прикажи везу „Мој хостинг“ пријављеним корисницима"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
@@ -249,11 +249,11 @@ msgstr "Боја везе за куповину"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "Боја за „Доступно”"
+msgstr "Боја за „Доступно“"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "Боја за „Није могуће проверити”"
+msgstr "Боја за „Није могуће проверити“"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
