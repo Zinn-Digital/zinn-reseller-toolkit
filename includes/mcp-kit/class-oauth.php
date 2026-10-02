@@ -453,8 +453,15 @@ final class OAuth {
 		if ( str_contains( (string) $parts['path'], '/../' ) || str_contains( (string) $parts['path'], '/./' ) ) {
 			return false;
 		}
+		// SSRF: a public DNS name only. No IP literal; no single-label or local-only name (an
+		// intranet host, localhost); a bounded length. wp_safe_remote_get() then refuses a name
+		// that RESOLVES to a private or loopback address (reject_unsafe_urls).
+		$host = strtolower( (string) $parts['host'] );
+		if ( strlen( $id ) > 255 || ! str_contains( $host, '.' ) || 1 === preg_match( '/(^|\.)(localhost|local|internal|localdomain|home\.arpa)$/', $host ) ) {
+			return false;
+		}
 
-		return false === filter_var( $parts['host'], FILTER_VALIDATE_IP );
+		return false === filter_var( $host, FILTER_VALIDATE_IP ) && false === filter_var( trim( $host, '[]' ), FILTER_VALIDATE_IP );
 	}
 
 	/**
@@ -477,6 +484,16 @@ final class OAuth {
 		if ( is_array( $cached ) ) {
 			return $cached;
 		}
+		if ( 'refused' === $cached || false === wp_http_validate_url( $id ) ) {
+			return null; // Refused recently, or WordPress's own check says it resolves somewhere unsafe.
+		}
+		// An unauthenticated caller decides which URL is fetched: bound how often, per address.
+		$ip    = isset( $_SERVER['REMOTE_ADDR'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ) ) : 'unknown';
+		$count = (int) get_transient( 'zinn_mcp_cimd_n_' . md5( $ip ) );
+		if ( $count >= self::MAX_REG_HOUR ) {
+			return null;
+		}
+		set_transient( 'zinn_mcp_cimd_n_' . md5( $ip ), $count + 1, HOUR_IN_SECONDS );
 		// wp_safe_remote_get refuses private and loopback addresses (reject_unsafe_urls).
 		$response = wp_safe_remote_get(
 			$id,
@@ -488,6 +505,7 @@ final class OAuth {
 			)
 		);
 		if ( is_wp_error( $response ) || 200 !== (int) wp_remote_retrieve_response_code( $response ) ) {
+			set_transient( $key, 'refused', 10 * MINUTE_IN_SECONDS ); // A dead or hostile URL is not fetched again for a while.
 			return null;
 		}
 		$doc  = json_decode( (string) wp_remote_retrieve_body( $response ), true );
@@ -899,12 +917,12 @@ final class OAuth {
 	 */
 	public static function forget_refresh_rows( int $user, string $family, string $keep = '' ): int {
 		$gone = 0;
-		foreach ( (array) get_user_meta( $user ) as $key => $values ) {
+		foreach ( array_keys( (array) get_user_meta( $user ) ) as $key ) {
 			$key = (string) $key;
 			if ( ! str_starts_with( $key, 'zinn_mcp_rt_' ) || 'zinn_mcp_rt_' . $keep === $key ) {
 				continue;
 			}
-			$row = maybe_unserialize( (string) ( $values[0] ?? '' ) );
+			$row = get_user_meta( $user, $key, true ); // WordPress unserializes its own meta; we never do.
 			if ( ! is_array( $row ) || (string) ( $row['family'] ?? '' ) !== $family ) {
 				continue;
 			}
