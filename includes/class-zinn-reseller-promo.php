@@ -113,11 +113,96 @@ final class Zinn_Reseller_Promo {
 	private const DISMISS_ARG = 'zinn-promo-dismiss';
 
 	/**
+	 * `define( 'ZINN_RESELLER_PROMO', false );` in wp-config.php removes EVERY piece of
+	 * this panel: the dashboard widget, the settings-screen block and the footer panel.
+	 */
+	public const PROMO_CONSTANT = 'ZINN_RESELLER_PROMO';
+
+	/**
+	 * `define( 'ZINN_RESELLER_PROMO_HOSTING_URL', 'https://…' );` points the hosting offer
+	 * at another address (a host that installs this plugin for its own customers). HTTPS only.
+	 */
+	public const HOSTING_URL_CONSTANT = 'ZINN_RESELLER_PROMO_HOSTING_URL';
+
+	/**
+	 * Where the hosting offer links when nothing overrides it.
+	 */
+	public const DEFAULT_HOSTING_URL = 'https://zinndigital.com/hosting';
+
+	/**
+	 * Whether a `ZINN_RESELLER_PROMO` value turns the panel off. Pure.
+	 *
+	 * ⛔ Only an explicit off value counts (false, 0, "0", "false", "off", "no"). Undefined or
+	 * anything else keeps the panel ON, which is the default on every site.
+	 *
+	 * @param mixed $raw The constant's value, or null when it is not defined.
+	 * @return bool
+	 */
+	public static function is_off_value( $raw ): bool {
+		if ( false === $raw || 0 === $raw ) {
+			return true;
+		}
+		return is_string( $raw ) && in_array( strtolower( trim( $raw ) ), array( '0', 'false', 'off', 'no' ), true );
+	}
+
+	/**
+	 * Whether this plugin shows any promotion at all on this site.
+	 *
+	 * @return bool
+	 */
+	public static function enabled(): bool {
+		$on = ! ( defined( self::PROMO_CONSTANT ) && self::is_off_value( constant( self::PROMO_CONSTANT ) ) );
+
+		/**
+		 * Filters whether a Zinn® plugin shows its promotion panel.
+		 *
+		 * @param bool   $on   Whether it is shown.
+		 * @param string $slug The plugin's slug.
+		 */
+		return (bool) apply_filters( 'zinn_promo_enabled', $on, self::SLUG );
+	}
+
+	/**
+	 * The hosting offer's address from a `ZINN_RESELLER_PROMO_HOSTING_URL` value. Pure.
+	 *
+	 * ⛔ An absolute HTTPS URL with a host, or the default: an unset, empty, `http://`,
+	 * `javascript:` or relative value never reaches the page.
+	 *
+	 * @param mixed $raw The constant's value, or null when it is not defined.
+	 * @return string
+	 */
+	public static function hosting_url_from( $raw ): string {
+		if ( ! is_string( $raw ) ) {
+			return self::DEFAULT_HOSTING_URL;
+		}
+		$url = trim( $raw );
+		if ( 0 !== stripos( $url, 'https://' ) || '' === (string) wp_parse_url( $url, PHP_URL_HOST ) ) {
+			return self::DEFAULT_HOSTING_URL;
+		}
+		$clean = esc_url_raw( $url, array( 'https' ) );
+		return '' === $clean ? self::DEFAULT_HOSTING_URL : $clean;
+	}
+
+	/**
+	 * Where the hosting offer links on this site.
+	 *
+	 * @return string
+	 */
+	public static function hosting_url(): string {
+		return self::hosting_url_from( defined( self::HOSTING_URL_CONSTANT ) ? constant( self::HOSTING_URL_CONSTANT ) : null );
+	}
+
+	/**
 	 * Register the panel's hooks.
 	 *
 	 * @return void
 	 */
 	public static function register(): void {
+		// Switched off: no widget, no registry entry (so another Zinn® plugin's widget does not
+		// list this one), and nothing claims the one-widget slot another plugin may still use.
+		if ( ! self::enabled() ) {
+			return;
+		}
 		self::announce();
 		add_action( 'admin_init', array( __CLASS__, 'handle_dismiss' ) );
 
@@ -276,7 +361,7 @@ final class Zinn_Reseller_Promo {
 	 * @return void
 	 */
 	public static function render_panel(): void {
-		if ( ! current_user_can( 'manage_options' ) || self::is_dismissed() ) {
+		if ( ! self::enabled() || ! current_user_can( 'manage_options' ) || self::is_dismissed() ) {
 			return;
 		}
 		?>
@@ -337,6 +422,9 @@ final class Zinn_Reseller_Promo {
 	 * @return void
 	 */
 	public static function attach_footer_panel( string $screen_prefix ): void {
+		if ( ! self::enabled() ) {
+			return;
+		}
 		add_action(
 			'admin_enqueue_scripts',
 			static function () use ( $screen_prefix ): void {
@@ -420,7 +508,7 @@ final class Zinn_Reseller_Promo {
 
 		if ( ! self::is_zinn_hosted() ) {
 			$offers[] = array(
-				'url'   => 'https://zinndigital.com/hosting',
+				'url'   => self::hosting_url(),
 				'title' => __( 'Zinn® hosting for WordPress', 'zinn-reseller' ),
 				'body'  => __( 'LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site.', 'zinn-reseller' ),
 			);
