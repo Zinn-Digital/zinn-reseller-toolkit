@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "ຂາຍໂຮດຕິ້ງ Zinn Digital® ຈາກເວັບໄຊ WordPress ຂອງທ່ານເອງ — WordPress, WooCommerce, ເອເຈນຊີ, ຣີແຊລເລີ, ຄລາວ ແລະ ໂຮດຕິ້ງ VPS. ຄົ້ນຫາ ແລະ ສະເໜີໂດເມນຈາກບັນຊີຣີແຊລເລີຂອງທ່ານ, ເຂົ້າສູ່ລະບົບໃຫ້ລູກຄ້າຂອງທ່ານໂດຍກົງເຂົ້າໄປໃນແຜງໂຮດຕິ້ງຂອງພວກເຂົາ, ແລະ ຈັດສັນໂຮດຕິ້ງໂດຍອັດຕະໂນມັດເມື່ອມີການຈ່າຍເງິນຄຳສັ່ງຊື້ WooCommerce."
+msgstr "ຂາຍໂຮສຕິ້ງ Zinn Digital® ຈາກເວັບໄຊ WordPress ຂອງທ່ານເອງ — ໂຮສຕິ້ງ WordPress, WooCommerce, ຕົວແທນ, ຜູ້ຂາຍຕໍ່, ຄລາວ ແລະ VPS. ຄົ້ນຫາ ແລະ ສະເໜີຂາຍໂດເມນຈາກບັນຊີຜູ້ຂາຍຕໍ່ຂອງທ່ານ, ເຂົ້າສູ່ລະບົບແຜງຄວບຄຸມໂຮສຕິ້ງໃຫ້ລູກຄ້າຂອງທ່ານໂດຍກົງ, ແລະ ຈັດສັນໂຮສຕິ້ງໂດຍອັດຕະໂນມັດເມື່ອມີການຊຳລະເງິນຄຳສັ່ງຊື້ WooCommerce ແລ້ວ."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,11 +38,11 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "ເວທີໂຮດຕິ້ງຕອບກັບດ້ວຍສະຖານະ %d."
+msgstr "ແພລດຟອມໂຮດຕິ້ງໄດ້ຕອບກັບດ້ວຍສະຖານະ %d."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
-msgstr "ຊອກຫາຊື່ໂດເມນຂອງທ່ານ"
+msgstr "ຄົ້ນຫາຊື່ໂດເມນຂອງທ່ານ"
 
 #: includes/class-domain-search.php:75
 msgid "Search"
@@ -50,45 +50,45 @@ msgstr "ຄົ້ນຫາ"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "ບໍ່ມີການກວດສອບນາມສະກຸນໃດໆສຳລັບຊື່ນັ້ນ."
+msgstr "ບໍ່ມີການກວດສອບສ່ວນຂະຫຍາຍໃດໆສຳລັບຊື່ນັ້ນ."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "ການຄົ້ນຫາໂດເມນບໍ່ສາມາດໃຊ້ງານໄດ້ໃນເວັບໄຊນີ້ໃນຂະນະນີ້."
+msgstr "ການຄົ້ນຫາໂດເມນບໍ່ພ້ອມໃຫ້ບໍລິການໃນເວັບໄຊນີ້ໃນຕອນນີ້."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "ພວກ​ເຮົາ​ບໍ່​ສາ​ມາດ​ຕິດຕໍ່​ຫາ​ທະ​ບຽນ​ໂດ​ເມນ​ໄດ້​ໃນ​ຕອນ​ນີ້. ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ອີກ​ຄັ້ງ​ໃນ​ອີກ​ຈັກ​ໜ້ອຍ."
+msgstr "ພວກເຮົາບໍ່ສາມາດຕິດຕໍ່ຫາລະບົບທະບຽນໂດເມນໄດ້ໃນເວລານີ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນຈັກໜ່ອຍ."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "ລະຫັດ API ຫາຍໄປ ຫຼື ບໍ່ສາມາດໃຊ້ງານໄດ້ອີກຕໍ່ໄປ. ກະລຸນາກວດສອບມັນພາຍໃຕ້ Zinn Digital® → Reseller Toolkit."
+msgstr "ຄີ API ຫາຍໄປ ຫຼື ບໍ່ສາມາດໃຊ້ງານໄດ້ແລ້ວ. ກະລຸນາກວດສອບມັນຢູ່ກ້ອງ Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "ຄີ API ນີ້ບໍ່ມີສິດອະນຸຍາດ sites.view ເຊິ່ງຈໍາເປັນສໍາລັບການຄົ້ນຫາໂດເມນ. ກະລຸນາເພີ່ມສິດອະນຸຍາດນີ້ໃສ່ຄີໃນແຜງຜູ້ຂາຍຕໍ່ຂອງທ່ານ, ຫຼືລຶບຄີຢູ່ທີ່ນີ້ເພື່ອກັບໄປໃຊ້ການຄົ້ນຫາແບບສາທາລະນະ."
+msgstr "ຄີ API ນີ້ບໍ່ມີການອະນຸຍາດ sites.view ເຊິ່ງການຄົ້ນຫາໂດເມນຕ້ອງການ. ເພີ່ມມັນໃສ່ຄີໃນແຜງຕົວແທນຈຳໜ່າຍຂອງທ່ານ, ຫຼື ລຶບຄີຢູ່ນີ້ເພື່ອຍ້ອນກັບໄປໃຊ້ການຄົ້ນຫາແບບສາທາລະນະ."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
-msgstr "ສະເພາະຜູ້ິ່ງຄຸມລະບົບເທົ່ານັ້ນທີ່ເຫັນສິ່ງນີ້:"
+msgstr "ສະເພາະຜູ້ເບິ່ງແຍງລະບົບເທົ່ານັ້ນທີ່ເຫັນສິ່ງນີ້:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "ພວກເຮົາບໍ່ສາມາດກວດສອບອັນນີ້ໄດ້ — ກະລຸນາລອງໃໝ່ອີກຄັ້ງ"
+msgstr "ພວກເຮົາບໍ່ສາມາດກວດສອບລາຍການນີ້ໄດ້ — ກະລຸນາລອງໃໝ່ອີກຄັ້ງ"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
-msgstr "ໄດ້ລົງທະບຽນແລ້ວ"
+msgstr "ລົງທະບຽນແລ້ວ"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "ມີຢູ່ — ສອບຖາມລາຄາຈາກພວກເຮົາ"
+msgstr "ມີໃຫ້ບໍລິການ — ຕິດຕໍ່ສອບຖາມລາຄານຳພວກເຮົາ"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr "ມີພ້ອມ — %1$s %2$s ສຳລັບປີທຳອິດ"
+msgstr "ພ້ອມໃຊ້ງານ — %1$s %2$s ສຳລັບປີທຳອິດ"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
@@ -104,16 +104,16 @@ msgstr "ກະລຸນາເຂົ້າສູ່ລະບົບກ່ອນ."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "ບັນຊີນີ້ຍັງບໍ່ທັນໄດ້ເຊື່ອມຕໍ່ກັບບໍລິການໂຮດຕິ້ງເທື່ອ."
+msgstr "ບັນຊີນີ້ຍັງບໍ່ທັນໄດ້ເຊື່ອມໂຍງກັບບໍລິການໂຮສຕິ້ງເທື່ອ."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "ເວທີໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງລິ້ງສຳລັບການເຂົ້າສູ່ລະບົບກັບຄືນມາ."
+msgstr "ແພລດຟອມໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງລິ້ງເຂົ້າສູ່ລະບົບກັບມາ."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "ຊຸດເຄື່ອງມືຕົວແທນຂາຍ"
+msgstr "ຊຸດເຄື່ອງມືຕົວແທນຈຳໜ່າຍ"
 
 #: includes/class-settings.php:127
 msgid "Account"
@@ -125,31 +125,31 @@ msgstr "ຄຸນສົມບັດ"
 
 #: includes/class-settings.php:135
 msgid "Styling"
-msgstr "ການຕົບແຕ່ງຮູບແບບ"
+msgstr "ການຈັດຮູບແບບ"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
 msgstr "ຕົວແທນ AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
 msgstr "ອະນຸຍາດໃຫ້ຕົວແທນ AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "ປິດ: ເຄື່ອງມືລຸ່ມນີ້ ແລະ ເສັ້ນທາງ REST ຂອງພວກມັນແມ່ນບໍ່ໄດ້ລົງທະບຽນເລີຍ."
+msgstr "ປິດ: ເຄື່ອງມືລຸ່ມນີ້ ແລະ ເສັ້ນທາງ REST ຂອງພວກມັນບໍ່ໄດ້ຖືກລົງທະບຽນເລີຍ."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
-msgstr "ບັນຊີຕົວແທນຂາຍ Zinn Digital® ຂອງທ່ານ"
+msgstr "ບັນຊີຕົວແທນຈຳໜ່າຍ Zinn Digital® ຂອງທ່ານ"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "ສ້າງຄີ API ຂອງຕົວແທນຂາຍຄືນໃນແດສບອດ Zinn® ຂອງທ່ານພາຍໃຕ້ Developer → API keys, ແລ້ວວາງມັນລົງທີ່ນີ້."
+msgstr "ສ້າງລະຫັດ API ຂອງຕົວແທນຈຳໜ່າຍໃນແຜງໜ້າປັດ Zinn® ຂອງທ່ານພາຍໃຕ້ ຜູ້ພັດທະນາ → ລະຫັດ API, ແລ້ວວາງມັນໃສ່ນີ້."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
@@ -157,7 +157,7 @@ msgstr "ລະຫັດ API ຂອງຕົວແທນຈຳໜ່າຍ"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "ເກັບໄວ້ໃນເວັບໄຊນີ້ເທົ່ານັ້ນ ແລະ ຈະບໍ່ຖືກລວມເຂົ້າໃນການສົ່ງອອກ ຫຼື ບົດລາຍງານການວິນິດໄສ."
+msgstr "ຖືກເກັບໄວ້ຢູ່ໃນເວັບໄຊນີ້ເທົ່ານັ້ນ, ແລະ ບໍ່ເຄີຍຖືກລວມເຂົ້າໃນການສົ່ງອອກ ຫຼື ລາຍງານການວິນິດໄສ."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
@@ -165,7 +165,7 @@ msgstr "ແຜນທີ່ຈະຈັດສັນ"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "ລະຫັດແຜນການທີ່ລູກຄ້າໃໝ່ຈະຖືກຈັດໃຫ້. ປະຫວ່າງໄວ້ເພື່ອໃຫ້ຖາມທຸກຄັ້ງ."
+msgstr "ລະຫັດແຜນການທີ່ລູກຄ້າໃໝ່ຈະຖືກຈັດໃສ່. ປະຫວ່າງໄວ້ເພື່ອໃຫ້ຖາມໃນແຕ່ລະຄັ້ງ."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "ທີ່ຢູ່ API"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "ປ່ອຍສິ່ງນີ້ໄວ້ຄືເກົ່າ ຍົກເວັ້ນຝ່າຍສະໜັບສະໜູນຂອງ Zinn® ໄດ້ຂໍໃຫ້ທ່ານປ່ຽນມັນ."
+msgstr "ປະສິ່ງນີ້ໄວ້ຄືເກົ່າ ເວັ້ນເສຍແຕ່ການຊ່ວຍເຫຼືອຂອງ Zinn® ໄດ້ຂໍໃຫ້ທ່ານປ່ຽນມັນ."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,7 +181,7 @@ msgstr "ທີ່ຢູ່ແຜງຄວບຄຸມ"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "ບ່ອນທີ່ລິ້ງ “ໂຮດຕິ່ງຂອງຂ້ອຍ” ພາລູກຄ້າຂອງທ່ານໄປ."
+msgstr "ບ່ອນທີ່ລິ້ງ “ໂຮສຕິ້ງຂອງຂ້ອຍ” ສົ່ງລູກຄ້າຂອງທ່ານໄປ."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -189,11 +189,11 @@ msgstr "ຄົ້ນຫາໂດເມນ"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "ໃຫ້ລະຫັດສັ້ນ [zinn_domain_search]"
+msgstr "ລະບຸ shortcode [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "ວາງຊອດໂຄດໃສ່ໜ້າໃດກໍໄດ້ ເພື່ອໃຫ້ຜູ້ເຂົ້າຊົມສາມາດກວດສອບໂດເມນ ແລະ ຊື້ມັນຜ່ານທ່ານໄດ້."
+msgstr "ວາງ shortcode ໃສ່ໜ້າໃດກໍໄດ້ເພື່ອໃຫ້ຜູ້ເຂົ້າຊົມກວດສອບໂດເມນ ແລະ ຊື້ມັນຜ່ານທ່ານ."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -201,31 +201,31 @@ msgstr "ລິ້ງແຜງຄວບຄຸມ"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "ສະແດງລິ້ງ “ໂຮດຕິ້ງຂອງຂ້ອຍ” ໃຫ້ລູກຄ້າທີ່ເຂົ້າສູ່ລະບົບແລ້ວ"
+msgstr "ສະແດງລິ້ງ \"ໂຮສຕິ້ງຂອງຂ້ອຍ\" ໃຫ້ກັບລູກຄ້າທີ່ເຂົ້າສູ່ລະບົບແລ້ວ"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "ການຈັດຕຽມ WooCommerce"
+msgstr "ການຈັດສັນ WooCommerce"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "ກະກຽມໂຮດສ໌ຕິ້ງໂດຍອັດຕະໂນມັດ ເມື່ອຄຳສັ່ງຊື້ WooCommerce ສົມບູນແລ້ວ"
+msgstr "ຈັດສັນໂຮສຕິ້ງໂດຍອັດຕະໂນມັດເມື່ອຄຳສັ່ງຊື້ WooCommerce ສຳເລັດ"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "ມີຜົນສະເພາະກັບຄໍາສັ່ງຊື້ທີ່ມີຜະລິດຕະພັນທີ່ທ່ານໄດ້ເຊື່ອມໂຍງກັບແຜນ Zinn® ເທົ່ານັ້ນ."
+msgstr "ມີຜົນສະເພາະກັບຄຳສັ່ງຊື້ທີ່ມີຜະລິດຕະພັນທີ່ທ່ານໄດ້ຈັບຄູ່ກັບແພັກເກດ Zinn® ໄວ້ແລ້ວເທົ່ານັ້ນ."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
-msgstr "ຮູບແບບການປາກົດຂອງການຄົ້ນຫາໂດເມນ"
+msgstr "ຮູບລັກສະນະການຊອກຫາໂດເມນ"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "ວິດເຈັດນີ້ສະແດງຜົນພາຍໃນຮູບແບບຂອງເວັບໄຊທ່ານເອງ. ເລືອກຄ່າທີ່ຕັ້ງໄວ້ລ່ວງໜ້າ ຫຼື ກຳນົດສີຂອງທ່ານເອງ — ບໍ່ວ່າທາງໃດກໍ່ຕາມ ຈະບໍ່ມີສິ່ງໃດຖືກເພີ່ມໃສ່ໜ້າເວັບຂອງທ່ານທີ່ຜູ້ເຂົ້າຊົມຈະເຫັນວ່າເປັນຂອງພວກເຮົາ."
+msgstr "ວິດເຈັດນີ້ສະແດງຜົນພາຍໃນຮູບແບບສີສັນຂອງທ່ານເອງ. ເລືອກຄ່າທີ່ຕັ້ງໄວ້ລ່ວງໜ້າ, ຫຼື ກຳນົດສີຂອງທ່ານເອງ — ບໍ່ວ່າຈະເລືອກແບບໃດ ກໍບໍ່ມີສິ່ງໃດຖືກເພີ່ມໃສ່ໜ້າເວັບຂອງທ່ານທີ່ຜູ້ເຂົ້າຊົມຈະເຫັນວ່າເປັນຂອງພວກເຮົາ."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "ທຸກໆ ຄຼາດ ທີ່ວິດເຈັດໃຊ້ແມ່ນມີລາຍຊື່ຢູ່ໃນໄຟລ໌ readme ຂອງປລັກອິນ, ດັ່ງນັ້ນນັກພັດທະນາຈຶ່ງສາມາດປ່ຽນແທນທຸກຢ່າງທີ່ຄ່າທີ່ຕັ້ງໄວ້ລ່ວງໜ້າບໍ່ໄດ້ກວມເອົາ."
+msgstr "ທຸກໆ class ທີ່ widget ໃຊ້ແມ່ນໄດ້ລະບຸໄວ້ໃນ readme ຂອງປລັກອິນ, ດັ່ງນັ້ນນັກພັດທະນາຈຶ່ງສາມາດຂຽນທັບສິ່ງໃດກໍຕາມທີ່ຄ່າຕັ້ງໄວ້ລ່ວງໜ້າບໍ່ໄດ້ກວມເອົາ."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
@@ -241,7 +241,7 @@ msgstr "ຄວາມຄົມຊັດສູງ"
 
 #: includes/class-settings.php:330
 msgid "Compact"
-msgstr "ຫຍໍ້"
+msgstr "ກະທັດຮັດ"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
@@ -249,11 +249,11 @@ msgstr "ສີຂອງລິ້ງຊື້"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "ສີ “ມີຢູ່”"
+msgstr "ສີ \"ພ້ອມໃຊ້ງານ\""
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "ສີຂອງ “ບໍ່ສາມາດກວດສອບໄດ້”"
+msgstr "ສີ “ບໍ່ສາມາດກວດສອບໄດ້”"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -265,7 +265,7 @@ msgstr "ການມົນມຸມ"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "ພື້ນທີ່ໃນແຕ່ລະແຖວ"
+msgstr "ໄລຍະຫ່າງພາຍໃນແຕ່ລະແຖວ"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -277,23 +277,23 @@ msgstr "ນ້ຳໜັກຊື່ໂດເມນ"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "ຍັງບໍ່ມີລະຫັດ API ຕົວແທນຈຳໜ່າຍເທື່ອ."
+msgstr "ຍັງບໍ່ມີຄີ API ຂອງຕົວແທນຈຳໜ່າຍເທື່ອ."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "ການຄົ້ນຫາໂດເມນສາມາດໃຊ້ງານໄດ້ແລ້ວໂດຍບໍ່ຕ້ອງມີຄີ, ໃນລາຄາສາທາລະນະ. ລິ້ງແຜງຄວບຄຸມ ແລະ ການຈັດຫາ WooCommerce ຈຳເປັນຕ້ອງມີຄີ: ກະລຸນາສ້າງຄີໜຶ່ງຢູ່ທີ ແຜງຄວບຄຸມ Zinn® ຂອງທ່ານ ພາຍໃຕ້ ນັກພັດທະນາ → API keys."
+msgstr "ການຄົ້ນຫາໂດເມນສາມາດເຮັດວຽກໄດ້ແລ້ວໂດຍບໍ່ຕ້ອງມີຄີ, ໃນລາຄາສາທາລະນະ. ລິ້ງແຜງຄວບຄຸມ ແລະ ການຈັດຫາ WooCommerce ຕ້ອງການຄີ: ສ້າງຄີຂຶ້ນມາໃນແຜງໜ້າປັດ Zinn® ຂອງທ່ານພາຍໃຕ້ Developer → API keys."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
-msgstr "ເປີດແຜງຄວບຄຸມ Zinn® ຂອງຂ້ອຍ"
+msgstr "ເປີດແຜງໜ້າປັດ Zinn® ຂອງຂ້ອຍ"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "ມີການຕັ້ງຄ່າຄີໄວ້ແລ້ວ, ແຕ່ບໍ່ມີຫຍັງຖືກເປີດນຳໃຊ້."
+msgstr "ໄດ້ຕັ້ງຄີແລ້ວ, ແຕ່ບໍ່ມີຫຍັງຖືກເປີດຢູ່."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "ບໍ່ມີຄຸນສົມບັດໃດໃນສາມຢ່າງນີ້ຖືກເປີດໃຊ້ງານ, ດັ່ງນັ້ນ ປລັກອິນນີ້ຈຶ່ງບໍ່ໄດ້ເຮັດຫຍັງໃນເວັບໄຊຂອງທ່ານ. ກະລຸນາເປີດໃຊ້ງານສິ່ງທີ່ທ່ານຕ້ອງການຢູ່ກ້ອງ \"ຄຸນສົມບັດ\"."
+msgstr "ບໍ່ມີຄຸນສົມບັດໃດໃນສາມຢ່າງນີ້ຖືກເປີດໃຊ້ງານ, ດັ່ງນັ້ນປລັກອິນນີ້ຈຶ່ງບໍ່ໄດ້ເຮັດຫຍັງຢູ່ໃນເວັບໄຊຂອງທ່ານ. ເປີດສິ່ງທີ່ທ່ານຕ້ອງການພາຍໃຕ້ ຄຸນສົມບັດ."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -304,7 +304,7 @@ msgstr "ເປີດຄຸນສົມບັດ"
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
-msgstr[0] "ພ້ອມແລ້ວ — ເປີດໃຊ້ງານ %d ຄຸນສົມບັດ."
+msgstr[0] "ພ້ອມແລ້ວ — ເປີດໃຊ້ງານ %d ຄຸນສົມບັດແລ້ວ."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
@@ -316,7 +316,7 @@ msgstr "ການຕັ້ງຄ່າ"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "ຍັງບໍ່ມີຄີ API ດັ່ງນັ້ນຈຶ່ງບໍ່ມີຫຍັງເຊື່ອມຕໍ່."
+msgstr "ຍັງບໍ່ມີຄີ API ເທື່ອ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີຫຍັງເຊື່ອມຕໍ່ຢູ່."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
@@ -328,35 +328,35 @@ msgstr "ບໍ່ໄດ້ເຊື່ອມຕໍ່: %s"
 #: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ໂຄງການຕົວແທນຂາຍຕໍ່ຂອງທ່ານແມ່ນ %s."
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ໂປຣແກຣມຕົວແທນຈຳໜ່າຍຂອງທ່ານແມ່ນ %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "ບໍ່ມີກະແຈ API ຂອງ Zinn® ຖືກກຳນົດຄ່າ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການຈັດສັນຫຍັງເລີຍ."
+msgstr "ບໍ່ມີການກຳນົດຄ່າຄີ API ຂອງ Zinn®, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການຈັດສັນຫຍັງ."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "ຄໍາສັ່ງຊື້ນີ້ບໍ່ລວມເອົາຊື່ໂດເມນ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີຫຍັງໃຫ້ຈັດສັນ."
+msgstr "ຄຳສັ່ງຊື້ນີ້ບໍ່ໄດ້ລວມຊື່ໂດເມນ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີສິ່ງໃດທີ່ຕ້ອງຈັດສັນ."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
-msgstr "ເວທີໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງຄືນເວັບໄຊ."
+msgstr "ແພລດຟອມໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງເວັບໄຊຄືນມາ."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "ການຈັດສັນໂຮສຕິ້ງ Zinn® ສຳລັບ %1$s (ບໍລິການ %2$s)."
+msgstr "ໂຮດຕິ້ງ Zinn® ໄດ້ຖືກຈັດກຽມໄວ້ສຳລັບ %1$s (ບໍລິການ %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
-msgstr "ເວທີໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງຄືນບັນຊີລູກຄ້າ."
+msgstr "ແພລດຟອມໂຮສຕິ້ງບໍ່ໄດ້ສົ່ງບັນຊີລູກຄ້າຄືນມາ."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "ການໂຮສ Zinn® ບໍ່ໄດ້ຖືກຈັດສັນໃຫ້: %s"
+msgstr "ໂຮສຕິ້ງ Zinn® ບໍ່ໄດ້ຖືກຈັດກຽມ: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
@@ -364,19 +364,19 @@ msgstr "ສາຍຜະລິດຕະພັນ Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "ສາຍຜະລິດຕະພັນ Zinn® ທີ່ຈະຈັດສັນໃຫ້ ເມື່ອມີການຊື້ຜະລິດຕະພັນນີ້. ປ່ອຍຫວ່າງໄວ້ເພື່ອໃຊ້ຄ່າເລີ່ມຕົ້ນຈາກການຕັ້ງຄ່າປລັກອິນ."
+msgstr "ສາຍຜະລິດຕະພັນ Zinn® ທີ່ຈະຈັດຫາໃຫ້ເມື່ອຊື້ຜະລິດຕະພັນນີ້. ປະຫວ່າງໄວ້ເພື່ອໃຊ້ຄ່າເລີ່ມຕົ້ນຈາກການຕັ້ງຄ່າປລັກອິນ."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
-msgstr "Zinn® ໂຮດຕິ້ງ"
+msgstr "ໂຮດຕິ້ງ Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
-msgstr "ລະຫັດການບໍລິການ"
+msgstr "ໄອດີການບໍລິການ"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "ບໍ່ມີການຈັດສັນສຳລັບຄຳສັ່ງຊື້ນີ້."
+msgstr "ບໍ່ມີຫຍັງຖືກຈັດສັນສຳລັບຄຳສັ່ງຊື້ນີ້."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
@@ -384,15 +384,15 @@ msgstr "ບັນທຶກແລ້ວ. ພິມຄ່າໃໝ່ເພື່�
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "ກອງລາຍການນີ້…"
+msgstr "ກັ່ນຕອງລາຍການນີ້…"
 
 #: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
-msgstr "ກອງລາຍຊື່ນີ້"
+msgstr "ກັ່ນຕອງລາຍການນີ້"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "ບໍ່ມີຫຍັງກົງກັບຕົວກອງນັ້ນ."
+msgstr "ບໍ່ມີຫຍັງກົງກັບຕົວກັ່ນຕອງນັ້ນ."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
@@ -400,11 +400,11 @@ msgstr "ເພີ່ມແຖວ"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "ລຶບແຖວນີ້ອອກ"
+msgstr "ລຶບແຖວນີ້"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
-msgstr "ລຶບ"
+msgstr "ລຶບອອກ"
 
 #: includes/class-zinn-reseller-admin-ui.php:280
 #: includes/class-zinn-reseller-admin-ui.php:281
@@ -422,15 +422,15 @@ msgstr "ພາບລວມ"
 
 #: includes/class-zinn-reseller-admin-ui.php:383
 msgid "Copied"
-msgstr "ຄັດລອກແລ້ວ"
+msgstr "ສຳ​ເນົາ​ແລ້ວ"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "ທຸກໆ ປລັກອິນ Zinn® ຢູ່ເວັບໄຊນີ້, ແລະ ສະຖານະການເຮັດວຽກຂອງມັນ."
+msgstr "ທຸກໆປລັກອິນ Zinn® ໃນເວັບໄຊນີ້, ແລະ ມັນເຮັດວຽກຢູ່ຫຼືບໍ່."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "plugin ນີ້ບໍ່ຈຳເປັນຕ້ອງເຊື່ອມຕໍ່ອິນເຕີເນັດ."
+msgstr "ບໍ່ຈຳເປັນຕ້ອງມີການເຊື່ອມຕໍ່ສຳລັບປລັກອິນນີ້."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -439,7 +439,7 @@ msgstr "ເປີດການຕັ້ງຄ່າ"
 #: includes/class-zinn-reseller-admin-ui.php:770
 #: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "ທ່ານບໍ່ມີສິດອະນຸຍາດໃຫ້ປ່ຽນແປງການຕັ້ງຄ່າເຫຼົ່ານີ້."
+msgstr "ທ່ານບໍ່ມີສິດອະນຸຍາດໃນການປ່ຽນແປງການຕັ້ງຄ່າເຫຼົ່ານີ້."
 
 #: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
@@ -447,7 +447,7 @@ msgstr "ພາກສ່ວນການຕັ້ງຄ່າ"
 
 #: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
-msgstr "ຊັອບພອດ"
+msgstr "ສະໜັບສະໜູນ"
 
 #: includes/class-zinn-reseller-admin-ui.php:929
 msgid "Save changes"
@@ -467,11 +467,11 @@ msgstr "ຣີເຊັດເປັນຄ່າເລີ່ມຕົ້ນ"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "ການດໍາເນີນການນີ້ຈະຕັ້ງຄ່າທຸກຢ່າງໃນປລັກອິນນີ້ຄືນເປັນຄ່າເລີ່ມຕົ້ນ. ທ່ານຕ້ອງການສືບຕໍ່ບໍ?"
+msgstr "ສິ່ງນີ້ຈະຣີເຊັດທຸກການຕັ້ງຄ່າໃນປລັກອິນນີ້ກັບໄປເປັນຄ່າເລີ່ມຕົ້ນ. ສືບຕໍ່ຕໍ່ໄປບໍ?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "ການວິນິດໄສສຳລັບຝ່າຍຊ່ວຍເຫຼືອ"
+msgstr "ການວິນິດໄສສຳລັບການຊ່ວຍເຫຼືອ"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
@@ -483,7 +483,7 @@ msgstr "ນຳເຂົ້າ"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "ໄຟລ໌ທີ່ສົ່ງອອກຈະບໍ່ມີຮາດຜ່ານ, ໂທເຄັນ ຫຼື ຄີ API ຢ່າງເດັດຂາດ — ທ່ານຈະຕ້ອງໄດ້ປ້ອນຂໍ້ມູນເຫຼົ່ານັ້ນຄືນໃໝ່ຢູ່ເວັບໄຊໃໝ່."
+msgstr "ໄຟລ໌ທີ່ສົ່ງອອກຈະບໍ່ມີລະຫັດຜ່ານ, ໂທເຄັນ ຫຼື ຄີ API — ທ່ານຈະຕ້ອງປ້ອນຂໍ້ມູນເຫຼົ່ານັ້ນຄືນໃໝ່ຢູ່ໃນເວັບໄຊໃໝ່."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -491,15 +491,15 @@ msgstr "ບັນທຶກການຕັ້ງຄ່າແລ້ວ."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "ການຕັ້ງຄ່າທັງໝົດໃນປລັກອິນນີ້ໄດ້ຖືກກັບຄືນສູ່ຄ່າເລີ່ມຕົ້ນແລ້ວ."
+msgstr "ທຸກໆການຕັ້ງຄ່າໃນປລັກອິນນີ້ໄດ້ກັບຄືນສູ່ຄ່າເລີ່ມຕົ້ນແລ້ວ."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
-msgstr "ສໍາເລັດແລ້ວ."
+msgstr "ສຳເລັດ."
 
 #: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
-msgstr "ການກະທຳດັ່ງກ່າວບໍ່ສາມາດໃຊ້ໄດ້."
+msgstr "ການດຳເນີນການນັ້ນບໍ່ພ້ອມໃຊ້ງານ."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
@@ -507,24 +507,24 @@ msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌ນັ້ນໄດ້. �
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "ໄຟລ໌ນັ້ນມີຂະໜາດໃຫຍ່ເກີນໄປທີ່ຈະເປັນການສົ່ງອອກການຕັ້ງຄ່າ."
+msgstr "ໄຟລ໌ນັ້ນໃຫຍ່ເກີນໄປທີ່ຈະເປັນການສົ່ງອອກການຕັ້ງຄ່າ."
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "ໄຟລ໌ນັ້ນບໍ່ແມ່ນການສົ່ງອອກການຕັ້ງຄ່າຂອງ Zinn®."
+msgstr "ໄຟລ໌ນັ້ນບໍ່ແມ່ນການສົ່ງອອກການຕັ້ງຄ່າ Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "ໄຟລ໌ນັ້ນຖືກສົ່ງອອກມາຈາກປລັກອິນອື່ນ (%s), ດັ່ງນັ້ນການນຳເຂົ້າມາທີ່ນີ້ຈະຈັດເກັບການຕັ້ງຄ່າທີ່ປລັກອິນນີ້ບໍ່ເຂົ້າໃຈ."
+msgstr "ໄຟລ໌ນັ້ນຖືກສົ່ງອອກມາຈາກປລັກອິນອື່ນ (%s), ດັ່ງນັ້ນການນຳເຂົ້າໄຟລ໌ມານີ້ຈະບັນທຶກການຕັ້ງຄ່າທີ່ປລັກອິນນີ້ບໍ່ເຂົ້າໃຈ."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "ນຳເຂົ້າການຕັ້ງຄ່າ %d ລາຍການແລ້ວ. ລະຫັດຜ່ານ ແລະ ລະຫັດ API ຈະບໍ່ຖືກລວມຢູ່ໃນການສົ່ງອອກ, ດັ່ງນັ້ນກະລຸນາໃສ່ພວກມັນອີກຄັ້ງ."
+msgstr[0] "ນຳເຂົ້າ %d ການຕັ້ງຄ່າແລ້ວ. ລະຫັດຜ່ານ ແລະ ຄີ API ຈະບໍ່ຖືກລວມເຂົ້າໃນການສົ່ງອອກ, ດັ່ງນັ້ນກະລຸນາປ້ອນຂໍ້ມູນເຫຼົ່ານັ້ນຄືນໃໝ່."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -536,7 +536,7 @@ msgstr "ກຳລັງເຊື່ອມຕໍ່…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "ເຊື່ອມຕໍ່ແລ້ວ, ແຕ່ມີບາງຢ່າງທີ່ຕ້ອງໄດ້ເອົາໃຈໃສ່"
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ, ແຕ່ມີບາງຢ່າງທີ່ຕ້ອງເອົາໃຈໃສ່"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -544,15 +544,15 @@ msgstr "ບໍ່ໄດ້ເຊື່ອມຕໍ່"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "ກຳລັງເຮັດວຽກຢູ່ບັນຊີຂອງທ່ານເອງ"
+msgstr "ກຳລັງເຮັດວຽກຢູ່ໃນບັນຊີຂອງທ່ານເອງ"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "ພວກເຮົາບໍ່ສາມາດກວດສອບອັນນີ້ໄດ້"
+msgstr "ພວກເຮົາບໍ່ສາມາດກວດສອບສິ່ງນີ້ໄດ້"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "ປລັກອິນນີ້ບໍ່ໄດ້ລະບຸສາເຫດ. ກະລຸນາສົ່ງບົດລາຍງານການວິນິດໄສ ແລະພວກພວກເຮົາຈະກວດສອບໃຫ້."
+msgstr "ປັ໊ກອິນນີ້ບໍ່ໄດ້ບອກເຫດຜົນ. ສົ່ງລາຍງານການວິນິດໄສແລ້ວພວກເຮົາຈະກວດເບິ່ງ."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -562,7 +562,7 @@ msgstr "ສະຖານະການເຊື່ອມຕໍ່"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "ກວດສອບຄັ້ງຫຼ້າສຸດເມື່ອ %s ຜ່ານມາ."
+msgstr "ກວດສອບຫຼ້າສຸດ %s ຜ່ານມາ."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
@@ -570,64 +570,64 @@ msgstr "(ເປີດໃນແທັບໃໝ່)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "ສົ່ງສິ່ງນີ້ໄປຫາຝ່າຍສະໜັບສະໜູນຂອງ Zinn®"
+msgstr "ສົ່ງສິ່ງນີ້ໄປຫາຝ່າຍຊ່ວຍເຫຼືອຂອງ Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "ນີ້ແມ່ນສິ່ງທີ່ຈະຖືກສົ່ງຢ່າງແນ່ນອນ — ບໍ່ມີສິ່ງອື່ນ ແລະ ບໍ່ມີສິ່ງທີ່ເຊື່ອງໄວ້. ລະຫັດຜ່ານ, ໂທເຄັນ ແລະ ຄີ API ຂອງທ່ານບໍ່ໄດ້ຢູ່ໃນນັ້ນ."
+msgstr "ນີ້ແມ່ນສິ່ງທີ່ຈະຖືກສົ່ງໄປຢ່າງແນ່ນອນ — ບໍ່ມີສິ່ງອື່ນໃດ ແລະ ບໍ່ມີສິ່ງໃດຖືກເຊື່ອງໄວ້. ລະຫັດຜ່ານ, ໂທເຄັນ ແລະ ຄີ API ຂອງທ່ານບໍ່ໄດ້ຢູ່ໃນນີ້."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "ລາຍງານການວິນິດໄສທີ່ຈະຖືກສົ່ງໄປ"
+msgstr "ລາຍງານການວິນິດໄສທີ່ຈະສົ່ງ"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "ຄັດລອກໃສ່ຄລິບບອດ"
+msgstr "ສຳເນົາໃສ່ຄລິບບອດ"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "ສົ່ງລາຍງານນີ້ຫາຝ່າຍສະໜັບສະໜູນຂອງ Zinn®"
+msgstr "ສົ່ງລາຍງານນີ້ໄປຫາຝ່າຍຊ່ວຍເຫຼືອຂອງ Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "ພວກເຮົາເປີດຕticketສະໜັບສະໜູນໃຫ້ທ່ານ ແລະ ຕອບກັບທາງອີເມລ. ຖ້າທ່ານບໍ່ຕ້ອງການສົ່ງມັນ, ກະລຸນາກັອບປີ້ຂໍ້ມູນດ້ານເທິງນີ້ ແລ້ວນຳໄປວາງໃສ່ໃນຕticketດ້ວຍຕົນເອງ."
+msgstr "ພວກເຮົາເປີດປີ້ສະໜັບສະໜູນສຳລັບທ່ານ ແລະ ຕອບກັບຜ່ານອີເມວ. ຖ້າທ່ານບໍ່ຕ້ອງການສົ່ງມັນ, ໃຫ້ສຳເນົາມັນຢູ່ເທິງນີ້ ແລ້ວວາງໃສ່ປີ້ດ້ວຍຕົວທ່ານເອງ."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "ພວກເຮົາບໍ່ສາມາດຕິດຕໍ່ Zinn Digital® ຈາກເຊີບເວີນີ້ (%s) ໄດ້. ກະລຸນາສຳເນົາບົດລາຍງານຂ້າງເທິງ ແລະ ເປີດປີ້ງຮ້ອງຮຽນແທນ — ບໍ່ມີຫຍັງຜິດພາດກ່ຽວກັບການຕັ້ງຄ່າຂອງທ່ານ."
+msgstr "ພວກເຮົາບໍ່ສາມາດຕິດຕໍ່ຫາ Zinn Digital® ຈາກເຊີບເວີນີ້ (%s) ໄດ້. ຄັດລອກລາຍງານຂ້າງເທິງ ແລະ ເປີດປີ້ແທນ — ບໍ່ມີຫຍັງຜິດພາດກ່ຽວກັບການຕັ້ງຄ່າຂອງທ່ານ."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "ສົ່ງແລ້ວ. ທີມງານຊ່ວຍເຫຼືອຂອງ Zinn® ໄດ້ຮັບລາຍງານຂອງທ່ານແລ້ວ ແລະ ຈະຕອບກັບທາງອີເມລ."
+msgstr "ສົ່ງແລ້ວ. ຝ່າຍຊ່ວຍເຫຼືອຂອງ Zinn® ໄດ້ຮັບລາຍງານຂອງທ່ານແລ້ວ ແລະ ຈະຕອບກັບຜ່ານທາງອີເມວ."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "ຝ່າຍຊັບພອດ Zinn® ໄດ້ຮັບລາຍງານຂອງທ່ານແລ້ວ — ເລກອ້າງອີງ %s — ແລະ ຈະຕອບກັບທາງອີເມວ."
+msgstr "ສົ່ງແລ້ວ. ຝ່າຍຊ່ວຍເຫຼືອ Zinn® ໄດ້ຮັບລາຍງານຂອງທ່ານແລ້ວ — ໝາຍເລກອ້າງອີງ %s — ແລະ ຈະຕອບກັບຜ່ານອີເມວ."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "ທ່ານໄດ້ສົ່ງລາຍງານຫຼາຍສະບັບໃນໄລຍະເວລາອັນສັ້ນ. ກະລຸນາລໍຖ້າຈັກຄູ່ໜຶ່ງ ແລ້ວລອງໃໝ່ອີກຄັ້ງ — ລາຍງານກ່ອນໜ້ານີ້ແມ່ນໄດ້ຮັບຮຽບຮ້ອຍແລ້ວ."
+msgstr "ທ່ານໄດ້ສົ່ງລາຍງານຫຼາຍສະບັບໃນເວລາສັ້ນໆ. ກະລຸນາລໍຖ້າສອງສາມນາທີ ແລ້ວລອງໃໝ່ອີກຄັ້ງ — ລາຍງານກ່ອນໜ້ານີ້ແມ່ນໄດ້ຮັບແລ້ວ."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® ບໍ່ສາມາດຮັບລາຍງານໄດ້ໃນເວລານີ້ — ນີ້ແມ່ນບັນຫາຈາກທາງເຮົາ, ບໍ່ແມ່ນຈາກທ່ານ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນອີກຈັກໜ່ອຍ, ຫຼື ສຳເນົາລາຍງານດ້ານເທິງນີ້ໃສ່ໃນຕticket."
+msgstr "Zinn Digital® ບໍ່ສາມາດຮັບລາຍງານໄດ້ໃນຕອນນີ້ — ນີ້ແມ່ນບັນຫາຈາກທາງພວກເຮົາ, ບໍ່ແມ່ນຂອງທ່ານ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນໄວໆນີ້, ຫຼື ສຳເນົາລາຍງານຂ້າງເທິງໃສ່ໃນປີ້ແຈ້ງບັນຫາ."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "ລາຍງານຖືກປະຕິເສດ (HTTP %d). ກະລຸນາສຳເນົາຂໍ້ຄວາມຂ້າງເທິງນີ້ແລ້ວເປີດປີ້ງ (ticket) ພ້ອມທັງແຈ້ງເລກໝາຍດັ່ງກ່າວ."
+msgstr "ລາຍງານຖືກປະຕິເສດ (HTTP %d). ສຳເນົາໃສ່ຂ້າງເທິງ ແລະ ເປີດປີ້, ໂດຍລະບຸໝາຍເລກນັ້ນ."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — ຄູ່ມື ແລະ ບໍລິການ"
+msgstr "%s — ຄູ່ມື ແລະ ການບໍລິການ"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
@@ -645,11 +645,11 @@ msgstr "ເຊື່ອງສິ່ງນີ້"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "ການໂຮສຕິ້ງ Zinn® ສຳລັບ WordPress"
+msgstr "ໂຮດຕິ້ງ Zinn® ສໍາລັບ WordPress"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, ການສໍາຮອງຂໍ້ມູນປະຈໍາວັນ, ການຍ້າຍເວັບໄຊຟຣີ ແລະ ແຜງຄວບຄຸມທີ່ສ້າງຂຶ້ນສໍາລັບຜູ້ທີ່ບໍລິຫານຫຼາຍກວ່າໜຶ່ງເວັບໄຊ."
+msgstr "LiteSpeed, ການສຳຮອງຂໍ້ມູນລາຍວັນ, ການຍ້າຍຂໍ້ມູນຟຣີ ແລະ ແຜງຄວບຄຸມທີ່ສ້າງຂຶ້ນສຳລັບຜູ້ທີ່ດູແລຫຼາຍກວ່າໜຶ່ງເວັບໄຊ."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
@@ -657,23 +657,23 @@ msgstr "ຕະຫຼາດ Zinn®"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "ຊື້ ແລະ ຂາຍເວັບໄຊ, ໂດເມນ ແລະ ການວາງລິ້ງທີ່ມີຢູ່ແລ້ວ ໂດຍມີການເກັບຮັກສາເງິນໄວ້ຢ່າງປອດໄພ ຈົນກວ່າທັງສອງຝ່າຍຈະພໍໃຈ."
+msgstr "ຊື້ ແລະ ຂາຍເວັບໄຊທີ່ມີມາດົນແລ້ວ, ໂດເມນ ແລະ ການວາງລິ້ງ, ໂດຍເງິນຈະຖືກເກັບຮັກສາໄວ້ຢ່າງປອດໄພຈົນກວ່າທັງສອງຝ່າຍຈະພໍໃຈ."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — ຈ້າງຜູ້ຊ່ຽວຊານທີ່ເຮັດວຽກນີ້ເປັນອາຊີບ"
+msgstr "Zinn Hub® — ຈ້າງຄົນທີ່ເຮັດສິ່ງນີ້ເປັນອາຊີບ"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "ຕະຫຼາດຟຣີແລນຊ໌ທົ່ວໂລກຂອງພວກເຮົາ: ເລືອກເບິ່ງບໍລິການສຳເລັດຮູບຫຼາຍກວ່າ 10,000 ການບໍລິການຈາກນັກຂຽນ, ນັກອອກແບບ, ຜູ້ພັດທະນາ ແລະ ຜູ້ຊ່ຽວຊານ SEO, ຫຼື ປະກາດໂຄງການແລ້ວໃຫ້ພວກເຂົາສະເໜີລາຄາ."
+msgstr "ຕະຫຼາດຟຣີແລນສ໌ລະດັບໂລກຂອງພວກເຮົາ: ເລືອກເບິ່ງການບໍລິການສຳເລັດຮູບຫຼາຍກວ່າ 10,000 ລາຍການຈາກນັກຂຽນ, ນັກອອກແບບ, ນັກພັດທະນາ ແລະ ຜູ້ຊ່ຽວຊານ SEO, ຫຼື ໂພສໂຄງການແລ້ວໃຫ້ພວກເຂົາສະເໜີລາຄາ."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "ຮູບແບບສຳເລັດຮູບ"
+msgstr "ຮູບແບບທີ່ຕັ້ງໄວ້ລ່ວງໜ້າ"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "ຈຸດເລີ່ມຕົ້ນ. ສິ່ງໃດກໍຕາມທີ່ຢູ່ລຸ່ມນີ້ແມ່ນຈະທັບຊ້ອນມັນ."
+msgstr "ຈຸດເລີ່ມຕົ້ນ. ສິ່ງໃດກໍຕາມທີ່ຢູ່ລຸ່ມນີ້ຈະຂຽນທັບມັນ."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -681,7 +681,7 @@ msgstr "ໃຊ້ສີ ແລະ ຂະໜາດຂອງຂ້ອຍເອງ"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "ປິດໄວ້ ເພື່ອໃຊ້ຄ່າຕັ້ງຕົ້ນຕາມທີ່ມັນເປັນຢູ່ແທ້ໆ."
+msgstr "ປ່ອຍໃຫ້ປິດໄວ້ ແລະ ຄ່າທີ່ຕັ້ງໄວ້ລ່ວງໜ້າຈະຖືກນຳໃຊ້ຢ່າງແນ່ນອນຕາມທີ່ມັນເປັນຢູ່."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
@@ -689,83 +689,83 @@ msgstr "ເບິ່ງບັນທຶກການປ່ອຍເວີຊັນ
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "ບໍລິການອັບເດດ Zinn® ບໍ່ໄດ້ອອກລິ້ງດາວໂຫຼດສຳລັບການອັບເດດນີ້. ກະລຸນາ ກວດສອບວ່າເວັບໄຊນີ້ສາມາດເຂົ້າເຖິງແພລດຟອມ Zinn® ໄດ້ ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+msgstr "ບໍລິການອັບເດດ Zinn® ບໍ່ໄດ້ອອກລິ້ງດາວໂຫຼດສຳລັບການອັບເດດນີ້. ກວດສອບວ່າເວັບໄຊນີ້ສາມາດເຂົ້າເຖິງແພລດຟອມ Zinn® ໄດ້ຫຼືບໍ່, ຈາກນັ້ນລອງໃໝ່ອີກຄັ້ງ."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "ບໍ່ສາມາດດາວໂຫລດການອັບເດດຈາກບໍລິການອັບເດດຂອງ Zinn® (%s) ໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນອີກສອງາມນາທີ."
+msgstr "ບໍ່ສາມາດດາວໂຫລດການອັບເດດຈາກບໍລິການອັບເດດ Zinn® (%s). ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນອີກສອງສາມນາທີ."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງ ແລະ ບໍ່ໄດ້ຖືກຕິດຕັ້ງ."
+msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງສົມບູນ ແລະ ບໍ່ໄດ້ຮັບການຕິດຕັ້ງ."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "ບໍ່ສາມາດດຳເນີນການນີ້ໃຫ້ສຳເລັດໄດ້. ກະລຸນາລອງໃໝ່ ແລະ ຖ້າຍັງລົ້ມເຫຼວຢູ່, ໃຫ້ຕິດຕໍ່ຜູ້ດູແລເວັບໄຊ."
+msgstr "ບໍ່ສາມາດດຳເນີນການໃຫ້ສຳເລັດໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ, ແລະ ຖ້າຍັງຫຼົ້ມເຫຼວຢູ່, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງເວັບໄຊ."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "ຄ່າທີ່ ຈຳເປັນ ຂາດຫາຍໄປ ຫຼື ມີຮູບແບບ ຜິດພາດ. ກະລຸນາ ກວດສອບ input schema ຂອງ ຄວາມສາມາດ."
+msgstr "ຄ່າທີ່ຕ້ອງການຂາດຫາຍໄປ ຫຼື ມີຮູບແບບທີ່ບໍ່ຖືກຕ້ອງ. ກວດເບິ່ງໂຄງຮ່າງການປ້ອນຂໍ້ມູນ (input schema) ຂອງຄວາມສາມາດ."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
-msgstr "ເວັບໄຊໄດ້ປະຕິເສດການຮ້ອງຂໍດັ່ງກ່າວ."
+msgstr "ເວັບໄຊປະຕິເສດຄຳຮ້ອງຂໍ."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "ໃຫ້ຜູ້ຊ່ວຍ AI ເຊັ່ນ Claude, Cursor ຫຼື VS Code ເຮັດວຽກໃນເວັບໄຊນີ້ສຳລັບທ່ານຜ່ານ MCP (Model Context Protocol). ພວກເຂົາຈະເຂົ້າສູ່ລະບົບໃນຖານະຜູ້ໃຊ້ WordPress ດ້ວຍລະຫັດຜ່ານແອັບພລິເຄຊັນ ແລະ ສາມາດເຮັດໄດ້ສະເພາະສິ່ງທີ່ຜູ້ໃຊ້ນັ້ນຖືກອະນຸຍາດໃຫ້ເຮັດເທົ່ານັ້ນ."
+msgstr "ອະນຸຍາດໃຫ້ຜູ້ຊ່ວຍ AI ເຊັ່ນ Claude, Cursor ຫຼື VS Code ເຮັດວຽກຢູ່ໃນເວັບໄຊນີ້ສຳລັບທ່ານຜ່ານ MCP (Model Context Protocol). ພວກເຂົາເຂົ້າສູ່ລະບົບໃນຖານະຜູ້ໃຊ້ WordPress ດ້ວຍລະຫັດຜ່ານແອັບພລິເຄຊັນ ແລະ ສາມາດເຮັດໄດ້ສະເພາະສິ່ງທີ່ຜູ້ໃຊ້ນັ້ນໄດ້ຮັບອະນຸຍາດເທົ່ານັ້ນ."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "AI agents ຕ້ອງການ WordPress 6.9 ຫຼືໃໝ່ກວ່າ. ກະລຸນາອັບເດດ WordPress ເພື່ອໃຊ້ງານພວກມັນ."
+msgstr "ຕົວແທນ AI ຕ້ອງການ WordPress 6.9 ຫຼືໃໝ່ກວ່າ. ອັບເດດ WordPress ເພື່ອນຳໃຊ້ພວກມັນ."
 
-#: includes/mcp-kit/class-server.php:232
+#: includes/mcp-kit/class-server.php:236
 msgid "Connection address (MCP endpoint)"
-msgstr "ທີ່ຢູ່ການເຊື່ອມຕໍ່ (MCP endpoint)"
+msgstr "ທີ່ຢູ່ການເຊື່ອມຕໍ່ (ຈຸດສິ້ນສຸດ MCP)"
 
-#: includes/mcp-kit/class-server.php:235
+#: includes/mcp-kit/class-server.php:239
 msgid "Create an application password for your user"
 msgstr "ສ້າງລະຫັດຜ່ານແອັບພລິເຄຊັນສຳລັບຜູ້ໃຊ້ຂອງທ່ານ"
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:240
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "ເພີ່ມອັນນີ້ໃສ່ໃນການຕັ້ງຄ່າ MCP ຂອງແອັບ AI ຂອງທ່ານ, ພ້ອມດ້ວຍຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານນັ້ນ:"
+msgstr "ເພີ່ມສິ່ງນີ້ໃສ່ການຕັ້ງຄ່າ MCP ຂອງແອັບ AI ຂອງທ່ານ, ພ້ອມກັບຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານນັ້ນ:"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: ໃຫ້ໃສ່ລາຍການດຽວກັນນີ້ກ້ອງ \"servers\" ໃນ .vscode/mcp.json, ບໍ່ແມ່ນກ້ອງ \"mcpServers\"."
+msgstr "VS Code: ໃສ່ລາຍການດຽວກັນພາຍໃຕ້ \"servers\" ໃນ .vscode/mcp.json, ບໍ່ແມ່ນພາຍໃຕ້ \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "ເຄື່ອງມືທີ່ຕົວແທນ AI ສາມາດໃຊ້ໄດ້ທີ່ນີ້ (%d):"
+msgstr "ເຄື່ອງມືທີ່ຕົວແທນ AI ສາມາດໃຊ້ຢູ່ທີ່ນີ້ (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
 msgstr "ຄູ່ມືຜູ້ໃຊ້: ຕົວແທນ AI ແລະ MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
-msgstr "ເອກະສານສຳລັບນັກພັດທະນາ: ຄວາມສາມາດ, REST ແລະ MCP"
+msgstr "ເອກະສານນັກພັດທະນາ: ຄວາມສາມາດ, REST ແລະ MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "ຈັດການລູກຄ້າໂຮດຕິ້ງຂອງທ່ານ, ແຜນການ ແລະ ເວັບໄຊຂອງພວກເຂົາຢູ່ Zinn Digital® ຈາກເວັບໄຊນີ້."
+msgstr "ຈັດການລູກຄ້າໂຮສຕິ້ງຂອງທ່ານ, ແຜນການ ແລະ ເວັບໄຊຂອງພວກເຂົາໃນ Zinn Digital® ຈາກເວັບໄຊນີ້."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "ລູກຄ້າຂອງທ່ານ, ແຜນການຂອງພວກເຂົາ ແລະ ເວັບໄຊຂອງພວກເຂົາ, ຜ່ານບັນຊີຜູ້ຂາຍຕໍ່ Zinn Digital® ຂອງທ່ານ."
+msgstr "ລູກຄ້າຂອງທ່ານ, ແຜນການຂອງພວກເຂົາ ແລະ ເວັບໄຊທ໌ຂອງພວກເຂົາ, ຜ່ານບັນຊີຕົວແທນຈຳໜ່າຍ Zinn Digital® ຂອງທ່ານ."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "ອ່ານບັນຊີຕົວແທນຂາຍຂອງທ່ານ"
+msgstr "ອ່ານບັນຊີຕົວແທນຈຳໜ່າຍຂອງທ່ານ"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "ສົ່ງຄືນບັນຊີຕົວແທນຂາຍຂອງທ່ານໃນການອ່ານຄັ້ງດຽວ: ຍີ່ຫໍ້, ແຜນ, ຈຳນວນລູກຄ້າ ແລະ ການບໍລິການ, ແລະ ສິ່ງທີ່ໄດ້ຕັ້ງຄ່າໄວ້."
+msgstr "ສົ່ງຄືນບັນຊີຕົວແທນຈຳໜ່າຍຂອງທ່ານໃນການອ່ານພຽງຄັ້ງດຽວ: ແບຣນ, ແພັກເກດ, ຈຳນວນລູກຄ້າ ແລະ ບໍລິການ, ແລະ ສິ່ງທີ່ຖືກຕັ້ງຄ່າໄວ້."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
@@ -781,7 +781,7 @@ msgstr "ສ້າງລູກຄ້າ"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "ສ້າງບັນຊີລູກຄ້າພາຍໃຕ້ບັນຊີຂອງທ່ານ (ຊື່; default_currency, ລະຫັດສາມຕົວອັກສອນ). ໃຫ້ພວກເຂົາຢູ່ໃນແພັກເກດກ່ອນເວັບໄຊທຳອິດຂອງພວກເຂົາ."
+msgstr "ສ້າງບັນຊີລູກຄ້າພາຍໃຕ້ບັນຊີຂອງທ່ານ (name; default_currency, ລະຫັດສາມຕົວອັກສອນ). ຈັດພວກເຂົາເຂົ້າໃນແພັກເກດກ່ອນເວັບໄຊທຳອິດຂອງພວກເຂົາ."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
@@ -789,23 +789,23 @@ msgstr "ອ່ານແຜນຂອງລູກຄ້າ"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "ສົ່ງຄືນວ່າລູກຄ້າໃຊ້ແພັກເກດໃດ ແລະ ມັນມີຄ່າໃຊ້ຈ່າຍເທົ່າໃດສຳລັບທ່ານ (client_id)."
+msgstr "ສົ່ງຄືນວ່າລູກຄ້າໃຊ້ແພັກເກດໃດ ແລະ ຕົ້ນທຶນທີ່ທ່ານຕ້ອງຈ່າຍ (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "ມອບໝາຍແຜນໃຫ້ລູກຄ້າ"
+msgstr "ກຳນົດແຜນໃຫ້ລູກຄ້າ"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "ເອົາລູກຄ້າໃສ່ໃນແຜນການຂອງທ່ານໜຶ່ງ (client_id, plan_code; interval: ເດືອນ ຫຼື ປີ). ເຮັດສິ່ງນີ້ກ່ອນເວັບໄຊທຳອິດຂອງພວກເຂົາ."
+msgstr "ກຳນົດລູກຄ້າໃສ່ໜຶ່ງໃນແຜນຂອງທ່ານ (client_id, plan_code; interval: month ຫຼື year). ດຳເນີນການນີ້ກ່ອນເວັບໄຊທຳອິດຂອງພວກເຂົາ."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
-msgstr "ລາຍຊື່ແຜນການທີ່ທ່ານສາມາດຂາຍໄດ້"
+msgstr "ລະບຸແຜນທີ່ທ່ານສາມາດຂາຍໄດ້"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "ສະແດງລາຍການແຜນໂຮດຕິ້ງ ແລະ ລາຄາ (product_line ແລະ currency ຈະເຮັດໃຫ້ຂອບເຂດແຄບລົງ)."
+msgstr "ສະແດງລາຍການແຜນໂຮດຕິ້ງ ແລະ ລາຄາຂອງພວກມັນ (product_line ແລະ currency ຈະຈຳກັດໃຫ້ແຄບລົງ)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
@@ -813,7 +813,7 @@ msgstr "ລາຍຊື່ເວັບໄຊຂອງລູກຄ້າຂອງ
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "ສະແດງລາຍການທຸກຢ່າງທີ່ທ່ານໄດ້ຈັດສັນໄວ້ໃຫ້ກັບລູກຄ້າຂອງທ່ານ (client_id ແລະ status ຈະເຮັດໃຫ້ຜົນການຄົ້ນຫາແຄບລົງ), ເທື່ອລະໜ້າ."
+msgstr "ສະແດງລາຍການທຸກຢ່າງທີ່ທ່ານໄດ້ຈັດສັນໃຫ້ກັບລູກຄ້າຂອງທ່ານ (client_id ແລະ status ຈະຈຳກັດໃຫ້ແຄບລົງ), ເທື່ອລະໜ້າ."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
@@ -821,15 +821,15 @@ msgstr "ສ້າງເວັບໄຊສຳລັບລູກຄ້າ"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "ສ້າງເວັບໄຊທີ່ໂຮສຕ໌ໃຫ້ລູກຄ້າຂອງທ່ານຄົນໜຶ່ງ (client_id, product_line, primary_domain). ມັນຈະຖືກຄິດໄລ່ເງິນໃສ່ບັນຊີຂອງທ່ານຕາມແຜນຂອງລູກຄ້າ, ດັ່ງທີ່ມາຈາກຮ້ານຂອງທ່ານ."
+msgstr "ສ້າງເວັບໄຊທີ່ໂຮສໄວ້ສຳລັບລູກຄ້າຂອງທ່ານຄົນໜຶ່ງ (client_id, product_line, primary_domain). ມັນຈະຖືກຮຽກເກັບເງິນໄປຍັງບັນຊີຂອງທ່ານຕາມແຜນຂອງລູກຄ້າ, ຄືກັນກັບຈາກຮ້ານຂອງທ່ານ."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
-msgstr "ລະງັບເວັບໄຊຂອງລູກຄ້າ"
+msgstr "ໂຈະເວັບໄຊຂອງລູກຄ້າ"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "ວາງເວັບໄຊຂອງລູກຄ້າໄວ້ໃນສະຖານະການໂຮງຄ້າຈ່າຍເງິນ (site_id; ໝາຍເຫດ: ບັນທຶກສ່ວນຕົວຂອງທ່ານ, ບໍ່ເຄີຍສະແດງໃຫ້ລູກຄ້າເຫັນ). ເວັບໄຊຈະຢຸດການໃຫ້ບໍລິການຈົນກວ່າຈະຖືກຍົກເລີກການລະງັບ."
+msgstr "ເຮັດໃຫ້ເວັບໄຊຂອງລູກຄ້າຖືກລະງັບໄວ້ຍ້ອນບໍ່ມີການຊຳລະເງິນ (site_id; reason: ບັນທຶກຂອງທ່ານເອງ, ບໍ່ເຄີຍສະແດງໃຫ້ລູກຄ້າເຫັນ). ເວັບໄຊຈະຢຸດໃຫ້ບໍລິການຈົນກວ່າຈະຖືກຍົກເລີກການລະງັບ."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
@@ -837,24 +837,24 @@ msgstr "ຍົກເລີກການລະງັບເວັບໄຊຂອງ
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "ຖອນການໂຮງຄ້າງຊໍາລະເງິນ ເພື່ອໃຫ້ເວັບໄຊສາມາດໃຊ້ງານໄດ້ອີກຄັ້ງ (site_id)."
+msgstr "ຍົກເລີກການລະງັບຍ້ອນບໍ່ຊຳລະເງິນ, ເພື່ອໃຫ້ເວັບໄຊກັບມາເຮັດວຽກໄດ້ອີກຄັ້ງ (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "ອ່ານການຕັ້ງຄ່າຊຸດເຄື່ອງມືຕົວແທນຈຳໜ່າຍ"
+msgstr "ອ່ານການຕັ້ງຄ່າ Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "ສົ່ງຄືນການຕັ້ງຄ່າຂອງປລັກອິນນີ້ (ທີ່ຢູ່ API, ແພັກເກດທີ່ຄຳສັ່ງຊື້ໃໝ່ໃຊ້, ຄຸນສົມບັດໃດແດ່ທີ່ເປີດຢູ່).ລະຫັດ API ຈະບໍ່ຖືກສົ່ງຄືນຢ່າງແນ່ນອນ, ມີພຽງແຕ່ການລະບຸວ່າໄດ້ບັນທຶກໄວ້ແລ້ວຫຼືບໍ່."
+msgstr "ສົ່ງຄືນການຕັ້ງຄ່າຂອງປລັກອິນນີ້ (ທີ່ຢູ່ API, ແພັກເກດທີ່ຄຳສັ່ງຊື້ໃໝ່ໃຊ້, ຄຸນສົມບັດໃດທີ່ເປີດຢູ່). ຄີ API ຈະບໍ່ຖືກສົ່ງຄືນຢ່າງເດັດຂາດ, ພຽງແຕ່ບອກວ່າມີການບັນທຶກໄວ້ຫຼືບໍ່ເທົ່ານັ້ນ."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "ປ່ຽນການຕັ້ງຄ່າຊຸດເຄື່ອງມືຕົວແທນຂາຍຕໍ່"
+msgstr "ປ່ຽນການຕັ້ງຄ່າ Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "ປ່ຽນການຕັ້ງຄ່າທີ່ທ່ານສົ່ງ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ແລະຮັກສາສ່ວນທີ່ເຫຼືອໄວ້. ຄີ API ແລະທີ່ຢູ່ແມ່ນຖືກປ່ຽນສະເພາະຢູ່ເທິງໜ້າຈໍເທົ່ານັ້ນ."
+msgstr "ປ່ຽນແປງການຕັ້ງຄ່າທີ່ທ່ານສົ່ງ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ແລະ ຮັກສາສ່ວນທີ່ເຫຼືອໄວ້. ຄີ API ແລະ ທີ່ຢູ່ແມ່ນຖືກປ່ຽນແປງຢູ່ໜ້າຈໍເທົ່ານັ້ນ."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "ກະລຸນາເພີ່ມລະຫັດ API ຕົວແທນຈຳໜ່າຍ Zinn Digital® ຂອງທ່ານໃສ່ໃນໜ້າຈໍເຄື່ອງມືຕົວແທນຈຳໜ່າຍກ່ອນ."
+msgstr "ກະລຸນາເພີ່ມລະຫັດ API ຕົວແທນຈຳໜ່າຍ Zinn Digital® ຂອງທ່ານໃນໜ້າຈໍ Reseller Toolkit ກ່ອນ."

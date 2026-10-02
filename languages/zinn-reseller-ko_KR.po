@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "WordPress 및 WooCommerce, 대행사, 리셀러, 클라우드 및 VPS 호스팅을 지원하는 자체 WordPress 사이트에서 Zinn Digital® 호스팅을 판매하세요. 리셀러 계정에서 도메인을 검색하고 제공하며, 클라이언트를 호스팅 패널에 직접 로그인시키고, WooCommerce 주문이 결제될 때 호스팅을 자동으로 프로비저닝하세요."
+msgstr "귀하의 WordPress 사이트에서 Zinn Digital® 호스팅(WordPress, WooCommerce, 에이전시, 리셀러, 클라우드 및 VPS 호스팅)을 판매하십시오. 리셀러 계정에서 도메인을 검색하여 제공하고, 고객을 해당 호스팅 패널로 바로 로그인시키며, WooCommerce 주문이 결제되면 호스팅을 자동으로 프로비저닝하십시오."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,7 +38,7 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "호스팅 플랫폼이 상태 코드 %d(으)로 응답했습니다."
+msgstr "호스팅 플랫폼에서 %d 상태로 응답했습니다."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
@@ -54,19 +54,19 @@ msgstr "해당 이름에 대해 확인된 확장자가 없습니다."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "현재 이 사이트에서는 도메인 검색을 사용할 수 없습니다."
+msgstr "현재 이 사이트에서는 도메인 검색을 이용하실 수 없습니다."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "현재 도메인 등록소에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요."
+msgstr "방금 도메인 등록기관에 연결하지 못했습니다. 잠시 후 다시 시도해 주세요."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "API 키가 누락되었거나 더 이상 유효하지 않습니다. Zinn Digital® → 리셀러 툴킷에서 확인하세요."
+msgstr "API 키가 누락되었거나 더 이상 유효하지 않습니다. Zinn Digital® → Reseller Toolkit에서 확인하십시오."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "이 API 키에는 도메인 검색에 필요한 sites.view 권한이 없습니다. 리셀러 패널에서 해당 키에 권한을 추가하거나, 여기에서 키를 지우고 공개 검색으로 전환하세요."
+msgstr "이 API 키에는 도메인 검색에 필요한 sites.view 권한이 없습니다. 리셀러 패널에서 키에 해당 권한을 추가하거나, 공개 검색으로 대체하려면 여기서 키를 지우세요."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
@@ -74,7 +74,7 @@ msgstr "관리자만 볼 수 있음:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "이 항목을 확인할 수 없습니다. 다시 시도해 주세요."
+msgstr "확인할 수 없습니다 — 다시 시도해 주세요"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
@@ -88,23 +88,23 @@ msgstr "이용 가능 — 가격은 문의해 주세요"
 #: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr "사용 가능 — 첫 해 동안 %1$s %2$s"
+msgstr "사용 가능 — 첫해 %1$s %2$s"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
-msgstr "도메인 등록"
+msgstr "등록하기"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
-msgstr "호스팅 관리"
+msgstr "내 호스팅 관리"
 
 #: includes/class-panel-link.php:87
 msgid "Please sign in first."
-msgstr "먼저 로그인해 주십시오."
+msgstr "먼저 로그인해 주세요."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "이 계정은 아직 호스팅 서비스에 연결되어 있지 않습니다."
+msgstr "이 계정은 아직 호스팅 서비스에 연결되지 않았습니다."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
@@ -129,19 +129,19 @@ msgstr "스타일링"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
-msgstr "AI 에이전트 (MCP)"
+msgstr "AI 에이전트(MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
-msgstr "AI 에이전트 허용 (MCP)"
+msgstr "AI 에이전트 허용(MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "꺼짐: 아래 도구 및 해당 REST 라우트가 전혀 등록되지 않았습니다."
+msgstr "비활성화: 아래 도구와 해당 REST 경로는 전혀 등록되지 않았습니다."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
@@ -149,7 +149,7 @@ msgstr "귀하의 Zinn Digital® 리셀러 계정"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Zinn® 대시보드의 개발자(Developer) → API 키(API keys) 메뉴에서 리셀러 API 키를 생성한 후 여기에 붙여넣으세요."
+msgstr "Zinn® 대시보드의 개발자 → API 키에서 리셀러 API 키를 생성하고 여기에 붙여넣으세요."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
@@ -157,15 +157,15 @@ msgstr "리셀러 API 키"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "이 사이트에만 보관되며 내보내기나 진단 보고서에는 포함되지 않습니다."
+msgstr "이 사이트에만 보관되며 내보내기나 진단 보고서에는 절대로 포함되지 않습니다."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "프로비저닝할 요금제"
+msgstr "프로비저닝할 플랜"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "신규 고객이 배정되는 요금제 코드입니다. 매번 묻도록 하려면 비워 두세요."
+msgstr "신규 고객에게 적용되는 요금제 코드입니다. 매번 확인 메시지를 받으려면 비워 두세요."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "API 주소"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Zinn® 지원팀에서 변경을 요청한 경우가 아니라면 이 항목을 그대로 두세요."
+msgstr "Zinn® 지원팀에서 변경을 요청하지 않은 경우 이대로 두십시오."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,7 +181,7 @@ msgstr "제어판 주소"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "고객에게 \"내 호스팅\" 링크가 연결되는 위치입니다."
+msgstr "'내 호스팅' 링크가 고객을 이동시키는 위치입니다."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -189,11 +189,11 @@ msgstr "도메인 검색"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "[zinn_domain_search] 숏코드 제공"
+msgstr "[zinn_domain_search] 숏코드를 입력하세요"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "방문자가 도메인을 검색하고 귀사를 통해 구매할 수 있도록 모든 페이지에 숏코드를 삽입하세요."
+msgstr "방문자가 도메인을 확인하고 귀하를 통해 구매할 수 있도록 쇼트코드를 원하는 페이지에 배치하세요."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -201,7 +201,7 @@ msgstr "패널 링크"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "로그인한 고객에게 \"내 호스팅\" 링크 표시"
+msgstr "로그인한 고객에게 '내 호스팅' 링크 표시"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
@@ -209,27 +209,27 @@ msgstr "WooCommerce 프로비저닝"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "WooCommerce 주문이 완료되면 자동으로 호스팅 프로비저닝"
+msgstr "WooCommerce 주문이 완료되면 호스팅 자동 프로비저닝"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "Zinn® 플랜에 연동한 제품이 포함된 주문에만 적용됩니다."
+msgstr "Zinn® 요금제에 매핑한 제품이 포함된 주문에만 적용됩니다."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
-msgstr "도메인 검색 노출 형식"
+msgstr "도메인 검색 표시 모양"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "이 위젯은 회원님의 테마 내부에서 렌더링됩니다. 프리셋을 선택하거나 직접 색상을 설정하세요. 어느 쪽이든 방문자가 저희의 것으로 볼 수 있는 요소는 페이지에 추가되지 않습니다."
+msgstr "이 위젯은 자체 테마 내에서 렌더링됩니다. 사전 설정을 선택하거나 원하는 색상을 지정하세요. 어떤 방식을 선택하든 방문자가 당사의 것으로 인식할 수 있는 요소는 페이지에 추가되지 않습니다."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "위젯이 사용하는 모든 클래스는 플러그인의 리드미에 나열되어 있어, 개발자가 프리셋이 다루지 않는 모든 항목을 오버라이드할 수 있습니다."
+msgstr "위젯이 사용하는 모든 클래스는 플러그인의 readme에 나열되어 있으므로 개발자는 프리셋에서 다루지 않는 모든 항목을 재정의할 수 있습니다."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
-msgstr "내 테마 팔로우"
+msgstr "내 테마 따르기"
 
 #: includes/class-settings.php:298
 msgid "Soft"
@@ -241,7 +241,7 @@ msgstr "고대비"
 
 #: includes/class-settings.php:330
 msgid "Compact"
-msgstr "압축하기"
+msgstr "컴팩트"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
@@ -249,11 +249,11 @@ msgstr "구매 링크 색상"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "“사용 가능” 색상"
+msgstr "\"사용 가능\" 색상"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "\"확인 불가\" 색상"
+msgstr "\"확인할 수 없음\" 색상"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -261,11 +261,11 @@ msgstr "오류 색상"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
-msgstr "모서리 둥글게 하기"
+msgstr "모서리 둥글기"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "각 행의 안쪽 여백"
+msgstr "각 행 내부 간격"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -281,19 +281,19 @@ msgstr "아직 리셀러 API 키가 없습니다."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "도메인 검색은 퍼블릭 가격으로 키 없이도 이미 작동합니다. 패널 링크와 WooCommerce 프로비저닝에는 키가 필요합니다: 개발자(Developer) → API 키(API keys) 아래의 Zinn® 대시보드에서 키를 생성하세요."
+msgstr "도메인 검색은 키 없이도 공개 가격으로 이미 작동합니다. 패널 링크와 WooCommerce 프로비저닝에는 키가 필요합니다. Zinn® 대시보드의 Developer → API keys에서 키를 생성하세요."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
-msgstr "Zinn® 대시보드 열기"
+msgstr "내 Zinn® 대시보드 열기"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "키가 설정되어 있지만, 켜져 있는 항목이 없습니다."
+msgstr "키가 설정되어 있지만 아무것도 켜져 있지 않습니다."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "세 가지 기능 모두 활성화되어 있지 않으므로, 이 플러그인은 사이트에서 아무런 작동을 하지 않습니다. 기능 아래에서 필요한 항목을 켜세요."
+msgstr "세 가지 기능 중 어느 것도 활성화되어 있지 않으므로, 이 플러그인은 사이트에서 아무 작업도 수행하지 않습니다. '기능'에서 필요한 항목을 켜세요."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -304,11 +304,11 @@ msgstr "기능 열기"
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
-msgstr[0] "준비 완료 — %d개의 기능이 켜졌습니다."
+msgstr[0] "준비 완료 — 기능 %d개가 켜졌습니다."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
-msgstr "판매처:"
+msgstr "판매처"
 
 #: includes/class-settings.php:471
 msgid "Settings"
@@ -316,7 +316,7 @@ msgstr "설정"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "아직 API 키가 없어 연결된 항목이 없습니다."
+msgstr "아직 API 키가 없으므로 아무것도 연결되지 않았습니다."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
@@ -332,25 +332,25 @@ msgstr "연결되었습니다. 리셀러 프로그램은 %s입니다."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "설정된 Zinn® API 키가 없어 프로비저닝된 항목이 없습니다."
+msgstr "Zinn® API 키가 구성되지 않았으므로 아무것도 프로비저닝되지 않았습니다."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "이 주문에는 도메인 이름이 포함되어 있지 않아 프로비저닝할 항목이 없습니다."
+msgstr "이 주문에는 도메인 이름이 포함되지 않아 프로비저닝할 항목이 없습니다."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
-msgstr "호스팅 플랫폼이 사이트를 반환하지 않았습니다."
+msgstr "호스팅 플랫폼에서 사이트를 반환하지 않았습니다."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "%1$s에 제공되는 Zinn® 호스팅 (서비스 %2$s)."
+msgstr "%1$s에 대한 Zinn® 호스팅이 프로비저닝되었습니다(서비스 %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
-msgstr "호스팅 플랫폼이 클라이언트 계정을 반환하지 않았습니다."
+msgstr "호스팅 플랫폼에서 클라이언트 계정을 반환하지 않았습니다."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:312
@@ -376,11 +376,11 @@ msgstr "서비스 ID"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "이 주문에 대해 프로비저닝된 항목이 없습니다."
+msgstr "이 주문에 프로비저닝된 항목이 없습니다."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "저장되었습니다. 새 값을 입력하여 교체하세요."
+msgstr "저장되었습니다. 바꾸려면 새 값을 입력하세요."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
@@ -400,7 +400,7 @@ msgstr "행 추가"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "이 행 삭제"
+msgstr "이 행 제거"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
@@ -426,11 +426,11 @@ msgstr "복사됨"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "이 사이트의 모든 Zinn® 플러그인과 그 작동 여부."
+msgstr "이 사이트의 모든 Zinn® 플러그인 및 작동 여부."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "이 플러그인은 인터넷 연결이 필요하지 않습니다."
+msgstr "이 플러그인에는 연결이 필요하지 않습니다."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -439,7 +439,7 @@ msgstr "설정 열기"
 #: includes/class-zinn-reseller-admin-ui.php:770
 #: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "이 설정을 변경할 권한이 없습니다."
+msgstr "이 설정을 변경할 수 있는 권한이 없습니다."
 
 #: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
@@ -447,7 +447,7 @@ msgstr "설정 섹션"
 
 #: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
-msgstr "고객지원"
+msgstr "지원"
 
 #: includes/class-zinn-reseller-admin-ui.php:929
 msgid "Save changes"
@@ -467,11 +467,11 @@ msgstr "기본값으로 재설정"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "이 플러그인의 모든 설정이 기본값으로 재설정됩니다. 계속하시겠습니까?"
+msgstr "이 작업을 수행하면 이 플러그인의 모든 설정이 기본값으로 복원됩니다. 계속하시겠습니까?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "지원 진단"
+msgstr "지원용 진단 정보"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
@@ -483,7 +483,7 @@ msgstr "가져오기"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "내보낸 파일에는 비밀번호, 토큰 또는 API 키가 포함되지 않으므로 새 사이트에서 해당 정보를 다시 입력해야 합니다."
+msgstr "내보낸 파일에는 비밀번호, 토큰 또는 API 키가 포함되지 않습니다. 새 사이트에서 다시 입력해야 합니다."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -491,11 +491,11 @@ msgstr "설정이 저장되었습니다."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "이 플러그인의 모든 설정이 기본값으로 재설정되었습니다."
+msgstr "이 플러그인의 모든 설정이 기본값으로 복원되었습니다."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
-msgstr "완료됨."
+msgstr "완료."
 
 #: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
@@ -503,11 +503,11 @@ msgstr "해당 작업은 사용할 수 없습니다."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "해당 파일을 읽을 수 없습니다. Zinn® 플러그인에서 내보낸 설정 파일을 선택하세요."
+msgstr "해당 파일을 읽을 수 없습니다. Zinn® 플러그인에서 내보낸 설정 파일을 선택해 주세요."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "해당 파일이 너무 커서 설정 내보내기 파일일 수 없습니다."
+msgstr "해당 파일은 설정 내보내기 파일로 사용하기에 너무 큽니다."
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
@@ -517,14 +517,14 @@ msgstr "해당 파일은 Zinn® 설정 내보내기 파일이 아닙니다."
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "해당 파일은 다른 플러그인(%s)에서 내보낸 것이므로, 여기로 가져오면 이 플러그인이 이해하지 못하는 설정이 저장됩니다."
+msgstr "해당 파일은 다른 플러그인(%s)에서 내보낸 것이므로 여기에 가져오면 이 플러그인이 인식하지 못하는 설정이 저장됩니다."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d개의 설정을 가져왔습니다. 비밀번호와 API 키는 내보내기에 포함되지 않으므로 다시 입력해 주세요."
+msgstr[0] "%d개 설정을 가져왔습니다. 비밀번호와 API 키는 내보내기에 포함되지 않으므로 다시 입력해 주세요."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -536,7 +536,7 @@ msgstr "연결 중…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "연결되었지만, 조치가 필요한 사항이 있습니다"
+msgstr "연결되었지만 주의가 필요한 사항이 있습니다"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -544,15 +544,15 @@ msgstr "연결되지 않음"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "내 계정에서 실행 중"
+msgstr "본인 계정에서 실행 중"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "이를 확인할 수 없습니다"
+msgstr "확인할 수 없습니다"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "이 플러그인에 이유는 표시되지 않았습니다. 진단 보고서를 보내주시면 확인해 드리겠습니다."
+msgstr "이 플러그인은 이유를 명시하지 않았습니다. 진단 보고서를 보내주시면 확인해 보겠습니다."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -562,7 +562,7 @@ msgstr "연결 상태"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "마지막 확인 후 %s 경과됨."
+msgstr "마지막 확인: %s 전."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
@@ -570,11 +570,11 @@ msgstr "(새 탭에서 열림)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Zinn® 지원팀에 문의하기"
+msgstr "이 항목을 Zinn® 지원팀에 보내세요"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "정확히 이 내용만 전송되며, 다른 내용은 전혀 숨겨져 있지 않습니다. 비밀번호, 토큰 및 API 키는 포함되지 않습니다."
+msgstr "정확히 이 내용만 전송되며, 다른 내용이나 숨겨진 내용은 없습니다. 비밀번호, 토큰 및 API 키는 포함되어 있지 않습니다."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -586,41 +586,41 @@ msgstr "클립보드에 복사"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "이 보고서를 Zinn® 지원팀으로 보내세요."
+msgstr "이 보고서를 Zinn® 지원팀에 보내기"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "고객님을 위해 지원 티켓을 접수하고 이메일로 답변해 드리겠습니다. 이 내용을 보내지 않으려면 위 내용을 복사하여 직접 티켓에 붙여넣으세요."
+msgstr "지원 티켓을 생성하고 이메일로 답변해 드립니다. 전송을 원하지 않으시면 위 내용을 복사하여 티켓에 직접 붙여넣으세요."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "이 서버(%s)에서 Zinn Digital®에 연결할 수 없습니다. 위의 보고서를 복사하여 대신 티켓을 접수해 주세요. 설정에는 아무런 문제가 없습니다."
+msgstr "이 서버(%s)에서 Zinn Digital®에 연결할 수 없습니다. 위의 보고서를 복사하고 대신 티켓을 개설해 주세요. 설정에는 문제가 없습니다."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Zinn® 지원팀에서 회원님의 신고를 접수했으며 이메일로 답변해 드리겠습니다."
+msgstr "전송되었습니다. Zinn® 지원팀에 신고가 접수되었으며 이메일로 답변을 드릴 예정입니다."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Zinn® 지원 부서에서 고객님의 신고를 접수했으며(참조 번호: %s), 이메일로 답변을 드릴 예정입니다."
+msgstr "전송되었습니다. Zinn® 지원팀에 귀하의 보고서(참조: %s)가 접수되었으며, 이메일로 답변을 드릴 예정입니다."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "짧은 시간에 여러 번의 신고를 보내셨습니다. 몇 분 후에 다시 시도해 주세요. 이전 신고는 정상적으로 접수되었습니다."
+msgstr "짧은 시간 동안 여러 보고서를 보냈습니다. 몇 분 후에 다시 시도해 주세요. 이전 보고서는 이미 도착했습니다."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital®에서 지금 보고서를 수락하지 못했습니다. 고객님의 문제가 아니라 저희 쪽 문제입니다. 잠시 후 다시 시도하시거나 위의 보고서를 티켓에 복사해 주세요."
+msgstr "Zinn Digital®에서 지금 보고서를 접수할 수 없었습니다. 이는 당사 측의 문제이며 귀하의 문제가 아닙니다. 잠시 후 다시 시도하시거나 위의 보고서를 티켓에 복사해 주십시오."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "보고서가 거부되었습니다 (HTTP %d). 위 내용을 복사하여 해당 번호를 기재하고 티켓을 열어주세요."
+msgstr "보고서가 거부되었습니다 (HTTP %d). 위에서 복사한 후 해당 번호를 기재하여 티켓을 생성해 주세요."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
@@ -641,7 +641,7 @@ msgstr "%s 사용자 가이드 읽기"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
-msgstr "이 항목 숨기기"
+msgstr "숨기기"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
@@ -649,7 +649,7 @@ msgstr "WordPress용 Zinn® 호스팅"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, 일일 백업, 무료 이전, 그리고 여러 사이트를 운영하는 분들을 위해 만들어진 제어판입니다."
+msgstr "LiteSpeed, 일일 백업, 무료 마이그레이션, 그리고 2개 이상의 사이트를 운영하는 분들을 위해 제작된 제어판."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
@@ -657,15 +657,15 @@ msgstr "Zinn® 마켓플레이스"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "기존 사이트, 도메인, 링크 게재 위치를 사고팔 수 있으며, 양측이 모두 만족할 때까지 대금이 안전하게 보관됩니다."
+msgstr "양측이 모두 만족할 때까지 대금을 안전하게 보관하여, 기존 사이트, 도메인 및 링크 배치를 안심하고 사고파세요."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — 전문적으로 이 일을 하는 전문가 고용하기"
+msgstr "Zinn Hub® — 전문적으로 이 일을 하는 전문가를 고용하세요"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "전 세계 프리랜서 마켓플레이스: 작가, 디자이너, 개발자, SEO 전문가가 제공하는 10,000개 이상의 기성 서비스를 둘러보거나 프로젝트를 등록하고 입찰을 받아보세요."
+msgstr "글로벌 프리랜서 마켓플레이스: 작가, 디자이너, 개발자 및 SEO 전문가가 제공하는 10,000개 이상의 기성 서비스를 둘러보거나 프로젝트를 등록하여 제안을 받아보세요."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
@@ -673,15 +673,15 @@ msgstr "스타일 프리셋"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "시작점입니다. 그 아래의 모든 내용이 이를 무시합니다."
+msgstr "시작점입니다. 아래의 모든 내용이 이를 재정의합니다."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "내 색상 및 크기 사용"
+msgstr "내 맞춤 색상 및 크기 사용"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "이 설정을 끄면 프리셋이 있는 그대로 사용됩니다."
+msgstr "이 설정을 끈 상태로 두면 사전 설정이 그대로 사용됩니다."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
@@ -689,13 +689,13 @@ msgstr "Zinn Digital® 릴리스 노트를 확인하세요."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Zinn® 업데이트 서비스가 이 업데이트에 대한 다운로드 링크를 생성하지 않았습니다. 이 사이트가 Zinn® 플랫폼에 접속할 수 있는지 확인한 후 다시 시도하세요."
+msgstr "Zinn® 업데이트 서비스에서 이 업데이트에 대한 다운로드 링크를 제공하지 않았습니다. 이 사이트가 Zinn® 플랫폼에 연결할 수 있는지 확인한 후 다시 시도하십시오."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Zinn® 업데이트 서비스에서 업데이트를 다운로드할 수 없습니다(%s). 몇 분 후 다시 시도해 주세요."
+msgstr "Zinn® 업데이트 서비스(%s)에서 업데이트를 다운로드할 수 없습니다. 몇 분 후에 다시 시도하십시오."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
@@ -703,53 +703,53 @@ msgstr "다운로드된 업데이트의 무결성 검사에 실패하여 설치�
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "작업을 완료할 수 없습니다. 다시 시도해 보시고, 계속 실패하면 사이트 관리자에게 문의하세요."
+msgstr "작업을 완료할 수 없습니다. 다시 시도해 주시고, 문제가 계속되면 사이트 관리자에게 문의하십시오."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "필수 값이 누락되었거나 형식이 잘못되었습니다. 해당 기능의 입력 스키마를 확인하세요."
+msgstr "필수 값이 누락되었거나 형식이 잘못되었습니다. 어빌리티의 입력 스키마(input schema)를 확인하세요."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
 msgstr "사이트에서 요청을 거부했습니다."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Claude, Cursor 또는 VS Code와 같은 AI 어시스턴트가 MCP(Model Context Protocol)를 통해 이 사이트에서 작업할 수 있도록 하세요. 이들은 애플리케이션 비밀번호를 사용하여 WordPress 사용자로 로그인하며, 해당 사용자에게 허용된 작업만 수행할 수 있습니다."
+msgstr "Claude, Cursor 또는 VS Code와 같은 AI 어시스턴트가 MCP(Model Context Protocol)를 통해 귀하를 위해 이 사이트에서 작업하도록 허용하세요. 이들은 애플리케이션 비밀번호를 사용하여 WordPress 사용자로 로그인하며, 해당 사용자에게 허용된 작업만 수행할 수 있습니다."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "AI 에이전트에는 WordPress 6.9 이상이 필요합니다. 사용하려면 WordPress를 업데이트하세요."
-
-#: includes/mcp-kit/class-server.php:232
-msgid "Connection address (MCP endpoint)"
-msgstr "연결 주소(MCP 엔드포인트)"
-
-#: includes/mcp-kit/class-server.php:235
-msgid "Create an application password for your user"
-msgstr "사용자에 대한 애플리케이션 비밀번호 생성"
+msgstr "AI 에이전트에는 WordPress 6.9 이상이 필요합니다. 이를 사용하려면 WordPress를 업데이트하세요."
 
 #: includes/mcp-kit/class-server.php:236
-msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "사용자 이름과 해당 비밀번호를 포함하여 AI 앱의 MCP 설정에 추가하세요:"
+msgid "Connection address (MCP endpoint)"
+msgstr "연결 주소 (MCP 엔드포인트)"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:239
+msgid "Create an application password for your user"
+msgstr "사용자를 위한 애플리케이션 비밀번호 생성"
+
+#: includes/mcp-kit/class-server.php:240
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "사용자 이름과 해당 비밀번호를 사용하여 AI 앱의 MCP 설정에 이것을 추가하십시오:"
+
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: \"mcpServers\"가 아니라 .vscode/mcp.json의 \"servers\" 아래에 동일한 항목을 넣으세요."
+msgstr "VS Code: 동일한 항목을 .vscode/mcp.json의 \"mcpServers\"가 아닌 \"servers\" 아래에 넣으십시오."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "이 위치에서 AI 에이전트가 사용할 수 있는 도구 (%d):"
+msgstr "AI 에이전트가 여기서 사용할 수 있는 도구 (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
 msgstr "사용자 가이드: AI 에이전트 및 MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
-msgstr "개발자 문서: 기능, REST 및 MCP"
+msgstr "개발자 문서: 능력, REST 및 MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
@@ -757,104 +757,104 @@ msgstr "이 사이트에서 Zinn Digital®의 호스팅 고객, 요금제 및 �
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "Zinn Digital® 리셀러 계정을 통해 고객, 고객의 플랜, 고객의 사이트를 관리하세요."
+msgstr "Zinn Digital® 리셀러 계정을 통한 고객, 해당 요금제 및 사이트."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "대행사 계정 읽기"
+msgstr "리셀러 계정 읽기"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "리셀러 계정의 모든 정보를 한 번에 보여줍니다: 브랜드, 요금제, 고객 및 서비스 수, 그리고 설정된 내용."
+msgstr "리셀러 계정을 한 번에 반환합니다: 브랜드, 요금제, 고객 및 서비스 수, 설정된 항목."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "고객 목록 표시"
+msgstr "고객 목록 나열"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "클라이언트 계정을 페이지별로 나열합니다(커서, 제한)."
+msgstr "클라이언트 계정을 한 번에 한 페이지씩 나열합니다(cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
-msgstr "고객 생성"
+msgstr "클라이언트 생성"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "귀하의 계정 하에 클라이언트 계정을 생성합니다(이름; 기본 통화, 세 자리 코드). 첫 번째 사이트를 만들기 전에 플랜을 할당하세요."
+msgstr "귀하의 계정 아래에 클라이언트 계정을 생성합니다(name; 세 글자 코드로 된 default_currency). 첫 사이트를 만들기 전에 플랜을 지정해 주세요."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
-msgstr "고객 플랜 읽기"
+msgstr "고객 플랜 조회"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "클라이언트가 이용 중인 요금제와 해당 비용을 반환합니다 (client_id)."
+msgstr "고객이 이용 중인 플랜과 귀하에게 청구되는 비용을 반환합니다 (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "클라이언트에게 플랜 배정하기"
+msgstr "고객에게 플랜 지정"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "클라이언트를 요금제 중 하나에 등록합니다(client_id, plan_code; interval: month 또는 year). 첫 번째 사이트를 만들기 전에 이 작업을 수행하세요."
+msgstr "고객을 요금제 중 하나에 등록합니다 (client_id, plan_code; interval: month 또는 year). 첫 번째 사이트를 만들기 전에 이 작업을 수행하세요."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
-msgstr "판매할 수 있는 요금제 나열하기"
+msgstr "판매할 수 있는 요금제 목록"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "호스팅 플랜과 그 가격을 나열합니다 (product_line 및 currency로 좁힐 수 있습니다)."
+msgstr "호스팅 요금제와 가격을 나열합니다 (product_line 및 currency 매개변수로 범위를 좁힙니다)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
-msgstr "고객 사이트 목록 보기"
+msgstr "고객 사이트 나열"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "고객을 위해 프로비저닝한 모든 항목을 클라이언트별로 나열하며(client_id 및 status로 좁힐 수 있음), 페이지 단위로 표시합니다."
+msgstr "고객을 위해 프로비저닝한 모든 항목을 한 번에 한 페이지씩 나열합니다(client_id 및 status(으)로 범위 축소)."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
-msgstr "클라이언트용 사이트 만들기"
+msgstr "고객을 위한 사이트 만들기"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "고객 중 한 명을 위한 호스팅된 사이트를 생성합니다(client_id, product_line, primary_domain). 귀하의 상점을 통해 고객의 요금제로 귀하의 계정에 청구됩니다."
+msgstr "고객 중 한 명을 위한 호스팅 사이트를 생성합니다 (client_id, product_line, primary_domain). 고객의 요금제에 따라 상점에서 구매한 것처럼 귀하의 계정으로 청구됩니다."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
-msgstr "고객 사이트 일시 중지"
+msgstr "고객 사이트 정지"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "클라이언트의 사이트를 미납 보류 상태로 설정합니다(site_id; 사유: 자체 메모, 클라이언트에게 절대 표시되지 않음). 해제될 때까지 사이트 서비스가 중단됩니다."
+msgstr "클라이언트 사이트를 미결제로 인한 보류 상태로 설정합니다 (site_id; reason: 직접 작성하는 메모이며 클라이언트에게는 절대 표시되지 않음). 사이트는 정지가 해제될 때까지 서비스 제공을 중단합니다."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "고객 사이트 정지 해제"
+msgstr "고객 사이트 정지 해제하기"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "미납 보류를 해제하여 사이트가 다시 제공되도록 합니다(site_id)."
+msgstr "사이트가 다시 서비스되도록 미납에 따른 보류 상태를 해제합니다 (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "리셀러 툴킷 설정 읽기"
+msgstr "리셀러 툴킷 설정을 확인하십시오"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "이 플러그인의 설정(API 주소, 신규 주문에 사용되는 플랜, 활성화된 기능)을 반환합니다. API 키는 반환되지 않으며, 저장되어 있는지 여부만 반환됩니다."
+msgstr "이 플러그인의 설정(API 주소, 새 주문이 사용하는 요금제, 활성화된 기능)을 반환합니다. API 키는 반환되지 않으며, 저장 여부만 반환됩니다."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "리셀러 툴킷 설정 변경"
+msgstr "Reseller Toolkit 설정 변경"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "보내신 설정(plan_code, enable_domain_search, enable_panel_link, enable_woocommerce)을 변경하고 나머지는 유지합니다. API 키와 주소는 화면에서만 변경됩니다."
+msgstr "전송한 설정(plan_code, enable_domain_search, enable_panel_link, enable_woocommerce)을 변경하고 나머지는 유지합니다. API 키와 주소는 화면에서만 변경됩니다."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "먼저 리셀러 툴킷 화면에서 Zinn Digital® 리셀러 API 키를 추가하세요."
+msgstr "먼저 Reseller Toolkit 화면에서 Zinn Digital® 리셀러 API 키를 추가하십시오."

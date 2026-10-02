@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Өөрийн WordPress сайт дээрээс Zinn Digital® вэб байршуулалт борлуулаарай — WordPress, WooCommerce, агентлаг, реселлер, үүлэн болон VPS вэб байршуулалт. Реселлер эрхээсээ домэйн хайж санал болгох, үйлчлүүлэгчдийг шууд вэб байршуулалтын самбарт нь нэвтрүүлэх, мөн WooCommerce захиалгын төлбөр төлөгдөхөд вэб байршуулалтыг автоматаар үүсгэх."
+msgstr "Өөрийн WordPress сайтаас Zinn Digital® хостингийг худалдаалаарай — WordPress, WooCommerce, агентлаг, дамжуулан борлуулагч, үүлэн болон VPS хостинг. Дамжуулан борлуулагчийн бүртгэлээсээ домэйн хайж, санал болгох, үйлчлүүлэгчдээ хостингийн удирдлагын хэсэгт шууд нэвтрүүлэх, мөн WooCommerce захиалга төлөгдөх үед хостингийг автоматаар бэлтгэж тохируулаарай."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,11 +38,11 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "Вэб байршуулах систем %d статусаар хариуллаа."
+msgstr "Хостинг платформ нь %d төлөвтэйгөөр хариу өглөө."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
-msgstr "Таны домэйн нэрийг олох"
+msgstr "Өөрийн домэйн нэрийг хайх"
 
 #: includes/class-domain-search.php:75
 msgid "Search"
@@ -50,27 +50,27 @@ msgstr "Хайх"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "Энэ нэрд ямар ч өргөтгөл шалгаагүй байна."
+msgstr "Тэр нэрэнд зориулж ямар ч өргөтгөл шалгагдсангүй."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "Энэ сайт дээр домэйн хайлт одоогоор боломжгүй байна."
+msgstr "Энэ сайт дээр одоогоор домэйн хайх боломжгүй байна."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "Бид одоо домейн бүртгэгчтэй холбогдож чадсангүй. Түр хүлээгээд дахин оролдоно уу."
+msgstr "Домэйн бүртгэгчтэй одоогоор холбогдох боломжгүй байна. Түр хүлээгээд дахин оролдоно уу."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "API түлхүүр байхгүй эсвэл хүчинтэй байхаа болисон байна. Үүнийг Zinn Digital® → Reseller Toolkit хэсгээс шалгана уу."
+msgstr "API түлхүүр байхгүй эсвэл хүчингүй болсон байна. Үүнийг Zinn Digital® → Reseller Toolkit хэсгээс шалгана уу."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "Энэхүү API түлхүүр нь домэйн хайлтад шаардлагатай sites.view эрхийг агуулаагүй байна. Үүнийг борлуулагчийн хэсэг дэх түлхүүрд нэмэх эсвэл нийтийн хайлт руу буцахын тулд энд байгаа түлхүүрийг арилгана уу."
+msgstr "Энэхүү API түлхүүрт домэйн хайлтад шаардлагатай sites.view зөвшөөрөл байхгүй байна. Үүнийг өөрийн борлуулагчийн самбар дээрх түлхүүрт нэмэх эсвэл нийтийн хайлт руу буцахын тулд энд түлхүүрийг арилгана уу."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
-msgstr "Зөвхөн администраторууд үүнийг харна:"
+msgstr "Зөвхөн админууд үүнийг харна:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
@@ -82,13 +82,13 @@ msgstr "Бүртгүүлсэн байна"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "Боломжтой — биднээс үнийг асууна уу"
+msgstr "Бэлэн байгаа — үнийн саналыг биднээс лавлана уу"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr "Эхний жилдээ %1$s %2$s — Боломжтой"
+msgstr "Боломжтой — эхний жилд %1$s %2$s"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
@@ -96,7 +96,7 @@ msgstr "Бүртгүүлэх"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
-msgstr "Миний хостингийг удирдах"
+msgstr "Өөрийн хостингийг удирдах"
 
 #: includes/class-panel-link.php:87
 msgid "Please sign in first."
@@ -104,24 +104,24 @@ msgstr "Эхлээд нэвтэрнэ үү."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "Энэ данс одоогоор ямар нэгэн хостингийн үйлчилгээтэй холбогдоогүй байна."
+msgstr "Энэ бүртгэл одоогоор хостинг үйлчилгээтэй холбогдоогүй байна."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "Хостингийн платформ нэвтрэх холбоос буцаасангүй."
+msgstr "Хостинг платформ нэвтрэх холбоос буцаасангүй."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "Реселлер хэрэгслийн багц"
+msgstr "Борлуулагчийн хэрэгслийн багц"
 
 #: includes/class-settings.php:127
 msgid "Account"
-msgstr "Данс"
+msgstr "Бүртгэллүүд"
 
 #: includes/class-settings.php:131
 msgid "Features"
-msgstr "Боломжууд"
+msgstr "Онцлогууд"
 
 #: includes/class-settings.php:135
 msgid "Styling"
@@ -129,19 +129,19 @@ msgstr "Загварчлал"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
-msgstr "Хиймэл оюун ухааны агентууд (MCP)"
+msgstr "ХИ агентууд (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
-msgstr "AI агентуудыг зөвшөөрөх (MCP)"
+msgstr "Хиймэл оюун ухааны агентуудыг (MCP) зөвшөөрөх"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "Унтраалттай: доорх хэрэгслүүд болон тэдгээрийн REST роутууд огт бүртгэгдээгүй байна."
+msgstr "Унтраалттай: доорх хэрэгслүүд болон тэдгээрийн REST чиглэлүүд огт бүртгэгдээгүй байна."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
@@ -149,23 +149,23 @@ msgstr "Таны Zinn Digital® борлуулагчийн бүртгэл"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Zinn® хяналтын самбарын Developer → API keys хэсгээс борлуулагчийн API түлхүүр үүсгээд энд буулгана уу."
+msgstr "Zinn® хяналтын самбарынхаа Хөгжүүлэгч → API түлхүүрүүд хэсэгт борлуулагчийн API түлхүүр үүсгээд энд буулгана уу."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
-msgstr "Реселлер API түлхүүр"
+msgstr "Борлуулагчийн API түлхүүр"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "Энэ сайт дээр л хадгалагдах бөгөөд экспорт эсвэл оношилгооны тайланд хэзээ ч орохгүй."
+msgstr "Зөвхөн энэ сайт дээр хадгалагдах бөгөөд экспорт эсвэл оношилгооны тайланд хэзээ ч орохгүй."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "Үүсгэх төлөвлөгөө"
+msgstr "Бэлтгэх багц"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "Шинэ үйлчлүүлэгчдийн шилжих багцын код. Бүртгүүлэх бүрт асуухыг хүсвэл хоосон үлдээнэ үү."
+msgstr "Шинэ хэрэглэгчдийг бүртгэх багцын код. Тухай бүрд нь асууж байх бол хоосон үлдээнэ үү."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "API хаяг"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Zinn®-ийн дэмжлэг үүнийг өөрчлөхийг хүсээгүй л бол үүнийг хөндөхгүй орхино уу."
+msgstr "Zinn® дэмжлэгийн баг үүнийг өөрчлөхийг танаас хүсээгүй бол хэвээр нь үлдээнэ үү."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,7 +181,7 @@ msgstr "Удирдлагын самбарын хаяг"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Таны үйлчлүүлэгчдийг “Миний хостинг” холбоос хаашаа чиглүүлэх вэ."
+msgstr "«Миний хостинг» холбоос таны хэрэглэгчдийг чиглүүлэх газар."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -189,31 +189,31 @@ msgstr "Домэйн хайх"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "[zinn_domain_search] богино кодыг оруулах"
+msgstr "[zinn_domain_search] богино кодыг оруулна уу"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Зочид домэйн шалгаж, таниар дамжуулан худалдан авах боломжтой болгохын тулд богино кодыг дурын хуудсанд байрлуулна уу."
+msgstr "Зочдод домэйн шалгаж, танаар дамжуулан худалдан авах боломжийг олгохын тулд богино кодыг дурын хуудсанд байрлуулна уу."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
-msgstr "Хяналтын самбарын холбоос"
+msgstr "Удирдлагын холбоос"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "Нэвтэрсэн хэрэглэгчдэд “Миний хостинг” холбоосыг харуулах"
+msgstr "Нэвтэрсэн хэрэглэгчдэд \"Миний хостинг\" холбоосыг харуулах"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "WooCommerce бэлтгэх"
+msgstr "WooCommerce нөөц хуваарилалт"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "WooCommerce захиалга дуусах үед хостингийг автоматаар үүсгэх"
+msgstr "WooCommerce захиалга биелэх үед хостингийг автоматаар бэлтгэх"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "Таны Zinn® төлөвлөгөөтэй холбосон бүтээгдэхүүнийг агуулсан захиалгад л хэрэгжинэ."
+msgstr "Зөвхөн таны Zinn® багцтай холбосон бүтээгдэхүүнийг агуулсан захиалгад хүчинтэй байна."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
@@ -221,15 +221,15 @@ msgstr "Домэйн хайлтын харагдах байдал"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "Энэ виджет нь таны өөрийн загвар дотор ажиллана. Урьдчилан тохируулсан загвараас сонгох эсвэл өөрийн өнгийг тохируулаарай. Аль ч тохиолдолд таны хуудсанд зочин манайх гэж харах ямар нэгэн зүйл нэмэгдэхгүй."
+msgstr "Энэхүү виджет нь таны өөрийн загвар дотор дүрслэгдэнэ. Бэлэн тохиргооноос сонгох эсвэл өөрийн өнгийг тохируулна уу — аль ч тохиолдолд таны хуудсанд зочин биднийх гэж харж болохоор ямар ч зүйл нэмэгдэхгүй."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "Хэрэгслийн ашигладаг анги тус бүрийг нэмэлт өргөтгөлийн readme файлд жагсаасан тул хөгжүүлэгч урьдчилан тохируулгад багтаагүй аливаа зүйлийг дахин тодорхойлох боломжтой."
+msgstr "Уг виджетийн ашигладаг класс бүр нэмэлт өргөтгөлийн readme файлд жагсаагдсан тул урьдчилан тохируулгад багтаагүй аливаа зүйлийг хөгжүүлэгч дахин тодорхойлох боломжтой."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
-msgstr "Миний загварыг дагах"
+msgstr "Миний сэдвийг дагах"
 
 #: includes/class-settings.php:298
 msgid "Soft"
@@ -237,15 +237,15 @@ msgstr "Зөөлөн"
 
 #: includes/class-settings.php:314
 msgid "High contrast"
-msgstr "Өндөр тодосгогч"
+msgstr "Өндөр тодрол"
 
 #: includes/class-settings.php:330
 msgid "Compact"
-msgstr "Храангуй"
+msgstr "Хураангуй"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
-msgstr "Худалдаж авах холбоосын өнгө"
+msgstr "Худалдан авах холбоосын өнгө"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
@@ -253,7 +253,7 @@ msgstr "«Боломжтой» өнгө"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "“Шалгах боломжгүй” өнгө"
+msgstr "«Шалгах боломжгүй» өнгө"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -261,11 +261,11 @@ msgstr "Алдааны өнгө"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
-msgstr "Булан бөөрөнхийлөлт"
+msgstr "Булангийн дугуйралт"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "Мөр бүрийн доторх зай"
+msgstr "Мөр тус бүрийн доторх зай"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -273,15 +273,15 @@ msgstr "Текстийн хэмжээ"
 
 #: includes/class-settings.php:377
 msgid "Domain-name weight"
-msgstr "Домэйн нэрний жин"
+msgstr "Домэйн нэрийн жин"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "Борлуулагчийн API түлхүүр одоогоор байхгүй байна."
+msgstr "Борлуулагчийн API түлхүүр хараахан алга байна."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Домайн хайлт аль хэдийн түлхүүргүйгээр, нийтэд зарласан үнээр ажиллаж байна. Хяналтын самбарын холбоос болон WooCommerce хангамжид түлхүүр шаардлагатай: Zinn® хяналтын самбарын Developer → API keys хэсгээс нэгийг үүсгэнэ үү."
+msgstr "Домэйн хайлт нь түлхүүргүйгээр нийтийн үнээр хэдийн ажиллаж байгаа. Самбарын холбоос болон WooCommerce тохиргоонд түлхүүр шаардлагатай: Zinn® хяналтын самбарынхаа Developer → API keys хэсэгт түлхүүр үүсгэнэ үү."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
@@ -289,11 +289,11 @@ msgstr "Миний Zinn® хяналтын самбарыг нээх"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "Tүлхүүр тохируулагдсан боловч юу ч асаагүй байна."
+msgstr "Түлхүүр тохируулсан боловч юу ч асаагаагүй байна."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "Гурван боломжийн аль нь ч идэвхжээгүй байгаа тул энэ залгаас таны сайт дээр ямар ч ажиллагаа явуулахгүй байна. \"Боломжууд\" хэсгээс шаардлагатай зүйлээ асаана уу."
+msgstr "Гурван боломжийн аль нь ч идэвхжээгүй тул энэ нэмэлт өргөтгөл таны сайт дээр юу ч хийхгүй байна. Боломжууд хэсгээс шаардлагатай зүйлээ асаана уу."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -304,12 +304,12 @@ msgstr "Боломжуудыг нээх"
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
-msgstr[0] "Бэлэн — %d функц асаалттай байна."
-msgstr[1] "Бэлэн — %d боломж идэвхжсэн."
+msgstr[0] "Бэлэн — %d боломж идэвхжсэн."
+msgstr[1] "Бэлэн — %d функцийг идэвхжүүлсэн."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
-msgstr "Дараахаас борлуулах"
+msgstr "Борлуулах байршил"
 
 #: includes/class-settings.php:471
 msgid "Settings"
@@ -317,37 +317,37 @@ msgstr "Тохиргоо"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "API түлхүүр байхгүй тул юу ч холбогдоогүй байна."
+msgstr "Одоогоор API түлхүүр байхгүй тул юу ч холбогдоогүй байна."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
-msgstr "Холбогдоогүй байна: %s"
+msgstr "Холбогдоогүй: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
 #: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr "Холбогдсон. Таны борлуулагчийн хөтөлбөр бол %s."
+msgstr "Холбогдлоо. Таны борлуулагчийн хөтөлбөр бол %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Zinn® API түлхүүр тохируулаагүй байгаа тул ямар нэгэн зүйл бэлтгэгдсэнгүй."
+msgstr "Zinn® API түлхүүр тохируулаагүй тул юу ч бэлтгэгдсэнгүй."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "Энэ захиалгад домэйн нэр багтаагүй байсан тул тохируулах зүйл байгаагүй болно."
+msgstr "Энэхүү захиалгад домэйн нэр ороогүй тул бэлтгэн тохируулах зүйл байсангүй."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
-msgstr "Хостинг платформ сайт буцаасангүй."
+msgstr "Хостинг платформ ямар ч сайт буцаасангүй."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "%1$s (үйлчилгээ %2$s)-д зориулан бэлтгэсэн Zinn® хостинг."
+msgstr "%1$s-д зориулсан Zinn® хостинг бэлтгэгдсэн (үйлчилгээ %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
@@ -357,7 +357,7 @@ msgstr "Хостинг платформ үйлчлүүлэгчийн бүртг�
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Zinn® хостинг үүсгэгдсэнгүй: %s"
+msgstr "Zinn® хостинг бэлтгэгдсэнгүй: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
@@ -365,7 +365,7 @@ msgstr "Zinn® бүтээгдэхүүний шугам"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "Энэ бүтээгдэхүүнийг худалдаж авахад үүсгэх Zinn® бүтээгдэхүүний шугам. Залгаасны тохиргоон дахь үндсэн утгыг ашиглахын тулд хоосон үлдээнэ үү."
+msgstr "Энэ бүтээгдэхүүнийг худалдаж авахад олгох Zinn® бүтээгдэхүүний шугам. Залгаасын тохиргооны үндсэн утгыг ашиглахын тулд хоосон үлдээнэ үү."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
@@ -377,11 +377,11 @@ msgstr "Үйлчилгээний ID"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "Энэ захиалгад ямар нэгэн зүйл бэлтгэгдээгүй байна."
+msgstr "Энэ захиалгад зориулж юу ч бэлтгээгүй байна."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Хaдгалагдлаа. Үүнийг солихын тулд шинэ утга оруулна уу."
+msgstr "Хадгалагдсан. Үүнийг солихын тулд шинэ утга бичнэ үү."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
@@ -393,7 +393,7 @@ msgstr "Энэ жагсаалтыг шүүх"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Энэ шүүлтүүрт тохирох зүйл алга."
+msgstr "Энэ шүүлтүүрт тохирох зүйл олдсонгүй."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
@@ -401,7 +401,7 @@ msgstr "Мөр нэмэх"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Энэ мөр устгах"
+msgstr "Энэ мөрийг устгах"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
@@ -423,15 +423,15 @@ msgstr "Тойм"
 
 #: includes/class-zinn-reseller-admin-ui.php:383
 msgid "Copied"
-msgstr "Хуулбарлагдлаа"
+msgstr "Хуулсан"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Энэ сайт дээрх Zinn® залгаас бүр болон тэдгээр нь хэрхэн ажиллаж байгаа байдал."
+msgstr "Энэ сайт дээрх Zinn® нэмэлт өргөтгөл бүр болон түүний ажиллаж байгаа эсэх."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "Энэ плагин нь холболт шаардлагагүй."
+msgstr "Энэ залгаасанд ямар ч холболт шаардлагагүй."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -440,11 +440,11 @@ msgstr "Тохиргоог нээх"
 #: includes/class-zinn-reseller-admin-ui.php:770
 #: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "Та эдгээр тохиргоог өөрчлөх эрхгүй байна."
+msgstr "Танд эдгээр тохиргоог өөрчлөх зөвшөөрөл байхгүй байна."
 
 #: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
-msgstr "Торгох хэсгүүд"
+msgstr "Тохиргооны хэсгүүд"
 
 #: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
@@ -460,19 +460,19 @@ msgstr "Хэрэгслүүд"
 
 #: includes/class-zinn-reseller-admin-ui.php:973
 msgid "Export settings"
-msgstr "Тохиргоог экспортолох"
+msgstr "Тохиргоог экспортлох"
 
 #: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Анхадагч утгад шинэчлэх"
+msgstr "Анхдагч тохиргоонд шилжүүлэх"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Энэ нь энэ залгаасны бүх тохиргоог анхны утгад нь буцаана. Үргэлжлүүлэх үү?"
+msgstr "Энэ нь уг залгаасын бүх тохиргоог анхны төлөвт нь буцаана. Үргэлжлүүлэх үү?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "Дэмжлэг авах оношилгоо"
+msgstr "Дэмжлэгт зориулсан оношилгоо"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
@@ -480,23 +480,23 @@ msgstr "Тохиргооны файл импортлох"
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
-msgstr "Иfport"
+msgstr "Импортлох"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Экспортлогдсон файлуудад нууц үг, токен эсвэл API түлхүүр огт агуулагддаггүй бөгөөд та шинэ сайт дээр тэдгээрийг дахин оруулах шаардлагатай болно."
+msgstr "Экспортлосон файлууд нууц үг, токен эсвэл API түлхүүрүүдийг хэзээ ч агуулдаггүй — та эдгээрийг шинэ сайт дээр дахин оруулах шаардлагатай болно."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
-msgstr "Тохиргоог хадчихав."
+msgstr "Тохиргоо хадгалагдлаа."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "Энэ залгаасын бүх тохиргоо анхны утгартаа буцаж орлоо."
+msgstr "Энэ залгаасын бүх тохиргоо үндсэн төлөвтөө буцсан байна."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
-msgstr "Дууслаа."
+msgstr "Бэлэн боллоо."
 
 #: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
@@ -504,29 +504,29 @@ msgstr "Энэ үйлдэл боломжгүй байна."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Тэр файлыг унших боломжгүй байв. Zinn® нэмэлт өргөтгөлөөс экспортолсон тохиргооны файлыг сонгоно уу."
+msgstr "Тэр файлыг уншиж чадсангүй. Zinn® залгаасаас экспорт хийсэн тохиргооны файлыг сонгоно уу."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "Энэ файл нь тохиргооны экспорт байхад хэтэрхий том байна."
+msgstr "Тэр файл тохиргооны экспорт байхад хэтэрхий том байна."
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "Энэ файл нь Zinn® тохиргооны экспорт биш байна."
+msgstr "Тэр файл нь Zinn® тохиргооны экспорт биш байна."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Энэ файлийг өөр залгаасаас (%s) экспортолсон тул энд импортлох нь энэ залгаас ойлгохгүй тохиргоонуудыг хадгалах болно."
+msgstr "Энэ файлыг өөр залгаасаас (%s) экспортолсон тул энд импортлох нь энэ залгаасын ойлгохгүй тохиргоог хадгалах болно."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d тохиргоо импортлогдлоо. Нууц үг болон API түлхүүрүүд экспортлогддоггүй тул тэдгээрийг дахин оруулна уу."
-msgstr[1] "%d тохиргоог импортолсон. Нууц үг болон API түлхүүрүүд экспортод хэзээ ч ордоггүй тул тэдгээрийг дахин оруулна уу."
+msgstr[0] "%d тохиргоо импортлогдлоо. Нууц үг болон API түлхүүрүүд экспортод хэзээ ч багтдаггүй тул тэдгээрийг дахин оруулна уу."
+msgstr[1] "%d тохиргоо импортлогдлоо. Нууц үг болон API түлхүүрүүд экспортод хэзээ ч багтдаггүй тул тэдгээрийг дахин оруулна уу."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -538,7 +538,7 @@ msgstr "Холбогдож байна…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "Холбогдсон, гэхдээ зарим зүйлийг анхаарах шаардлагатай байна"
+msgstr "Холбогдсон боловч анхаарах шаардлагатай зүйл байна"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -546,15 +546,15 @@ msgstr "Холбогдоогүй"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "Өөрийнхөө дансаар ажиллаж байна"
+msgstr "Таны өөрийн бүртгэл дээр ажиллаж байна"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "Үүнийг шалгах боломжгүй байна"
+msgstr "Бид үүнийг шалгаж чадсангүй"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Энэ залгаас яагаад гэдгээ хэлсэнгүй. Оношилгооны тайлан илгээвэл бид шалгаж үзэх болно."
+msgstr "Энэ залгаас шалтгааныг нь хэлээгүй байна. Оношилгооны тайланг илгээнэ үү, бид шалгаж үзье."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -564,19 +564,19 @@ msgstr "Холболтын төлөв"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Сүүлчийн шалгалт %s жилийн өмнө."
+msgstr "Сүүлд шалгасан: %s өмнө."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(шинэ таб дээр нээгдэнэ)"
+msgstr "(шинэ цонхонд нээгдэнэ)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Zinn® дэмжлэг рүү илгээх"
+msgstr "Үүнийг Zinn®-ийн дэмжлэг рүү илгээнэ үү"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Энэ бол яг яригдаж, илгээгдэх зүйл юм — өөр юу ч байхгүй, нууц зүйл байхгүй. Үүнд таны нууц үг, токен болон API түлхүүрүүд ороогүй болно."
+msgstr "Яг үүнийг илгээх болно — өөр юу ч байхгүй бөгөөд нуугдмал зүйл үгүй. Таны нууц үг, токен болон API түлхүүрүүд үүнд байхгүй."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -584,52 +584,52 @@ msgstr "Илгээгдэх оношилгооны тайлан"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "Санах ойд хуулах"
+msgstr "Түр санах ойд хуулах"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Энэ тайланг Zinn® дэмжлэг үйлчилгээ рүү илгээх"
+msgstr "Энэ тайланг Zinn® тусламжийн албанд илгээнэ үү"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Бид танд тусламжийн хүсэлт үүсгэж, цахим шуудангаар хариу өгөх болно. Хэрэв та үүнийг илгээхийг хүсэхгүй байгаа бол дээрх текстийг хуулж аваад өөрөө тусламжийн хүсэлт болгон буулгаж болно."
+msgstr "Бид танд тусламжийн хүсэлт нээж, имэйлээр хариулах болно. Хэрэв та үүнийг илгээхийг хүсэхгүй байгаа бол дээрээс хуулж аваад өөрөө хүсэлтэд буулгана уу."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Энэ серверээс (%s) Zinn Digital® руу хандаж чадсангүй. Дээрх тайланг хуулж аваад, оронд нь хүсэлт нээнэ үү — таны тохиргоонд ямар нэгэн алдаа байхгүй."
+msgstr "Энэ серверээс (%s) Zinn Digital®-тэй холбогдож чадсангүй. Дээрх тайланг хуулж, оронд нь тусламжийн хүсэлт нээнэ үү — таны тохиргоонд ямар ч алдаа байхгүй."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Zinn®-ийн тусламж үйлчилгээ таны тайланг хүлээн авсан бөгөөд цахим шуудангаар хариу өгөх болно."
+msgstr "Илгээсэн. Zinn® тусламжийн баг таны тайланг хүлээн авсан бөгөөд цахим шуудангаар хариу өгөх болно."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Илгээсэн. Zinn® дэмжлэгийн баг таны мэдээллийг хүлээж авлаа — лавлагаа %s — мөн имэйлээр хариу өгөх болно."
+msgstr "Илгээгдсэн. Zinn®-ийн дэмжлэг таны тайланг хүлээн авсан — лавлагаа %s — бөгөөд имэйлээр хариулах болно."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Та богино хугацаанд хэд хэдэн тайлан илгээсэн байна. Хэдэн минут хүлээнэ үү, өмнө нь илгээсэн тайлангууд ирсэн байгаа."
+msgstr "Та богино хугацаанд хэд хэдэн тайлан илгээсэн байна. Хэдэн минут хүлээгээд дахин оролдоно уу — өмнөх тайлангууд хүрсэн байна."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® тайланг яг одоо хүлээж авч чадсангүй — энэ нь таны талд биш, манай талд гарсан асуудал юм. Хэсэг хугацааны дараа дахин оролдох эсвэл дээрх тайланг хуулж тасалбар болгон илгээнэ үү."
+msgstr "Zinn Digital® одоогоор тайланг хүлээн авч чадсангүй — энэ нь бидний талын асуудал бөгөөд танаас шалтгаалаагүй. Түр хүлээгээд дахин оролдоно уу, эсвэл дээрх тайланг тикет рүү хуулна уу."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Тайланг татгалзсан (HTTP %d). Үүнийг дээр хуулж аваад уг дугаарыг дурдан тасалбар нээнэ үү."
+msgstr "Тайлангаас татгалзсан (HTTP %d). Дээрээс нь хуулж, энэ дугаарыг дурдан тасалбар нээнэ үү."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — гарын авлага болон үйлчилгээ"
+msgstr "%s — гарын авлага болон үйлчилгээнүүд"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
@@ -639,7 +639,7 @@ msgstr "Хэрэглэгчийн гарын авлага"
 #: includes/class-zinn-reseller-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "%s хэрэглэгчийн гарын авлагыг унших"
+msgstr "%s хэрэглэгчийн гарын авлагыг уншина уу"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
@@ -647,11 +647,11 @@ msgstr "Үүнийг нуух"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "WordPress-эд зориулсан Zinn® хостинг"
+msgstr "WordPress-д зориулсан Zinn® хостинг"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, өдөр тутмын нөөц хуулбар, үнэ төлбөргүй шилжүүлэг болон нэгээс олон сайт ажиллуулдаг хүмүүст зориулж бүтээсэн хяналтын самбар."
+msgstr "LiteSpeed, өдөр тутмын нөөцлөлт, үнэгүй шилжүүлэг болон нэгээс олон сайт ажиллуулдаг хүмүүст зориулан бүтээсэн удирдлагын самбар."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
@@ -659,155 +659,155 @@ msgstr "Zinn® зах зээл"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Байгуулсан сайтууд, домэйн болон холбоос байршуулалтыг худалдаж авч, худалдаж, хоёр тал сэтгэл хангалуун болтол мөнгийг найдвартай хадгална."
+msgstr "Хоёр тал сэтгэл хангалуун байх хүртэл мөнгийг найдвартай хадгалан, үйл ажиллагаа нь жигдэрсэн сайтууд, домэйнууд болон холбоос байршуулалтыг худалдаж авч, зарна уу."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — үүнийг амьдралаа болгосон мэргэжилтнүүдийг хөлслөөрэй"
+msgstr "Zinn Hub® — үүнийг мэргэжлийн түвшинд хийдэг хүмүүсийг ажилд авна уу"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Манай дэлхийн хэмжээний фрилансерын зах зээл: зохиолч, дизайнер, хөгжүүлэгч болон SEO мэргэжилтнүүдийн 10,000 гаруй бэлэн үйлчилгээнээс сонгох эсвэл төслөө байршуулж санал аваарай."
+msgstr "Манай дэлхийн чөлөөт уран бүтээлчдийн зах зээл: зохиолчид, дизайнерууд, хөгжүүлэгчид болон SEO мэргэжилтнүүдийн бэлэн 10,000 гаруй үйлчилгээтэй танилцах, эсвэл төсөл нийтэлж санал ирүүлэх боломжийг олгоорой."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "Загварын урьдчилсан тохиргоо"
+msgstr "Загварын тохируулга"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Эeхлэх цэг. Үүнээс доошхи бүх зүйл үүнийг хүчингүй болгоно."
+msgstr "Эхлэх цэг. Доорх бүх зүйл үүнийг дарж бичнэ."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "Миний өөрийн өнгө, хэмжээг ашиглах"
+msgstr "Өөрийн өнгө болон хэмжээг ашиглах"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Үүнийг унтраалттай орхивол урьдчилан тохируулсан утга яг байгаагаараа ашиглагдана."
+msgstr "Үүнийг унтраалттай үлдээвэл урьдчилан тохируулгыг яг байгаагаар нь ашиглана."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Zinn Digital® хувилбарын тэмдэглэлийг үзнэ үү."
+msgstr "Zinn Digital® хувилбарын тэмдэглэлийг харна уу."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Zinn® шинэчлэлийн үйлчилгээ энэ шинэчлэлд зориулж татаж авах холбоос гаргаж өгсөнгүй. Энэ сайт Zinn® платформд холбогдож чадаж байгаа эсэхийг шалгаад дахин оролдоно уу."
+msgstr "Zinn® шинэчлэлийн үйлчилгээ энэ шинэчлэлтэд зориулсан татах холбоосыг олгосонгүй. Энэ сайт Zinn® платформ руу хандаж чадаж байгаа эсэхийг шалгаад, дахин оролдоно уу."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Шинэчлэлтийг Zinn® шинэчлэлтийн үйлчилгээнээс (%s) татаж авч чадсангүй. Хэдэн минутын дараа дахин оролдоно уу."
+msgstr "Шинэчлэлийг Zinn®-ийн шинэчлэлийн үйлчилгээнээс (%s) татаж авч чадсангүй. Хэдэн минутын дараа дахин оролдоно уу."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Татаж авсан шинэчлэлтийн бүрэн бүтэн байдлын шалгалт амжилтгүй болж, суулгасангүй."
+msgstr "Татаж авсан шинэчлэлтийн бүрэн бүтэн байдлыг шалгах явцад алдаа гарсан тул суулгасангүй."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "Үйлдлийг гүйцэтгэх боломжгүй байна. Дахин оролдоно уу, хэрэв алдаа гарсаар байвал сайтын администратортой холбогдоно уу."
+msgstr "Үйлдлийг дуусгах боломжгүй байв. Дахин оролдоно уу, хэрэв алдаа гарсаар байвал сайтын админтай холбогдоно уу."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "Шаардлагатай утга дутуу эсвэл буруу форматтай байна. Үйлдлийн оролтын схемээ шалгана уу."
+msgstr "Шаардлагатай утга дутуу эсвэл буруу хэлбэртэй байна. Чадварын оролтын бүдүүвчийг (input schema) шалгана уу."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
-msgstr "Энэ сайт хүсэлтийг зөвшөөрсөнгүй."
+msgstr "Сайт хүсэлтээс татгалзлаа."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Claude, Cursor эсвэл VS Code зэрэг хиймэл оюун ухааны туслахуудад MCP (Model Context Protocol)-оор дамжуулан энэ сайт дээр таны өмнөөс ажиллах боломжийг олгогтун. Тэд аппликейшний нууц үг ашиглан WordPress хэрэглэгчийн хувиар нэвтрэх бөгөөд зөвхөн тухайн хэрэглэгчийн зөвшөөрөгдсөн үйлдлийг л хийх боломжтой."
+msgstr "Claude, Cursor эсвэл VS Code зэрэг AI туслахуудад MCP (Model Context Protocol)-оор дамжуулан энэ сайт дээр таны өмнөөс ажиллахыг зөвшөөрнө үү. Тэд аппликейшний нууц үгээр WordPress хэрэглэгчээр нэвтэрч, зөвхөн тухайн хэрэглэгчид зөвшөөрөгдсөн зүйлсийг хийх боломжтой байдаг."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "AI агентүүдэд WordPress 6.9 буюу түүнээс хойших хувилбар шаардлагатай. Тэдгээрийг ашиглахын тулд WordPress-ээ шинэчлэнэ үү."
-
-#: includes/mcp-kit/class-server.php:232
-msgid "Connection address (MCP endpoint)"
-msgstr "Холболтын хаяг (MCP төгсгөлийн цэг)"
-
-#: includes/mcp-kit/class-server.php:235
-msgid "Create an application password for your user"
-msgstr "Хэрэглэгчийнхээ аппликейшний нууц үгийг үүсгэх"
+msgstr "Хиймэл оюуны агентуудад WordPress 6.9 буюу түүнээс хойших хувилбар шаардлагатай. Тэдгээрийг ашиглахын тулд WordPress-ийг шинэчилнэ үү."
 
 #: includes/mcp-kit/class-server.php:236
-msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "Үүнийг өөрийн хэрэглэгчийн нэр болон уг нууц үгийн хамт өөрийн AI аппын MCP тохиргоонд нэмнэ үү:"
+msgid "Connection address (MCP endpoint)"
+msgstr "Холболтын хаяг (MCP эцсийн цэг)"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:239
+msgid "Create an application password for your user"
+msgstr "Хэрэглэгчдээ зориулж аппликэйшний нууц үг үүсгэнэ үү"
+
+#: includes/mcp-kit/class-server.php:240
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Үүнийг өөрийн хэрэглэгчийн нэр болон тэрхүү нууц үгийн хамт AI аппынхаа MCP тохиргоонд нэмнэ үү:"
+
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: мөн адил утгыг \"mcpServers\" дор биш, .vscode/mcp.json файл дахь \"servers\" дор оруулна уу."
+msgstr "VS Code: ижил бичилтийг .vscode/mcp.json файлын \"mcpServers\" дор биш, \"servers\" дор оруулна уу."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "Энэнд хиймэл оюун ухааны агент ашиглах боломжтой хэрэгслүүд (%d):"
+msgstr "Хиймэл оюун ухааны агент энд ашиглаж болох хэрэгслүүд (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
-msgstr "Хэрэглэгчийн гарын авлага: Хиймэл оюун ухааны агентууд болон MCP"
+msgstr "Хэрэглэгчийн гарын авлага: AI агентууд ба MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Хөгжүүлэгчийн баримт бичиг: чадварууд, REST ба MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "Zinn Digital® дээрх энэ сайтаас хостинг үйлчлүүлэгчид, тэдгээрийн төлөвлөгөө болон сайтуудыг удирдах боломжтой."
+msgstr "Энэ сайтаас Zinn Digital® дээрх өөрийн хостинг үйлчлүүлэгчид, тэдний багц болон сайтуудыг удирдаарай."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "Таны үйлчлүүлэгчид, тэдгээрийн төлөвлөгөө болон сайтууд таны Zinn Digital® борлуулагчийн эрхтэй дансаар дамжина."
+msgstr "Таны Zinn Digital® дахин борлуулагчийн эрхээр дамжуулан таны үйлчлүүлэгчид, тэдний багцууд болон тэдний сайтууд."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "Реселлер дансаа унших"
+msgstr "Борлуулагчийн бүртгэлээ унших"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Борлуулагчийн дансны мэдээллийг нэг дор буюу брэнд, багцууд, үйлчлүүлэгчид болон үйлчилгээний тоо, мөн тохируулсан зүйлсийг буцаана."
+msgstr "Таны дахин борлуулагчийн бүртгэлийг нэг дор буцаана: брэнд, багцууд, харилцагчид болон үйлчилгээнүүдийн тоо, мөн юу тохируулагдсан болох."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "Үйлчлүүлэгчдийн жагсаалт харуулах"
+msgstr "Харилцагчдаа жагсаах"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "Таны үйлчлүүлэгчийн дансны жагсаалтыг хуудас хуудсаар нь харуулна (курсор, хязгаар)."
+msgstr "Таны харилцагчийн бүртгэлүүдийг нэг удаад нэг хуудсаар жагсаана (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
-msgstr "Үйлчлүүлэгч үүсгэх"
+msgstr "Харилцагч үүсгэх"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Таны дор үйлчлүүлэгчийн бүртгэл үүсгэх (нэр; default_currency, гурван үсэгтэй код). Анхны сайтынх нь өмнө тэднийг багцад холбоно уу."
+msgstr "Таны бүртгэлийн доор харилцагчийн бүртгэл үүсгэнэ (name; default_currency, гурван үсэгт код). Тэдний анхны сайтаас өмнө тэднийг багцад хамруулна уу."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
-msgstr "Үйлчлүүлэгчийн төлөвлөгөөг унших"
+msgstr "Харилцагчийн багцыг харах"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "Үйлчлүүлэгчийн ямар төлөвлөгөө ашиглаж байгаа болон танд ямар үнэтэй тусаж байгааг буцаана (client_id)."
+msgstr "Үйлчлүүлэгч аль багцыг ашиглаж байгаа болон энэ нь танд ямар өртөгтэй болохыг буцаана (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "Үйлчлүүлэгчийг төлөвлөгөөнд оруулах"
+msgstr "Харилцагчид багц оноох"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "Үйлчлүүлэгчийг таны төлөвлөгөөний нэгэнд оруулах (client_id, plan_code; interval: month эсвэл year). Үүнийг тэдний анхны сайтын өмнө хийнэ үү."
+msgstr "Харилцагчийг таны төлөвлөгөөнүүдийн нэгэнд онооно (client_id, plan_code; interval: month эсвэл year). Үүнийг тэдний анхны сайтаас өмнө хийнэ үү."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
-msgstr "Зарах боломжтой багцуудаа жагсаано уу"
+msgstr "Борлуулах боломжтой багцуудын жагсаалт"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "Хостинг төлөвлөгөө болон тэдгээрийн үнийг жагсаана (product_line болон currency нарийсгана)."
+msgstr "Хостинг төлөвлөгөөнүүд болон тэдгээрийн үнийг жагсаана (product_line болон currency үүнийг нарийвчилна)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
@@ -815,7 +815,7 @@ msgstr "Харилцагчдынхаа сайтуудыг жагсаах"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Үйлчлүүлэгчдэдээ бэлтгэж өгсөн бүх зүйлийг (client_id болон status нь хүрээг нарийсгана) хуудас бүрээр жагсаана."
+msgstr "Харилцагчдадаа зориулан бэлтгэсэн бүх зүйлийг (client_id болон status нь үүнийг хумьж нарийсгана) нэг удаад нэг хуудсаар жагсаана."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
@@ -823,7 +823,7 @@ msgstr "Үйлчлүүлэгчид зориулж сайт үүсгэх"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Таны үйлчлүүлэгчдийн нэгэнд зориулж байршуулсан сайт үүсгэдэг (client_id, product_line, primary_domain). Энэ нь таны дэлгүүрээс үйлчлүүлэгчийн төлөвлөгөөний дагуу таны дансанд тооцогдоно."
+msgstr "Таны харилцагчдын нэгд зориулсан байршуулсан сайтыг үүсгэнэ (client_id, product_line, primary_domain). Үүнийг таны дэлгүүрээс авсан мэт харилцагчийн багцын дагуу таны дансанд нэхэмжилнэ."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
@@ -831,32 +831,32 @@ msgstr "Үйлчлүүлэгчийн сайтыг түдгэлзүүлэх"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "Үйлчлүүлэгчийн сайтыг төлбөр төлөөгүй гэсэн шалтгаанаар царцаана (site_id; шалтгаан: таны өөрийн тэмдэглэл, үйлчлүүлэгчид хэзээ ч харагдахгүй). Сайтын түдгэлзүүлэлтийг цуцлах хүртэл сайтын ажиллагаа зогсоно."
+msgstr "Харилцагчийн сайтыг төлбөр төлөгдөөгүй түр зогсолтод оруулна (site_id; reason: Танд зориулсан тэмдэглэл, харилцагчид хэзээ ч харагдахгүй). Түр зогсолтыг цуцлах хүртэл сайт ажиллахаа болино."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "Үйлчлүүлэгчийн сайтын түгжээг тайлах"
+msgstr "Харилцагчийн сайтын түдгэлзүүлэлтийг цуцлах"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "Төлбөр төлөөгүйгээс үүссэн хаалтыг цуцалж, сайтыг дахин ажиллах боломжтой болгоно (site_id)."
+msgstr "Төлбөр төлөөгүйн улмаас тавьсан хязгаарлалтыг цуцалснаар сайт дахин ажиллах болно (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "Reseller Toolkit тохиргоог унших"
+msgstr "Reseller Toolkit-ийн тохиргоог унших"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "Энэ залгаасын тохиргоог буцаана (API хаяг, шинэ захиалга ашигладаг төлөвлөгөө, ямар функцууд идэвхтэй байгаа). API түлхүүрийг хэзээ ч буцаахгүй бөгөөд зөвхөн хадгалагдсан эсэхийг л харуулна."
+msgstr "Энэ залгаасын тохиргоог (API хаяг, шинэ захиалгуудад ашиглагдах багц, ямар боломжууд идэвхжсэн эсэхийг) буцаана. API түлхүүр хэзээ ч буцаагдахгүй, зөвхөн хадгалагдсан эсэх нь л буцаагдана."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "Борлуулагчийн хэрэгслийн багцын тохиргоог өөрчлөх"
+msgstr "Reseller Toolkit тохиргоог өөрчлөх"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "Таны илгээсэн тохиргоог (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) өөрчилж, бусдыг нь хэвээр үлдээнэ. API түлхүүр болон хаяг нь зөвхөн дэлгэц дээр өөрчлөгдөнө."
+msgstr "Таны илгээсэн тохиргоог (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) өөрчилж, үлдсэнийг нь хэвээр үлдээнэ. API түлхүүр болон хаяг нь зөвхөн дэлгэц дээр өөрчлөгдөнө."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "Эчатку Борлуулагчийн хэрэгслүүдийн дэлгэц дээр өөрийн Zinn Digital® борлуулагчийн API түлхүүрээ эхлээд нэмнэ үү."
+msgstr "Эхлээд Reseller Toolkit дэлгэц дээр өөрийн Zinn Digital® борлуулагчийн API түлхүүрийг нэмнэ үү."

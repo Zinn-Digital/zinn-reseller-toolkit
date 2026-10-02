@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Bán dịch vụ lưu trữ Zinn Digital® từ chính trang web WordPress của bạn — lưu trữ WordPress, WooCommerce, đại lý, đại lý bán lại, đám mây và VPS. Tìm kiếm và cung cấp tên miền từ tài khoản đại lý của bạn, đăng nhập trực tiếp cho khách hàng vào bảng điều khiển lưu trữ của họ và tự động cung cấp dịch vụ lưu trữ khi đơn hàng WooCommerce được thanh toán."
+msgstr "Bán dịch vụ lưu trữ Zinn Digital® ngay từ trang web WordPress của quý vị — dịch vụ lưu trữ WordPress, WooCommerce, đại lý, đại lý bán lại (reseller), đám mây và VPS. Tìm kiếm và cung cấp tên miền từ tài khoản đại lý bán lại của quý vị, đăng nhập khách hàng trực tiếp vào bảng điều khiển lưu trữ của họ, và tự động kích hoạt dịch vụ lưu trữ khi đơn hàng WooCommerce được thanh toán."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -54,27 +54,27 @@ msgstr "Không có tiện ích mở rộng nào được kiểm tra cho tên đ�
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "Tìm kiếm tên miền hiện không khả dụng trên trang web này."
+msgstr "Tính năng tìm kiếm tên miền hiện không khả dụng trên trang web này vào lúc này."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "Chúng tôi hiện không thể kết nối với cơ quan đăng ký tên miền. Vui lòng thử lại sau giây lát."
+msgstr "Chúng tôi không thể kết nối với cơ quan quản lý tên miền vào lúc này. Vui lòng thử lại sau giây lát."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "Khóa API bị thiếu hoặc không còn hợp lệ. Hãy kiểm tra lại trong mục Zinn Digital® → Reseller Toolkit."
+msgstr "Khóa API bị thiếu hoặc không còn hợp lệ. Vui lòng kiểm tra lại trong Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "Khóa API này không có quyền sites.view mà tính năng tìm kiếm tên miền yêu cầu. Hãy thêm quyền này vào khóa trong bảng điều khiển đại lý của bạn hoặc xóa khóa tại đây để chuyển về tính năng tìm kiếm công khai."
+msgstr "Khóa API này không có quyền sites.view mà tính năng tìm kiếm tên miền cần. Hãy thêm quyền này vào khóa trong bảng điều khiển đại lý của bạn, hoặc xóa khóa tại đây để quay lại tìm kiếm công khai."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
-msgstr "Chỉ quản trị viên mới thấy điều này:"
+msgstr "Chỉ quản trị viên mới nhìn thấy mục này:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "Chúng tôi không thể kiểm tra mục này — vui lòng thử lại"
+msgstr "Chúng tôi không thể kiểm tra mục này — hãy thử lại"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
@@ -82,21 +82,21 @@ msgstr "Đã đăng ký"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "Có sẵn — hãy liên hệ với chúng tôi để biết giá"
+msgstr "Có sẵn — liên hệ để biết giá"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr "Có sẵn — %1$s %2$s cho năm đầu tiên"
+msgstr "Khả dụng — %1$s %2$s cho năm đầu tiên"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
-msgstr "Đăng ký"
+msgstr "Đăng ký ngay"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
-msgstr "Quản lý lưu trữ của tôi"
+msgstr "Quản lý dịch vụ lưu trữ của tôi"
 
 #: includes/class-panel-link.php:87
 msgid "Please sign in first."
@@ -104,16 +104,16 @@ msgstr "Vui lòng đăng nhập trước."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "Tài khoản này chưa được liên kết với một dịch vụ lưu trữ nào."
+msgstr "Tài khoản này chưa được liên kết với dịch vụ lưu trữ nào."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "Nền tảng lưu trữ không trả về liên kết đăng nhập."
+msgstr "Nền tảng lưu trữ đã không trả về liên kết đăng nhập."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "Bộ công cụ Đại lý"
+msgstr "Bộ công cụ cho đại lý"
 
 #: includes/class-settings.php:127
 msgid "Account"
@@ -125,23 +125,23 @@ msgstr "Tính năng"
 
 #: includes/class-settings.php:135
 msgid "Styling"
-msgstr "Giao diện"
+msgstr "Định kiểu"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
-msgstr "Tác tử AI (MCP)"
+msgstr "Tác nhân AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
-msgstr "Cho phép tác nhân AI (MCP)"
+msgstr "Cho phép tác tử AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "Tắt: các công cụ dưới đây và các tuyến đường REST của chúng không được đăng ký hoàn toàn."
+msgstr "Tắt: các công cụ bên dưới và các tuyến REST của chúng hoàn toàn không được đăng ký."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
@@ -149,23 +149,23 @@ msgstr "Tài khoản đại lý Zinn Digital® của bạn"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Tạo khóa API đại lý trong bảng điều khiển Zinn® của bạn tại phần Nhà phát triển → Khóa API, sau đó dán khóa đó vào đây."
+msgstr "Tạo khóa API đại lý trong bảng điều khiển Zinn® của bạn trong mục Nhà phát triển → Khóa API, rồi dán vào đây."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
-msgstr "Khóa API của đại lý lại"
+msgstr "Khóa API đại lý"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "Chỉ được lưu giữ trên trang web này và không bao giờ được đưa vào bản xuất hoặc báo cáo chẩn đoán."
+msgstr "Chỉ được lưu trữ trên trang web này và không bao giờ được đưa vào tệp xuất dữ liệu hoặc báo cáo chẩn đoán."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "Gói cần cung cấp"
+msgstr "Gói cần khởi tạo"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "Mã gói dịch vụ mà khách hàng mới được đăng ký. Để trống để được hỏi mỗi lần."
+msgstr "Mã gói dịch vụ áp dụng cho khách hàng mới. Để trống để được hỏi mỗi lần."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "Địa chỉ API"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Hãy để nguyên mục này trừ khi bộ phận hỗ trợ của Zinn® yêu cầu bạn thay đổi."
+msgstr "Hãy để nguyên cài đặt này trừ khi bộ phận hỗ trợ của Zinn® yêu cầu bạn thay đổi."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,7 +181,7 @@ msgstr "Địa chỉ bảng điều khiển"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Nơi liên kết “Hosting của tôi” dẫn khách hàng của bạn đến."
+msgstr "Nơi liên kết \"Dịch vụ lưu trữ của tôi\" điều hướng khách hàng của bạn đến."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -193,43 +193,43 @@ msgstr "Cung cấp mã ngắn [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Đặt mã ngắn này trên bất kỳ trang nào để cho phép khách truy cập kiểm tra tên miền và mua thông qua bạn."
+msgstr "Đặt shortcode vào bất kỳ trang nào để cho phép khách truy cập kiểm tra miền và mua miền đó thông qua bạn."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
-msgstr "Liên kết Bảng điều khiển"
+msgstr "Liên kết bảng điều khiển"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "Hiển thị liên kết “Hosting của tôi” cho khách hàng đã đăng nhập"
+msgstr "Hiển thị liên kết \"Dịch vụ lưu trữ của tôi\" cho khách hàng đã đăng nhập"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "Triển khai WooCommerce"
+msgstr "Cấp phát WooCommerce"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "Tự động cung cấp dịch vụ lưu trữ khi một đơn hàng WooCommerce hoàn tất"
+msgstr "Tự động cấp phát dịch vụ lưu trữ khi đơn hàng WooCommerce hoàn tất"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "Chỉ có hiệu lực đối với các đơn hàng có chứa sản phẩm bạn đã liên kết với gói Zinn®."
+msgstr "Chỉ có hiệu lực đối với các đơn hàng có chứa sản phẩm mà bạn đã liên kết với gói Zinn®."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
-msgstr "Hiển thị tìm kiếm tên miền"
+msgstr "Giao diện tìm kiếm tên miền"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "Tiện ích này hiển thị bên trong chủ đề của riêng bạn. Hãy chọn một cài đặt sẵn hoặc tự đặt màu sắc của riêng bạn — dù bằng cách nào thì không có gì được thêm vào trang của bạn mà khách truy cập có thể thấy là của chúng tôi."
+msgstr "Tiện ích này hiển thị bên trong giao diện của riêng bạn. Hãy chọn một cài đặt sẵn hoặc tự đặt màu sắc của riêng bạn — dù bằng cách nào, sẽ không có gì được thêm vào các trang của bạn mà khách truy cập có thể nhận thấy là của chúng tôi."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "Mọi lớp mà tiện ích sử dụng đều được liệt kê trong tệp readme của plugin, nhờ đó nhà phát triển có thể ghi đè bất kỳ điều gì mà một cấu hình sẵn có không bao phủ."
+msgstr "Mọi lớp mà tiện ích sử dụng đều được liệt kê trong tệp readme của tiện ích mở rộng, do đó nhà phát triển có thể ghi đè bất kỳ nội dung nào mà cài đặt sẵn không bao gồm."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
-msgstr "Theo chủ đề của tôi"
+msgstr "Theo giao diện của tôi"
 
 #: includes/class-settings.php:298
 msgid "Soft"
@@ -249,11 +249,11 @@ msgstr "Màu liên kết mua hàng"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "Màu sắc “Có sẵn”"
+msgstr "Màu cho \"Khả dụng\""
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "Màu \"Không thể kiểm tra\""
+msgstr "Màu của \"Không thể kiểm tra\""
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -265,11 +265,11 @@ msgstr "Bo góc"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "Khoảng cách bên trong mỗi hàng"
+msgstr "Khoảng trống bên trong mỗi hàng"
 
 #: includes/class-settings.php:373
 msgid "Text size"
-msgstr "Kích thước văn bản"
+msgstr "Cỡ chữ"
 
 #: includes/class-settings.php:377
 msgid "Domain-name weight"
@@ -277,11 +277,11 @@ msgstr "Trọng số tên miền"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "Chưa có khóa API đại lý."
+msgstr "Chưa có khóa API của đại lý bán lại."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Tìm kiếm tên miền đã hoạt động mà không cần khóa, với mức giá công khai. Liên kết bảng điều khiển và việc cấp phép WooCommerce cần có khóa: hãy tạo một khóa trong bảng điều khiển Zinn® của bạn tại mục Nhà phát triển → Khóa API."
+msgstr "Tính năng tìm kiếm tên miền đã hoạt động mà không cần khóa theo mức giá công khai. Liên kết bảng điều khiển và việc cấp phép WooCommerce cần có khóa: hãy tạo một khóa trong trang tổng quan Zinn® của bạn tại mục Nhà phát triển → Khóa API."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
@@ -289,11 +289,11 @@ msgstr "Mở bảng điều khiển Zinn® của tôi"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "Khóa đã được bật, nhưng không có gì được bật lên."
+msgstr "Một khóa đã được thiết lập, nhưng không có gì được bật."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "Không có tính năng nào trong ba tính năng được bật, vì vậy plugin này không hoạt động trên trang web của quý vị. Vui lòng bật các tính năng cần thiết trong mục Tính năng."
+msgstr "Không có tính năng nào trong số ba tính năng được bật, vì vậy plugin này không làm gì trên trang web của bạn. Bật những gì bạn cần trong mục Tính năng."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -308,7 +308,7 @@ msgstr[0] "Sẵn sàng — đã bật %d tính năng."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
-msgstr "Đang bán từ"
+msgstr "Bán từ"
 
 #: includes/class-settings.php:471
 msgid "Settings"
@@ -316,7 +316,7 @@ msgstr "Cài đặt"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "Chưa có khóa API nên chưa kết nối gì cả."
+msgstr "Chưa có khóa API, vì vậy chưa có gì được kết nối."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
@@ -332,11 +332,11 @@ msgstr "Đã kết nối. Chương trình đại lý của bạn là %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Chưa có khóa API Zinn® nào được định cấu hình, vì vậy không có gì được cung cấp."
+msgstr "Chưa có khóa API Zinn® nào được định cấu hình, vì vậy không có gì được cấp phép."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "Đơn hàng này không bao gồm tên miền, vì vậy không có gì để cấp phát."
+msgstr "Đơn hàng này không bao gồm tên miền, vì vậy không có gì để khởi tạo."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
@@ -346,7 +346,7 @@ msgstr "Nền tảng lưu trữ không trả về trang web nào."
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "Dịch vụ lưu trữ Zinn® đã được cung cấp cho %1$s (dịch vụ %2$s)."
+msgstr "Dịch vụ lưu trữ Zinn® đã được phân bổ cho %1$s (dịch vụ %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
@@ -356,7 +356,7 @@ msgstr "Nền tảng lưu trữ không trả về tài khoản khách hàng."
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Việc lưu trữ của Zinn® đã KHÔNG được cung cấp: %s"
+msgstr "Dịch vụ lưu trữ Zinn® ĐÃ KHÔNG được cấp phát: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
@@ -364,7 +364,7 @@ msgstr "Dòng sản phẩm Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "Dòng sản phẩm Zinn® sẽ được cung cấp khi mua sản phẩm này. Để trống để sử dụng mặc định từ cài đặt của plugin."
+msgstr "Dòng sản phẩm Zinn® sẽ được cung cấp khi sản phẩm này được mua. Để trống để sử dụng giá trị mặc định từ cài đặt plugin."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
@@ -372,15 +372,15 @@ msgstr "Lưu trữ Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
-msgstr "Mã dịch vụ"
+msgstr "ID dịch vụ"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "Không có dịch vụ nào được cung cấp cho đơn hàng này."
+msgstr "Không có gì được cấp phát cho đơn hàng này."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Đã lưu. Nhập giá trị mới để thay thế."
+msgstr "Đã lưu. Hãy nhập giá trị mới để thay thế."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
@@ -392,7 +392,7 @@ msgstr "Lọc danh sách này"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Không có mục nào khớp với bộ lọc đó."
+msgstr "Không có kết quả khớp với bộ lọc đó."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
@@ -426,11 +426,11 @@ msgstr "Đã sao chép"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Mọi plugin Zinn® trên trang web này, và trạng thái hoạt động của chúng."
+msgstr "Mọi plugin Zinn® trên trang này và liệu nó có đang hoạt động hay không."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "Không cần kết nối internet cho plugin này."
+msgstr "Không cần kết nối cho plugin này."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -463,15 +463,15 @@ msgstr "Xuất cài đặt"
 
 #: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Đặt lại mặc định"
+msgstr "Đặt lại về mặc định"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Thao tác này sẽ đưa mọi cài đặt của plugin này về trạng thái mặc định. Tiếp tục?"
+msgstr "Thao tác này sẽ đưa mọi cài đặt của plugin này về mặc định. Tiếp tục?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "Chẩn đoán cho hỗ trợ"
+msgstr "Chẩn đoán hỗ trợ"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
@@ -483,7 +483,7 @@ msgstr "Nhập"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Các tệp đã xuất không bao giờ chứa mật khẩu, mã thông báo hoặc khóa API — bạn sẽ cần nhập lại các thông tin đó trên trang web mới."
+msgstr "Các tệp đã xuất không bao giờ chứa mật khẩu, mã thông báo hoặc khóa API — bạn sẽ cần phải nhập lại chúng trên trang web mới."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -491,7 +491,7 @@ msgstr "Đã lưu cài đặt."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "Mọi cài đặt trên plugin này đã được khôi phục về mặc định."
+msgstr "Mọi cài đặt trên plugin này đã trở về mặc định."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
@@ -499,15 +499,15 @@ msgstr "Đã xong."
 
 #: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
-msgstr "Thao tác đó không khả dụng."
+msgstr "Hành động đó không khả dụng."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Không thể đọc được tệp đó. Hãy chọn một tệp cài đặt đã được xuất từ plugin Zinn®."
+msgstr "Không thể đọc tệp đó. Hãy chọn một tệp cài đặt được xuất từ tiện ích mở rộng Zinn®."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "Tệp đó quá lớn để có thể là tệp xuất cài đặt."
+msgstr "Tập tin đó quá lớn để có thể là bản xuất cài đặt."
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
@@ -517,14 +517,14 @@ msgstr "Tệp đó không phải là bản xuất cài đặt Zinn®."
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Tệp đó được xuất từ một plugin khác (%s), vì vậy việc nhập tệp vào đây sẽ lưu trữ các cài đặt mà plugin này không hiểu."
+msgstr "Tệp đó đã được xuất từ một plugin khác (%s), vì vậy việc nhập tệp vào đây sẽ lưu các cài đặt mà plugin này không hiểu."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "Đã nhập %d cài đặt. Mật khẩu và khóa API không bao giờ có trong tệp xuất, vì vậy vui lòng nhập lại các thông tin đó."
+msgstr[0] "Đã nhập %d cài đặt. Mật khẩu và khóa API không bao giờ có trong tệp xuất, vì vậy vui lòng nhập lại."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -536,7 +536,7 @@ msgstr "Đang kết nối…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "Đã kết nối, nhưng có vấn đề cần chú ý"
+msgstr "Đã kết nối nhưng có vấn đề cần chú ý"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -544,15 +544,15 @@ msgstr "Chưa kết nối"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "Đang chạy trên tài khoản của riêng bạn"
+msgstr "Đang chạy trên tài khoản của chính bạn"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "Chúng tôi không thể kiểm tra việc này"
+msgstr "Chúng tôi không thể kiểm tra mục này"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Plugin này không nêu rõ lý do. Hãy gửi báo cáo chẩn đoán và chúng tôi sẽ xem xét."
+msgstr "Plugin này đã không cho biết lý do. Hãy gửi báo cáo chẩn đoán và chúng tôi sẽ xem xét."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -562,7 +562,7 @@ msgstr "Trạng thái kết nối"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Đã kiểm tra lần cuối từ %s trước."
+msgstr "Kiểm tra lần cuối cách đây %s."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
@@ -570,19 +570,19 @@ msgstr "(mở trong tab mới)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Gửi thông tin này đến bộ phận hỗ trợ của Zinn®"
+msgstr "Gửi thông tin này cho bộ phận hỗ trợ của Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Đây chính xác là những gì sẽ được gửi đi — không có gì khác, và không có gì bị ẩn giấu. Mật khẩu, mã thông báo và khóa API của bạn không nằm trong đó."
+msgstr "Đây chính xác là những gì sẽ được gửi — không có gì khác và không có gì bị ẩn. Mật khẩu, mã thông báo và khóa API của bạn không có trong đó."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "Báo cáo chuẩn đoán sẽ được gửi"
+msgstr "Báo cáo chẩn đoán sẽ được gửi"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "Sao chép vào bảng nhớ tạm"
+msgstr "Sao chép vào khay nhớ tạm"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
@@ -590,37 +590,37 @@ msgstr "Gửi báo cáo này đến bộ phận hỗ trợ của Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Chúng tôi tạo một phiếu hỗ trợ cho bạn và trả lời qua email. Nếu bạn không muốn gửi phiếu này, hãy sao chép nội dung trên và tự dán vào phiếu hỗ trợ."
+msgstr "Chúng tôi mở phiếu hỗ trợ cho bạn và phản hồi qua email. Nếu bạn không muốn gửi, hãy sao chép nội dung ở trên và tự dán vào phiếu hỗ trợ."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Chúng tôi không thể kết nối với Zinn Digital® từ máy chủ này (%s). Hãy sao chép báo cáo ở trên và mở một phiếu hỗ trợ thay thế — không có cài đặt nào của bạn bị sai cả."
+msgstr "Chúng tôi không thể kết nối tới Zinn Digital® từ máy chủ này (%s). Hãy sao chép báo cáo ở trên và mở một phiếu yêu cầu — cài đặt của bạn hoàn toàn không có lỗi gì."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Bộ phận hỗ trợ của Zinn® đã nhận được báo cáo của bạn và sẽ phản hồi qua email."
+msgstr "Đã gửi. Bộ phận hỗ trợ của Zinn® đã nhận được báo cáo của bạn và sẽ phản hồi qua email."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Hỗ trợ của Zinn® đã nhận được báo cáo của bạn — mã tham chiếu %s — và sẽ phản hồi qua email."
+msgstr "Đã gửi. Bộ phận hỗ trợ của Zinn® đã nhận được báo cáo của bạn — mã tham chiếu %s — và sẽ phản hồi qua email."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Bạn đã gửi nhiều báo cáo trong một thời gian ngắn. Vui lòng đợi vài phút rồi thử lại — những báo cáo trước đã được gửi đi."
+msgstr "Bạn đã gửi nhiều báo cáo trong một thời gian ngắn. Vui lòng đợi vài phút rồi thử lại — các báo cáo trước đó đã được chuyển đến."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® chưa thể tiếp nhận báo cáo lúc này — sự cố xuất phát từ hệ thống của chúng tôi, không phải từ bạn. Vui lòng thử lại sau giây lát hoặc sao chép báo cáo trên vào một phiếu hỗ trợ."
+msgstr "Zinn Digital® hiện không thể chấp nhận báo cáo — lỗi là do phía chúng tôi, không phải do bạn. Vui lòng thử lại sau ít phút hoặc sao chép báo cáo ở trên vào yêu cầu hỗ trợ."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Báo cáo đã bị từ chối (HTTP %d). Hãy sao chép báo cáo ở trên và mở một phiếu hỗ trợ, kèm theo số đó."
+msgstr "Báo cáo đã bị từ chối (HTTP %d). Hãy sao chép nó ở trên và mở yêu cầu hỗ trợ, kèm theo số đó."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
@@ -645,11 +645,11 @@ msgstr "Ẩn mục này"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Lưu trữ Zinn® cho WordPress"
+msgstr "Dịch vụ lưu trữ Zinn® cho WordPress"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, sao lưu hàng ngày, di chuyển miễn phí và bảng điều khiển được thiết kế dành cho những người vận hành nhiều hơn một trang web."
+msgstr "LiteSpeed, sao lưu hàng ngày, chuyển dữ liệu miễn phí và bảng điều khiển được thiết kế cho những người quản lý nhiều trang web."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
@@ -657,7 +657,7 @@ msgstr "Thị trường Zinn®"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Mua và bán các trang web, tên miền và vị trí đặt liên kết đã có sẵn, với khoản tiền được giữ an toàn cho đến khi cả hai bên đều hài lòng."
+msgstr "Mua và bán các trang web đã phát triển, tên miền và vị trí đặt liên kết, với tiền được giữ an toàn cho đến khi cả hai bên đều hài lòng."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
@@ -665,15 +665,15 @@ msgstr "Zinn Hub® — thuê những người làm công việc này để kiế
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Thị trường tự do toàn cầu của chúng tôi: duyệt qua hơn 10.000 dịch vụ có sẵn từ các nhà văn, nhà thiết kế, lập trình viên và chuyên gia SEO, hoặc đăng dự án và để họ đấu giá."
+msgstr "Thị trường làm việc tự do toàn cầu của chúng tôi: khám phá hơn 10.000 dịch vụ có sẵn từ các cây viết, nhà thiết kế, lập trình viên và chuyên gia SEO, hoặc đăng dự án và để họ đấu thầu."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "Mẫu kiểu dáng"
+msgstr "Cài đặt sẵn kiểu"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Một điểm khởi đầu. Mọi thứ bên dưới sẽ ghi đè lên nó."
+msgstr "Một điểm bắt đầu. Mọi thứ bên dưới sẽ ghi đè lên nó."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -681,79 +681,79 @@ msgstr "Sử dụng màu sắc và kích thước của riêng tôi"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Tắt tùy chọn này và mẫu cài sẵn sẽ được sử dụng chính xác như nguyên bản."
+msgstr "Hãy tắt tùy chọn này và thiết lập sẵn sẽ được sử dụng nguyên trạng."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Xem ghi chú phát hành Zinn Digital®."
+msgstr "Xem ghi chú phát hành của Zinn Digital®."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Dịch vụ cập nhật Zinn® không cung cấp liên kết tải xuống cho bản cập nhật này. Hãy kiểm tra xem trang web này có thể kết nối với nền tảng Zinn® hay không, sau đó thử lại."
+msgstr "Dịch vụ cập nhật Zinn® đã không cung cấp liên kết tải xuống cho bản cập nhật này. Hãy kiểm tra xem trang web này có thể kết nối tới nền tảng Zinn® hay không, sau đó thử lại."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Không thể tải bản cập nhật xuống từ dịch vụ cập nhật Zinn® (%s). Vui lòng thử lại sau vài phút."
+msgstr "Không thể tải bản cập nhật từ dịch vụ cập nhật Zinn® (%s). Vui lòng thử lại sau vài phút."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Bản cập nhật đã tải xuống không vượt qua được kiểm tra tính toàn vẹn và không được cài đặt."
+msgstr "Bản cập nhật đã tải xuống không vượt qua được bước kiểm tra tính toàn vẹn và chưa được cài đặt."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "Không thể hoàn thành thao tác. Vui lòng thử lại, và nếu vẫn tiếp tục thất bại, hãy liên hệ với quản trị viên trang web."
+msgstr "Không thể hoàn thành tác vụ. Hãy thử lại, và nếu vẫn thất bại, hãy liên hệ với quản trị viên trang web."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "Giá trị bắt buộc bị thiếu hoặc có định dạng sai. Vui lòng kiểm tra lược đồ đầu vào của tính năng."
+msgstr "Một giá trị bắt buộc bị thiếu hoặc có định dạng sai. Vui lòng kiểm tra lược đồ đầu vào (input schema) của khả năng."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
 msgstr "Trang web đã từ chối yêu cầu."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Cho phép các trợ lý AI như Claude, Cursor hoặc VS Code làm việc trên trang web này cho bạn thông qua MCP (Model Context Protocol). Chúng đăng nhập với tư cách là một người dùng WordPress bằng mật khẩu ứng dụng và chỉ có thể thực hiện những gì người dùng đó được phép làm."
+msgstr "Cho phép các trợ lý AI như Claude, Cursor hoặc VS Code làm việc trên trang web này cho bạn thông qua MCP (Model Context Protocol). Họ đăng nhập với tư cách là người dùng WordPress bằng mật khẩu ứng dụng và chỉ có thể làm những gì người dùng đó được phép làm."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "Các tác nhân AI cần WordPress 6.9 trở lên. Hãy cập nhật WordPress để sử dụng chúng."
+msgstr "Các tác nhân AI yêu cầu WordPress 6.9 trở lên. Hãy cập nhật WordPress để sử dụng chúng."
 
-#: includes/mcp-kit/class-server.php:232
+#: includes/mcp-kit/class-server.php:236
 msgid "Connection address (MCP endpoint)"
-msgstr "Địa chỉ kết nối (Điểm cuối MCP)"
+msgstr "Địa chỉ kết nối (điểm cuối MCP)"
 
-#: includes/mcp-kit/class-server.php:235
+#: includes/mcp-kit/class-server.php:239
 msgid "Create an application password for your user"
 msgstr "Tạo mật khẩu ứng dụng cho người dùng của bạn"
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:240
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "Thêm nội dung này vào cài đặt MCP của ứng dụng AI của bạn, cùng với tên người dùng và mật khẩu đó:"
+msgstr "Thêm nội dung này vào cài đặt MCP của ứng dụng AI với tên người dùng và mật khẩu đó:"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: đặt cùng mục nhập đó dưới \"servers\" trong .vscode/mcp.json, chứ không phải dưới \"mcpServers\"."
+msgstr "VS Code: đặt cùng mục nhập dưới \"servers\" trong .vscode/mcp.json, không phải dưới \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "Các công cụ một tác nhân AI có thể sử dụng ở đây (%d):"
+msgstr "Các công cụ mà một tác nhân AI có thể sử dụng ở đây (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
-msgstr "Hướng dẫn sử dụng: Tác nhân AI và MCP"
+msgstr "Hướng dẫn sử dụng: Đại lý AI và MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
-msgstr "Tài liệu dành cho nhà phát triển: tính năng, REST và MCP"
+msgstr "Tài liệu cho nhà phát triển: khả năng, REST và MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "Quản lý khách hàng lưu trữ web, các gói dịch vụ và trang web của họ trên Zinn Digital® từ trang này."
+msgstr "Quản lý khách hàng lưu trữ, các gói dịch vụ và trang web của họ trên Zinn Digital® từ trang web này."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
@@ -765,39 +765,39 @@ msgstr "Đọc tài khoản đại lý của bạn"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Hiển thị toàn bộ tài khoản đại lý của bạn trong một lần đọc: thương hiệu, các gói, số lượng khách hàng và dịch vụ, cùng với các mục đã thiết lập."
+msgstr "Trả về tài khoản đại lý của bạn trong một lần đọc: thương hiệu, các gói, số lượng khách hàng và dịch vụ, cùng những gì đã được thiết lập."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "Liệt kê khách hàng"
+msgstr "Liệt kê khách hàng của bạn"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "Liệt kê tài khoản khách hàng của bạn, từng trang một (con trỏ, giới hạn)."
+msgstr "Liệt kê các tài khoản khách hàng của bạn, mỗi lần một trang (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
-msgstr "Tạo khách hàng"
+msgstr "Tạo máy khách"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Tạo một tài khoản khách hàng dưới tài khoản của bạn (name; default_currency, mã gồm ba chữ cái). Đưa họ vào một gói dịch vụ trước trang web đầu tiên của họ."
+msgstr "Tạo một tài khoản khách hàng dưới tài khoản của bạn (name; default_currency, mã gồm ba chữ cái). Hãy chỉ định gói cho họ trước khi tạo trang web đầu tiên."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
-msgstr "Xem gói dịch vụ của khách hàng"
+msgstr "Đọc gói của khách hàng"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "Trả về gói dịch vụ mà khách hàng đang sử dụng và chi phí cho bạn (client_id)."
+msgstr "Trả về gói dịch vụ mà khách hàng đang sử dụng và chi phí mà bạn phải chịu (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "Đưa một khách hàng vào một gói dịch vụ"
+msgstr "Gán gói cho khách hàng"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "Đưa một khách hàng vào một trong các gói dịch vụ của bạn (client_id, plan_code; chu kỳ: tháng hoặc năm). Hãy thực hiện việc này trước trang web đầu tiên của họ."
+msgstr "Gán một khách hàng vào một trong các gói của bạn (client_id, plan_code; interval: month hoặc year). Hãy thực hiện việc này trước trang web đầu tiên của họ."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
@@ -805,15 +805,15 @@ msgstr "Liệt kê các gói bạn có thể bán"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "Liệt kê các gói lưu trữ và giá của chúng (product_line và currency thu hẹp phạm vi)."
+msgstr "Liệt kê các gói lưu trữ và giá của chúng (product_line và currency dùng để thu hẹp phạm vi)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
-msgstr "Liệt kê các trang web của khách hàng"
+msgstr "Liệt kê các trang web của khách hàng của bạn"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Liệt kê mọi thứ bạn đã cung cấp cho khách hàng của mình (client_id và status giúp thu hẹp phạm vi), từng trang một."
+msgstr "Liệt kê mọi thứ bạn đã cấp phép cho khách hàng của mình (client_id và status giúp thu hẹp phạm vi), mỗi lần một trang."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
@@ -821,7 +821,7 @@ msgstr "Tạo một trang web cho khách hàng"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Tạo một trang web được lưu trữ cho một trong các khách hàng của bạn (client_id, product_line, primary_domain). Dịch vụ này được tính phí vào tài khoản của bạn theo gói của khách hàng, từ cửa hàng của bạn."
+msgstr "Tạo một trang web được lưu trữ cho một trong những khách hàng của bạn (client_id, product_line, primary_domain). Phí được tính vào tài khoản của bạn theo gói của khách hàng, như từ cửa hàng của bạn."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
@@ -829,32 +829,32 @@ msgstr "Tạm ngưng trang web của khách hàng"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "Đưa trang web của khách hàng vào trạng thái tạm giữ do không thanh toán (site_id; lý do: ghi chú của riêng bạn, không bao giờ hiển thị cho khách hàng). Trang web ngừng hoạt động cho đến khi được bỏ tạm ngưng."
+msgstr "Đưa trang web của khách hàng vào trạng thái tạm ngưng do chưa thanh toán (site_id; lý do: ghi chú riêng của bạn, không bao giờ hiển thị cho khách hàng). Trang web sẽ ngừng hoạt động cho đến khi được mở lại."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "Mở khóa trang web của khách hàng"
+msgstr "Bỏ tạm ngưng trang web của khách hàng"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "Gỡ bỏ tạm giữ do không thanh toán, để trang web hoạt động trở lại (site_id)."
+msgstr "Gỡ bỏ lệnh tạm ngưng do chưa thanh toán, để trang web hoạt động trở lại (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "Đọc cài đặt Bộ công cụ Đại lý"
+msgstr "Đọc cài đặt Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "Trả về cài đặt của plugin này (địa chỉ API, gói cước mà đơn hàng mới sử dụng, các tính năng đang bật). Khóa API không bao giờ được trả về, chỉ có thông tin liệu có khóa nào được lưu hay không."
+msgstr "Trả về cài đặt của plugin này (địa chỉ API, gói mà các đơn hàng mới sử dụng, các tính năng nào đang được bật). Khóa API không bao giờ được trả về, chỉ cho biết liệu đã có khóa được lưu hay chưa."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "Thay đổi cài đặt Bộ công cụ Đại lý"
+msgstr "Thay đổi cài đặt Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "Thay đổi các thiết lập bạn gửi (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) và giữ nguyên các thiết lập còn lại. Khóa API và địa chỉ chỉ được thay đổi trên màn hình."
+msgstr "Thay đổi các cài đặt bạn gửi (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) và giữ nguyên các cài đặt còn lại. Khóa API và địa chỉ chỉ được thay đổi trên màn hình."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "Thêm khóa API đại lý Zinn Digital® của bạn trên màn hình Bộ công cụ đại lý trước."
+msgstr "Trước tiên hãy thêm khóa API đại lý Zinn Digital® của bạn trên màn hình Reseller Toolkit."

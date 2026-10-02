@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Uza mwenyeji wa Zinn Digital® kutoka tovuti yako mwenyeji ya WordPress — WordPress, WooCommerce, wakala, muuzaji upya, mwenyeji wa wingu na VPS. Tafuta na utoe vikoa kutoka kwa akaunti yako ya muuzaji upya, ingiza wateja wako moja kwa moja kwenye kidirisha chako cha mwenyeji, na uandae mwenyeji kiotomatiki wakati agizo la WooCommerce limelipwa."
+msgstr "Uza huduma ya upangishaji ya Zinn Digital® kutoka kwenye tovuti yako mwenyewe ya WordPress — upangishaji wa WordPress, WooCommerce, wakala, muuzaji tena, wingu na VPS. Tafuta na utoe vikoa kutoka kwenye akaunti yako ya muuzaji tena, waingize wateja wako moja kwa moja kwenye paneli yao ya upangishaji, na uandae upangishaji kiotomatiki wakati agizo la WooCommerce linapolipiwa."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,11 +38,11 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "Jukwaa la mwenyeji limeshughulikia na hali %d."
+msgstr "Jukwaa la upangishaji lilijibu kwa hali ya %d."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
-msgstr "Tafuta jina lako la kikoa"
+msgstr "Tafuta jina la kikoa chako"
 
 #: includes/class-domain-search.php:75
 msgid "Search"
@@ -50,23 +50,23 @@ msgstr "Tafuta"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "Hakuna viongezeo vilivyoteuliwa kwa jina hilo."
+msgstr "Hakuna viendelezi vilivyochunguzwa kwa jina hilo."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "Utafutaji wa vikoa haupatikani kwenye tovuti hii kwa sasa."
+msgstr "Utafutaji wa kikoa haupatikani kwenye tovuti hii kwa sasa."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "Hatukuweza kufikia sajili ya kikoa kwa sasa. Tafadhali jaribu tena baada ya muda mfupi."
+msgstr "Hatujaweza kufikia sajili ya kikoa sasa hivi. Tafadhali jaribu tena baada ya muda mfupi."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "Ufunguo wa API haupo au hauna aibu tena. Ukague chini ya Zinn Digital® → Reseller Toolkit."
+msgstr "Ufunguo wa API haupo au si sahihi tena. Ukague chini ya Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "Ufunguo huu wa API hauna ruhusa ya sites.view ambayo utafutaji wa vikoa unahitaji. Uongeze kwenye ufunguo katika paneli yako ya wauzaji reja reja, ili kufuta ufunguo hapa ili urejee kwenye utafutaji wa umma."
+msgstr "Ufunguo huu wa API hauna ruhusa ya sites.view, ambayo inahitajika na utafutaji wa kikoa. Yaongeze kwenye ufunguo katika paneli yako ya muuzaji, au ufute ufunguo hapa ili kurudi kwenye utafutaji wa umma."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
@@ -74,7 +74,7 @@ msgstr "Wasimamizi pekee ndio wanaoona hili:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "Hatukuweza kukagua hii — jaribu tena"
+msgstr "Hatuwezi kuangalia hii — jaribu tena"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
@@ -82,7 +82,7 @@ msgstr "Imesajiliwa tayari"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "Inapatikana — tuulize bei"
+msgstr "Inapatikana — tuulize kuhusu bei"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
@@ -92,11 +92,11 @@ msgstr "Inapatikana — %1$s %2$s kwa mwaka wa kwanza"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
-msgstr "Jisajili"
+msgstr "Isajili"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
-msgstr "Simamia mwenyeji wangu"
+msgstr "Dhibiti upangishaji wangu"
 
 #: includes/class-panel-link.php:87
 msgid "Please sign in first."
@@ -104,16 +104,16 @@ msgstr "Tafadhali ingia kwanza."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "Akaunti hii haijaunganishwa na huduma ya mwenyeji bado."
+msgstr "Akaunti hii bado haijaunganishwa na huduma ya upangishaji."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "Jukwaa la uenyeji halikurejesha kiungo cha kuingia."
+msgstr "Jukwaa la upangishaji halikurudisha kiungo cha kuingia."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "Zana za Wauzaji Upya"
+msgstr "Zana za Muuzaji Mkuu"
 
 #: includes/class-settings.php:127
 msgid "Account"
@@ -129,43 +129,43 @@ msgstr "Mtindo"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
 msgstr "Mawakala wa AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
 msgstr "Ruhusu mawakala wa AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "Imezimwa: zana zifuatazo na njia zao za REST hazijasajiliwa kabisa."
+msgstr "Imezimwa: zana zilizo hapa chini na njia zao za REST hazijasajiliwa kabisa."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
-msgstr "Akaunti yako ya muuzaji upya ya Zinn Digital®"
+msgstr "Akaunti yako ya muuzaji wa Zinn Digital®"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Tengeneza kitufe cha API cha muuzaji upya katika dashibodi yako ya Zinn® chini ya Developer → API keys, kisha ukabandike hapa."
+msgstr "Unda ufunguo wa API wa muuzaji katika dashibodi yako ya Zinn® chini ya Msanidi Programu → Vifunguo vya API, na ubandike hapa."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
-msgstr "Ufunguo wa API ya muuzaji reja reja"
+msgstr "Ufunguo wa API wa muuzaji"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "Imewekwa kwenye tovuti hii pekee, na haijajumuishwa kamwe katika usafirishwaji au ripoti ya utambuzi."
+msgstr "Inahifadhiwa kwenye tovuti hii pekee, na haijumuishwi kamwe kwenye uhamishaji wa data au ripoti ya uchunguzi."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "Mpango wa kutoa rasilimali"
+msgstr "Mpango wa kutoa"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "Nambari ya mpango ambayo wateja wapya wanawekwa kwenye. Acha wazi ili kuulizwa kila wakati."
+msgstr "Msimbo wa mpango ambao wateja wapya wanapewa. Acha wazi ili kuulizwa kila wakati."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,15 +173,15 @@ msgstr "Anwani ya API"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Acha hili bila kubadilishwa isipokuwa kama msaada wa Zinn® umekuomba ukibadilishe."
+msgstr "Acha hii jinsi ilivyo isipokuwa usaidizi wa Zinn® umekuomba uibadilishe."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
-msgstr "Anwani ya jopo la kudhibiti"
+msgstr "Anwani ya jopo la udhibiti"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Mahali ambapo kiungo cha “Huduma yangu ya kukaribisha tovuti” huwapeleka wateja wako."
+msgstr "Mahali ambapo kiungo cha \"Upangishaji wangu\" huwapeleka wateja wako."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -189,11 +189,11 @@ msgstr "Utafutaji wa kikoa"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "Toa nambari fupi ya [zinn_domain_search]"
+msgstr "Weka msimbo mfupi wa [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Weka kodi fupi kwenye ukurasa wowote ili kuruhusu wageni kukagua kikoa na kukinunua kupitia wewe."
+msgstr "Weka msimbo mfupi kwenye ukurasa wowote ili kuwaruhusu wageni kuangalia kikoa na kukinunua kupitia wewe."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -201,7 +201,7 @@ msgstr "Kiungo cha paneli"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "Onyesha kiungo cha “Hosting yangu” kwa wateja walioingia kwenye akaunti"
+msgstr "Onyesha kiungo cha \"Upangishaji wangu\" kwa wateja walioingia"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
@@ -209,11 +209,11 @@ msgstr "Utoaji wa WooCommerce"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "Weka hosting kiotomatiki oda ya WooCommerce inapokamilika"
+msgstr "Andaa upangishaji kiotomatiki agizo la WooCommerce linapokamilika"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "Inaanza kutumika tu kwenye maagizo yaliyo na bidhaa uliyoiweka kwenye mpango wa Zinn®."
+msgstr "Huanza kutumika tu kwa maagizo yaliyo na bidhaa uliyoiunganisha na kifurushi cha Zinn®."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
@@ -221,11 +221,11 @@ msgstr "Muonekano wa utafutaji wa kikoa"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "Wijiti hii inajichora ndani ya mandhari yako mwenyewe. Chagua muundo uliowekwa tayari, au weka rangi zako mwenyewe — kwa vyovyote vile hakuna kinachoongezwa kwenye kurasa zako ambacho mgeni anaweza kukiona kama chetu."
+msgstr "Wijeti hii huonekana ndani ya mandhari yako mwenyewe. Chagua mpangilio wa awali, au weka rangi zako mwenyewe — kwa njia yoyote ile, hakuna kinachoongezwa kwenye kurasa zako ambacho mgeni anaweza kuona kuwa ni chetu."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "Kila darasa linalotumiwa na wijeti limeorodheshwa kwenye faili ya kusoma ya programu-jalizi, ili msanidi programu aweze kubatilisha chochote ambacho usanidi haujakifikia."
+msgstr "Kila tabaka linalotumiwa na wijeti limeorodheshwa katika readme ya programu-jalizi, ili msanidi aweze kubatilisha chochote ambacho seti ya awali haikushughulikia."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
@@ -237,11 +237,11 @@ msgstr "Laini"
 
 #: includes/class-settings.php:314
 msgid "High contrast"
-msgstr "Tofauti kuu"
+msgstr "Utofautishaji wa juu"
 
 #: includes/class-settings.php:330
 msgid "Compact"
-msgstr "Finya"
+msgstr "Bana"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
@@ -249,11 +249,11 @@ msgstr "Rangi ya kiungo cha ununuzi"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "Rangi inayopatikana"
+msgstr "Rangi ya \"Inapatikana\""
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "Rangi ya “Imeshindwa kuangalia”"
+msgstr "Rangi ya \"Haikuweza kuangaliwa\""
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -261,7 +261,7 @@ msgstr "Rangi ya hitilafu"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
-msgstr "Kupunguza pembe"
+msgstr "Mviringo wa pembe"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
@@ -277,11 +277,11 @@ msgstr "Uzito wa jina la kikoa"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "Bado hakuna ufunguo wa API ya wauzaji reja reja."
+msgstr "Bado hakuna ufunguo wa API wa muuzaji tena."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Utafutaji wa vikoa tayari unafanya kazi bila hiyo, kwa bei za umma. Kiungo cha paneli na utoaji wa huduma wa WooCommerce yanahitaji ufunguo: unda mmoja katika dashibodi yako ya Zinn® chini ya Developer → API keys."
+msgstr "Utafutaji wa kikoa tayari unafanya kazi bila ufunguo, kwa bei za umma. Kiungo cha paneli na uandaaji wa WooCommerce unahitaji ufunguo: unda ufunguo kwenye dashibodi yako ya Zinn® chini ya Msanidi Programu → Vifunguo vya API."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
@@ -289,11 +289,11 @@ msgstr "Fungua dashibodi yangu ya Zinn®"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "Ufunguo umewekwa, but hakuna kilichowashwa."
+msgstr "Ufunguo umewekwa, lakini hakuna chochote kilichowashwa."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "Hakuna hata moja kati ya vipengele hivyo vitatu iliyowashwa, kwa hiyo programu jalizi hii haifanyi chochote kwenye tovuti yako. Washa unachohitaji chini ya Vipengele."
+msgstr "Hakuna hata moja ya vipengele vitatu iliyowashwa, kwa hivyo programu-jalizi hii haifanyi chochote kwenye tovuti yako. Washa kile unachohitaji chini ya Vipengele."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -309,7 +309,7 @@ msgstr[1] "Tayari — vipengele %d vimewashwa."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
-msgstr "Inauzwa kutoka"
+msgstr "Inauza kutoka"
 
 #: includes/class-settings.php:471
 msgid "Settings"
@@ -317,7 +317,7 @@ msgstr "Mipangilio"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "Bado hakuna ufunguo wa API, kwa hiyo hakuna kilichounganishwa."
+msgstr "Bado hakuna ufunguo wa API, kwa hivyo hakuna kilichounganishwa."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
@@ -329,47 +329,47 @@ msgstr "Haijaunganishwa: %s"
 #: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr "Imeunganishwa. Programu yako ya wauzaji reja reja ni %s."
+msgstr "Imeunganishwa. Mpango wako wa muuzaji ni %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Hakuna kitufe cha API cha Zinn® kilichosanidiwa, kwa hivyo hakuna kilichotolewa."
+msgstr "Hakuna ufunguo wa API wa Zinn® uliosanidiwa, kwa hivyo hakuna kilichoandaliwa."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "Agizo hili halikujumuisha jina la kikoa, kwa hivyo hakukuwa na cha kusanidi."
+msgstr "Agizo hili halikujumuisha jina la kikoa, kwa hivyo hapakuwa na chochote cha kuandaa."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
-msgstr "Jukwaa la upangishaji halikurejesha tovuti."
+msgstr "Jukwaa la upangishaji halikurudisha tovuti."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "Huduma ya hosting ya Zinn® imetolewa kwa ajili ya %1$s (huduma %2$s)."
+msgstr "Upangishaji wa Zinn® umetolewa kwa ajili ya %1$s (huduma %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
-msgstr "Jukwaa la upangishaji halikurejesha akaunti ya mteja."
+msgstr "Jukwaa la upangishaji halikurudisha akaunti ya mteja."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Uandikishaji wa Zinn® haukuwekwa tayari: %s"
+msgstr "Upangishaji wa Zinn® HAUJATAYARISHWA: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
-msgstr "Safu ya bidhaa ya Zinn®"
+msgstr "Mfululizo wa bidhaa za Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "Safu ya bidhaa ya Zinn® itakayotolewa bidhaa hii inaponunuliwa. Acha wazi ili kutumia chaguo-msingi kutoka kwa mipangilio ya programu jalizi."
+msgstr "Msururu wa bidhaa za Zinn® utakaotolewa bidhaa hii itakaponunuliwa. Acha wazi ili kutumia chaguomsingi kutoka kwa mipangilio ya programu-jalizi."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
-msgstr "Hosting ya Zinn®"
+msgstr "Ukaribishaji wa Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
@@ -377,11 +377,11 @@ msgstr "Kitambulisho cha huduma"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "Hakuna kilichotolewa kwa agizo hili."
+msgstr "Hakuna kilichoandaliwa kwa agizo hili."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Imesohifadhiwa. Andika thamani mpya ili kuichukua nafasi."
+msgstr "Imehifadhiwa. Andika thamani mpya ili kuibadilisha."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
@@ -397,11 +397,11 @@ msgstr "Hakuna kinacholingana na kichujio hicho."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
-msgstr "Ongeza safu"
+msgstr "Ongeza safu mlalo"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Ondoa safu hii"
+msgstr "Ondoa safu mlalo hii"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
@@ -423,11 +423,11 @@ msgstr "Muhtasari"
 
 #: includes/class-zinn-reseller-admin-ui.php:383
 msgid "Copied"
-msgstr "Imenakopwa"
+msgstr "Imenakiliwa"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Kila plagi ya Zinn® kwenye tovuti hii, na ikiwa inafanya kazi."
+msgstr "Kila programu-jalizi ya Zinn® kwenye tovuti hii, na ikiwa inafanya kazi."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
@@ -464,27 +464,27 @@ msgstr "Hamisha mipangilio"
 
 #: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Weka upya kwa chaguo-msingi"
+msgstr "Weka upya kwa chaguomsingi"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Hii inarudisha kila mpangilio kwenye programu-jalizi hii katika hali yake ya awali. Uendelee?"
+msgstr "Hii itarejesha kila mpangilio kwenye programu-jalizi hii hadi kwenye chaguomsingi yake. Je, ungependa kuendelea?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "Uchunguzi wa utatuzi wa usaidizi"
+msgstr "Uchunguzi wa utambuzi kwa ajili ya usaidizi"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Ingiza faili la mipangilio"
+msgstr "Ingiza faili ya mipangilio"
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
-msgstr "Ingiza"
+msgstr "Leta"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Faili zilizohamishwa hazina nywila, tokeni au funguo za API kamwe — utahitaji kuingiza tena kwenye tovuti mpya."
+msgstr "Faili zilizohamishwa hazina manenosiri, tokeni au funguo za API kamwe — utahitaji kuziingiza tena kwenye tovuti mpya."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -492,7 +492,7 @@ msgstr "Mipangilio imehifadhiwa."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "Kila mpangilio kwenye programu-jalizi hii umerudi kwenye hali yake ya kwanza."
+msgstr "Kila mpangilio kwenye programu-jalizi hii umerudishwa kwa chaguomsingi yake."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
@@ -504,29 +504,29 @@ msgstr "Kitendo hicho hakipatikani."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Faili hiyo haikuweza kusomwa. Chochagua faili ya mipangilio iliyosafirishwa kutoka kwa programu jalizi ya Zinn®."
+msgstr "Faili hilo halikuweza kusomwa. Chagua faili la mipangilio lililosafirishwa kutoka kwa programu-jalizi ya Zinn®."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "Faili hiyo ni kubwa mno kuwa usafirishaji wa mipangilio."
+msgstr "Faili hiyo ni kubwa mno kuwa faili ya kuhamisha mipangilio."
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "Faili hilo sio usafirishaji wa mipangilio ya Zinn®."
+msgstr "Faili hiyo si faili la uhamishaji wa mipangilio ya Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Faili hiyo ilisafirishwa kutoka kwa programu-jalizi nyingine (%s), kwa hivyo kuiingiza hapa kutahifadhi mipangilio ambayo programu-jalizi hii haielewi."
+msgstr "Faili hiyo ilihamishwa kutoka kwa programu-jalizi tofauti (%s), kwa hivyo kuiingiza hapa kutahifadhi mipangilio ambayo programu-jalizi hii haielewi."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "Mpangilio %d umeingizwa. Manenosiri na funguo za API haziwahi kuwepo kwenye usafirishaji nje, kwa hiyo ingiza hizo tena."
-msgstr[1] "Mipangilio %d imeletwa. Nywila na funguo za API haziingizwi kamwe kwenye usafirishaji, kwa hivyo weka hizo tena."
+msgstr[0] "Mpangilio %d umeingizwa. Nywila na funguo za API hazijumuishwi kamwe kwenye uhamishaji, kwa hivyo ziweke tena."
+msgstr[1] "Mipangilio %d imeagizwa. Manenosiri na funguo za API hazijumuishwi kwenye uhamishaji kamwe, kwa hivyo ziweke tena."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -538,7 +538,7 @@ msgstr "Inaunganisha…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "Imeunganishwa, lakini kuna jambo linahitaji umakini"
+msgstr "Imeunganishwa, lakini kuna jambo linalohitaji uangalizi"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -546,15 +546,15 @@ msgstr "Haijaunganishwa"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "Inayoendesha kwenye akaunti yako mwenyewe"
+msgstr "Inatumika kwenye akaunti yako mwenyewe"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "Hatukuweza kuangalia hili"
+msgstr "Hatuwezi kuangalia hili"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Programu jalizi hii haikusema kwa nini. Tuma ripoti ya uchunguzi na tutaiangalia."
+msgstr "Programu-jalizi hii haikueleza sababu. Tuma ripoti ya utambuzi na tutaiangalia."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -564,11 +564,11 @@ msgstr "Hali ya muunganisho"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Mara ya mwisho kukaguliwa ilikuwa muda wa %s uliopita."
+msgstr "Ilikaguliwa mara ya mwisho %s zilizopita."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(inafungua kwenye kichupo kipya)"
+msgstr "(hufunguka kwenye kichupo kipya)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
@@ -576,7 +576,7 @@ msgstr "Tuma hii kwa usaidizi wa Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Hivi ndivyo vitakavyotumwa hasa — hakuna kingine, wala chochote kilichofichwa. Nenosiri lako, tokeni na funguo za API hazimo ndani yake."
+msgstr "Hiki ndicho hasa kitakachotumwa — hakuna kingine, na hakuna kilichofichwa. Nywila, tokeni na funguo zako za API hazimo humo."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -584,45 +584,45 @@ msgstr "Ripoti ya uchunguzi itakayotumwa"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "Nakili kwenye ubao klipu"
+msgstr "Nakili kwenye ubao wa kunakili"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Tuma ripoti hii kwa msaada wa Zinn®"
+msgstr "Tuma ripoti hii kwa usaidizi wa Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Tunakufungulia tiketi ya usaidizi na kukujibu kupitia barua pepe. Ikiwa hutaki kuituma, nakili hapo juu na uiweke kwenye tiketi wewe mwenyewe."
+msgstr "Tunakufungulia tikiti ya usaidizi na kujibu kupitia barua pepe. Ikiwa ungependelea kutoituma, inakili hapo juu na uibandike mwenyewe kwenye tikiti."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Hatukuweza kufika Zinn Digital® kutoka kwenye seva hii (%s). Nakili ripoti iliyo hapo juu na ufungue tikiti badala yake — hakuna chochote kuhusu mipangilio yako kilicho kibaya."
+msgstr "Hatuwezi kufikia Zinn Digital® kutoka kwa seva hii (%s). Nakili ripoti iliyo hapo juu na ufungue tiketi badala yake — hakuna kosa lolote kwenye mipangilio yako."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Usaidizi wa Zinn® umepokea ripoti yako na utajibu kupitia barua pepe."
+msgstr "Imetumwa. Usaidizi wa Zinn® umepokea ripoti yako na utajibu kupitia barua pepe."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Usaidizi wa Zinn® una ripoti yako — rejeleo %s — na utajibu kupitia barua pepe."
+msgstr "Imetumwa. Usaidizi wa Zinn® umepokea ripoti yako — kumbukumbu %s — na utajibu kwa barua pepe."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Umetuma ripoti kadhaa kwa muda mfupi. Subiri dakika chache kisha ujaribu tena — zile za awali zimefika."
+msgstr "Umetuma ripoti kadhaa kwa muda mfupi. Subiri dakika chache kisha ujaribu tena — ripoti za awali zilifika."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® haikuweza kupokea ripoti hiyo kwa sasa — hilo ni tatizo letu, si lako. Jaribu tena hivi karibuni, au nakili ripoti iliyo hapo juu kwenye tiketi."
+msgstr "Zinn Digital® haikuweza kukubali ripoti sasa hivi — hilo ni tatizo la upande wetu, si wako. Jaribu tena hivi karibuni, au nakili ripoti iliyo hapo juu kwenye tiketi."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Ripoti imekataliwa (HTTP %d). Iakili hapo juu na ufungue tikiti, ukitaja namba hiyo."
+msgstr "Ripoti imekataliwa (HTTP %d). Inakili hapo juu na ufungue tiketi, ukitaja nambari hiyo."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
@@ -633,7 +633,7 @@ msgstr "%s — miongozo na huduma"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
-msgstr "Miongozo ya watumiaji"
+msgstr "Miongozo ya mtumiaji"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-reseller-promo.php:306
@@ -647,11 +647,11 @@ msgstr "Ficha hii"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Hosting ya Zinn® ya WordPress"
+msgstr "Uhosti wa Zinn® kwa ajili ya WordPress"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, nakala rudufu za kila siku, uhamiaji wa bure na kidhibiti kilichoundwa kwa ajili ya watu wanaoendesha zaidi ya tovuti moja."
+msgstr "LiteSpeed, nakala rudufu za kila siku, uhamishaji wa bila malipo na paneli dhibiti iliyoundwa kwa ajili ya watu wanaoendesha tovuti zaidi ya moja."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
@@ -659,23 +659,23 @@ msgstr "Soko la Zinn®"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Nunua na uuze tovuti, vikoa na nafasi za viungo zilizowekwa tayari, huku pesa zikiwekwa kwa usalama hadi pande zote mbili zitakapofurahi."
+msgstr "Nunua na uuze tovuti zilizothibitishwa, vikoa na upangaji wa viungo, huku pesa zikiwekwa salama hadi pande zote mbili ziridhike."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — ajiri watu ambao wanafanya kazi hii kama njia yao ya maisha"
+msgstr "Zinn Hub® — ajiri watu wanaofanya kazi hii ili kujipatia riziki"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Soko letu la kimataifa la wafanyakazi huru: vinjari huduma zaidi ya 10,000 zilizotengenezwa tayari kutoka kwa waandishi, wabunifu, watengenezaji programu na wataalamu wa SEO, au chapisha mradi na uwaruhusu watoe zabuni."
+msgstr "Soko letu la kimataifa la wataalamu huru: vinjari zaidi ya huduma 10,000 zilizotayarishwa tayari kutoka kwa waandishi, wabunifu, wasanidi programu na wataalamu wa SEO, au chapisha mradi na uwape nafasi ya kutoa zabuni."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "Kielelezo cha mtindo kilichowekwa mapema"
+msgstr "Weka mapema ya mtindo"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Sehemu ya kuanzia. Chochote kilicho hapa chini kinabatilisha hili."
+msgstr "Sehemu ya kuanzia. Chochote kilicho hapa chini kinachukua nafasi yake."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -683,15 +683,15 @@ msgstr "Tumia rangi na saizi zangu mwenyewe"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Wacha hili lisiwashwe na kielelezo kitatumutumiwa jinsi kilivyo."
+msgstr "Acha hii ikiwa imezimwa na mpangilio wa awali utatumika jinsi ulivyo."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Tazama maelezo ya toleo la Zinn Digital®."
+msgstr "Tazama madokezo ya toleo la Zinn Digital®."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Huduma ya usasishaji ya Zinn® haikutoa kiungo cha kupakua kwa sasisho hili. Hakikisha kuwa tovuti hii inaweza kufikia jukwaa la Zinn®, kisha jaribu tena."
+msgstr "Huduma ya kusasisha ya Zinn® haikutoa kiungo cha kupakua kwa sasisho hili. Angalia ikiwa tovuti hii inaweza kufikia jukwaa la Zinn®, kisha ujaribu tena."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
@@ -701,73 +701,73 @@ msgstr "Sasisho halikuweza kupakuliwa kutoka kwa huduma ya sasisho ya Zinn® (%s
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Sasisho lililopakuliwa limeshindwa ukaguzi wa uadilifu na halijasakinishwa."
+msgstr "Sasisho lililopakuliwa limeshindwa kukaguliwa uadilifu wake na halijasakinishwa."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "Kitendo hakikuweza kukamilishwa. Jaribu tena, na ikiwa kitaendelea kushindwa, wasiliana na msimamizi wa tovuti."
+msgstr "Kitendo hakikuweza kukamilika. Jaribu tena, na kikiendelea kushindwa, wasiliana na msimamizi wa tovuti."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "Thamani inayohitajika inakosekana au ina umbizo lisilo sahihi. Angalia mpango wa ingizo wa uwezo huo."
+msgstr "Thamani inayohitajika haipo au ina muundo usio sahihi. Angalia muundo wa ingizo (input schema) wa uwezo huo."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
 msgstr "Tovuti imekataa ombi hilo."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Ruhusu visaidizi vya AI kama vile Claude, Cursor au VS Code vifanyie kazi tovuti hii kupitia MCP (Model Context Protocol). Wanaingia kama mtumiaji wa WordPress aliye na nenosiri la programu na wanaweza kufanya tu kile ambacho mtumiaji huyo anaruhusiwa kufanya."
+msgstr "Ruhusu wasaidizi wa AI kama vile Claude, Cursor au VS Code wakufanyie kazi kwenye tovuti hii kupitia MCP (Model Context Protocol). Wanaingia kama mtumiaji wa WordPress kwa nenosiri la programu na wanaweza tu kufanya kile ambacho mtumiaji huyo anaruhusiwa kufanya."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "Wakala wa AI wanahitaji WordPress 6.9 au matoleo mapya zaidi. Sasisha WordPress ili kuwatumia."
-
-#: includes/mcp-kit/class-server.php:232
-msgid "Connection address (MCP endpoint)"
-msgstr "Anwani ya muunganisho (Sehemu ya mwisho ya MCP)"
-
-#: includes/mcp-kit/class-server.php:235
-msgid "Create an application password for your user"
-msgstr "Undaa nenosiri la programu kwa ajili ya mtumiaji wako"
+msgstr "Wakala wa AI wanahitaji WordPress 6.9 au toleo jipya zaidi. Sasisha WordPress ili kuwatumia."
 
 #: includes/mcp-kit/class-server.php:236
-msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "Ongeza hili kwenye mipangilio ya MCP ya programu yako ya AI, ukitumia jina lako la mtumiaji na nenosiri hilo:"
+msgid "Connection address (MCP endpoint)"
+msgstr "Anwani ya muunganisho (kikomo cha MCP)"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:239
+msgid "Create an application password for your user"
+msgstr "Unda nenosiri la programu kwa ajili ya mtumiaji wako"
+
+#: includes/mcp-kit/class-server.php:240
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Ongeza hii kwenye mipangilio ya MCP ya programu yako ya AI, pamoja na jina lako la mtumiaji na nenosiri hilo:"
+
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: weka ingizo lilelile chini ya \"servers\" katika .vscode/mcp.json, sio chini ya \"mcpServers\"."
+msgstr "VS Code: weka ingizo sawa chini ya \"servers\" katika .vscode/mcp.json, si chini ya \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Zana ambazo wakala wa AI anaweza kutumia hapa (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
-msgstr "Mwongozo wa mtumiaji: Wakala wa AI na MCP"
+msgstr "Mwongozo wa mtumiaji: Mawakala wa AI na MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
-msgstr "Nyaraka za wataalamu: uwezo, REST na MCP"
+msgstr "Nyaraka za wasanidi programu: uwezo, REST na MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "Dhibiti wateja wako wa mwenyeji, mipango yao na tovuti zao kwenye Zinn Digital® kutoka tovuti hii."
+msgstr "Dhibiti wateja wako wa upangishaji, mipango yao na tovuti zao kwenye Zinn Digital® kutoka kwa tovuti hii."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "Wateja wako, mipango yao na tovuti zao, kupitia akaunti yako ya muuzaji reja reja ya Zinn Digital®."
+msgstr "Wateja wako, mipango yao na tovuti zao, kupitia akaunti yako ya muuzaji ya Zinn Digital®."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "Soma akaunti yako ya muuzaji upya"
+msgstr "Soma akaunti yako ya muuzaji"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Inarudisha akaunti yako ya muuzaji kwa usomaji mmoja: chapa, mipango, idadi ya wateja na huduma, na kile kilichowekwa."
+msgstr "Hurejesha akaunti yako ya muuzaji tena kwa usomaji mmoja: chapa, mipango, idadi ya wateja na huduma, na kile kilichowekwa."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
@@ -775,7 +775,7 @@ msgstr "Orodhesha wateja wako"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "Inaorodhesha akaunti za wateja wako, ukurasa mmoja kwa wakati (kielekezi, kikomo)."
+msgstr "Huorodhesha akaunti za wateja wako, ukurasa mmoja kwa wakati mmoja (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
@@ -783,7 +783,7 @@ msgstr "Unda mteja"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Hutengeneza akaunti ya mteja chini ya yako (name; default_currency, nambari ya siri ya herufi tatu). Weka kwenye mpango kabla ya tovuti yao ya kwanza."
+msgstr "Inaunda akaunti ya mteja chini ya yako (name; default_currency, msimbo wa herufi tatu). Waweke kwenye mpango kabla ya tovuti yao ya kwanza."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
@@ -791,15 +791,15 @@ msgstr "Soma mpango wa mteja"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "Inarudisha mpango ambao mteja yuko na gharama yake kwako (client_id)."
+msgstr "Hurejesha mpango ambao mteja anatumia na gharama yake kwako (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "Mweke mteja kwenye mpango"
+msgstr "Weka mteja kwenye mpango"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "Inamweka mteja kwenye moja ya mipango yako (client_id, plan_code; interval: month au year). Fanya hivi kabla ya tovuti yao ya kwanza."
+msgstr "Huweka mteja kwenye moja ya mipango yako (client_id, plan_code; interval: month au year). Fanya hivi kabla ya tovuti yao ya kwanza."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
@@ -807,7 +807,7 @@ msgstr "Orodhesha mipango unayoweza kuuza"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "Inaorodhesha mipango ya ukaribishaji na bei zake (product_line na currency zinapunguza wigo)."
+msgstr "Huorodhesha mipango ya upangishaji na bei zake (product_line na currency huipunguza)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
@@ -815,7 +815,7 @@ msgstr "Orodhesha tovuti za wateja wako"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Inaorodhesha kila kitu ulichokitenga kwa ajili ya wateja wako (client_id na status vinapunguza wigo), ukurasa mmoja kwa wakati."
+msgstr "Huorodhesha kila kitu ulichotoa kwa ajili ya wateja wako (client_id na status huipunguza), ukurasa mmoja kwa wakati mmoja."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
@@ -823,7 +823,7 @@ msgstr "Tengeneza tovuti kwa ajili ya mteja"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Inaunda tovuti inayopangishwa kwa mmoja wa wateja wako (client_id, product_line, primary_domain). Inatozwa kwenye akaunti yako kwa mpango wa mteja, kama inavyotoka kwenye duka lako."
+msgstr "Hutengeneza tovuti inayopangishwa kwa ajili ya mmoja wa wateja wako (client_id, product_line, primary_domain). Inatozwa kwenye akaunti yako kulingana na mpango wa mteja, kama kutoka kwenye duka lako."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
@@ -831,32 +831,32 @@ msgstr "Simamisha tovuti ya mteja"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "Inaweka tovuti ya mteja katika hali ya kusimamishwa kwa sababu ya kutolipa (site_id; sababu: dokezo lako mwenyewe, haionyeshwi kamwe kwa mteja). Tovuti huacha kuhudumia hadi itakapowashwa tena."
+msgstr "Huweka tovuti ya mteja kwenye usitishaji kwa sababu ya kutolipa (site_id; reason: dokezo lako mwenyewe, halionyeshwi mteja kamwe). Tovuti huacha kutoa huduma hadi kusimamishwa kwake kuondolewe."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "Rejesha tovuti ya mteja"
+msgstr "Rejesha tovuti ya mteja iliyosimamishwa"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "Huondoa kizuizi cha kutolipa, ili tovuti ianze kutumika tena (site_id)."
+msgstr "Huondoa kizuizi cha kutolipa, ili tovuti ianze kufanya kazi tena (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "Soma mipangilio ya Zana za Mchuuzi"
+msgstr "Soma mipangilio ya Zana za Muuzaji Mkuu"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "Inarudisha mipangilio ya programu-jalizi hii (anwani ya API, mpango unaotumiwa na maagizo mapya, ni vipengele vipi vimewashwa). Ufunguo wa API haurudishwi kamili, bali ni iwapo umehifadhiwa tu."
+msgstr "Hurejesha mipangilio ya programu-jalizi hii (anwani ya API, mpango unaotumiwa na maagizo mapya, vipengele vilivyowashwa). Ufunguo wa API haurejeshwi kamwe, bali iwapo kuna uliowekwa akiba pekee."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "Badilisha mipangilio ya Zana za Reseller"
+msgstr "Badilisha mipangilio ya Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "Inabadilisha mipangilio unayotuma (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) na kuacha mingine kama ilivyo. Ufunguo wa API na anwani vinabadilishwa kwenye skrini pekee."
+msgstr "Hubadilisha mipangilio unayotuma (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) na kuhifadhi iliyobaki. Ufunguo wa API na anwani hubadilishwa kwenye skrini pekee."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "Ongeza ufunguo wako wa API wa muuzaji wa Zinn Digital® kwenye skrini ya Zana za Muuzaji kwanza."
+msgstr "Kwanza ongeza ufunguo wako wa API ya muuzaji wa Zinn Digital® kwenye skrini ya Reseller Toolkit."

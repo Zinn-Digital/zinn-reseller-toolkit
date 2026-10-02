@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Prodávejte hosting Zinn Digital® přímo ze svého webu na systému WordPress – WordPress, WooCommerce, agenturní, resellerský, cloudový a VPS hosting. Vyhledávejte a nabízejte domény ze svého resellerského účtu, přihlašujte své klienty přímo do jejich hostingového panelu a zřizujte hosting automaticky po zaplacení objednávky přes WooCommerce."
+msgstr "Prodávejte hosting Zinn Digital® přímo ze svého webu na platformě WordPress — hosting pro WordPress, WooCommerce, agentury, resellery, cloudový a VPS hosting. Vyhledávejte a nabízejte domény ze svého resellerského účtu, přihlašujte své klienty přímo do jejich hostingového panelu a zřizujte hosting automaticky po zaplacení objednávky ve WooCommerce."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,11 +38,11 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "Hostingová platforma odpověděla stavem %d."
+msgstr "Hostingová platforma odpověděla se stavovým kódem %d."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
-msgstr "Najděte svůj doménový název"
+msgstr "Najděte svůj název domény"
 
 #: includes/class-domain-search.php:75
 msgid "Search"
@@ -54,11 +54,11 @@ msgstr "Pro tento název nebyla zkontrolována žádná rozšíření."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "Vyhledávání domén je na tomto webu momentálně nedostupné."
+msgstr "Vyhledávání domén není na tomto webu v tuto chvíli k dispozici."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "Registr domény se nám nyní nepodařilo kontaktovat. Zkuste to prosím za chvíli znovu."
+msgstr "V této chvíli se nepodařilo spojit s registrem domén. Zkuste to prosím znovu za okamžik."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
@@ -66,7 +66,7 @@ msgstr "Klíč API chybí nebo již není platný. Zkontrolujte jej v části Zi
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "Tento klíč API nemá oprávnění sites.view, které vyhledávání domén potřebuje. Přidejte jej ke klíči ve svém partnerském panelu, nebo zde klíč vymažte, aby se systém vrátil k veřejnému vyhledávání."
+msgstr "Tento klíč API nemá oprávnění sites.view, které vyhledávání domén vyžaduje. Přidejte jej ke klíči ve svém panelu prodejce, nebo klíč zde vymažte, chcete-li se vrátit k veřejnému vyhledávání."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
@@ -74,7 +74,7 @@ msgstr "Toto vidí pouze administrátoři:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "Tento se nepodařilo zkontrolovat – zkuste to znovu"
+msgstr "Toto se nepodařilo zkontrolovat — zkuste to znovu"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
@@ -92,7 +92,7 @@ msgstr "Dostupné — %1$s %2$s na první rok"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
-msgstr "Zaregistrovat"
+msgstr "Zaregistrovat ji"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
@@ -104,7 +104,7 @@ msgstr "Nejprve se prosím přihlaste."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "Tento účet ještě není propojen s hostingovou službou."
+msgstr "Tento účet zatím není propojen s žádnou hostingovou službou."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
@@ -125,23 +125,23 @@ msgstr "Funkce"
 
 #: includes/class-settings.php:135
 msgid "Styling"
-msgstr "Stylování"
+msgstr "Styling"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
 msgstr "AI agenti (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
 msgstr "Povolit agenty AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "Vypnuto: nástroje níže a jejich REST trasy nejsou vůbec registrovány."
+msgstr "Vypnuto: níže uvedené nástroje a jejich REST trasy nejsou vůbec registrovány."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
@@ -149,23 +149,23 @@ msgstr "Váš prodejní účet Zinn Digital®"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Vytvořte API klíč pro prodejce ve svém řídicím panelu Zinn® v části Vývojář → API klíče a vložte jej sem."
+msgstr "Vytvořte API klíč prodejce na své nástěnce Zinn® v části Vývojář → Klíče API a vložte jej sem."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
-msgstr "Klíč rozhraní API pro prodejce"
+msgstr "Klíč API prodejce"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "Uloženo pouze na tomto webu a nikdy nezahrnuto do exportu ani do diagnostické zprávy."
+msgstr "Uchovává se pouze na tomto webu a nikdy není součástí exportu ani diagnostické zprávy."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "Plán k aktivaci"
+msgstr "Plán ke zřízení"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "Kód plánu, na který jsou zařazeni noví zákazníci. Ponechte prázdné, pokud chcete být dotázáni pokaždé."
+msgstr "Kód tarifu, který je přiřazen novým zákazníkům. Pokud chcete být dotázáni pokaždé, ponechte pole prázdné."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "Adresa API"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Neměňte to, pokud vás o to nepožádala podpora Zinn®."
+msgstr "Ponechte toto beze změny, pokud vás podpora Zinn® nepožádala o změnu."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,19 +181,19 @@ msgstr "Adresa ovládacího panelu"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Kam odkaz „Můj hosting“ přesměruje vaše zákazníky."
+msgstr "Kam odkaz „Můj hosting“ posílá vaše zákazníky."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
-msgstr "Vyhledávání domén"
+msgstr "Hledání domény"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "Zadejte shortcode [zinn_domain_search]"
+msgstr "Zadejte zkrácený kód [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Umístěte tento shortcode na libovolnou stránku a umožněte návštěvníkům zkontrolovat doménu a zakoupit ji prostřednictvím vás."
+msgstr "Vložte zkrácený kód na libovolnou stránku a umožněte návštěvníkům ověřit dostupnost domény a zakoupit ji vaším prostřednictvím."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -205,15 +205,15 @@ msgstr "Zobrazit přihlášeným zákazníkům odkaz „Můj hosting“"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "Zprovoznění WooCommerce"
+msgstr "Zřizování WooCommerce"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "Automatické zřízení hostingových služeb po dokončení objednávky v WooCommerce"
+msgstr "Automaticky zřídit hosting po dokončení objednávky ve WooCommerce"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "Projeví se pouze u objednávek obsahujících produkt, který jste propojili s tarifem Zinn®."
+msgstr "Projeví se pouze u objednávek obsahujících produkt, který jste namapovali na tarif Zinn®."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
@@ -221,11 +221,11 @@ msgstr "Vzhled vyhledávání domén"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "Tento widget se vykresluje přímo ve vašem vlastním motivu. Vyberte předvolbu nebo si nastavte vlastní barvy – tak či onak se na vaše stránky nepřidá nic, co by návštěvník mohl vidět jako od nás."
+msgstr "Tento widget se vykresluje v rámci vaší vlastní šablony. Vyberte předvolbu nebo si nastavte vlastní barvy — v obou případech se na vaše stránky nepřidá nic, co by návštěvník mohl rozpoznat jako naše."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "Každá třída, kterou widget používá, je uvedena v souboru readme pluginu, takže vývojář může přepsat cokoli, co přednastavení nepokrývá."
+msgstr "Každá třída, kterou widget používá, je uvedena v souboru readme pluginu, takže vývojář může přepsat cokoli, co předvolba nepokrývá."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
@@ -245,15 +245,15 @@ msgstr "Kompaktní"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
-msgstr "Barva nákupního odkazu"
+msgstr "Barva odkazu pro nákup"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "Barva „Dostupné“"
+msgstr "Barva pro stav „Dostupné“"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "Barva „Nelze ověřit“"
+msgstr "Barva stavu „Nelze zkontrolovat“"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -265,7 +265,7 @@ msgstr "Zaoblení rohů"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "Místo v každém řádku"
+msgstr "Mezera uvnitř každého řádku"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -273,19 +273,19 @@ msgstr "Velikost textu"
 
 #: includes/class-settings.php:377
 msgid "Domain-name weight"
-msgstr "Váha názvu domény"
+msgstr "Váha doménového jména"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "Zatím žádný API klíč pro prodejce."
+msgstr "Zatím žádný API klíč prodejce."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Vyhledávání domén funguje i bez něj za veřejné ceny. Odkaz na panel a provisioningu WooCommerce vyžadují klíč: vytvořte si jej ve svém dashboardu Zinn® v sekci Vývojář → Klíče API."
+msgstr "Vyhledávání domén již funguje i bez něj, a to za veřejné ceny. Odkaz na panel a zřizování WooCommerce vyžadují klíč: vytvořte si jej na svém ovládacím panelu Zinn® v části Developer → API keys."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
-msgstr "Otevřít můj panel Zinn®"
+msgstr "Otevřete mou nástěnku Zinn®"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
@@ -293,7 +293,7 @@ msgstr "Klíč je nastaven, ale nic není zapnuto."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "Žádná ze tří funkcí není povolená, takže tento plugin na vašem webu nic nedělá. Zapněte to, co potřebujete, v části Funkce."
+msgstr "Žádná ze tří funkcí není povolena, takže tento plugin na vašem webu nic nedělá. Zapněte to, co potřebujete, v části Funkce."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -304,10 +304,10 @@ msgstr "Otevřít funkce"
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
-msgstr[0] "Připraveno — zapnuta %d funkce."
-msgstr[1] "Připraveno – %d funkcí zapnuto."
-msgstr[2] "Připraveno – %d funkcí zapnuto."
-msgstr[3] "Připraveno – %d funkcí zapnuto."
+msgstr[0] "Připraveno — %d funkce zapnuta."
+msgstr[1] "Připraveno — %d funkcí zapnuto."
+msgstr[2] "Připraveno — %d funkcí zapnuto."
+msgstr[3] "Připraveno — %d funkcí zapnuto."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
@@ -319,7 +319,7 @@ msgstr "Nastavení"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "Zatím nemáte žádný klíč API, takže není nic připojeno."
+msgstr "Zatím žádný klíč API, takže není nic připojeno."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
@@ -331,15 +331,15 @@ msgstr "Nepřipojeno: %s"
 #: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr "Připojeno. Váš partnerský program je %s."
+msgstr "Připojeno. Váš prodejní program je %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Není nastaven žádný klíč rozhraní Zinn® API, takže nebylo nic zřízeno."
+msgstr "Není nakonfigurován žádný klíč API pro Zinn®, proto nebylo nic zřízeno."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "Tato objednávka nezahrnovala doménové jméno, takže nebylo co zřídit."
+msgstr "Tato objednávka nezahrnovala název domény, takže nebylo co zřídit."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
@@ -349,17 +349,17 @@ msgstr "Hostingová platforma nevrátila žádný web."
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "Hosting Zinn® byl aktivován pro %1$s (služba %2$s)."
+msgstr "Hosting Zinn® byl zřízen pro %1$s (služba %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
-msgstr "Hostitelská platforma nevrátila klientský účet."
+msgstr "Hostingová platforma nevrátila účet klienta."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Hosting Zinn® nebyl zřízen: %s"
+msgstr "Hosting Zinn® NEBYL zřízen: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
@@ -367,11 +367,11 @@ msgstr "Produktová řada Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "Produktová řada Zinn®, kterou je třeba zřídit při zakoupení tohoto produktu. Ponechte prázdné, chcete-li použít výchozí hodnotu z nastavení pluginu."
+msgstr "Produktová řada Zinn®, která se má zřídit při zakoupení tohoto produktu. Ponechte prázdné, pokud chcete použít výchozí hodnotu z nastavení pluginu."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
-msgstr "Zinn® hosting"
+msgstr "Hosting Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
@@ -379,11 +379,11 @@ msgstr "ID služby"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "Pro tuto objednávkę nebylo nic zřízeno."
+msgstr "Pro tuto objednávku nebylo nic zřízeno."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Uloženo. Zadejte novou hodnotu pro přepsání."
+msgstr "Uloženo. Chcete-li hodnotu nahradit, zadejte novou."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
@@ -395,7 +395,7 @@ msgstr "Filtrovat tento seznam"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Tomuto filtru neodpovídá vůbec nic."
+msgstr "Tomuto filtru nic neodpovídá."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
@@ -403,7 +403,7 @@ msgstr "Přidat řádek"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Odstranit tento řádek"
+msgstr "Odebrat tento řádek"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
@@ -417,7 +417,7 @@ msgstr "Zinn Digital®"
 
 #: includes/class-zinn-reseller-admin-ui.php:294
 msgid "Zinn Digital® — overview"
-msgstr "Zinn Digital® – přehled"
+msgstr "Zinn Digital® — přehled"
 
 #: includes/class-zinn-reseller-admin-ui.php:295
 msgid "Overview"
@@ -433,7 +433,7 @@ msgstr "Každý plugin Zinn® na tomto webu a zda funguje."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "Pro tento plugin není nutné žádné připojení."
+msgstr "Pro tento plugin není vyžadováno žádné připojení."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -442,7 +442,7 @@ msgstr "Otevřít nastavení"
 #: includes/class-zinn-reseller-admin-ui.php:770
 #: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "Nemáte oprávnění tato nastavení měnit."
+msgstr "Nemáte oprávnění měnit tato nastavení."
 
 #: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
@@ -462,15 +462,15 @@ msgstr "Nástroje"
 
 #: includes/class-zinn-reseller-admin-ui.php:973
 msgid "Export settings"
-msgstr "Export nastavení"
+msgstr "Exportovat nastavení"
 
 #: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Obnovit výchozí nastavení"
+msgstr "Obnovit výchozí"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Tím se všechna nastavení tohoto pluginu vrátí na výchozí hodnoty. Pokračovat?"
+msgstr "Tímto se všechna nastavení tohoto pluginu vrátí do výchozího stavu. Přejete si pokračovat?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -478,7 +478,7 @@ msgstr "Diagnostika pro podporu"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Importovat soubor nastavení"
+msgstr "Importovat soubor s nastavením"
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
@@ -486,11 +486,11 @@ msgstr "Importovat"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Exportované soubory nikdy neobsahují hesla, tokeny ani klíče API – tyto údaje bude nutné na novém webu zadat znovu."
+msgstr "Exportované soubory nikdy neobsahují hesla, tokeny ani klíče API — na novém webu je budete muset zadat znovu."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
-msgstr "Nastavení uložena."
+msgstr "Nastavení bylo uloženo."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
@@ -506,7 +506,7 @@ msgstr "Tato akce není k dispozici."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Tento soubor se nepodařilo přečíst. Zvolte soubor nastavení exportovaný z pluginu Zinn®."
+msgstr "Tento soubor se nepodařilo přečíst. Vyberte soubor s nastavením exportovaný z pluginu Zinn®."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
@@ -520,17 +520,17 @@ msgstr "Tento soubor není exportem nastavení Zinn®."
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Tento soubor byl exportován z jiného modulu (%s), takže jeho importem by se uložilo nastavení, kterému tento modul nerozumí."
+msgstr "Tento soubor byl exportován z jiného pluginu (%s), takže jeho importem by se uložila nastavení, kterým tento plugin nerozumí."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d nastavení bylo importováno. Hesla a klíče API se do exportu nezahrnují, takže je musíte zadat znovu."
-msgstr[1] "%d nastavení bylo importováno. Hesla a klíče API se nikdy neexportují, proto je zadejte znovu."
-msgstr[2] "%d nastavení bylo importováno. Hesla a klíče API se nikdy neexportují, proto je zadejte znovu."
-msgstr[3] "%d nastavení bylo importováno. Hesla a klíče API se nikdy neexportují, proto je zadejte znovu."
+msgstr[0] "%d nastavení bylo importováno. Hesla a klíče API se do exportu nikdy nezahrnují, zadejte je proto znovu."
+msgstr[1] "Bylo importováno %d nastavení. Hesla a klíče API se nikdy neexportují, zadejte je proto znovu."
+msgstr[2] "Bylo importováno %d nastavení. Hesla a klíče API se nikdy neexportují, zadejte je proto znovu."
+msgstr[3] "Bylo importováno %d nastavení. Hesla a klíče API se nikdy neexportují, zadejte je proto znovu."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -538,11 +538,11 @@ msgstr "Připojeno"
 
 #: includes/class-zinn-reseller-connection.php:60
 msgid "Connecting…"
-msgstr "Probíhá připojování…"
+msgstr "Připojování…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "Připojeno, ale některé položky vyžadují pozornost"
+msgstr "Připojeno, ale něco vyžaduje pozornost"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -550,7 +550,7 @@ msgstr "Nepřipojeno"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "Běží na vašem účtu"
+msgstr "Běží na vašem vlastním účtu"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
@@ -558,7 +558,7 @@ msgstr "Toto se nám nepodařilo zkontrolovat"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Tento doplněk neuvedl důvod. Odešlete zprávu o diagnostice a my se na to podíváme."
+msgstr "Tento plugin neuvedl důvod. Zašlete diagnostickou zprávu a my se na to podíváme."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -568,19 +568,19 @@ msgstr "Stav připojení"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Poslední kontrola proběhla před %s."
+msgstr "Naposledy zkontrolováno před %s."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(otevře se na nové kartě)"
+msgstr "(otevře se na nové záložce)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Odeslat na podporu Zinn®"
+msgstr "Odešlete toto podpoře Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Přesně toto bude odesláno – nic jiného a nic skrytého. Vaše hesla, tokeny a klíče API v tom nejsou obsaženy."
+msgstr "Přesně toto bude odesláno — nic jiného a nic skrytého. Vaše hesla, tokeny a klíče API v tom nejsou."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -588,52 +588,52 @@ msgstr "Diagnostická zpráva, která bude odeslána"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "Kopírovat do schránky"
+msgstr "Zkopírovat do schránky"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Odešlete tuto zprávu podpoře Zinn®"
+msgstr "Odešlete toto hlášení podpoře Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Pro vás založíme lístek podpory a odpovíme e-mailem. Pokud jej raději nechcete odesílat, zkopírujte ho výše a vložte si jej do lístku sami."
+msgstr "Otevřeme pro Vás požadavek na podporu a odpovíme e-mailem. Pokud jej nechcete odeslat, zkopírujte jej výše a vložte jej do požadavku sami."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Zinn Digital® se nepodařilo z tohoto serveru (%s) kontaktovat. Zkopírujte výše uvedený záznam a raději otevřete ticket – s vaším nastavením není nic v nepořádku."
+msgstr "Z tohoto serveru (%s) se nepodařilo kontaktovat Zinn Digital®. Zkopírujte hlášení výše a místo toho otevřete požadavek na podporu — ve vašem nastavení není žádná chyba."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Odesláno. Podpora Zinn® má vaši hlášení a odpoví vám e-mailem."
+msgstr "Odesláno. Podpora Zinn® obdržela Vaše hlášení a odpoví Vám e-mailem."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Podpora Zinn® eviduje vaše hlášení – referenční číslo %s – a odpoví vám e-mailem."
+msgstr "Odesláno. Podpora Zinn® obdržela vaše hlášení — referenční číslo %s — a odpoví vám e-mailem."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Odeslali jste několik hlášení v krátké době. Počkejte několik minut a zkuste to znovu – ty dřívější dorazily."
+msgstr "Během krátké doby jste odeslali několik hlášení. Počkejte několik minut a zkuste to znovu — ta předchozí dorazila."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Společnost Zinn Digital® nyní nemohła hlášení přijmout – chyba je na naší straně, nikoli u vás. Zkuste to brzy znovu, nebo zkopírujte výše uvedené hlášení do ticketu."
+msgstr "Služba Zinn Digital® právě nemohla zprávu přijmout — chyba je na naší straně, nikoli na vaší. Zkuste to prosím za chvíli znovu, nebo zkopírujte výše uvedenou zprávu do požadavku."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Zpráva byla odmítnuta (HTTP %d). Zkopírujte ji výše a otevřete tiket s uvedením tohoto čísla."
+msgstr "Hlášení bylo odmítnuto (HTTP %d). Zkopírujte jej výše a otevřete požadavek na podporu s uvedením tohoto čísla."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — průvodci a služby"
+msgstr "%s — návody a služby"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
@@ -643,7 +643,7 @@ msgstr "Uživatelské příručky"
 #: includes/class-zinn-reseller-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "Přečtěte si uživatelskou příručku %s"
+msgstr "Přečtěte si uživatelskou příručku k %s"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
@@ -651,11 +651,11 @@ msgstr "Skrýt toto"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Zinn® hosting pro WordPress"
+msgstr "Hosting Zinn® pro WordPress"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, denní zálohy, bezplatná migrace a ovládací panel vytvořený pro lidi, kteří spravují více než jeden web."
+msgstr "LiteSpeed, denní zálohy, bezplatná migrace a ovládací panel vytvořený pro ty, kdo spravují více než jeden web."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
@@ -663,7 +663,7 @@ msgstr "Tržiště Zinn®"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Nakupujte a prodávejte zaběhnuté weby, domény a umisťování odkazů, přičemž peníze jsou bezpečně uloženy, dokud nejsou obě strany spokojené."
+msgstr "Nakupujte a prodávejte zavedené weby, domény a umístění odkazů s bezpečně uschovanými penězi, dokud nebudou obě strany spokojené."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
@@ -671,7 +671,7 @@ msgstr "Zinn Hub® — najměte si lidi, kteří se tím živí"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Náš globální trh pro na volné noze: procházejte více než 10 000 hotových služeb od spisovatelů, designérů, vývojářů a SEO specialistů, nebo zadejte projekt a nechte je podávat nabídky."
+msgstr "Naše globální tržiště na volné noze: procházejte více než 10 000 hotových služeb od textařů, designérů, vývojářů a SEO specialistů, nebo zadejte projekt a nechte je podat nabídku."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
@@ -679,7 +679,7 @@ msgstr "Předvolba stylu"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Výchozí bod. Všechno níže uvedené má přednost."
+msgstr "Výchozí bod. Cokoli níže jej přepíše."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -687,21 +687,21 @@ msgstr "Použít vlastní barvy a velikosti"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Nechte toto vypnuté a předvolba se použije přesně tak, jak je."
+msgstr "Ponechte tuto možnost vypnutou a předvolba se použije přesně tak, jak je."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Prohlédněte si poznámky k vydání Zinn Digital®."
+msgstr "Podívejte se na poznámky k vydání Zinn Digital®."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Aktualizační služba Zinn® neposkytla odkaz ke stažení této aktualizace. Zkontrolujte, zda tento web má přístup k platformě Zinn®, a zkuste to znovu."
+msgstr "Aktualizační služba Zinn® nevydala odkaz ke stažení pro tuto aktualizaci. Zkontrolujte, zda se tento web může spojit s platformou Zinn®, a zkuste to znovu."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Aktualizaci se nepodařilo stáhnout ze služby aktualizací Zinn® (%s). Zkuste to za několik minut znovu."
+msgstr "Aktualizaci se nepodařilo stáhnout ze služby aktualizací Zinn® (%s). Zkuste to znovu za několik minut."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
@@ -709,77 +709,77 @@ msgstr "Stažená aktualizace neprošla kontrolou integrity a nebyla nainstalov�
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "Akci se nepodařilo dokončit. Zkuste to znovu, a pokud bude chyba přetrvávat, obraťte se na správce webu."
+msgstr "Akci se nepodařilo dokončit. Zkuste to znovu, a pokud problém přetrvává, kontaktujte administrátora webu."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "Požadovaná hodnota chybí nebo má nesprávný formát. Zkontrolujte vstupní schéma funkce."
+msgstr "Požadovaná hodnota chybí nebo má nesprávný formát. Zkontrolujte schéma vstupu (input schema) dané schopnosti."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
-msgstr "Stránka požadavek odmítla."
+msgstr "Web odmítl požadavek."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Nechte AI asistenty, jako jsou Claude, Cursor nebo VS Code, pracovat na tomto webu za vás prostřednictvím MCP (Model Context Protocol). Přihlašují se jako uživatel WordPress pomocí aplikačního hesla a mohou dělat pouze to, co je tomuto uživateli dovoleno."
+msgstr "Dovolte asistentům AI, jako jsou Claude, Cursor nebo VS Code, pracovat na tomto webu za vás prostřednictvím protokolu MCP (Model Context Protocol). Přihlašují se jako uživatel WordPress pomocí aplikačního hesla a mohou provádět pouze to, co je tomuto uživateli povoleno."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "AI agenty vyžadují WordPress 6.9 nebo novější. Aktualizujte WordPress, abyste je mohli používat."
+msgstr "Agenti AI vyžadují WordPress 6.9 nebo novější. Chcete-li je používat, aktualizujte WordPress."
 
-#: includes/mcp-kit/class-server.php:232
+#: includes/mcp-kit/class-server.php:236
 msgid "Connection address (MCP endpoint)"
 msgstr "Adresa připojení (koncový bod MCP)"
 
-#: includes/mcp-kit/class-server.php:235
+#: includes/mcp-kit/class-server.php:239
 msgid "Create an application password for your user"
-msgstr "Vytvořte aplikační heslo pro svého uživatele"
+msgstr "Vytvořte heslo aplikace pro svého uživatele"
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:240
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "Přidejte toto do nastavení MCP vaší AI aplikace spolu se svým uživatelským jménem a tímto heslem:"
+msgstr "Přidejte toto do nastavení MCP své aplikace AI se svým uživatelským jménem a tímto heslem:"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: vložte stejnou položku pod „servers“ do souboru .vscode/mcp.json, nikoliv pod „mcpServers“."
+msgstr "VS Code: vložte stejnou položku pod „servers“ v souboru .vscode/mcp.json, nikoli pod „mcpServers“."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "Nástroje, které zde může agent s umělou inteligencí používat (%d):"
+msgstr "Nástroje, které zde může agent AI použít (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
 msgstr "Uživatelská příručka: Agenti AI a MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
-msgstr "Vývojářská dokumentace: schopnosti, REST a MCP"
+msgstr "Dokumentace pro vývojáře: schopnosti, REST a MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "Spravujte své klienty hostingu, jejich plány a weby na Zinn Digital® z tohoto webu."
+msgstr "Spravujte své hostingové klienty, jejich tarify a jejich weby na Zinn Digital® z tohoto webu."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "Vaši klienti, jejich tarify a jejich weby prostřednictvím vašeho partnerského účtu Zinn Digital®."
+msgstr "Vaši klienti, jejich tarify a jejich weby prostřednictvím vašeho prodejního účtu Zinn Digital®."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "Přečtěte si svůj partnerský účet"
+msgstr "Zobrazit prodejní účet"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Vrátí váš partnerský účet v jednom přehledu: značku, tarify, počty klientů a služeb a aktuální nastavení."
+msgstr "Vrátí váš účet prodejce v jednom čtení: značku, plány, počty klientů a služeb a informace o tom, co je nastaveno."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "Seznam klientů"
+msgstr "Uveďte své klienty"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "Zobrazuje vaše klientské účty po stránkách (ukazatel, limit)."
+msgstr "Vypíše vaše klientské účty, po jedné stránce (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
@@ -787,31 +787,31 @@ msgstr "Vytvořit klienta"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Vytvoří klientský účet pod vaším (jméno; default_currency, třípísmenný kód). Před vytvořením jejich prvního webu je přiřaďte k tarifu."
+msgstr "Vytvoří klientský účet pod vaším účtem (name; default_currency, třípísmenný kód). Před vytvořením jejich prvního webu jim přiřaďte tarif."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
-msgstr "Zobrazit tarif klienta"
+msgstr "Přečtěte si plán klienta"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "Vrátí, na jakém tarifu klient je a kolik vás to stojí (client_id)."
+msgstr "Vrací, jaký tarif má klient sjednaný a kolik vás stojí (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "Přiřadit klienta k tarifu"
+msgstr "Přiřaďte klienta k tarifu"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "Zařadí klienta do jednoho z vašich tarifů (client_id, plan_code; interval: month nebo year). Proveďte toto před vytvořením jeho prvního webu."
+msgstr "Přiřadí klienta k jednomu z vašich plánů (client_id, plan_code; interval: month nebo year). Proveďte to před jejich prvním webem."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
-msgstr "Seznamte se s plány, které můžete prodávat"
+msgstr "Uveďte plány, které můžete prodávat"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "Uvádí hostovací plány a jejich ceny (parametry product_line a currency je upřesňují)."
+msgstr "Zobrazí seznam hostingových plánů a jejich cen (product_line a currency jej zúží)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
@@ -819,48 +819,48 @@ msgstr "Zobrazit weby vašich klientů"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Zobrazí seznam všeho, co jste pro své klienty zřídili (parametry client_id a status jej zužují), vždy po jedné stránce."
+msgstr "Vypisuje vše, co jste zřídili pro své klienty (client_id a status výsledek zužují), po jednotlivých stránkách."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
-msgstr "Vytvořit web pro klienta"
+msgstr "Vytvořte web pro klienta"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Vytvoří hostovaný web pro jednoho z vašich klientů (client_id, product_line, primary_domain). Fakturuje se na váš účet dle tarifu klienta, jako z vašeho obchodu."
+msgstr "Vytvoří hostovaný web pro jednoho z vašich klientů (client_id, product_line, primary_domain). Je účtován na váš účet podle tarifu klienta, stejně jako z vašeho obchodu."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
-msgstr "Pozastavit stránku klienta"
+msgstr "Pozastavit web klienta"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "Převede klientský web do stavu pozastavení z důvodu neplatby (site_id; důvod: vaše vlastní poznámka, klientovi se nikdy nezobrazí). Web se přestane načítat, dokud nebude zrušeno jeho pozastavení."
+msgstr "Pozastaví web klienta z důvodu nezaplacení (site_id; reason: Vaše vlastní poznámka, která se klientovi nikdy nezobrazí). Web přestane fungovat, dokud nebude pozastavení zrušeno."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "Zrušit pozastavení stránek klienta"
+msgstr "Obnovit web klienta"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "Zruší pozastavení z důvodu neplatby, takže web bude opět dostupný (site_id)."
+msgstr "Zruší pozastavení z důvodu neplacení, takže web bude opět funkční (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "Přečtěte si nastavení sady nástrojů pro prodejce"
+msgstr "Přečtěte si nastavení sady Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "Vrátí nastavení tohoto pluginu (adresu API, tarif pro nové objednávky, zapnuté funkce). Klíč API se nikdy nevrací, pouze informace o tom, zda je uložen."
+msgstr "Vrací nastavení tohoto pluginu (adresu API, tarif, který používají nové objednávky, které funkce jsou zapnuté). Klíč API se nikdy nevrací, pouze informace o tom, zda je nějaký uložen."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "Změnit nastavení sady nástrojů pro prodejce"
+msgstr "Změnit nastavení Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "Změní nastavení, která odešlete (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), a zbytek zachová. Klíč API a adresa se mění pouze na obrazovce."
+msgstr "Změní nastavení, která odešlete (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), a zbývající zachová. Klíč API a adresa se mění pouze na obrazovce."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "Nejprve přidejte svůj API klíč pro prodejce Zinn Digital® na obrazovce Reseller Toolkit."
+msgstr "Nejprve přidejte svůj API klíč prodejce Zinn Digital® na obrazovce Reseller Toolkit."

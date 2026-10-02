@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Prodajite Zinn Digital® hosting sa svoje vlastite WordPress stranice — WordPress, WooCommerce, agencijski, reseller, cloud i VPS hosting. Pretražujte i nudite domene sa svog reseller računa, prijavite svoje klijente izravno u njihovu administratorsku ploču za hosting i automatski uspostavite hosting kada je WooCommerce narudžba plaćena."
+msgstr "Prodajte Zinn Digital® hosting sa svoje vlastite WordPress stranice — WordPress, WooCommerce, agencijski, preprodavački, cloud i VPS hosting. Pretražujte i nudite domene sa svog računa za preprodavače, prijavite svoje klijente izravno u njihov hosting panel i automatski dodijelite hosting kada je WooCommerce narudžba plaćena."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -50,39 +50,39 @@ msgstr "Pretraži"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "Za taj naziv nije označena nijedna ekstenzija."
+msgstr "Nijedno proširenje nije provjereno za taj naziv."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "Pretraživanje domena trenutno nije dostupno na ovoj stranici."
+msgstr "Pretraživanje domena trenutno nije dostupno na ovom web-mjestu."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "Trenutno nismo mogli uspostaviti vezu s registrom domena. Molimo pokušajte ponovno za trenutak."
+msgstr "Trenutačno nismo mogli pristupiti registru domena. Molimo pokušajte ponovno za trenutak."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "API ključ nedostaje ili više nije važeći. Provjerite ga pod Zinn Digital® → Reseller Toolkit."
+msgstr "API ključ nedostaje ili više nije valjan. Provjerite ga pod Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "Ovaj API ključ nema dozvolu sites.view koja je potrebna za pretraživanje domena. Dodajte je u ključ na svojoj resellerskoj ploči ili ovdje izbrišite ključ kako biste se vratili na javno pretraživanje."
+msgstr "Ovaj API ključ nema dopuštenje sites.view, koje je potrebno za pretraživanje domena. Dodajte ga ključu na svojoj ploči za preprodavače ili izbrišite ključ ovdje kako biste se vratili na javno pretraživanje."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
-msgstr "Samo administratori ovo vide:"
+msgstr "Samo administratori vide ovo:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "Nismo mogli provjeriti ovu stavku — pokušajte ponovno"
+msgstr "Nismo uspjeli provjeriti ovo — pokušajte ponovo"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
-msgstr "Već registrirano"
+msgstr "Već registrirani"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "Dostupno — pitajte nas za cijenu"
+msgstr "Dostupno — zatražite cijenu od nas"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
@@ -92,15 +92,15 @@ msgstr "Dostupno — %1$s %2$s za prvu godinu"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
-msgstr "Registriraj ga"
+msgstr "Registrirajte ga"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
-msgstr "Upravljanje mojim hostingom"
+msgstr "Upravljajte mojim hostingom"
 
 #: includes/class-panel-link.php:87
 msgid "Please sign in first."
-msgstr "Molimo vas da se najprije prijavite."
+msgstr "Molimo prvo se prijavite."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
@@ -108,16 +108,16 @@ msgstr "Ovaj račun još nije povezan s uslugom hostinga."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "Platforma za hosting nije vratila vezu za prijavu."
+msgstr "Platforma za smještaj web-stranica nije vratila poveznicu za prijavu."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "Alatni okvir za preprodavače"
+msgstr "Alati za preprodavače"
 
 #: includes/class-settings.php:127
 msgid "Account"
-msgstr "Korisnički račun"
+msgstr "Račun"
 
 #: includes/class-settings.php:131
 msgid "Features"
@@ -125,47 +125,47 @@ msgstr "Značajke"
 
 #: includes/class-settings.php:135
 msgid "Styling"
-msgstr "Stilski dizajn"
+msgstr "Stiliziranje"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
 msgstr "AI agenti (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
-msgstr "Dopusti AI agentima (MCP)"
+msgstr "Dozvoli AI agente (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Isključeno: alati u nastavku i njihove REST rute uopće nisu registrirani."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
-msgstr "Vaš resellerski račun za Zinn Digital®"
+msgstr "Vaš Zinn Digital® preprodavački račun"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Izradite API ključ za preprodavače na svojoj Zinn® upravljačkoj ploči pod Developer → API keys i zalijepite ga ovdje."
+msgstr "Stvorite API ključ preprodavača na svojoj nadzornoj ploči Zinn® pod Razvojni programer → API ključevi i zalijepite ga ovdje."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
-msgstr "API ključ za preprodavače"
+msgstr "API ključ preprodavača"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "Pohranjeno samo na ovoj web-lokaciji i nikada nije uključeno u izvoz ili izvješće o dijagnostici."
+msgstr "Pohranjeno samo na ovom web-mjestu i nikada nije uključeno u izvoz ili dijagnostički izvještaj."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "Plan za dodjelu resursa"
+msgstr "Paket za dodjelu"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "Kod plana na koji se stavljaju novi korisnici. Ostavite prazno da se pita svaki put."
+msgstr "Kod plana na koji se dodjeljuju novi korisnici. Ostavite prazno ako želite da vas se svaki put pita."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "API adresa"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Ovo nemojte mijenjati osim ako vas podrška za Zinn® nije zatražila da to promijenite."
+msgstr "Ostavite ovo kako jest, osim ako vam podrška za Zinn® nije zatražila da to promijenite."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,39 +181,39 @@ msgstr "Adresa upravljačke ploče"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Kamo poveznica „Moje udomljavanje” šalje vaše klijente."
+msgstr "Kamo poveznica „Moj smještaj” šalje vaše klijente."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
-msgstr "Pretraga domena"
+msgstr "Pretraživanje domena"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "Unesite kratki kôd [zinn_domain_search]"
+msgstr "Navedite kratki kôd [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Postavite kratki kod na bilo koju stranicu kako biste omogućili posjetiteljima provjeru domene i kupnju putem vas."
+msgstr "Postavite kratki kôd na bilo koju stranicu kako biste posjetiteljima omogućili provjeru domene i njezinu kupnju putem vas."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
-msgstr "Veza s upravljačkom pločom"
+msgstr "Poveznica ploče"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "Prikaži vezu „Moje hosting usluge” prijavljenim korisnicima"
+msgstr "Prikaži poveznicu „Moj hosting” prijavljenim korisnicima"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "Instalacija WooCommerce"
+msgstr "Pružanje usluge WooCommerce"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "Automatski kreirajte hosting kada se WooCommerce narudžba dovrši"
+msgstr "Automatski dodijelite hosting kada se narudžba u WooCommerceu dovrši"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "Primjenjuje se samo na narudžbe koje sadrže proizvod koji ste povezali sa Zinn® paketom."
+msgstr "Primjenjuje se samo na narudžbe koje sadrže proizvod koji ste mapirali na Zinn® paket."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
@@ -221,15 +221,15 @@ msgstr "Izgled pretraživanja domene"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "Ovaj se widget prikazuje unutar vaše vlastite teme. Odaberite predložak ili postavite vlastite boje — u svakom slučaju, vašim se stranicama ne dodaje ništa što posjetitelj može vidjeti kao naše."
+msgstr "Ovaj se widget prikazuje unutar vaše vlastite teme. Odaberite predložak ili postavite vlastite boje — u svakom slučaju na vaše se stranice ne dodaje ništa što bi posjetitelj mogao prepoznati kao naše."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "Svaka klasa koju widget koristi navedena je u datoteci readme dodatka, tako da programer može nadjačati sve što unaprijed postavljena postavka ne obuhvaća."
+msgstr "Svaka klasa koju widget koristi navedena je u datoteci readme dodatka, tako da razvojni programer može nadjačati sve što unaprijed postavljena postavka ne pokriva."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
-msgstr "Slijedi moju temu"
+msgstr "Pratite moju temu"
 
 #: includes/class-settings.php:298
 msgid "Soft"
@@ -245,7 +245,7 @@ msgstr "Kompaktno"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
-msgstr "Boja veze za kupnju"
+msgstr "Boja poveznice za kupnju"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
@@ -253,7 +253,7 @@ msgstr "Boja za „Dostupno”"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "Boja za „Nije moguće provjeriti”"
+msgstr "Boja za „Nije uspjela provjera”"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -261,11 +261,11 @@ msgstr "Boja pogreške"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
-msgstr "Zaobljenje kutova"
+msgstr "Zaobljenje kuteva"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "Prostor unutar svakog retka"
+msgstr "Razmak unutar svakog retka"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -277,11 +277,11 @@ msgstr "Težina naziva domene"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "Još nema API ključa za preprodavače."
+msgstr "Još nema API ključa za preprodavača."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Pretraga domena već radi bez njega, po javnim cijenama. Vezi upravljačke ploče i WooCommerce provizioniranju potreban je ključ: izradite ga na svojoj Zinn® upravljačkoj ploči pod Razvojni programeri → API ključevi."
+msgstr "Pretraživanje domena već radi bez ključa, po javnim cijenama. Poveznica na upravljačku ploču i omogućavanje za WooCommerce zahtijevaju ključ: izradite ga na svojoj Zinn® nadzornoj ploči pod Developer → API keys."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
@@ -293,7 +293,7 @@ msgstr "Ključ je postavljen, ali ništa nije uključeno."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "Nijedna od tri značajke nije omogućena, tako da ovaj dodatak ne radi ništa na vašoj stranici. Uključite ono što vam treba pod Značajke."
+msgstr "Nijedna od triju značajki nije omogućena, pa ovaj priključak ne radi ništa na vašem web-mjestu. Uključite ono što vam je potrebno pod Značajke."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -305,12 +305,12 @@ msgstr "Otvori značajke"
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "Spremno — %d značajka uključena."
-msgstr[1] "Spremno — %d značajki je uključeno."
-msgstr[2] "Spremno — %d značajki je uključeno."
+msgstr[1] "Spremno — uključeno %d značajki."
+msgstr[2] "Spremno — uključeno %d značajki."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
-msgstr "Prodaje od"
+msgstr "Prodaja od"
 
 #: includes/class-settings.php:471
 msgid "Settings"
@@ -330,43 +330,43 @@ msgstr "Nije povezano: %s"
 #: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr "Povezano. Vaš resellerski program je %s."
+msgstr "Povezano. Vaš partnerski program za preprodavače je %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Nije konfiguriran nikakav Zinn® API ključ, tako da ništa nije dodijeljeno."
+msgstr "Nije konfiguriran nijedan Zinn® API ključ, pa ništa nije pripremljeno."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "Ova narudžba nije uključivala naziv domene, tako da nije bilo ničega za rezervirati."
+msgstr "Ova narudžba nije uključivala naziv domene, stoga nije bilo ničega za konfiguriranje."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
-msgstr "Platforma za hosting nije vratila web-mjesto."
+msgstr "Hosting platforma nije vratila web-mjesto."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "Zinn® hosting pripremljen za %1$s (usluga %2$s)."
+msgstr "Zinn® hosting omogućen za %1$s (usluga %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
-msgstr "Platforma za hosting nije vratila klijentski račun."
+msgstr "Hosting platforma nije vratila korisnički račun."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Zinn® hosting nije isporučen: %s"
+msgstr "Zinn® hosting NIJE dodijeljen: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
-msgstr "Zinn® linija proizvoda"
+msgstr "Linija proizvoda Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "Linija proizvoda Zinn® za isporuku prilikom kupnje ovog proizvoda. Ostavite prazno za korištenje zadane vrijednosti iz postavki dodatka."
+msgstr "Linija proizvoda Zinn® koju treba isporučiti kada se ovaj proizvod kupi. Ostavite prazno kako biste upotrijebili zadano iz postavki priključka."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
@@ -378,23 +378,23 @@ msgstr "ID usluge"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "Ništa nije osigurano za ovu narudžbu."
+msgstr "Ništa nije dodijeljeno za ovu narudžbu."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Spremljeno. Upišite novu vrijednost da biste je zamijenili."
+msgstr "Spremljeno. Upišite novu vrijednost kako biste je zamijenili."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "Filtriraj ovaj popis…"
+msgstr "Filtrirajte ovaj popis…"
 
 #: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
-msgstr "Filtriraj ovaj popis"
+msgstr "Filtrirajte ovaj popis"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Nijedna stavka ne odgovara tom filteru."
+msgstr "Ništa ne odgovara tom filtru."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
@@ -402,7 +402,7 @@ msgstr "Dodaj redak"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Ukloni ovaj redak"
+msgstr "Uklonite ovaj redak"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
@@ -428,11 +428,11 @@ msgstr "Kopirano"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Svaki Zinn® priključak na ovoj stranici i radi li on."
+msgstr "Svaki Zinn® priključak na ovoj web-stranici i radi li."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "Za ovaj dodatak nije potrebna nikakva veza."
+msgstr "Za ovaj priključak nije potrebno povezivanje."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -469,7 +469,7 @@ msgstr "Vrati na zadano"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Ovo vraća svaku postavku ovog dodatka na zadane vrijednosti. Nastaviti?"
+msgstr "Ovo vraća sve postavke ovog priključka na njihove zadane vrijednosti. Želite li nastaviti?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -477,7 +477,7 @@ msgstr "Dijagnostika za podršku"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Uvezi datoteku s postavkama"
+msgstr "Uvezite datoteku postavki"
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
@@ -485,7 +485,7 @@ msgstr "Uvezi"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Izvezene datoteke nikada ne sadrže lozinke, tokene ili API ključeve – morat ćete ih ponovno unijeti na novoj web-lokaciji."
+msgstr "Izvezene datoteke nikada ne sadrže lozinke, tokene ili API ključeve — morat ćete ih ponovno unijeti na novom web-mjestu."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -493,11 +493,11 @@ msgstr "Postavke su spremljene."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "Sve postavke na ovom dodatku vraćene su na zadane vrijednosti."
+msgstr "Sve postavke ovog priključka vraćene su na zadane vrijednosti."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
-msgstr "Gotovo."
+msgstr "Dovršeno."
 
 #: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
@@ -505,7 +505,7 @@ msgstr "Ta radnja nije dostupna."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Ta se datoteka nije mogła pročitati. Odaberite datoteku postavki izvezenu iz Zinn® dodatka."
+msgstr "Tu datoteku nije bilo moguće pročitati. Odaberite datoteku postavki izvezenu iz Zinn® priključka."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
@@ -519,16 +519,16 @@ msgstr "Ta datoteka nije izvoz postavki za Zinn®."
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Ta je datoteka izvezena iz drugog dodatka (%s), pa bi njen uvoz ovdje pohranio postavke koje ovaj dodatak ne prepoznaje."
+msgstr "Ta je datoteka izvezena iz drugog priključka (%s), pa bi se njezinim uvozom ovdje spremile postavke koje ovaj priključak ne razumije."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "Uvezen je %d postavk. Zaporke i API ključevi se nikada ne izvoze, stoga ih unesite ponovno."
-msgstr[1] "%d postavki je uvezeno. Zaporke i API ključevi nikada nisu uključeni u izvoz, stoga ih ponovo unesite."
-msgstr[2] "%d postavki je uvezeno. Zaporke i API ključevi nikada nisu uključeni u izvoz, stoga ih ponovo unesite."
+msgstr[0] "%d postavka je uvezena. Lozinke i API ključevi nikada se ne nalaze u izvozu, stoga ih unesite ponovno."
+msgstr[1] "Uvezeno je %d postavki. Lozinke i API ključevi nikada se ne nalaze u izvozu, pa ih unesite ponovno."
+msgstr[2] "Uvezeno je %d postavki. Lozinke i API ključevi nikada se ne nalaze u izvozu, pa ih unesite ponovno."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -544,11 +544,11 @@ msgstr "Povezano, ali nešto zahtijeva pažnju"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
-msgstr "Nije spojeno"
+msgstr "Nije povezano"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "Pokretanje na vašem računu"
+msgstr "Izvodi se na vašem vlastitom računu"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
@@ -556,7 +556,7 @@ msgstr "Nismo mogli ovo provjeriti"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Ovaj dodatak nije naveo razlog. Pošaljite dijagnostičko izvješće i mi ćemo ga pregledati."
+msgstr "Ovaj dodatak nije naveo razlog. Pošaljite dijagnostičko izvješće i mi ćemo pogledati."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -566,7 +566,7 @@ msgstr "Status veze"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Posljednja provjera prije %s."
+msgstr "Zadnja provjera prije %s."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
@@ -574,15 +574,15 @@ msgstr "(otvara se u novoj kartici)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Pošalji ovo u Zinn® podršku"
+msgstr "Pošaljite ovo podršci za Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Upravo je to ono što će biti poslano — ništa drugo i ništa skriveno. Vaše lozinke, tokeni i API ključevi nisu uključeni."
+msgstr "Upravo to će biti poslano — ništa drugo i ništa skriveno. Vaše lozinke, tokeni i API ključevi nisu u tome."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "Dijagnostičko izvješće koje će biti poslano"
+msgstr "Dijagnostički izvještaj koji će biti poslan"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
@@ -590,41 +590,41 @@ msgstr "Kopiraj u međuspremnik"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Pošaljite ovo izvješće Zinn® podršci"
+msgstr "Pošaljite ovo izvješće podršci za Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Otvaramo vam zahtjev za podršku i odgovaramo e-poštom. Ako ga radije ne biste poslali, kopirajte ga iznad i sami ga zalijepite u zahtjev."
+msgstr "Otvaramo tiket za podršku za Vas i odgovaramo e-poštom. Ako ga radije ne biste poslali, kopirajte ga iznad i sami ga zalijepite u tiket."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Nismo mogli dosegnuti Zinn Digital® s ovog poslužitelja (%s). Umjesto toga kopirajte gore navedeno izvješće i otvorite zahtjev — s vašim postavkama nije ništa u redu."
+msgstr "Nismo uspjeli doći do Zinn Digital® s ovog poslužitelja (%s). Kopirajte gore navedeni izvještaj i umjesto toga otvorite upit za podršku — nema pogreške u vašim postavkama."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Podrška za Zinn® primila je vaše izvješće i odgovorit će vam putem e-pošte."
+msgstr "Poslano. Podrška za Zinn® zaprimila je Vašu prijavu i odgovorit će e-poštom."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Podrška za Zinn® primila je vaše izvješće — referenca %s — i odgovorit će vam putem e-pošte."
+msgstr "Poslano. Podrška za Zinn® zaprimila je vašu prijavu — referenca %s — i odgovorit će vam putem e-pošte."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Poslali ste nekoliko izvješća u kratkom vremenu. Pričekajte nekoliko minuta i pokušajte ponovno – prethodna su stigla."
+msgstr "Poslali ste nekoliko izvještaja u kratkom vremenu. Pričekajte nekoliko minuta i pokušajte ponovno — prethodni su stigli."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® trenutno nije mogao prihvatiti izvješće — problem je s naše strane, ne s vaše. Pokušajte ponovno uskoro ili kopirajte gornje izvješće u tiket."
+msgstr "Zinn Digital® trenutačno nije mogao prihvatiti izvještaj — problem je s naše strane, a ne s Vaše. Pokušajte ponovno uskoro ili kopirajte gornji izvještaj u prijavu."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Izvještaj je odbijen (HTTP %d). Kopirajte ga gore i otvorite tiket, navodeći taj broj."
+msgstr "Izvještaj je odbijen (HTTP %d). Kopirajte ga iznad i otvorite prijavu, navodeći taj broj."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
@@ -635,13 +635,13 @@ msgstr "%s — vodiči i usluge"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
-msgstr "Korisnički vodiči"
+msgstr "Korisnički priručnici"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-reseller-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "Pročitajte korisnički priručnik za %s"
+msgstr "Pročitajte korisnički vodič za %s"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
@@ -653,53 +653,53 @@ msgstr "Zinn® hosting za WordPress"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, dnevne sigurnosne kopije, besplatna migracija i upravljačka ploča prilagođena osobama koje vode više web-mjesta."
+msgstr "LiteSpeed, svakodnevne sigurnosne kopije, besplatna migracija i upravljačka ploča stvorena za osobe koje vode više od jedne web-stranice."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "Zinn® tržnica"
+msgstr "Tržnica Zinn®"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Kupujte i prodajite već uspostavljene stranice, domene i plasmane poveznica, pri čemu se novac sigurno čuva dok obje strane ne budu zadovoljne."
+msgstr "Kupujte i prodajte etablirane web stranice, domene i plasmane poveznica, pri čemu se novac sigurno čuva dok obje strane ne budu zadovoljne."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — zaposlite ljude kojima je to struka"
+msgstr "Zinn Hub® — zaposlite ljude kojima je to posao"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Naše globalno tržište slobodnih radnika: pregledajte više od 10.000 gotovih usluga pisaca, dizajnerâ, programera i SEO stručnjaka ili objavite projekt i dopustite im da licitiraju."
+msgstr "Naša globalna burza slobodnih zanimanja: pregledajte više od 10 000 gotovih usluga pisaca, dizajnera, programera i SEO stručnjaka ili objavite projekt i omogućite im davanje ponuda."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "Prezadani stil"
+msgstr "Zadana postavka stila"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Polazna točka. Sve ispod toga ima prednost."
+msgstr "Početna točka. Sve ispod je nadjačava."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "Koristi moje vlastite boje i veličine"
+msgstr "Upotrijebite moje vlastite boje i veličine"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Ostavite ovo isključeno i unaprijed postavljena vrijednost koristit će se točno takva kakva jest."
+msgstr "Ostavite ovo isključeno i predložak će se koristiti točno onakav kakav jest."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Pogledajte bilješke o izdanju Zinn Digital®."
+msgstr "Pogledajte bilješke o izdanju za Zinn Digital®."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Usluga ažuriranja Zinn® nije izdala vezu za preuzimanje za ovo ažuriranje. Provjerite može li ova web-lokacija pristupiti platformi Zinn®, a zatim pokušajte ponovno."
+msgstr "Usluga ažuriranja Zinn® nije izdala poveznicu za preuzimanje ovog ažuriranja. Provjerite može li ovo web-mjesto pristupiti platformi Zinn®, a zatim pokušajte ponovno."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Ažuriranje se nije moglo preuzeti s usluge ažuriranja za Zinn® (%s). Pokušajte ponovno za nekoliko minuta."
+msgstr "Ažuriranje se nije moglo preuzeti s usluge ažuriranja Zinn® (%s). Pokušajte ponovo za nekoliko minuta."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
@@ -707,85 +707,85 @@ msgstr "Preuzeto ažuriranje nije prošlo provjeru integriteta i nije instaliran
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "Radnja se nije mogla dovršiti. Pokušajte ponovno, a ako i dalje ne uspijeva, obratite se administratoru web-mjesta."
+msgstr "Radnja se nije mogla dovršiti. Pokušajte ponovno, a ako se problem nastavi, obratite se administratoru web-mjesta."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "Nedostaje obavezna vrijednost ili je u pogrešnom obliku. Provjerite ulaznu shemu funkcije."
+msgstr "Potrebna vrijednost nedostaje ili je u pogrešnom obliku. Provjerite ulaznu shemu (input schema) mogućnosti."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
 msgstr "Web-mjesto je odbilo zahtjev."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Neka AI asistenti kao što su Claude, Cursor ili VS Code rade na ovoj web-lokaciji umjesto vas putem MCP-a (Model Context Protocol). Oni se prijavljuju kao WordPress korisnik s lozinkom aplikacije i mogu učiniti samo ono što je tom korisniku dopušteno."
+msgstr "Dopustite AI asistentima kao što su Claude, Cursor ili VS Code da rade na ovoj web-stranici za Vas putem MCP-a (Model Context Protocol). Prijavljuju se kao WordPress korisnik pomoću lozinke aplikacije i mogu raditi samo ono što je tom korisniku dopušteno."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "AI agenti zahtijevaju WordPress 6.9 ili noviju verziju. Ažurirajte WordPress kako biste ih mogli koristiti."
-
-#: includes/mcp-kit/class-server.php:232
-msgid "Connection address (MCP endpoint)"
-msgstr "Adresa povezivanja (MCP krajnja točka)"
-
-#: includes/mcp-kit/class-server.php:235
-msgid "Create an application password for your user"
-msgstr "Stvorite aplikacijsku lozinku za svog korisnika"
+msgstr "AI agenti zahtijevaju WordPress 6.9 ili noviji. Ažurirajte WordPress kako biste ih koristili."
 
 #: includes/mcp-kit/class-server.php:236
-msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "Dodajte ovo u MCP postavke svoje AI aplikacije, zajedno sa svojim korisničkim imenom i tom lozinkom:"
+msgid "Connection address (MCP endpoint)"
+msgstr "Adresa za povezivanje (krajnja točka MCP-a)"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:239
+msgid "Create an application password for your user"
+msgstr "Stvorite lozinku aplikacije za svog korisnika"
+
+#: includes/mcp-kit/class-server.php:240
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Dodajte ovo u MCP postavke svoje AI aplikacije, s vašim korisničkim imenom i tom lozinkom:"
+
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: stavite isti unos pod \"servers\" u .vscode/mcp.json, a ne pod \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Alati koje AI agent ovdje može koristiti (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
-msgstr "Korisnički vodič: AI agenti i MCP"
+msgstr "Korisnički priručnik: AI agenti i MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
-msgstr "Razvojna dokumentacija: mogućnosti, REST i MCP"
+msgstr "Dokumentacija za razvojne programere: mogućnosti, REST i MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "Upravljajte svojim klijentima hostinga, njihovim paketima i web-mjestima na platformi Zinn Digital® s ove lokacije."
+msgstr "Upravljajte svojim klijentima za hosting, njihovim paketima i njihovim web-mjestima na Zinn Digital® s ovog web-mjesta."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "Vaši klijenti, njihovi paketi i njihove web-lokacije, putem vašeg posredničkog računa za Zinn Digital®."
+msgstr "Vaši klijenti, njihovi paketi i njihove web stranice, putem Vašeg Zinn Digital® preprodajnog računa."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "Pročitajte svoj resellerski račun"
+msgstr "Pročitajte svoj preprodavački račun"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Vraća vaš preprodavački račun u jednom čitanju: brend, planove, broj klijenata i usluga te ono što je postavljeno."
+msgstr "Vraća vaš račun preprodavača u jednom čitanju: marku, planove, broj klijenata i usluga te što je postavljeno."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "Prikaz popisa klijenata"
+msgstr "Navedite svoje klijente"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "Prikazuje vaše klijentske račune, stranicu po stranicu (cursor, limit)."
+msgstr "Prikazuje Vaše korisničke račune klijenata, stranicu po stranicu (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
-msgstr "Kreiraj klijenta"
+msgstr "Stvorite klijenta"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Stvara klijentski račun pod vašim (ime; default_currency, troznamenkasti kod). Dodijelite im paket prije njihove prve web-lokacije."
+msgstr "Stvara klijentski račun pod vašim (name; default_currency, troznamenkasti kôd). Dodijelite im plan prije njihove prve web-stranice."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
@@ -797,51 +797,51 @@ msgstr "Vraća na kojem je paketu klijent i koliko vas to košta (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "Dodijelite klijentu paket"
+msgstr "Dodijelite klijenta planu"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "Stavlja klijenta na jedan od vaših paketa (client_id, plan_code; interval: mjesec ili godina). Učinite to prije njihove prve stranice."
+msgstr "Dodjeljuje klijenta jednom od vaših planova (client_id, plan_code; interval: month ili year). Učinite to prije njihove prve web-stranice."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
-msgstr "Prikažite planove koje možete prodavati"
+msgstr "Navedite pakete koje možete prodavati"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "Navodi planove hostinga i njihove cijene (product_line i currency ih sužavaju)."
+msgstr "Prikazuje popis planova smještaja i njihove cijene (product_line i currency ga sužavaju)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
-msgstr "Popisite stranice svojih klijenata"
+msgstr "Popišite web-mjesta svojih klijenata"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Navodi sve što ste osigurali za svoje klijente (client_id i status sužavaju pretragu), stranicu po stranicu."
+msgstr "Prikazuje popis svega što ste pripremili za svoje klijente (client_id i status sužavaju odabir), stranicu po stranicu."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
-msgstr "Kreirajte web-mjesto za klijenta"
+msgstr "Stvorite web-mjesto za klijenta"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Stvara hostanu stranicu za jednog od vaših klijenata (client_id, product_line, primary_domain). Naplaćuje se vašem računu prema planu klijenta, kao iz vaše trgovine."
+msgstr "Stvara hostiranu web-stranicu za jednog od vaših klijenata (client_id, product_line, primary_domain). Naplaćuje se na vaš račun prema klijentovom planu, kao iz vaše trgovine."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
-msgstr "Suspendiraj klijentovu stranicu"
+msgstr "Obustavite klijentovu web-stranicu"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "Stavlja klijentovu web-lokaciju u status mirovanja zbog neplaćanja (site_id; razlog: vaša vlastita bilješka, koja se nikada ne prikazuje klijentu). Web-lokacija prestaje s radom dok se ponovno ne aktivira."
+msgstr "Stavlja web-mjesto klijenta na čekanje zbog neplaćanja (site_id; reason: Vaša vlastita bilješka, nikada se ne prikazuje klijentu). Web-mjesto prestaje s radom dok mu se ne ukine suspenzija."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "Aktiviraj klijentovu stranicu"
+msgstr "Ukinite suspenziju klijentove web-stranice"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "Uklanja blokadu zbog neplaćanja, tako da web-mjesto ponovno radi (site_id)."
+msgstr "Uklanja suspenziju zbog neplaćanja, tako da web-mjesto ponovno radi (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
@@ -849,16 +849,16 @@ msgstr "Pročitajte postavke alata za preprodavače"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "Vraća postavke ovog dodatka (API adresu, paket koji koriste nove narudžbe, koje su značajke uključene). API ključ se nikada ne vraća, već samo informacija je li spremljen."
+msgstr "Vraća postavke ovog priključka (adresu API-ja, paket koji koriste nove narudžbe, koje su značajke uključene). API ključ se nikada ne vraća, samo podatak je li spremljen."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "Promijenite postavke alata za preprodavače"
+msgstr "Promijenite postavke Reseller Toolkita"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "Mijenja postavke koje šaljete (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), a ostale zadržava. API ključ i adresa mijenjaju se samo na zaslonu."
+msgstr "Mijenja postavke koje pošaljete (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) i zadržava ostale. API ključ i adresa mijenjaju se samo na zaslonu."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "Prvo dodajte svoj API ključ preprodavača za Zinn Digital® na zaslonu Alata za preprodavače."
+msgstr "Prvo dodajte svoj Zinn Digital® API ključ preprodavača na zaslonu Reseller Toolkit."

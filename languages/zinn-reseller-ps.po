@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "د Zinn Digital® کوربه‌توب (هوسټینګ) د خپل WordPress سایټ څخه وپلورئ — د WordPress، WooCommerce، اژانس، ریسلر، کلاوډ او VPS کوربه‌توب. د خپل ریسلر حساب څخه ډومینونه ولټوئ او وړاندیز کړئ, خپل پیرودونکي مستقیم د دوی د کوربه‌توب پینل ته ننوځئ، او کله چې د WooCommerce امر تادیه شي په اوتومات ډول کوربه‌توب چمتو کړئ."
+msgstr "د خپل WordPress سایټ څخه د Zinn Digital® کوربه توب وپلورئ — د WordPress، WooCommerce، ایجنسۍ، بیا پلورونکي، کلاوډ او VPS کوربه توب. د خپل بیا پلورونکي حساب څخه ډومینونه وپلټئ او وړاندیز یې کړئ، خپل پېرودونکي په مستقیم ډول د دوی د کوربه توب پینل ته داخل کړئ، او کله چې د WooCommerce امر تادیه شي په اوتومات ډول کوربه توب چمتو کړئ."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,7 +38,7 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "د هوسټنګ پلاتفورم د %d حالت سره ځواب ورکړ."
+msgstr "د کوربه توب پلاتفورم د %d حالت سره ځواب ورکړ."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
@@ -46,126 +46,126 @@ msgstr "خپل ډومین نوم ومومئ"
 
 #: includes/class-domain-search.php:75
 msgid "Search"
-msgstr "پلټل"
+msgstr "پلټنه"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "د دې نوم لپاره هیڅ کوم پلگ ان نه دی کتل شوی."
+msgstr "د دې نوم لپاره هیڅ پراخونې نه وې کتل شوې."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "په دې سایټ کې په دې شېبه کې د ډومین لټون شتون نه لري."
+msgstr "دا مهال په دې سایټ کې د ډومین لټون شتون نه لري."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "موږ اوس مهال د ډومین راجستر سره اړیکه نشو نیولی. مهرباني وکړئ لږ وروسته بیا هڅه وکړئ."
+msgstr "موږ همدا اوس د ډومین راجسټرۍ سره ونښلېدلو. مهرباني وکړئ لږ وروسته بیا هڅه وکړئ."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "د API کیلي شتون نه لري یا نوره باوري نه ده. مهرباني وکړئ دا د Zinn Digital® ← Reseller Toolkit لاندې وګورئ."
+msgstr "د API کیلي ورکه ده یا نور د اعتبار وړ نه ده. هغه د Zinn Digital® → Reseller Toolkit لاندې وګورئ."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "دې API کلي کې د sites.view اجازه نشته، کوم چې د ډومین لټون ورته اړتیا لري. دا د خپل پلورونکي په پینل کې کلي ته اضافه کړئ، یا دلته کلی پاک کړئ ترڅو عامه لټون ته راستانه شئ."
+msgstr "دا API کیلي د sites.view اجازه نه لري، کوم چې د ډومین لټون ورته اړتیا لري. دا په خپل پلورونکي پینل کې کیلي ته اضافه کړئ، یا عامه لټون ته د بیرته ستنیدو لپاره کیلي دلته پاکه کړئ."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
-msgstr "یوازې مدیران دا ګوري:"
+msgstr "دا یوازې مدیران لیدلی شي:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "مونږ نشو کولی دا چک کړو — بیا هڅه وکړئ"
+msgstr "موږ ونشو کړای چې دا وڅېړو — مهرباني وکړئ بیا هڅه وکړئ"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
-msgstr "وار ثبت شوی دی"
+msgstr "مخکې له مخکې ثبت شوی"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "موجود دی — د بیې په اړه له موږ څخه پوښتنه وکړئ"
+msgstr "شونی دی — د بیې لپاره له موږ څخه وپوښتئ"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr "د لومړي کال لپاره شتون لري — %1$s %2$s"
+msgstr "شتون لري — د لومړي کال لپاره %1$s %2$s"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
-msgstr "نوملیکل کړئ"
+msgstr "دا ثبت کړئ"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
-msgstr "د زېرمې (هاسټنګ) اداره کول"
+msgstr "زما د کوربه توب مدیریت کړئ"
 
 #: includes/class-panel-link.php:87
 msgid "Please sign in first."
-msgstr "مهرباني وکئ لومړی ننوتل (لاګ ان) شئ."
+msgstr "مهرباني وکړئ لومړی ننوځئ."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "دا حساب لا تر اوسه پورې د کوربتون له خدمت سره نه دی تړل شوی."
+msgstr "دا حساب تراوسه د کوربه توب له هیڅ خدمت سره نه دی نښلول شوی."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "د کوربڼې پلیټ فارم د ننوتلو لینک ونه ګرځاوه."
+msgstr "د کوربه توب پلټفارم د ننوتلو لینک بېرته ونه لېږه."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "د ریسلر توکیو کټ"
+msgstr "د پلورونکي اوزار کټ"
 
 #: includes/class-settings.php:127
 msgid "Account"
-msgstr "ګڼون"
+msgstr "حساب"
 
 #: includes/class-settings.php:131
 msgid "Features"
-msgstr "بڼې"
+msgstr "ځانګړنې"
 
 #: includes/class-settings.php:135
 msgid "Styling"
-msgstr "سټایل کول"
+msgstr "ډول ورکول"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
-msgstr "د AI اجنټان (MCP)"
+msgstr "د AI استازي (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
-msgstr "د AI اجنټانو (MCP) ته اجازه ورکول"
+msgstr "د AI استازو (MCP) ته اجازه ورکړئ"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "بند: لاندې وسایل او د هغو REST لارې په بشپړ ډول نه دي ثبت شوي."
+msgstr "بند: لاندې اوزار او د هغوی REST لارې بیخي نه دي ثبت شوې."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
-msgstr "د Zinn Digital® د پرچون پلورونکي اکاونټ مو"
+msgstr "ستاسو د Zinn Digital® د بیا پلورونکي حساب"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "په خپل Zinn® ډشبورډ کې د Developer → API keys لاندې د ریسلر API کلي (key) جوړه کړئ او دلته یې پیسټ کړئ."
+msgstr "خپل د Zinn® ډشبورډ کې د Developer → API keys لاندې د بیا پلورونکي API کلي جوړه کړئ، او دلته یې ورټومبئ."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
-msgstr "د پلورونکي API کیلي"
+msgstr "د بیا پلورونکي API کلۍ"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "په دې سایټ کې یوازې ساتل کېږي، او هیڅکله په صادراتو یا د تشخیص په راپور کې نه شاملېږي."
+msgstr "یوازې په دې سایټ کې ساتل کېږي، او هېڅکله په کوم صادر شوي فایل یا تشخیصی راپور کې نه شاملېږي."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "د چمتو کولو لپاره پلان"
+msgstr "د چمتو کولو پلان"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "هغه د پلان کوډ چې نوي پیرودونکي پرې ایښودل کیږي. د دې لپاره چې هره ځل پوښتنه وشي، تش یې پرېږدئ."
+msgstr "د پلان کوډ چې نوي پېرودونکي پرې شاملېږي. خالي یې پرېږدئ ترڅو هر ځل وپوښتل شي."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "د API پته"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "دغه کار ته لاس مه ورکوئ تر څو پورې چې د Zinn® ملاتړ ټیم له تاسو څخه د دې د بدلولو غوښتنه نه وي کړې."
+msgstr "دا پر خپل حال پرېږدئ ترڅو چې د Zinn® ملاتړ له تاسو څخه د دې د بدلولو غوښتنه نه وي کړې."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,7 +181,7 @@ msgstr "د کنټرول پینل پته"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "چې د «زما کوربه‌توب» لینک ستاسو پیرودونکي چیرته لیږي."
+msgstr "هغه ځای چې د \"زما کوربه توب\" لینک ستاسو پیرودونکي ورته لېږي."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -189,11 +189,11 @@ msgstr "د ډومین لټون"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "د [zinn_domain_search] شارټ کډ چمتو کړئ"
+msgstr "د [zinn_domain_search] لنډکوډ چمتو کړئ"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "شارټ کوډ په هره پاڼه کې کېږدئ ترڅو لیدونکو ته اجازه ورکړئ چې ډومین وګوري او ستاسو له لارې یې وپيي."
+msgstr "لنډکوډ په هره پاڼه کې کیږدئ ترڅو لیدونکو ته اجازه ورکړئ چې ډومین وګوري او ستاسو له لارې یې وپېري."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -201,7 +201,7 @@ msgstr "د پینل لینک"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "د ننوتلو پیرودونکو ته د «زما کوربه‌توب» لینک وښایاست"
+msgstr "ننوتلو پیرودونکو ته د \"زما کوربه توب\" لینک وښایاست"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
@@ -209,27 +209,27 @@ msgstr "د WooCommerce برابرول"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "کله چې د WooCommerce امر بشپړ شي نو په اتوماتيک ډول هوسټینګ چمتو کړئ"
+msgstr "د WooCommerce د فرمایش بشپړېدو سره سم کوربه توب په اتوماتيک ډول چمتو کړئ"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "یوازې په هغو فرمایشونو کې پلي کیږي چې یو محصول ولري چې تاسو د Zinn® پلان سره نښلولای وي."
+msgstr "یوازې په هغو فرمایشونو پلي کېږي چې هغه محصول ولري چې تاسو د Zinn® پلان سره نښلولی وي."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
-msgstr "د ډومین لټون ښکاره کېدل"
+msgstr "د ډومین لټون بڼه"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "دا ویجټ ستاسو په خپل تمپلټ کې ښودل کیږي. یو پرېسټ وټاکئ، یا خپل رنګونه وټاکئ — په دواړو حالتونو کې ستاسو پاڼو ته هیڅ داسې شی نه اضافه کیږي چې لیدونکی یې زموږ په توګه وګوري."
+msgstr "دا ویجټ ستاسو په خپل ټیمپلیټ کې دننه ښکاري. یو وړاندې ټاکل شوی ترتیب وټاکئ، یا خپل رنګونه وټاکئ — په هر حالت کې ستاسو پاڼو ته داسې څه نه اضافه کیږي چې لیدونکی یې زموږ په توګه وګوري."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "هغه ټول ټولګي چې ویجټ یې کاروي د پلګ ان په readme کې لیست شوي دي، ترڅو یو پرمخ وړونکی (ډیلوپر) وکولای شي هر هغه څه چې مخکې ټاکل شوی یو شی یې نه پوښي، له پامه وغورځوي."
+msgstr "هر ټولګی چې ویجټ یې کاروي د پلگ ان په readme کې لیست شوی، ترڅو یو جوړونکی وکولی شي هر هغه څه تکرار کړي چې مخکینۍ ترتیب یې نه پوښي."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
-msgstr "د زېم پیروي وکړئ"
+msgstr "زما بڼه تعقیب کړئ"
 
 #: includes/class-settings.php:298
 msgid "Soft"
@@ -237,23 +237,23 @@ msgstr "نرم"
 
 #: includes/class-settings.php:314
 msgid "High contrast"
-msgstr "لوړ توپیر"
+msgstr "لوړ تناقض"
 
 #: includes/class-settings.php:330
 msgid "Compact"
-msgstr "متوځی کول"
+msgstr "کمپیکٹ"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
-msgstr "د پیرود لینک رنګ"
+msgstr "د پېرودلو د لېنک رنګ"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "«د شتون وړ» رنګ"
+msgstr "د \"شتون لري\" رنګ"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "د «Could not check» رنګ"
+msgstr "د «کتل نشول» رنګ"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -261,15 +261,15 @@ msgstr "د تېروتنې رنګ"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
-msgstr "د کونج گرداوونی"
+msgstr "د کونجونو ګردوالی"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "د هرې قطار دننه فضا"
+msgstr "د هر قطار دننه ځای"
 
 #: includes/class-settings.php:373
 msgid "Text size"
-msgstr "د متن اندازه"
+msgstr "د متن کچه"
 
 #: includes/class-settings.php:377
 msgid "Domain-name weight"
@@ -277,11 +277,11 @@ msgstr "د ډومین نوم وزن"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "تر اوسه پورې د ریسلر API کلي نشته."
+msgstr "تراوسه د بیا پلورونکي API کلي نشته."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "د ډومین لټون دمخه د عامو نرخونو سره پرته له دې کار کوي. د پینل لینک او WooCommerce چمتو کولو لپاره کیلي ته اړتیا ده: په خپل Zinn® ډشبورډ کې د Developer → API keys لاندې یو جوړ کړئ."
+msgstr "د ډومین لټون دمخه پرته له دې، په عامه نرخونو کار کوي. د پینل لینک او د WooCommerce چمتو کول کیلي ته اړتیا لري: د خپل Zinn® ډشبورډ کې د Developer → API keys لاندې یوه جوړه کړئ."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
@@ -289,27 +289,27 @@ msgstr "زما د Zinn® ډشبورډ پرانیزئ"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "یو کیلي ټاکل شوې ده، مګر هیڅ شی نه دی فعال شوی."
+msgstr "کیلي ټاکل شوې، خو هېڅ شی فعال شوی نه دی."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "د دریو ځانګړتیاو څخه هیڅ یو هم نه دی فعال شوی، نو دا پلگ ان ستاسو په سایټ کې هیڅ نه کوي. د ځانګړتیاو لاندې هغه څه فعال کړئ چې تاسو ورته اړتیا لرئ."
+msgstr "له دریو ځانګړتیاوو څخه هیڅ یو هم فعال شوی نه دی، نو دا پلګ ان ستاسو په سایټ کې هیڅ نه کوي. هغه څه چې تاسو ورته اړتیا لرئ د ځانګړتیاوو لاندې فعال کړئ."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
-msgstr "خصوصیات خلاصې کړئ"
+msgstr "ځانګړتیاوې پرانیزئ"
 
 #. translators: %d: how many toolkit features are switched on.
 #: includes/class-settings.php:432
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
-msgstr[0] "مت آماده دي — %d ځانګړتیا فعاله شوې ده."
-msgstr[1] "چمتو — %d ځانګړتیاوې فعالې شوې."
+msgstr[0] "چمتو — %d ځانګړنه فعاله شوه."
+msgstr[1] "چمتو دی — %d ځانګړتیاوې فعالې شوې."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
-msgstr "د (څخه) پلورل کیږي"
+msgstr "پلور له"
 
 #: includes/class-settings.php:471
 msgid "Settings"
@@ -317,55 +317,55 @@ msgstr "تنظیمات"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "تر اوسه کوم API کیلي نشته، نو هیڅ شی نه دی وصل شوی."
+msgstr "تراوسه د API کیلي نشته، نو هیڅ شی نه دی نښلول شوی."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
-msgstr "وصل نه دی: %s"
+msgstr "نه دی نښلول شوی: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
 #: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr "وصل شو. ستاسو د پلورونکي پروګرام %s دی."
+msgstr "وصل شو. ستاسو د بیا پلورونکي پروګرام %s دی."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "هیڅ د Zinn® API کیلي نه ده شوې ترتیب شوې، نو هیڅ شی هم ونه غوښتل شو."
+msgstr "د Zinn® API هیڅ کلیمه نه ده تنظیم شوې، نو هیڅ شی چمتو نه شو."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "په دې سپارښتنه کې د ډومین نوم نه و شامل، نو د برابرولو لپاره هیڅ شی نه و."
+msgstr "په دې سپارښتنه کې د ډومین نوم شامل نه و، نو د چمتو کولو لپاره څه نه وو."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
-msgstr "د کوربه توب پلیټ فارم کوم سایټ ونه ګرځاوه."
+msgstr "د کوربه توب پلاتفورم هیڅ سایټ بیرته راستون نه کړ."
 
 #. translators: 1: domain name, 2: hosting service id.
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "د %1$s (خدمت %2$s) لپاره چمتو شوی Zinn® هوسټنګ."
+msgstr "د %1$s لپاره Zinn® کوربه توب چمتو شو (خدمت %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
-msgstr "کوربه توب پلاتفورم د پیرودونکي حساب ونه ګرځاوه."
+msgstr "د کوربه توب پلاتفورم د پیرودونکي کوم حساب بیرته نه کړ."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Zinn® کوربه توب ندی چمتو شوی: %s"
+msgstr "د Zinn® کوربه توب چمتو نه شو: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
-msgstr "د Zinn® د محصولاتو کرښه"
+msgstr "د Zinn® د تولیداتو لړۍ"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "کله چې دا محصول پیرودل شي، د چمتو کولو لپاره د Zinn® محصول کرښه. د پلگ ان تنظیماتو څخه د ډیفالټ کارولو لپاره خالي پریږدئ."
+msgstr "د Zinn® د تولید لړۍ چې کله دا محصول وپېرل شي چمتو کېږي. د پلګ ان د تنظیماتو څخه د ډیفالټ کارولو لپاره یې خالي پرېږدئ."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
@@ -373,35 +373,35 @@ msgstr "د Zinn® کوربه توب"
 
 #: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
-msgstr "د خدمت پېژندی (ID)"
+msgstr "د خدمت پېژند"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "د دې امر لپاره هېڅ شی نه دی چمتو شوی."
+msgstr "د دې فرمایش لپاره هیڅ شی نه دي چمتو شوي."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "خوندی شو. د دې د ځای پر ځای کولو لپاره یو نوی ارزښت ولیکئ."
+msgstr "زېرمه شو. د دې د بدلولو لپاره یو نوی ارزښت ولیکئ."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "د دې لست فلتر کول…"
+msgstr "دا لړلیک فلټر کړئ…"
 
 #: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
-msgstr "دا لړلاری فلټر کړئ"
+msgstr "دا لړلیک فلټر کړئ"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "هیڅ شی له دې فلټر سره سمون نه خوري."
+msgstr "د دې فلټر سره هیڅ شی سمون نه خوري."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
-msgstr "س قطار اضافه کړئ"
+msgstr "یو قطار اضافه کړئ"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "دا قطار لرې کول"
+msgstr "دا قطار لرې کړئ"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
@@ -415,7 +415,7 @@ msgstr "Zinn Digital®"
 
 #: includes/class-zinn-reseller-admin-ui.php:294
 msgid "Zinn Digital® — overview"
-msgstr "Zinn Digital® — کتنه"
+msgstr "Zinn Digital® — عمومي کتنه"
 
 #: includes/class-zinn-reseller-admin-ui.php:295
 msgid "Overview"
@@ -427,24 +427,24 @@ msgstr "کاپی شو"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "په دې سایټ کې هر Zinn® پلگ ان، او ایا دا کار کوي."
+msgstr "په دې سایټ کې هر Zinn® پلګ ان، او ایا دا کار کوي."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "دې پلگ ان لپاره هېڅ انټرنیټي پيوستون ته اړتیا نشته."
+msgstr "د دې پلګ ان لپاره هیڅ پیوستون ته اړتیا نشته."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
-msgstr "امر تنظیمات پرانیستئ"
+msgstr "تنظیمات پرانیزئ"
 
 #: includes/class-zinn-reseller-admin-ui.php:770
 #: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "تاسو د دې امستنو د بدلولو اجازه نه لرئ."
+msgstr "تاسو د دې ترتیباتو د بدلولو اجازه نه لرئ."
 
 #: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
-msgstr "د تنظیمونو برخې"
+msgstr "د ترتیباتو برخې"
 
 #: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
@@ -456,27 +456,27 @@ msgstr "بدلونونه خوندي کړئ"
 
 #: includes/class-zinn-reseller-admin-ui.php:958
 msgid "Tools"
-msgstr "تیرې"
+msgstr "اوزارونه"
 
 #: includes/class-zinn-reseller-admin-ui.php:973
 msgid "Export settings"
-msgstr "د تنظیمونو صادرول"
+msgstr "تنظیمات صادر کړئ"
 
 #: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "پخوانیو ته ورته تنظیمول"
+msgstr "اصلي حالت ته بیا تنظیمول"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "دا د دې پلگ ان ټول تنظیمات بیرته خپل اصلي حالت ته راولي. ایا غواړئ دوام ورکړئ؟"
+msgstr "دا به په دې پلګ ان کې هر تنظیم بیرته خپل ډیفالټ ته واړوي. دوام ورکوئ؟"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "د ملاتړ لپاره تشخیصي وسایل"
+msgstr "د ملاتړ لپاره تشخیص"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "د ترتیبونو یو فایل وارد کړئ"
+msgstr "د ترتیباتو دوتنه وارد کړئ"
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
@@ -484,15 +484,15 @@ msgstr "واردول"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "صادر شوي دوتسې هېڅکله پټې کلمې، ټوکنونه یا د API کلي نه لري — تاسو به اړ یاست چې په نوي سایټ کې هغه یو ځل بیا دننه کړئ."
+msgstr "صادر شوي فایلونه هیڅکله پټنومونه، ټوکنونه یا د API کلي ګانې نه لري — تاسو به اړتیا ولرئ چې دا بیا په نوي سایټ کې دننه کړئ."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
-msgstr "تنظیمات خوندي شوې."
+msgstr "تنظیمات خوندي شول."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "د دې پلگ ان هر یو تنظیم خپل پخواني حالت ته راګرځیدلی دی."
+msgstr "د دې پلګ ان هر ترتیب خپل ډیفالټ حالت ته راستون شو."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
@@ -504,33 +504,33 @@ msgstr "دا عمل شتون نه لري."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "دا دوتنه نه شي لوستل کېدلی. د Zinn® پلگ ان څخه صادر شوی د ترتیباتو دوتنه وټاکئ."
+msgstr "هغه فایل ونه لوستل شو. د Zinn® پلګ ان څخه صادر شوی د ترتیباتو فایل وټاکئ."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "دا دوتنه د ترتیباتو د صادرولو لپاره ډیره لویه ده."
+msgstr "دا فایل د ترتیباتو د صادرولو لپاره خورا لوی دی."
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "دا فایل د Zinn® د ترتیبولو تصدیر نه دی."
+msgstr "هغه فایل د Zinn® ترتیباتو صادرول نه دی."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "دا فایل له بل پلگ ان (%s) څخه صادر شوی دی، نو دلته د هغې واردول به هغه ترتیبات وساتي چې دا پلگ ان یې نه پوهیږي."
+msgstr "دا فایل له یو بل پلګ ان (%s) څخه صادر شوی و، نو دلته یې واردول به هغه ترتیبات خوندي کړي چې دا پلګ ان پرې نه پوهیږي."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d ترتیب وارد شو. پټې کلمې او د API کیليګې هيڅکله په صادرولو کې نه وي، نو هغوی بیا داخل کړئ."
-msgstr[1] "%d تنظیمات وارد شول. پټې کلیمې (پاسورډونه) او د API کليوي هیڅکله په صادرولو کې نه وي، نو هغوی بیا دننه کړئ."
+msgstr[0] "%d ترتیبات وارد شول. پټنومونه او د API کیلي هيڅکله په صادراتو کې نه راځي، نو مهرباني وکړئ هغه بیا دننه کړئ."
+msgstr[1] "%d ترتیبات وارد شول. پټنومونه او د API کیلي ګانې هیڅکله په صادراتو کې نه راځي، نو مهرباني وکړئ هغه بیا دننه کړئ."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
-msgstr "وصل شوی"
+msgstr "وصل شو"
 
 #: includes/class-zinn-reseller-connection.php:60
 msgid "Connecting…"
@@ -538,53 +538,53 @@ msgstr "نښلول کېږي…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "وصل دی، خو یو څه پاملرنې ته اړتیا لري"
+msgstr "وصل شو، خو یو څه پاملرنې ته اړتیا لري"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
-msgstr "نښلیدلی نه دی"
+msgstr "نښلول شوی نه دی"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "ستاسو په خپل اکاونټ کې چلېږي"
+msgstr "ستاسو په خپل حساب کې روان دی"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "موږ نشو کولی دا وڅیړو"
+msgstr "موږ ونشو کړای چې دا وڅېړو"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "دا پلګ ان ولې ونه ویل. د تشخیص راپور واستوئ او موږ به یې وګورو."
+msgstr "دې پلګ ان لامل نه دی ښودلی. د تشخیصولو راپور واستوئ او موږ به یې وڅېړو."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
-msgstr "د اتصال حالت"
+msgstr "د پیوستون حالت"
 
 #. translators: %s: a human-readable interval such as "5 minutes".
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "وروستی ځل %s وړاندې وکتل شو."
+msgstr "وروستی ځل %s وړاندې وڅارل شو."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(په یوه نوي ټب کې پرانیستل کیږي)"
+msgstr "(په نوې پاڼه کې پرانيستل کېږي)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "د Zinn® ملاتړ ته دا واستوئ"
+msgstr "دا د Zinn® ملاتړ ته واستوئ"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "دا په سمه توګه هغه څه دي چې لیږل کیږي — بل هیڅ شی نه، او نه هم کوم پټ شی. ستاسو پټې کلمې (passwordونه)، ټوکنونه او د API کیلي پکې نشته."
+msgstr "دا کټ مټ هغه څه دي چې واستول شي — نور هیڅ نه، او هیڅ پټ نه دي. ستاسو پټنومونه، ټوکنونه او د API کیلي په دې کې نشته."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "د تشخیص راپور چې استول کیږي"
+msgstr "د تشخیص راپور چې واستول شي"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "د کلېپبورډ ته کاپي کول"
+msgstr "کلیپ بورډ ته کاپي کول"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
@@ -592,37 +592,37 @@ msgstr "دا راپور د Zinn® ملاتړ ته واستوئ"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "موږ ستاسو لپاره د ملاتړ ټکټ پرانیزو او په برېښنالیک کې ځواب ورکوو. که تاسو یې نه غواړئ واستوئ، پورته یې کاپي کړئ او پخپله یې په یوه ټکټ کې ځانګړی کړئ."
+msgstr "موږ ستاسو لپاره د ملاتړ ټکټ پرانیزو او د بریښنالیک له لارې ځواب درکوو. که تاسو غوره ګڼئ چې دا ونه لیږئ، دا پورته کاپي کړئ او پخپله یې په ټکټ کې پیسټ کړئ."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "موږ نشو کولی له دې سرور (%s) څخه Zinn Digital® ته ورسېږو. پورتنی راپور کاپي کړئ او پرځای یې یو ټکټ پرانیزئ — ستاسو د ترتیباتو په اړه هیڅ شی غلط نه دی."
+msgstr "موږ ونشو کړای له دې سرور (%s) څخه Zinn Digital® ته ورسېږو. پورتنی راپور کاپي کړئ او پرځای یې یو ټکټ خلاص کړئ — ستاسو په ترتیباتو کې هیڅ غلطي شتون نلري."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "د Zinn® ملاتړ ستاسو راپور ترلاسه کړی او د برېښنالیک له لارې به ځواب درکړي."
+msgstr "ولېږل شو. د Zinn® ملاتړ ستاسو راپور ترلاسه کړی او د بریښنالیک له لارې به ځواب درکړي."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "د Zinn® ملاتړ ستاسو راپور ترلاسه کړ — د حوالې نمبر %s — او د برېښنالیک له لارې به ځواب درکړي۔"
+msgstr "ولېږل شو. د Zinn® ملاتړ ستاسو راپور ترلاسه کړی — مرجع %s — او د بریښنالیک له لارې به ځواب درکړي."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "تاسو په لنډ وخت کې څو راپورونه لیږلي دي. څو دقیقې انتظار وکړئ او بیا هڅه وکړئ — پخواني یې رسیدلي دي."
+msgstr "تاسو په لږ وخت کې څو راپورونه لیږلي دي. څو دقیقې انتظار وکړئ او بیا هڅه وکړئ — مخکیني راپورونه رسیدلي دي."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® راپور په دې شیبه کې ونه منلو — دا زموږ اړخ دی، ستاسو نه. لږ وروسته بیا هڅه وکړئ، یا پورتنی راپور په یو ټکټ کې کاپي کړئ."
+msgstr "Zinn Digital® همدا اوس راپور ونه شو منلای — دا ستونزه زموږ له خوا ده، نه ستاسو له خوا. لږ وروسته بیا هڅه وکړئ، یا پورته راپور په یو ټکټ کې کاپي کړئ."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "راپور رد شو (HTTP %d). پورته یې کاپي کړئ او ټکټ پرانیزئ، او هغه شمېره په کې ذکر کړئ."
+msgstr "راپور رد شو (HTTP %d). دا پورته کاپي کړئ او د دې شمېرې په یادولو سره یو ټکټ پرانیزئ."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
@@ -633,7 +633,7 @@ msgstr "%s — لارښودونه او خدمتونه"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
-msgstr "کاروونکي لارښودونه"
+msgstr "د کاروونکي لارښودونه"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-reseller-promo.php:306
@@ -643,147 +643,147 @@ msgstr "د %s کارن لارښود ولولئ"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
-msgstr "دا پټول"
+msgstr "دا پټ کړئ"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "د WordPress لپاره Zinn® کوربتوب"
+msgstr "د WordPress لپاره Zinn® کوربه توب"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed، ورځنۍ بیک اپونه، وړیا مهاجرت او یو کنټرول پینل چې د هغو کسانو لپاره جوړ شوی چې له یو څخه ډېر سایټونه چلوي."
+msgstr "LiteSpeed، ورځنۍ شاتړنې، وړیا لېږد، او یو کنټرول پینل چې د هغو کسانو لپاره جوړ شوی چې له یوه څخه ډېر سایټونه پرمخ وړي."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "د Zinn® پلورنځی"
+msgstr "د Zinn® بازار"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "جوړې شوې پاڼې، ډومینونه او د لینک ځای پر ځای کولو ځایونه وپېرئ او وپلورئ، په داسې حال کې چې پیسې په خوندي توګه ساتل کېږي تر څو چې دواړه لوري خوشحاله وي."
+msgstr "تاسیس شوي سایټونه، ډومینونه او د لینک ځای پرځای کول واخلئ او وپلورئ، پداسې حال کې چې پیسې تر هغه وخته په خوندي ډول ساتل کیږي ترڅو دواړه خواوې راضي شي."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — هغه کسان وګمارئ چې دا کار د مسلک په توګه کوي"
+msgstr "Zinn Hub® — هغه کسان وګمارئ چې دا د دوی مسلک دی"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "زموږ د آزاد کارانو نړیوال بازار: د لیکوالانو، ډیزاینرانو، پرمختگ کونکو او د SEO متخصصینو څخه د ۱۰،۰۰۰ څخه زیات چمتو شوي خدمتونه وپلټئ، یا یو پروژه خپره کړئ او هغوی ته د داوطلبۍ اجازه ورکړئ."
+msgstr "زموږ نړیوال ازاد بازار: د لیکوالانو، ډیزاینرانو، پراختیا کونکو او SEO کارپوهانو څخه له ۱۰،۰۰۰ څخه ډیر چمتو شوي خدمات وپلټئ، یا پروژه خپره کړئ او هغوی ته د نرخ وړاندیز کولو اجازه ورکړئ."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "د سټایل مخکې ټاکل شوی حالت"
+msgstr "د سټایل مخکینی ترتیب"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "یو پیلنی ځای. هرڅه چې لاندې وي، هغه ترې مخکې کیږي."
+msgstr "د پیل یوه نقطه. لاندې هر څه پر هغې برلاسی کیږي."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "خپل رنګونه او اندازې وکاروئ"
+msgstr "زما خپل رنګونه او اندازې وکاروئ"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "دا بند وساتئ او مخکینۍ تنظیم شوې بڼه په همدې ډول کارول کیږي."
+msgstr "دا بند وساتئ او پخوانۍ ټاکنه به کټ مټ لکه څنګه چې ده وکارول شي."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "د Zinn Digital® د خپرولو یادښتونه وګورئ."
+msgstr "د Zinn Digital® د خپرېدو یادښتونه وګورئ."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "د Zinn® د تازه کولو خدمت د دې تازه کولو لپاره د ډاونلوډ لینک نه دی خپور کړی. وګورئ چې دا سایټ کولی شي د Zinn® پلیټ فارم ته ورسیږي، بیا هڅه وکړئ."
+msgstr "د Zinn® د تازه کولو خدمت د دې تازه کولو لپاره د ډاونلوډ لینک نه دی ورکړی. وګورئ چې دا سایټ کولی شي د Zinn® پلاتفورم ته لاسرسی ومومي، بیا هڅه وکړئ."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "تازه کول د Zinn® تازه کولو خدمت (%s) څخه نش شو ډاونلوډ کیدی. څو دقیقې وروسته بیا هڅه وکړئ."
+msgstr "تازه کول د Zinn® د تازه کولو له خدمت (%s) څخه ډاونلوډ نه شو. څو دقیقې وروسته بیا هڅه وکړئ."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "د ډاونلوډ شوي تازه معلوماتو د روغتیا معاینه ناکامه شوه او ونه لګول شول."
+msgstr "ښکته شوی تازه والی په بشپړتیايي ازموینه کې ناکام شو او نصب نه شو."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "عمل نشي بشپړ کیدلی. بیا هڅه وکړئ، او که بیا هم ناکام شو، د سایټ له مدیر سره اړیکه ونیسئ."
+msgstr "کړنه بشپړه نه شوه. مهرباني وکړئ بیا هڅه وکړئ، او که ستونزه دوام ومومي، نو د سایټ له مدیر سره اړیکه ونیسئ."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "یو اړین ارزښت ورک دی یا ناسم شکل لري. د وړتیا د ان پټ سکيما وګورئ."
+msgstr "یو اړین ارزښت ورک دی یا ناسم شکل لري. د وړتیا د انپټ سکیم (input schema) وګورئ."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
-msgstr "سایت غوښتنه رد کړه."
+msgstr "سایټ دا غوښتنه رد کړه."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "د Claude، Cursor یا VS Code په څیر د AI مرستندویانو ته اجازه ورکړئ چې د MCP (ماډل کنټکټ پروتوکول) له لارې ستاسو لپاره په دې سایټ کې کار وکړي. دوی د غوښتنلیک پټنوم سره د وردپریس (WordPress) کاروونکي په توګه ننوځي او یوازې هغه څه کولی شي چې د هغه کاروونکي اجازه لري."
+msgstr "د مصنوعي ذهانت مرستندویانو ته لکه Claude، Cursor یا VS Code اجازه ورکړئ چې د MCP (Model Context Protocol) له لارې ستاسو لپاره پدې سایټ کې کار وکړي. دوی د اپلیکیشن پاسورډ سره د WordPress کاروونکي په توګه ننوځي او یوازې هغه څه کولی شي چې هغه کاروونکي ته یې د کولو اجازه وي."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "مصنوعي استازي WordPress 6.9 یا وروسته نسخې ته اړتیا لري. د کارولو لپاره یې WordPress تازه کړئ."
-
-#: includes/mcp-kit/class-server.php:232
-msgid "Connection address (MCP endpoint)"
-msgstr "د اتصال پته (MCP پای ټکی)"
-
-#: includes/mcp-kit/class-server.php:235
-msgid "Create an application password for your user"
-msgstr "د خپل کارن لپاره د غوښتنلیک پټنوم جوړ کړئ"
+msgstr "د AI ایجنټان WordPress 6.9 یا وروستۍ نسخې ته اړتیا لري. د دوی د کارولو لپاره WordPress تازه کړئ."
 
 #: includes/mcp-kit/class-server.php:236
-msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "دا خپله د کاروونکي نوم او هغه پټنوم سره یوځای، د خپل AI اپلیکیشن د MCP په ترتیباتو کې اضافه کړئ:"
+msgid "Connection address (MCP endpoint)"
+msgstr "د پیوستون پته (د MCP پای ټکی)"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:239
+msgid "Create an application password for your user"
+msgstr "د خپل کاروونکي لپاره د اپلیکیشن پټنوم جوړ کړئ"
+
+#: includes/mcp-kit/class-server.php:240
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "دا د خپل کارن نوم او هغه پټنوم سره د خپل AI اپلیکیشن MCP ترتیباتو کې اضافه کړئ:"
+
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: همدغه داخلېدل د \"mcpServers\" پر ځای په .vscode/mcp.json کې د \"servers\" لاندې کیږدئ."
+msgstr "VS Code: ورته ننوت په .vscode/mcp.json کې د \"servers\" لاندې واچوئ، نه د \"mcpServers\" لاندې."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "دلته یو مصنوعي ذهانت (AI) استازی کارولی شي وسایل (%d):"
+msgstr "هغه وسيلې چې د AI استازی یې دلته کارولی شي (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
-msgstr "د کارونکي لارښود: مصنوعي استازي او MCP"
+msgstr "د کارونکي لارښود: د AI استازي او MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
-msgstr "د پرمخ وړونکي اسناد: وړتیاوې، REST او MCP"
+msgstr "د پراختیا کونکي اسناد: وړتیاوې، REST او MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "د دې سایټ څخه په Zinn Digital® کې د خپل هوسټینګ پیرودونکي، د هغو پلانونه او سایټونه اداره کړئ."
+msgstr "له دې سایټ څخه په Zinn Digital® کې د خپل کوربه توب پیرودونکي، د هغوی پلانونه او د هغوی سایټونه اداره کړئ."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "ستاسو د Zinn Digital® ریسلر اکاونټ له لارې، ستاسو پیرودونکي، د دوی پلانونه او د دوی سایټونه."
+msgstr "ستاسو پیرودونکي، د هغوی پلانونه او د هغوی سایټونه، ستاسو د Zinn Digital® د بیا پلورونکي حساب له لارې."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "خپل د پلورونکي حساب ولولئ"
+msgstr "خپل د بیا پلورونکي حساب ولولئ"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "ستاسو د ریسلر اکاونټ په یو ځل لوستلو سره بیرته راګرځوي: برنډ، پلانونه، د پیرودونکو او خدماتو شمیر، او څه شی تنظیم شوی دی."
+msgstr "ستاسو د بیا پلورونکي حساب په یو لوستلو کې راګرځوي: برانډ، پلانونه، د پیرودونکو او خدماتو شمیر، او څه چې تنظیم شوي دي."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "خپل پیرودونکي لست کړئ"
+msgstr "خپل پیرودونکي لیست کړئ"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "ستاسو د پیرودونکو اکاونټونه په یو ځل کې د یوې پاڼې په کچه لیست کوي (کرسر، حد)."
+msgstr "ستاسو د پېرودونکو حسابونه په یو وخت کې یوه پاڼه لېست کوي (cursor، limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
-msgstr "پېرودونکی جوړول"
+msgstr "یو پیردونکی جوړ کړئ"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "د خپل تر لاندې د پیرودونکي حساب جوړوي (name؛ default_currency، د دریو تورو کوډ). د دوی د لومړي سایټ څخه مخکې دوی په یوه پلان کې واچوئ."
+msgstr "ستاسو تر حساب لاندې د پیرودونکي حساب جوړوي (name؛ default_currency، درې توري لرونکی کوډ). د دوی له لومړي سایټ څخه مخکې هغوی په یوه پلان کې شامل کړئ."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
@@ -791,15 +791,15 @@ msgstr "د پیرودونکي پلان ولولئ"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "دا مشخص کوي چې پیرودونکی په کوم پلان کې دی او دا ستاسو لپاره څومره لګښت لري (client_id)."
+msgstr "دا ښيي چې پیرودونکی په کوم پلان کې دی او دا ستاسو لپاره څومره لګښت لري (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "یو پیرودونکی په پلان کې ونیسئ"
+msgstr "یو پیرودونکی په یو پلان کې شامل کړئ"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "یو پیرودونکي ستاسو په یو پلان کې اچوي (client_id, plan_code; interval: میاشت یا کال). دا د دوی له لومړي سایټ څخه مخکې ترسره کړئ."
+msgstr "یو پیرودونکی ستاسو په یو پلان کې اضافه کوي (client_id، plan_code؛ interval: month یا year). دا د دوی د لومړني سایټ څخه مخکې ترسره کړئ."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
@@ -807,56 +807,56 @@ msgstr "هغه پلانونه لېست کړئ چې تاسو یې پلورلی ش
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "د کوربتوب پلانونه او د هغوی قیمتونه لیست کوي (product_line او currency یې محدودوي)."
+msgstr "د کوربه توب پلانونه او د هغوی بیې لړلیک کوي (product_line او currency یې محدودوي)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
-msgstr "د خپلو پیرودونکو سایټونه لیست کړئ"
+msgstr "د خپلو پېرودونکو سایټونه وښایئ"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "د هغو ټولو شیانو لېست کوي چې تاسو د خپلو پېرودونکو لپاره چمتو کړي دي (client_id او status یې ساحه محدوده کوي)، په یو ځل کې یو مخ."
+msgstr "هر هغه څه چې تاسو د خپلو پیرودونکو لپاره چمتو کړي دي لست کوي (client_id او status یې محدودوي)، په یو وخت کې یوه پاڼه."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
-msgstr "د پیرودونکي لپاره سایټ جوړ کړئ"
+msgstr "د یو پېرودونکي لپاره یو سایټ جوړ کړئ"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "د خپلو پیرودونکو څخه یو لپاره کوربه شوی سایټ جوړوي (client_id, product_line, primary_domain). دا ستاسو په پلورنځي کې، د پیرودونکي د پلان له مخې ستاسو په حساب کې بیل کیږي."
+msgstr "ستاسو د یو پیرودونکي لپاره کوربه شوی سایټ جوړوي (client_id, product_line, primary_domain). دا ستاسو حساب ته د پیرودونکي د پلان له مخې، لکه ستاسو له پلورنځي څخه، بل کیږي."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
-msgstr "د پیرودونکي پاڼه ځنډول"
+msgstr "د پیرودونکي سایټ وځنډوئ"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "د پیرودونکي یوه پاڼه د نه ورکړې له امله ودروي (site_id؛ دلیل: ستاسو خپل یادښت، هیڅکله پیرودونکي ته نه ښودل کیږي). دا پاڼه تر هغې پورې نه خپریږي تر څو چې بیا ونه ځلومول شي."
+msgstr "د پیرودونکي سایټ د نه تادیې له امله په ځنډ کې اچوي (site_id؛ reason: ستاسو خپل یادښت، هیڅکله پیرودونکي ته نه ښودل کیږي). سایټ تر هغه وخته خدمت بندوي ترڅو چې له ځنډ څخه ونه ایستل شي."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "د یو پیرودونکي سایټ بیا فعال کړئ"
+msgstr "د پېرودونکي وېبپاڼه له ځنډولو راوباسئ"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "د نه تادیب بندیز لیرې کوي، ترڅو سایټ بیا کار وکړي (site_id)."
+msgstr "د نه تادیې بندیز لرې کوي، ترڅو سایټ بېرته فعال شي (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "د پلورونکي ټوول کټ (Reseller Toolkit) پاڼې تنظیمات ولولئ"
+msgstr "د Reseller Toolkit تنظیمات ولولئ"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "د دې پلگ ان تنظیمات بیرته راګرځوي (د API پته، هغه پلان چې نوي امرونه یې کاروي، کومې ځانګړتیاوې فعالې دي). د API کلي هیڅکله نه بیرته راستنیږي، یوازې دا چې آیا یو خوندي شوی دی که نه."
+msgstr "د دې پلګ ان ترتیبات بېرته راګرځوي (د API پته، هغه پلان چې نوي فرمایشونه یې کاروي، کومې بڼې فعالې دي). د API کیلي هیڅکله نه راګرځول کیږي، یوازې دا چې آیا کومه خوندي شوې ده که نه."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "د پلورونکي ټوول کټ (Reseller Toolkit) تنظیمات بدل کړئ"
+msgstr "د Reseller Toolkit تنظیمات بدل کړئ"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "(plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) واستول شوي ترتیبات بدلوي او پاتې نور ساتي. د API کیلي او پته یوازې په سکرین کې بدلېږي."
+msgstr "هغه ترتیبات بدلوي چې تاسو یې لېږئ (plan_code، enable_domain_search، enable_panel_link، enable_woocommerce) او پاتې ساتي. د API کيلۍ او پته يوازې په سکرین بدليږي."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "لومړی د ری سیلر ټوکیټ (Reseller Toolkit) په سکرین کې خپله د Zinn Digital® ریسلر API کیلي اضافه کړئ."
+msgstr "لومړی د Reseller Toolkit په سکرین کې د خپل Zinn Digital® پلورونکي API کیلي اضافه کړئ."

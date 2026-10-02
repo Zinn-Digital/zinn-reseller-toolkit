@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Jual hosting Zinn Digital® dari situs WordPress Anda sendiri — hosting WordPress, WooCommerce, agensi, reseller, cloud, dan VPS. Cari dan tawarkan domain dari akun reseller Anda, daftarkan klien Anda langsung ke panel hosting mereka, dan sediakan hosting secara otomatis saat pesanan WooCommerce dibayar."
+msgstr "Jual hosting Zinn Digital® dari situs WordPress Anda sendiri — hosting WordPress, WooCommerce, agensi, reseller, cloud, dan VPS. Cari dan tawarkan domain dari akun reseller Anda, arahkan klien Anda langsung masuk ke panel hosting mereka, dan sediakan hosting secara otomatis saat pesanan WooCommerce dibayar."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -50,31 +50,31 @@ msgstr "Cari"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "Tidak ada ekstensi yang dicentang untuk nama tersebut."
+msgstr "Tidak ada ekstensi yang diperiksa untuk nama tersebut."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "Pencarian domain sedang tidak tersedia di situs ini saat ini."
+msgstr "Pencarian domain saat ini tidak tersedia di situs ini."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "Kami tidak dapat menghubungi pusat registrasi domain saat ini. Silakan coba lagi sebentar lagi."
+msgstr "Kami tidak dapat menjangkau registri domain saat ini. Silakan coba lagi beberapa saat lagi."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "Kunci API tidak ada atau tidak lagi valid. Periksa di bawah Zinn Digital® → Reseller Toolkit."
+msgstr "Kunci API tidak ditemukan atau sudah tidak valid. Periksa di bawah Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "Kunci API ini tidak memiliki izin sites.view yang diperlukan oleh pencarian domain. Tambahkan izin tersebut ke kunci di panel reseller Anda, atau hapus kunci di sini untuk kembali menggunakan pencarian publik."
+msgstr "Kunci API ini tidak memiliki izin sites.view, yang dibutuhkan oleh pencarian domain. Tambahkan izin tersebut ke kunci di panel reseller Anda, atau hapus kunci di sini untuk kembali ke pencarian publik."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
-msgstr "Hanya administrator yang dapat melihat ini:"
+msgstr "Hanya administrator yang melihat ini:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "Kami tidak dapat memeriksa yang ini — coba lagi"
+msgstr "Kami tidak dapat memeriksa yang ini — silakan coba lagi"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
@@ -104,7 +104,7 @@ msgstr "Silakan masuk terlebih dahulu."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
-msgstr "Akun ini belum tertaut ke layanan hosting mana pun."
+msgstr "Akun ini belum ditautkan ke layanan hosting."
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
@@ -129,19 +129,19 @@ msgstr "Penataan Gaya"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
 msgstr "Agen AI (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
 msgstr "Izinkan agen AI (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "Non-aktif: alat di bawah dan rute REST mereka sama sekali tidak terdaftar."
+msgstr "Nonaktif: alat di bawah ini dan rute REST-nya sama sekali tidak terdaftar."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
@@ -149,7 +149,7 @@ msgstr "Akun reseller Zinn Digital® Anda"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Buat kunci API reseller di dashboard Zinn® Anda di bawah Developer → API keys, lalu tempel di sini."
+msgstr "Buat kunci API reseller di dasbor Zinn® Anda di bagian Pengembang → Kunci API, lalu tempelkan di sini."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
@@ -157,15 +157,15 @@ msgstr "Kunci API Reseller"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "Hanya disimpan di situs ini, dan tidak pernah disertakan dalam ekspor atau laporan diagnostik."
+msgstr "Disimpan di situs ini saja, dan tidak pernah disertakan dalam ekspor atau laporan diagnostik."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "Rencana untuk dipasang"
+msgstr "Paket yang akan diprovisi"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "Kode paket yang diberikan kepada pelanggan baru. Biarkan kosong jika ingin ditanya setiap saat."
+msgstr "Kode paket yang ditetapkan untuk pelanggan baru. Biarkan kosong untuk diminta setiap saat."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "Alamat API"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Biarkan ini tetap seperti apa adanya kecuali jika dukungan Zinn® meminta Anda untuk mengubahnya."
+msgstr "Biarkan ini apa adanya kecuali jika dukungan Zinn® telah meminta Anda untuk mengubahnya."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,7 +181,7 @@ msgstr "Alamat panel kontrol"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Ke mana tautan “Hosting saya” mengarahkan pelanggan Anda."
+msgstr "Tujuan tautan \"Hosting saya\" mengarahkan pelanggan Anda."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -193,7 +193,7 @@ msgstr "Sediakan shortcode [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Letakkan shortcode pada halaman mana pun agar pengunjung dapat memeriksa domain dan membelinya melalui Anda."
+msgstr "Tempatkan kode pendek di halaman mana pun agar pengunjung dapat memeriksa domain dan membelinya melalui Anda."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -201,11 +201,11 @@ msgstr "Tautan panel"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "Tampilkan tautan “Hosting saya” kepada pelanggan yang sudah masuk"
+msgstr "Tampilkan tautan \"Hosting saya\" kepada pelanggan yang telah masuk"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "Provisioning WooCommerce"
+msgstr "Penyediaan WooCommerce"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
@@ -221,11 +221,11 @@ msgstr "Tampilan pencarian domain"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "Widget ini dirender di dalam tema Anda sendiri. Pilih preset, atau tentukan warna Anda sendiri — dengan cara apa pun, tidak ada yang ditambahkan ke halaman Anda yang dapat dilihat pengunjung sebagai milik kami."
+msgstr "Widget ini ditampilkan di dalam tema Anda sendiri. Pilih preset, atau atur warna Anda sendiri — dengan cara apa pun, tidak ada yang ditambahkan ke halaman Anda yang dapat dilihat pengunjung sebagai milik kami."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "Setiap kelas yang digunakan oleh widget tercantum dalam readme plugin, sehingga pengembang dapat mengganti apa pun yang tidak dicakup oleh preset."
+msgstr "Setiap kelas yang digunakan widget tercantum dalam berkas readme plugin, sehingga pengembang dapat menimpa apa pun yang tidak dicakup oleh preset."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
@@ -233,7 +233,7 @@ msgstr "Ikuti tema saya"
 
 #: includes/class-settings.php:298
 msgid "Soft"
-msgstr "Lunak"
+msgstr "Fleksibel"
 
 #: includes/class-settings.php:314
 msgid "High contrast"
@@ -241,15 +241,15 @@ msgstr "Kontras tinggi"
 
 #: includes/class-settings.php:330
 msgid "Compact"
-msgstr "Padat"
+msgstr "Kompak"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
-msgstr "Warna tautan pembelian"
+msgstr "Warna tautan beli"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "Warna “Tersedia”"
+msgstr "Warna \"Tersedia\""
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
@@ -257,7 +257,7 @@ msgstr "Warna \"Tidak dapat memeriksa\""
 
 #: includes/class-settings.php:361
 msgid "Error colour"
-msgstr "Warna galat"
+msgstr "Warna kesalahan"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
@@ -265,7 +265,7 @@ msgstr "Pembulatan sudut"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "Ruang di dalam setiap baris"
+msgstr "Jarak di dalam setiap baris"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -281,7 +281,7 @@ msgstr "Belum ada kunci API reseller."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Pencarian domain sudah berfungsi tanpa kunci, dengan harga publik. Tautan panel dan provisioning WooCommerce memerlukan kunci: buat kunci di dasbor Zinn® Anda di bawah Developer → API keys."
+msgstr "Pencarian domain sudah berfungsi tanpanya, dengan harga publik. Tautan panel dan provisi WooCommerce memerlukan kunci: buat kunci di dasbor Zinn® Anda di bawah Developer → API keys."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
@@ -289,15 +289,15 @@ msgstr "Buka dasbor Zinn® saya"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "Kunci diatur, tetapi tidak ada yang diaktifkan."
+msgstr "Kunci telah diatur, tetapi tidak ada yang diaktifkan."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "Tidak ada satu pun dari ketiga fitur yang diaktifkan, sehingga plugin ini tidak berfungsi di situs Anda. Aktifkan fitur yang Anda perlukan di bagian Fitur."
+msgstr "Tidak ada satu pun dari ketiga fitur yang diaktifkan, jadi plugin ini tidak melakukan apa pun di situs Anda. Aktifkan apa yang Anda butuhkan di bawah Fitur."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
-msgstr "Fitur Terbuka"
+msgstr "Buka Fitur"
 
 #. translators: %d: how many toolkit features are switched on.
 #: includes/class-settings.php:432
@@ -316,7 +316,7 @@ msgstr "Pengaturan"
 
 #: includes/class-settings.php:531
 msgid "No API key yet, so nothing is connected."
-msgstr "Belum ada kunci API, jadi belum ada yang terhubung."
+msgstr "Belum ada kunci API, jadi tidak ada yang terhubung."
 
 #. translators: %s: error message returned by the hosting API.
 #: includes/class-settings.php:539
@@ -332,11 +332,11 @@ msgstr "Terhubung. Program reseller Anda adalah %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Tidak ada kunci API Zinn® yang dikonfigurasikan, sehingga tidak ada yang disediakan."
+msgstr "Tidak ada kunci API Zinn® yang dikonfigurasi, sehingga tidak ada yang disediakan."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "Pesanan ini tidak menyertakan nama domain, sehingga tidak ada yang perlu disiapkan."
+msgstr "Pesanan ini tidak menyertakan nama domain, sehingga tidak ada yang perlu disediakan."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
@@ -346,7 +346,7 @@ msgstr "Platform hosting tidak mengembalikan situs."
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "Penyediaan hosting Zinn® untuk %1$s (layanan %2$s)."
+msgstr "Hosting Zinn® telah disediakan untuk %1$s (layanan %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
@@ -356,7 +356,7 @@ msgstr "Platform hosting tidak mengembalikan akun klien."
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Hosting Zinn® GAGAL disediakan: %s"
+msgstr "Hosting Zinn® TIDAK disediakan: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
@@ -364,7 +364,7 @@ msgstr "Lini produk Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "Lini produk Zinn® yang akan diprovisi saat produk ini dibeli. Kosongkan untuk menggunakan bawaan dari pengaturan plugin."
+msgstr "Lini produk Zinn® yang akan disediakan saat produk ini dibeli. Biarkan kosong untuk menggunakan nilai bawaan dari pengaturan plugin."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
@@ -372,7 +372,7 @@ msgstr "Hosting Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
-msgstr "ID layanan"
+msgstr "ID Layanan"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
@@ -380,11 +380,11 @@ msgstr "Tidak ada yang disediakan untuk pesanan ini."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Tersimpan. Ketik nilai baru untuk menggantinya."
+msgstr "Tersimpan. Ketik nilai baru untuk menggantikannya."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "Saring daftar ini..."
+msgstr "Filter daftar ini…"
 
 #: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
@@ -396,7 +396,7 @@ msgstr "Tidak ada yang cocok dengan filter tersebut."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
-msgstr "Tambah baris"
+msgstr "Tambahkan baris"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
@@ -418,19 +418,19 @@ msgstr "Zinn Digital® — ringkasan"
 
 #: includes/class-zinn-reseller-admin-ui.php:295
 msgid "Overview"
-msgstr "Ringkasan"
+msgstr "Ikhtisar"
 
 #: includes/class-zinn-reseller-admin-ui.php:383
 msgid "Copied"
-msgstr "Disalin"
+msgstr "Tersalin"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Setiap plugin Zinn® di situs ini, dan apakah plugin tersebut berfungsi."
+msgstr "Setiap plugin Zinn® di situs ini, dan apakah berfungsi atau tidak."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "Tidak perlu koneksi untuk plugin ini."
+msgstr "Tidak diperlukan koneksi untuk plugin ini."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -455,7 +455,7 @@ msgstr "Simpan perubahan"
 
 #: includes/class-zinn-reseller-admin-ui.php:958
 msgid "Tools"
-msgstr "Alat"
+msgstr "Peralatan"
 
 #: includes/class-zinn-reseller-admin-ui.php:973
 msgid "Export settings"
@@ -467,7 +467,7 @@ msgstr "Atur ulang ke default"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Tindakan ini akan mengembalikan setiap pengaturan pada plugin ini ke setelan awal. Lanjutkan?"
+msgstr "Tindakan ini akan mengembalikan semua pengaturan pada plugin ini ke default. Lanjutkan?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -475,7 +475,7 @@ msgstr "Diagnostik untuk dukungan"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Impor file pengaturan"
+msgstr "Impor berkas pengaturan"
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
@@ -483,7 +483,7 @@ msgstr "Impor"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Berkas yang diekspor tidak akan pernah berisi kata sandi, token, atau kunci API—Anda harus memasukkannya kembali di situs baru."
+msgstr "Berkas yang diekspor tidak pernah memuat kata sandi, token, atau kunci API — Anda harus memasukkannya lagi di situs yang baru."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -491,7 +491,7 @@ msgstr "Pengaturan disimpan."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "Setiap pengaturan pada plugin ini telah kembali ke default."
+msgstr "Setiap pengaturan pada plugin ini telah dikembalikan ke pengaturan awal."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
@@ -503,7 +503,7 @@ msgstr "Tindakan tersebut tidak tersedia."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "File tersebut tidak dapat dibaca. Pilih file pengaturan yang diekspor dari plugin Zinn®."
+msgstr "Berkas tersebut tidak dapat dibaca. Pilih berkas pengaturan yang diekspor dari plugin Zinn®."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
@@ -511,20 +511,20 @@ msgstr "Berkas tersebut terlalu besar untuk menjadi ekspor pengaturan."
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "File tersebut bukan ekspor pengaturan Zinn®."
+msgstr "Berkas tersebut bukan ekspor pengaturan Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Berkas tersebut diekspor dari plugin yang berbeda (%s), sehingga mengimpornya ke sini akan menyimpan pengaturan yang tidak dapat dipahami oleh plugin ini."
+msgstr "Berkas tersebut diekspor dari plugin yang berbeda (%s), sehingga mengimpornya ke sini akan menyimpan pengaturan yang tidak dipahami oleh plugin ini."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d pengaturan diimpor. Kata sandi dan kunci API tidak pernah disertakan dalam ekspor, jadi masukkan kembali informasi tersebut."
+msgstr[0] "%d pengaturan telah diimpor. Kata sandi dan kunci API tidak pernah disertakan dalam ekspor, jadi masukkan kembali."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -536,7 +536,7 @@ msgstr "Menghubungkan…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "Terhubung, tetapi ada yang perlu diperhatikan"
+msgstr "Terhubung, tetapi ada hal yang memerlukan perhatian"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -548,11 +548,11 @@ msgstr "Berjalan di akun Anda sendiri"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "Kami tidak dapat memeriksanya"
+msgstr "Kami tidak dapat memeriksa ini"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Plugin ini tidak memberikan alasan. Kirimkan laporan diagnostik dan kami akan memeriksanya."
+msgstr "Plugin ini tidak menyatakan alasannya. Kirimkan laporan diagnostik dan kami akan memeriksanya."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -562,19 +562,19 @@ msgstr "Status koneksi"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "Terakhir diperiksa %s lalu."
+msgstr "Terakhir diperiksa %s yang lalu."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(terbuka di tab baru)"
+msgstr "(buka di tab baru)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Kirimkan ini ke dukungan Zinn®"
+msgstr "Kirim ini ke dukungan Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Inilah persis yang akan dikirim — tidak ada yang lain, dan tidak ada yang disembunyikan. Kata sandi, token, dan kunci API Anda tidak ada di dalamnya."
+msgstr "Tepat inilah yang akan dikirimkan — tidak ada yang lain, dan tidak ada yang disembunyikan. Kata sandi, token, dan kunci API Anda tidak ada di dalamnya."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -586,27 +586,27 @@ msgstr "Salin ke papan klip"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Kirimkan laporan ini ke dukungan Zinn®"
+msgstr "Kirim laporan ini ke dukungan Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Kami membukakan tiket dukungan untuk Anda dan membalas melalui email. Jika Anda lebih suka tidak mengirimkannya, salin teks di atas dan tempelkan sendiri ke dalam tiket."
+msgstr "Kami membuka tiket dukungan untuk Anda dan membalas melalui email. Jika Anda memilih untuk tidak mengirimkannya, salin di atas dan tempel sendiri ke dalam tiket."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Kami tidak dapat menghubungi Zinn Digital® dari server ini (%s). Salin laporan di atas dan buat tiket sebagai gantinya — tidak ada yang salah dengan pengaturan Anda."
+msgstr "Kami tidak dapat menjangkau Zinn Digital® dari server ini (%s). Salin laporan di atas dan buka tiket sebagai gantinya — tidak ada yang salah dengan pengaturan Anda."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Dukungan Zinn® telah menerima laporan Anda dan akan membalas melalui email."
+msgstr "Terkirim. Dukungan Zinn® telah menerima laporan Anda dan akan membalas melalui email."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Dukungan Zinn® telah menerima laporan Anda — referensi %s — dan akan membalas melalui email."
+msgstr "Terkirim. Dukungan Zinn® telah menerima laporan Anda — referensi %s — dan akan membalas melalui email."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
@@ -614,13 +614,13 @@ msgstr "Anda telah mengirimkan beberapa laporan dalam waktu singkat. Tunggu bebe
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® tidak dapat menerima laporan tersebut saat ini — itu adalah masalah dari pihak kami, bukan Anda. Coba lagi dalam beberapa saat, atau salin laporan di atas ke dalam tiket."
+msgstr "Zinn Digital® tidak dapat menerima laporan saat ini — masalah terjadi di pihak kami, bukan Anda. Silakan coba lagi beberapa saat lagi, atau salin laporan di atas ke dalam tiket."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Laporan ditolak (HTTP %d). Salin di atas dan buka tiket dengan menyertakan nomor tersebut."
+msgstr "Laporan ditolak (HTTP %d). Salin di atas dan buka tiket, dengan menyebutkan nomor tersebut."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
@@ -649,31 +649,31 @@ msgstr "Hosting Zinn® untuk WordPress"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, cadangan harian, migrasi gratis, dan panel kontrol yang dirancang untuk pengguna yang mengelola lebih dari satu situs."
+msgstr "LiteSpeed, pencadangan harian, migrasi gratis, dan panel kontrol yang dirancang untuk orang yang mengelola lebih dari satu situs."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "Pasar Zinn®"
+msgstr "Marketplace Zinn®"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Beli dan jual situs, domain, and penempatan tautan yang sudah mapan, dengan dana yang disimpan secara aman hingga kedua belah pihak puas."
+msgstr "Jual beli situs yang sudah mapan, domain, dan penempatan tautan, dengan dana disimpan secara aman sampai kedua belah pihak puas."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — pekerjakan profesional yang ahli di bidang ini"
+msgstr "Zinn Hub® — rekrut orang yang memang ahli di bidang ini"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Pasar freelancer global kami: jelajahi lebih dari 10.000 layanan siap pakai dari penulis, desainer, pengembang, dan pakar SEO, atau buat proyek dan biarkan mereka mengajukan penawaran."
+msgstr "Pasar lepas global kami: jelajahi lebih dari 10.000 layanan siap pakai dari para penulis, desainer, pengembang, dan pakar SEO, atau pasang proyek dan biarkan mereka mengajukan penawaran."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "Prasetel gaya"
+msgstr "Preset gaya"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Sebuah titik awal. Apa pun di bawah ini akan menimpanya."
+msgstr "Titik awal. Apa pun di bawah ini akan menggantikannya."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -681,7 +681,7 @@ msgstr "Gunakan warna dan ukuran saya sendiri"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Biarkan ini tetap mati dan preset akan digunakan persis seperti apa adanya."
+msgstr "Biarkan ini nonaktif dan preset akan digunakan persis seperti apa adanya."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
@@ -699,61 +699,61 @@ msgstr "Pembaruan tidak dapat diunduh dari layanan pembaruan Zinn® (%s). Coba l
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Pembaruan yang diunduh gagal dalam pemeriksaan integritas dan tidak diinstal."
+msgstr "Pembaruan yang diunduh gagal dalam pemeriksaan integritas dan tidak dipasang."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "Tindakan tersebut tidak dapat diselesaikan. Coba lagi, dan jika terus gagal, hubungi administrator situs."
+msgstr "Tindakan tidak dapat diselesaikan. Silakan coba lagi, dan jika masih gagal, hubungi administrator situs."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "Nilai yang wajib diisi tidak ada atau memiliki format yang salah. Periksa skema masukan kemampuan tersebut."
+msgstr "Nilai yang diperlukan tidak ada atau memiliki format yang salah. Periksa skema input (input schema) kemampuan tersebut."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
 msgstr "Situs menolak permintaan tersebut."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Biarkan asisten AI seperti Claude, Cursor, atau VS Code mengerjakannya di situs ini untuk Anda melalui MCP (Model Context Protocol). Mereka masuk sebagai pengguna WordPress dengan kata sandi aplikasi dan hanya dapat melakukan apa yang diizinkan untuk dilakukan oleh pengguna tersebut."
+msgstr "Izinkan asisten AI seperti Claude, Cursor, atau VS Code bekerja di situs ini untuk Anda melalui MCP (Model Context Protocol). Mereka masuk sebagai pengguna WordPress dengan kata sandi aplikasi dan hanya dapat melakukan apa yang diizinkan untuk pengguna tersebut."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "Agen AI memerlukan WordPress 6.9 atau yang lebih baru. Perbarui WordPress untuk menggunakannya."
+msgstr "Agen AI memerlukan WordPress 6.9 atau lebih baru. Perbarui WordPress untuk menggunakannya."
 
-#: includes/mcp-kit/class-server.php:232
+#: includes/mcp-kit/class-server.php:236
 msgid "Connection address (MCP endpoint)"
-msgstr "Alamat koneksi (endpoint MCP)"
+msgstr "Alamat koneksi (titik akhir MCP)"
 
-#: includes/mcp-kit/class-server.php:235
+#: includes/mcp-kit/class-server.php:239
 msgid "Create an application password for your user"
 msgstr "Buat kata sandi aplikasi untuk pengguna Anda"
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:240
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "Tambahkan ini ke pengaturan MCP aplikasi AI Anda, dengan nama pengguna dan kata sandi tersebut:"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: masukkan entri yang sama di bawah \"servers\" pada .vscode/mcp.json, bukan di bawah \"mcpServers\"."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "Alat yang dapat digunakan oleh agen AI di sini (%d):"
+msgstr "Alat yang dapat digunakan agen AI di sini (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
 msgstr "Panduan pengguna: Agen AI dan MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Dokumentasi pengembang: kemampuan, REST, dan MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "Kelola klien hosting, paket mereka, dan situs mereka di Zinn Digital® dari situs ini."
+msgstr "Kelola klien hosting Anda, paket mereka, dan situs mereka di Zinn Digital® dari situs ini."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
@@ -765,15 +765,15 @@ msgstr "Baca akun reseller Anda"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Menampilkan akun reseller Anda dalam satu kali baca: merek, paket, jumlah klien dan layanan, serta apa saja yang telah disiapkan."
+msgstr "Mengembalikan akun reseller Anda dalam satu pembacaan: merek, paket, jumlah klien dan layanan, serta apa yang telah dikonfigurasi."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "Daftar klien Anda"
+msgstr "Cantumkan klien Anda"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "Menampilkan daftar akun klien Anda, satu halaman dalam satu waktu (kursor, batas)."
+msgstr "Mencantumkan akun klien Anda, satu halaman setiap kali (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
@@ -781,19 +781,19 @@ msgstr "Buat klien"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Membuat akun klien di bawah akun Anda (nama; default_currency, kode tiga huruf). Masukkan mereka ke dalam paket sebelum situs pertama mereka."
+msgstr "Membuat akun klien di bawah akun Anda (name; default_currency, kode tiga huruf). Tempatkan mereka pada sebuah paket sebelum situs pertama mereka."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
-msgstr "Membaca paket klien"
+msgstr "Baca paket klien"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "Mengembalikan paket yang digunakan klien dan biaya yang ditanggung untuk Anda (client_id)."
+msgstr "Mengembalikan paket yang digunakan klien dan biaya yang Anda keluarkan (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "Tempatkan klien pada paket"
+msgstr "Tetapkan paket untuk klien"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
@@ -801,19 +801,19 @@ msgstr "Menempatkan klien pada salah satu paket Anda (client_id, plan_code; inte
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
-msgstr "Daftar paket yang dapat Anda jual"
+msgstr "Cantumkan paket yang dapat Anda jual"
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "Menampilkan daftar paket hosting dan harganya (product_line dan currency mempersempit pencarian)."
+msgstr "Mencantumkan paket hosting beserta harganya (product_line dan currency mempersempitnya)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
-msgstr "Daftar situs klien Anda"
+msgstr "Daftarkan situs klien Anda"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Menampilkan semua yang telah Anda sediakan untuk klien Anda (client_id dan status mempersempitnya), satu halaman dalam satu waktu."
+msgstr "Menampilkan semua yang telah Anda sediakan untuk klien Anda (client_id dan status mempersempitnya), satu halaman setiap kali."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
@@ -821,7 +821,7 @@ msgstr "Buat situs untuk klien"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Membuat situs yang di-host untuk salah satu klien Anda (client_id, product_line, primary_domain). Tagihan ditagihkan ke akun Anda sesuai paket klien, dari toko Anda."
+msgstr "Membuat situs ter-host untuk salah satu klien Anda (client_id, product_line, primary_domain). Ini ditagihkan ke akun Anda sesuai paket klien, seperti dari toko Anda."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
@@ -829,7 +829,7 @@ msgstr "Tangguhkan situs klien"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "Menempatkan situs klien pada penahanan karena pembayaran macet (site_id; alasan: catatan Anda sendiri, tidak pernah ditampilkan kepada klien). Situs berhenti beroperasi sampai diaktifkan kembali."
+msgstr "Menangguhkan situs klien karena belum melakukan pembayaran (site_id; reason: catatan Anda sendiri, tidak pernah diperlihatkan kepada klien). Situs berhenti melayani sampai penangguhan dicabut."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
@@ -837,23 +837,23 @@ msgstr "Batalkan penangguhan situs klien"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "Menghapus penahanan karena non-pembayaran, sehingga situs dapat diakses kembali (site_id)."
+msgstr "Mencabut penangguhan akibat gagal bayar, sehingga situs dapat diakses kembali (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "Baca pengaturan Reseller Toolkit"
+msgstr "Membaca pengaturan Toolkit Reseller"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "Mengembalikan pengaturan plugin ini (alamat API, paket yang digunakan pesanan baru, fitur mana yang aktif). Kunci API tidak pernah dikembalikan, hanya status apakah kunci tersebut tersimpan atau tidak."
+msgstr "Mengembalikan pengaturan plugin ini (alamat API, paket yang digunakan pesanan baru, fitur mana yang aktif). Kunci API tidak pernah dikembalikan, hanya keterangan apakah ada kunci yang tersimpan."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "Ubah pengaturan Toolkit Reseller"
+msgstr "Ubah pengaturan Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "Mengubah pengaturan yang Anda kirim (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) dan mempertahankan sisanya. Kunci API dan alamat hanya diubah di layar."
+msgstr "Mengubah pengaturan yang Anda kirimkan (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) dan mempertahankan sisanya. Kunci API dan alamat hanya diubah di layar."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."

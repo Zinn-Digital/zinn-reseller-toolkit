@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "გაყიდეთ Zinn Digital®-ის ჰოსტინგი თქვენივე WordPress საიტიდან — WordPress, WooCommerce, სააგენტოს, რესელერის, ღრუბლოვანი და VPS ჰოსტინგი. მოძებნეთ და შესთავაზეთ დომენები თქვენი რესელერის ანგარიშიდან, გადაიყვანეთ თქვენი კლიენტები პირდაპირ მათ ჰოსტინგის პანელში და უზრუნველყავით ჰოსტინგის ავტომატური აქტივაცია WooCommerce-ის შეკვეთის გადახდისთანავე."
+msgstr "გაყიდეთ Zinn Digital®-ის ჰოსტინგი თქვენივე WordPress საიტიდან — WordPress, WooCommerce, სააგენტოს, რესელერის, ღრუბლოვანი და VPS ჰოსტინგი. მოძებნეთ და შესთავაზეთ დომენები თქვენი რესელერის ანგარიშიდან, პირდაპირ შეიყვანეთ თქვენი კლიენტები მათ ჰოსტინგის პანელში და ავტომატურად უზრუნველყავით ჰოსტინგი, როდესაც WooCommerce-ის შეკვეთა გადახდილია."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,61 +38,61 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "ჰოსტინგის პლატფორმამ უპასუხა სტატუსით %d."
+msgstr "ჰოსტინგის პლატფორმის პასუხის სტატუსია %d."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
-msgstr "იპოვეთ თქვენი დომენის სახელი"
+msgstr "მოძებნეთ თქვენი დომენის სახელი"
 
 #: includes/class-domain-search.php:75
 msgid "Search"
-msgstr "ძებნა"
+msgstr "ძიება"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "ამ სახელისთვის გაფართოებები არ შემოწმებულა."
+msgstr "ამ სახელისთვის არცერთი გაფართოება არ შემოწმებულა."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "ამ საიტზე დომენის ძიება ამჟამად მიუწვდომელია."
+msgstr "დომენის ძიება ამ საიტზე ამჟამად მიუწვდომელია."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "ამ მომენტში დომენის რეესტრი მიუწვდომელია. გთხოვთ, სცადოთ თავიდან რამდენიმე წუთში."
+msgstr "ამჟამად დომენების რეესტრთან დაკავშირება ვერ მოხერხდა. გთხოვთ, სცადოთ რამდენიმე წუთში."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "API გასაღები აკტროა ან აღარ არის მოქმედი. შეამოწმეთ იგი Zinn Digital® → გადამყიდველის ხელსაწყოთა ნაკრების ქვეშ."
+msgstr "API გასაღები აკლია ან აღარ არის ვალიდური. შეამოწმეთ იგი Zinn Digital® → Reseller Toolkit-ში."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "ამ API გასაღებს არ აქვს sites.view უფლება, რომელიც დომენის ძიებას ესაჭიროება. დაამატეთ ის გასაღებს თქვენს გადამყიდველის პანელში, ან წაშალეთ გასაღები აქ, რომ საჯარო ძიებას დაუბრუნდეთ."
+msgstr "ამ API გასაღებს არ გააჩნია sites.view ნებართვა, რომელიც დომენის ძიებას ესაჭიროება. დაამატეთ ის გასაღებს თქვენს რესელერის პანელში, ან გაასუფთავეთ გასაღები აქ საჯარო ძიებაზე დასაბრუნებლად."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
-msgstr "მხოლოდ ადმინისტრატორები ხედავენ ამას:"
+msgstr "ამას მხოლოდ ადმინისტრატორები ხედავენ:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "ამ ერთის შემოწმება ვერ მოხერხდა — სცადეთ თავიდან"
+msgstr "ამის შემოწმება ვერ მოხერხდა — გთხოვთ, სცადოთ კვლავ"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
-msgstr "უკვე რეგისტრირებულია"
+msgstr "უკვე დარეგისტრირებულია"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "ხელმისაწვდომია — სთხოვეთ ფასი"
+msgstr "ხელმისაწვდომია — ფასის გასაგებად დაგვიკავშირდით"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr "ხელმისაწვდომია — %1$s %2$s პირველი წლის განმავლობაში"
+msgstr "ხელმისაწვდომია — %1$s %2$s პირველი წლისთვის"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
-msgstr "დარეგისტრირდით"
+msgstr "დაარეგისტრირეთ ის"
 
 #: includes/class-panel-link.php:65
 msgid "Manage my hosting"
@@ -108,12 +108,12 @@ msgstr "ეს ანგარიში ჯერ არ არის დაკ�
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "ჰოსტინგის პლატფორმამ სისტემაში შესვლის ბმული არ დააბრუნა."
+msgstr "ჰოსტინგის პლატფორმამ არ დააბრუნა შესვლის ბმული."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "გამყიდველის ხელსაწყოების ნაკრები"
+msgstr "რესელერის ხელსაწყოების ნაკრები"
 
 #: includes/class-settings.php:127
 msgid "Account"
@@ -129,19 +129,19 @@ msgstr "სტილიზაცია"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
 msgstr "AI აგენტები (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
 msgstr "AI აგენტების დაშვება (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
-msgstr "გამორთულია: ქვემოთ მოცემული ინსტრუმენტები და მათი REST მარშრუტები საერთოდ არ არის რეგისტრირებული."
+msgstr "გამორთულია: ქვემოთ მოცემული ხელსაწყოები და მათი REST მარშრუტები საერთოდ არ არის რეგისტრირებული."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
@@ -149,7 +149,7 @@ msgstr "თქვენი Zinn Digital® გადამყიდველი�
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "შექმნის მარაყის API გასაღები თქვენს Zinn® სამართავ პანელში (Developer → API keys) და ჩასვით აქ."
+msgstr "შექმენით გადამყიდველის API გასაღები თქვენს Zinn® მართვის პანელში განყოფილებაში შემქმნელი → API გასაღებები და ჩასვით აქ."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
@@ -157,15 +157,15 @@ msgstr "რესელერის API გასაღები"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "ინახება მხოლოდ ამ საიტზე და არასოდეს შედის ექსპორტში ან დიაგნოსტიკის ანგარიშში."
+msgstr "ინახება მხოლოდ ამ საიტზე და არასოდეს ერთვის ექსპორტს ან დიაგნოსტიკის ანგარიშს."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "გასაწევი გეგმა"
+msgstr "მოსამზადებელი პაკეტი"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "გეგმის კოდი, რომელზეც ახალი მომხმარებლები არიან დარეგისტრირებულნი. დატოვეთ ცარიელი, რათა ყოველ ჯერზე გეკითხოთ."
+msgstr "გეგმის კოდი, რომელზეც ახალი მომხმარებლები ინიშნებიან. დატოვეთ ცარიელი, რათა ყოველ ჯერზე გეკითხებოდეთ."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,15 +173,15 @@ msgstr "API მისამართი"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "დატოვეთ ეს ისე, როგორც არის, თუ Zinn® მხარდაჭერის ჯგუფმა არ გთხოვათ მისი შეცვლა."
+msgstr "დატოვეთ ეს უცვლელი, თუ Zinn®-ის მხარდაჭერის გუნდმა არ გთხოვათ მისი შეცვლა."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
-msgstr "სამართავი პანელის მისამართი"
+msgstr "მართვის პანელის მისამართი"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "სად აგზავნის „ჩემი ჰოსტინგის“ ბმული თქვენს მომხმარებლებს."
+msgstr "სად გადაამისამართებს ბმული „ჩემი ჰოსტინგი“ თქვენს კლიენტებს."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
@@ -193,7 +193,7 @@ msgstr "მიუთითეთ [zinn_domain_search] მოკლე კოდ�
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "მოათავსეთ მოკლე კოდი ნებისმიერ გვერდზე, რათა ვიზიტორებმა შეამოწმონ დომენი და შეიძინონ იგი თქვენი მეშვეობით."
+msgstr "განათავსეთ მოკლე კოდი ნებისმიერ გვერდზე, რათა ვიზიტორებს შეეძლოთ დომენის შემოწმება და მისი თქვენი მეშვეობით შეძენა."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
@@ -201,35 +201,35 @@ msgstr "პანელის ბმული"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "ავტორიზებულ მომხმარებლებს აჩვენეთ ბმული „ჩემი ჰოსტინგი“"
+msgstr "სისტემაში შესული მომხმარებლებისთვის „ჩემი ჰოსტინგის“ ბმულის ჩვენება"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "WooCommerce-ის პროვიზიონინგი"
+msgstr "WooCommerce-ის უზრუნველყოფა"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "ჰოსტინგის ავტომატურად უზრუნველყოფა WooCommerce-ის შეკვეთის დასრულებისას"
+msgstr "ჰოსტინგის ავტომატური უზრუნველყოფა WooCommerce-ის შეკვეთის დასრულებისას"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
-msgstr "ძალაში შედის მხოლოდ იმ შეკვეთებზე, რომლებიც შეიცავს Zinn® გეგმასთან დაკავშირებულ პროდუქტს."
+msgstr "ძალაში შედის მხოლოდ იმ შეკვეთებისთვის, რომლებიც შეიცავს Zinn®-ის გეგმასთან თქვენ მიერ დაკავშირებულ პროდუქტს."
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
-msgstr "დომენის ძიების გარეგნობა"
+msgstr "დომენის ძიების იერსახე"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "ეს ვიჯეტი იხატება თქვენს საკუთარ თემაში. აირჩიეთ წინასწარ განსაზღვრული პარამეტრი ან მიუთითეთ თქვენი ფერები — ნებისმიერ შემთხვევაში, თქვენს გვერდებზე არაფერი დაემატება ისეთი, რასაც ვიზიტორი ჩვენად დაინახავს."
+msgstr "ეს ვიჯეტი გამოისახება თქვენს საკუთარ თემაში. აირჩიეთ წინასწარ განსაზღვრული პარამეტრები ან მიუთითეთ თქვენი საკუთარი ფერები — ნებისმიერ შემთხვევაში, თქვენს გვერდებზე არაფერი ემატება ისეთი, რაც ვიზიტორმა შეიძლება ჩვენად აღიქვას."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "ვიჯეტის მიერ გამოყენებული თითოეული კლასი მითითებულია პლაგინის readme ფაილში, ასე რომ დეველოპერს შეუძლია შეცვალოს ნებისმიერი რამ, რასაც წინასწარი პარამეტრები (preset) არ ფარავს."
+msgstr "ყველა კლასი, რომელსაც ვიჯეტი იყენებს, ჩამოთვლილია მოდულის readme ფაილში, რათა დეველოპერს შეეძლოს გადაფაროს ყველაფერი, რასაც წინასწარ დაყენებული პარამეტრი არ მოიცავს."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
-msgstr "გაჰყევი ჩემს თემას"
+msgstr "ჩემი თემის მიდევნება"
 
 #: includes/class-settings.php:298
 msgid "Soft"
@@ -241,19 +241,19 @@ msgstr "მაღალი კონტრასტი"
 
 #: includes/class-settings.php:330
 msgid "Compact"
-msgstr "კompact"
+msgstr "კომპაქტური"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
-msgstr "შეძენის ბმულის ფერი"
+msgstr "ყიდვის ბმულის ფერი"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "„ხელმისაწვდომი“-ს ფერი"
+msgstr "„ხელმისაწვდომია“ ფერი"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "„შეverშეწმებლად ვერ მოხერხდა“ ფერი"
+msgstr "ფერი: „შემოწმება ვერ მოხერხდა“"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
@@ -261,11 +261,11 @@ msgstr "შეცდომის ფერი"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
-msgstr "კუთხეების მომრგვალება"
+msgstr "კუთხეების დამრგვალება"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "სივრცე თითოეულ სტრიქონში"
+msgstr "სივრცე თითოეული მწკრივის შიგნით"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -273,27 +273,27 @@ msgstr "ტექსტის ზომა"
 
 #: includes/class-settings.php:377
 msgid "Domain-name weight"
-msgstr "დომენის სახელის წონა"
+msgstr "დომენური სახელის წონა"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
-msgstr "სავენდერო API გასაღები ჯერ არ არის."
+msgstr "გადამყიდველის API გასაღები ჯერ არ არის."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "დომენის ძიება უკვე მუშაობს მის გარეშე, საჯარო ფასებით. პანელის ბმულს და WooCommerce პროვიზიონინგს სჭირდება გასაღები: შექმენით ის თქვენს Zinn® სამართავ პანელში, განყოფილებაში „Developer → API keys“."
+msgstr "დომენის ძიება უკვე მუშაობს მის გარეშეც, საჯარო ფასებში. მართვის პანელის ბმულს და WooCommerce-ის უზრუნველყოფას გასაღები სჭირდება: შექმენით იგი თქვენს Zinn® მართვის პანელზე Developer → API keys განყოფილებაში."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
-msgstr "გააღეთ ჩემი Zinn® სამართავი პანელი"
+msgstr "გახსენით ჩემი Zinn® მართვის პანელი"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "მსაღები დაყენებულია, მაგრამ არაფერია ჩართული."
+msgstr "გასაღები დაყენებულია, მაგრამ არაფერია ჩართული."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "სამივე ფუნქციიდან არცერთია ჩართული, ამიტომ ეს პლაგინი თქვენს საიტზე არაფერს აკეთებს. ჩართეთ ის, რაც გჭირდებათ, განყოფილებაში „ფუნქციები“."
+msgstr "სამი ფუნქციიდან არცერთი არ არის ჩართული, ამიტომ ეს გაფართოება თქვენს საიტზე არაფერს აკეთებს. ჩართეთ ის, რაც გჭირდებათ განყოფილებაში „ფუნქციები“."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
@@ -304,12 +304,12 @@ msgstr "ფუნქციების გახსნა"
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
-msgstr[0] "მზად არის — ჩართულია %d ფუნქცია."
-msgstr[1] "მზად არის — ჩართულია %d ფუნქცია."
+msgstr[0] "მზადაა — %d ფუნქცია ჩართულია."
+msgstr[1] "მზადაა — ჩართულია %d ფუნქცია."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
-msgstr "გაყიდვის წყარო"
+msgstr "გაყიდვა შემდეგიდან"
 
 #: includes/class-settings.php:471
 msgid "Settings"
@@ -323,7 +323,7 @@ msgstr "API გასაღები ჯერ არ არის, ამიტ
 #: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
-msgstr "არ არის დაკავშირებული: %s"
+msgstr "დაუკავშირებელია: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
 #: includes/class-settings.php:549
@@ -333,11 +333,11 @@ msgstr "დაკავშირებულია. თქვენი გად
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Zinn® API გასაღები არ არის კონფიგურირებული, ამიტომ არაფერი გამომუშავებულა."
+msgstr "Zinn® API-ის გასაღები არ არის კონფიგურირებული, ამიტომ არაფერი მომზადებულა."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "ამ შეკვეთაში დომენის სახელი არ შედიოდა, ამიტომ გამოსაყოფი არაფერი იყო."
+msgstr "ეს შეკვეთა არ შეიცავდა დომენის სახელს, ამიტომ მოსამზადებელი არაფერი იყო."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
@@ -347,25 +347,25 @@ msgstr "ჰოსტინგის პლატფორმამ საიტ�
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "Zinn® ჰოსტინგი მომზადებულია %1$s-ისთვის (სერვისი %2$s)."
+msgstr "Zinn® ჰოსტინგი მომზადებულია %1$s-თვის (სერვისი %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
-msgstr "სასტუმრო პლატფორმას არ დაუბრუნებია კლიენტის ანგარიში."
+msgstr "ჰოსტინგის პლატფორმამ არ დააბრუნა კლიენტის ანგარიში."
 
 #. translators: %s: the reason provisioning failed.
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Zinn® ჰოსტინგი არ იქნა უზრუნველყოფილი: %s"
+msgstr "Zinn® ჰოსტინგი არ მომზადდა: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
-msgstr "Zinn® პროდუქტების ხაზი"
+msgstr "Zinn®-ის პროდუქციის ხაზი"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "პროდუქტის შეძენისას გამოსაყოფი Zinn® პროდუქტების ხაზი. დატოვეთ ცარიელი, რომ გამოიყენოთ ნაგულისხმები პარამეტრები დანართიდან."
+msgstr "Zinn®-ის პროდუქციის ხაზი, რომელიც უნდა გაიცეს ამ პროდუქტის შეძენისას. დატოვეთ ცარიელი, რათა გამოიყენოთ ნაგულისხმევი მნიშვნელობა მოდულის პარამეტრებიდან."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
@@ -377,23 +377,23 @@ msgstr "სერვისის ID"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "ამ შეკვეთისთვის არაფერია პროვიზიონირებული."
+msgstr "ამ შეკვეთისთვის არაფერია მომზადებული."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "შენახულია. ჩაწერეთ ახალი მნიშვნელობა მის ჩასანაცვლებლად."
+msgstr "შენახულია. ჩაწერეთ ახალი მნიშვნელობა მის შესაცვლელად."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "ამ სიის ფილტრაცია…"
+msgstr "ამ სიის გაფილტვრა…"
 
 #: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
-msgstr "ამ სიას ფილტრაცია"
+msgstr "ამ სიის გაფილტვრა"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "ამ ფილტრს არაფერი შეესაბამება."
+msgstr "ამ ფილტრს არაფერი ემთხვევა."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
@@ -423,15 +423,15 @@ msgstr "მიმოხილვა"
 
 #: includes/class-zinn-reseller-admin-ui.php:383
 msgid "Copied"
-msgstr "კოპირებულია"
+msgstr "დაკოპირდა"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "ამ საიტზე არსებული ყველა Zinn® პლაგინი და მუშაობს თუ არა ის."
+msgstr "ამ საიტზე არსებული თითოეული Zinn® მოდული და მუშაობს თუ არა ის."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "ამ პლაგინისთვის კავშირი საჭირო არ არის."
+msgstr "ამ პლაგინისთვის კავშირი არ არის საჭირო."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
@@ -440,11 +440,11 @@ msgstr "პარამეტრების გახსნა"
 #: includes/class-zinn-reseller-admin-ui.php:770
 #: includes/class-zinn-reseller-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "თქვენ არ გაქვთ ამ პარამეტრების შეცვლის უფლება."
+msgstr "თქვენ არ გაქვთ ამ პარამეტრების შეცვლის ნებართვა."
 
 #: includes/class-zinn-reseller-admin-ui.php:799
 msgid "Settings sections"
-msgstr "პარამეტრების განყოფილებები"
+msgstr "პარამეტრების სექციები"
 
 #: includes/class-zinn-reseller-admin-ui.php:871
 msgid "Support"
@@ -464,11 +464,11 @@ msgstr "პარამეტრების ექსპორტი"
 
 #: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "ნაგულისხმევზე დაბრუნება"
+msgstr "ნაგულისხმევ პარამეტრებზე დაბრუნება"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "ეს აბრუნებს ამ პლაგინის ყველა პარამეტრს საწყის მნიშვნელობაზე. გსურთ გაგრძელება?"
+msgstr "ეს დააბრუნებს ამ მოდულის ყველა პარამეტრს ნაგულისხმევ მნიშვნელობებზე. გსურთ გაგრძელება?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -480,11 +480,11 @@ msgstr "პარამეტრების ფაილის იმპორ�
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
-msgstr "შემოტანა"
+msgstr "იმპორტი"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "ექსპორტირებული ფაილები არასდროს შეიცავს პაროლებს, ტოკენებს ან API გასაღებებს — მათი შეყვანა ახალ საიტზე ხელახლა მოგიწევთ."
+msgstr "ექსპორტირებული ფაილები არასდროს შეიცავს პაროლებს, ტოკენებს ან API გასაღებებს — თქვენ მოგიწევთ მათი ხელახლა შეყვანა ახალ საიტზე."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -492,11 +492,11 @@ msgstr "პარამეტრები შენახულია."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "ამ პლაგინის ყველა პარამეტრი დაბრუნდა საწყის (ნაგულისხმევ) მდგომარეობაში."
+msgstr "ამ მოდულის ყველა პარამეტრი დაუბრუნდა ნაგულისხმევ მნიშვნელობებს."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
-msgstr "დასრულებულია."
+msgstr "მზადაა."
 
 #: includes/class-zinn-reseller-admin-ui.php:1190
 msgid "That action is not available."
@@ -504,7 +504,7 @@ msgstr "ეს მოქმედება მიუწვდომელია.
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "ეს ფაილი ვერ იკითხება. აირჩიეთ Zinn® პლაგინიდან ექსპორტირებული პარამეტრების ფაილი."
+msgstr "ამ ფაილის წაკითხვა ვერ მოხერხდა. აირჩიეთ Zinn® მოდულიდან ექსპორტირებული პარამეტრების ფაილი."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
@@ -518,15 +518,15 @@ msgstr "ეს ფაილი არ წარმოადგენს Zinn®-�
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "ეს ფაილი ექსპორტირებულია სხვა მოდულიდან (%s), ამიტომ მისი აქ იმპორტი შეინახავს პარამეტრებს, რომლებიც ამ მოდულს არ ესმის."
+msgstr "ეს ფაილი ექსპორტირებულია სხვა დამატებიდან (%s), ამიტომ მისი აქ იმპორტი შეინახავს პარამეტრებს, რომლებიც ამ დამატებას არ ესმის."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%d პარამეტრი იმპორტირებულია. პაროლები და API გასაღებები ექსპორტში არასოდეს შედის, ამიტომ ისინი ხელახლა შეიყვანეთ."
-msgstr[1] "%d პარამეტრი იმპორტირებულია. პაროლები და API გასაღებები ექსპორტში არასოდეს შედის, ამიტომ ისინი თავიდან შეიყვანეთ."
+msgstr[0] "%d პარამეტრი იმპორტირებულია. პაროლები და API გასაღებები არასოდეს შედის ექსპორტში, ამიტომ შეიყვანეთ ისინი ხელახლა."
+msgstr[1] "იმპორტირებულია %d პარამეტრი. პაროლები და API გასაღებები არასდროს შედის ექსპორტში, ამიტომ შეიყვანეთ ისინი ხელახლა."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -534,11 +534,11 @@ msgstr "დაკავშირებულია"
 
 #: includes/class-zinn-reseller-connection.php:60
 msgid "Connecting…"
-msgstr "დაკავშირება..."
+msgstr "დაკავშირება…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "დაკავშირებულია, მაგრამ რაღაც ყურადღებას საჭიროებს"
+msgstr "დაკავშირებულია, თუმცა რაღაც ყურადღებას მოითხოვს"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -546,15 +546,15 @@ msgstr "არ არის დაკავშირებული"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "თქვენივე ანგარიშზე მუშაობა"
+msgstr "მუშაობს თქვენს პირად ანგარიშზე"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "ჩვენ ვერ შევძლებთ ამის შემოწმებას"
+msgstr "ამის შემოწმება ვერ მოხერხდა"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "ამ მოდულმა მიზეზი არ მიუთითა. გამოაგზავნეთ დიაგნოსტიკური ანგარიში და ჩვენ მას შევისწავლით."
+msgstr "ამ მოდულმა მიზეზი არ მიუთითა. გამოაგზავნეთ დიაგნოსტიკის ანგარიში და ჩვენ გადავხედავთ."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
@@ -564,7 +564,7 @@ msgstr "კავშირის სტატუსი"
 #: includes/class-zinn-reseller-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "ბოლო შემოწმებიდან გავიდა %s."
+msgstr "ბოლოს შემოწმდა %s წინ."
 
 #: includes/class-zinn-reseller-connection.php:251
 msgid "(opens in a new tab)"
@@ -572,11 +572,11 @@ msgstr "(იხსნება ახალ ჩანართში)"
 
 #: includes/class-zinn-reseller-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "გაგზავნეთ ეს Zinn®-ის მხარდაჭერის ჯგუფში"
+msgstr "გაუგზავნეთ ეს Zinn®-ის მხარდაჭერას"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "ზუსტად ეს გაიგზავნება — მეტი არაფერი და არაფერია დამალული. მასში არ შედის თქვენი პაროლები, ტოკენები და API გასაღებები."
+msgstr "სწორედ ეს გაიგზავნება — სხვა არაფერი და არაფერი დამალული. თქვენი პაროლები, ტოკენები და API გასაღებები აქ არ არის."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -588,48 +588,48 @@ msgstr "ბუფერში კოპირება"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "გაგზავნეთ ეს ანგარიში Zinn®-ის მხარდაჭერის სამსახურში"
+msgstr "გაუგზავნეთ ეს ანგარიში Zinn®-ის მხარდაჭერის გუნდს"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "ჩვენ ვხსნიან მხარდაჭერის თთიქეთს თქვენთვის და გპასუხობთ ელფოსტით. თუ გირჩევნიათ, რომ არ გაგზავნოთ, გადააკოპირეთ ის ზემოთ და თავად ჩასვით თიქეთში."
+msgstr "ჩვენ ვხსნით მხარდაჭერის ბილეთს თქვენთვის და გიპასუხებთ ელფოსტით. თუ გირჩევნიათ არ გაგზავნოთ, დააკოპირეთ ზემოთ და თავად ჩასვით ბილეთში."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "ამ სერვერიდან (%s) Zinn Digital®-თან დაკავშირება ვერ მოხერხდა. გადაიღეთ ზემოთ მოცემული ანგარიში და ამის ნაცვლად გახსენით თიქეთი — თქვენს პარამეტრებში არაფერია არასწორი."
+msgstr "ამ სერვერიდან (%s) Zinn Digital®-თან დაკავშირება ვერ მოხერხდა. დააკოპირეთ ზემოთ მოცემული ანგარიში და მის ნაცვლად გახსენით ბილეთი — თქვენს პარამეტრებში შეცდომა არ არის."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "გაგზავნილია. Zinn® მხარდაჭერის ჯგუფმა მიიღო თქვენი შეტყობინება და ელფოსტით გიპასუხებთ."
+msgstr "გაგზავნილია. Zinn®-ის მხარდაჭერის გუნდმა მიიღო თქვენი ანგარიში და გიპასუხებთ ელფოსტით."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "გაგზავნილია. Zinn®-ის მხარდაჭერის გუნდმა მიიღო თქვენი შეტყობინება — მითითება %s — და გიპასუხებთ ელფოსტით."
+msgstr "გაგზავნილია. Zinn®-ის მხარდაჭერის გუნდმა მიიღო თქვენი ანგარიში — მითითება %s — და გიპასუხებთ ელფოსტით."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "თქვენ მოკლე დროში რამდენიმე ანგარიში გაგზავნეთ. დაიცადეთ რამდენიმე წუთი და სცადეთ თავიდან — წინა შეტყობინებები უკვე მივიდა."
+msgstr "თქვენ მოკლე დროში რამდენიმე ანგარიში გაგზავნეთ. მოიცადეთ რამდენიმე წუთი და სცადეთ თავიდან — წინა ანგარიშები მიღებულია."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital®-მა მოხსენება ამ წუთას ვერ მიიღო — ეს ჩვენი მხარეა და არა თქვენი. სცადეთ თავიდან მცირე ხანში, ან გადააკოპირეთ ზემოთ მოცემული მოხსენება თიქეთში."
+msgstr "Zinn Digital®-მა ამჟამად ვერ მიიღო ანგარიში — ეს ჩვენი მხრიდანაა და არა თქვენი. გთხოვთ, სცადოთ ცოტა ხანში კვლავ, ან დააკოპიროთ ზემოთ მოცემული ანგარიში ბილეთში."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "ანგარიში უარყოფილია (HTTP %d). დააკოპირეთ იგი ზემოთ და გახსენით თიქეთი, მიუთითეთ ეს ნომერი."
+msgstr "ანგარიში უარყოფილია (HTTP %d). დააკოპირეთ ის ზემოთ და გახსენით მოთხოვნა ამ ნომრის მითითებით."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
 #: includes/class-zinn-reseller-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — სახელმძღვანელოები და სერვისები"
+msgstr "%s — გზამკვლევები და სერვისები"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
@@ -639,51 +639,51 @@ msgstr "მომხმარებლის სახელმძღვან�
 #: includes/class-zinn-reseller-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "წაიკითხეთ %s მომხმარებლის სახელმძღვანელო"
+msgstr "წაიკითხეთ %s-ის მომხმარებლის სახელმძღვანელო"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
-msgstr "დამალვა"
+msgstr "ამის დამალვა"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Zinn®-ის ჰოსტინგი WordPress-ისთვის"
+msgstr "Zinn® ჰოსტინგი WordPress-ისთვის"
 
 #: includes/class-zinn-reseller-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, ყოველდღიური სარეზერვო ასლები, უფასო მიგრაცია და მართვის პანელი, რომელიც შექმნილია ერთზე მეტი საიტის მართვისთვის."
+msgstr "LiteSpeed, ყოველდღიური სარეზერვო ასლები, უფასო მიგრაცია და მართვის პანელი, შექმნილი მათთვის, ვინც ერთზე მეტ საიტს მართავს."
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "Zinn® ბაზარი"
+msgstr "Zinn®-ის ბაზარი"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "შეიძინეთ და გაყიდეთ მზა საიტები, დომენები და ბმულების განთავსება. თანხა უსაფრთხოდ ინახება მანამ, სანამ ორივე მხარე კმაყოფილი არ იქნება."
+msgstr "იყიდეთ და გაყიდეთ დამკვიდრებული საიტები, დომენები და ბმულების განთავსებები თანხის უსაფრთხო შენახვით, სანამ ორივე მხარე კმაყოფილი არ დარჩება."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — დაიქირავეთ პროფესიონალები"
+msgstr "Zinn Hub® — დაიქირავეთ ადამიანები, რომლებისთვისაც ეს პროფესიაა"
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "ჩვენი გლობალური ფრილანს-მარკეტპლეისი: დაათვალიერეთ 10 000-ზე მეტი მზა სერვისი მწერლების, დიზაინერების, დეველოპერებისა და SEO სპეციალისტებისგან, ან გამოაქვეყნეთ პროექტი და მისცეთ მათ შეთავაზებების გაკეთების საშუალება."
+msgstr "ჩვენი გლობალური ფრილანს ბაზარი: დაათვალიერეთ 10 000-ზე მეტი მზა მომსახურება ავტორებისგან, დიზაინერებისგან, დეველოპერებისგან და SEO სპეციალისტებისგან, ან განათავსეთ პროექტი და მიეცით მათ ფასის შეთავაზების საშუალება."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "სტილის წინასწარ დაყენებული პარამეტრი"
+msgstr "სტილის წინასწარი პარამეტრი"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "საწყისი წერტილი. მის ქვემოთ მოცემული ყველაფერი გადაფარავს მას."
+msgstr "ამოსავალი წერტილი. ქვემოთ მოცემული ნებისმიერი რამ გადაწერს მას."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "გამოიყენეთ ჩემი საკუთარი ფერები და ზომები"
+msgstr "ჩემი ფერებისა და ზომების გამოყენება"
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "ეს გამორთეთ და წინასწარ დაყენებული პარამეტრი ზუსტად ისე გამოიყენება, როგორც არის."
+msgstr "დატოვეთ ეს გამორთული და წინასწარ დაყენებული პარამეტრი გამოყენებული იქნება ზუსტად ისე, როგორც არის."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
@@ -691,71 +691,71 @@ msgstr "იხილეთ Zinn Digital®-ის გამოშვების 
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "განახლების Zinn® სერვისმა ამ განახლებისთვის ჩამოტვირთვის ბმული არ გასცა. შეამოწმეთ, შეუძლია თუ არა ამ საიტს Zinn® პლატფორმასთან დაკავშირება და სცადეთ თავიდან."
+msgstr "Zinn® განახლების სერვისმა არ გასცა ჩამოტვირთვის ბმული ამ განახლებისთვის. შეამოწმეთ, შეუძლია თუ არა ამ საიტს Zinn® პლატფორმასთან დაკავშირება, შემდეგ კი სცადეთ ხელახლა."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "განახლების ჩამოტვირთვა Zinn® განახლების სერვისიდან (%s) ვერ მოხერხდა. სცადეთ რამდენიმე წუთში თავიდან."
+msgstr "განახლების ჩამოტვირთვა Zinn®-ის განახლების სერვისიდან (%s) ვერ მოხერხდა. სცადეთ რამდენიმე წუთში."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."
+msgstr "გადმოწერილმა განახლებამ მთლიანობის შემოწმება ვერ გაიარა და არ დაინსტალირდა."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "მოქმედება ვერ დასრულდა. სცადეთ თავიდან და თუ პრობლემა კვლავ განმეორდება, დაუკავშირდით საიტის ადმინისტრატორს."
+msgstr "მოქმედება ვერ დასრულდა. გთხოვთ, სცადოთ კვლავ და თუ პრობლემა განმეორდება, დაუკავშირდით საიტის ადმინისტრატორს."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "სავალდებულო მნიშვნელობა აკიაა ან არასწორი ფორმა აქვს. შეამოწმეთ ფუნქციის შეყვანის სქემა."
+msgstr "სავალდებულო მნიშვნელობა აკლია ან არასწორი ფორმა აქვს. შეამოწმეთ შესაძლებლობის შეყვანის სქემა (input schema)."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
-msgstr "საიტმა მოთხოვნა უარყო."
+msgstr "საიტმა უარყო მოთხოვნა."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "მიეცით საშუალება ისეთ AI ასისტენტებს, როგორიცაა Claude, Cursor ან VS Code, იმუშაონ ამ საიტზე თქვენთვის MCP (Model Context Protocol) მეშვეობით. ისინი სისტემაში შედიან როგორც WordPress მომხმარებელი აპლიკაციის პაროლით და შეუძლიათ მხოლოდ ის, რისი უფლებაც ამ მომხმარებელს აქვს."
+msgstr "მიეცით საშუალება AI ასისტენტებს, როგორიცაა Claude, Cursor ან VS Code, იმუშაონ ამ საიტზე თქვენთვის MCP-ის (Model Context Protocol) მეშვეობით. ისინი შედიან როგორც WordPress-ის მომხმარებელი აპლიკაციის პაროლით და შეუძლიათ გააკეთონ მხოლოდ ის, რაც ამ მომხმარებლისთვისაა ნებადართული."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "AI აგენტებს ესაჭიროებათ WordPress 6.9 ან უფრო ახალი ვერსია. მათი გამოსაყენებლად განაახლეთ WordPress."
+msgstr "AI აგენტებს სჭირდებათ WordPress 6.9 ან უფრო ახალი. მათ გამოსაყენებლად განაახლეთ WordPress."
 
-#: includes/mcp-kit/class-server.php:232
+#: includes/mcp-kit/class-server.php:236
 msgid "Connection address (MCP endpoint)"
-msgstr "დაკავშირების მისამართი (MCP ბოლო წერტილი)"
+msgstr "დაკავშირების მისამართი (MCP-ის ბოლო წერტილი)"
 
-#: includes/mcp-kit/class-server.php:235
+#: includes/mcp-kit/class-server.php:239
 msgid "Create an application password for your user"
 msgstr "შექმენით აპლიკაციის პაროლი თქვენი მომხმარებლისთვის"
 
-#: includes/mcp-kit/class-server.php:236
+#: includes/mcp-kit/class-server.php:240
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "დაამატეთ ეს თქვენი AI აპის MCP პარამეტრებში, თქვენს მომხმარებლის სახელთან და იმ პაროლთან ერთად:"
+msgstr "დაამატეთ ეს თქვენი AI აპლიკაციის MCP პარამეტრებში, თქვენი მომხმარებლის სახელითა და იმ პაროლით:"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
-msgstr "VS Code: იგივე ჩანაწერი ჩასვით .vscode/mcp.json ფაილში \"servers\"-ის ქვეშ და არა \"mcpServers\"-ის ქვეშ."
+msgstr "VS Code: მოათავსეთ იგივე ჩანაწერი \"servers\"-ის ქვეშ .vscode/mcp.json-ში, და არა \"mcpServers\"-ის ქვეშ."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
-msgstr "ხელსაწყოები, რომელთა გამოყენებაც AI აგენტს აქ შეუძლია (%d):"
+msgstr "ხელსაწყოები, რომლებიც AI აგენტს შეუძლია გამოიყენოს აქ (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
-msgstr "მომხმარებლის გზამკვლევი: AI აგენტები და MCP"
+msgstr "მომხმარებლის სახელმძღვანელო: AI აგენტები და MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "დეველოპერის დოკუმენტაცია: შესაძლებლობები, REST და MCP"
 
 #: includes/mcp/class-abilities.php:54
 msgid "Manage your hosting clients, their plans and their sites on Zinn Digital® from this site."
-msgstr "მართეთ თქვენი ჰოსტინგის კლიენტები, მათი გეგმები და საიტები Zinn Digital®-ზე ამ საიტიდან."
+msgstr "მართეთ თქვენი ჰოსტინგის კლიენტები, მათი გეგმები და მათი საიტები Zinn Digital®-ზე ამ საიტიდან."
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
@@ -767,15 +767,15 @@ msgstr "წაიკითხეთ თქვენი გადამყიდ�
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "თქვენი გადამყიდველის ანგარიშს ერთი წაკითხვით აბრუნებს: ბრენდი, გეგმები, კლიენტებისა და სერვისების რაოდენობა და რა არის კონფიგურირებული."
+msgstr "აბრუნებს თქვენს რესელერის ანგარიშს ერთი წაკითხვით: ბრენდი, გეგმები, კლიენტებისა და სერვისების რაოდენობა და რა არის გამართული."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "კლიენტების სია"
+msgstr "თქვენი კლიენტების ჩამოთვლა"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "თქვენი კლიენტის ანგარიშების სია, თითო გვერდი (კურსორი, ლიმიტი)."
+msgstr "ჩამოთვლის თქვენი კლიენტების ანგარიშებს, თითო გვერდს ერთ ჯერზე (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
@@ -783,7 +783,7 @@ msgstr "კლიენტის შექმნა"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "ქმნის კლიენტის ანგარიშს თქვენი ანგარიშის ქვეშ (name; default_currency, სამი ასოსგან შემდგარი კოდი). მიუსადაგეთ მათ გეგმა პირველ საიტამდე."
+msgstr "ქმნის კლიენტის ანგარიშს თქვენი ანგარიშის ქვეშ (name; default_currency, სამასოიანი კოდი). მიაბით ისინი ტარიფს მათ პირველ საიტამდე."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
@@ -791,15 +791,15 @@ msgstr "კლიენტის გეგმის წაკითხვა"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "აბრუნებს ინფორმაციას იმის შესახებ, თუ რომელ გეგმაზეა კლიენტი და რა უჯდება ის თქვენ (client_id)."
+msgstr "აბრუნებს ინფორმაციას იმის შესახებ, თუ რომელ პაკეტზეა კლიენტი და რა გიჯდებათ ის (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "კლიენტის გეგმაზე დაყენება"
+msgstr "კლიენტის გეგმაზე მიბმა"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "კლიენტის განთავსება თქვენს ერთ-ერთ გეგმაზე (client_id, plan_code; interval: თვე ან წელი). გააკეთეთ ეს მათ პირველ საიტამდე."
+msgstr "კლიენტს ათავსებს თქვენს ერთ-ერთ გეგმაში (client_id, plan_code; interval: month ან year). გააკეთეთ ეს მათ პირველ საიტამდე."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
@@ -807,23 +807,23 @@ msgstr "ჩამოთვალეთ გეგმები, რომელთ
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "ჩამოთვლის ჰოსტინგის გეგმებსა და მათ ფასებს (product_line და currency ამცირებს არჩევანს)."
+msgstr "ჩამოთვლის ჰოსტინგის გეგმებსა და მათ ფასებს (product_line და currency ავიწროებს მას)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
-msgstr "ჩამოთვალეთ თქვენი კლიენტების საიტები"
+msgstr "თქვენი კლიენტების საიტების ჩამონათვალი"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "ჩამოთვლის ყველაფერს, რაც თქვენი კლიენტებისთვის მოამზადეთ (client_id და status ზღუდავს), თითო გვერდზე."
+msgstr "ჩამოთვლის ყველაფერს, რაც თქვენი კლიენტებისთვის მოამზადეთ (client_id და status ავიწროებს მას), თითო გვერდს ერთ ჯერზე."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
-msgstr "შექმნათ საიტი კლიენტისთვის"
+msgstr "შექმენით საიტი კლიენტისთვის"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "ქმნის ჰოსტინგზე განთავსებულ საიტს თქვენი ერთ-ერთი კლიენტისთვის (client_id, product_line, primary_domain). თანხა ირიცხება თქვენს ანგარიშზე კლიენტის სატარიფო გეგმის შესაბამისად, როგორც თქვენი მაღაზიიდან."
+msgstr "ქმნის ჰოსტირებულ საიტს თქვენი ერთ-ერთი კლიენტისთვის (client_id, product_line, primary_domain). გადახდა ხდება თქვენს ანგარიშზე კლიენტის ტარიფის მიხედვით, როგორც თქვენი მაღაზიიდან."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
@@ -831,11 +831,11 @@ msgstr "კლიენტის საიტის შეჩერება"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "კლიენტის საიტს ადებს გადაუხდელობის გამო შეჩერების სტატუსს (site_id; მიზეზი: თქვენი პირადი შენიშვნა, რომელიც არასდროს უჩვენება კლიენტს). საიტი წყვეტს მუშაობას, სანამ ის ხელახლა არ გააქტიურდება."
+msgstr "კლიენტის საიტს აყენებს შეჩერების რეჟიმში გადაუხდელობის გამო (site_id; reason: თქვენი საკუთარი შენიშვნა, რომელიც არასოდეს ეჩვენება კლიენტს). საიტი წყვეტს მუშაობას მის განბლოკვამდე."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "კლიენტის საიტის შეჩერების მოხსნა"
+msgstr "კლიენტის საიტის შეჩერების გაუქმება"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
@@ -843,20 +843,20 @@ msgstr "ხსნის გადაუხდელობის გამო დ
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "გადაიკითხეთ გადამყიდველის ხელსაწყოთა ყუთის პარამეტრები"
+msgstr "წაიკითხეთ Reseller Toolkit-ის პარამეტრები"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "აბრუნებს ამ პლაგინის პარამეტრებს (API მისამართს, გეგმას, რომელსაც ახალი შეკვეთები იყენებს, რომელი ფუნქციებია ჩართული). API გასაღები არასდროს ბრუნდება, მხოლოდ ის, არის თუ არა ის შენახული."
+msgstr "აბრუნებს ამ გაფართოების პარამეტრებს (API-ის მისამართს, ტარიფს, რომელსაც ახალი შეკვეთები იყენებს, რომელი ფუნქციებია ჩართული). API გასაღები არასდროს ბრუნდება, მხოლოდ ის, შენახულია თუ არა იგი."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "გადამყიდველის ინსტრუმენტთა ნაკრების პარამეტრების შეცვლა"
+msgstr "Reseller Toolkit-ის პარამეტრების შეცვლა"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
-msgstr "ცვლის თქვენს მიერ გაგზავნილ პარამეტრებს (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) და ინარჩუნებს დანარჩენს. API გასაღები და მისამართი იცვლება მხოლოდ ეკრანზე."
+msgstr "ცვლის თქვენ მიერ გაგზავნილ პარამეტრებს (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) და ინარჩუნებს დანარჩენს. API გასაღები და მისამართი იცვლება მხოლოდ ეკრანზე."
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "ჯერ დაამატეთ თქვენი Zinn Digital® გადამყიდველის API გასაღები გადამყიდველის ხელსაწყოების ეკრანზე."
+msgstr "ჯერ დაამატეთ თქვენი Zinn Digital® გადამყიდველის API გასაღები Reseller Toolkit ეკრანზე."

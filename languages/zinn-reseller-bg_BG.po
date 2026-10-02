@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-reseller"
 #. Description of the plugin
 #: zinn-reseller.php
 msgid "Sell Zinn Digital® hosting from your own WordPress site — WordPress, WooCommerce, agency, reseller, cloud and VPS hosting. Search and offer domains from your reseller account, sign your clients straight into their hosting panel, and provision hosting automatically when a WooCommerce order is paid."
-msgstr "Продавайте хостинг от Zinn Digital® от собствения си сайт на WordPress — хостинг за WordPress, WooCommerce, агенции, реселъри, в облака и VPS. Търсете и предлагайте домейн имена от реселърския си акаунт, вписвайте клиентите си директно в техния хостинг панел и предоставяйте хостинг автоматично при плащане на поръчка в WooCommerce."
+msgstr "Продавайте хостинг от Zinn Digital® от собствения си уебсайт на WordPress — WordPress, WooCommerce, агентски, риселърски, облачен и VPS хостинг. Търсете и предлагайте домейни от Вашия риселърски акаунт, вписвайте клиентите си директно в техния хостинг панел и осигурявайте хостинг автоматично при плащане на поръчка в WooCommerce."
 
 #. Author of the plugin
 #: zinn-reseller.php
@@ -38,11 +38,11 @@ msgstr "https://zinndigital.com"
 #: includes/class-client.php:161
 #, php-format
 msgid "The hosting platform answered with status %d."
-msgstr "Хостинг платформата върна статус %d."
+msgstr "Хостинг платформата отговори със статус %d."
 
 #: includes/class-domain-search.php:74
 msgid "Find your domain name"
-msgstr "Намерете името на домейна си"
+msgstr "Намерете вашето домейн име"
 
 #: includes/class-domain-search.php:75
 msgid "Search"
@@ -50,23 +50,23 @@ msgstr "Търсене"
 
 #: includes/class-domain-search.php:175
 msgid "No extensions were checked for that name."
-msgstr "Няма избрани разширения за това име."
+msgstr "Няма проверени разширения за това име."
 
 #: includes/class-domain-search.php:214
 msgid "Domain search is unavailable on this site at the moment."
-msgstr "Търсенето на домейни в момента е недостъпно за този сайт."
+msgstr "Търсенето на домейни в момента не е достъпно на този сайт."
 
 #: includes/class-domain-search.php:215
 msgid "We could not reach the domain registry just now. Please try again in a moment."
-msgstr "В момента не успяхме да се свържем с регистъра на домейна. Моля, опитайте отново след малко."
+msgstr "В момента няма връзка с регистъра на домейни. Моля, опитайте отново след малко."
 
 #: includes/class-domain-search.php:225
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
-msgstr "API ключът липсва или вече не е валиден. Проверете го в Zinn Digital® → Реселърски инструментариум."
+msgstr "API ключът липсва или вече не е валиден. Проверете го в Zinn Digital® → Reseller Toolkit."
 
 #: includes/class-domain-search.php:227
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
-msgstr "Този API ключ няма разрешението sites.view, което се изисква за търсенето на домейни. Добавете го към ключа в своя реселърски панел или изчистете ключа тук, за да преминете към публичното търсене."
+msgstr "Този API ключ няма разрешението sites.view, което е необходимо за търсенето на домейни. Добавете го към ключа във вашия панел за риселъри или изчистете ключа тук, за да се върнете към публичното търсене."
 
 #: includes/class-domain-search.php:232
 msgid "Only administrators see this:"
@@ -74,21 +74,21 @@ msgstr "Само администраторите виждат това:"
 
 #: includes/class-domain-search.php:281
 msgid "We could not check this one — try again"
-msgstr "Не успяхме да проверим тази — опитайте отново"
+msgstr "Не можахме да проверим това — опитайте отново"
 
 #: includes/class-domain-search.php:285
 msgid "Already registered"
-msgstr "Вече е регистриран"
+msgstr "Вече сте регистрирани"
 
 #: includes/class-domain-search.php:323
 msgid "Available — ask us for a price"
-msgstr "Налично — попитайте ни за цена"
+msgstr "В наличност — попитайте ни за цена"
 
 #. translators: 1: price, 2: ISO currency code.
 #: includes/class-domain-search.php:328
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
-msgstr "Налични — %1$s %2$s за първата година"
+msgstr "Налично — %1$s %2$s за първата година"
 
 #: includes/class-domain-search.php:351
 msgid "Register it"
@@ -100,7 +100,7 @@ msgstr "Управление на моя хостинг"
 
 #: includes/class-panel-link.php:87
 msgid "Please sign in first."
-msgstr "Моля, влезте в профила си първо."
+msgstr "Моля, първо влезте в профила си."
 
 #: includes/class-panel-link.php:94
 msgid "This account is not linked to a hosting service yet."
@@ -108,64 +108,64 @@ msgstr "Този акаунт все още не е свързан с хости
 
 #: includes/class-panel-link.php:104
 msgid "The hosting platform did not return a sign-in link."
-msgstr "Платформата за хостинг не върна връзка за влизане."
+msgstr "Хостинг платформата не върна връзка за вход."
 
 #: includes/class-settings.php:121
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
-msgstr "Инструменти за реселъри"
+msgstr "Инструменти за риселъри"
 
 #: includes/class-settings.php:127
 msgid "Account"
-msgstr "Акаунт"
+msgstr "Профил"
 
 #: includes/class-settings.php:131
 msgid "Features"
-msgstr "Функционалности"
+msgstr "Възможности"
 
 #: includes/class-settings.php:135
 msgid "Styling"
-msgstr "Стил"
+msgstr "Стилизиране"
 
 #: includes/class-settings.php:139
 #: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:216
+#: includes/mcp-kit/class-server.php:220
 msgid "AI agents (MCP)"
-msgstr "AI агенти (MCP)"
+msgstr "ИИ агенти (MCP)"
 
 #: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:225
+#: includes/mcp-kit/class-server.php:229
 msgid "Allow AI agents (MCP)"
 msgstr "Разрешаване на AI агенти (MCP)"
 
 #: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:227
+#: includes/mcp-kit/class-server.php:231
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "Изключено: инструментите по-долу и техните REST маршрути изобщо не са регистрирани."
 
 #: includes/class-settings.php:178
 msgid "Your Zinn Digital® reseller account"
-msgstr "Вашият реселърски акаунт в Zinn Digital®"
+msgstr "Вашият риселърски акаунт в Zinn Digital®"
 
 #: includes/class-settings.php:179
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
-msgstr "Създайте API ключ за препродажба в таблото си за управление на Zinn® в раздел Developer → API keys и го поставете тук."
+msgstr "Създайте API ключ за дилър във Вашето табло за управление на Zinn® в Разработчик → API ключове и го поставете тук."
 
 #: includes/class-settings.php:185
 msgid "Reseller API key"
-msgstr "API ключ на дистрибутора"
+msgstr "API ключ за риселър"
 
 #: includes/class-settings.php:186
 msgid "Held on this site only, and never included in an export or a diagnostics report."
-msgstr "Съхранява се само на този сайт и никога не се включва в експортиране или диагностичен отчет."
+msgstr "Съхранява се само на този сайт и никога не се включва в експорт или диагностичен доклад."
 
 #: includes/class-settings.php:192
 msgid "Plan to provision"
-msgstr "План за осигуряване"
+msgstr "План за предоставяне"
 
 #: includes/class-settings.php:193
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
-msgstr "План кодът, на който се регистрират новите клиенти. Оставете празно, за да се пита всеки път."
+msgstr "Кодът на плана, към който се присъединяват новите клиенти. Оставете празно, за да бъдете питани всеки път."
 
 #: includes/class-settings.php:199
 msgid "API address"
@@ -173,7 +173,7 @@ msgstr "API адрес"
 
 #: includes/class-settings.php:200
 msgid "Leave this alone unless Zinn® support has asked you to change it."
-msgstr "Оставете това така, освен ако поддръжката на Zinn® не ви е помогнала да го промените."
+msgstr "Оставете това така, освен ако поддръжката на Zinn® не е поискала от вас да го промените."
 
 #: includes/class-settings.php:206
 msgid "Control-panel address"
@@ -181,35 +181,35 @@ msgstr "Адрес на контролния панел"
 
 #: includes/class-settings.php:207
 msgid "Where the “My hosting” link sends your customers."
-msgstr "Където линкът „Моят хостинг“ пренасочва вашите клиенти."
+msgstr "Къде връзката „Моят хостинг“ препраща вашите клиенти."
 
 #: includes/class-settings.php:223
 msgid "Domain search"
-msgstr "Търсене на домейни"
+msgstr "Търсене на домейн"
 
 #: includes/class-settings.php:224
 msgid "Provide the [zinn_domain_search] shortcode"
-msgstr "Въведете шорткъта [zinn_domain_search]"
+msgstr "Предоставете краткия код [zinn_domain_search]"
 
 #: includes/class-settings.php:225
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
-msgstr "Поставете шорткъта на която и да е страница, за да позволите на посетителите да проверяват домейн и да го купят чрез вас."
+msgstr "Поставете краткия код на произволна страница, за да позволите на посетителите да проверят домейн и да го купят чрез вас."
 
 #: includes/class-settings.php:231
 msgid "Panel link"
-msgstr "Връзка към панел"
+msgstr "Връзка към панела"
 
 #: includes/class-settings.php:232
 msgid "Show a “My hosting” link to signed-in customers"
-msgstr "Показване на връзка „Моят хостинг“ на влезли клиенти"
+msgstr "Показване на връзка „Моят хостинг“ на вписаните клиенти"
 
 #: includes/class-settings.php:238
 msgid "WooCommerce provisioning"
-msgstr "Инсталиране на WooCommerce"
+msgstr "Осигуряване на WooCommerce"
 
 #: includes/class-settings.php:239
 msgid "Provision hosting automatically when a WooCommerce order completes"
-msgstr "Автоматично предоставяне на хостинг при завършване на WooCommerce поръчка"
+msgstr "Автоматично осигуряване на хостинг при завършване на поръчка в WooCommerce"
 
 #: includes/class-settings.php:240
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
@@ -217,19 +217,19 @@ msgstr "Влиза в сила само за поръчки, съдържащи 
 
 #: includes/class-settings.php:256
 msgid "Domain search appearance"
-msgstr "Визуализация на търсенето на домейни"
+msgstr "Облик при търсене на домейни"
 
 #: includes/class-settings.php:257
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
-msgstr "Този уиджет се визуализира във вашата собствена тема. Изберете предварителна настройка или задайте свои собствени цветове — така или иначе на страниците ви няма да бъде добавено нищо, което посетител да може да види като наше."
+msgstr "Тази джаджа се визуализира в рамките на вашата собствена тема. Изберете предварително зададен шаблон или задайте свои собствени цветове — и в двата случая към страниците ви не се добавя нищо, което посетител би могъл да разпознае като наше."
 
 #: includes/class-settings.php:265
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
-msgstr "Всички класове, които уиджетът използва, са изброени в файла readme на плъгина, така че разработчикът може да презапише всичко, което предварителната настройка не покрива."
+msgstr "Всеки клас, използван от притурката, е описан в файла readme на разширението, така че разработчикът може да презапише всичко, което не се покрива от предварителните настройки."
 
 #: includes/class-settings.php:282
 msgid "Follow my theme"
-msgstr "Следвай моята тема"
+msgstr "Следване на моята тема"
 
 #: includes/class-settings.php:298
 msgid "Soft"
@@ -245,27 +245,27 @@ msgstr "Компактен"
 
 #: includes/class-settings.php:349
 msgid "Buy-link colour"
-msgstr "Цвят на връзката за покупка"
+msgstr "Цвят на връзката за купуване"
 
 #: includes/class-settings.php:353
 msgid "“Available” colour"
-msgstr "Цвят „Наличен“"
+msgstr "Цвят за „Наличен“"
 
 #: includes/class-settings.php:357
 msgid "“Could not check” colour"
-msgstr "Цвят „Не може да бъде проверено“"
+msgstr "Цвят за „Не може да се провери“"
 
 #: includes/class-settings.php:361
 msgid "Error colour"
-msgstr "Цвят на грешката"
+msgstr "Цвят за грешка"
 
 #: includes/class-settings.php:365
 msgid "Corner rounding"
-msgstr "Закръгляне на ъглите"
+msgstr "Закръгляване на ъглите"
 
 #: includes/class-settings.php:369
 msgid "Space inside each row"
-msgstr "Място във всеки ред"
+msgstr "Разстояние във всеки ред"
 
 #: includes/class-settings.php:373
 msgid "Text size"
@@ -273,7 +273,7 @@ msgstr "Размер на текста"
 
 #: includes/class-settings.php:377
 msgid "Domain-name weight"
-msgstr "Тегло на домейн името"
+msgstr "Тежест на името на домейна"
 
 #: includes/class-settings.php:398
 msgid "No reseller API key yet."
@@ -281,23 +281,23 @@ msgstr "Все още няма API ключ за дистрибутор."
 
 #: includes/class-settings.php:399
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
-msgstr "Търсенето на домейни вече работи и без него, по публични цени. Връзката с панела и подготовката за WooCommerce изискват ключ: създайте го във вашия информационен панел на Zinn® в раздел Разработчици (Developer) → API ключове."
+msgstr "Търсенето на домейни вече работи и без ключ, на публичните цени. Връзката към панела и осигуряването чрез WooCommerce изискват ключ: създайте такъв във Вашето табло за управление на Zinn® под Developer → API keys."
 
 #: includes/class-settings.php:401
 msgid "Open my Zinn® dashboard"
-msgstr "Отворете моето табло за управление на Zinn®"
+msgstr "Отворете моето Zinn® табло"
 
 #: includes/class-settings.php:419
 msgid "A key is set, but nothing is switched on."
-msgstr "Ключът е зададен, но нищо не е включено."
+msgstr "Зададен е ключ, но нищо не е включено."
 
 #: includes/class-settings.php:420
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
-msgstr "Нито една от трите функции не е активирана, така че този плъгин не прави нищо на вашия сайт. Включете това, което ви е необходимо в раздел „Функции“."
+msgstr "Нито една от трите функции не е включена, така че тази разширение не прави нищо на вашия сайт. Включете това, от което се нуждаете, от „Функции“."
 
 #: includes/class-settings.php:422
 msgid "Open Features"
-msgstr "Отвори функциите"
+msgstr "Отваряне на функциите"
 
 #. translators: %d: how many toolkit features are switched on.
 #: includes/class-settings.php:432
@@ -305,7 +305,7 @@ msgstr "Отвори функциите"
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "Готово — %d функция е включена."
-msgstr[1] "Готово — активирани функции: %d."
+msgstr[1] "Готово — %d функции са включени."
 
 #: includes/class-settings.php:437
 msgid "Selling from"
@@ -323,21 +323,21 @@ msgstr "Все още няма API ключ, така че нищо не е св
 #: includes/class-settings.php:539
 #, php-format
 msgid "Not connected: %s"
-msgstr "Не е свързан: %s"
+msgstr "Няма връзка: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
 #: includes/class-settings.php:549
 #, php-format
 msgid "Connected. Your reseller programme is %s."
-msgstr "Свързан. Вашата реселърска програма е %s."
+msgstr "Свързано. Вашата риселърска програма е %s."
 
 #: includes/class-woocommerce-provisioning.php:99
 msgid "No Zinn® API key is configured, so nothing was provisioned."
-msgstr "Няма конфигуриран Zinn® API ключ, затова нищо не беше подготвено."
+msgstr "Не е конфигуриран API ключ за Zinn®, затова нищо не беше подготвено."
 
 #: includes/class-woocommerce-provisioning.php:112
 msgid "This order did not include a domain name, so there was nothing to provision."
-msgstr "Тази поръчка не включваше домейн име, така че нямаше нищо за предоставяне."
+msgstr "Тази поръчка не включваше име на домейн, така че нямаше нищо за конфигуриране."
 
 #: includes/class-woocommerce-provisioning.php:132
 msgid "The hosting platform did not return a site."
@@ -347,7 +347,7 @@ msgstr "Хостинг платформата не върна сайт."
 #: includes/class-woocommerce-provisioning.php:143
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
-msgstr "Zinn® хостинг, осигурен за %1$s (услуга %2$s)."
+msgstr "Предоставено е Zinn® хостинг за %1$s (услуга %2$s)."
 
 #: includes/class-woocommerce-provisioning.php:207
 msgid "The hosting platform did not return a client account."
@@ -357,43 +357,43 @@ msgstr "Хостинг платформата не върна клиентски
 #: includes/class-woocommerce-provisioning.php:312
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
-msgstr "Zinn® хостингът НЕ беше инициализиран: %s"
+msgstr "Хостингът на Zinn® НЕ беше предоставен: %s"
 
 #: includes/class-woocommerce-provisioning.php:328
 msgid "Zinn® product line"
-msgstr "Продуктова линия Zinn®"
+msgstr "Продуктова линия на Zinn®"
 
 #: includes/class-woocommerce-provisioning.php:329
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
-msgstr "Продуктовата линия Zinn®, която да се предостави при покупката на този продукт. Оставете празно, за да използвате стойността по подразбиране от настройките на плъгина."
+msgstr "Продуктовата линия на Zinn®, която да се предостави при закупуване на този продукт. Оставете празно, за да използвате стойността по подразбиране от настройките на разширението."
 
 #: includes/class-woocommerce-provisioning.php:366
 msgid "Zinn® hosting"
-msgstr "Хостинг Zinn®"
+msgstr "Zinn® хостинг"
 
 #: includes/class-woocommerce-provisioning.php:390
 msgid "Service id"
-msgstr "Идентификатор на услуга"
+msgstr "Идент. на услуга"
 
 #: includes/class-woocommerce-provisioning.php:397
 msgid "Nothing provisioned for this order."
-msgstr "Няма подготвени ресурси за тази поръчка."
+msgstr "Няма нищо осигурено за тази поръчка."
 
 #: includes/class-zinn-reseller-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "Запазено. Въведете нова стойност, за да го замените."
+msgstr "Запазено. Въведете нова стойност, за да я замените."
 
 #: includes/class-zinn-reseller-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "Филтрирай този списък…"
+msgstr "Филтриране на този списък…"
 
 #: includes/class-zinn-reseller-admin-fields.php:641
 msgid "Filter this list"
-msgstr "Филтриране на този списък"
+msgstr "Филтрирайте този списък"
 
 #: includes/class-zinn-reseller-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "Няма резултати, отговарящи на този филтър."
+msgstr "Нищо не съответства на този филтър."
 
 #: includes/class-zinn-reseller-admin-fields.php:688
 msgid "Add a row"
@@ -401,7 +401,7 @@ msgstr "Добавяне на ред"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove this row"
-msgstr "Премахни този ред"
+msgstr "Премахнете този ред"
 
 #: includes/class-zinn-reseller-admin-fields.php:725
 msgid "Remove"
@@ -415,11 +415,11 @@ msgstr "Zinn Digital®"
 
 #: includes/class-zinn-reseller-admin-ui.php:294
 msgid "Zinn Digital® — overview"
-msgstr "Zinn Digital® — преглед"
+msgstr "Zinn Digital® — общ преглед"
 
 #: includes/class-zinn-reseller-admin-ui.php:295
 msgid "Overview"
-msgstr "Преглед"
+msgstr "Общ преглед"
 
 #: includes/class-zinn-reseller-admin-ui.php:383
 msgid "Copied"
@@ -427,15 +427,15 @@ msgstr "Копирано"
 
 #: includes/class-zinn-reseller-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "Всеки Zinn® плъгин на този сайт и дали той работи."
+msgstr "Всеки Zinn® плъгин на този сайт и дали работи."
 
 #: includes/class-zinn-reseller-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "За този плъгин не е необходима връзка."
+msgstr "За тази приставка не е необходима връзка."
 
 #: includes/class-zinn-reseller-admin-ui.php:442
 msgid "Open settings"
-msgstr "Отвори настройки"
+msgstr "Отваряне на настройките"
 
 #: includes/class-zinn-reseller-admin-ui.php:770
 #: includes/class-zinn-reseller-admin-ui.php:1331
@@ -452,7 +452,7 @@ msgstr "Поддръжка"
 
 #: includes/class-zinn-reseller-admin-ui.php:929
 msgid "Save changes"
-msgstr "Запази промените"
+msgstr "Запазване на промените"
 
 #: includes/class-zinn-reseller-admin-ui.php:958
 msgid "Tools"
@@ -464,11 +464,11 @@ msgstr "Експортиране на настройките"
 
 #: includes/class-zinn-reseller-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "Възстановяване на стандартните настройки"
+msgstr "Възстановяване на настройките по подразбиране"
 
 #: includes/class-zinn-reseller-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "Това ще възстанови всички настройки на този плъгин до техните стойности по подразбиране. Искате ли да продължите?"
+msgstr "Това ще върне всички настройки на тази разширение към стойностите им по подразбиране. Желаете ли да продължите?"
 
 #: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -476,7 +476,7 @@ msgstr "Диагностика за поддръжка"
 
 #: includes/class-zinn-reseller-admin-ui.php:993
 msgid "Import a settings file"
-msgstr "Импортиране на файл с настройки"
+msgstr "Внасяне на файл с настройки"
 
 #: includes/class-zinn-reseller-admin-ui.php:995
 msgid "Import"
@@ -484,7 +484,7 @@ msgstr "Импортиране"
 
 #: includes/class-zinn-reseller-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "Експортираните файлове никога не съдържат пароли, токени или API ключове – ще трябва да ги въведете отново на новия сайт."
+msgstr "Експортираните файлове никога не съдържат пароли, токени или API ключове — ще трябва да ги въведете отново на новия сайт."
 
 #: includes/class-zinn-reseller-admin-ui.php:1096
 msgid "Settings saved."
@@ -492,7 +492,7 @@ msgstr "Настройките са запазени."
 
 #: includes/class-zinn-reseller-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "Всички настройки на този плъгин са върнати към техните подразбиращи се стойности."
+msgstr "Всички настройки на тази разширение са върнати към първоначалните стойности."
 
 #: includes/class-zinn-reseller-admin-ui.php:1186
 msgid "Done."
@@ -504,7 +504,7 @@ msgstr "Това действие не е налично."
 
 #: includes/class-zinn-reseller-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "Този файл не можа да бъде прочетен. Изберете файл с настройки, експортиран от плъгин на Zinn®."
+msgstr "Този файл не можа да бъде прочетен. Изберете файл с настройки, експортиран от разширение на Zinn®."
 
 #: includes/class-zinn-reseller-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
@@ -512,21 +512,21 @@ msgstr "Този файл е твърде голям, за да бъде екс�
 
 #: includes/class-zinn-reseller-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "Този файл не е експортиране на настройки за Zinn®."
+msgstr "Този файл не е експорт на настройки от Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-reseller-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "Този файл е експортиран от друг плъгин (%s), така че импортирането му тук ще запише настройки, които този плъгин не разпознава."
+msgstr "Този файл е експортиран от различна приставка (%s), така че внасянето му тук ще запише настройки, които тази приставка не разбира."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-reseller-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "Импортирана е %d настройка. Паролите и API ключовете никога не се включват в експортирането, затова ги въведете отново."
-msgstr[1] "%d настройки са импортирани. Паролите и API ключовете никога не се включват в експорт, затова ги въведете отново."
+msgstr[0] "%d настройка беше импортирана. Паролите и API ключовете никога не се включват в експорта, затова ги въведете отново."
+msgstr[1] "Импортирани са %d настройки. Паролите и API ключовете никога не се включват в експорта, затова ги въведете отново."
 
 #: includes/class-zinn-reseller-connection.php:58
 msgid "Connected"
@@ -538,7 +538,7 @@ msgstr "Свързване…"
 
 #: includes/class-zinn-reseller-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "Свързан, но е необходимо внимание"
+msgstr "Свързано, но нещо изисква внимание"
 
 #: includes/class-zinn-reseller-connection.php:64
 msgid "Not connected"
@@ -546,19 +546,19 @@ msgstr "Няма връзка"
 
 #: includes/class-zinn-reseller-connection.php:66
 msgid "Running on your own account"
-msgstr "Работещи във вашия собствен акаунт"
+msgstr "Работи във вашия собствен акаунт"
 
 #: includes/class-zinn-reseller-connection.php:68
 msgid "We could not check this"
-msgstr "Не успяхме да проверим това"
+msgstr "Не можахме да проверим това"
 
 #: includes/class-zinn-reseller-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "Този плъгин не посочи причина. Изпратете диагностичен отчет и ние ще го прегледаме."
+msgstr "Тази приставка не посочи причина. Изпратете диагностичен доклад и ние ще прегледаме."
 
 #: includes/class-zinn-reseller-connection.php:161
 msgid "Connection status"
-msgstr "Статус на връзката"
+msgstr "Състояние на връзката"
 
 #. translators: %s: a human-readable interval such as "5 minutes".
 #: includes/class-zinn-reseller-connection.php:189
@@ -576,11 +576,11 @@ msgstr "Изпратете това до поддръжката на Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "Това е точно това, което ще бъде изпратено — нищо повече и нищо скрито. Вашите пароли, токени и API ключове не се съдържат в него."
+msgstr "Това е точно това, което ще бъде изпратено — нищо друго и нищо скрито. Вашите пароли, токени и API ключове не са в него."
 
 #: includes/class-zinn-reseller-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "Диагностичният отчет, който ще бъде изпратен"
+msgstr "Диагностичният доклад, който ще бъде изпратен"
 
 #: includes/class-zinn-reseller-diagnostics.php:207
 msgid "Copy to clipboard"
@@ -588,41 +588,41 @@ msgstr "Копиране в клипборда"
 
 #: includes/class-zinn-reseller-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "Изпратете този отчет до поддръжката на Zinn®"
+msgstr "Изпратете този доклад на поддръжката на Zinn®"
 
 #: includes/class-zinn-reseller-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "Ние отваряме билет за поддръжка за вас и отговаряме по имейл. Ако предпочитате да не го изпращате, копирайте го по-горе и го поставете сами в билет."
+msgstr "Отваряме тикет за поддръжка за Вас и отговаряме по имейл. Ако предпочитате да не го изпращате, копирайте го отгоре и го поставете в тикет сами."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-reseller-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "Не успяхме да се свържем със Zinn Digital® от този сървър (%s). Вместо това копирайте горния отчет и отворете билет – нищо в настройките ви не е грешно."
+msgstr "Не можахме да се свържем със Zinn Digital® от този сървър (%s). Копирайте отчета по-горе и вместо това отворете тикет — няма нищо грешно във вашите настройки."
 
 #: includes/class-zinn-reseller-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Поддержката на Zinn® получи вашия сигнал и ще ви отговори по имейл."
+msgstr "Изпратено. Екипът за поддръжка на Zinn® получи Вашия сигнал и ще отговори по имейл."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-reseller-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Поддръжката на Zinn® получи вашия сигнал — референтен номер %s — и ще ви отговори по имейл."
+msgstr "Изпратено. Поддръжката на Zinn® получи вашия сигнал — номер %s — и ще отговори по имейл."
 
 #: includes/class-zinn-reseller-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "Изпратихте няколко отчета за кратко време. Изчакайте няколко минути и опитайте отново — предишните бяха получени."
+msgstr "Изпратихте няколко доклада за кратко време. Изчакайте няколко минути и опитайте отново — предишните бяха получени."
 
 #: includes/class-zinn-reseller-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® не успя да приеме отчета в момента — проблемът е в нашата страна, а не във вашата. Опитайте отново скоро или копирайте отчета по-горе в заявка (ticket)."
+msgstr "Zinn Digital® не успя да приеме доклада в момента — проблемът е при нас, а не при вас. Опитайте отново след малко или копирайте горния доклад в тикет."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-reseller-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "Докладът беше отхвърлен (HTTP %d). Копирайте го по-горе и отворете билет, като посочите този номер."
+msgstr "Докладът беше отказан (HTTP %d). Копирайте го отгоре и отворете тикет, цитирайки този номер."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-reseller-promo.php:241
@@ -633,17 +633,17 @@ msgstr "%s — ръководства и услуги"
 
 #: includes/class-zinn-reseller-promo.php:256
 msgid "User guides"
-msgstr "Потребителски ръководства"
+msgstr "Ръководства за потребителя"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-reseller-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "Прочетете потребителското ръководство за %s"
+msgstr "Прочетете ръководството за потребителя на %s"
 
 #: includes/class-zinn-reseller-promo.php:314
 msgid "Hide this"
-msgstr "Скрий това"
+msgstr "Скриване на това"
 
 #: includes/class-zinn-reseller-promo.php:424
 msgid "Zinn® hosting for WordPress"
@@ -655,11 +655,11 @@ msgstr "LiteSpeed, ежедневни резервни копия, безпла�
 
 #: includes/class-zinn-reseller-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "Пазарът Zinn®"
+msgstr "Пазарът на Zinn®"
 
 #: includes/class-zinn-reseller-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Купувайте и продавайте съществуващи сайтове, домейни и места за линкове, като парите се съхраняват сигурно, докато двете страни останат доволни."
+msgstr "Купувайте и продавайте утвърдени сайтове, домейни и позиции за връзки, като парите се пазят сигурно, докато и двете страни не останат доволни."
 
 #: includes/class-zinn-reseller-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
@@ -667,15 +667,15 @@ msgstr "Zinn Hub® — наемете хора, за които това е пр
 
 #: includes/class-zinn-reseller-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Нашата глобална платформа за фрийлансъри: разгледайте над 10 000 готови услуги от автори, дизайнери, разработчици и SEO специалисти или публикувайте проект и им позволете да наддават."
+msgstr "Нашият глобален пазар за фрийлансъри: разгледайте над 10 000 готови услуги от автори, дизайнери, разработчици и SEO специалисти, или публикувайте проект и им позволете да наддават."
 
 #: includes/class-zinn-reseller-style-presets.php:118
 msgid "Style preset"
-msgstr "Стил по подразбиране"
+msgstr "Предварително зададен стил"
 
 #: includes/class-zinn-reseller-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "Начална точка. Всичко по-долу я отменя."
+msgstr "Начална точка. Всичко по-долу я презаписва."
 
 #: includes/class-zinn-reseller-style-presets.php:126
 msgid "Use my own colours and sizes"
@@ -683,73 +683,73 @@ msgstr "Използване на мои собствени цветове и р
 
 #: includes/class-zinn-reseller-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "Изключете това и предварителната настройка ще се използва точно както е."
+msgstr "Оставете това изключено и предварителната настройка ще се използва точно както е."
 
 #: includes/class-zinn-reseller-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Вижте бележките за изданието на Zinn Digital®."
+msgstr "Вижте бележките по изданието на Zinn Digital®."
 
 #: includes/class-zinn-reseller-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Услугата за актуализиране на Zinn® не издаде връзка за изтегляне за тази актуализация. Проверете дали този сайт може да осъществи достъп до платформата Zinn® и опитайте отново."
+msgstr "Услугата за обновяване на Zinn® не предостави връзка за изтегляне на това обновяване. Проверете дали този сайт има достъп до платформата Zinn®, след което опитайте отново."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-reseller-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Актуализацията не можа да бъде изтеглена от услугата за актуализации на Zinn® (%s). Опитайте отново след няколко минути."
+msgstr "Обновяването не можа да бъде изтеглено от услугата за актуализации на Zinn® (%s). Опитайте отново след няколко минути."
 
 #: includes/class-zinn-reseller-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Изтегленото обновление не премина проверка за цялостност и не беше инсталирано."
+msgstr "Изтегленият файл за обновяване не премина проверката за цялостност и не беше инсталиран."
 
 #: includes/mcp-kit/class-ability.php:82
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
-msgstr "Действието не можа да бъде завършено. Опитайте отново и ако проблемът продължава, се свържете с администратора на сайта."
+msgstr "Действието не можа да бъде завършено. Опитайте отново и ако проблемът продължава, свържете се с администратора на сайта."
 
-#: includes/mcp-kit/class-rest-bridge.php:281
+#: includes/mcp-kit/class-rest-bridge.php:322
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
-msgstr "Липсва задължителна стойност или форматът ѝ е грешен. Проверете входящата схема на функцията."
+msgstr "Липсва задължителна стойност или тя е в неправилен формат. Проверете входната схема (input schema) на възможността."
 
-#: includes/mcp-kit/class-rest-bridge.php:314
+#: includes/mcp-kit/class-rest-bridge.php:355
 msgid "The site refused the request."
-msgstr "Сайтът отхвърли заявката."
+msgstr "Сайтът отказа заявката."
 
-#: includes/mcp-kit/class-server.php:217
+#: includes/mcp-kit/class-server.php:221
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user with an application password and can do only what that user is allowed to do."
-msgstr "Позволете на AI асистенти като Claude, Cursor или VS Code да работят по този сайт вместо вас чрез MCP (Model Context Protocol). Те влизат като WordPress потребител с парола за приложение и могат да правят само това, което е позволено на този потребител."
+msgstr "Позволете на AI асистенти като Claude, Cursor или VS Code да работят по този сайт вместо вас чрез MCP (Model Context Protocol). Те влизат като WordPress потребител с парола за приложение и могат да правят само това, което е разрешено за този потребител."
 
-#: includes/mcp-kit/class-server.php:219
+#: includes/mcp-kit/class-server.php:223
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
-msgstr "AI агентите изискват WordPress 6.9 или по-нова версия. Актуализирайте WordPress, за да ги използвате."
-
-#: includes/mcp-kit/class-server.php:232
-msgid "Connection address (MCP endpoint)"
-msgstr "Адрес за свързване (MCP крайна точка)"
-
-#: includes/mcp-kit/class-server.php:235
-msgid "Create an application password for your user"
-msgstr "Създаване на парола за приложение за вашия потребител"
+msgstr "AI агентите изискват WordPress 6.9 или по-нова версия. Обновете WordPress, за да ги използвате."
 
 #: includes/mcp-kit/class-server.php:236
-msgid "Add this to your AI app’s MCP settings, with your username and that password:"
-msgstr "Добавете това към настройките на MCP на вашето AI приложение, заедно с вашето потребителско име и тази парола:"
+msgid "Connection address (MCP endpoint)"
+msgstr "Адрес за връзка (крайна точка на MCP)"
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:239
+msgid "Create an application password for your user"
+msgstr "Създайте парола за приложение за вашия потребител"
+
+#: includes/mcp-kit/class-server.php:240
+msgid "Add this to your AI app’s MCP settings, with your username and that password:"
+msgstr "Добавете това към настройките за MCP на вашето AI приложение с вашето потребителско име и тази парола:"
+
+#: includes/mcp-kit/class-server.php:242
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: поставете същия запис под „servers“ в .vscode/mcp.json, а не под „mcpServers“."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:242
+#: includes/mcp-kit/class-server.php:246
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "Инструменти, които AI агентът може да използва тук (%d):"
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:257
 msgid "User guide: AI agents and MCP"
 msgstr "Ръководство за потребителя: AI агенти и MCP"
 
-#: includes/mcp-kit/class-server.php:256
+#: includes/mcp-kit/class-server.php:260
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "Документация за разработчици: възможности, REST и MCP"
 
@@ -759,23 +759,23 @@ msgstr "Управлявайте вашите хостинг клиенти, т�
 
 #: includes/mcp/class-abilities.php:60
 msgid "Your clients, their plans and their sites, through your Zinn Digital® reseller account."
-msgstr "Вашите клиенти, техните планове и техните сайтове чрез Вашия реселърски акаунт в Zinn Digital®."
+msgstr "Вашите клиенти, техните планове и техните сайтове чрез Вашия риселър акаунт в Zinn Digital®."
 
 #: includes/mcp/class-abilities.php:108
 msgid "Read your reseller account"
-msgstr "Прочетете своя акаунт на реселър"
+msgstr "Преглед на вашия риселър акаунт"
 
 #: includes/mcp/class-abilities.php:109
 msgid "Returns your reseller account in one read: brand, plans, clients and services counts, and what is set up."
-msgstr "Връща вашия реселърски акаунт с едно четене: марка, планове, брой клиенти и услуги, както и какво е настроено."
+msgstr "Връща вашия акаунт на риселър с едно прочитане: бранд, планове, брой клиенти и услуги, както и какво е настроено."
 
 #: includes/mcp/class-abilities.php:115
 msgid "List your clients"
-msgstr "Списък с клиенти"
+msgstr "Избройте вашите клиенти"
 
 #: includes/mcp/class-abilities.php:116
 msgid "Lists your client accounts, a page at a time (cursor, limit)."
-msgstr "Показва вашите клиентски акаунти, по една страница на път (курсор, лимит)."
+msgstr "Извежда списък с клиентските Ви профили, страница по страница (cursor, limit)."
 
 #: includes/mcp/class-abilities.php:122
 msgid "Create a client"
@@ -783,7 +783,7 @@ msgstr "Създаване на клиент"
 
 #: includes/mcp/class-abilities.php:123
 msgid "Creates a client account under yours (name; default_currency, a three-letter code). Put them on a plan before their first site."
-msgstr "Създава клиентски акаунт под вашия (име; default_currency, трибуквен код). Въведете ги в план преди първия им сайт."
+msgstr "Създава клиентски профил към Вашия (name; default_currency, трибуквен код). Задайте им план преди първия им сайт."
 
 #: includes/mcp/class-abilities.php:142
 msgid "Read a client's plan"
@@ -791,15 +791,15 @@ msgstr "Преглед на плана на клиент"
 
 #: includes/mcp/class-abilities.php:143
 msgid "Returns which plan a client is on and what it costs you (client_id)."
-msgstr "Връща плана, на който е даден клиент, и колко ви струва той (client_id)."
+msgstr "Връща информация за това на кой план е даден клиент и колко ви струва (client_id)."
 
 #: includes/mcp/class-abilities.php:149
 msgid "Put a client on a plan"
-msgstr "Поставете клиент на план"
+msgstr "Добавяне на клиент към план"
 
 #: includes/mcp/class-abilities.php:150
 msgid "Puts a client on one of your plans (client_id, plan_code; interval: month or year). Do this before their first site."
-msgstr "Включва клиент в някой от вашите планове (client_id, plan_code; interval: month или year). Направете това преди създаването на първия им сайт."
+msgstr "Поставя клиент в един от вашите планове (client_id, plan_code; interval: month или year). Направете това преди първия им сайт."
 
 #: includes/mcp/class-abilities.php:169
 msgid "List the plans you can sell"
@@ -807,15 +807,15 @@ msgstr "Избройте плановете, които можете да про
 
 #: includes/mcp/class-abilities.php:170
 msgid "Lists the hosting plans and their prices (product_line and currency narrow it)."
-msgstr "Изброява хостинг плановете и техните цени (product_line и currency ги тесният)."
+msgstr "Извежда хостинг плановете и техните цени (product_line и currency стесняват обхвата)."
 
 #: includes/mcp/class-abilities.php:184
 msgid "List your clients' sites"
-msgstr "Списък със сайтовете на вашите клиенти"
+msgstr "Списък на сайтовете на Вашите клиенти"
 
 #: includes/mcp/class-abilities.php:185
 msgid "Lists everything you have provisioned for your clients (client_id and status narrow it), a page at a time."
-msgstr "Извежда всичко, което сте подготвили за вашите клиенти (client_id и status го стесняват), страница по страница."
+msgstr "Показва списък с всичко, което сте предоставили за Вашите клиенти (client_id и status стесняват обхвата), страница по страница."
 
 #: includes/mcp/class-abilities.php:196
 msgid "Create a site for a client"
@@ -823,35 +823,35 @@ msgstr "Създайте сайт за клиент"
 
 #: includes/mcp/class-abilities.php:197
 msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Създава хостван сайт за един от вашите клиенти (client_id, product_line, primary_domain). Той се таксува към вашия акаунт по плана на клиента, както от вашия магазин."
+msgstr "Създава хостван сайт за един от Вашите клиенти (client_id, product_line, primary_domain). Той се таксува към Вашия профил според плана на клиента, както от Вашия магазин."
 
 #: includes/mcp/class-abilities.php:217
 msgid "Suspend a client's site"
-msgstr "Спри временно сайта на клиент"
+msgstr "Спиране на сайт на клиент"
 
 #: includes/mcp/class-abilities.php:218
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
-msgstr "Поставя клиентски сайт в задържане поради неплащане (site_id; reason: ваша собствена бележка, никога не се показва на клиента). Сайтът спира да се зарежда, докато не бъде възстановен."
+msgstr "Поставя сайта на клиент в състояние на задържане поради неплащане (site_id; reason: Ваша лична бележка, която никога не се показва на клиента). Сайтът спира да функционира, докато спирането му не бъде отменено."
 
 #: includes/mcp/class-abilities.php:236
 msgid "Unsuspend a client's site"
-msgstr "Възстановяване на сайта на клиент"
+msgstr "Възобновяване на сайт на клиент"
 
 #: includes/mcp/class-abilities.php:237
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
-msgstr "Премахва задържането поради неоплакване, така че сайтът да заработи отново (site_id)."
+msgstr "Премахва блокирането поради неплащане, така че сайтът да работи отново (site_id)."
 
 #: includes/mcp/class-abilities.php:243
 msgid "Read the Reseller Toolkit settings"
-msgstr "Прочетете настройките на инструментариума за дистрибутори"
+msgstr "Прочетете настройките на Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:244
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
-msgstr "Връща настройките на този плъгин (API адреса, плана, който използват новите поръчки, кои функции са включени). API ключът никога не се връща, а само дали има запазен такъв."
+msgstr "Връща настройките на тази приставка (API адреса, плана, който новите поръчки използват, кои функции са включени). API ключът никога не се връща, а само дали има запазен такъв."
 
 #: includes/mcp/class-abilities.php:250
 msgid "Change the Reseller Toolkit settings"
-msgstr "Промяна на настройките на инструментариума за дистрибутори"
+msgstr "Промяна на настройките на Reseller Toolkit"
 
 #: includes/mcp/class-abilities.php:251
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
@@ -859,4 +859,4 @@ msgstr "Променя настройките, които изпращате (pl
 
 #: includes/mcp/class-abilities.php:297
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
-msgstr "Първо добавете своя API ключ на дистрибутора на Zinn Digital® на екрана с инструменти за дистрибутори."
+msgstr "Първо добавете своя API ключ за дистрибутор на Zinn Digital® в екрана Reseller Toolkit."
