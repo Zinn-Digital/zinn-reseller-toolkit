@@ -72,7 +72,15 @@ final class OAuth {
 				return $resources;
 			}
 		);
-		add_action( 'plugins_loaded', array( self::class, 'load' ), 6 );
+		// ⛔ A plugin that boots its MCP server ON `plugins_loaded` (Zinn® Cache and the Reseller
+		// Toolkit do, at priority 10) arrives after priority 6 has run: the hook never fired, so a
+		// site with only that plugin had no OAuth sign-in at all (found by the access gate's
+		// stale OAuth rows, 2026-10-04). Start now in that case; the first copy still wins.
+		if ( did_action( 'plugins_loaded' ) ) {
+			self::load();
+		} else {
+			add_action( 'plugins_loaded', array( self::class, 'load' ), 6 );
+		}
 	}
 
 	/**
