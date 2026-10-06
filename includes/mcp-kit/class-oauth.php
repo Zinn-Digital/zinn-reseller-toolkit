@@ -747,7 +747,7 @@ final class OAuth {
 		wp_nonce_field( 'zinn_mcp_oauth_' . $id );
 		echo '<input type="hidden" name="action" value="zinn_mcp_oauth_answer" /><input type="hidden" name="request" value="' . esc_attr( $id ) . '" />';
 		/* translators: %s: the AI app's name. */
-		echo '<p><button type="submit" name="answer" value="allow" class="button button-primary"' . disabled( ! $allowed, true, false ) . '>' . esc_html( sprintf( __( 'Allow %s', 'zinn-reseller' ), $app ) ) . '</button> ';
+		echo '<p><button type="submit" name="answer" value="allow" class="button button-primary"' . disabled( ! $allowed, true, false ) . '>' . esc_html( sprintf( __( 'Allow %s', 'zinn-reseller' ), $app ) ) . '</button> '; // nosemgrep: php.lang.security.injection.echoed-request.echoed-request -- every part is escaped (esc_html) or fixed markup (disabled() returns a constant attribute); re-check if a value is ever echoed unescaped here.
 		echo '<button type="submit" name="answer" value="deny" class="button">' . esc_html__( 'Do not allow', 'zinn-reseller' ) . '</button></p>';
 		echo '</form></div></div>';
 	}
