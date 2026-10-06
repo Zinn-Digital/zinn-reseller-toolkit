@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.8
+Stable tag: 1.7.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,13 @@ Sell hosting as an ordinary WooCommerce product, take the money through your own
 5. Switch on the modules you want on the **Features** tab.
 
 == External services ==
+
+= AI apps you connect (MCP sign-in) =
+
+Only when an AI app such as Claude or ChatGPT starts connecting to the site's MCP server does the site fetch that app's public OAuth client metadata from the address the app gives, for example `https://claude.ai/oauth/mcp-oauth-client-metadata` or `https://chatgpt.com/oauth/client.json`. No site content is sent.
+
+* Claude: terms https://www.anthropic.com/legal/consumer-terms, privacy policy https://www.anthropic.com/legal/privacy
+* ChatGPT: terms https://openai.com/policies/terms-of-use/, privacy policy https://openai.com/policies/privacy-policy/
 
 This plugin lets you sell Zinn Digital® hosting from your own WordPress site. It is a front end
 for the Zinn® reseller API and requires a reseller account.
@@ -159,6 +166,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.9 =
+* The readme's External services section now lists the request made when an AI app signs in to the site's MCP server (its public OAuth client metadata); no behaviour change.
 
 = 1.7.8 =
 * Security-scan annotation on the AI agents (MCP) sign-in screen (no behaviour change): every value on its Allow button is escaped.
