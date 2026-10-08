@@ -22,7 +22,8 @@ declare( strict_types=1 );
 defined( 'ABSPATH' ) || exit;
 
 /**
- * The Zinn® panel: one dashboard widget, one settings-screen block, no remote calls.
+ * The Zinn® panel: one settings-screen block (and, only in a plugin that runs solely on sites we
+ * host, one dashboard widget), no remote calls.
  *
  * ⚖️ **Required by the owner, 2026-09-01:** *"each plugin should promote our hosting and
  * marketplace as well as Zinn Hub global marketplace inside people's site in the admin
@@ -99,6 +100,21 @@ final class Zinn_Reseller_Promo {
 	private const SLUG = 'zinn-reseller';
 
 	/**
+	 * Whether this plugin may put the panel on the WordPress DASHBOARD at all.
+	 *
+	 * ⚖️ **Owner ruling D10, 2026-10-06 — "Split by where it runs":** a plugin anyone can install
+	 * (WordPress.org, our download page, a Freemius zip) promotes ONLY on its own screens, as the
+	 * WordPress.org guidelines ask (guideline 11: do not hijack the admin dashboard). The
+	 * dashboard belongs to the plugins that run only on sites WE host — `zinn-platform` (the
+	 * must-use plugin with the remotely edited cards, docs/725) and `zinn-footprint` — whose
+	 * catalogue `distribution` is `app-only`.
+	 *
+	 * ⛔ Rendered by `wp/bin/build-promo.php` from `wp/plugins.json`, never typed: a plugin that
+	 * moves to WordPress.org changes its `distribution` and loses the widget in the same build.
+	 */
+	private const DASHBOARD_WIDGET = false;
+
+	/**
 	 * User-meta key holding a per-user dismissal of the settings-screen block.
 	 *
 	 * ⛔ **Per USER, not per site.** A site with three administrators has three people with
@@ -114,7 +130,7 @@ final class Zinn_Reseller_Promo {
 
 	/**
 	 * `define( 'ZINN_RESELLER_PROMO', false );` in wp-config.php removes EVERY piece of
-	 * this panel: the dashboard widget, the settings-screen block and the footer panel.
+	 * this panel: the settings-screen block, the footer panel and (where it exists) the dashboard widget.
 	 */
 	public const PROMO_CONSTANT = 'ZINN_RESELLER_PROMO';
 
@@ -212,6 +228,13 @@ final class Zinn_Reseller_Promo {
 		// it would be our own fault rather than theirs. The first Zinn plugin to load claims
 		// the widget and the rest stand down — and because the guide list is built from the
 		// shared registry below, the one widget still names every Zinn plugin on the site.
+		//
+		// ⛔ Only a plugin that may use the dashboard (DASHBOARD_WIDGET, owner D10) claims the
+		// slot. A WordPress.org plugin that loads first and claimed it without drawing anything
+		// would leave `zinn-footprint` on the same site standing down for a widget nobody shows.
+		if ( ! self::DASHBOARD_WIDGET ) {
+			return;
+		}
 		if ( ! defined( 'ZINN_PROMO_WIDGET_OWNER' ) ) {
 			define( 'ZINN_PROMO_WIDGET_OWNER', self::SLUG );
 		}

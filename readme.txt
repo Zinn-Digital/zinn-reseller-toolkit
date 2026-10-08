@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.9
+Stable tag: 1.7.10
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -166,6 +166,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.10 =
+* The Zinn® panel now appears only on this plugin's own screens, never on the WordPress dashboard (WordPress.org guideline 11).
 
 = 1.7.9 =
 * The readme's External services section now lists the request made when an AI app signs in to the site's MCP server (its public OAuth client metadata); no behaviour change.
