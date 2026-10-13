@@ -99,9 +99,39 @@ final class Adapter {
 			return true; // Loadable, deliberately not started: see cli_without_mcp().
 		}
 		$entry = self::ENTRY;
-		$entry::instance();
+		self::after_load( $entry::instance() );
 
 		return true;
+	}
+
+	/**
+	 * Under WP-CLI, start the adapter's servers right after WordPress has loaded, never while it
+	 * loads (stage PERF2, Q191).
+	 *
+	 * ⛔⛔ Measured 2026-10-13 (WordPress 7.1.3 / PHP 8.4, WooCommerce + the six hosted plugins):
+	 * the adapter starts its servers on `init` under WP-CLI, and starting them lists every
+	 * ability, which builds every plugin's REST routes — +16 MB (WooCommerce's routes) while
+	 * WordPress is still loading under PHP's 128 MB limit, which WP-CLI lifts only after
+	 * `wp-settings.php` (WP_CLI\Runner::load_wordpress). `wp mcp-adapter serve` then answered
+	 * tools/list with 0 tools for EVERY server, with or without Zinn® SEO. WP-CLI's
+	 * `after_wp_load` runs after the limit is lifted and before the command is looked up, so
+	 * `wp mcp-adapter …` still finds its command and every server, exactly as before. A copy the
+	 * adapter does not start on `init` (an older or newer adapter) is left as it is.
+	 *
+	 * @param object $adapter The adapter instance.
+	 * @return void
+	 */
+	public static function after_load( $adapter ): void {
+		if ( ! defined( 'WP_CLI' ) || ! constant( 'WP_CLI' ) || ! class_exists( '\\WP_CLI' ) || ! method_exists( '\\WP_CLI', 'add_hook' ) || did_action( 'init' ) ) {
+			return;
+		}
+		$start = array( $adapter, 'init' );
+		$at    = has_action( 'init', $start );
+		if ( false === $at ) {
+			return;
+		}
+		remove_action( 'init', $start, (int) $at );
+		\WP_CLI::add_hook( 'after_wp_load', $start );
 	}
 
 	/**
@@ -178,7 +208,7 @@ final class Adapter {
 			}
 			add_filter( 'mcp_adapter_create_default_server', '__return_false', 5 );
 		}
-		$entry::instance();
+		self::after_load( $entry::instance() );
 	}
 
 	/**
