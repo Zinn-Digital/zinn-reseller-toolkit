@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.11
+Stable tag: 1.7.12
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -166,6 +166,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.12 =
+* The MCP connection's sign-in response no longer switches off JSON escaping.
 
 = 1.7.11 =
 * Lighter start for WP-CLI commands: works within a 128 MB memory limit beside WooCommerce and other large plugins.

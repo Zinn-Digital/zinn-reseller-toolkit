@@ -220,7 +220,7 @@ final class OAuth {
 		}
 		nocache_headers();
 		header( 'Content-Type: application/json; charset=utf-8' );
-		echo wp_json_encode( $body, JSON_UNESCAPED_SLASHES );
+		echo wp_json_encode( $body );
 		exit;
 	}
 
