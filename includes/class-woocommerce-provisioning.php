@@ -15,7 +15,9 @@ declare( strict_types=1 );
 
 namespace Zinn\Reseller;
 
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 /**
  * Provisions hosting from a paid WooCommerce order.

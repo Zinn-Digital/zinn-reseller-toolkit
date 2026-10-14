@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Reseller Toolkit 1.7.14\n"
+"Project-Id-Version: Zinn® Reseller Toolkit 1.7.15\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-reseller\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-14T01:32:23+00:00\n"
+"POT-Creation-Date: 2026-10-14T08:30:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-reseller\n"
@@ -40,347 +40,347 @@ msgid "https://zinndigital.com"
 msgstr ""
 
 #. translators: %d: HTTP status code returned by the hosting API.
-#: includes/class-client.php:161
+#: includes/class-client.php:163
 #, php-format
 msgid "The hosting platform answered with status %d."
 msgstr ""
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:76
 msgid "Find your domain name"
 msgstr ""
 
-#: includes/class-domain-search.php:75
+#: includes/class-domain-search.php:77
 msgid "Search"
 msgstr ""
 
-#: includes/class-domain-search.php:175
+#: includes/class-domain-search.php:177
 msgid "No extensions were checked for that name."
 msgstr ""
 
-#: includes/class-domain-search.php:214
+#: includes/class-domain-search.php:216
 msgid "Domain search is unavailable on this site at the moment."
 msgstr ""
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:217
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr ""
 
-#: includes/class-domain-search.php:225
+#: includes/class-domain-search.php:227
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr ""
 
-#: includes/class-domain-search.php:227
+#: includes/class-domain-search.php:229
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr ""
 
-#: includes/class-domain-search.php:232
+#: includes/class-domain-search.php:234
 msgid "Only administrators see this:"
 msgstr ""
 
-#: includes/class-domain-search.php:281
+#: includes/class-domain-search.php:283
 msgid "We could not check this one — try again"
 msgstr ""
 
-#: includes/class-domain-search.php:285
+#: includes/class-domain-search.php:287
 msgid "Already registered"
 msgstr ""
 
-#: includes/class-domain-search.php:323
+#: includes/class-domain-search.php:325
 msgid "Available — ask us for a price"
 msgstr ""
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:328
+#: includes/class-domain-search.php:330
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr ""
 
-#: includes/class-domain-search.php:351
+#: includes/class-domain-search.php:353
 msgid "Register it"
 msgstr ""
 
-#: includes/class-panel-link.php:65
+#: includes/class-panel-link.php:67
 msgid "Manage my hosting"
 msgstr ""
 
-#: includes/class-panel-link.php:87
+#: includes/class-panel-link.php:89
 msgid "Please sign in first."
 msgstr ""
 
-#: includes/class-panel-link.php:94
+#: includes/class-panel-link.php:96
 msgid "This account is not linked to a hosting service yet."
 msgstr ""
 
-#: includes/class-panel-link.php:104
+#: includes/class-panel-link.php:106
 msgid "The hosting platform did not return a sign-in link."
 msgstr ""
 
-#: includes/class-settings.php:121
+#: includes/class-settings.php:123
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr ""
 
-#: includes/class-settings.php:127
+#: includes/class-settings.php:129
 msgid "Account"
 msgstr ""
 
-#: includes/class-settings.php:131
+#: includes/class-settings.php:133
 msgid "Features"
 msgstr ""
 
-#: includes/class-settings.php:135
+#: includes/class-settings.php:137
 msgid "Styling"
 msgstr ""
 
-#: includes/class-settings.php:139
-#: includes/class-settings.php:157
+#: includes/class-settings.php:141
+#: includes/class-settings.php:159
 #: includes/mcp-kit/class-server.php:322
 msgid "AI agents (MCP)"
 msgstr ""
 
-#: includes/class-settings.php:158
+#: includes/class-settings.php:160
 #: includes/mcp-kit/class-server.php:331
 msgid "Allow AI agents (MCP)"
 msgstr ""
 
-#: includes/class-settings.php:159
+#: includes/class-settings.php:161
 #: includes/mcp-kit/class-server.php:333
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr ""
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:180
 msgid "Your Zinn Digital® reseller account"
 msgstr ""
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:181
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr ""
 
-#: includes/class-settings.php:185
+#: includes/class-settings.php:187
 msgid "Reseller API key"
 msgstr ""
 
-#: includes/class-settings.php:186
+#: includes/class-settings.php:188
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr ""
 
-#: includes/class-settings.php:192
+#: includes/class-settings.php:194
 msgid "Plan to provision"
 msgstr ""
 
-#: includes/class-settings.php:193
+#: includes/class-settings.php:195
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr ""
 
-#: includes/class-settings.php:199
+#: includes/class-settings.php:201
 msgid "API address"
 msgstr ""
 
-#: includes/class-settings.php:200
+#: includes/class-settings.php:202
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr ""
 
-#: includes/class-settings.php:206
+#: includes/class-settings.php:208
 msgid "Control-panel address"
 msgstr ""
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:209
 msgid "Where the “My hosting” link sends your customers."
 msgstr ""
 
-#: includes/class-settings.php:223
+#: includes/class-settings.php:225
 msgid "Domain search"
 msgstr ""
 
-#: includes/class-settings.php:224
+#: includes/class-settings.php:226
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr ""
 
-#: includes/class-settings.php:225
+#: includes/class-settings.php:227
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr ""
 
-#: includes/class-settings.php:231
+#: includes/class-settings.php:233
 msgid "Panel link"
 msgstr ""
 
-#: includes/class-settings.php:232
+#: includes/class-settings.php:234
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr ""
 
-#: includes/class-settings.php:238
+#: includes/class-settings.php:240
 msgid "WooCommerce provisioning"
 msgstr ""
 
-#: includes/class-settings.php:239
+#: includes/class-settings.php:241
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr ""
 
-#: includes/class-settings.php:240
+#: includes/class-settings.php:242
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr ""
 
-#: includes/class-settings.php:256
+#: includes/class-settings.php:258
 msgid "Domain search appearance"
 msgstr ""
 
-#: includes/class-settings.php:257
+#: includes/class-settings.php:259
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr ""
 
-#: includes/class-settings.php:265
+#: includes/class-settings.php:267
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr ""
 
-#: includes/class-settings.php:282
+#: includes/class-settings.php:284
 msgid "Follow my theme"
 msgstr ""
 
-#: includes/class-settings.php:298
+#: includes/class-settings.php:300
 msgid "Soft"
 msgstr ""
 
-#: includes/class-settings.php:314
+#: includes/class-settings.php:316
 msgid "High contrast"
 msgstr ""
 
-#: includes/class-settings.php:330
+#: includes/class-settings.php:332
 msgid "Compact"
 msgstr ""
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:351
 msgid "Buy-link colour"
 msgstr ""
 
-#: includes/class-settings.php:353
+#: includes/class-settings.php:355
 msgid "“Available” colour"
 msgstr ""
 
-#: includes/class-settings.php:357
+#: includes/class-settings.php:359
 msgid "“Could not check” colour"
 msgstr ""
 
-#: includes/class-settings.php:361
+#: includes/class-settings.php:363
 msgid "Error colour"
 msgstr ""
 
-#: includes/class-settings.php:365
+#: includes/class-settings.php:367
 msgid "Corner rounding"
 msgstr ""
 
-#: includes/class-settings.php:369
+#: includes/class-settings.php:371
 msgid "Space inside each row"
 msgstr ""
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:375
 msgid "Text size"
 msgstr ""
 
-#: includes/class-settings.php:377
+#: includes/class-settings.php:379
 msgid "Domain-name weight"
 msgstr ""
 
-#: includes/class-settings.php:398
+#: includes/class-settings.php:400
 msgid "No reseller API key yet."
 msgstr ""
 
-#: includes/class-settings.php:399
+#: includes/class-settings.php:401
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr ""
 
-#: includes/class-settings.php:401
+#: includes/class-settings.php:403
 msgid "Open my Zinn® dashboard"
 msgstr ""
 
-#: includes/class-settings.php:419
+#: includes/class-settings.php:421
 msgid "A key is set, but nothing is switched on."
 msgstr ""
 
-#: includes/class-settings.php:420
+#: includes/class-settings.php:422
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr ""
 
-#: includes/class-settings.php:422
+#: includes/class-settings.php:424
 msgid "Open Features"
 msgstr ""
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:432
+#: includes/class-settings.php:434
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-settings.php:437
+#: includes/class-settings.php:439
 msgid "Selling from"
 msgstr ""
 
-#: includes/class-settings.php:471
+#: includes/class-settings.php:473
 msgid "Settings"
 msgstr ""
 
-#: includes/class-settings.php:531
+#: includes/class-settings.php:533
 msgid "No API key yet, so nothing is connected."
 msgstr ""
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:539
+#: includes/class-settings.php:541
 #, php-format
 msgid "Not connected: %s"
 msgstr ""
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:549
+#: includes/class-settings.php:551
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:99
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:112
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:132
+#: includes/class-woocommerce-provisioning.php:134
 msgid "The hosting platform did not return a site."
 msgstr ""
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:143
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:207
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr ""
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:312
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:328
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:329
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:366
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:390
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr ""
 
-#: includes/class-woocommerce-provisioning.php:397
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr ""
 

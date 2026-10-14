@@ -13,7 +13,9 @@ declare( strict_types=1 );
 
 namespace Zinn\Reseller;
 
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 /**
  * A thin, cached HTTP client for the Zinn® public API.

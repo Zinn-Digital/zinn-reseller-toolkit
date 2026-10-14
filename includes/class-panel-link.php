@@ -12,7 +12,9 @@ declare( strict_types=1 );
 
 namespace Zinn\Reseller;
 
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 /**
  * Renders the sign-in link and redeems it.

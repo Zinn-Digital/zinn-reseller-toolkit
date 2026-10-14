@@ -13,7 +13,9 @@ declare( strict_types=1 );
 
 namespace Zinn\Reseller;
 
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 /**
  * Renders the search form and the results.
