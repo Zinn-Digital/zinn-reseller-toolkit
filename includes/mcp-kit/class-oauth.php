@@ -72,15 +72,36 @@ final class OAuth {
 				return $resources;
 			}
 		);
+		if ( ! did_action( 'plugins_loaded' ) ) {
+			add_action( 'plugins_loaded', array( self::class, 'load' ), 6 );
+			return;
+		}
 		// ⛔ A plugin that boots its MCP server ON `plugins_loaded` (Zinn® Cache and the Reseller
 		// Toolkit do, at priority 10) arrives after priority 6 has run: the hook never fired, so a
 		// site with only that plugin had no OAuth sign-in at all (found by the access gate's
-		// stale OAuth rows, 2026-10-04). Start now in that case; the first copy still wins.
-		if ( did_action( 'plugins_loaded' ) ) {
+		// stale OAuth rows, 2026-10-04). Start now in that case; the first copy still wins. A
+		// deferred start's replay of `plugins_loaded` counts as running it (doing_action()).
+		if ( doing_action( 'plugins_loaded' ) ) {
 			self::load();
-		} else {
-			add_action( 'plugins_loaded', array( self::class, 'load' ), 6 );
+			return;
 		}
+		if ( ! defined( 'WP_CLI' ) || ! constant( 'WP_CLI' ) ) {
+			self::load(); // A plugin file read after WordPress loaded (activated in this request).
+			return;
+		}
+		// ⛔⛔ Under WP-CLI every host starts AFTER WordPress has loaded (WP-CLI's `after_wp_load`,
+		// PERF2/PERF3/CONSENT1) and then replays `plugins_loaded` for what its start hooked. Starting
+		// the server here, in the middle of that start, put the sign-in's hooks ahead of everything
+		// the rest of the starts add — a different hook order from an immediate start (KIT1, Q243:
+		// 9 hook-map lines; a later change could have picked a different owner unseen). So the
+		// sign-in waits for the replay at priority 6, exactly as when the plugin starts at once —
+		// the same rule as Adapter::offer() (plugins_loaded@5, never at once). A plugin file read
+		// later in a command (`wp plugin activate`) gets neither: no WP-CLI command serves the
+		// sign-in (it answers browser and REST requests). ⛔ There is no WP-CLI hook to fall back
+		// on: `before_run_command` and `before_invoke:<command>` fire BEFORE WordPress loads
+		// (`wp eval` loads it inside the command; measured 2026-10-14), so a fallback there starts
+		// the server at once, mid-start — the defect itself.
+		add_action( 'plugins_loaded', array( self::class, 'load' ), 6 );
 	}
 
 	/**
