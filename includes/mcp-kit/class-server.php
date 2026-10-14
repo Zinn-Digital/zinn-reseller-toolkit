@@ -56,6 +56,12 @@ final class Server {
 			return;
 		}
 		Adapter::offer( (string) $config['vendor_dir'] );
+		// `wp mcp-adapter serve --server=<another server>`: this server is not served, so none of
+		// its abilities, category or sign-in is built (Adapter::cli_server()).
+		$serving = Adapter::cli_server();
+		if ( null !== $serving && (string) $config['id'] !== $serving ) {
+			return;
+		}
 		// Claude, ChatGPT and other AI apps can also sign in with OAuth 2.1 (this site is the
 		// authorization server). Application passwords keep working.
 		OAuth::offer( (string) $config['rest_namespace'] . '/mcp', self::text( $config['name'] ), (string) $config['capability'] );
@@ -135,7 +141,9 @@ final class Server {
 	 * @return mixed
 	 */
 	public static function object_result( $result ) {
-		if ( is_array( $result ) && array_is_list( $result ) ) {
+		// ⛔ Not array_is_list(): WordPress before 6.5 on PHP before 8.1 has no such function, and
+		// Plugin Check refuses it at a 6.4 floor (doc 986 §3). An empty array is a list too.
+		if ( is_array( $result ) && ( array() === $result || array_keys( $result ) === range( 0, count( $result ) - 1 ) ) ) {
 			return array( 'items' => $result );
 		}
 		return $result;

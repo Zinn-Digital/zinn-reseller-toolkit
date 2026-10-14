@@ -173,6 +173,34 @@ final class Adapter {
 	}
 
 	/**
+	 * The server a `wp mcp-adapter serve --server=<id>` command serves, or null for every other
+	 * request (a REST/HTTP MCP request included: it may reach any server).
+	 *
+	 * ⛔⛔ Measured 2026-10-13 (P13: WordPress 7.1.3 / PHP 8.4, WooCommerce + the six hosted
+	 * plugins at WP-CLI's 128 MB): `serve --server=zinn-seo` built every host's abilities, ~690,
+	 * to list Zinn® SEO's 395, and passed at 128 MB but failed at 126 MB. Only the served
+	 * server's abilities are needed for it.
+	 *
+	 * @return string|null
+	 */
+	public static function cli_server(): ?string {
+		if ( ! defined( 'WP_CLI' ) || ! constant( 'WP_CLI' ) || ! class_exists( '\\WP_CLI' ) || ! method_exists( '\\WP_CLI', 'get_runner' ) ) {
+			return null;
+		}
+		$runner = \WP_CLI::get_runner();
+		// Runner::$arguments / $assoc_args are private behind __get() (no __isset()): read them.
+		$args  = is_object( $runner ) ? $runner->arguments : array();
+		$assoc = is_object( $runner ) ? $runner->assoc_args : array();
+		$args  = is_array( $args ) ? array_values( $args ) : array();
+		if ( 'mcp-adapter' !== (string) ( $args[0] ?? '' ) || 'serve' !== (string) ( $args[1] ?? '' ) ) {
+			return null;
+		}
+		$server = is_array( $assoc ) ? (string) ( $assoc['server'] ?? '' ) : '';
+
+		return '' === $server ? null : $server;
+	}
+
+	/**
 	 * Start another plugin's adapter copy only when its owner has not.
 	 *
 	 * ⛔⛔ Measured 2026-10-01 (test-wp-compat.sh with WooCommerce, which bundles the adapter and

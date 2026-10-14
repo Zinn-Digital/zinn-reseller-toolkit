@@ -131,10 +131,7 @@ final class Rest_Bridge {
 	 * @return array<string, mixed>|null
 	 */
 	public static function handler( string $route, string $method ): ?array {
-		foreach ( rest_get_server()->get_routes() as $pattern => $handlers ) {
-			if ( self::normalise( (string) $pattern ) !== $route ) {
-				continue;
-			}
+		foreach ( self::index()[ $route ] ?? array() as $pattern => $handlers ) {
 			foreach ( $handlers as $handler ) {
 				$methods = array_keys( array_filter( (array) $handler['methods'] ) );
 				sort( $methods );
@@ -147,6 +144,35 @@ final class Rest_Bridge {
 
 		return null;
 	}
+
+	/**
+	 * Every registered route by its normalised form, built ONCE per request and rebuilt only when
+	 * routes were added since. ⛔ handler() runs once per ability at registration and again on
+	 * every call; scanning `get_routes()` (which re-applies `rest_endpoints`) and normalising each
+	 * regex every time made registration quadratic in the routes — a plugin with 300+ bridged
+	 * routes on a site with 1,000 routes normalised ~300,000 regexes per MCP request (P13).
+	 *
+	 * @return array<string, array<string, array<int, array<string, mixed>>>>
+	 */
+	private static function index(): array {
+		static $index = null;
+		// Routes are registered on `rest_api_init`; once it has finished they no longer change, so
+		// the index is kept. While it runs (or before), it is rebuilt on each call.
+		$settled = did_action( 'rest_api_init' ) > 0 && ! doing_action( 'rest_api_init' );
+		if ( null !== $index && $settled ) {
+			return $index;
+		}
+		$built = array();
+		foreach ( rest_get_server()->get_routes() as $pattern => $handlers ) {
+			$built[ self::normalise( (string) $pattern ) ][ (string) $pattern ] = (array) $handlers;
+		}
+		if ( $settled ) {
+			$index = $built;
+		}
+
+		return $built;
+	}
+
 
 	/**
 	 * A route regex with each named group written `{name}` (nested groups included).

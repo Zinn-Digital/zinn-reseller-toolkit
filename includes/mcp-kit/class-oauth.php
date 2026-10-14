@@ -1085,7 +1085,17 @@ final class OAuth {
 	private static function requesting( string $route ): bool {
 		$uri  = isset( $_SERVER['REQUEST_URI'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REQUEST_URI'] ) ) : '';
 		$path = untrailingslashit( (string) wp_parse_url( $uri, PHP_URL_PATH ) );
-		$want = untrailingslashit( (string) wp_parse_url( rest_url( $route ), PHP_URL_PATH ) );
+		// ⛔ Not rest_url() before WordPress has built $wp_rewrite: a plugin that asks who the user
+		// is during `plugins_loaded` (Zinn® SEO's inspector does) runs this filter that early, and
+		// rest_url() then dies on a null $wp_rewrite — every OAuth MCP request answered 500
+		// (P13, 2026-10-13, mcp_abilities.sh). OAuth needs pretty permalinks, so the address is
+		// the home path, the REST prefix and the route either way.
+		$want = untrailingslashit(
+			(string) wp_parse_url(
+				( $GLOBALS['wp_rewrite'] ?? null ) instanceof \WP_Rewrite ? rest_url( $route ) : home_url( '/' . rest_get_url_prefix() . '/' . ltrim( $route, '/' ) ),
+				PHP_URL_PATH
+			)
+		);
 		$qr   = isset( $_GET['rest_route'] ) ? untrailingslashit( sanitize_text_field( wp_unslash( $_GET['rest_route'] ) ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- routing, not a form.
 
 		return $path === $want || '/' . $route === $qr;
