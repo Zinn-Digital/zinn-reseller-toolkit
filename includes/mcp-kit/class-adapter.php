@@ -67,6 +67,22 @@ final class Adapter {
 			return false;
 		}
 		if ( defined( 'ZINN_MCP_ADAPTER' ) ) {
+			// Another copy loaded the adapter first — the first kit to load decides, and plugins
+			// load alphabetically, so it may be an OLDER kit whose own start leaves the adapter on
+			// `init` under WP-CLI. Its servers then list every ability while WordPress is still
+			// loading, before a plugin that starts on `after_wp_load` (Zinn® SEO, class-boot.php)
+			// has registered one: `wp mcp-adapter serve --server=zinn-seo` answered 0 tools beside
+			// Page Builder Sandwich 6.34.18 and Tranzly 3.25.14 with WooCommerce's adapter
+			// (Q286, demo.zinnseo.com, 2026-10-15; with either sibling skipped, 373). So EVERY copy
+			// runs start_external() after the first copy's start: it never starts a dormant adapter
+			// for a WP-CLI command the adapter does not serve, and moving an already-moved start is
+			// a no-op (after_load()), so a sibling that is older can no longer take our tools.
+			// Only where it can matter: a `wp mcp-adapter …` command (after_load() acts only under
+			// WP-CLI, and never starts a server for another command), so every other request and
+			// command keeps exactly the hooks it had (the deferred-start hook map, PERF3).
+			if ( '' !== (string) constant( 'ZINN_MCP_ADAPTER' ) && defined( 'WP_CLI' ) && constant( 'WP_CLI' ) && ! self::cli_without_mcp() && false === has_action( 'plugins_loaded', array( self::class, 'start_external' ) ) ) {
+				add_action( 'plugins_loaded', array( self::class, 'start_external' ), 100 );
+			}
 			return class_exists( self::ENTRY );
 		}
 		if ( ! function_exists( 'wp_register_ability' ) ) {
