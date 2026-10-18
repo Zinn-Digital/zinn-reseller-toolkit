@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.17
+Stable tag: 1.7.18
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -166,6 +166,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.18 =
+* Plural forms in every language now follow that language's own plural rules (Russian, Polish, Czech, Croatian, Serbian, Arabic, Hebrew, French and others), re-filled by the translator with a human check on the forms it could not tell apart.
 
 = 1.7.17 =
 * AI agents (MCP): this plugin's tools now always appear to your AI app, even when another Zinn® plugin on the same site is an older version.

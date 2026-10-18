@@ -35,346 +35,346 @@ msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
 #. translators: %d: HTTP status code returned by the hosting API.
-#: includes/class-client.php:161
+#: includes/class-client.php:163
 #, php-format
 msgid "The hosting platform answered with status %d."
 msgstr "แพลตฟอร์มโฮสติ้งตอบกลับด้วยสถานะ %d"
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:76
 msgid "Find your domain name"
 msgstr "ค้นหาชื่อโดเมนของคุณ"
 
-#: includes/class-domain-search.php:75
+#: includes/class-domain-search.php:77
 msgid "Search"
 msgstr "ค้นหา"
 
-#: includes/class-domain-search.php:175
+#: includes/class-domain-search.php:177
 msgid "No extensions were checked for that name."
 msgstr "ไม่มีการตรวจสอบส่วนขยายสำหรับชื่อดังกล่าว"
 
-#: includes/class-domain-search.php:214
+#: includes/class-domain-search.php:216
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "ระบบค้นหาโดเมนยังไม่พร้อมให้บริการบนไซต์นี้ในขณะนี้"
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:217
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "เราไม่สามารถติดต่อผู้ให้บริการจดทะเบียนโดเมนได้ในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่"
 
-#: includes/class-domain-search.php:225
+#: includes/class-domain-search.php:227
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "คีย์ API ขาดหายไปหรือไม่ถูกต้องอีกต่อไป โปรดตรวจสอบที่ Zinn Digital® → Reseller Toolkit"
 
-#: includes/class-domain-search.php:227
+#: includes/class-domain-search.php:229
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "คีย์ API นี้ไม่มีสิทธิ์ sites.view ซึ่งจำเป็นสำหรับการค้นหาโดเมน โปรดเพิ่มสิทธิ์นี้ลงในคีย์ที่แผงตัวแทนจำหน่ายของคุณ หรือล้างคีย์ที่นี่เพื่อเปลี่ยนกลับไปใช้การค้นหาสาธารณะ"
 
-#: includes/class-domain-search.php:232
+#: includes/class-domain-search.php:234
 msgid "Only administrators see this:"
 msgstr "เฉพาะผู้ดูแลระบบเท่านั้นที่เห็นข้อมูลนี้:"
 
-#: includes/class-domain-search.php:281
+#: includes/class-domain-search.php:283
 msgid "We could not check this one — try again"
 msgstr "เราไม่สามารถตรวจสอบรายการนี้ได้ — โปรดลองอีกครั้ง"
 
-#: includes/class-domain-search.php:285
+#: includes/class-domain-search.php:287
 msgid "Already registered"
 msgstr "ลงทะเบียนแล้ว"
 
-#: includes/class-domain-search.php:323
+#: includes/class-domain-search.php:325
 msgid "Available — ask us for a price"
 msgstr "พร้อมให้บริการ — โปรดติดต่อสอบถามราคาจากเรา"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:328
+#: includes/class-domain-search.php:330
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "ใช้งานได้ — %1$s %2$s สำหรับปีแรก"
 
-#: includes/class-domain-search.php:351
+#: includes/class-domain-search.php:353
 msgid "Register it"
 msgstr "จดทะเบียน"
 
-#: includes/class-panel-link.php:65
+#: includes/class-panel-link.php:67
 msgid "Manage my hosting"
 msgstr "จัดการโฮสติ้งของฉัน"
 
-#: includes/class-panel-link.php:87
+#: includes/class-panel-link.php:89
 msgid "Please sign in first."
 msgstr "โปรดเข้าสู่ระบบก่อน"
 
-#: includes/class-panel-link.php:94
+#: includes/class-panel-link.php:96
 msgid "This account is not linked to a hosting service yet."
 msgstr "บัญชีนี้ยังไม่ได้เชื่อมโยงกับบริการโฮสติ้ง"
 
-#: includes/class-panel-link.php:104
+#: includes/class-panel-link.php:106
 msgid "The hosting platform did not return a sign-in link."
 msgstr "แพลตฟอร์มโฮสติ้งไม่ได้ส่งคืนลิงก์สำหรับลงชื่อเข้าใช้"
 
-#: includes/class-settings.php:121
+#: includes/class-settings.php:123
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "ชุดเครื่องมือสำหรับตัวแทนจำหน่าย"
 
-#: includes/class-settings.php:127
+#: includes/class-settings.php:129
 msgid "Account"
 msgstr "บัญชี"
 
-#: includes/class-settings.php:131
+#: includes/class-settings.php:133
 msgid "Features"
 msgstr "คุณสมบัติ"
 
-#: includes/class-settings.php:135
+#: includes/class-settings.php:137
 msgid "Styling"
 msgstr "การจัดรูปแบบสไตล์"
 
-#: includes/class-settings.php:139
-#: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:314
+#: includes/class-settings.php:141
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:322
 msgid "AI agents (MCP)"
 msgstr "ตัวแทน AI (MCP)"
 
-#: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:323
+#: includes/class-settings.php:160
+#: includes/mcp-kit/class-server.php:331
 msgid "Allow AI agents (MCP)"
 msgstr "อนุญาตให้ตัวแทน AI (MCP) ทำงาน"
 
-#: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:325
+#: includes/class-settings.php:161
+#: includes/mcp-kit/class-server.php:333
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "ปิด: เครื่องมือด้านล่างและเส้นทาง REST ของเครื่องมือเหล่านั้นไม่ได้ลงทะเบียนไว้เลย"
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:180
 msgid "Your Zinn Digital® reseller account"
 msgstr "บัญชีตัวแทนจำหน่าย Zinn Digital® ของคุณ"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:181
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "สร้างคีย์ API สำหรับตัวแทนจำหน่ายในแดชบอร์ด Zinn® ของคุณใต้ นักพัฒนา → คีย์ API และวางที่นี่"
 
-#: includes/class-settings.php:185
+#: includes/class-settings.php:187
 msgid "Reseller API key"
 msgstr "คีย์ API สำหรับตัวแทนจำหน่าย"
 
-#: includes/class-settings.php:186
+#: includes/class-settings.php:188
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "เก็บไว้ในไซต์นี้เท่านั้น และจะไม่ถูกรวมไว้ในการส่งออกหรือรายงานการวินิจฉัยอย่างเด็ดขาด"
 
-#: includes/class-settings.php:192
+#: includes/class-settings.php:194
 msgid "Plan to provision"
 msgstr "แพ็กเกจที่จะจัดสรร"
 
-#: includes/class-settings.php:193
+#: includes/class-settings.php:195
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "รหัสแผนบริการที่ลูกค้าใหม่จะได้รับ เว้นว่างไว้หากต้องการให้ระบบถามทุกครั้ง"
 
-#: includes/class-settings.php:199
+#: includes/class-settings.php:201
 msgid "API address"
 msgstr "ที่อยู่ API"
 
-#: includes/class-settings.php:200
+#: includes/class-settings.php:202
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "ปล่อยค่านี้ไว้ตามเดิม เว้นแต่ฝ่ายสนับสนุนของ Zinn® จะขอให้คุณเปลี่ยนแปลง"
 
-#: includes/class-settings.php:206
+#: includes/class-settings.php:208
 msgid "Control-panel address"
 msgstr "ที่อยู่แผงควบคุม"
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:209
 msgid "Where the “My hosting” link sends your customers."
 msgstr "ตำแหน่งที่ลิงก์ “โฮสติ้งของฉัน” จะส่งลูกค้าของคุณไป"
 
-#: includes/class-settings.php:223
+#: includes/class-settings.php:225
 msgid "Domain search"
 msgstr "ค้นหาโดเมน"
 
-#: includes/class-settings.php:224
+#: includes/class-settings.php:226
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "ระบุชอร์ตโค้ด [zinn_domain_search]"
 
-#: includes/class-settings.php:225
+#: includes/class-settings.php:227
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "ใส่ชอร์ตโค้ดลงในหน้าใดก็ได้เพื่อให้ผู้เยี่ยมชมตรวจสอบโดเมนและสั่งซื้อผ่านคุณได้"
 
-#: includes/class-settings.php:231
+#: includes/class-settings.php:233
 msgid "Panel link"
 msgstr "ลิงก์แผงควบคุม"
 
-#: includes/class-settings.php:232
+#: includes/class-settings.php:234
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "แสดงลิงก์ \"โฮสติ้งของฉัน\" ให้กับลูกค้าที่เข้าสู่ระบบแล้ว"
 
-#: includes/class-settings.php:238
+#: includes/class-settings.php:240
 msgid "WooCommerce provisioning"
 msgstr "การจัดสรร WooCommerce"
 
-#: includes/class-settings.php:239
+#: includes/class-settings.php:241
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "จัดเตรียมโฮสติ้งโดยอัตโนมัติเมื่อคำสั่งซื้อ WooCommerce เสร็จสมบูรณ์"
 
-#: includes/class-settings.php:240
+#: includes/class-settings.php:242
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "มีผลเฉพาะกับคำสั่งซื้อที่มีผลิตภัณฑ์ที่คุณได้จับคู่กับแผน Zinn® เท่านั้น"
 
-#: includes/class-settings.php:256
+#: includes/class-settings.php:258
 msgid "Domain search appearance"
 msgstr "ลักษณะการค้นหาโดเมน"
 
-#: includes/class-settings.php:257
+#: includes/class-settings.php:259
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "วิดเจ็ตนี้จะแสดงผลภายในธีมของคุณเอง เลือกชุดค่าที่กำหนดไว้ล่วงหน้า หรือกำหนดสีของคุณเอง — ไม่ว่าจะเลือกแบบใด ก็ไม่มีสิ่งใดถูกเพิ่มลงในหน้าเว็บของคุณที่ผู้เยี่ยมชมจะมองเห็นว่าเป็นของเรา"
 
-#: includes/class-settings.php:265
+#: includes/class-settings.php:267
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "ทุกคลาสที่วิดเจ็ตใช้จะแสดงอยู่ใน readme ของปลั๊กอิน เพื่อให้นักพัฒนาสามารถเขียนทับสิ่งใดก็ตามที่ค่าที่ตั้งไว้ล่วงหน้าไม่ครอบคลุมได้"
 
-#: includes/class-settings.php:282
+#: includes/class-settings.php:284
 msgid "Follow my theme"
 msgstr "ใช้ตามธีมของฉัน"
 
-#: includes/class-settings.php:298
+#: includes/class-settings.php:300
 msgid "Soft"
 msgstr "แบบยืดหยุ่น"
 
-#: includes/class-settings.php:314
+#: includes/class-settings.php:316
 msgid "High contrast"
 msgstr "คอนทราสต์สูง"
 
-#: includes/class-settings.php:330
+#: includes/class-settings.php:332
 msgid "Compact"
 msgstr "กะทัดรัด"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:351
 msgid "Buy-link colour"
 msgstr "สีของลิงก์สั่งซื้อ"
 
-#: includes/class-settings.php:353
+#: includes/class-settings.php:355
 msgid "“Available” colour"
 msgstr "สีของ \"พร้อมใช้งาน\""
 
-#: includes/class-settings.php:357
+#: includes/class-settings.php:359
 msgid "“Could not check” colour"
 msgstr "สีของ \"ไม่สามารถตรวจสอบได้\""
 
-#: includes/class-settings.php:361
+#: includes/class-settings.php:363
 msgid "Error colour"
 msgstr "สีของข้อผิดพลาด"
 
-#: includes/class-settings.php:365
+#: includes/class-settings.php:367
 msgid "Corner rounding"
 msgstr "การลบมุม"
 
-#: includes/class-settings.php:369
+#: includes/class-settings.php:371
 msgid "Space inside each row"
 msgstr "ระยะห่างภายในแต่ละแถว"
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:375
 msgid "Text size"
 msgstr "ขนาดข้อความ"
 
-#: includes/class-settings.php:377
+#: includes/class-settings.php:379
 msgid "Domain-name weight"
 msgstr "ค่าน้ำหนักของชื่อโดเมน"
 
-#: includes/class-settings.php:398
+#: includes/class-settings.php:400
 msgid "No reseller API key yet."
 msgstr "ยังไม่มีคีย์ API สำหรับตัวแทนจำหน่าย"
 
-#: includes/class-settings.php:399
+#: includes/class-settings.php:401
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "การค้นหาโดเมนสามารถใช้งานได้แล้วโดยไม่ต้องมีคีย์ตามราคาปกติ ลิงก์แผงควบคุมและการจัดเตรียม WooCommerce จำเป็นต้องมีคีย์: โปรดสร้างคีย์ในแดชบอร์ด Zinn® ของคุณที่ นักพัฒนา → คีย์ API"
 
-#: includes/class-settings.php:401
+#: includes/class-settings.php:403
 msgid "Open my Zinn® dashboard"
 msgstr "เปิดแดชบอร์ด Zinn® ของฉัน"
 
-#: includes/class-settings.php:419
+#: includes/class-settings.php:421
 msgid "A key is set, but nothing is switched on."
 msgstr "มีการตั้งค่าคีย์แล้ว แต่ยังไม่มีการเปิดใช้งานสิ่งใด"
 
-#: includes/class-settings.php:420
+#: includes/class-settings.php:422
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "ไม่มีคุณสมบัติใดในสามอย่างเปิดใช้งานอยู่ ปลั๊กอินนี้จึงไม่ได้ทำอะไรบนไซต์ของคุณ เปิดสิ่งที่คุณต้องการได้ที่ใต้หัวข้อคุณสมบัติ"
 
-#: includes/class-settings.php:422
+#: includes/class-settings.php:424
 msgid "Open Features"
 msgstr "เปิดฟีเจอร์"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:432
+#: includes/class-settings.php:434
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "พร้อมแล้ว — เปิดใช้งาน %d คุณลักษณะแล้ว"
 
-#: includes/class-settings.php:437
+#: includes/class-settings.php:439
 msgid "Selling from"
 msgstr "ขายจาก"
 
-#: includes/class-settings.php:471
+#: includes/class-settings.php:473
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: includes/class-settings.php:531
+#: includes/class-settings.php:533
 msgid "No API key yet, so nothing is connected."
 msgstr "ยังไม่มีคีย์ API จึงไม่มีสิ่งใดเชื่อมต่ออยู่"
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:539
+#: includes/class-settings.php:541
 #, php-format
 msgid "Not connected: %s"
 msgstr "ไม่ได้เชื่อมต่อ: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:549
+#: includes/class-settings.php:551
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "เชื่อมต่อแล้ว โปรแกรมตัวแทนจำหน่ายของคุณคือ %s"
 
-#: includes/class-woocommerce-provisioning.php:99
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "ไม่ได้กำหนดค่าคีย์ API ของ Zinn® ไว้ จึงไม่มีการจัดสรรรายการใด"
 
-#: includes/class-woocommerce-provisioning.php:112
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "คำสั่งซื้อนี้ไม่ได้ระบุชื่อโดเมน ดังนั้นจึงไม่มีสิ่งใดที่ต้องจัดเตรียม"
 
-#: includes/class-woocommerce-provisioning.php:132
+#: includes/class-woocommerce-provisioning.php:134
 msgid "The hosting platform did not return a site."
 msgstr "แพลตฟอร์มโฮสติ้งไม่ได้ส่งคืนเว็บไซต์กลับมา"
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:143
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "โฮสติ้ง Zinn® จัดเตรียมไว้สำหรับ %1$s (บริการ %2$s) แล้ว"
 
-#: includes/class-woocommerce-provisioning.php:207
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "แพลตฟอร์มโฮสติงไม่ได้ส่งคืนบัญชีลูกค้า"
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:312
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "โฮสติ้ง Zinn® ไม่ได้รับการจัดสรร: %s"
 
-#: includes/class-woocommerce-provisioning.php:328
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "สายผลิตภัณฑ์ Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:329
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "สายผลิตภัณฑ์ Zinn® ที่จะจัดเตรียมเมื่อมีการซื้อผลิตภัณฑ์นี้ เว้นว่างไว้เพื่อใช้ค่าเริ่มต้นจากการตั้งค่าปลั๊กอิน"
 
-#: includes/class-woocommerce-provisioning.php:366
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "โฮสติ้ง Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:390
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "รหัสบริการ"
 
-#: includes/class-woocommerce-provisioning.php:397
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "ไม่มีการจัดสรรรายการใดสำหรับคำสั่งซื้อนี้"
 
@@ -623,47 +623,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "รายงานถูกปฏิเสธ (HTTP %d) คัดลอกข้อความด้านบนและเปิดทิกเก็ตโดยระบุหมายเลขดังกล่าว"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:326
-#: includes/class-zinn-reseller-promo.php:384
+#: includes/class-zinn-reseller-promo.php:349
+#: includes/class-zinn-reseller-promo.php:407
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — คู่มือและบริการ"
 
-#: includes/class-zinn-reseller-promo.php:341
+#: includes/class-zinn-reseller-promo.php:364
 msgid "User guides"
 msgstr "คู่มือผู้ใช้"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:391
+#: includes/class-zinn-reseller-promo.php:414
 #, php-format
 msgid "Read the %s user guide"
 msgstr "อ่านคู่มือการใช้งาน %s"
 
-#: includes/class-zinn-reseller-promo.php:399
+#: includes/class-zinn-reseller-promo.php:422
 msgid "Hide this"
 msgstr "ซ่อนสิ่งนี้"
 
-#: includes/class-zinn-reseller-promo.php:512
+#: includes/class-zinn-reseller-promo.php:535
 msgid "Zinn® hosting for WordPress"
 msgstr "โฮสติ้ง Zinn® สำหรับ WordPress"
 
-#: includes/class-zinn-reseller-promo.php:513
+#: includes/class-zinn-reseller-promo.php:536
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed การสำรองข้อมูลรายวัน การย้ายข้อมูลฟรี และแผงควบคุมที่สร้างขึ้นสำหรับผู้ที่ดูแลเว็บไซต์มากกว่าหนึ่งแห่ง"
 
-#: includes/class-zinn-reseller-promo.php:519
+#: includes/class-zinn-reseller-promo.php:542
 msgid "The Zinn® marketplace"
 msgstr "ตลาด Zinn®"
 
-#: includes/class-zinn-reseller-promo.php:520
+#: includes/class-zinn-reseller-promo.php:543
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ซื้อและขายเว็บไซต์ที่เป็นที่ยอมรับ โดเมน และการวางตำแหน่งลิงก์ โดยเงินจะถูกเก็บไว้อย่างปลอดภัยจนกว่าทั้งสองฝ่ายจะพึงพอใจ"
 
-#: includes/class-zinn-reseller-promo.php:567
+#: includes/class-zinn-reseller-promo.php:590
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — จ้างผู้ที่มีความเชี่ยวชาญในสายงานนี้โดยเฉพาะ"
 
-#: includes/class-zinn-reseller-promo.php:568
+#: includes/class-zinn-reseller-promo.php:591
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ตลาดฟรีแลนซ์ระดับโลกของเรา: เลือกดูบริการสำเร็จรูปกว่า 10,000 รายการจากนักเขียน นักออกแบบ นักพัฒนา และผู้เชี่ยวชาญด้าน SEO หรือโพสต์โปรเจกต์เพื่อให้พวกเขายื่นข้อเสนอ"
 
@@ -705,122 +705,122 @@ msgstr "การอัปเดตที่ดาวน์โหลดมาไ
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "ไม่สามารถดำเนินการให้เสร็จสิ้นได้ โปรดลองอีกครั้ง และหากยังคงล้มเหลว โปรดติดต่อผู้ดูแลเว็บไซต์"
 
-#: includes/mcp-kit/class-oauth.php:704
-#: includes/mcp-kit/class-oauth.php:715
+#: includes/mcp-kit/class-oauth.php:726
+#: includes/mcp-kit/class-oauth.php:737
 msgid "Connect an AI app"
 msgstr "เชื่อมต่อแอป AI"
 
-#: includes/mcp-kit/class-oauth.php:717
-#: includes/mcp-kit/class-oauth.php:723
-#: includes/mcp-kit/class-oauth.php:764
+#: includes/mcp-kit/class-oauth.php:739
+#: includes/mcp-kit/class-oauth.php:745
+#: includes/mcp-kit/class-oauth.php:786
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "คำขอการเชื่อมต่อนี้หมดอายุแล้ว โปรดกลับไปที่แอปและเริ่มเชื่อมต่อใหม่อีกครั้ง"
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:731
+#: includes/mcp-kit/class-oauth.php:753
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "%1$s กำลังขอใช้ %2$s บนไซต์นี้ในฐานะ %3$s ซึ่งสามารถทำได้เฉพาะสิ่งที่บัญชี WordPress ของคุณได้รับอนุญาตให้ทำเท่านั้น และคุณสามารถตัดการเชื่อมต่อได้ตลอดเวลาจากการตั้งค่าตัวแทน AI (MCP)"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:734
+#: includes/mcp-kit/class-oauth.php:756
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s ระบุตัวเองจาก %2$s"
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:737
+#: includes/mcp-kit/class-oauth.php:759
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s ได้ลงทะเบียนโดยอัตโนมัติ ดำเนินการต่อเฉพาะเมื่อคุณเริ่มขั้นตอนนี้จาก %2$s เท่านั้น"
 
-#: includes/mcp-kit/class-oauth.php:741
+#: includes/mcp-kit/class-oauth.php:763
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "บัญชีของคุณไม่สามารถใช้เครื่องมือเหล่านี้บนไซต์นี้ได้ โปรดสอบถามผู้ดูแลระบบ"
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:744
+#: includes/mcp-kit/class-oauth.php:766
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "หลังจากที่คุณตอบ คุณจะกลับไปที่ %s"
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:749
+#: includes/mcp-kit/class-oauth.php:771
 #, php-format
 msgid "Allow %s"
 msgstr "อนุญาต %s"
 
-#: includes/mcp-kit/class-oauth.php:750
+#: includes/mcp-kit/class-oauth.php:772
 msgid "Do not allow"
 msgstr "ไม่อนุญาต"
 
-#: includes/mcp-kit/class-rest-bridge.php:325
+#: includes/mcp-kit/class-rest-bridge.php:351
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
 msgstr "ไม่มีค่าที่จำเป็นหรือมีรูปแบบที่ไม่ถูกต้อง ตรวจสอบสกีมาอินพุต (input schema) ของความสามารถนี้"
 
-#: includes/mcp-kit/class-rest-bridge.php:358
+#: includes/mcp-kit/class-rest-bridge.php:384
 msgid "The site refused the request."
 msgstr "ไซต์ปฏิเสธคำขอ"
 
-#: includes/mcp-kit/class-server.php:118
+#: includes/mcp-kit/class-server.php:124
 msgid "Unknown tool."
 msgstr "เครื่องมือที่ไม่รู้จัก"
 
-#: includes/mcp-kit/class-server.php:315
+#: includes/mcp-kit/class-server.php:323
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
 msgstr "อนุญาตให้ผู้ช่วย AI เช่น Claude, Cursor หรือ VS Code ทำงานบนไซต์นี้เพื่อคุณผ่าน MCP (Model Context Protocol) โดยพวกเขาจะลงชื่อเข้าใช้ในฐานะผู้ใช้ WordPress (Claude และ ChatGPT โดยการอนุมัติที่นี่ ส่วนรายอื่นใช้รหัสผ่านสำหรับแอปพลิเคชัน) และสามารถทำได้เฉพาะสิ่งที่ผู้ใช้รายนั้นได้รับอนุญาตให้ทำเท่านั้น"
 
-#: includes/mcp-kit/class-server.php:317
+#: includes/mcp-kit/class-server.php:325
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "เอเจนต์ AI ต้องใช้ WordPress 6.9 หรือใหม่กว่า อัปเดต WordPress เพื่อใช้งาน"
 
-#: includes/mcp-kit/class-server.php:330
+#: includes/mcp-kit/class-server.php:338
 msgid "Connection address (MCP endpoint)"
 msgstr "ที่อยู่การเชื่อมต่อ (จุดสิ้นสุด MCP)"
 
-#: includes/mcp-kit/class-server.php:334
+#: includes/mcp-kit/class-server.php:342
 msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude และ ChatGPT: ลงชื่อเข้าใช้แทน"
 
-#: includes/mcp-kit/class-server.php:335
+#: includes/mcp-kit/class-server.php:343
 msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
 msgstr "เพิ่มที่อยู่การเชื่อมต่อเป็นตัวเชื่อมต่อแบบกำหนดเองใน Claude หรือเป็นแอปในโหมดนักพัฒนาของ ChatGPT พวกมันจะเปิดไซต์นี้เพื่อให้คุณสามารถอนุมัติได้ โดยไม่ต้องคัดลอกรหัสผ่าน"
 
-#: includes/mcp-kit/class-server.php:337
+#: includes/mcp-kit/class-server.php:345
 msgid "AI apps connected to your account:"
 msgstr "แอป AI ที่เชื่อมต่อกับบัญชีของคุณ:"
 
-#: includes/mcp-kit/class-server.php:346
+#: includes/mcp-kit/class-server.php:354
 msgid "Disconnect"
 msgstr "ตัดการเชื่อมต่อ"
 
-#: includes/mcp-kit/class-server.php:352
+#: includes/mcp-kit/class-server.php:360
 msgid "Other AI apps: an application password"
 msgstr "แอป AI อื่นๆ: รหัสผ่านแอปพลิเคชัน"
 
-#: includes/mcp-kit/class-server.php:354
+#: includes/mcp-kit/class-server.php:362
 msgid "Create an application password for your user"
 msgstr "สร้างรหัสผ่านแอปพลิเคชันสำหรับผู้ใช้ของคุณ"
 
-#: includes/mcp-kit/class-server.php:355
+#: includes/mcp-kit/class-server.php:363
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "เพิ่มสิ่งนี้ลงในการตั้งค่า MCP ของแอป AI ของคุณ พร้อมชื่อผู้ใช้และรหัสผ่านนั้น:"
 
-#: includes/mcp-kit/class-server.php:357
+#: includes/mcp-kit/class-server.php:365
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ใส่รายการเดียวกันไว้ใต้ \"servers\" ใน .vscode/mcp.json ไม่ใช่ใต้ \"mcpServers\""
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:361
+#: includes/mcp-kit/class-server.php:369
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "เครื่องมือที่เอเจนต์ AI สามารถใช้ได้ที่นี่ (%d):"
 
-#: includes/mcp-kit/class-server.php:372
+#: includes/mcp-kit/class-server.php:380
 msgid "User guide: AI agents and MCP"
 msgstr "คู่มือผู้ใช้: ตัวแทน AI และ MCP"
 
-#: includes/mcp-kit/class-server.php:375
+#: includes/mcp-kit/class-server.php:383
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "เอกสารสำหรับนักพัฒนา: ความสามารถ, REST และ MCP"
 

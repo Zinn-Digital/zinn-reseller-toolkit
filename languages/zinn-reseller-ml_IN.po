@@ -35,347 +35,347 @@ msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
 #. translators: %d: HTTP status code returned by the hosting API.
-#: includes/class-client.php:161
+#: includes/class-client.php:163
 #, php-format
 msgid "The hosting platform answered with status %d."
 msgstr "ഹോസ്റ്റിംഗ് പ്ലാറ്റ്‌ഫോം നൽകിയ മറുപടി സ്റ്റാറ്റസ് %d ആണ്."
 
-#: includes/class-domain-search.php:74
+#: includes/class-domain-search.php:76
 msgid "Find your domain name"
 msgstr "നിങ്ങളുടെ ഡൊമെയ്ൻ നാമം കണ്ടെത്തുക"
 
-#: includes/class-domain-search.php:75
+#: includes/class-domain-search.php:77
 msgid "Search"
 msgstr "തിരയുക"
 
-#: includes/class-domain-search.php:175
+#: includes/class-domain-search.php:177
 msgid "No extensions were checked for that name."
 msgstr "ആ പേരിനായി ഒരു എക്സ്റ്റൻഷനുകളും പരിശോധിച്ചിട്ടില്ല."
 
-#: includes/class-domain-search.php:214
+#: includes/class-domain-search.php:216
 msgid "Domain search is unavailable on this site at the moment."
 msgstr "ഡൊമെയ്ൻ തിരയൽ ഇപ്പോൾ ഈ സൈറ്റിൽ ലഭ്യമല്ല."
 
-#: includes/class-domain-search.php:215
+#: includes/class-domain-search.php:217
 msgid "We could not reach the domain registry just now. Please try again in a moment."
 msgstr "ഡൊമെയ്ൻ രജിസ്ട്രിയുമായി ബന്ധപ്പെടാൻ ഇപ്പോൾ സാധിച്ചില്ല. ദയവായി അല്പം കഴിഞ്ഞ് വീണ്ടും ശ്രമിക്കുക."
 
-#: includes/class-domain-search.php:225
+#: includes/class-domain-search.php:227
 msgid "The API key is missing or no longer valid. Check it under Zinn Digital® → Reseller Toolkit."
 msgstr "API കീ കാണുന്നില്ല അല്ലെങ്കിൽ ഇനി സാധുവല്ല. Zinn Digital® → Reseller Toolkit-ന് കീഴിൽ അത് പരിശോധിക്കുക."
 
-#: includes/class-domain-search.php:227
+#: includes/class-domain-search.php:229
 msgid "This API key does not carry the sites.view permission, which the domain search needs. Add it to the key in your reseller panel, or clear the key here to fall back to the public search."
 msgstr "ഈ API കീയിൽ sites.view അനുമതിയില്ല, ഡൊമെയ്ൻ തിരയലിന് ഇത് ആവശ്യമാണ്. നിങ്ങളുടെ റീസെല്ലർ പാനലിലെ കീയിലേക്ക് ഇത് ചേർക്കുക, അല്ലെങ്കിൽ പൊതുവായ തിരയലിലേക്ക് മടങ്ങുന്നതിന് ഇവിടെ കീ മായ്‌ക്കുക."
 
-#: includes/class-domain-search.php:232
+#: includes/class-domain-search.php:234
 msgid "Only administrators see this:"
 msgstr "അഡ്‌മിനിസ്ട്രേറ്റർമാർക്ക് മാത്രമേ ഇത് കാണാനാകൂ:"
 
-#: includes/class-domain-search.php:281
+#: includes/class-domain-search.php:283
 msgid "We could not check this one — try again"
 msgstr "ഇത് പരിശോധിക്കാൻ ഞങ്ങൾക്ക് കഴിഞ്ഞില്ല — ദയവായി വീണ്ടും ശ്രമിക്കുക"
 
-#: includes/class-domain-search.php:285
+#: includes/class-domain-search.php:287
 msgid "Already registered"
 msgstr "ഇതിനകം രജിസ്റ്റർ ചെയ്തു കഴിഞ്ഞു"
 
-#: includes/class-domain-search.php:323
+#: includes/class-domain-search.php:325
 msgid "Available — ask us for a price"
 msgstr "ലഭ്യമാണ് — വില അറിയാൻ ഞങ്ങളോട് ചോദിക്കുക"
 
 #. translators: 1: price, 2: ISO currency code.
-#: includes/class-domain-search.php:328
+#: includes/class-domain-search.php:330
 #, php-format
 msgid "Available — %1$s %2$s for the first year"
 msgstr "ലഭ്യമാണ് — ആദ്യ വർഷത്തേക്ക് %1$s %2$s"
 
-#: includes/class-domain-search.php:351
+#: includes/class-domain-search.php:353
 msgid "Register it"
 msgstr "ഇത് രജിസ്റ്റർ ചെയ്യുക"
 
-#: includes/class-panel-link.php:65
+#: includes/class-panel-link.php:67
 msgid "Manage my hosting"
 msgstr "എന്റെ ഹോസ്റ്റിംഗ് കൈകാര്യം ചെയ്യുക"
 
-#: includes/class-panel-link.php:87
+#: includes/class-panel-link.php:89
 msgid "Please sign in first."
 msgstr "ദയവായി ആദ്യം സൈൻ ഇൻ ചെയ്യുക."
 
-#: includes/class-panel-link.php:94
+#: includes/class-panel-link.php:96
 msgid "This account is not linked to a hosting service yet."
 msgstr "ഈ അക്കൗണ്ട് ഇതുവരെ ഒരു ഹോസ്റ്റിംഗ് സേവനവുമായി ബന്ധിപ്പിച്ചിട്ടില്ല."
 
-#: includes/class-panel-link.php:104
+#: includes/class-panel-link.php:106
 msgid "The hosting platform did not return a sign-in link."
 msgstr "ഹോസ്റ്റിംഗ് പ്ലാറ്റ്‌ഫോം സൈൻ-ഇൻ ലിങ്ക് ഒന്നും നൽകിയില്ല."
 
-#: includes/class-settings.php:121
+#: includes/class-settings.php:123
 #: includes/mcp/class-abilities.php:59
 msgid "Reseller Toolkit"
 msgstr "റീസെല്ലർ ടൂൾകിറ്റ്"
 
-#: includes/class-settings.php:127
+#: includes/class-settings.php:129
 msgid "Account"
 msgstr "അക്കൗണ്ട്"
 
-#: includes/class-settings.php:131
+#: includes/class-settings.php:133
 msgid "Features"
 msgstr "സവിശേഷതകൾ"
 
-#: includes/class-settings.php:135
+#: includes/class-settings.php:137
 msgid "Styling"
 msgstr "സ്റ്റൈലിംഗ്"
 
-#: includes/class-settings.php:139
-#: includes/class-settings.php:157
-#: includes/mcp-kit/class-server.php:314
+#: includes/class-settings.php:141
+#: includes/class-settings.php:159
+#: includes/mcp-kit/class-server.php:322
 msgid "AI agents (MCP)"
 msgstr "AI ഏജന്റുകൾ (MCP)"
 
-#: includes/class-settings.php:158
-#: includes/mcp-kit/class-server.php:323
+#: includes/class-settings.php:160
+#: includes/mcp-kit/class-server.php:331
 msgid "Allow AI agents (MCP)"
 msgstr "AI ഏജന്റുകളെ അനുവദിക്കുക (MCP)"
 
-#: includes/class-settings.php:159
-#: includes/mcp-kit/class-server.php:325
+#: includes/class-settings.php:161
+#: includes/mcp-kit/class-server.php:333
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr "ഓഫ്: താഴെയുള്ള ടൂളുകളും അവയുടെ REST റൂട്ടുകളും ഒട്ടും രജിസ്റ്റർ ചെയ്തിട്ടില്ല."
 
-#: includes/class-settings.php:178
+#: includes/class-settings.php:180
 msgid "Your Zinn Digital® reseller account"
 msgstr "നിങ്ങളുടെ Zinn Digital® റീസെല്ലർ അക്കൗണ്ട്"
 
-#: includes/class-settings.php:179
+#: includes/class-settings.php:181
 msgid "Create a reseller API key in your Zinn® dashboard under Developer → API keys, and paste it here."
 msgstr "നിങ്ങളുടെ Zinn® ഡാഷ്‌ബോർഡിൽ ഡെവലപ്പർ → API കീകൾ എന്നതിന് കീഴിൽ ഒരു റീസെല്ലർ API കീ സൃഷ്‌ടിച്ച് ഇവിടെ ഒട്ടിക്കുക."
 
-#: includes/class-settings.php:185
+#: includes/class-settings.php:187
 msgid "Reseller API key"
 msgstr "റീസെല്ലർ API കീ"
 
-#: includes/class-settings.php:186
+#: includes/class-settings.php:188
 msgid "Held on this site only, and never included in an export or a diagnostics report."
 msgstr "ഈ സൈറ്റിൽ മാത്രമേ സൂക്ഷിക്കുകയുള്ളൂ, എക്സ്പോർട്ടിലോ ഡയഗ്നോസ്റ്റിക്സ് റിപ്പോർട്ടിലോ ഒരിക്കലും ഉൾപ്പെടുത്തില്ല."
 
-#: includes/class-settings.php:192
+#: includes/class-settings.php:194
 msgid "Plan to provision"
 msgstr "പ്രൊവിഷൻ ചെയ്യാനുള്ള പ്ലാൻ"
 
-#: includes/class-settings.php:193
+#: includes/class-settings.php:195
 msgid "The plan code new customers are put on. Leave blank to be asked each time."
 msgstr "പുതിയ ഉപഭോക്താക്കൾക്കായി നൽകുന്ന പ്ലാൻ കോഡ്. ഓരോ തവണയും ചോദിക്കപ്പെടുന്നതിനായി ശൂന്യമായി ഇടുക."
 
-#: includes/class-settings.php:199
+#: includes/class-settings.php:201
 msgid "API address"
 msgstr "API വിലാസം"
 
-#: includes/class-settings.php:200
+#: includes/class-settings.php:202
 msgid "Leave this alone unless Zinn® support has asked you to change it."
 msgstr "Zinn® പിന്തുണ ഇത് മാറ്റാൻ നിങ്ങളോട് ആവശ്യപ്പെട്ടിട്ടില്ലെങ്കിൽ ഇത് മാറ്റാതെ വിടുക."
 
-#: includes/class-settings.php:206
+#: includes/class-settings.php:208
 msgid "Control-panel address"
 msgstr "നിയന്ത്രണ പാനൽ വിലാസം"
 
-#: includes/class-settings.php:207
+#: includes/class-settings.php:209
 msgid "Where the “My hosting” link sends your customers."
 msgstr "“എന്റെ ഹോസ്റ്റിംഗ്” ലിങ്ക് നിങ്ങളുടെ ഉപഭോക്താക്കളെ എവിടേക്കാണ് അയക്കുന്നത്."
 
-#: includes/class-settings.php:223
+#: includes/class-settings.php:225
 msgid "Domain search"
 msgstr "ഡൊമെയ്ൻ തിരയൽ"
 
-#: includes/class-settings.php:224
+#: includes/class-settings.php:226
 msgid "Provide the [zinn_domain_search] shortcode"
 msgstr "[zinn_domain_search] ഷോർട്ട് കോഡ് നൽകുക"
 
-#: includes/class-settings.php:225
+#: includes/class-settings.php:227
 msgid "Put the shortcode on any page to let visitors check a domain and buy it through you."
 msgstr "സന്ദർശകർക്ക് ഒരു ഡൊമെയ്ൻ പരിശോധിക്കാനും നിങ്ങളിലൂടെ അത് വാങ്ങാനും അനുവദിക്കുന്നതിന് ഏത് പേജിലും ഷോർട്ട്കോഡ് നൽകുക."
 
-#: includes/class-settings.php:231
+#: includes/class-settings.php:233
 msgid "Panel link"
 msgstr "പാനൽ ലിങ്ക്"
 
-#: includes/class-settings.php:232
+#: includes/class-settings.php:234
 msgid "Show a “My hosting” link to signed-in customers"
 msgstr "സൈൻ ഇൻ ചെയ്‌ത ഉപഭോക്താക്കൾക്ക് \"എന്റെ ഹോസ്റ്റിംഗ്\" ലിങ്ക് കാണിക്കുക"
 
-#: includes/class-settings.php:238
+#: includes/class-settings.php:240
 msgid "WooCommerce provisioning"
 msgstr "WooCommerce പ്രൊവിഷനിംഗ്"
 
-#: includes/class-settings.php:239
+#: includes/class-settings.php:241
 msgid "Provision hosting automatically when a WooCommerce order completes"
 msgstr "ഒരു WooCommerce ഓർഡർ പൂർത്തിയാകുമ്പോൾ ഹോസ്റ്റിംഗ് സ്വയമേവ നൽകുക"
 
-#: includes/class-settings.php:240
+#: includes/class-settings.php:242
 msgid "Only takes effect on orders containing a product you have mapped to a Zinn® plan."
 msgstr "ഒരു Zinn® പ്ലാനിലേക്ക് നിങ്ങൾ മാപ്പ് ചെയ്‌ത ഉൽപ്പന്നം അടങ്ങിയിരിക്കുന്ന ഓർഡറുകളിൽ മാത്രമേ ഇത് പ്രാബല്യത്തിൽ വരൂ."
 
-#: includes/class-settings.php:256
+#: includes/class-settings.php:258
 msgid "Domain search appearance"
 msgstr "ഡൊമെയ്ൻ തിരയൽ ദൃശ്യരൂപം"
 
-#: includes/class-settings.php:257
+#: includes/class-settings.php:259
 msgid "This widget renders inside your own theme. Pick a preset, or set your own colours — either way nothing is added to your pages that a visitor can see as ours."
 msgstr "ഈ വിജറ്റ് നിങ്ങളുടെ സ്വന്തം തീമിനുള്ളിൽ ദൃശ്യമാകുന്നു. ഒരു പ്രീസെറ്റ് തിരഞ്ഞെടുക്കുക, അല്ലെങ്കിൽ നിങ്ങളുടെ സ്വന്തം നിറങ്ങൾ ക്രമീകരിക്കുക — ഏതു രീതിയിലായാലും സന്ദർശകന് ഞങ്ങളുടേതായി കാണാൻ കഴിയുന്ന ഒന്നും നിങ്ങളുടെ പേജുകളിലേക്ക് ചേർക്കപ്പെടില്ല."
 
-#: includes/class-settings.php:265
+#: includes/class-settings.php:267
 msgid "Every class the widget uses is listed in the plugin’s readme, so a developer can override anything a preset does not cover."
 msgstr "വിഡ്ജറ്റ് ഉപയോഗിക്കുന്ന ഓരോ ക്ലാസും പ്ലഗിന്റെ readme-ൽ ലിസ്റ്റ് ചെയ്തിട്ടുണ്ട്, അതിനാൽ ഒരു പ്രീസെറ്റ് ഉൾക്കൊള്ളാത്ത എന്തും ഡെവലപ്പർക്ക് തിരുത്തിയെഴുതാൻ കഴിയും."
 
-#: includes/class-settings.php:282
+#: includes/class-settings.php:284
 msgid "Follow my theme"
 msgstr "എന്റെ തീം പിന്തുടരുക"
 
-#: includes/class-settings.php:298
+#: includes/class-settings.php:300
 msgid "Soft"
 msgstr "സോഫ്റ്റ്"
 
-#: includes/class-settings.php:314
+#: includes/class-settings.php:316
 msgid "High contrast"
 msgstr "ഉയർന്ന കോൺട്രാസ്റ്റ്"
 
-#: includes/class-settings.php:330
+#: includes/class-settings.php:332
 msgid "Compact"
 msgstr "കോംപാക്റ്റ്"
 
-#: includes/class-settings.php:349
+#: includes/class-settings.php:351
 msgid "Buy-link colour"
 msgstr "വാങ്ങൽ ലിങ്കിന്റെ നിറം"
 
-#: includes/class-settings.php:353
+#: includes/class-settings.php:355
 msgid "“Available” colour"
 msgstr "\"ലഭ്യമാണ്\" നിറം"
 
-#: includes/class-settings.php:357
+#: includes/class-settings.php:359
 msgid "“Could not check” colour"
 msgstr "\"പരിശോധിക്കാൻ കഴിഞ്ഞില്ല\" എന്നതിൻ്റെ നിറം"
 
-#: includes/class-settings.php:361
+#: includes/class-settings.php:363
 msgid "Error colour"
 msgstr "പിശക് നിറം"
 
-#: includes/class-settings.php:365
+#: includes/class-settings.php:367
 msgid "Corner rounding"
 msgstr "കോണുകൾ വളയ്ക്കൽ"
 
-#: includes/class-settings.php:369
+#: includes/class-settings.php:371
 msgid "Space inside each row"
 msgstr "ഓരോ വരിയുടെയും ഉള്ളിലെ ഇടം"
 
-#: includes/class-settings.php:373
+#: includes/class-settings.php:375
 msgid "Text size"
 msgstr "ടെക്‌സ്റ്റ് വലുപ്പം"
 
-#: includes/class-settings.php:377
+#: includes/class-settings.php:379
 msgid "Domain-name weight"
 msgstr "ഡൊമെയ്ൻ നാമ ഭാരം"
 
-#: includes/class-settings.php:398
+#: includes/class-settings.php:400
 msgid "No reseller API key yet."
 msgstr "റീസെല്ലർ API കീ ഇതുവരെ ഇല്ല."
 
-#: includes/class-settings.php:399
+#: includes/class-settings.php:401
 msgid "Domain search already works without one, at the public prices. The panel link and WooCommerce provisioning need a key: create one in your Zinn® dashboard under Developer → API keys."
 msgstr "ഡൊമെയ്ൻ തിരയൽ ഇതിനകം തന്നെ ഒരു കീ ഇല്ലാതെ, പൊതുവിലയിൽ പ്രവർത്തിക്കുന്നുണ്ട്. പാനൽ ലിങ്കിനും WooCommerce പ്രൊവിഷനിംഗിനും ഒരു കീ ആവശ്യമാണ്: നിങ്ങളുടെ Zinn® ഡാഷ്‌ബോർഡിൽ Developer → API keys എന്നതിന് കീഴിൽ ഒന്ന് സൃഷ്ടിക്കുക."
 
-#: includes/class-settings.php:401
+#: includes/class-settings.php:403
 msgid "Open my Zinn® dashboard"
 msgstr "എന്റെ Zinn® ഡാഷ്‌ബോർഡ് തുറക്കുക"
 
-#: includes/class-settings.php:419
+#: includes/class-settings.php:421
 msgid "A key is set, but nothing is switched on."
 msgstr "ഒരു കീ സജ്ജീകരിച്ചിരിക്കുന്നു, എന്നാൽ ഒന്നും ഓണാക്കിയിട്ടില്ല."
 
-#: includes/class-settings.php:420
+#: includes/class-settings.php:422
 msgid "None of the three features is enabled, so this plugin is doing nothing on your site. Turn on what you need under Features."
 msgstr "മൂന്ന് സവിശേഷതകളിൽ ഒന്നും പ്രവർത്തനക്ഷമമാക്കിയിട്ടില്ല, അതിനാൽ ഈ പ്ലഗിൻ നിങ്ങളുടെ സൈറ്റിൽ ഒന്നും ചെയ്യുന്നില്ല. സവിശേഷതകൾ എന്നതിന് കീഴിൽ നിങ്ങൾക്ക് ആവശ്യമുള്ളത് ഓണാക്കുക."
 
-#: includes/class-settings.php:422
+#: includes/class-settings.php:424
 msgid "Open Features"
 msgstr "സവിശേഷതകൾ തുറക്കുക"
 
 #. translators: %d: how many toolkit features are switched on.
-#: includes/class-settings.php:432
+#: includes/class-settings.php:434
 #, php-format
 msgid "Ready — %d feature switched on."
 msgid_plural "Ready — %d features switched on."
 msgstr[0] "തയ്യാറാണ് — %d സവിശേഷത ഓണാക്കി."
 msgstr[1] "തയ്യാറാണ് — %d ഫീച്ചറുകൾ ഓൺ ചെയ്തു."
 
-#: includes/class-settings.php:437
+#: includes/class-settings.php:439
 msgid "Selling from"
 msgstr "വിൽക്കുന്നത് ഇതിൽ നിന്ന്"
 
-#: includes/class-settings.php:471
+#: includes/class-settings.php:473
 msgid "Settings"
 msgstr "ക്രമീകരണങ്ങൾ"
 
-#: includes/class-settings.php:531
+#: includes/class-settings.php:533
 msgid "No API key yet, so nothing is connected."
 msgstr "ഇതുവരെ API കീ ഇല്ല, അതിനാൽ ഒന്നും ബന്ധിപ്പിച്ചിട്ടില്ല."
 
 #. translators: %s: error message returned by the hosting API.
-#: includes/class-settings.php:539
+#: includes/class-settings.php:541
 #, php-format
 msgid "Not connected: %s"
 msgstr "ബന്ധിപ്പിച്ചിട്ടില്ല: %s"
 
 #. translators: %s: the reseller programme status, e.g. "active".
-#: includes/class-settings.php:549
+#: includes/class-settings.php:551
 #, php-format
 msgid "Connected. Your reseller programme is %s."
 msgstr "ബന്ധിപ്പിച്ചു. നിങ്ങളുടെ റീസെല്ലർ പ്രോഗ്രാം %s ആണ്."
 
-#: includes/class-woocommerce-provisioning.php:99
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Zinn® API കീ ക്രമീകരിച്ചിട്ടില്ല, അതിനാൽ ഒന്നും നൽകിയിട്ടില്ല."
 
-#: includes/class-woocommerce-provisioning.php:112
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "ഈ ഓർഡറിൽ ഒരു ഡൊമെയ്ൻ നാമം ഉൾപ്പെട്ടിട്ടില്ലാത്തതിനാൽ, പ്രൊവിഷൻ ചെയ്യാൻ ഒന്നുമില്ലായിരുന്നു."
 
-#: includes/class-woocommerce-provisioning.php:132
+#: includes/class-woocommerce-provisioning.php:134
 msgid "The hosting platform did not return a site."
 msgstr "ഹോസ്റ്റിംഗ് പ്ലാറ്റ്‌ഫോം ഒരു സൈറ്റും നൽകിയില്ല."
 
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:143
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "%1$s-നായി Zinn® ഹോസ്റ്റിംഗ് സജ്ജമാക്കി (സേവനം %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:207
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "ഹോസ്റ്റിംഗ് പ്ലാറ്റ്‌ഫോം ഒരു ക്ലയന്റ് അക്കൗണ്ട് തിരികെ നൽകിയില്ല."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:312
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® ഹോസ്റ്റിംഗ് നൽകിയിട്ടില്ല: %s"
 
-#: includes/class-woocommerce-provisioning.php:328
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "Zinn® ഉൽപ്പന്ന നിര"
 
-#: includes/class-woocommerce-provisioning.php:329
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "ഈ ഉൽപ്പന്നം വാങ്ങുമ്പോൾ സജ്ജമാക്കേണ്ട Zinn® ഉൽപ്പന്ന ശ്രേണി. പ്ലഗിൻ ക്രമീകരണങ്ങളിൽ നിന്നുള്ള സ്ഥിരസ്ഥിതി ഉപയോഗിക്കാൻ ശൂന്യമായി ഇടുക."
 
-#: includes/class-woocommerce-provisioning.php:366
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "Zinn® ഹോസ്റ്റിംഗ്"
 
-#: includes/class-woocommerce-provisioning.php:390
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "സേവന ഐഡി"
 
-#: includes/class-woocommerce-provisioning.php:397
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "ഈ ഓർഡറിനായി ഒന്നും നൽകിയിട്ടില്ല."
 
@@ -625,47 +625,47 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "റിപ്പോർട്ട് നിരസിക്കപ്പെട്ടു (HTTP %d). മുകളിൽ അത് പകർത്തി, ആ നമ്പർ ഉദ്ധരിച്ച് ഒരു ടിക്കറ്റ് തുറക്കുക."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:326
-#: includes/class-zinn-reseller-promo.php:384
+#: includes/class-zinn-reseller-promo.php:349
+#: includes/class-zinn-reseller-promo.php:407
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — വഴികാട്ടികളും സേവനങ്ങളും"
 
-#: includes/class-zinn-reseller-promo.php:341
+#: includes/class-zinn-reseller-promo.php:364
 msgid "User guides"
 msgstr "ഉപയോക്തൃ ഗൈഡുകൾ"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:391
+#: includes/class-zinn-reseller-promo.php:414
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s ഉപയോക്തൃ ഗൈഡ് വായിക്കുക"
 
-#: includes/class-zinn-reseller-promo.php:399
+#: includes/class-zinn-reseller-promo.php:422
 msgid "Hide this"
 msgstr "ഇത് മറയ്ക്കുക"
 
-#: includes/class-zinn-reseller-promo.php:512
+#: includes/class-zinn-reseller-promo.php:535
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress-നായുള്ള Zinn® ഹോസ്റ്റിംഗ്"
 
-#: includes/class-zinn-reseller-promo.php:513
+#: includes/class-zinn-reseller-promo.php:536
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, പ്രതിദിന ബാക്കപ്പുകൾ, സൗജന്യ മൈഗ്രേഷൻ, ഒന്നിലധികം സൈറ്റുകൾ കൈകാര്യം ചെയ്യുന്ന ആളുകൾക്കായി നിർമ്മിച്ച ഒരു കൺട്രോൾ പാനൽ."
 
-#: includes/class-zinn-reseller-promo.php:519
+#: includes/class-zinn-reseller-promo.php:542
 msgid "The Zinn® marketplace"
 msgstr "Zinn® മാർക്കറ്റ്പ്ലേസ്"
 
-#: includes/class-zinn-reseller-promo.php:520
+#: includes/class-zinn-reseller-promo.php:543
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "രണ്ട് കക്ഷികളും തൃപ്തരാകുന്നതുവരെ പണം സുരക്ഷിതമായി സൂക്ഷിച്ചുകൊണ്ട്, നിലവിലുള്ള സൈറ്റുകൾ, ഡൊമെയ്‌നുകൾ, ലിങ്ക് പ്ലേസ്‌മെന്റുകൾ എന്നിവ വാങ്ങുകയും വിൽക്കുകയും ചെയ്യുക."
 
-#: includes/class-zinn-reseller-promo.php:567
+#: includes/class-zinn-reseller-promo.php:590
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ഇത് ഉപജീവനമാർഗ്ഗമായി ചെയ്യുന്ന ആളുകളെ നിയമിക്കുക"
 
-#: includes/class-zinn-reseller-promo.php:568
+#: includes/class-zinn-reseller-promo.php:591
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ഞങ്ങളുടെ ആഗോള ഫ്രീലാൻസ് മാർക്കറ്റ്പ്ലേസ്: എഴുത്തുകാർ, ഡിസൈനർമാർ, ഡെവലപ്പർമാർ, എസ്ഇഒ വിദഗ്ദ്ധർ എന്നിവരിൽ നിന്നുള്ള 10,000-ലധികം സേവനങ്ങൾ ബ്രൗസ് ചെയ്യുക, അല്ലെങ്കിൽ ഒരു പ്രോജക്റ്റ് പോസ്റ്റ് ചെയ്ത് ലേലം വിളിക്കാൻ അവരെ അനുവദിക്കുക."
 
@@ -707,122 +707,122 @@ msgstr "ഡൗൺലോഡ് ചെയ്ത അപ്‌ഡേറ്റിന�
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr "പ്രവൃത്തി പൂർത്തിയാക്കാൻ കഴിഞ്ഞില്ല. വീണ്ടും ശ്രമിക്കുക, പരാജയപ്പെടുന്നത് തുടരുകയാണെങ്കിൽ സൈറ്റ് അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക."
 
-#: includes/mcp-kit/class-oauth.php:704
-#: includes/mcp-kit/class-oauth.php:715
+#: includes/mcp-kit/class-oauth.php:726
+#: includes/mcp-kit/class-oauth.php:737
 msgid "Connect an AI app"
 msgstr "ഒരു AI ആപ്പ് കണക്റ്റ് ചെയ്യുക"
 
-#: includes/mcp-kit/class-oauth.php:717
-#: includes/mcp-kit/class-oauth.php:723
-#: includes/mcp-kit/class-oauth.php:764
+#: includes/mcp-kit/class-oauth.php:739
+#: includes/mcp-kit/class-oauth.php:745
+#: includes/mcp-kit/class-oauth.php:786
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr "ഈ കണക്ഷൻ അഭ്യർത്ഥനയുടെ കാലാവധി കഴിഞ്ഞു. ആപ്പിലേക്ക് മടങ്ങിപ്പോയി വീണ്ടും കണക്റ്റുചെയ്യാൻ ആരംഭിക്കുക."
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:731
+#: includes/mcp-kit/class-oauth.php:753
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr "ഈ സൈറ്റിൽ %1$s, %3$s ആയി %2$s ഉപയോഗിക്കാൻ അഭ്യർത്ഥിക്കുന്നു. നിങ്ങളുടെ WordPress അക്കൗണ്ടിന് ചെയ്യാൻ അനുവാദമുള്ള കാര്യങ്ങൾ മാത്രമേ ഇതിന് ചെയ്യാനാകൂ, കൂടാതെ AI ഏജന്റ്സ് (MCP) ക്രമീകരണങ്ങളിൽ നിന്ന് എപ്പോൾ വേണമെങ്കിലും നിങ്ങൾക്ക് ഇതിന്റെ കണക്ഷൻ വിച്ഛേദിക്കാം."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:734
+#: includes/mcp-kit/class-oauth.php:756
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr "%1$s %2$s-ൽ നിന്ന് സ്വയം തിരിച്ചറിഞ്ഞു."
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:737
+#: includes/mcp-kit/class-oauth.php:759
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr "%1$s സ്വയമേവ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ട്. നിങ്ങൾ ഇത് %2$s-ൽ നിന്നാണ് ആരംഭിച്ചതെങ്കിൽ മാത്രം തുടരുക."
 
-#: includes/mcp-kit/class-oauth.php:741
+#: includes/mcp-kit/class-oauth.php:763
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr "നിങ്ങളുടെ അക്കൗണ്ടിന് ഈ സൈറ്റിൽ ഈ ഉപകരണങ്ങൾ ഉപയോഗിക്കാൻ കഴിയില്ല. ഒരു അഡ്മിനിസ്ട്രേറ്ററോട് ചോദിക്കുക."
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:744
+#: includes/mcp-kit/class-oauth.php:766
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr "മറുപടി നൽകിയ ശേഷം നിങ്ങൾ %s-ലേക്ക് മടങ്ങും."
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:749
+#: includes/mcp-kit/class-oauth.php:771
 #, php-format
 msgid "Allow %s"
 msgstr "%s അനുവദിക്കുക"
 
-#: includes/mcp-kit/class-oauth.php:750
+#: includes/mcp-kit/class-oauth.php:772
 msgid "Do not allow"
 msgstr "അനുവദിക്കരുത്"
 
-#: includes/mcp-kit/class-rest-bridge.php:325
+#: includes/mcp-kit/class-rest-bridge.php:351
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
 msgstr "ആവശ്യമായ ഒരു മൂല്യം നഷ്‌ടപ്പെട്ടു അല്ലെങ്കിൽ തെറ്റായ രൂപത്തിലാണ്. ശേഷിയുടെ ഇൻപുട്ട് സ്കീമ (input schema) പരിശോധിക്കുക."
 
-#: includes/mcp-kit/class-rest-bridge.php:358
+#: includes/mcp-kit/class-rest-bridge.php:384
 msgid "The site refused the request."
 msgstr "സൈറ്റ് അഭ്യർത്ഥന നിരസിച്ചു."
 
-#: includes/mcp-kit/class-server.php:118
+#: includes/mcp-kit/class-server.php:124
 msgid "Unknown tool."
 msgstr "അജ്ഞാതമായ ഉപകരണം."
 
-#: includes/mcp-kit/class-server.php:315
+#: includes/mcp-kit/class-server.php:323
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
 msgstr "Claude, Cursor അല്ലെങ്കിൽ VS Code പോലുള്ള AI അസിസ്റ്റന്റുകളെ MCP (Model Context Protocol) വഴി ഈ സൈറ്റിൽ നിങ്ങൾക്കായി പ്രവർത്തിക്കാൻ അനുവദിക്കുക. അവ ഒരു WordPress ഉപയോക്താവായി പ്രവേശിക്കുന്നു (Claude, ChatGPT എന്നിവ ഇവിടെ അനുമതി നൽകുന്നതിലൂടെയും മറ്റുള്ളവ ഒരു ആപ്ലിക്കേഷൻ പാസ്‌വേഡ് ഉപയോഗിച്ചും), ആ ഉപയോക്താവിന് അനുവദിച്ചിട്ടുള്ള കാര്യങ്ങൾ മാത്രമേ അവയ്ക്ക് ചെയ്യാൻ കഴിയൂ."
 
-#: includes/mcp-kit/class-server.php:317
+#: includes/mcp-kit/class-server.php:325
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr "AI ഏജന്റുകൾക്ക് WordPress 6.9 അല്ലെങ്കിൽ അതിന് ശേഷമുള്ള പതിപ്പ് ആവശ്യമാണ്. അവ ഉപയോഗിക്കുന്നതിന് WordPress അപ്ഡേറ്റ് ചെയ്യുക."
 
-#: includes/mcp-kit/class-server.php:330
+#: includes/mcp-kit/class-server.php:338
 msgid "Connection address (MCP endpoint)"
 msgstr "കണക്ഷൻ വിലാസം (MCP എൻഡ്‌പോയിന്റ്)"
 
-#: includes/mcp-kit/class-server.php:334
+#: includes/mcp-kit/class-server.php:342
 msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude-ഉം ChatGPT-യും: പകരം സൈൻ ഇൻ ചെയ്യുക"
 
-#: includes/mcp-kit/class-server.php:335
+#: includes/mcp-kit/class-server.php:343
 msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
 msgstr "കണക്ഷൻ വിലാസം Claude-ൽ ഒരു ഇഷ്‌ടാനുസൃത കണക്ടറായി അല്ലെങ്കിൽ ChatGPT ഡെവലപ്പർ മോഡിൽ ഒരു ആപ്പായി ചേർക്കുക. നിങ്ങൾക്കവ അംഗീകരിക്കാനായി അവ ഈ സൈറ്റ് തുറക്കുന്നു; പകർത്താൻ പാസ്‌വേഡ് ഒന്നുമില്ല."
 
-#: includes/mcp-kit/class-server.php:337
+#: includes/mcp-kit/class-server.php:345
 msgid "AI apps connected to your account:"
 msgstr "നിങ്ങളുടെ അക്കൗണ്ടുമായി ബന്ധിപ്പിച്ച AI ആപ്പുകൾ:"
 
-#: includes/mcp-kit/class-server.php:346
+#: includes/mcp-kit/class-server.php:354
 msgid "Disconnect"
 msgstr "വിച്ഛേദിക്കുക"
 
-#: includes/mcp-kit/class-server.php:352
+#: includes/mcp-kit/class-server.php:360
 msgid "Other AI apps: an application password"
 msgstr "മറ്റ് AI ആപ്പുകൾ: ഒരു ആപ്ലിക്കേഷൻ പാസ്‌വേഡ്"
 
-#: includes/mcp-kit/class-server.php:354
+#: includes/mcp-kit/class-server.php:362
 msgid "Create an application password for your user"
 msgstr "നിങ്ങളുടെ ഉപയോക്താവിനായി ഒരു ആപ്ലിക്കേഷൻ പാസ്‌വേഡ് സൃഷ്ടിക്കുക"
 
-#: includes/mcp-kit/class-server.php:355
+#: includes/mcp-kit/class-server.php:363
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr "നിങ്ങളുടെ ഉപയോക്തൃനാമവും ആ പാസ്‌വേഡും ഉപയോഗിച്ച് നിങ്ങളുടെ AI ആപ്പിന്റെ MCP ക്രമീകരണങ്ങളിലേക്ക് ഇത് ചേർക്കുക:"
 
-#: includes/mcp-kit/class-server.php:357
+#: includes/mcp-kit/class-server.php:365
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr "VS Code: ഒരേ എൻട്രി .vscode/mcp.json-ൽ \"servers\" എന്നതിന് കീഴിൽ നൽകുക, \"mcpServers\" എന്നതിന് കീഴിലല്ല."
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:361
+#: includes/mcp-kit/class-server.php:369
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr "ഒരു AI ഏജന്റിന് ഇവിടെ ഉപയോഗിക്കാൻ കഴിയുന്ന ഉപകരണങ്ങൾ (%d):"
 
-#: includes/mcp-kit/class-server.php:372
+#: includes/mcp-kit/class-server.php:380
 msgid "User guide: AI agents and MCP"
 msgstr "ഉപയോക്തൃ ഗൈഡ്: AI ഏജന്റുകളും MCP-യും"
 
-#: includes/mcp-kit/class-server.php:375
+#: includes/mcp-kit/class-server.php:383
 msgid "Developer docs: abilities, REST and MCP"
 msgstr "ഡെവലപ്പർ ഡോക്സ്: കഴിവുകൾ, REST, MCP എന്നിവ"
 
