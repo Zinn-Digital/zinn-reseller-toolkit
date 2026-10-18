@@ -115,6 +115,7 @@ final class Adapter {
 			return true; // Loadable, deliberately not started: see cli_without_mcp().
 		}
 		$entry = self::ENTRY;
+		self::bundled_as_library();
 		self::after_load( $entry::instance() );
 
 		return true;
@@ -148,6 +149,35 @@ final class Adapter {
 		}
 		remove_action( 'init', $start, (int) $at );
 		\WP_CLI::add_hook( 'after_wp_load', $start );
+	}
+
+	/**
+	 * Tell a bundled adapter (0.7.0+) that it is deliberately loaded as a library.
+	 *
+	 * Since 0.7.0 the adapter calls `_deprecated_function()` from `McpAdapter::init()` on every
+	 * request unless `WP_MCP_VERSION` is defined — which only its own plugin file does — and then
+	 * defines the constant itself (upstream: "so bad plugins don't break those that follow best
+	 * practices"). We start that copy, so we define the constant first, to the same value the
+	 * adapter would: a notice on every WP_DEBUG request is a WordPress.org review defect (§2.15),
+	 * and no site owner can act on it. Called only for a copy nobody else started (ours, or a
+	 * dormant bundled one); the MCP Adapter plugin defines it unconditionally in
+	 * `Plugin::constants()` while its file loads, long before `plugins_loaded`, and then its copy
+	 * is `external` and already started, so this never runs beside it.
+	 *
+	 * ⛔ §2.36 suppression. Fact it rests on: WordPress core ships no MCP adapter, and the site
+	 * has no MCP Adapter plugin active (that plugin's copy would win and be started by its
+	 * owner). Re-check condition: remove once WordPress core or an installed adapter plugin
+	 * provides MCP — and on every adapter version bump (`wp/bin/mcp-adapter.lock.json`), re-read
+	 * `McpAdapter::check_plugin_loaded()` for the constant it tests.
+	 *
+	 * @return void
+	 */
+	private static function bundled_as_library(): void {
+		$entry = ltrim( self::ENTRY, '\\' );
+		if ( defined( 'WP_MCP_VERSION' ) || ! defined( $entry . '::VERSION' ) ) {
+			return;
+		}
+		define( 'WP_MCP_VERSION', (string) constant( $entry . '::VERSION' ) ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedConstantFound -- the adapter's own constant, which it reads (see above).
 	}
 
 	/**
@@ -251,6 +281,7 @@ final class Adapter {
 				return; // Never start a dormant copy for a WP-CLI command that is not the adapter's own.
 			}
 			add_filter( 'mcp_adapter_create_default_server', '__return_false', 5 );
+			self::bundled_as_library();
 		}
 		self::after_load( $entry::instance() );
 	}
