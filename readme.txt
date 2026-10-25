@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.19
+Stable tag: 1.7.20
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -166,6 +166,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.20 =
+* Security: the hosting-panel link and the AI-app "Disconnect" action check the signed-in user's capability as well as the nonce.
 
 = 1.7.19 =
 * WordPress MCP adapter updated to 0.7.1 (MCP protocol 2026-07-28, session-storage security fix); no deprecation notice from the bundled copy.

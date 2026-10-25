@@ -85,7 +85,9 @@ class Panel_Link {
 	 * @return void
 	 */
 	public static function redirect(): void {
-		if ( ! is_user_logged_in() ) {
+		// `read` is every signed-in account's capability: a customer opens THEIR OWN panel, and
+		// the nonce below is not authorisation (docs/1007-wordpress-org-review-standards.md §6).
+		if ( ! current_user_can( 'read' ) ) {
 			wp_die( esc_html__( 'Please sign in first.', 'zinn-reseller' ), '', array( 'response' => 403 ) );
 		}
 		check_admin_referer( 'zinn_reseller_panel' );

@@ -1164,6 +1164,11 @@ final class OAuth {
 	 * @return void
 	 */
 	public static function disconnect(): void {
+		// A user disconnects THEIR OWN app grants: `read`, the capability every signed-in account
+		// has. A nonce is not authorisation (docs/1007-wordpress-org-review-standards.md §6).
+		if ( ! current_user_can( 'read' ) ) {
+			wp_die( '', '', array( 'response' => 403 ) );
+		}
 		$family = isset( $_POST['app'] ) ? sanitize_key( wp_unslash( $_POST['app'] ) ) : '';
 		check_admin_referer( 'zinn_mcp_disconnect_' . $family );
 		$grants = self::grants( get_current_user_id() );
