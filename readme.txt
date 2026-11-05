@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.20
+Stable tag: 1.7.21
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -166,6 +166,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.21 =
+* Improved: the shared settings framework is updated (no change to this plugin's settings screen).
 
 = 1.7.20 =
 * Security: the hosting-panel link and the AI-app "Disconnect" action check the signed-in user's capability as well as the nonce.

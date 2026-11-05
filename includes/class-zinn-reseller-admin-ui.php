@@ -138,6 +138,10 @@ final class Zinn_Reseller_Admin_UI {
 				'screens'     => array(),
 				'legacy'      => array(),
 				'diagnostics' => true,
+				// Words for "settings are saved as you change them" (Zinn Cache, rival gap
+				// Hummingbird 4.0.0): `saving`, `saved`, `failed`. Empty = no autosave. The
+				// plugin passes them translated in ITS text domain, so this file adds no string.
+				'autosave'    => array(),
 			),
 			$config
 		);
@@ -186,6 +190,19 @@ final class Zinn_Reseller_Admin_UI {
 
 		add_action( 'admin_post_' . self::action_name( 'save' ), array( __CLASS__, 'handle_save' ) );
 		add_action( 'admin_post_' . self::action_name( 'act' ), array( __CLASS__, 'handle_action' ) );
+		if ( self::autosaves() ) {
+			add_action( 'wp_ajax_' . self::action_name( 'autosave' ), array( __CLASS__, 'handle_autosave' ) );
+		}
+	}
+
+	/**
+	 * Whether this plugin's settings save as they change (it registered the `autosave` words).
+	 *
+	 * @return bool
+	 */
+	private static function autosaves(): bool {
+		$words = (array) ( self::$config['autosave'] ?? array() );
+		return '' !== (string) ( $words['saved'] ?? '' );
 	}
 
 	/**
@@ -380,7 +397,8 @@ final class Zinn_Reseller_Admin_UI {
 			$handle,
 			'window.zinnAdminUi = ' . wp_json_encode(
 				array(
-					'copied' => __( 'Copied', 'zinn-reseller' ),
+					'copied'   => __( 'Copied', 'zinn-reseller' ),
+					'autosave' => array_map( 'strval', (array) ( self::$config['autosave'] ?? array() ) ),
 				)
 			) . ';',
 			'before'
@@ -905,7 +923,12 @@ final class Zinn_Reseller_Admin_UI {
 			return;
 		}
 		?>
-		<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" class="zinn-form">
+		<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" class="zinn-form"
+			<?php if ( self::autosaves() ) : ?>
+				data-zinn-autosave="<?php echo esc_url( admin_url( 'admin-ajax.php' ) ); ?>"
+				data-zinn-autosave-action="<?php echo esc_attr( self::action_name( 'autosave' ) ); ?>"
+			<?php endif; ?>
+		>
 			<input type="hidden" name="action" value="<?php echo esc_attr( self::action_name( 'save' ) ); ?>" />
 			<input type="hidden" name="zinn_tab" value="<?php echo esc_attr( $tab ); ?>" />
 			<?php wp_nonce_field( self::action_name( 'save' ) ); ?>
@@ -926,6 +949,9 @@ final class Zinn_Reseller_Admin_UI {
 				?>
 				</tbody>
 			</table>
+			<?php if ( self::autosaves() ) : ?>
+				<p class="zinn-autosave-status" role="status" aria-live="polite" data-zinn-autosave-status></p>
+			<?php endif; ?>
 			<?php submit_button( __( 'Save changes', 'zinn-reseller' ) ); ?>
 		</form>
 		<?php
@@ -1046,16 +1072,48 @@ final class Zinn_Reseller_Admin_UI {
 	 */
 	public static function handle_save(): void {
 		self::guard( self::action_name( 'save' ) );
+		self::save_posted();
+		self::notice( 'success', __( 'Settings saved.', 'zinn-reseller' ) );
+		// phpcs:ignore WordPress.Security.NonceVerification.Missing -- verified by self::guard().
+		self::redirect( isset( $_POST['zinn_tab'] ) ? sanitize_key( wp_unslash( (string) $_POST['zinn_tab'] ) ) : '' );
+	}
 
-		$stored = get_option( (string) self::$config['option'], array() );
-		$stored = is_array( $stored ) ? $stored : array();
-		// phpcs:ignore WordPress.Security.NonceVerification.Missing -- verified by self::guard() on the line above.
+	/**
+	 * Save the tab as it is changed, without a page load (`autosave` words registered).
+	 *
+	 * ⛔ The same two guards as the form, answered as JSON instead of `wp_die()`: capability,
+	 * then the form's own nonce. And the same save path — nothing an autosave writes can
+	 * differ from what the "Save changes" button would have written.
+	 *
+	 * @return void
+	 */
+	public static function handle_autosave(): void {
+		if ( ! current_user_can( (string) self::$config['capability'] ) ) {
+			wp_send_json_error( array( 'code' => 'forbidden' ), 403 );
+		}
+		if ( false === check_ajax_referer( self::action_name( 'save' ), '_wpnonce', false ) ) {
+			wp_send_json_error( array( 'code' => 'expired' ), 403 );
+		}
+		self::save_posted();
+		wp_send_json_success( array( 'saved' => true ) );
+	}
+
+	/**
+	 * The posted tab, sanitised field by field and stored. Callers have run both guards.
+	 *
+	 * @return array<string, mixed> The full stored settings array.
+	 */
+	private static function save_posted(): array {
+		$stored   = get_option( (string) self::$config['option'], array() );
+		$stored   = is_array( $stored ) ? $stored : array();
+		$previous = $stored;
+		// phpcs:ignore WordPress.Security.NonceVerification.Missing -- verified by the caller (self::guard() or check_ajax_referer()).
 		$posted = isset( $_POST['zinn_settings'] ) && is_array( $_POST['zinn_settings'] )
 			// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized, WordPress.Security.NonceVerification.Missing -- unslashed here and sanitised per field, by declared type, in the loop below; a blanket sanitiser would corrupt array and secret fields.
 			? wp_unslash( $_POST['zinn_settings'] )
 			: array();
 
-		// phpcs:ignore WordPress.Security.NonceVerification.Missing -- verified by self::guard().
+		// phpcs:ignore WordPress.Security.NonceVerification.Missing -- verified by the caller.
 		$tab    = isset( $_POST['zinn_tab'] ) ? sanitize_key( wp_unslash( (string) $_POST['zinn_tab'] ) ) : '';
 		$fields = self::tab_fields( $tab );
 
@@ -1088,13 +1146,50 @@ final class Zinn_Reseller_Admin_UI {
 		/**
 		 * Fires after a Zinn settings page has saved.
 		 *
-		 * @param array<string, mixed> $stored The full stored settings array.
-		 * @param string               $tab    The tab that was saved.
+		 * @param array<string, mixed> $stored   The full stored settings array.
+		 * @param string               $tab      The tab that was saved.
+		 * @param array<string, mixed> $previous The stored settings before this save.
 		 */
-		do_action( 'zinn_admin_ui_saved_zinn_reseller', $stored, $tab );
+		do_action( 'zinn_admin_ui_saved_zinn_reseller', $stored, $tab, $previous );
 
-		self::notice( 'success', __( 'Settings saved.', 'zinn-reseller' ) );
-		self::redirect( $tab );
+		return $stored;
+	}
+
+	/**
+	 * The keys of the settings that differ between two stored arrays, in field order.
+	 *
+	 * ⛔ Keys, never values: a caller logging "what changed" must not be handed a secret.
+	 *
+	 * @param array<string, mixed> $before Stored settings before.
+	 * @param array<string, mixed> $after  Stored settings after.
+	 * @return array<int, string>
+	 */
+	public static function changed_keys( array $before, array $after ): array {
+		$out = array();
+		foreach ( self::fields() as $field ) {
+			$key = (string) ( $field['key'] ?? '' );
+			if ( '' === $key || in_array( (string) ( $field['type'] ?? '' ), Zinn_Reseller_Admin_Fields::presentational(), true ) ) {
+				continue;
+			}
+			$default = Zinn_Reseller_Admin_Fields::default_for( $field );
+			$was     = array_key_exists( $key, $before ) ? $before[ $key ] : $default;
+			$now     = array_key_exists( $key, $after ) ? $after[ $key ] : $default;
+			if ( wp_json_encode( $was ) !== wp_json_encode( $now ) ) {
+				$out[] = $key;
+			}
+		}
+		return $out;
+	}
+
+	/**
+	 * A setting's label as its screen shows it, or the key when the field is gone.
+	 *
+	 * @param string $key Field key.
+	 * @return string
+	 */
+	public static function field_label( string $key ): string {
+		$field = self::field( $key );
+		return null === $field ? $key : (string) ( $field['label'] ?? $key );
 	}
 
 	/**
@@ -1454,6 +1549,8 @@ final class Zinn_Reseller_Admin_UI {
 			.zinn-admin .zinn-secret-hint { color: #50575e; margin-inline-start: .5rem; }
 			.zinn-admin .zinn-toggle, .zinn-admin .zinn-radio { display: flex; align-items: center; gap: .35rem; margin-block-end: .25rem; }
 			.zinn-admin .zinn-color-value { margin-inline-start: .5rem; }
+			.zinn-admin .zinn-autosave-status { min-block-size: 1.5em; margin-block: 0.5rem 0; color: #50575e; }
+			.zinn-admin .zinn-autosave-status--failed { color: #b32d2e; }
 			.zinn-admin .zinn-diagnostics { background: #f6f7f7; border: 1px solid #c3c4c7; border-radius: 4px; padding: 1rem; max-block-size: 26rem; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; }
 			.zinn-admin .zinn-preset-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: .75rem; }
 			.zinn-admin .zinn-preset { border: 2px solid #c3c4c7; border-radius: 4px; padding: .75rem; cursor: pointer; display: block; }
@@ -1569,6 +1666,52 @@ final class Zinn_Reseller_Admin_UI {
 			 * does nothing rather than throwing, and the report is still selectable text
 			 * one keystroke from a manual copy — it was never the only way out.
 			 */
+			/*
+			 * Settings saved as they change (a plugin that registered `autosave` words).
+			 *
+			 * ⭐ The "Save changes" button stays: it is the path with no JavaScript, and the
+			 * one to use if an autosave fails. A typed field saves when the typing pauses; a
+			 * password only on `change` (when it is complete), never letter by letter. One
+			 * request at a time, and a change made during one is saved straight after it.
+			 */
+			root.querySelectorAll( 'form[data-zinn-autosave]' ).forEach( function ( form ) {
+				var words = ( window.zinnAdminUi || {} ).autosave || {};
+				var status = form.querySelector( '[data-zinn-autosave-status]' );
+				var timer = null, busy = false, again = false;
+				function say( text, failed ) {
+					if ( ! status ) { return; }
+					status.textContent = text || '';
+					status.classList.toggle( 'zinn-autosave-status--failed', !! failed );
+				}
+				function save() {
+					if ( busy ) { again = true; return; }
+					busy = true;
+					say( words.saving );
+					var body = new FormData( form );
+					body.set( 'action', form.dataset.zinnAutosaveAction );
+					window.fetch( form.dataset.zinnAutosave, { method: 'POST', credentials: 'same-origin', body: body } )
+						.then( function ( r ) {
+							return r.json().then( function ( j ) { return r.ok && j && j.success === true; }, function () { return false; } );
+						} )
+						.then( function ( ok ) { say( ok ? words.saved : words.failed, ! ok ); }, function () { say( words.failed, true ); } )
+						.then( function () { busy = false; if ( again ) { again = false; save(); } } );
+				}
+				function queue( wait ) {
+					window.clearTimeout( timer );
+					timer = window.setTimeout( save, wait );
+				}
+				form.addEventListener( 'change', function ( event ) {
+					if ( event.target && event.target.type === 'file' ) { return; }
+					queue( 300 );
+				} );
+				form.addEventListener( 'input', function ( event ) {
+					var el = event.target;
+					if ( el && ( el.tagName === 'TEXTAREA' || [ 'text', 'url', 'number', 'email', 'search' ].indexOf( el.type ) !== -1 ) ) {
+						queue( 1200 );
+					}
+				} );
+			} );
+
 			root.addEventListener( 'click', function ( event ) {
 				var button = event.target.closest( '[data-zinn-copy]' );
 				if ( ! button || ! navigator.clipboard ) { return; }
