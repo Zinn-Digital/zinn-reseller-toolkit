@@ -340,7 +340,7 @@ final class Server {
 					</p>
 					<?php if ( $mcp['oauth']['available'] ) : ?>
 						<p><strong><?php esc_html_e( 'Claude and ChatGPT: sign in instead', 'zinn-reseller' ); ?></strong><br />
-						<?php esc_html_e( 'Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy.', 'zinn-reseller' ); ?></p>
+						<?php esc_html_e( 'Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy.', 'zinn-reseller' ); ?></p>
 						<?php if ( ! empty( $mcp['oauth']['apps'] ) ) : ?>
 							<p><?php esc_html_e( 'AI apps connected to your account:', 'zinn-reseller' ); ?></p>
 							<ul class="zd-mcp-panel__apps">

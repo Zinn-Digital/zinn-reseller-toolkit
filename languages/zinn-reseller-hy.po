@@ -98,15 +98,15 @@ msgstr "Գրանցեք այն"
 msgid "Manage my hosting"
 msgstr "Կառավարել իմ հոսթինգը"
 
-#: includes/class-panel-link.php:89
+#: includes/class-panel-link.php:91
 msgid "Please sign in first."
 msgstr "Խնդրում ենք նախ մուտք գործել:"
 
-#: includes/class-panel-link.php:96
+#: includes/class-panel-link.php:98
 msgid "This account is not linked to a hosting service yet."
 msgstr "Այս հաշիվը դեռ կապված չէ հոսթինգի ծառայության հետ:"
 
-#: includes/class-panel-link.php:106
+#: includes/class-panel-link.php:108
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Հոսթինգի հարթակը մուտք գործելու հղում չի վերադարձրել։"
 
@@ -407,121 +407,121 @@ msgstr "Հեռացնել այս տողը"
 msgid "Remove"
 msgstr "Հեռացնել"
 
-#: includes/class-zinn-reseller-admin-ui.php:280
-#: includes/class-zinn-reseller-admin-ui.php:281
-#: includes/class-zinn-reseller-admin-ui.php:421
+#: includes/class-zinn-reseller-admin-ui.php:297
+#: includes/class-zinn-reseller-admin-ui.php:298
+#: includes/class-zinn-reseller-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:294
+#: includes/class-zinn-reseller-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — ակնարկ"
 
-#: includes/class-zinn-reseller-admin-ui.php:295
+#: includes/class-zinn-reseller-admin-ui.php:312
 msgid "Overview"
 msgstr "Ընդհանուր դիտում"
 
-#: includes/class-zinn-reseller-admin-ui.php:383
+#: includes/class-zinn-reseller-admin-ui.php:400
 msgid "Copied"
 msgstr "Պատճենված է"
 
-#: includes/class-zinn-reseller-admin-ui.php:422
+#: includes/class-zinn-reseller-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Այս կայքի յուրաքանչյուր Zinn® փլագին և արդյոք այն աշխատում է:"
 
-#: includes/class-zinn-reseller-admin-ui.php:437
+#: includes/class-zinn-reseller-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "Այս հավելվածի համար կապ չի պահանջվում:"
 
-#: includes/class-zinn-reseller-admin-ui.php:442
+#: includes/class-zinn-reseller-admin-ui.php:460
 msgid "Open settings"
 msgstr "Բացել կարգավորումները"
 
-#: includes/class-zinn-reseller-admin-ui.php:770
-#: includes/class-zinn-reseller-admin-ui.php:1331
+#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "Դուք չունեք այս կարգավորումները փոփոխելու թույլտվություն:"
 
-#: includes/class-zinn-reseller-admin-ui.php:799
+#: includes/class-zinn-reseller-admin-ui.php:817
 msgid "Settings sections"
 msgstr "Կարգավորումների բաժիններ"
 
-#: includes/class-zinn-reseller-admin-ui.php:871
+#: includes/class-zinn-reseller-admin-ui.php:889
 msgid "Support"
 msgstr "Աջակցություն"
 
-#: includes/class-zinn-reseller-admin-ui.php:929
+#: includes/class-zinn-reseller-admin-ui.php:955
 msgid "Save changes"
 msgstr "Պահպանել փոփոխությունները"
 
-#: includes/class-zinn-reseller-admin-ui.php:958
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Tools"
 msgstr "Գործիքներ"
 
-#: includes/class-zinn-reseller-admin-ui.php:973
+#: includes/class-zinn-reseller-admin-ui.php:999
 msgid "Export settings"
 msgstr "Արտահանել կարգավորումները"
 
-#: includes/class-zinn-reseller-admin-ui.php:976
+#: includes/class-zinn-reseller-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "Վերականգնել լռելյայնները"
 
-#: includes/class-zinn-reseller-admin-ui.php:977
+#: includes/class-zinn-reseller-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Սա այս հավելվածի յուրաքանչյուր կարգավորում կվերադարձնի իր լռելյայն վիճակին: Շարունակե՞լ:"
 
-#: includes/class-zinn-reseller-admin-ui.php:984
+#: includes/class-zinn-reseller-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "Ախտորոշում աջակցության համար"
 
-#: includes/class-zinn-reseller-admin-ui.php:993
+#: includes/class-zinn-reseller-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "Ներմուծել կարգավորումների ֆայլ"
 
-#: includes/class-zinn-reseller-admin-ui.php:995
+#: includes/class-zinn-reseller-admin-ui.php:1021
 msgid "Import"
 msgstr "Ներմուծել"
 
-#: includes/class-zinn-reseller-admin-ui.php:997
+#: includes/class-zinn-reseller-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Արտահանված ֆայլերը երբեք չեն պարունակում գաղտնաբառեր, թոքեններ կամ API բանալիներ — դուք պետք է դրանք կրկին մուտքագրեք նոր կայքում:"
 
-#: includes/class-zinn-reseller-admin-ui.php:1096
+#: includes/class-zinn-reseller-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "Կարգավորումները պահպանված են:"
 
-#: includes/class-zinn-reseller-admin-ui.php:1143
+#: includes/class-zinn-reseller-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "Այս հավելվածի բոլոր կարգավորումները վերադարձվել են լռելյայն վիճակի:"
 
-#: includes/class-zinn-reseller-admin-ui.php:1186
+#: includes/class-zinn-reseller-admin-ui.php:1281
 msgid "Done."
 msgstr "Պատրաստ է:"
 
-#: includes/class-zinn-reseller-admin-ui.php:1190
+#: includes/class-zinn-reseller-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "Այդ գործողությունը հասանելի չէ:"
 
-#: includes/class-zinn-reseller-admin-ui.php:1257
+#: includes/class-zinn-reseller-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "Այդ ֆայլը չհաջողվեց կարդալ: Ընտրեք Zinn® փլագինից արտահանված կարգավորումների ֆայլ:"
 
-#: includes/class-zinn-reseller-admin-ui.php:1265
+#: includes/class-zinn-reseller-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "Այդ ֆայլը չափազանց մեծ է կարգավորումների արտահանում լինելու համար։"
 
-#: includes/class-zinn-reseller-admin-ui.php:1278
+#: includes/class-zinn-reseller-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "Այդ ֆայլը Zinn®-ի կարգավորումների արտահանում չէ:"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1286
+#: includes/class-zinn-reseller-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Այդ ֆայլն արտահանվել է այլ փլագինից (%s), ուստի այն այստեղ ներմուծելը կպահպանի կարգավորումներ, որոնք այս փլագինը չի հասկանում:"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1316
+#: includes/class-zinn-reseller-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -785,8 +785,8 @@ msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude և ChatGPT. փոխարենը մուտք գործեք"
 
 #: includes/mcp-kit/class-server.php:343
-msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
-msgstr "Ավելացրեք կապի հասցեն որպես հատուկ միակցիչ Claude-ում կամ որպես հավելված ChatGPT-ի մշակողի ռեժիմում: Նրանք բացում են այս կայքը, որպեսզի կարողանաք հաստատել դրանք. պատճենելու գաղտնաբառ չկա:"
+msgid "Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy."
+msgstr "Ավելացրեք միացման հասցեն որպես անհատական միակցիչ Claude-ում կամ որպես անհատական MCP սերվեր ChatGPT-ում: Նրանք բացում են այս կայքը, որպեսզի կարողանաք հաստատել դրանք. պատճենելու գաղտնաբառ չկա:"
 
 #: includes/mcp-kit/class-server.php:345
 msgid "AI apps connected to your account:"

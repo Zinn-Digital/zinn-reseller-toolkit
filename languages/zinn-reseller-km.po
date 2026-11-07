@@ -98,15 +98,15 @@ msgstr "ចុះឈ្មោះវា"
 msgid "Manage my hosting"
 msgstr "គ្រប់គ្រងសេវាបង្ហោះរបស់ខ្ញុំ"
 
-#: includes/class-panel-link.php:89
+#: includes/class-panel-link.php:91
 msgid "Please sign in first."
 msgstr "សូមចូលជាមុនសិន។"
 
-#: includes/class-panel-link.php:96
+#: includes/class-panel-link.php:98
 msgid "This account is not linked to a hosting service yet."
 msgstr "គណនីនេះមិនទាន់ត្រូវបានភ្ជាប់ទៅនឹងសេវាកម្មបង្ហោះនៅឡើយទេ។"
 
-#: includes/class-panel-link.php:106
+#: includes/class-panel-link.php:108
 msgid "The hosting platform did not return a sign-in link."
 msgstr "វេទិកាបង្ហោះមិនបានផ្ដល់ត្រឡប់មកវិញនូវតំណភ្ជាប់ចូលគណនីនោះទេ។"
 
@@ -406,121 +406,121 @@ msgstr "លុបជួរដេកនេះ"
 msgid "Remove"
 msgstr "យកចេញ"
 
-#: includes/class-zinn-reseller-admin-ui.php:280
-#: includes/class-zinn-reseller-admin-ui.php:281
-#: includes/class-zinn-reseller-admin-ui.php:421
+#: includes/class-zinn-reseller-admin-ui.php:297
+#: includes/class-zinn-reseller-admin-ui.php:298
+#: includes/class-zinn-reseller-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:294
+#: includes/class-zinn-reseller-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — ទិដ្ឋភាពទូទៅ"
 
-#: includes/class-zinn-reseller-admin-ui.php:295
+#: includes/class-zinn-reseller-admin-ui.php:312
 msgid "Overview"
 msgstr "ទិដ្ឋភាពទូទៅ"
 
-#: includes/class-zinn-reseller-admin-ui.php:383
+#: includes/class-zinn-reseller-admin-ui.php:400
 msgid "Copied"
 msgstr "បានចម្លង"
 
-#: includes/class-zinn-reseller-admin-ui.php:422
+#: includes/class-zinn-reseller-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "កម្មវិធីជំនួយ Zinn® នីមួយៗនៅលើគេហទំព័រនេះ និងថាតើវាកំពុងដំណើរការឬអត់។"
 
-#: includes/class-zinn-reseller-admin-ui.php:437
+#: includes/class-zinn-reseller-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "មិនទាមទារការតភ្ជាប់សម្រាប់កម្មវិធីជំនួយនេះទេ។"
 
-#: includes/class-zinn-reseller-admin-ui.php:442
+#: includes/class-zinn-reseller-admin-ui.php:460
 msgid "Open settings"
 msgstr "បើកការកំណត់"
 
-#: includes/class-zinn-reseller-admin-ui.php:770
-#: includes/class-zinn-reseller-admin-ui.php:1331
+#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "អ្នកមិនមានការអនុញ្ញាតដើម្បីផ្លាស់ប្តូរការកំណត់ទាំងនេះទេ។"
 
-#: includes/class-zinn-reseller-admin-ui.php:799
+#: includes/class-zinn-reseller-admin-ui.php:817
 msgid "Settings sections"
 msgstr "ផ្នែកការកំណត់"
 
-#: includes/class-zinn-reseller-admin-ui.php:871
+#: includes/class-zinn-reseller-admin-ui.php:889
 msgid "Support"
 msgstr "ជំនួយ"
 
-#: includes/class-zinn-reseller-admin-ui.php:929
+#: includes/class-zinn-reseller-admin-ui.php:955
 msgid "Save changes"
 msgstr "រក្សាទុកការផ្លាស់ប្តូរ"
 
-#: includes/class-zinn-reseller-admin-ui.php:958
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Tools"
 msgstr "ឧបករណ៍"
 
-#: includes/class-zinn-reseller-admin-ui.php:973
+#: includes/class-zinn-reseller-admin-ui.php:999
 msgid "Export settings"
 msgstr "នាំចេញការកំណត់"
 
-#: includes/class-zinn-reseller-admin-ui.php:976
+#: includes/class-zinn-reseller-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "កំណត់​ឡើងវិញ​ទៅលំនាំដើម"
 
-#: includes/class-zinn-reseller-admin-ui.php:977
+#: includes/class-zinn-reseller-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "សកម្មភាពនេះនឹងកំណត់រាល់ការកំណត់នៅលើកម្មវិធីជំនួយនេះឡើងវិញទៅលំនាំដើមរបស់វា។ បន្តដែរឬទេ?"
 
-#: includes/class-zinn-reseller-admin-ui.php:984
+#: includes/class-zinn-reseller-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "រោគវិនិច្ឆ័យសម្រាប់ការគាំទ្រ"
 
-#: includes/class-zinn-reseller-admin-ui.php:993
+#: includes/class-zinn-reseller-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "នាំចូលឯកសារការកំណត់"
 
-#: includes/class-zinn-reseller-admin-ui.php:995
+#: includes/class-zinn-reseller-admin-ui.php:1021
 msgid "Import"
 msgstr "នាំចូល"
 
-#: includes/class-zinn-reseller-admin-ui.php:997
+#: includes/class-zinn-reseller-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ឯកសារដែលបាននាំចេញមិនដែលផ្ទុកពាក្យសម្ងាត់ ថូខឹន ឬសោ API ឡើយ — អ្នកនឹងត្រូវបញ្ចូលពួកវាឡើងវិញនៅលើគេហទំព័រថ្មី។"
 
-#: includes/class-zinn-reseller-admin-ui.php:1096
+#: includes/class-zinn-reseller-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "បានរក្សាទុកការកំណត់។"
 
-#: includes/class-zinn-reseller-admin-ui.php:1143
+#: includes/class-zinn-reseller-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "រាល់ការកំណត់នៅលើកម្មវិធីជំនួយនេះត្រូវបានត្រឡប់ទៅលំនាំដើមវិញហើយ។"
 
-#: includes/class-zinn-reseller-admin-ui.php:1186
+#: includes/class-zinn-reseller-admin-ui.php:1281
 msgid "Done."
 msgstr "រួចរាល់។"
 
-#: includes/class-zinn-reseller-admin-ui.php:1190
+#: includes/class-zinn-reseller-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "សកម្មភាពនោះមិនមានទេ។"
 
-#: includes/class-zinn-reseller-admin-ui.php:1257
+#: includes/class-zinn-reseller-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "មិនអាចអានឯកសារនោះបានទេ។ សូមជ្រើសរើសឯកសារការកំណត់ដែលបាននាំចេញពីកម្មវិធីជំនួយ Zinn®។"
 
-#: includes/class-zinn-reseller-admin-ui.php:1265
+#: includes/class-zinn-reseller-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "ឯកសារនោះធំពេកមិនអាចជាការនាំចេញការកំណត់បានទេ។"
 
-#: includes/class-zinn-reseller-admin-ui.php:1278
+#: includes/class-zinn-reseller-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "ឯកសារនោះមិនមែនជាការនាំចេញការកំណត់របស់ Zinn® ទេ។"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1286
+#: includes/class-zinn-reseller-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ឯកសារនោះត្រូវបាននាំចេញពីកម្មវិធីជំនួយផ្សេង (%s) ដូច្នេះការនាំចូលវានៅទីនេះនឹងរក្សាទុកការកំណត់ដែលកម្មវិធីជំនួយនេះមិនយល់។"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1316
+#: includes/class-zinn-reseller-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -783,8 +783,8 @@ msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude និង ChatGPT៖ ចូលជំនួសវិញ"
 
 #: includes/mcp-kit/class-server.php:343
-msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
-msgstr "បន្ថែមអាសយដ្ឋានការតភ្ជាប់ជាឧបករណ៍ភ្ជាប់ផ្ទាល់ខ្លួននៅក្នុង Claude ឬជាកម្មវិធីនៅក្នុងទម្រង់អ្នកអភិវឌ្ឍន៍ ChatGPT។ ពួកវាបើកគេហទំព័រនេះ ដូច្នេះអ្នកអាចអនុម័តពួកវាបាន ដោយមិនមានពាក្យសម្ងាត់សម្រាប់ចម្លងឡើយ។"
+msgid "Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy."
+msgstr "បន្ថែមអាសយដ្ឋានការតភ្ជាប់ជាឧបករណ៍ភ្ជាប់ផ្ទាល់ខ្លួននៅក្នុង Claude ឬជាម៉ាស៊ីនបម្រើ MCP ផ្ទាល់ខ្លួននៅក្នុង ChatGPT។ ពួកវាបើកគេហទំព័រនេះ ដើម្បីឱ្យអ្នកអាចអនុម័តពួកវាបាន ដោយមិនចាំបាច់ចម្លងពាក្យសម្ងាត់ទេ។"
 
 #: includes/mcp-kit/class-server.php:345
 msgid "AI apps connected to your account:"

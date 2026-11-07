@@ -98,15 +98,15 @@ msgstr "இதைப் பதிவுசெய்யுங்கள்"
 msgid "Manage my hosting"
 msgstr "எனது ஹோஸ்டிங்கை நிர்வகிக்கவும்"
 
-#: includes/class-panel-link.php:89
+#: includes/class-panel-link.php:91
 msgid "Please sign in first."
 msgstr "முதலில் உள்நுழையவும்."
 
-#: includes/class-panel-link.php:96
+#: includes/class-panel-link.php:98
 msgid "This account is not linked to a hosting service yet."
 msgstr "இந்தக் கணக்கு இன்னும் எந்த ஹோஸ்டிங் சேவையுடனும் இணைக்கப்படவில்லை."
 
-#: includes/class-panel-link.php:106
+#: includes/class-panel-link.php:108
 msgid "The hosting platform did not return a sign-in link."
 msgstr "ஹோஸ்டிங் தளம் உள்நுழைவு இணைப்பை வழங்கவில்லை."
 
@@ -407,121 +407,121 @@ msgstr "இந்த வரிசையை நீக்குக"
 msgid "Remove"
 msgstr "நீக்கு"
 
-#: includes/class-zinn-reseller-admin-ui.php:280
-#: includes/class-zinn-reseller-admin-ui.php:281
-#: includes/class-zinn-reseller-admin-ui.php:421
+#: includes/class-zinn-reseller-admin-ui.php:297
+#: includes/class-zinn-reseller-admin-ui.php:298
+#: includes/class-zinn-reseller-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:294
+#: includes/class-zinn-reseller-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — மேலோட்டம்"
 
-#: includes/class-zinn-reseller-admin-ui.php:295
+#: includes/class-zinn-reseller-admin-ui.php:312
 msgid "Overview"
 msgstr "மேலோட்டம்"
 
-#: includes/class-zinn-reseller-admin-ui.php:383
+#: includes/class-zinn-reseller-admin-ui.php:400
 msgid "Copied"
 msgstr "நகலெடுக்கப்பட்டது"
 
-#: includes/class-zinn-reseller-admin-ui.php:422
+#: includes/class-zinn-reseller-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "இந்த தளத்தில் உள்ள ஒவ்வொரு Zinn® செருகுநிரலும், அது செயல்படுகிறதா இல்லையா என்பதும்."
 
-#: includes/class-zinn-reseller-admin-ui.php:437
+#: includes/class-zinn-reseller-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "இந்தச் செருகுநிரலுக்கு இணைப்பு எதுவும் தேவையில்லை."
 
-#: includes/class-zinn-reseller-admin-ui.php:442
+#: includes/class-zinn-reseller-admin-ui.php:460
 msgid "Open settings"
 msgstr "அமைப்புகளைத் திறக்கவும்"
 
-#: includes/class-zinn-reseller-admin-ui.php:770
-#: includes/class-zinn-reseller-admin-ui.php:1331
+#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "இந்த அமைப்புகளை மாற்றுவதற்கு உங்களுக்கு அனுமதி இல்லை."
 
-#: includes/class-zinn-reseller-admin-ui.php:799
+#: includes/class-zinn-reseller-admin-ui.php:817
 msgid "Settings sections"
 msgstr "அமைப்புகள் பிரிவுகள்"
 
-#: includes/class-zinn-reseller-admin-ui.php:871
+#: includes/class-zinn-reseller-admin-ui.php:889
 msgid "Support"
 msgstr "ஆதரவு"
 
-#: includes/class-zinn-reseller-admin-ui.php:929
+#: includes/class-zinn-reseller-admin-ui.php:955
 msgid "Save changes"
 msgstr "மாற்றங்களைச் சேமி"
 
-#: includes/class-zinn-reseller-admin-ui.php:958
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Tools"
 msgstr "கருவிகள்"
 
-#: includes/class-zinn-reseller-admin-ui.php:973
+#: includes/class-zinn-reseller-admin-ui.php:999
 msgid "Export settings"
 msgstr "அமைப்புகளை ஏற்றுமதி செய்"
 
-#: includes/class-zinn-reseller-admin-ui.php:976
+#: includes/class-zinn-reseller-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "இயல்புநிலைகளுக்கு மீட்டமைக்கவும்"
 
-#: includes/class-zinn-reseller-admin-ui.php:977
+#: includes/class-zinn-reseller-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "இது இந்த செருகுநிரலின் ஒவ்வொரு அமைப்பையும் அதன் இயல்புநிலைக்கு மீட்டமைக்கும். தொடர விரும்புகிறீர்களா?"
 
-#: includes/class-zinn-reseller-admin-ui.php:984
+#: includes/class-zinn-reseller-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "ஆதரவிற்கான நோயறிதல்"
 
-#: includes/class-zinn-reseller-admin-ui.php:993
+#: includes/class-zinn-reseller-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "அமைப்புகள் கோப்பை இறக்குமதி செய்"
 
-#: includes/class-zinn-reseller-admin-ui.php:995
+#: includes/class-zinn-reseller-admin-ui.php:1021
 msgid "Import"
 msgstr "இறக்குமதி செய்"
 
-#: includes/class-zinn-reseller-admin-ui.php:997
+#: includes/class-zinn-reseller-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ஏற்றுமதி செய்யப்பட்ட கோப்புகளில் கடவுச்சொற்கள், டோக்கன்கள் அல்லது API விசைகள் ஒருபோதும் இருக்காது — புதிய தளத்தில் அவற்றை மீண்டும் உள்ளிட வேண்டும்."
 
-#: includes/class-zinn-reseller-admin-ui.php:1096
+#: includes/class-zinn-reseller-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "அமைப்புகள் சேமிக்கப்பட்டன."
 
-#: includes/class-zinn-reseller-admin-ui.php:1143
+#: includes/class-zinn-reseller-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "இந்தச் செருகுநிரலின் ஒவ்வொரு அமைப்பும் அதன் இயல்புநிலைக்குத் திரும்பியது."
 
-#: includes/class-zinn-reseller-admin-ui.php:1186
+#: includes/class-zinn-reseller-admin-ui.php:1281
 msgid "Done."
 msgstr "முடிந்தது."
 
-#: includes/class-zinn-reseller-admin-ui.php:1190
+#: includes/class-zinn-reseller-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "அந்தச் செயல்பாடு கிடைக்கவில்லை."
 
-#: includes/class-zinn-reseller-admin-ui.php:1257
+#: includes/class-zinn-reseller-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "அந்தக் கோப்பைப் படிக்க முடியவில்லை. Zinn® செருகுநிரலிலிருந்து ஏற்றுமதி செய்யப்பட்ட அமைப்புகள் கோப்பைத் தேர்ந்தெடுக்கவும்."
 
-#: includes/class-zinn-reseller-admin-ui.php:1265
+#: includes/class-zinn-reseller-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "அந்தக் கோப்பு அமைப்புகளின் ஏற்றுமதியாக இருக்க முடியாத அளவுக்குப் பெரியதாக உள்ளது."
 
-#: includes/class-zinn-reseller-admin-ui.php:1278
+#: includes/class-zinn-reseller-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "அந்தக் கோப்பு Zinn® அமைப்புகள் ஏற்றுமதி அல்ல."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1286
+#: includes/class-zinn-reseller-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "அந்தக் கோப்பு வேறு செருகுநிரலிலிருந்து (%s) ஏற்றுமதி செய்யப்பட்டது, எனவே அதை இங்கே இறக்குமதி செய்தால் இந்தச் செருகுநிரலால் புரிந்துகொள்ள முடியாத அமைப்புகள் சேமிக்கப்படும்."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1316
+#: includes/class-zinn-reseller-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -785,8 +785,8 @@ msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude மற்றும் ChatGPT: பதிலாக உள்நுழையவும்"
 
 #: includes/mcp-kit/class-server.php:343
-msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
-msgstr "இணைப்பு முகவரியை Claude இல் தனிப்பயன் இணைப்பியாக அல்லது ChatGPT டெவலப்பர் பயன்முறையில் ஒரு பயன்பாடாகச் சேர்க்கவும். நீங்கள் அவற்றை அங்கீகரிக்கும் வகையில் அவை இந்தத் தளத்தைத் திறக்கின்றன; நகலெடுக்க எந்தக் கடவுச்சொல்லும் இல்லை."
+msgid "Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy."
+msgstr "இணைப்பு முகவரியை Claude-ல் தனிப்பயன் இணைப்பியாக அல்லது ChatGPT-ல் தனிப்பயன் MCP சேவையகமாகச் சேர்க்கவும். நீங்கள் அவற்றை அங்கீகரிக்க அவை இந்தத் தளத்தைத் திறக்கும்; நகலெடுக்க கடவுச்சொல் எதுவும் இல்லை."
 
 #: includes/mcp-kit/class-server.php:345
 msgid "AI apps connected to your account:"

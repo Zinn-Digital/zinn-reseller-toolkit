@@ -98,15 +98,15 @@ msgstr "దీన్ని నమోదు చేయండి"
 msgid "Manage my hosting"
 msgstr "నా హోస్టింగ్‌ను నిర్వహించండి"
 
-#: includes/class-panel-link.php:89
+#: includes/class-panel-link.php:91
 msgid "Please sign in first."
 msgstr "దయచేసి ముందుగా సైన్ ఇన్ చేయండి."
 
-#: includes/class-panel-link.php:96
+#: includes/class-panel-link.php:98
 msgid "This account is not linked to a hosting service yet."
 msgstr "ఈ ఖాతా ఇంకా ఏ హోస్టింగ్ సేవకు లింక్ చేయబడలేదు."
 
-#: includes/class-panel-link.php:106
+#: includes/class-panel-link.php:108
 msgid "The hosting platform did not return a sign-in link."
 msgstr "హోస్టింగ్ ప్లాట్‌ఫామ్ సైన్-ఇన్ లింక్‌ను అందించలేదు."
 
@@ -407,121 +407,121 @@ msgstr "ఈ అడ్డు వరుసను తీసివేయండి"
 msgid "Remove"
 msgstr "తీసివేయి"
 
-#: includes/class-zinn-reseller-admin-ui.php:280
-#: includes/class-zinn-reseller-admin-ui.php:281
-#: includes/class-zinn-reseller-admin-ui.php:421
+#: includes/class-zinn-reseller-admin-ui.php:297
+#: includes/class-zinn-reseller-admin-ui.php:298
+#: includes/class-zinn-reseller-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:294
+#: includes/class-zinn-reseller-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — స్థూలదృష్టి"
 
-#: includes/class-zinn-reseller-admin-ui.php:295
+#: includes/class-zinn-reseller-admin-ui.php:312
 msgid "Overview"
 msgstr "అవలోకనం"
 
-#: includes/class-zinn-reseller-admin-ui.php:383
+#: includes/class-zinn-reseller-admin-ui.php:400
 msgid "Copied"
 msgstr "కాపీ చేయబడింది"
 
-#: includes/class-zinn-reseller-admin-ui.php:422
+#: includes/class-zinn-reseller-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "ఈ సైట్‌లోని ప్రతి Zinn® ప్లగిన్, మరియు అది పని చేస్తుందో లేదో."
 
-#: includes/class-zinn-reseller-admin-ui.php:437
+#: includes/class-zinn-reseller-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "ఈ ప్లగిన్ కోసం ఎలాంటి కనెక్షన్ అవసరం లేదు."
 
-#: includes/class-zinn-reseller-admin-ui.php:442
+#: includes/class-zinn-reseller-admin-ui.php:460
 msgid "Open settings"
 msgstr "సెట్టింగులను తెరవండి"
 
-#: includes/class-zinn-reseller-admin-ui.php:770
-#: includes/class-zinn-reseller-admin-ui.php:1331
+#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "ఈ సెట్టింగ్‌లను మార్చడానికి మీకు అనుమతి లేదు."
 
-#: includes/class-zinn-reseller-admin-ui.php:799
+#: includes/class-zinn-reseller-admin-ui.php:817
 msgid "Settings sections"
 msgstr "సెట్టింగ్‌ల విభాగాలు"
 
-#: includes/class-zinn-reseller-admin-ui.php:871
+#: includes/class-zinn-reseller-admin-ui.php:889
 msgid "Support"
 msgstr "మద్దతు"
 
-#: includes/class-zinn-reseller-admin-ui.php:929
+#: includes/class-zinn-reseller-admin-ui.php:955
 msgid "Save changes"
 msgstr "మార్పులను భద్రపరచండి"
 
-#: includes/class-zinn-reseller-admin-ui.php:958
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Tools"
 msgstr "పనిముట్లు"
 
-#: includes/class-zinn-reseller-admin-ui.php:973
+#: includes/class-zinn-reseller-admin-ui.php:999
 msgid "Export settings"
 msgstr "సెట్టింగ్‌లను ఎగుమతి చేయండి"
 
-#: includes/class-zinn-reseller-admin-ui.php:976
+#: includes/class-zinn-reseller-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "డిఫాల్ట్‌లకు రీసెట్ చేయండి"
 
-#: includes/class-zinn-reseller-admin-ui.php:977
+#: includes/class-zinn-reseller-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "ఇది ఈ ప్లగిన్‌లోని ప్రతి సెట్టింగ్‌ను దాని డిఫాల్ట్‌కు మారుస్తుంది. కొనసాగించాలా?"
 
-#: includes/class-zinn-reseller-admin-ui.php:984
+#: includes/class-zinn-reseller-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "సహాయం కోసం విశ్లేషణలు"
 
-#: includes/class-zinn-reseller-admin-ui.php:993
+#: includes/class-zinn-reseller-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "అమరికల ఫైల్‌ను దిగుమతి చేయండి"
 
-#: includes/class-zinn-reseller-admin-ui.php:995
+#: includes/class-zinn-reseller-admin-ui.php:1021
 msgid "Import"
 msgstr "దిగుమతి చేయండి"
 
-#: includes/class-zinn-reseller-admin-ui.php:997
+#: includes/class-zinn-reseller-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ఎగుమతి చేసిన ఫైల్‌లలో పాస్‌వర్డ్‌లు, టోకెన్‌లు లేదా API కీలు ఎప్పటికీ ఉండవు — మీరు వాటిని కొత్త సైట్‌లో మళ్లీ నమోదు చేయాల్సి ఉంటుంది."
 
-#: includes/class-zinn-reseller-admin-ui.php:1096
+#: includes/class-zinn-reseller-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "అమరికలు భద్రపరచబడ్డాయి."
 
-#: includes/class-zinn-reseller-admin-ui.php:1143
+#: includes/class-zinn-reseller-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "ఈ ప్లగిన్‌లోని ప్రతి సెట్టింగ్ దాని డిఫాల్ట్‌కు తిరిగి వచ్చింది."
 
-#: includes/class-zinn-reseller-admin-ui.php:1186
+#: includes/class-zinn-reseller-admin-ui.php:1281
 msgid "Done."
 msgstr "పూర్తయింది."
 
-#: includes/class-zinn-reseller-admin-ui.php:1190
+#: includes/class-zinn-reseller-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "ఆ చర్య అందుబాటులో లేదు."
 
-#: includes/class-zinn-reseller-admin-ui.php:1257
+#: includes/class-zinn-reseller-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "ఆ ఫైల్ చదవడానికి వీలుకాలేదు. Zinn® ప్లగిన్ నుండి ఎగుమతి చేయబడిన సెట్టింగ్‌ల ఫైల్‌ను ఎంచుకోండి."
 
-#: includes/class-zinn-reseller-admin-ui.php:1265
+#: includes/class-zinn-reseller-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "ఆ ఫైల్ సెట్టింగ్‌ల ఎగుమతిగా ఉండటానికి చాలా పెద్దదిగా ఉంది."
 
-#: includes/class-zinn-reseller-admin-ui.php:1278
+#: includes/class-zinn-reseller-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "ఆ ఫైల్ Zinn® సెట్టింగ్‌ల ఎగుమతి కాదు."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1286
+#: includes/class-zinn-reseller-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ఆ ఫైల్ వేరొక ప్లగిన్ (%s) నుండి ఎగుమతి చేయబడింది, కాబట్టి దానిని ఇక్కడ దిగుమతి చేయడం వల్ల ఈ ప్లగిన్‌కు అర్థం కాని సెట్టింగ్‌లు నిల్వ చేయబడతాయి."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1316
+#: includes/class-zinn-reseller-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -785,8 +785,8 @@ msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude మరియు ChatGPT: బదులుగా సైన్ ఇన్ చేయండి"
 
 #: includes/mcp-kit/class-server.php:343
-msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
-msgstr "కనెక్షన్ చిరునామాను Claude లో అనుకూల కనెక్టర్‌గా లేదా ChatGPT డెవలపర్ మోడ్‌లో యాప్‌గా జోడించండి. మీరు వాటిని ఆమోదించడానికి అవి ఈ సైట్‌ను తెరుస్తాయి; కాపీ చేయడానికి పాస్‌వర్డ్ ఏదీ లేదు."
+msgid "Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy."
+msgstr "కనెక్షన్ చిరునామాను Claudeలో కస్టమ్ కనెక్టర్‌గా లేదా ChatGPTలో కస్టమ్ MCP సర్వర్‌గా జోడించండి. మీరు వాటిని ఆమోదించడానికి అవి ఈ సైట్‌ను తెరుస్తాయి; కాపీ చేయడానికి పాస్‌వర్డ్ ఏదీ లేదు."
 
 #: includes/mcp-kit/class-server.php:345
 msgid "AI apps connected to your account:"

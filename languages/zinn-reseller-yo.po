@@ -98,15 +98,15 @@ msgstr "Forukọsilẹ rẹ"
 msgid "Manage my hosting"
 msgstr "Ṣakoso iṣakale mi"
 
-#: includes/class-panel-link.php:89
+#: includes/class-panel-link.php:91
 msgid "Please sign in first."
 msgstr "Jọ̀wọ́ wọlé ná."
 
-#: includes/class-panel-link.php:96
+#: includes/class-panel-link.php:98
 msgid "This account is not linked to a hosting service yet."
 msgstr "Akiifọwọsi yii ko ti sopọ mọ iṣẹ igbalejo kan sibẹsibẹ."
 
-#: includes/class-panel-link.php:106
+#: includes/class-panel-link.php:108
 msgid "The hosting platform did not return a sign-in link."
 msgstr "Pẹpẹ ìgbàlejò náà kò da ọ̀nà ìsopọ̀ ìwọlé padà."
 
@@ -406,121 +406,121 @@ msgstr "Yọ ìlà yìí kúrò"
 msgid "Remove"
 msgstr "Yọ kúrò"
 
-#: includes/class-zinn-reseller-admin-ui.php:280
-#: includes/class-zinn-reseller-admin-ui.php:281
-#: includes/class-zinn-reseller-admin-ui.php:421
+#: includes/class-zinn-reseller-admin-ui.php:297
+#: includes/class-zinn-reseller-admin-ui.php:298
+#: includes/class-zinn-reseller-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-reseller-admin-ui.php:294
+#: includes/class-zinn-reseller-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — àkópọ̀"
 
-#: includes/class-zinn-reseller-admin-ui.php:295
+#: includes/class-zinn-reseller-admin-ui.php:312
 msgid "Overview"
 msgstr "Akopọ"
 
-#: includes/class-zinn-reseller-admin-ui.php:383
+#: includes/class-zinn-reseller-admin-ui.php:400
 msgid "Copied"
 msgstr "Ti daakọ"
 
-#: includes/class-zinn-reseller-admin-ui.php:422
+#: includes/class-zinn-reseller-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Gbogbo ohun-itanna Zinn® lori aaye yii, ati boya o n ṣiṣẹ."
 
-#: includes/class-zinn-reseller-admin-ui.php:437
+#: includes/class-zinn-reseller-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "Kò sí àsopọ̀ tí a nílò fún àfikún yìí."
 
-#: includes/class-zinn-reseller-admin-ui.php:442
+#: includes/class-zinn-reseller-admin-ui.php:460
 msgid "Open settings"
 msgstr "Ṣí àwọn ètò"
 
-#: includes/class-zinn-reseller-admin-ui.php:770
-#: includes/class-zinn-reseller-admin-ui.php:1331
+#: includes/class-zinn-reseller-admin-ui.php:788
+#: includes/class-zinn-reseller-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "O ko ni aṣẹ lati yi awọn eto wọnyi pada."
 
-#: includes/class-zinn-reseller-admin-ui.php:799
+#: includes/class-zinn-reseller-admin-ui.php:817
 msgid "Settings sections"
 msgstr "Àwọn abala ètò"
 
-#: includes/class-zinn-reseller-admin-ui.php:871
+#: includes/class-zinn-reseller-admin-ui.php:889
 msgid "Support"
 msgstr "Atilẹyin"
 
-#: includes/class-zinn-reseller-admin-ui.php:929
+#: includes/class-zinn-reseller-admin-ui.php:955
 msgid "Save changes"
 msgstr "Fi àwọn àyípadà pamọ́"
 
-#: includes/class-zinn-reseller-admin-ui.php:958
+#: includes/class-zinn-reseller-admin-ui.php:984
 msgid "Tools"
 msgstr "Àwọn irinṣẹ́"
 
-#: includes/class-zinn-reseller-admin-ui.php:973
+#: includes/class-zinn-reseller-admin-ui.php:999
 msgid "Export settings"
 msgstr "Gbe àwọn ètò jáde"
 
-#: includes/class-zinn-reseller-admin-ui.php:976
+#: includes/class-zinn-reseller-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "Tunto si aiyipada"
 
-#: includes/class-zinn-reseller-admin-ui.php:977
+#: includes/class-zinn-reseller-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Èyí yóò mú gbogbo ètò lórí àfikún yìí padà sí ti àkọ́kọ́ rẹ̀. Ṣé kí a tẹ̀síwájú?"
 
-#: includes/class-zinn-reseller-admin-ui.php:984
+#: includes/class-zinn-reseller-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "Awọn iwadii fun atilẹyin"
 
-#: includes/class-zinn-reseller-admin-ui.php:993
+#: includes/class-zinn-reseller-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "Kó fáìlì ètò wọlé"
 
-#: includes/class-zinn-reseller-admin-ui.php:995
+#: includes/class-zinn-reseller-admin-ui.php:1021
 msgid "Import"
 msgstr "Kowọle"
 
-#: includes/class-zinn-reseller-admin-ui.php:997
+#: includes/class-zinn-reseller-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Awọn faili ti a firanṣẹ si okeere ko ni awọn ọrọ igbaniwọle, awọn àmì tabi awọn kọkọrọ API rara — iwọ yoo nilo lati tẹ wọn sii lẹẹkansi lori aaye tuntun naa."
 
-#: includes/class-zinn-reseller-admin-ui.php:1096
+#: includes/class-zinn-reseller-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "A ti fi àwọn ètò pamọ́."
 
-#: includes/class-zinn-reseller-admin-ui.php:1143
+#: includes/class-zinn-reseller-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "Gbogbo ètò lórí àtúnṣe-àfikún yìí ti padà sí àbùdá rẹ̀."
 
-#: includes/class-zinn-reseller-admin-ui.php:1186
+#: includes/class-zinn-reseller-admin-ui.php:1281
 msgid "Done."
 msgstr "Ti parí."
 
-#: includes/class-zinn-reseller-admin-ui.php:1190
+#: includes/class-zinn-reseller-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "Igbese yẹn ko si."
 
-#: includes/class-zinn-reseller-admin-ui.php:1257
+#: includes/class-zinn-reseller-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "A kò lè ka fáìlì yẹn. Yan fáìlì ètò tí a gbà jáde láti inú àfikún Zinn®."
 
-#: includes/class-zinn-reseller-admin-ui.php:1265
+#: includes/class-zinn-reseller-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "Fáìlì yẹn tóbi jù láti jẹ́ ìmúwọlé ètò."
 
-#: includes/class-zinn-reseller-admin-ui.php:1278
+#: includes/class-zinn-reseller-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "Fáìlì yẹn kìí ṣe ìmúkúrò ètò Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-reseller-admin-ui.php:1286
+#: includes/class-zinn-reseller-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "A ṣe àgbéwọle fáìlì yẹn láti inú àfikún mìíràn (%s), nítorí náà mímú wọlé síhìn-ín yóò fi àwọn ètò tí àfikún yìí kò lóye pamọ́."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-reseller-admin-ui.php:1316
+#: includes/class-zinn-reseller-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -783,8 +783,8 @@ msgid "Claude and ChatGPT: sign in instead"
 msgstr "Claude ati ChatGPT: wọle dipo"
 
 #: includes/mcp-kit/class-server.php:343
-msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
-msgstr "Ṣafikun àdírẹ́sì ìsopọ̀ gẹ́gẹ́ bí asopọ̀ àṣà ní Claude, tàbí gẹ́gẹ́ bí àpù ní ipò olùgbédide ti ChatGPT. Wọ́n ń ṣí ojúlé wẹ́ẹ̀bù yìí kí ẹ lè fọwọ́sí wọn; kò sí ọ̀rọ̀ìgbaniwọlé láti ṣe ẹ̀dà rẹ̀."
+msgid "Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy."
+msgstr "Ṣafikun àdírẹ́sì ìsopọ̀ gẹ́gẹ́ bí asopọ̀ àṣà nínú Claude, tàbí gẹ́gẹ́ bí ẹ̀rọ olupin MCP àṣà nínú ChatGPT. Wọ́n máa ṣí ojúlé wẹ́ẹ̀bù yìí kí ẹ lè fọwọ́ sí wọn; kò sí ọ̀rọ̀ aṣínà láti ṣẹ̀dà."
 
 #: includes/mcp-kit/class-server.php:345
 msgid "AI apps connected to your account:"
