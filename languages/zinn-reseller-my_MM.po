@@ -623,47 +623,57 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "အစီရင်ခံစာ ငြင်းပယ်ခံရသည် (HTTP %d)။ အထက်တွင် ၎င်းကို ကူးယူပြီး ထိုနံပါတ်ကို ကိုးကား၍ လက်မှတ်ဖွင့်ပါ။"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:349
-#: includes/class-zinn-reseller-promo.php:407
+#: includes/class-zinn-reseller-promo.php:363
+#: includes/class-zinn-reseller-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — လမ်းညွှန်များနှင့် ဝန်ဆောင်မှုများ"
 
-#: includes/class-zinn-reseller-promo.php:364
+#: includes/class-zinn-reseller-promo.php:378
 msgid "User guides"
 msgstr "အသုံးပြုသူလမ်းညွှန်များ"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:414
+#: includes/class-zinn-reseller-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s အသုံးပြုသူလမ်းညွှန်ကို ဖတ်ပါ"
 
-#: includes/class-zinn-reseller-promo.php:422
+#: includes/class-zinn-reseller-promo.php:436
 msgid "Hide this"
 msgstr "ဒါကို ဝှက်ထားပါ"
 
-#: includes/class-zinn-reseller-promo.php:535
+#: includes/class-zinn-reseller-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro အသင်းဝင်ခြင်း- Pro ပလပ်အင်တိုင်း၊ လိုင်စင်တစ်ခုတည်း"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-reseller-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Page Builder Sandwich၊ Tranzly၊ Zinn® SEO၊ Zinn® Cache နှင့် Zinn® Backups တို့၏ Pro ဗားရှင်းများနှင့် နောက်ထပ် ကျွန်ုပ်တို့ ဖြန့်ချိမည့် Pro ပလပ်အင်တိုင်းကို တစ်နှစ်လျှင် %s မှ စတင်ရရှိနိုင်ပါသည်။ ဒုတိယအသင်းဝင်မှုတွင် Zinn® Chat Pro ပါဝင်လာပါမည်။"
+
+#: includes/class-zinn-reseller-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress အတွက် Zinn® ဟိုစတင်း"
 
-#: includes/class-zinn-reseller-promo.php:536
+#: includes/class-zinn-reseller-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed၊ နေ့စဉ် အရန်သိမ်းဆည်းမှုများ၊ အခမဲ့ ရွှေ့ပြောင်းခြင်းနှင့် ဆိုက်တစ်ခုထက်ပို၍ စီမံလည်ပတ်သူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်နေရာတစ်ခု။"
 
-#: includes/class-zinn-reseller-promo.php:542
+#: includes/class-zinn-reseller-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Zinn® စျေးကွက်"
 
-#: includes/class-zinn-reseller-promo.php:543
+#: includes/class-zinn-reseller-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "နှစ်ဖက်စလုံး ကျေနပ်သည်အထိ ငွေကို လုံခြုံစွာ ထိန်းသိမ်းထားပြီး နာမည်ရပြီးသား ဝဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်နေရာချထားမှုများကို ရောင်းဝယ်ဖောက်ကားပါ။"
 
-#: includes/class-zinn-reseller-promo.php:590
+#: includes/class-zinn-reseller-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ဤလုပ်ငန်းဖြင့် အသက်မွေးဝမ်းကျောင်းပြုသူများကို ငှားရမ်းပါ"
 
-#: includes/class-zinn-reseller-promo.php:591
+#: includes/class-zinn-reseller-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ အလွတ်တန်းဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဆော့ဖ်ဝဲရေးသားသူများနှင့် SEOs များထံမှ အဆင်သင့်ပြုလုပ်ထားသော ဝန်ဆောင်မှုပေါင်း ၁၀,၀၀၀ ကျော်ကို ကြည့်ရှုပါ၊ သို့မဟုတ် ပရောဂျက်တစ်ခု တင်ပြီး သူတို့အား လေလံဆွဲစေပါ။"
 

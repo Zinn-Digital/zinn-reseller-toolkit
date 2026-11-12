@@ -625,47 +625,57 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "Hesabat rədd edildi (HTTP %d). Yuxarıdan kopyalayın və həmin nömrəni qeyd edərək sorğu açın."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:349
-#: includes/class-zinn-reseller-promo.php:407
+#: includes/class-zinn-reseller-promo.php:363
+#: includes/class-zinn-reseller-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — bələdçilər və xidmətlər"
 
-#: includes/class-zinn-reseller-promo.php:364
+#: includes/class-zinn-reseller-promo.php:378
 msgid "User guides"
 msgstr "İstifadəçi təlimatları"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:414
+#: includes/class-zinn-reseller-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s istifadəçi təlimatını oxuyun"
 
-#: includes/class-zinn-reseller-promo.php:422
+#: includes/class-zinn-reseller-promo.php:436
 msgid "Hide this"
 msgstr "Bunu gizlədin"
 
-#: includes/class-zinn-reseller-promo.php:535
+#: includes/class-zinn-reseller-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro Üzvülüyü: hər Pro qoşma, bir lisenziya"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-reseller-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache və Zinn® Backups plaginlərinin Pro versiyaları və bundan sonra təqdim edəcəyimiz hər bir Pro plagini, ildə %s-dən başlayaraq. İkinci üzvlük Zinn® Chat Pro əlavə edir."
+
+#: includes/class-zinn-reseller-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress üçün Zinn® hostinqi"
 
-#: includes/class-zinn-reseller-promo.php:536
+#: includes/class-zinn-reseller-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, gündəlik nüsxələmə, pulsuz köçürmə və birdən çox sayt idarə edənlər üçün hazırlanmış idarəetmə paneli."
 
-#: includes/class-zinn-reseller-promo.php:542
+#: includes/class-zinn-reseller-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Zinn® bazarı"
 
-#: includes/class-zinn-reseller-promo.php:543
+#: includes/class-zinn-reseller-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Hər iki tərəf razı qalana qədər vəsait təhlükəsiz saxlanılmaqla, mövcud saytları, domenləri və keçid yerləşdirmələrini alın və satın."
 
-#: includes/class-zinn-reseller-promo.php:590
+#: includes/class-zinn-reseller-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — bu işi peşəkar kimi görən insanları işə götürün"
 
-#: includes/class-zinn-reseller-promo.php:591
+#: includes/class-zinn-reseller-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Qlobal frilans bazarımız: yazıçılar, dizaynerlər, tərtibatçılar və SEO mütəxəssislərindən 10 000-dən çox hazır xidmətə nəzər salın və ya layihə yerləşdirərək onların təklif verməsinə imkan yaradın."
 

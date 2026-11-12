@@ -625,47 +625,57 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "Tinanggihan ang ulat (HTTP %d). Kopyahin ito sa itaas at magbukas ng ticket, na binabanggit ang numerong iyon."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-reseller-promo.php:349
-#: includes/class-zinn-reseller-promo.php:407
+#: includes/class-zinn-reseller-promo.php:363
+#: includes/class-zinn-reseller-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — mga gabay at serbisyo"
 
-#: includes/class-zinn-reseller-promo.php:364
+#: includes/class-zinn-reseller-promo.php:378
 msgid "User guides"
 msgstr "Mga gabay ng user"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-reseller-promo.php:414
+#: includes/class-zinn-reseller-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Basahin ang gabay sa gumagamit ng %s"
 
-#: includes/class-zinn-reseller-promo.php:422
+#: includes/class-zinn-reseller-promo.php:436
 msgid "Hide this"
 msgstr "Itago ito"
 
-#: includes/class-zinn-reseller-promo.php:535
+#: includes/class-zinn-reseller-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro Membership: bawat Pro plugin, isang lisensya"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-reseller-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Ang mga Pro na bersyon ng Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache, at Zinn® Backups, at bawat Pro plugin na ilalabas namin sa hinaharap, mula %s bawat taon. Ang ikalawang membership ay nagdaragdag ng Zinn® Chat Pro."
+
+#: includes/class-zinn-reseller-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn® hosting para sa WordPress"
 
-#: includes/class-zinn-reseller-promo.php:536
+#: includes/class-zinn-reseller-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, mga pang-araw-araw na backup, libreng paglipat, at isang control panel na binuo para sa mga taong nagpapatakbo ng higit sa isang site."
 
-#: includes/class-zinn-reseller-promo.php:542
+#: includes/class-zinn-reseller-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Ang marketplace ng Zinn®"
 
-#: includes/class-zinn-reseller-promo.php:543
+#: includes/class-zinn-reseller-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Bumili at magbenta ng mga naitatag nang site, domain, at placement ng link, kung saan ligtas na hawak ang pera hanggang sa maging masaya ang magkabilang panig."
 
-#: includes/class-zinn-reseller-promo.php:590
+#: includes/class-zinn-reseller-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — kumuha ng mga taong ito ang ikinabubuhay"
 
-#: includes/class-zinn-reseller-promo.php:591
+#: includes/class-zinn-reseller-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ang aming pambuong-mundong freelance marketplace: mag-browse sa mahigit 10,000 handang serbisyo mula sa mga manunulat, designer, developer, at SEO specialist, o mag-post ng proyekto at hayaan silang mag-bid."
 

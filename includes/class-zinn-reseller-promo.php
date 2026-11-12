@@ -146,6 +146,20 @@ final class Zinn_Reseller_Promo {
 	public const DEFAULT_HOSTING_URL = 'https://zinndigital.com/hosting';
 
 	/**
+	 * Where the Zinn® Pro Membership offer links: the page that explains both memberships (with
+	 * and without Zinn® Chat Pro) and opens their checkouts (owner 2026-11-11, idea 4).
+	 */
+	public const MEMBERSHIP_URL = 'https://zinndigital.com/pro-membership';
+
+	/**
+	 * The membership's lowest yearly price, e.g. `$149`. DERIVED by `wp/bin/build-promo.php` from
+	 * the Personal plan of `membership` in `wp/freemius-plans.json`, the file the store is checked
+	 * against (`scripts/wp-freemius-plans.py --check`), so a price change re-renders every copy and
+	 * `build-promo.php --check` fails until it does. Never typed here.
+	 */
+	public const MEMBERSHIP_FROM = '$149';
+
+	/**
 	 * Whether a `ZINN_RESELLER_PROMO` value turns the panel off. Pure.
 	 *
 	 * ⛔ Only an explicit off value counts (false, 0, "0", "false", "off", "no"). Undefined or
@@ -527,7 +541,20 @@ final class Zinn_Reseller_Promo {
 	 * @return void
 	 */
 	private static function render_offers(): void {
-		$offers = array();
+		// ⭐ The Zinn® Pro Membership leads (owner 2026-11-11: "really push it"): one licence for
+		// every Zinn® Pro plugin, including the ones released later. Shown to everyone, hosted or
+		// not; the panel's own "Hide this" still removes it.
+		$offers = array(
+			array(
+				'url'   => self::MEMBERSHIP_URL,
+				'title' => __( 'Zinn® Pro Membership: every Pro plugin, one licence', 'zinn-reseller' ),
+				'body'  => sprintf(
+					/* translators: %s: the lowest yearly price with its currency sign, e.g. "$149". */
+					__( 'The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro.', 'zinn-reseller' ),
+					self::MEMBERSHIP_FROM
+				),
+			),
+		);
 
 		if ( ! self::is_zinn_hosted() ) {
 			$offers[] = array(
