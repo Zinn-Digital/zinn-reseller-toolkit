@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.23
+Stable tag: 1.7.24
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,10 @@ Sell hosting as an ordinary WooCommerce product, take the money through your own
 * A returning customer's second order lands under the **same** client account, not a second one.
 * Every call is idempotent, so a gateway retry or an order moved from Processing to Completed can never provision twice.
 * If provisioning fails, the reason is written to the order as a note **and** shown in a panel on the order screen — never only to a PHP log where nobody would find it.
+
+= Source code =
+
+The complete source is public at https://github.com/Zinn-Digital/zinn-reseller-toolkit
 
 == Installation ==
 
@@ -166,6 +170,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.24 =
+* The readme links the plugin's public source repository.
 
 = 1.7.23 =
 * Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.
