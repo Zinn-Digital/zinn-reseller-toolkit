@@ -333,51 +333,101 @@ msgstr "Nepřipojeno: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Připojeno. Váš prodejní program je %s."
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Není nakonfigurován žádný klíč API pro Zinn®, proto nebylo nic zřízeno."
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Tato objednávka nezahrnovala název domény, takže nebylo co zřídit."
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "Hostingová platforma nevrátila žádný web."
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Hosting Zinn® byl zřízen pro %1$s (služba %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "Hostingová platforma nepřiřadila klientovi balíček „%s“, takže nebyl vytvořen žádný web."
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "Hostingová platforma nevrátila žádný web."
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "Tento hostingový produkt nemá žádný balíček Zinn®, proto nebylo nic zřízeno a nebyl vytvořen žádný účet klienta. V záložce Inventář u produktu vyberte balíček a poté objednávku přepněte zpět na Zpracovává se."
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "Hostingová platforma nevrátila účet klienta."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Hosting Zinn® NEBYL zřízen: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Produktová řada Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Produktová řada Zinn®, která se má zřídit při zakoupení tohoto produktu. Ponechte prázdné, pokud chcete použít výchozí hodnotu z nastavení pluginu."
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Zinn® stack"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "Na čem je web postaven. WordPress, pokud nezvolíte jinak."
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "Vyžadováno pro hosting: balíček, do kterého je váš klient zařazen. Určuje jeho kvóty a položku na vašem velkoobchodním vyúčtování. Objednávka produktu bez balíčku se nezřídí."
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Balíček Zinn® (kód tarifu)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Balíček Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "Vyberte balíček"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Fakturační interval Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "Jak často se řádek klienta zobrazuje na vašem velkoobchodním výpisu."
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "Měsíčně"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "Roční"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Hosting Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "ID služby"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "Pro tuto objednávku nebylo nic zřízeno."
 
@@ -909,41 +959,45 @@ msgid "Create a site for a client"
 msgstr "Vytvořte web pro klienta"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Vytvoří hostovaný web pro jednoho z vašich klientů (client_id, product_line, primary_domain). Je účtován na váš účet podle tarifu klienta, stejně jako z vašeho obchodu."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "Vytvoří hostovaný web pro jednoho z vašich klientů (client_id, product_line, primary_domain; stack_type, výchozí wordpress). Klient musí mít nejprve tarif (set-client-plan): web se zaregistruje k tomuto tarifu a naúčtuje se na váš účet v rámci něj, jako by byl z vašeho obchodu."
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "Pozastavit web klienta"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Pozastaví web klienta z důvodu nezaplacení (site_id; reason: Vaše vlastní poznámka, která se klientovi nikdy nezobrazí). Web přestane fungovat, dokud nebude pozastavení zrušeno."
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "Obnovit web klienta"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Zruší pozastavení z důvodu neplacení, takže web bude opět funkční (site_id)."
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "Přečtěte si nastavení sady Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Vrací nastavení tohoto pluginu (adresu API, tarif, který používají nové objednávky, které funkce jsou zapnuté). Klíč API se nikdy nevrací, pouze informace o tom, zda je nějaký uložen."
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Změnit nastavení Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Změní nastavení, která odešlete (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), a zbývající zachová. Klíč API a adresa se mění pouze na obrazovce."
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Nejprve přidejte svůj API klíč prodejce Zinn Digital® na obrazovce Reseller Toolkit."
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "Tento klient zatím nemá přiřazen žádný plán. Přiřaďte mu plán pomocí set-client-plan a poté web vytvořte."

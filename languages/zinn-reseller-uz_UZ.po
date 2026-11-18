@@ -331,51 +331,101 @@ msgstr "Ulanmagan: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Ulandi. Sizning dilerlik dasturingiz: %s."
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Hech qanday Zinn® API kaliti sozlanmagan, shuning uchun hech narsa taqdim etilmadi."
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Ushbu buyurtmada domen nomi kiritilmagan, shuning uchun taqdim qilinadigan hech narsa yoʻq edi."
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "Xosting platformasi hech qanday saytni qaytarmadi."
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "%1$s uchun Zinn® xostingi taqdim etildi (xizmat %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "Xosting platformasi mijozni \"%s\" paketiga joylashtirmadi, shuning uchun hech qanday sayt yaratilmadi."
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "Xosting platformasi hech qanday saytni qaytarmadi."
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "Ushbu hosting mahsulotida Zinn® toʻplami yoʻq, shuning uchun hech narsa taqdim etilmadi va mijoz hisobi yaratilmadi. Mahsulotning Zaxira yorligʻidan toʻplamni tanlang, soʻngra buyurtmani yana Qayta ishlanmoqda holatiga oʻrnating."
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "Xosting platformasi mijoz hisobini qaytarmadi."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® xostingi ajratilmadi: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Zinn® mahsulotlar qatori"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Ushbu mahsulot sotib olinganda taqdim etiladigan Zinn® mahsulotlar liniyasi. Plagin sozlamalaridagi birlamchi qiymatdan foydalanish uchun boʻsh qoldiring."
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Zinn® steki"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "Sayt nima asosida qurilgani. Agar siz boshqasini tanlamasangiz, WordPress."
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "Xosting uchun talab qilinadi: mijozingiz biriktirilgan paket. U ularning limitlarini hamda ulgurji hisob-kitobingizdagi qatorni belgilaydi. Paketsiz mahsulot uchun berilgan buyurtma faollashtirilmaydi."
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Zinn® paketi (reja kodi)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Zinn® paketi"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "Paketni tanlang"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Zinn® hisob-kitob oraligʻi"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "Mijozning qatori ulgurji hisob-kitobingizda qanchalik tez-tez paydo boʻlishi."
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "Oylik"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "Yillik"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Zinn® xostingi"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "Xizmat identifikatori"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "Ushbu buyurtma uchun hech narsa taqdim etilmagan."
 
@@ -905,41 +955,45 @@ msgid "Create a site for a client"
 msgstr "Mijoz uchun sayt yarating"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Mijozlaringizdan biri uchun xosting qilingan sayt yaratadi (client_id, product_line, primary_domain). Bu sizning do‘koningizdan bo‘lgani kabi, mijozning tarifi bo‘yicha hisobingizga yoziladi."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "Mijozlaringizdan biri uchun joylashtirilgan sayt yaratadi (client_id, product_line, primary_domain; stack_type, standart wordpress). Mijoz avval tarif rejasida boʻlishi kerak (set-client-plan): sayt ushbu reja boʻyicha roʻyxatga olinadi va sizning doʻkoningizdan olingandek, uning narxi boʻyicha hisobingizga yoziladi."
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "Mijoz saytini toʻxtatib turish"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Mijoz saytini toʻlov amalga oshirilmaganligi sababli toʻxtatib turish holatiga oʻtkazadi (site_id; sabab: oʻzingizning eslatmangiz, mijozga hech qachon koʻrsatilmaydi). Sayt faoliyati toʻxtatilish bekor qilinmaguncha toʻxtatiladi."
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "Mijoz saytining bloklanishini bekor qilish"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "To‘lov qilinmaganligi sababli qo‘yilgan cheklovni olib tashlaydi, natijada sayt yana ishlay boshlaydi (site_id)."
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "Reseller Toolkit sozlamalarini oʻqish"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Ushbu plagin sozlamalarini qaytaradi (API manzili, yangi buyurtmalar foydalanadigan tarif rejasi, qaysi funksiyalar yoqilganligi). API kaliti hech qachon qaytarilmaydi, faqat uning saqlangan yoki saqlanmaganligi koʻrsatiladi."
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Reseller Toolkit sozlamalarini oʻzgartiring"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Siz yuborgan sozlamalarni (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) oʻzgartiradi va qolganlarini saqlab qoladi. API kaliti va manzil faqat ekranda oʻzgartiriladi."
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Avval Reseller Toolkit ekranida Zinn Digital® sotuvchi API kalitingizni qoʻshing."
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "Ushbu mijoz hali hech qanday rejada emas. Uni set-client-plan orqali rejaga biriktiring, so‘ngra saytni yarating."

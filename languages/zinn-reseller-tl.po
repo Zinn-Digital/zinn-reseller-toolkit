@@ -331,51 +331,101 @@ msgstr "Hindi nakakonekta: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Konektado na. Ang iyong reseller program ay %s."
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Walang naka-configure na Zinn® API key, kaya walang na-provision."
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Hindi kasama sa order na ito ang domain name, kaya walang maia-provision."
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "Hindi nagbalik ng site ang hosting platform."
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Na-provision ang Zinn® hosting para sa %1$s (serbisyo %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "Hindi inilagay ng hosting platform ang kliyente sa package na \"%s\", kaya walang nagawang site."
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "Hindi nagbalik ng site ang hosting platform."
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "Ang produktong hosting na ito ay walang Zinn® package, kaya walang na-provision at walang nalikhang account ng kliyente. Pumili ng package sa tab na Imbentaryo ng produkto, pagkatapos ay ibalik ang order sa Pinoproseso."
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "Hindi nagbalik ng account ng kliyente ang hosting platform."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "HINDI na-provision ang Zinn® hosting: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Linya ng produkto ng Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Ang linya ng produkto ng Zinn® na ipagkakaloob kapag binili ang produktong ito. Iwanang blangko upang gamitin ang default mula sa mga setting ng plugin."
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Zinn® stack"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "Kung saan binuo ang site. WordPress maliban kung pipiliin mo ang iba."
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "Kinakailangan para sa hosting: ang package kung saan nakalagay ang iyong client. Itinatakda nito ang kanilang mga allowance at ang linya sa iyong wholesale statement. Ang isang order para sa produkto na walang package ay hindi ipinagkakaloob."
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Package ng Zinn® (code ng plano)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Pakete ng Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "Pumili ng package"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Interbal ng pagsingil sa Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "Kung gaano kadalas lumalabas ang linya ng kliyente sa iyong pakyawang pahayag."
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "Buwan-buwan"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "Taunan"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Zinn® hosting"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "ID ng serbisyo"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "Walang na-provision para sa order na ito."
 
@@ -905,41 +955,45 @@ msgid "Create a site for a client"
 msgstr "Gumawa ng site para sa isang kliyente"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Lumilikha ng isang hosted site para sa isa sa iyong mga kliyente (client_id, product_line, primary_domain). Sisingilin ito sa iyong account batay sa plano ng kliyente, tulad ng mula sa iyong tindahan."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "Gumagawa ng naka-host na site para sa isa sa iyong mga kliyente (client_id, product_line, primary_domain; stack_type, default na wordpress). Dapat munang nasa isang plano ang kliyente (set-client-plan): naitatala ang site laban sa planong iyon at sinisingil sa iyong account doon, tulad ng mula sa iyong shop."
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "Isuspinde ang site ng kliyente"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Inilalagay ang site ng kliyente sa hold dahil sa hindi pagbabayad (site_id; reason: sarili mong tala, hindi kailanman ipinapakita sa kliyente). Hihinto ang site sa pagseserbisyo hanggang sa maalis ang pagkakasuspinde nito."
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "I-unsuspend ang site ng isang kliyente"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Tinatanggal ang hold dahil sa hindi pagbabayad, upang muling gumana ang site (site_id)."
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "Basahin ang mga setting ng Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Ibinabalik ang mga setting ng plugin na ito (ang address ng API, ang planong ginagamit ng mga bagong order, kung aling mga feature ang naka-on). Hindi kailanman ibinabalik ang API key, kundi kung may naka-save lamang."
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Baguhin ang mga setting ng Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Binabago ang mga setting na ipapadala mo (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) at pinapanatili ang iba pa. Ang API key at address ay binabago sa screen lamang."
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Idagdag muna ang iyong Zinn Digital® reseller API key sa screen ng Reseller Toolkit."
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "Wala pa sa isang plano ang kliyenteng ito. Ilagay sila sa isa gamit ang set-client-plan, pagkatapos ay gawin ang site."

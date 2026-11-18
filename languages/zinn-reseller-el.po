@@ -331,51 +331,101 @@ msgstr "Δεν έχει συνδεθεί: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Συνδέθηκε. Το πρόγραμμα μεταπωλητή σας είναι %s."
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Δεν έχει διαμορφωθεί κλειδί API Zinn®, επομένως δεν δεσμεύτηκε τίποτα."
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Αυτή η παραγγελία δεν περιλάμβανε όνομα τομέα, επομένως δεν υπήρχε τίποτα προς εκχώρηση."
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "Η πλατφόρμα φιλοξενίας δεν επέστρεψε κάποιον ιστότοπο."
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Η φιλοξενία Zinn® παραχωρήθηκε για το %1$s (υπηρεσία %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "Η πλατφόρμα φιλοξενίας δεν τοποθέτησε τον πελάτη στο πακέτο «%s», επομένως δεν δημιουργήθηκε κανένας ιστότοπος."
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "Η πλατφόρμα φιλοξενίας δεν επέστρεψε κάποιον ιστότοπο."
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "Αυτό το προϊόν φιλοξενίας δεν διαθέτει πακέτο Zinn®, επομένως δεν παραχωρήθηκε τίποτα και δεν δημιουργήθηκε λογαριασμός πελάτη. Επιλέξτε ένα πακέτο στην καρτέλα Απόθεμα του προϊόντος και, στη συνέχεια, επαναφέρετε την παραγγελία σε Επεξεργασία."
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "Η πλατφόρμα φιλοξενίας δεν επέστρεψε λογαριασμό πελάτη."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Η φιλοξενία Zinn® ΔΕΝ διαμορφώθηκε: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Σειρά προϊόντων Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Η σειρά προϊόντων Zinn® που θα εκχωρηθεί όταν αγοράζεται αυτό το προϊόν. Αφήστε το κενό για να χρησιμοποιήσετε την προεπιλογή από τις ρυθμίσεις του πρόσθετου."
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Στοίβα Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "Η βάση στην οποία έχει δημιουργηθεί ο ιστότοπος. WordPress, εκτός αν επιλέξετε διαφορετικά."
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "Απαιτείται για τη φιλοξενία: το πακέτο στο οποίο εντάσσεται ο πελάτης σας. Καθορίζει τα όριά του και τη γραμμή στην κατάσταση χονδρικής σας. Μια παραγγελία για προϊόν χωρίς πακέτο δεν εκτελείται."
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Πακέτο Zinn® (κωδικός προγράμματος)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Πακέτο Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "Επιλέξτε πακέτο"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Διάστημα τιμολόγησης Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "Πόσο συχνά εμφανίζεται η γραμμή του πελάτη στη δήλωση χονδρικής σας."
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "Μηνιαία"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "Ετήσια"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Φιλοξενία Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "Αναγνωριστικό υπηρεσίας"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "Δεν διαμορφώθηκε τίποτα για αυτήν την παραγγελία."
 
@@ -905,41 +955,45 @@ msgid "Create a site for a client"
 msgstr "Δημιουργήστε έναν ιστότοπο για έναν πελάτη"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Δημιουργεί έναν φιλοξενούμενο ιστότοπο για έναν από τους πελάτες σας (client_id, product_line, primary_domain). Χρεώνεται στον λογαριασμό σας βάσει του προγράμματος του πελάτη, όπως από το κατάστημά σας."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "Δημιουργεί έναν φιλοξενούμενο ιστότοπο για έναν από τους πελάτες σας (client_id, product_line, primary_domain· stack_type, προεπιλογή wordpress). Ο πελάτης πρέπει πρώτα να βρίσκεται σε ένα πρόγραμμα (set-client-plan): ο ιστότοπος καταγράφεται σε αυτό το πρόγραμμα και χρεώνεται στον λογαριασμό σας σε αυτό, όπως από το κατάστημά σας."
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "Αναστολή ιστοτόπου πελάτη"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Θέτει τον ιστότοπο ενός πελάτη σε αναστολή λόγω μη πληρωμής (site_id· reason: η δική σας σημείωση, δεν εμφανίζεται ποτέ στον πελάτη). Ο ιστότοπος σταματά να λειτουργεί μέχρι να αρθεί η αναστολή του."
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "Άρετε την αναστολή του ιστοτόπου ενός πελάτη"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Άρει την αναστολή λόγω μη πληρωμής, ώστε ο ιστότοπος να λειτουργεί ξανά (site_id)."
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "Διαβάστε τις ρυθμίσεις του Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Επιστρέφει τις ρυθμίσεις αυτού του προσθέτου (τη διεύθυνση API, το πλάνο που χρησιμοποιούν οι νέες παραγγελίες, ποιες λειτουργίες είναι ενεργοποιημένες). Το κλειδί API δεν επιστρέφεται ποτέ, παρά μόνο το εάν είναι αποθηκευμένο κάποιο."
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Αλλάξτε τις ρυθμίσεις του Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Αλλάζει τις ρυθμίσεις που στέλνετε (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) και διατηρεί τις υπόλοιπες. Το κλειδί API και η διεύθυνση αλλάζουν μόνο στην οθόνη."
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Προσθέστε πρώτα το κλειδί API μεταπωλητή Zinn Digital® στην οθόνη Reseller Toolkit."
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "Αυτός ο πελάτης δεν έχει ενταχθεί σε κάποιο πλάνο ακόμα. Προσθέστε τον σε ένα πλάνο με το set-client-plan, και στη συνέχεια δημιουργήστε τον ιστότοπο."

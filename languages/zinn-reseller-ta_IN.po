@@ -331,51 +331,101 @@ msgstr "இணைக்கப்படவில்லை: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "இணைக்கப்பட்டது. உங்கள் மறுவிற்பனையாளர் திட்டம் %s."
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Zinn® API விசை எதுவும் உள்ளமைக்கப்படவில்லை, எனவே எதுவும் வழங்கப்படவில்லை."
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "இந்த ஆர்டரில் டொமைன் பெயர் எதுவும் சேர்க்கப்படவில்லை, எனவே வழங்குவதற்கு எதுவும் இல்லை."
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "ஹோஸ்டிங் தளம் எந்த தளத்தையும் வழங்கவில்லை."
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "%1$s க்கான Zinn® ஹோஸ்டிங் வழங்கப்பட்டது (சேவை %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "ஹோஸ்டிங் தளம் கிளையண்ட்டை \"%s\" தொகுப்பில் சேர்க்கவில்லை, எனவே எந்த தளமும் உருவாக்கப்படவில்லை."
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "ஹோஸ்டிங் தளம் எந்த தளத்தையும் வழங்கவில்லை."
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "இந்த ஹோஸ்டிங் தயாரிப்பில் Zinn® தொகுப்பு எதுவும் இல்லை, எனவே எதுவும் வழங்கப்படவில்லை மற்றும் கிளையன்ட் கணக்கு எதுவும் உருவாக்கப்படவில்லை. தயாரிப்பின் இருப்புத் தாவலில் ஒரு தொகுப்பைத் தேர்வுசெய்து, பின்னர் ஆர்டரை மீண்டும் செயலாக்கத்தில் என அமைக்கவும்."
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "ஹோஸ்டிங் தளம் வாடிக்கையாளர் கணக்கை வழங்கவில்லை."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® ஹோஸ்டிங் வழங்கப்படவில்லை: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Zinn® தயாரிப்பு வரிசை"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "இந்தத் தயாரிப்பு வாங்கப்படும்போது வழங்க வேண்டிய Zinn® தயாரிப்பு வரிசை. செருகுநிரல் அமைப்புகளில் இருந்து இயல்புநிலையைப் பயன்படுத்த காலியாக விடவும்."
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Zinn® ஸ்டாக்"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "தளம் எதன் மீது கட்டமைக்கப்பட்டுள்ளது. நீங்கள் வேறுவிதமாக தேர்வு செய்யாவிட்டால் WordPress."
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "ஹோஸ்டிங்கிற்குத் தேவை: உங்கள் வாடிக்கையாளர் சேர்க்கப்படும் தொகுப்பு. இது அவர்களின் ஒதுக்கீடுகளையும் உங்கள் மொத்த விற்பனை அறிக்கையிலுள்ள வரியையும் அமைக்கிறது. தொகுப்பு இல்லாத தயாரிப்புக்கான ஆர்டர் செயல்படுத்தப்படாது."
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Zinn® தொகுப்பு (திட்டக் குறியீடு)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Zinn® தொகுப்பு"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "ஒரு தொகுப்பைத் தேர்ந்தெடுக்கவும்"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Zinn® பில்லிங் இடைவெளி"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "உங்கள் மொத்த விற்பனை அறிக்கையில் வாடிக்கையாளரின் வரி எவ்வளவு அடிக்கடி தோன்றும்."
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "மாதந்தோறும்"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "ஆண்டுதோறும்"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Zinn® ஹோஸ்டிங்"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "சேவை ஐடி"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "இந்த ஆர்டருக்கு எதுவும் ஒதுக்கப்படவில்லை."
 
@@ -905,41 +955,45 @@ msgid "Create a site for a client"
 msgstr "ஒரு வாடிக்கையாளருக்கு ஒரு தளத்தை உருவாக்கவும்"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "உங்கள் வாடிக்கையாளர்களில் ஒருவருக்கு ஹோஸ்ட் செய்யப்பட்ட தளத்தை உருவாக்குகிறது (client_id, product_line, primary_domain). உங்கள் கடையிலிருந்து வாங்குவது போல் வாடிக்கையாளரின் திட்டத்தின்படி இது உங்கள் கணக்கிற்கு பில் செய்யப்படும்."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "உங்கள் வாடிக்கையாளர்களில் ஒருவருக்கு ஹோஸ்ட் செய்யப்பட்ட தளத்தை உருவாக்குகிறது (client_id, product_line, primary_domain; stack_type, இயல்புநிலை wordpress). வாடிக்கையாளர் முதலில் ஒரு திட்டத்தில் இருக்க வேண்டும் (set-client-plan): தளம் அந்த திட்டத்தின் கீழ் பதிவு செய்யப்பட்டு, உங்கள் கடையிலிருந்து பெறப்பட்டதைப் போல அதன் கட்டணத்தில் உங்கள் கணக்கில் பில் செய்யப்படும்."
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "வாடிக்கையாளரின் தளத்தை இடைநிறுத்துக"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "வாடிக்கையாளரின் தளத்தை கட்டணம் செலுத்தாத காரணத்தினால் நிறுத்தி வைக்கிறது (site_id; reason: உங்கள் சொந்தக் குறிப்பு, வாடிக்கையாளருக்கு ஒருபோதும் காட்டப்படாது). இடைநிறுத்தம் நீக்கப்படும் வரை தளம் சேவையை நிறுத்துகிறது."
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "வாடிக்கையாளரின் தளத்தின் இடைநிறுத்தத்தை நீக்குங்கள்"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "பணம் செலுத்தாததற்கான தடையை நீக்குகிறது, இதனால் தளம் மீண்டும் செயல்படும் (site_id)."
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "மறுவிற்பனையாளர் கருவித்தொகுப்பு அமைப்புகளைப் படியுங்கள்"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "இந்தச் செருகுநிரலின் அமைப்புகளை (API முகவரி, புதிய ஆர்டர்கள் பயன்படுத்தும் திட்டம், எந்த அம்சங்கள் இயக்கத்தில் உள்ளன என்பதை) வழங்குகிறது. API விசை ஒருபோதும் வழங்கப்படாது, ஒன்று சேமிக்கப்பட்டுள்ளதா என்பது மட்டுமே தெரிவிக்கப்படும்."
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Reseller Toolkit அமைப்புகளை மாற்றவும்"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "நீங்கள் அனுப்பும் அமைப்புகளை (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) மாற்றி, மீதமுள்ளவற்றை அப்படியே வைத்திருக்கும். API திறவுகோலும் முகவரியும் திரையில் மட்டுமே மாற்றப்படும்."
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "முதலில் Reseller Toolkit திரையில் உங்கள் Zinn Digital® மறுவிற்பனையாளர் API விசையைச் சேர்க்கவும்."
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "இந்த வாடிக்கையாளர் இன்னும் எந்தத் திட்டத்திலும் இல்லை. set-client-plan மூலம் அவர்களை ஒரு திட்டத்தில் சேர்க்கவும், பின்னர் தளத்தை உருவாக்கவும்."
