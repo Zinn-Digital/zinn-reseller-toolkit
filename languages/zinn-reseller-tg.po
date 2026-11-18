@@ -330,51 +330,101 @@ msgstr "Пайваст нашудааст: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Пайваст шуд. Барномаи бозфурӯшии шумо %s мебошад."
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Ягон калиди Zinn® API танзим нашудааст, бинобар ин чизе омода нашуд."
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Ин фармоиш номи доменро дар бар намегирифт, бинобар ин чизе барои фароҳамсозӣ набуд."
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "Платформаи хостинг ягон сомонаро барнагардонд."
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Хостинги Zinn® барои %1$s омода шуд (хизматрасонии %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "Платформаи хостинг муштариро ба бастаи «%s» нагузошт, бинобар ин ягон сомона сохта нашуд."
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "Платформаи хостинг ягон сомонаро барнагардонд."
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "Ин маҳсулоти ҳостинг бастаи Zinn® надорад, бинобар ин ҳеҷ чиз таъмин карда нашуд ва ҳисоби муштарӣ эҷод нашуд. Дар ҷадвали Анбори маҳсулот бастаеро интихоб кунед, сипас фармоишро дубора ба ҳолати Дар ҳоли коркард таъин намоед."
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "Платформаи хостинг ҳисоби муштариро баргардонида натавонист."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Хостинги Zinn® таъмин карда нашуд: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Хатти маҳсулоти Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Хатти маҳсулоти Zinn®, ки ҳангоми харидани ин маҳсулот бояд фароҳам оварда шавад. Барои истифодаи пешфарз аз танзимоти плагин онро холӣ гузоред."
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Стеки Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "Он чизе, ки сайт бар он сохта шудааст. WordPress, магар ин ки шумо чизи дигареро интихоб кунед."
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "Барои ҳостинг ҳатмист: бастае, ки муштарии Шумо ба он ҷойгир карда мешавад. Он меъёрҳои онҳо ва сатрро дар ҳисоботи яклухти Шумо муайян мекунад. Фармоиш барои маҳсулоти бе баста таъмин карда намешавад."
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Бастаи Zinn® (рамзи тариф)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Бастаи Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "Бастаро интихоб кунед"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Фосилаи ҳисоббаробаркунии Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "Сатри муштарӣ чанд вақт дар ҳисоботи яклухти шумо пайдо мешавад."
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "Моҳона"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "Солона"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Хостинги Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "Шиносаи хидмат"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "Барои ин фармоиш чизе фароҳам оварда нашудааст."
 
@@ -903,41 +953,45 @@ msgid "Create a site for a client"
 msgstr "Барои муштарӣ сомона эҷод кунед"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Барои яке аз муштариёни шумо сайти мизбонишуда эҷод мекунад (client_id, product_line, primary_domain). Он ба ҳисоби шумо аз рӯи нақшаи муштарӣ, ба монанди аз мағозаи шумо, ҳисоб карда мешавад."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "Барои яке аз муштариёни шумо сайти мизбоншуда эҷод мекунад (client_id, product_line, primary_domain; stack_type, пешфарз wordpress). Муштарӣ бояд аввал дорои нақша бошад (set-client-plan): сайт мувофиқи он нақша сабт мешавад ва тибқи нархи он ба ҳисоби шумо ҳисоб карда мешавад, ба мисли аз мағозаи шумо."
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "Муваққатан боздоштани сомонаи мизоҷ"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Сомонаи муштариро бо сабаби напардохтани маблағ боздошта менамояд (site_id; reason: ёддошти худи шумо, ҳеҷ гоҳ ба муштарӣ нишон дода намешавад). Сомона то бекор кардани боздошт хидматрасониро қатъ мекунад."
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "Боздоштани сомонаи муштариро бекор кунед"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Боздориро аз сабаби пардохт нашудан бекор мекунад, то ин ки сомона дубора кор кунад (site_id)."
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "Танзимоти Reseller Toolkit-ро бихонед"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Танзимоти ин васлкунакро (суроғаи API, нақшае, ки фармоишҳои нав истифода мебаранд, кадом хусусиятҳо фаъоланд) бармегардонад. Калиди API ҳеҷ гоҳ баргардонида намешавад, танҳо маълумот дар бораи маҳфуз будани он дода мешавад."
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Танзимоти Reseller Toolkit-ро иваз кунед"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Танзимоти фиристодаи шуморо (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) тағйир медиҳад ва боқимондаро нигоҳ медорад. Калиди API ва нишонӣ танҳо дар экран тағйир меёбанд."
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Аввал калиди API-и фурӯшандаи Zinn Digital®-и худро дар экрани Reseller Toolkit илова кунед."
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "Ин муштарӣ то ҳол дар ягон нақша нест. Ӯро бо истифода аз set-client-plan ба нақшае дохил кунед, сипас сайтро эҷод намоед."

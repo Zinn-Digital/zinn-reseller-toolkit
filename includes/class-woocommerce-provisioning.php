@@ -50,6 +50,26 @@ class WooCommerce_Provisioning {
 	public const ITEM_DOMAIN_META = 'zinn_domain';
 
 	/**
+	 * Product meta: the stack the site is built on (`stack_type`; default `wordpress`).
+	 */
+	public const STACK_META = '_zinn_reseller_stack_type';
+
+	/**
+	 * Product meta: the package (one of the reseller's plan codes) the client is put on.
+	 */
+	public const PACKAGE_META = '_zinn_reseller_package';
+
+	/**
+	 * Product meta: the interval of the client's wholesale line (`monthly` or `annual`).
+	 */
+	public const INTERVAL_META = '_zinn_reseller_interval';
+
+	/**
+	 * Stacks the platform provisions (`hosting.enums.OFFERED_STACK_TYPES`).
+	 */
+	public const STACKS = array( 'wordpress', 'woocommerce', 'php', 'static', 'node' );
+
+	/**
 	 * Wire the order hooks and the product field.
 	 *
 	 * @return void
@@ -102,9 +122,13 @@ class WooCommerce_Provisioning {
 			return;
 		}
 
-		$org_id = self::client_org( $order );
-		if ( '' === $org_id ) {
-			return; // `client_org` has already recorded why.
+		// ⛔ Checked BEFORE the client account is made (P7-202, owner answer A267): a client
+		// with no package can do nothing, so an order for a package-less product must not
+		// leave behind an account that looks provisioned. The shop owner reads why here.
+		$spec = self::product_spec( $line['item'], $line['product_line'] );
+		if ( '' === $spec['package'] ) {
+			self::fail( $order, self::no_package_message() );
+			return;
 		}
 
 		$domain = self::requested_domain( $order, $line );
@@ -116,27 +140,24 @@ class WooCommerce_Provisioning {
 			return;
 		}
 
-		$response = Client::post(
-			'/v1/sites',
-			array(
-				'org_id'         => $org_id,
-				'product_line'   => $line['product_line'],
-				'primary_domain' => $domain,
-				'name'           => $domain,
-			),
-			'wc-site-' . $order->get_id()
+		$org_id = self::client_org( $order );
+		if ( '' === $org_id ) {
+			return; // `client_org` has already recorded why.
+		}
+
+		$result = self::provision_requests(
+			$org_id,
+			$spec,
+			$domain,
+			(string) $order->get_id(),
+			array( Client::class, 'post' )
 		);
-		if ( is_wp_error( $response ) || empty( $response['id'] ) ) {
-			self::fail(
-				$order,
-				is_wp_error( $response )
-					? $response->get_error_message()
-					: __( 'The hosting platform did not return a site.', 'zinn-reseller' )
-			);
+		if ( isset( $result['error'] ) ) {
+			self::fail( $order, $result['error'] );
 			return;
 		}
 
-		$site_id = (string) $response['id'];
+		$site_id = $result['site_id'];
 		$order->update_meta_data( self::ORDER_SITE_META, $site_id );
 		$order->delete_meta_data( self::ORDER_ERROR_META );
 		$order->add_order_note(
@@ -155,6 +176,118 @@ class WooCommerce_Provisioning {
 		if ( $user_id > 0 ) {
 			Panel_Link::link( $user_id, $site_id );
 		}
+	}
+
+	/**
+	 * The two platform calls a paid hosting order makes, in their only safe order.
+	 *
+	 * ⛔⛔ PLAN FIRST, THEN SITE, exactly as the WHMCS module does (`zinn_clientPlan`). The
+	 * plan call puts the client on the reseller's package and returns the subscription the
+	 * site is recorded against: that is the line on the reseller's wholesale statement and
+	 * the client's allowances (D17700). A site created without it is unbilled and
+	 * allowance-less, so a failed plan call creates NO site. `stack_type` is mandatory: the
+	 * API refuses a create with neither it nor a blueprint (D17360).
+	 *
+	 * Public and transport-injected so the request bodies are pinned by a contract test
+	 * (`wp/tests/unit/ResellerToolkitProvisioningContractTest.php`).
+	 *
+	 * @param string                                                                      $org_id    Client organisation id.
+	 * @param array{product_line:string,stack_type:string,package:string,interval:string} $spec      What the product sells.
+	 * @param string                                                                      $domain    The site's hostname.
+	 * @param string                                                                      $order_key Stable per order, for the idempotency keys.
+	 * @param callable                                                                    $post      `Client::post`-shaped transport.
+	 * @return array{site_id:string}|array{error:string}
+	 */
+	public static function provision_requests( string $org_id, array $spec, string $domain, string $order_key, callable $post ): array {
+		$package = trim( (string) $spec['package'] );
+		if ( '' === $package ) {
+			return array( 'error' => self::no_package_message() );
+		}
+		$interval = in_array( $spec['interval'], array( 'monthly', 'annual' ), true ) ? $spec['interval'] : 'monthly';
+
+		$plan = $post(
+			'/v1/reseller/clients/' . rawurlencode( $org_id ) . '/plan',
+			array(
+				'plan_code' => $package,
+				'interval'  => $interval,
+			),
+			'wc-plan-' . $order_key
+		);
+		if ( is_wp_error( $plan ) ) {
+			return array( 'error' => $plan->get_error_message() );
+		}
+		$subscription_id = is_array( $plan ) ? trim( (string) ( $plan['subscription_id'] ?? '' ) ) : '';
+		if ( '' === $subscription_id ) {
+			return array(
+				'error' => sprintf(
+					/* translators: %s: the package (plan code) set on the product. */
+					__( 'The hosting platform did not put the client on package "%s", so no site was created.', 'zinn-reseller' ),
+					$package
+				),
+			);
+		}
+
+		$site = $post(
+			'/v1/sites',
+			self::site_body( $org_id, (string) $spec['product_line'], $domain, (string) $spec['stack_type'], $subscription_id ),
+			'wc-site-' . $order_key
+		);
+		if ( is_wp_error( $site ) ) {
+			return array( 'error' => $site->get_error_message() );
+		}
+		if ( ! is_array( $site ) || empty( $site['id'] ) ) {
+			return array( 'error' => __( 'The hosting platform did not return a site.', 'zinn-reseller' ) );
+		}
+		return array( 'site_id' => (string) $site['id'] );
+	}
+
+	/**
+	 * The `POST /v1/sites` body, shared with the AI action so the two can never drift.
+	 *
+	 * @param string $org_id          Client organisation id.
+	 * @param string $product_line    Zinn® product line.
+	 * @param string $domain          Hostname (lower-cased here).
+	 * @param string $stack           Stack; anything not offered becomes `wordpress`.
+	 * @param string $subscription_id The client's subscription from the plan call.
+	 * @return array<string,string>
+	 */
+	public static function site_body( string $org_id, string $product_line, string $domain, string $stack, string $subscription_id ): array {
+		$domain = strtolower( trim( $domain ) );
+		return array(
+			'org_id'          => $org_id,
+			'product_line'    => $product_line,
+			'primary_domain'  => $domain,
+			'name'            => $domain,
+			'stack_type'      => in_array( $stack, self::STACKS, true ) ? $stack : 'wordpress',
+			'subscription_id' => $subscription_id,
+		);
+	}
+
+	/**
+	 * What the product says to provision: line, stack, package and interval.
+	 *
+	 * @param \WC_Order_Item_Product $item         The hosting line.
+	 * @param string                 $product_line The resolved product line.
+	 * @return array{product_line:string,stack_type:string,package:string,interval:string}
+	 */
+	private static function product_spec( \WC_Order_Item_Product $item, string $product_line ): array {
+		$product = $item->get_product();
+		$meta    = static fn( string $key ): string => $product ? trim( (string) $product->get_meta( $key ) ) : '';
+		return array(
+			'product_line' => $product_line,
+			'stack_type'   => $meta( self::STACK_META ),
+			'package'      => $meta( self::PACKAGE_META ),
+			'interval'     => $meta( self::INTERVAL_META ),
+		);
+	}
+
+	/**
+	 * The plain reason an order for a product with no package was not provisioned.
+	 *
+	 * @return string
+	 */
+	private static function no_package_message(): string {
+		return __( 'This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product\'s Inventory tab, then set the order back to Processing.', 'zinn-reseller' );
 	}
 
 	/**
@@ -332,6 +465,81 @@ class WooCommerce_Provisioning {
 				'desc_tip'    => true,
 			)
 		);
+
+		$stacks = array();
+		foreach ( self::STACKS as $stack ) {
+			$stacks[ $stack ] = $stack;
+		}
+		woocommerce_wp_select(
+			array(
+				'id'          => self::STACK_META,
+				'label'       => __( 'Zinn® stack', 'zinn-reseller' ),
+				'description' => __( 'What the site is built on. WordPress unless you choose otherwise.', 'zinn-reseller' ),
+				'desc_tip'    => true,
+				'options'     => $stacks,
+			)
+		);
+
+		$packages = self::package_options();
+		$help     = __( 'Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned.', 'zinn-reseller' );
+		if ( array() === $packages ) {
+			// The price list could not be read (no key yet, or the platform unreachable):
+			// the code can still be typed, and the order path checks it.
+			woocommerce_wp_text_input(
+				array(
+					'id'          => self::PACKAGE_META,
+					'label'       => __( 'Zinn® package (plan code)', 'zinn-reseller' ),
+					'description' => $help,
+					'desc_tip'    => true,
+				)
+			);
+		} else {
+			woocommerce_wp_select(
+				array(
+					'id'          => self::PACKAGE_META,
+					'label'       => __( 'Zinn® package', 'zinn-reseller' ),
+					'description' => $help,
+					'desc_tip'    => true,
+					'options'     => array( '' => __( 'Choose a package', 'zinn-reseller' ) ) + $packages,
+				)
+			);
+		}
+
+		woocommerce_wp_select(
+			array(
+				'id'          => self::INTERVAL_META,
+				'label'       => __( 'Zinn® billing interval', 'zinn-reseller' ),
+				'description' => __( 'How often the client\'s line appears on your wholesale statement.', 'zinn-reseller' ),
+				'desc_tip'    => true,
+				'options'     => array(
+					'monthly' => __( 'Monthly', 'zinn-reseller' ),
+					'annual'  => __( 'Annual', 'zinn-reseller' ),
+				),
+			)
+		);
+	}
+
+	/**
+	 * The reseller's packages from `GET /v1/reseller/prices`, as `plan_code => plan_name`.
+	 *
+	 * @return array<string,string> Empty when the list cannot be read.
+	 */
+	private static function package_options(): array {
+		if ( ! Client::is_configured() ) {
+			return array();
+		}
+		$prices = Client::get( '/v1/reseller/prices' );
+		if ( is_wp_error( $prices ) || ! is_array( $prices['data'] ?? null ) ) {
+			return array();
+		}
+		$out = array();
+		foreach ( $prices['data'] as $row ) {
+			$code = is_array( $row ) ? (string) ( $row['plan_code'] ?? '' ) : '';
+			if ( '' !== $code ) {
+				$out[ $code ] = (string) ( $row['plan_name'] ?? $code );
+			}
+		}
+		return $out;
 	}
 
 	/**
@@ -353,6 +561,11 @@ class WooCommerce_Provisioning {
 			return;
 		}
 		$product->update_meta_data( self::PRODUCT_LINE_META, $value );
+		foreach ( array( self::STACK_META, self::PACKAGE_META, self::INTERVAL_META ) as $key ) {
+			// phpcs:ignore WordPress.Security.NonceVerification.Missing
+			$posted = isset( $_POST[ $key ] ) ? sanitize_text_field( wp_unslash( (string) $_POST[ $key ] ) ) : '';
+			$product->update_meta_data( $key, $posted );
+		}
 		$product->save();
 	}
 

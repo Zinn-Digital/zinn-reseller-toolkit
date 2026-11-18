@@ -58,7 +58,7 @@
     {
       "name": "zinn-reseller/create-site",
       "label": "Create a site for a client",
-      "description": "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop.",
+      "description": "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop.",
       "edition": "free",
       "capability": "manage_options",
       "annotations": {

@@ -331,51 +331,101 @@ msgstr "Ba a haɗa ba: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "An haɗa. Shirin dillalin ku shine %s."
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Ba a saita maɓallin API na Zinn® ba, don haka ba a samar da komai ba."
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Wannan oda ba ta haɗa da sunan yanki ba, don haka babu abin da za a tanada."
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "Dandalin karɓar baƙuncin bai dawo da shafi ba."
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "An samar da bakuncin Zinn® don %1$s (sabis %2$s)."
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "Dandalin karɓar baƙuncin bai saka abokin ciniki a kan kunshin \"%s\" ba, don haka ba a ƙirƙiri wani shafi ba."
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "Dandalin karɓar baƙuncin bai dawo da shafi ba."
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "Wannan samfurin karɓar baƙuncin ba shi da kunshin Zinn®, don haka ba a samar da komai ba kuma ba a ƙirƙiri asusun abokin ciniki ba. Zaɓi kunshi a shafin Samfura na Ƙididdiga, sannan mayar da odar zuwa Ana Aiki."
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "Dandalin karɓar baƙuncin bai dawo da asusun abokin ciniki ba."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Ba a samar da bakuncin Zinn® ba: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Layin samfur na Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Layin samfur na Zinn® da za a samar yayin da aka sayi wannan samfurin. Bar shi a sarari don amfani da wanda aka saba amfani da shi daga saitunan manhajar plugin."
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Tarin Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "Abin da aka gina rukunin yanar gizon a kai. WordPress sai dai idan ka zaɓi wani abu na daban."
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "Ana buƙata don hosting: kunshin da aka sanya abokin cinikinku a kai. Yana saita abubuwan da aka ba su da kuma layi a cikin bayanin kuɗin sari na ku. Ba a samar da oda don kayan da ba su da kunshi ba."
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Kunshin Zinn® (lambar tsari)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Kunshin Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "Zaɓi kunshin"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Tazarar biyan kuɗi ta Zinn®"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "Sau nawa layin abokin ciniki ke bayyana a cikin bayanin ku na sari."
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "Kowane wata"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "Na shekara"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Bakuncin Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "ID na sabis"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "Ba a samar da komai ba don wannan odar."
 
@@ -905,41 +955,45 @@ msgid "Create a site for a client"
 msgstr "Ƙirƙiri shafi don abokin ciniki"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "Yana ƙirƙirar rukunin yanar gizo da aka karɓi baƙuncinsa don ɗaya daga cikin abokan cinikinka (client_id, product_line, primary_domain). Ana lissafin kuɗinsa zuwa asusunka a kan tsarin abokin ciniki, kamar daga shagonka."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "Yana ƙirƙirar rukunin yanar gizo da aka karɓi baƙuncinsa don ɗaya daga cikin abokan cinikinka (client_id, product_line, primary_domain; stack_type, tsoho wordpress). Dole ne abokin ciniki ya kasance a kan tsari da farko (set-client-plan): ana yin rikodin rukunin yanar gizon daidai da wannan shirin kuma a caje shi zuwa asusunka a kansa, kamar daga shagonka."
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "Dakatar da shafin abokin ciniki"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Yana sanya shafin abokin ciniki a dakatarwa saboda rashin biyan kuɗi (site_id; reason: bayanin kanku, wanda ba za a taɓa nunawa abokin ciniki ba). Shafin zai daina aiki har sai an cire dakatarwar."
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "Ɗage dakatarwar shafin abokin ciniki"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Yana ɗage dakatarwar rashin biyan kuɗi, domin rukunin yanar gizon ya sake aiki (site_id)."
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "Karanta saitunan Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Yana mayar da saitunan wannan manhaja (adireshin API, tsarin da sabbin oda ke amfani da shi, fasalolin da ke kunne). Ba a taɓa mayar da maɓallin API ba, sai dai kawai idan an ajiye ɗaya."
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Sauya saitunan Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Yana canza saitunan da kuka aika (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) kuma yana adana sauran. Ana canza maɓallin API da adireshin a allon kawai."
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Da farko ka ƙara maɓallin API na dillali na Zinn Digital® a allon Reseller Toolkit."
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "Wannan abokin ciniki ba ya cikin wani shiri tukuna. Sanya su a cikin ɗaya ta amfani da set-client-plan, sannan ƙirƙiri shafin."

@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.24
+Stable tag: 1.7.25
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,7 @@ The sign-in link is minted **when the link is clicked**, not when the page is re
 Sell hosting as an ordinary WooCommerce product, take the money through your own gateway into your own account, and hosting is set up the moment the order is paid.
 
 * Set the Zinn® product line on the product's **Inventory** tab, or set one default for the whole shop in the plugin settings.
+* On the same tab choose the **package** (one of your plans: it sets the client's allowances and the line on your wholesale statement), the **stack** (WordPress unless you choose otherwise) and the **billing interval**. A product with no package is not provisioned, and the order note says why.
 * The customer's chosen hostname is read from the order item's `zinn_domain` meta — set it from your own domain field, or from the domain search above.
 * A returning customer's second order lands under the **same** client account, not a second one.
 * Every call is idempotent, so a gateway retry or an order moved from Processing to Completed can never provision twice.
@@ -58,7 +59,7 @@ The complete source is public at https://github.com/Zinn-Digital/zinn-reseller-t
 == Installation ==
 
 1. Install and activate the plugin.
-2. In your Zinn® dashboard, go to **Developer → API keys** and create a key. Give it only the permissions you need: `sites.create` and `org.read` for WooCommerce provisioning, `reseller.view` and `reseller.provision` for the panel link.
+2. In your Zinn® dashboard, go to **Developer → API keys** and create a key. Give it only the permissions you need: `sites.create`, `org.read`, `reseller.view` and `reseller.provision` for WooCommerce provisioning (the package list and putting the client on a package), `reseller.view` and `reseller.provision` for the panel link.
 3. In WordPress, go to **Zinn Digital® → Reseller Toolkit**, paste the key on the **Account** tab, and save.
 4. The status panel at the top of that screen tells you whether a key is set and which features are switched on.
 5. Switch on the modules you want on the **Features** tab.
@@ -82,9 +83,11 @@ for the Zinn® reseller API and requires a reseller account.
   authenticated) to check availability and price. **The search term is the visitor's input; no
   other visitor data, IP address or identifier is added by this plugin.**
 * **Programme and plan data.** `/v1/reseller/program` is read to render your plans and prices.
-* **Provisioning (when a WooCommerce order is paid).** Two requests, in order. The customer's
-  name and e-mail go to `/v1/orgs` so their hosting account can be created, and the ordered
-  plan and domain name then go to `/v1/sites` so the site itself can be provisioned. This is a
+* **Provisioning (when a WooCommerce order is paid).** Three requests, in order. The customer's
+  name and e-mail go to `/v1/orgs` so their hosting account can be created, the product's
+  package goes to `/v1/reseller/clients/<client-id>/plan` (the package list on the product screen
+  is read from `/v1/reseller/prices`), and the domain name and stack then
+  go to `/v1/sites` so the site itself can be provisioned. This is a
   transfer of your customer's personal data to Zinn Digital® as a processor, and you should
   reflect it in your own privacy policy.
 * **Client sign-in (when a signed-in customer presses "Open hosting panel").** This site asks
@@ -170,6 +173,11 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.25 =
+* WooCommerce hosting orders provision again. Each hosting product now has a stack (WordPress by default), a package and a billing interval. A paid order puts the client on the package first, then creates the site recorded against it, so it carries your wholesale statement line and the client's allowances.
+* A product with no package is not provisioned: the order note says why, and no client account is created.
+* The AI action create-site sends the stack and records the site against the client's plan; a client with no plan is told to set one first.
 
 = 1.7.24 =
 * The readme links the plugin's public source repository.

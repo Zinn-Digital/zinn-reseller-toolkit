@@ -197,7 +197,7 @@ final class Abilities {
 			),
 			'zinn-reseller/create-site'     => array(
 				__( 'Create a site for a client', 'zinn-reseller' ),
-				__( 'Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client\'s plan, as from your shop.', 'zinn-reseller' ),
+				__( 'Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop.', 'zinn-reseller' ),
 				$schema(
 					array(
 						'client_id'      => $id,
@@ -209,6 +209,10 @@ final class Abilities {
 							'type'      => 'string',
 							'minLength' => 3,
 							'maxLength' => 253,
+						),
+						'stack_type'     => array(
+							'type' => 'string',
+							'enum' => \Zinn\Reseller\WooCommerce_Provisioning::STACKS,
 						),
 					),
 					array( 'client_id', 'product_line', 'primary_domain' )
@@ -457,17 +461,47 @@ final class Abilities {
 	 * @return array<string, mixed>|\WP_Error
 	 */
 	public static function create_site( array $input ) {
-		$domain = strtolower( trim( (string) $input['primary_domain'] ) );
+		$error = self::unconnected();
+		if ( $error ) {
+			return $error;
+		}
+		// ⛔ P7-201/P7-202: the same body as a shop order, recorded against the client's
+		// plan. A client with no plan gets no site (owner answer A267): it would be unbilled
+		// and carry no allowances.
+		$plan = self::read( '/v1/reseller/clients/' . rawurlencode( (string) $input['client_id'] ) . '/plan' );
+		if ( is_wp_error( $plan ) ) {
+			return $plan;
+		}
+		$subscription_id = trim( (string) ( $plan['subscription_id'] ?? '' ) );
+		if ( '' === $subscription_id ) {
+			return new \WP_Error(
+				'zinn_reseller_no_plan',
+				__( 'This client is not on a plan yet. Put them on one with set-client-plan, then create the site.', 'zinn-reseller' )
+			);
+		}
+		$body = self::site_body( $input, $subscription_id );
 
 		return self::write(
 			'/v1/sites',
-			array(
-				'org_id'         => (string) $input['client_id'],
-				'product_line'   => (string) $input['product_line'],
-				'primary_domain' => $domain,
-				'name'           => $domain,
-			),
-			'mcp-site-' . md5( (string) $input['client_id'] . '|' . $domain )
+			$body,
+			'mcp-site-' . md5( (string) $input['client_id'] . '|' . $body['primary_domain'] )
+		);
+	}
+
+	/**
+	 * The `POST /v1/sites` body for the AI action: the shop order's own body builder.
+	 *
+	 * @param array<string, mixed> $input           Ability input.
+	 * @param string               $subscription_id The client's subscription.
+	 * @return array<string, string>
+	 */
+	public static function site_body( array $input, string $subscription_id ): array {
+		return \Zinn\Reseller\WooCommerce_Provisioning::site_body(
+			(string) $input['client_id'],
+			(string) $input['product_line'],
+			(string) $input['primary_domain'],
+			(string) ( $input['stack_type'] ?? '' ),
+			$subscription_id
 		);
 	}
 

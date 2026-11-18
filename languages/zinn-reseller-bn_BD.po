@@ -331,51 +331,101 @@ msgstr "সংযুক্ত নয়: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "সংযুক্ত হয়েছে। আপনার রিসেলার প্রোগ্রাম হলো %s।"
 
-#: includes/class-woocommerce-provisioning.php:101
+#: includes/class-woocommerce-provisioning.php:121
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "কোনো Zinn® API কী কনফিগার করা নেই, তাই কিছুই সংস্থান করা হয়নি।"
 
-#: includes/class-woocommerce-provisioning.php:114
+#: includes/class-woocommerce-provisioning.php:138
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "এই অর্ডারে কোনো ডোমেন নাম অন্তর্ভুক্ত ছিল না, তাই ব্যবস্থা করার মতো কিছু ছিল না।"
 
-#: includes/class-woocommerce-provisioning.php:134
-msgid "The hosting platform did not return a site."
-msgstr "হোস্টিং প্ল্যাটফর্ম কোনো সাইট ফেরত দেয়নি।"
-
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:145
+#: includes/class-woocommerce-provisioning.php:166
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "%1$s-এর জন্য Zinn® হোস্টিং প্রস্তুত করা হয়েছে (পরিষেবা %2$s)।"
 
-#: includes/class-woocommerce-provisioning.php:209
+#. translators: %s: the package (plan code) set on the product.
+#: includes/class-woocommerce-provisioning.php:224
+#, php-format
+msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
+msgstr "হোস্টিং প্ল্যাটফর্মটি গ্রাহককে \"%s\" প্যাকেজে রাখেনি, তাই কোনো সাইট তৈরি করা হয়নি।"
+
+#: includes/class-woocommerce-provisioning.php:239
+msgid "The hosting platform did not return a site."
+msgstr "হোস্টিং প্ল্যাটফর্ম কোনো সাইট ফেরত দেয়নি।"
+
+#: includes/class-woocommerce-provisioning.php:290
+msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
+msgstr "এই হোস্টিং পণ্যের কোনো Zinn® প্যাকেজ নেই, তাই কিছুই প্রস্তুত করা হয়নি এবং কোনো গ্রাহক অ্যাকাউন্ট তৈরি করা হয়নি। পণ্যের ইনভেন্টরি ট্যাবে একটি প্যাকেজ বেছে নিন, তারপর অর্ডারটি প্রক্রিয়াকরণ করা হচ্ছে-এ ফিরিয়ে দিন।"
+
+#: includes/class-woocommerce-provisioning.php:342
 msgid "The hosting platform did not return a client account."
 msgstr "হোস্টিং প্ল্যাটফর্ম কোনো ক্লায়েন্ট অ্যাকাউন্ট প্রদান করেনি।"
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:314
+#: includes/class-woocommerce-provisioning.php:447
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® হোস্টিং ব্যবস্থা করা যায়নি: %s"
 
-#: includes/class-woocommerce-provisioning.php:330
+#: includes/class-woocommerce-provisioning.php:463
 msgid "Zinn® product line"
 msgstr "Zinn® পণ্য লাইন"
 
-#: includes/class-woocommerce-provisioning.php:331
+#: includes/class-woocommerce-provisioning.php:464
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "এই পণ্যটি কেনা হলে যে Zinn® পণ্য লাইনটি প্রস্তুত করা হবে। প্লাগইন সেটিংসের পূর্বনির্ধারিত মান ব্যবহার করতে এটি খালি রাখুন।"
 
-#: includes/class-woocommerce-provisioning.php:368
+#: includes/class-woocommerce-provisioning.php:476
+msgid "Zinn® stack"
+msgstr "Zinn® স্ট্যাক"
+
+#: includes/class-woocommerce-provisioning.php:477
+msgid "What the site is built on. WordPress unless you choose otherwise."
+msgstr "সাইটটি যা দিয়ে তৈরি। আপনি অন্য কিছু বেছে না নিলে WordPress।"
+
+#: includes/class-woocommerce-provisioning.php:484
+msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
+msgstr "হোস্টিংয়ের জন্য প্রয়োজনীয়: আপনার ক্লায়েন্টকে যে প্যাকেজে অন্তর্ভুক্ত করা হয়েছে। এটি তাদের বরাদ্দ এবং আপনার পাইকারি বিবরণীর লাইনটি নির্ধারণ করে। প্যাকেজবিহীন কোনো পণ্যের অর্ডার প্রস্তুত করা হয় না।"
+
+#: includes/class-woocommerce-provisioning.php:491
+msgid "Zinn® package (plan code)"
+msgstr "Zinn® প্যাকেজ (প্ল্যান কোড)"
+
+#: includes/class-woocommerce-provisioning.php:500
+msgid "Zinn® package"
+msgstr "Zinn® প্যাকেজ"
+
+#: includes/class-woocommerce-provisioning.php:503
+msgid "Choose a package"
+msgstr "একটি প্যাকেজ নির্বাচন করুন"
+
+#: includes/class-woocommerce-provisioning.php:511
+msgid "Zinn® billing interval"
+msgstr "Zinn® বিলিং ব্যবধান"
+
+#: includes/class-woocommerce-provisioning.php:512
+msgid "How often the client's line appears on your wholesale statement."
+msgstr "আপনার পাইকারি বিবৃতিতে ক্লায়েন্টের লাইনটি কত ঘন ঘন প্রদর্শিত হয়।"
+
+#: includes/class-woocommerce-provisioning.php:515
+msgid "Monthly"
+msgstr "মাসিক"
+
+#: includes/class-woocommerce-provisioning.php:516
+msgid "Annual"
+msgstr "বার্ষিক"
+
+#: includes/class-woocommerce-provisioning.php:581
 msgid "Zinn® hosting"
 msgstr "Zinn® হোস্টিং"
 
-#: includes/class-woocommerce-provisioning.php:392
+#: includes/class-woocommerce-provisioning.php:605
 msgid "Service id"
 msgstr "পরিষেবা আইডি"
 
-#: includes/class-woocommerce-provisioning.php:399
+#: includes/class-woocommerce-provisioning.php:612
 msgid "Nothing provisioned for this order."
 msgstr "এই অর্ডারের জন্য কিছুই সংস্থান করা হয়নি।"
 
@@ -905,41 +955,45 @@ msgid "Create a site for a client"
 msgstr "একজন ক্লায়েন্টের জন্য একটি সাইট তৈরি করুন"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
-msgstr "আপনার গ্রাহকদের একজনের জন্য একটি হোস্ট করা সাইট তৈরি করে (client_id, product_line, primary_domain)। এটি আপনার স্টোর থেকে নেওয়ার মতো ক্লায়েন্টের প্ল্যান অনুযায়ী আপনার অ্যাকাউন্টে বিল করা হয়।"
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
+msgstr "আপনার ক্লায়েন্টদের একজনের জন্য একটি হোস্ট করা সাইট তৈরি করে (client_id, product_line, primary_domain; stack_type, ডিফল্ট wordpress)। ক্লায়েন্টকে প্রথমে একটি প্ল্যানে থাকতে হবে (set-client-plan): সাইটটি সেই প্ল্যানের বিপরীতে রেকর্ড করা হয় এবং আপনার দোকান থেকে হিসেবে আপনার অ্যাকাউন্টে বিল করা হয়।"
 
-#: includes/mcp/class-abilities.php:220
+#: includes/mcp/class-abilities.php:224
 msgid "Suspend a client's site"
 msgstr "গ্রাহকের সাইট স্থগিত করুন"
 
-#: includes/mcp/class-abilities.php:221
+#: includes/mcp/class-abilities.php:225
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "কোনো গ্রাহকের সাইটকে অর্থপ্রদান না করার কারণে স্থগিত অবস্থায় রাখে (site_id; reason: আপনার নিজস্ব নোট, যা গ্রাহককে কখনোই দেখানো হয় না)। স্থগিতাদেশ প্রত্যাহার না হওয়া পর্যন্ত সাইটটি পরিবেশন বন্ধ রাখে।"
 
-#: includes/mcp/class-abilities.php:239
+#: includes/mcp/class-abilities.php:243
 msgid "Unsuspend a client's site"
 msgstr "গ্রাহকের সাইটের স্থগিতাদেশ প্রত্যাহার করুন"
 
-#: includes/mcp/class-abilities.php:240
+#: includes/mcp/class-abilities.php:244
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "অপরিশোধিত বিলের জন্য আরোপিত স্থগিতাদেশ প্রত্যাহার করে, যাতে সাইটটি আবার চালু হয় (site_id)।"
 
-#: includes/mcp/class-abilities.php:249
+#: includes/mcp/class-abilities.php:253
 msgid "Read the Reseller Toolkit settings"
 msgstr "রিসেলার টুলকিট সেটিংস পড়ুন"
 
-#: includes/mcp/class-abilities.php:250
+#: includes/mcp/class-abilities.php:254
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "এই প্লাগইনের সেটিংস (API ঠিকানা, নতুন অর্ডারগুলো যে প্ল্যান ব্যবহার করে, কোন ফিচারগুলো সক্রিয় রয়েছে) প্রদান করে। API কী কখনোই প্রদান করা হয় না, কেবল এটি সংরক্ষিত রয়েছে কি না তা জানানো হয়।"
 
-#: includes/mcp/class-abilities.php:256
+#: includes/mcp/class-abilities.php:260
 msgid "Change the Reseller Toolkit settings"
 msgstr "Reseller Toolkit সেটিংস পরিবর্তন করুন"
 
-#: includes/mcp/class-abilities.php:257
+#: includes/mcp/class-abilities.php:261
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "আপনার পাঠানো সেটিংস (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) পরিবর্তন করে এবং বাকিগুলো অপরিবর্তিত রাখে। API কী এবং ঠিকানা শুধুমাত্র স্ক্রিনেই পরিবর্তিত হয়।"
 
-#: includes/mcp/class-abilities.php:306
+#: includes/mcp/class-abilities.php:310
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "প্রথমে Reseller Toolkit স্ক্রিনে আপনার Zinn Digital® রিসেলার API কী যোগ করুন।"
+
+#: includes/mcp/class-abilities.php:479
+msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
+msgstr "এই ক্লায়েন্ট এখনও কোনো প্ল্যানে নেই। set-client-plan ব্যবহার করে তাদের একটি প্ল্যানে যুক্ত করুন, তারপর সাইটটি তৈরি করুন।"
