@@ -330,101 +330,51 @@ msgstr "Chưa kết nối: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Đã kết nối. Chương trình đại lý của bạn là %s."
 
-#: includes/class-woocommerce-provisioning.php:121
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Chưa có khóa API Zinn® nào được định cấu hình, vì vậy không có gì được cấp phép."
 
-#: includes/class-woocommerce-provisioning.php:138
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Đơn hàng này không bao gồm tên miền, vì vậy không có gì để khởi tạo."
 
+#: includes/class-woocommerce-provisioning.php:134
+msgid "The hosting platform did not return a site."
+msgstr "Nền tảng lưu trữ không trả về trang web nào."
+
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:166
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "Dịch vụ lưu trữ Zinn® đã được phân bổ cho %1$s (dịch vụ %2$s)."
 
-#. translators: %s: the package (plan code) set on the product.
-#: includes/class-woocommerce-provisioning.php:224
-#, php-format
-msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
-msgstr "Nền tảng lưu trữ đã không đưa khách hàng vào gói \"%s\", vì vậy không có trang web nào được tạo."
-
-#: includes/class-woocommerce-provisioning.php:239
-msgid "The hosting platform did not return a site."
-msgstr "Nền tảng lưu trữ không trả về trang web nào."
-
-#: includes/class-woocommerce-provisioning.php:290
-msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
-msgstr "Sản phẩm lưu trữ này không có gói Zinn®, vì vậy không có gì được cung cấp và không có tài khoản khách hàng nào được tạo. Hãy chọn một gói trong thẻ Kho hàng của sản phẩm, sau đó đặt lại đơn hàng thành Đang xử lý."
-
-#: includes/class-woocommerce-provisioning.php:342
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "Nền tảng lưu trữ không trả về tài khoản khách hàng."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:447
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Dịch vụ lưu trữ Zinn® ĐÃ KHÔNG được cấp phát: %s"
 
-#: includes/class-woocommerce-provisioning.php:463
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "Dòng sản phẩm Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:464
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "Dòng sản phẩm Zinn® sẽ được cung cấp khi sản phẩm này được mua. Để trống để sử dụng giá trị mặc định từ cài đặt plugin."
 
-#: includes/class-woocommerce-provisioning.php:476
-msgid "Zinn® stack"
-msgstr "Ngăn xếp Zinn®"
-
-#: includes/class-woocommerce-provisioning.php:477
-msgid "What the site is built on. WordPress unless you choose otherwise."
-msgstr "Nền tảng xây dựng trang web. WordPress trừ khi bạn chọn khác."
-
-#: includes/class-woocommerce-provisioning.php:484
-msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
-msgstr "Bắt buộc đối với dịch vụ lưu trữ: gói được chỉ định cho khách hàng của bạn. Gói này thiết lập hạn mức của họ và dòng trên bảng kê bán buôn của bạn. Đơn hàng cho sản phẩm không có gói sẽ không được cấp phát."
-
-#: includes/class-woocommerce-provisioning.php:491
-msgid "Zinn® package (plan code)"
-msgstr "Gói Zinn® (mã gói)"
-
-#: includes/class-woocommerce-provisioning.php:500
-msgid "Zinn® package"
-msgstr "Gói Zinn®"
-
-#: includes/class-woocommerce-provisioning.php:503
-msgid "Choose a package"
-msgstr "Chọn gói"
-
-#: includes/class-woocommerce-provisioning.php:511
-msgid "Zinn® billing interval"
-msgstr "Khoảng thời gian thanh toán Zinn®"
-
-#: includes/class-woocommerce-provisioning.php:512
-msgid "How often the client's line appears on your wholesale statement."
-msgstr "Tần suất dòng của khách hàng xuất hiện trên bảng kê bán buôn của bạn."
-
-#: includes/class-woocommerce-provisioning.php:515
-msgid "Monthly"
-msgstr "Hàng tháng"
-
-#: includes/class-woocommerce-provisioning.php:516
-msgid "Annual"
-msgstr "Hàng năm"
-
-#: includes/class-woocommerce-provisioning.php:581
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "Lưu trữ Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:605
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "ID dịch vụ"
 
-#: includes/class-woocommerce-provisioning.php:612
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "Không có gì được cấp phát cho đơn hàng này."
 
@@ -953,45 +903,41 @@ msgid "Create a site for a client"
 msgstr "Tạo một trang web cho khách hàng"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
-msgstr "Tạo một trang web được lưu trữ cho một trong các khách hàng của bạn (client_id, product_line, primary_domain; stack_type, mặc định wordpress). Trước tiên, khách hàng phải sử dụng một gói (set-client-plan): trang web được ghi nhận theo gói đó và được lập hóa đơn cho tài khoản của bạn theo gói đó, như từ cửa hàng của bạn."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "Tạo một trang web được lưu trữ cho một trong những khách hàng của bạn (client_id, product_line, primary_domain). Phí được tính vào tài khoản của bạn theo gói của khách hàng, như từ cửa hàng của bạn."
 
-#: includes/mcp/class-abilities.php:224
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Tạm ngưng trang web của khách hàng"
 
-#: includes/mcp/class-abilities.php:225
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Đưa trang web của khách hàng vào trạng thái tạm ngưng do chưa thanh toán (site_id; lý do: ghi chú riêng của bạn, không bao giờ hiển thị cho khách hàng). Trang web sẽ ngừng hoạt động cho đến khi được mở lại."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Bỏ tạm ngưng trang web của khách hàng"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Gỡ bỏ lệnh tạm ngưng do chưa thanh toán, để trang web hoạt động trở lại (site_id)."
 
-#: includes/mcp/class-abilities.php:253
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Đọc cài đặt Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:254
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Trả về cài đặt của plugin này (địa chỉ API, gói mà các đơn hàng mới sử dụng, các tính năng nào đang được bật). Khóa API không bao giờ được trả về, chỉ cho biết liệu đã có khóa được lưu hay chưa."
 
-#: includes/mcp/class-abilities.php:260
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Thay đổi cài đặt Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:261
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Thay đổi các cài đặt bạn gửi (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) và giữ nguyên các cài đặt còn lại. Khóa API và địa chỉ chỉ được thay đổi trên màn hình."
 
-#: includes/mcp/class-abilities.php:310
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Trước tiên hãy thêm khóa API đại lý Zinn Digital® của bạn trên màn hình Reseller Toolkit."
-
-#: includes/mcp/class-abilities.php:479
-msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
-msgstr "Khách hàng này hiện chưa có gói dịch vụ nào. Hãy chỉ định một gói cho họ bằng set-client-plan, sau đó tạo trang web."

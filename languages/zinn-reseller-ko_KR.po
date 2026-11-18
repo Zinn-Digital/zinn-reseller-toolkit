@@ -330,101 +330,51 @@ msgstr "연결되지 않음: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "연결되었습니다. 리셀러 프로그램은 %s입니다."
 
-#: includes/class-woocommerce-provisioning.php:121
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Zinn® API 키가 구성되지 않았으므로 아무것도 프로비저닝되지 않았습니다."
 
-#: includes/class-woocommerce-provisioning.php:138
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "이 주문에는 도메인 이름이 포함되지 않아 프로비저닝할 항목이 없습니다."
 
+#: includes/class-woocommerce-provisioning.php:134
+msgid "The hosting platform did not return a site."
+msgstr "호스팅 플랫폼에서 사이트를 반환하지 않았습니다."
+
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:166
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "%1$s에 대한 Zinn® 호스팅이 프로비저닝되었습니다(서비스 %2$s)."
 
-#. translators: %s: the package (plan code) set on the product.
-#: includes/class-woocommerce-provisioning.php:224
-#, php-format
-msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
-msgstr "호스팅 플랫폼이 클라이언트를 \"%s\" 패키지에 배치하지 않아 사이트가 생성되지 않았습니다."
-
-#: includes/class-woocommerce-provisioning.php:239
-msgid "The hosting platform did not return a site."
-msgstr "호스팅 플랫폼에서 사이트를 반환하지 않았습니다."
-
-#: includes/class-woocommerce-provisioning.php:290
-msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
-msgstr "이 호스팅 제품에는 Zinn® 패키지가 없으므로 아무것도 프로비저닝되지 않았으며 클라이언트 계정도 생성되지 않았습니다. 제품의 재고 탭에서 패키지를 선택한 다음 주문을 다시 처리 중으로 설정하십시오."
-
-#: includes/class-woocommerce-provisioning.php:342
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "호스팅 플랫폼에서 클라이언트 계정을 반환하지 않았습니다."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:447
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® 호스팅이 프로비저닝되지 않았습니다: %s"
 
-#: includes/class-woocommerce-provisioning.php:463
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "Zinn® 제품군"
 
-#: includes/class-woocommerce-provisioning.php:464
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "이 제품을 구매할 때 프로비저닝할 Zinn® 제품 라인입니다. 플러그인 설정의 기본값을 사용하려면 비워 두세요."
 
-#: includes/class-woocommerce-provisioning.php:476
-msgid "Zinn® stack"
-msgstr "Zinn® 스택"
-
-#: includes/class-woocommerce-provisioning.php:477
-msgid "What the site is built on. WordPress unless you choose otherwise."
-msgstr "사이트가 구축된 기반입니다. 달리 선택하지 않는 한 WordPress입니다."
-
-#: includes/class-woocommerce-provisioning.php:484
-msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
-msgstr "호스팅에 필수 항목: 고객이 할당된 패키지입니다. 이는 고객의 할당량 및 귀하의 도매 내역서 항목을 설정합니다. 패키지가 없는 제품에 대한 주문은 프로비저닝되지 않습니다."
-
-#: includes/class-woocommerce-provisioning.php:491
-msgid "Zinn® package (plan code)"
-msgstr "Zinn® 패키지(요금제 코드)"
-
-#: includes/class-woocommerce-provisioning.php:500
-msgid "Zinn® package"
-msgstr "Zinn® 패키지"
-
-#: includes/class-woocommerce-provisioning.php:503
-msgid "Choose a package"
-msgstr "패키지 선택"
-
-#: includes/class-woocommerce-provisioning.php:511
-msgid "Zinn® billing interval"
-msgstr "Zinn® 청구 주기"
-
-#: includes/class-woocommerce-provisioning.php:512
-msgid "How often the client's line appears on your wholesale statement."
-msgstr "도매 명세서에 클라이언트 행이 표시되는 빈도입니다."
-
-#: includes/class-woocommerce-provisioning.php:515
-msgid "Monthly"
-msgstr "월간"
-
-#: includes/class-woocommerce-provisioning.php:516
-msgid "Annual"
-msgstr "연간"
-
-#: includes/class-woocommerce-provisioning.php:581
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "Zinn® 호스팅"
 
-#: includes/class-woocommerce-provisioning.php:605
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "서비스 ID"
 
-#: includes/class-woocommerce-provisioning.php:612
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "이 주문에 프로비저닝된 항목이 없습니다."
 
@@ -953,45 +903,41 @@ msgid "Create a site for a client"
 msgstr "고객을 위한 사이트 만들기"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
-msgstr "고객 중 한 명을 위한 호스팅 사이트를 생성합니다 (client_id, product_line, primary_domain; stack_type, 기본값 wordpress). 고객은 먼저 플랜을 이용 중이어야 합니다 (set-client-plan). 사이트는 해당 플랜에 기록되며, 매장에서 판매된 것처럼 귀하의 계정으로 청구됩니다."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "고객 중 한 명을 위한 호스팅 사이트를 생성합니다 (client_id, product_line, primary_domain). 고객의 요금제에 따라 상점에서 구매한 것처럼 귀하의 계정으로 청구됩니다."
 
-#: includes/mcp/class-abilities.php:224
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "고객 사이트 정지"
 
-#: includes/mcp/class-abilities.php:225
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "클라이언트 사이트를 미결제로 인한 보류 상태로 설정합니다 (site_id; reason: 직접 작성하는 메모이며 클라이언트에게는 절대 표시되지 않음). 사이트는 정지가 해제될 때까지 서비스 제공을 중단합니다."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "고객 사이트 정지 해제하기"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "사이트가 다시 서비스되도록 미납에 따른 보류 상태를 해제합니다 (site_id)."
 
-#: includes/mcp/class-abilities.php:253
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "리셀러 툴킷 설정을 확인하십시오"
 
-#: includes/mcp/class-abilities.php:254
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "이 플러그인의 설정(API 주소, 새 주문이 사용하는 요금제, 활성화된 기능)을 반환합니다. API 키는 반환되지 않으며, 저장 여부만 반환됩니다."
 
-#: includes/mcp/class-abilities.php:260
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Reseller Toolkit 설정 변경"
 
-#: includes/mcp/class-abilities.php:261
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "전송한 설정(plan_code, enable_domain_search, enable_panel_link, enable_woocommerce)을 변경하고 나머지는 유지합니다. API 키와 주소는 화면에서만 변경됩니다."
 
-#: includes/mcp/class-abilities.php:310
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "먼저 Reseller Toolkit 화면에서 Zinn Digital® 리셀러 API 키를 추가하십시오."
-
-#: includes/mcp/class-abilities.php:479
-msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
-msgstr "이 클라이언트는 아직 요금제에 연결되어 있지 않습니다. set-client-plan 명령으로 요금제를 지정한 후 사이트를 생성하십시오."

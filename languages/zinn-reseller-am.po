@@ -331,101 +331,51 @@ msgstr "አልተገናኘም፦ %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "ተገናኝቷል። የእርስዎ የዳግም ሻጭ ፕሮግራም %s ነው።"
 
-#: includes/class-woocommerce-provisioning.php:121
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "ምንም የ Zinn® API ቁልፍ አልተዋቀረም፣ ስለዚህ ምንም አልተዘጋጀም።"
 
-#: includes/class-woocommerce-provisioning.php:138
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "ይህ ትዕዛዝ የጎራ ስም ስላላካተተ የሚዘጋጅ ምንም ነገር አልነበረም።"
 
+#: includes/class-woocommerce-provisioning.php:134
+msgid "The hosting platform did not return a site."
+msgstr "የማስተናገጃ መድረኩ ጣቢያ አልመለሰም።"
+
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:166
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "የZinn® ሆስቲንግ ለ%1$s ተዘጋጅቷል (አገልግሎት %2$s)።"
 
-#. translators: %s: the package (plan code) set on the product.
-#: includes/class-woocommerce-provisioning.php:224
-#, php-format
-msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
-msgstr "የማስተናገጃ መድረኩ ደንበኛውን በ \"%s\" ጥቅል ላይ አላስቀመጠም፣ ስለዚህ ምንም ጣቢያ አልተፈጠረም።"
-
-#: includes/class-woocommerce-provisioning.php:239
-msgid "The hosting platform did not return a site."
-msgstr "የማስተናገጃ መድረኩ ጣቢያ አልመለሰም።"
-
-#: includes/class-woocommerce-provisioning.php:290
-msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
-msgstr "ይህ የማስተናገጃ ምርት ምንም የZinn® ጥቅል የለውም፣ ስለዚህ ምንም አልተዘጋጀም እና ምንም የደንበኛ መለያ አልተፈጠረም። በምርቱ የክምችት ትር ውስጥ ጥቅል ይምረጡ፣ ከዚያ ትዕዛዙን እንደገና ወደ በማስኬድ ላይ ይመልሱት።"
-
-#: includes/class-woocommerce-provisioning.php:342
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "የማስተናገጃ መድረኩ የደንበኛ መለያ አልመለሰም።"
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:447
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "የZinn® ሆስቲንግ አልተዘጋጀም፦ %s"
 
-#: includes/class-woocommerce-provisioning.php:463
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "የZinn® ምርት መስመር"
 
-#: includes/class-woocommerce-provisioning.php:464
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "ይህ ምርት ሲገዛ የሚዘጋጀው የZinn® ምርት መስመር። ከፕለጊኑ ቅንብሮች ነባሪውን ለመጠቀም ባዶ ይተዉት።"
 
-#: includes/class-woocommerce-provisioning.php:476
-msgid "Zinn® stack"
-msgstr "የZinn® ቁልል"
-
-#: includes/class-woocommerce-provisioning.php:477
-msgid "What the site is built on. WordPress unless you choose otherwise."
-msgstr "ድህረ ገጹ የተገነባበት። እርስዎ ሌላ ካልመረጡ በስተቀር WordPress።"
-
-#: includes/class-woocommerce-provisioning.php:484
-msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
-msgstr "ለማስተናገጃ የሚያስፈልግ፡ ደንበኛዎ የሚመደብበት ጥቅል ነው። አበላቸውን እና በጅምላ መግለጫዎ ላይ ያለውን መስመር ይወስናል። ጥቅል ለሌለው ምርት የተሰጠ ትዕዛዝ አይከናወንም።"
-
-#: includes/class-woocommerce-provisioning.php:491
-msgid "Zinn® package (plan code)"
-msgstr "Zinn® ጥቅል (የእቅድ ኮድ)"
-
-#: includes/class-woocommerce-provisioning.php:500
-msgid "Zinn® package"
-msgstr "የZinn® ጥቅል"
-
-#: includes/class-woocommerce-provisioning.php:503
-msgid "Choose a package"
-msgstr "ጥቅል ይምረጡ"
-
-#: includes/class-woocommerce-provisioning.php:511
-msgid "Zinn® billing interval"
-msgstr "የZinn® የክፍያ ክፍተት"
-
-#: includes/class-woocommerce-provisioning.php:512
-msgid "How often the client's line appears on your wholesale statement."
-msgstr "የደንበኛው መስመር በእርስዎ የጅምላ ሽያጭ መግለጫ ላይ ምን ያህል ጊዜ እንደሚታይ።"
-
-#: includes/class-woocommerce-provisioning.php:515
-msgid "Monthly"
-msgstr "ወርሃዊ"
-
-#: includes/class-woocommerce-provisioning.php:516
-msgid "Annual"
-msgstr "ዓመታዊ"
-
-#: includes/class-woocommerce-provisioning.php:581
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "የZinn® ሆስቲንግ"
 
-#: includes/class-woocommerce-provisioning.php:605
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "የአገልግሎት መለያ"
 
-#: includes/class-woocommerce-provisioning.php:612
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "ለዚህ ትዕዛዝ የተዘጋጀ ምንም ነገር የለም።"
 
@@ -955,45 +905,41 @@ msgid "Create a site for a client"
 msgstr "ለደንበኛ ጣቢያ ይፍጠሩ"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
-msgstr "ለአንዱ ደንበኛዎ የተስተናገደ ድረ-ገጽ ይፈጥራል (client_id፣ product_line፣ primary_domain፤ stack_type፣ ነባሪው wordpress)። ደንበኛው መጀመሪያ በእቅድ ላይ መሆን አለበት (set-client-plan)፦ ድረ-ገጹ በዚያ እቅድ ሥር ይመዘገባል እንዲሁም ከመደብርዎ እንደሆነ ተደርጎ በእሱ መሠረት ወደ እርስዎ ሒሳብ ክፍያ ይደረጋል።"
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "ለአንዱ ደንበኛዎ የተስተናገደ ድረ-ገጽ ይፈጥራል (client_id, product_line, primary_domain)። ከሱቅዎ እንደሆነ ተቆጥሮ በደንበኛው ዕቅድ መሠረት ወደ እርስዎ ሒሳብ ክፍያ ይደረጋል።"
 
-#: includes/mcp/class-abilities.php:224
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "የደንበኛን ድረ-ገጽ አግድ"
 
-#: includes/mcp/class-abilities.php:225
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "የደንበኛን ድረ-ገጽ ባለመክፈል ምክንያት እግድ ላይ ያደርገዋል (site_id፤ reason፦ የራስዎ ማስታወሻ፣ ለደንበኛው በጭራሽ የማይታይ)። ድረ-ገጹ እገዳው እስኪነሳ ድረስ አገልግሎት መስጠት ያቆማል።"
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "የደንበኛን ድረ-ገጽ እገዳ አንሳ"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "ድህረ ገጹ ዳግም አገልግሎት መስጠት እንዲችል በክፍያ ባለመፈጸም ምክንያት የተጣለውን እገዳ ያነሳል (site_id)።"
 
-#: includes/mcp/class-abilities.php:253
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "የReseller Toolkit ቅንብሮችን ያንብቡ"
 
-#: includes/mcp/class-abilities.php:254
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "የዚህን ተሰኪ ቅንብሮች (የ-API አድራሻውን፣ አዳዲስ ትዕዛዞች የሚጠቀሙበትን ዕቅድ፣ የትኞቹ ባህሪያት እንደበሩ) ይመልሳል። የ-API ቁልፉ በጭራሽ አይመለስም፣ አንዱ መቀመጡ ብቻ ነው የሚመለሰው።"
 
-#: includes/mcp/class-abilities.php:260
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "የዳግም ሻጭ መሣሪያ ስብስብ ቅንብሮችን ይቀይሩ"
 
-#: includes/mcp/class-abilities.php:261
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "የሚልኩትን ቅንብሮች (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ይለውጣል እና ሌሎቹን እንደነበሩ ያቆያል። የኤፒአይ ቁልፍ እና አድራሻው በማያ ገጹ ላይ ብቻ ነው የሚቀየሩት።"
 
-#: includes/mcp/class-abilities.php:310
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "በመጀመሪያ የእርስዎን Zinn Digital® የዳግም ሻጭ API ቁልፍ በዳግም ሻጭ መሣሪያ ስብስብ ማያ ገጽ ላይ ያክሉ።"
-
-#: includes/mcp/class-abilities.php:479
-msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
-msgstr "ይህ ደንበኛ እስካሁን በዕቅድ ውስጥ አልተካተተም። በset-client-plan አማካኝነት ወደ አንዱ ዕቅድ ያስገቧቸው፣ ከዚያም ድረ-ገጹን ይፍጠሩ።"

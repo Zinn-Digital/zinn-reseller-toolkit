@@ -330,101 +330,51 @@ msgstr "ချိတ်ဆက်မထားပါ- %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "ချိတ်ဆက်ပြီးပါပြီ။ သင်၏ ပြန်လည်ရောင်းချသူ ပရိုဂရမ်မှာ %s ဖြစ်သည်။"
 
-#: includes/class-woocommerce-provisioning.php:121
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Zinn® API ကီးကို စီစဉ်သတ်မှတ်ထားခြင်း မရှိသောကြောင့် မည်သည့်အရာကိုမျှ ပြင်ဆင်သတ်မှတ်ပေးမထားပါ။"
 
-#: includes/class-woocommerce-provisioning.php:138
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "ဤအော်ဒါတွင် ဒိုမိန်းအမည် မပါဝင်သောကြောင့် ပြင်ဆင်သတ်မှတ်ရန် မရှိပါ။"
 
+#: includes/class-woocommerce-provisioning.php:134
+msgid "The hosting platform did not return a site."
+msgstr "ဟိုစတင်းပလက်ဖောင်းသည် ဆိုက်ကို ပြန်မပို့ပေးပါ။"
+
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:166
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "%1$s အတွက် Zinn® ဟိုစတင်းကို ပြင်ဆင်သတ်မှတ်ပေးပြီးပါပြီ (ဝန်ဆောင်မှု %2$s)။"
 
-#. translators: %s: the package (plan code) set on the product.
-#: includes/class-woocommerce-provisioning.php:224
-#, php-format
-msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
-msgstr "ဟို့စ်တင်ပလက်ဖောင်းသည် ဝယ်ယူသူကို ပက်ကေ့ဂျ် \"%s\" တွင် မထည့်သွင်းထားသောကြောင့် ဝက်ဘ်ဆိုက်ကို ဖန်တီးမထားပါ။"
-
-#: includes/class-woocommerce-provisioning.php:239
-msgid "The hosting platform did not return a site."
-msgstr "ဟိုစတင်းပလက်ဖောင်းသည် ဆိုက်ကို ပြန်မပို့ပေးပါ။"
-
-#: includes/class-woocommerce-provisioning.php:290
-msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
-msgstr "ဤဟို့စ်တင်းထုတ်ကုန်တွင် Zinn® ပက်ကေ့ဂျ် မရှိပါ၊ ထို့ကြောင့် မည်သည့်အရာကိုမျှ ပြင်ဆင်သတ်မှတ်မထားသလို မည်သည့်သုံးစွဲသူအကောင့်ကိုမျှ မဖန်တီးထားပါ။ ထုတ်ကုန်၏ စာရင်း တဘ်တွင် ပက်ကေ့ဂျ်တစ်ခုကို ရွေးချယ်ပါ၊ ထို့နောက် အမှာစာကို လုပ်ဆောင်နေသည် သို့ ပြန်လည်သတ်မှတ်ပါ။"
-
-#: includes/class-woocommerce-provisioning.php:342
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "ဟို့စ်တင်ပလက်ဖောင်းသည် ကလိုင်းယင်အကောင့်တစ်ခုကို ပြန်မပို့ခဲ့ပါ။"
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:447
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "Zinn® ဟိုစတင်ကို ပြင်ဆင်သတ်မှတ်မထားပါ- %s"
 
-#: includes/class-woocommerce-provisioning.php:463
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "Zinn® ထုတ်ကုန်လိုင်း"
 
-#: includes/class-woocommerce-provisioning.php:464
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "ဤထုတ်ကုန်ကို ဝယ်ယူသည့်အခါ ပံ့ပိုးပေးမည့် Zinn® ထုတ်ကုန်လိုင်း။ ပလပ်အင်ဆက်တင်များမှ မူရင်းကို အသုံးပြုရန် ကွက်လပ်ထားပါ။"
 
-#: includes/class-woocommerce-provisioning.php:476
-msgid "Zinn® stack"
-msgstr "Zinn® စထပ်"
-
-#: includes/class-woocommerce-provisioning.php:477
-msgid "What the site is built on. WordPress unless you choose otherwise."
-msgstr "ဝက်ဘ်ဆိုက်ကို တည်ဆောက်ထားသည့် အရာ။ သင် အခြားတစ်ခုကို မရွေးချယ်ပါက WordPress ဖြစ်သည်။"
-
-#: includes/class-woocommerce-provisioning.php:484
-msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
-msgstr "ဟိုစတင်းအတွက် လိုအပ်ချက်- သင့်ဖောက်သည်အား ထည့်သွင်းထားသော ပက်ကေ့ဂျ်။ ၎င်းသည် ၎င်းတို့၏ ခွင့်ပြုချက်ပမာဏနှင့် သင့်လက်ကားစာရင်းရှင်းတမ်းပေါ်ရှိ အကြောင်းအရာကို သတ်မှတ်ပေးသည်။ ပက်ကေ့ဂျ်မရှိသော ထုတ်ကုန်တစ်ခုအတွက် မှာယူမှုကို ဖြည့်ဆည်းပေးမည်မဟုတ်ပါ။"
-
-#: includes/class-woocommerce-provisioning.php:491
-msgid "Zinn® package (plan code)"
-msgstr "Zinn® ပက်ကေ့ဂျ် (အစီအစဉ်ကုဒ်)"
-
-#: includes/class-woocommerce-provisioning.php:500
-msgid "Zinn® package"
-msgstr "Zinn® ပက်ကေ့ဂျ်"
-
-#: includes/class-woocommerce-provisioning.php:503
-msgid "Choose a package"
-msgstr "ပက်ကေ့ဂျ်တစ်ခု ရွေးချယ်ပါ"
-
-#: includes/class-woocommerce-provisioning.php:511
-msgid "Zinn® billing interval"
-msgstr "Zinn® ငွေတောင်းခံလွှာ ကြားကာလ"
-
-#: includes/class-woocommerce-provisioning.php:512
-msgid "How often the client's line appears on your wholesale statement."
-msgstr "သင့်လက်ကားရှင်းတမ်းတွင် ဖောက်သည်၏လိုင်း ပေါ်လာသည့်အကြိမ်အရေအတွက်။"
-
-#: includes/class-woocommerce-provisioning.php:515
-msgid "Monthly"
-msgstr "လစဉ်"
-
-#: includes/class-woocommerce-provisioning.php:516
-msgid "Annual"
-msgstr "နှစ်စဉ်"
-
-#: includes/class-woocommerce-provisioning.php:581
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "Zinn® ဟိုစတင်"
 
-#: includes/class-woocommerce-provisioning.php:605
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "ဝန်ဆောင်မှု ID"
 
-#: includes/class-woocommerce-provisioning.php:612
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "ဤအမှာစာအတွက် မည်သည့်အရာမျှ ပြင်ဆင်သတ်မှတ်ထားခြင်း မရှိပါ။"
 
@@ -953,45 +903,41 @@ msgid "Create a site for a client"
 msgstr "သုံးစွဲသူတစ်ဦးအတွက် ဆိုက်တစ်ခု ဖန်တီးပါ"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
-msgstr "သင့်ဖောက်သည်များထဲမှ တစ်ဦးအတွက် လက်ခံဆောင်ရွက်ပေးထားသော ဆိုက်တစ်ခုကို ဖန်တီးပေးသည် (client_id၊ product_line၊ primary_domain၊ stack_type၊ မူရင်း wordpress)။ ဖောက်သည်သည် ပထမဦးစွာ အစီအစဉ်တစ်ခုတွင် ရှိရမည် (set-client-plan)- ဆိုက်ကို အဆိုပါ အစီအစဉ်အောက်တွင် မှတ်တမ်းတင်ပြီး သင့်ဆိုင်မှဖြစ်သကဲ့သို့ ၎င်းနှုန်းထားဖြင့် သင့်အကောင့်သို့ ငွေတောင်းခံပါသည်။"
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "သင့်ဖောက်သည်များထဲမှ တစ်ဦးအတွက် လက်ခံထားသော ဆိုက်တစ်ခုကို ဖန်တီးပေးသည် (client_id, product_line, primary_domain)။ သင့်ဆိုင်မှ ဝယ်ယူသကဲ့သို့ ဖောက်သည်၏ အစီအစဉ်အတိုင်း သင့်အကောင့်သို့ ငွေတောင်းခံလွှာ ပေးပို့မည်ဖြစ်သည်။"
 
-#: includes/mcp/class-abilities.php:224
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "သုံးစွဲသူ၏ ဆိုက်ကို ဆိုင်းငံ့ရန်"
 
-#: includes/mcp/class-abilities.php:225
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "သုံးစွဲသူ၏ဆိုက်ကို ငွေမချေမှုကြောင့် ဆိုင်းငံ့မှုအခြေအနေသို့ ထားရှိသည် (site_id; reason: သင့်ကိုယ်ပိုင်မှတ်စု၊ သုံးစွဲသူထံ မည်သည့်အခါမျှ ပြသမညှိမဟုတ်ပါ)။ ဆိုင်းငံ့မှုကို ပြန်မရုပ်သိမ်းမချင်း ဆိုက်သည် ဝန်ဆောင်မှုပေးခြင်းကို ရပ်တန့်ထားမည်ဖြစ်သည်။"
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "ဖောက်သည်တစ်ဦး၏ ဝဘ်ဆိုက်ကို ရပ်ဆိုင်းထားခြင်းမှ ပြန်လည်ဖွင့်ပါ"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "ဝက်ဘ်ဆိုက် ပြန်လည်လည်ပတ်နိုင်စေရန် ငွေပေးချေမှုမရှိခြင်းကြောင့် ဆိုင်းငံ့ထားမှုကို ဖယ်ရှားပေးသည် (site_id)။"
 
-#: includes/mcp/class-abilities.php:253
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "Reseller Toolkit ဆက်တင်များကို ဖတ်ရှုပါ"
 
-#: includes/mcp/class-abilities.php:254
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "ဤပလပ်အင်၏ ဆက်တင်များ (API လိပ်စာ၊ အော်ဒါအသစ်များ အသုံးပြုသည့် အစီအစဉ်၊ မည်သည့် လုပ်ဆောင်ချက်များကို ဖွင့်ထားသည်) ကို ပြန်ပို့ပေးသည်။ API ကီးကို မည်သည့်အခါမျှ ပြန်မပို့ပါ၊ သိမ်းဆည်းထားခြင်း ရှိမရှိကိုသာ ပြန်ပို့ပေးသည်။"
 
-#: includes/mcp/class-abilities.php:260
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "Reseller Toolkit ဆက်တင်များကို ပြောင်းလဲပါ"
 
-#: includes/mcp/class-abilities.php:261
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "သင်ပေးပို့သော ဆက်တင်များ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ကို ပြောင်းလဲပေးပြီး ကျန်ရှိသည်များကို ဆက်လက်ထိန်းသိမ်းထားသည်။ API သော့နှင့် လိပ်စာကို မျက်နှာပြင်ပေါ်တွင်သာ ပြောင်းလဲထားသည်။"
 
-#: includes/mcp/class-abilities.php:310
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Reseller Toolkit မျက်နှာပြင်တွင် သင်၏ Zinn Digital® ပြန်လည်ရောင်းချသူ API သော့ကို ဦးစွာ ထည့်ပါ။"
-
-#: includes/mcp/class-abilities.php:479
-msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
-msgstr "ဤဖောက်သည်သည် မည်သည့်အစီအစဉ်တွင်မျှ မပါဝင်သေးပါ။ set-client-plan ဖြင့် အစီအစဉ်တစ်ခုတွင် ထည့်သွင်းပြီးနောက် ဝဘ်ဆိုက်ကို ဖန်တီးပါ။"

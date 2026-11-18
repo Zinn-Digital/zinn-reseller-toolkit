@@ -330,101 +330,51 @@ msgstr "ບໍ່ໄດ້ເຊື່ອມຕໍ່: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ໂປຣແກຣມຕົວແທນຈຳໜ່າຍຂອງທ່ານແມ່ນ %s."
 
-#: includes/class-woocommerce-provisioning.php:121
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "ບໍ່ມີການກຳນົດຄ່າຄີ API ຂອງ Zinn®, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການຈັດສັນຫຍັງ."
 
-#: includes/class-woocommerce-provisioning.php:138
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "ຄຳສັ່ງຊື້ນີ້ບໍ່ໄດ້ລວມຊື່ໂດເມນ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີສິ່ງໃດທີ່ຕ້ອງຈັດສັນ."
 
+#: includes/class-woocommerce-provisioning.php:134
+msgid "The hosting platform did not return a site."
+msgstr "ແພລດຟອມໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງເວັບໄຊຄືນມາ."
+
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:166
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "ໂຮດຕິ້ງ Zinn® ໄດ້ຖືກຈັດກຽມໄວ້ສຳລັບ %1$s (ບໍລິການ %2$s)."
 
-#. translators: %s: the package (plan code) set on the product.
-#: includes/class-woocommerce-provisioning.php:224
-#, php-format
-msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
-msgstr "ແພລດຟອມໂຮດຕິ້ງບໍ່ໄດ້ໃສ່ລູກຄ້າໄວ້ໃນແພັກເກດ \"%s\", ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການສ້າງເວັບໄຊທ໌ໃດໆ."
-
-#: includes/class-woocommerce-provisioning.php:239
-msgid "The hosting platform did not return a site."
-msgstr "ແພລດຟອມໂຮດຕິ້ງບໍ່ໄດ້ສົ່ງເວັບໄຊຄືນມາ."
-
-#: includes/class-woocommerce-provisioning.php:290
-msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
-msgstr "ຜະລິດຕະພັນໂຮສຕິ້ງນີ້ບໍ່ມີແພັກເກດ Zinn®, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການຈັດສັນຫຍັງ ແລະ ບໍ່ມີການສ້າງບັນຊີລູກຄ້າ. ເລືອກແພັກເກດໃນແຖບ ສາງສິນຄ້າ ຂອງຜະລິດຕະພັນ, ຈາກນັ້ນຕັ້ງຄຳສັ່ງຊື້ກັບໄປເປັນ ກຳລັງດຳເນີນການ."
-
-#: includes/class-woocommerce-provisioning.php:342
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "ແພລດຟອມໂຮສຕິ້ງບໍ່ໄດ້ສົ່ງບັນຊີລູກຄ້າຄືນມາ."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:447
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "ໂຮສຕິ້ງ Zinn® ບໍ່ໄດ້ຖືກຈັດກຽມ: %s"
 
-#: includes/class-woocommerce-provisioning.php:463
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "ສາຍຜະລິດຕະພັນ Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:464
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "ສາຍຜະລິດຕະພັນ Zinn® ທີ່ຈະຈັດຫາໃຫ້ເມື່ອຊື້ຜະລິດຕະພັນນີ້. ປະຫວ່າງໄວ້ເພື່ອໃຊ້ຄ່າເລີ່ມຕົ້ນຈາກການຕັ້ງຄ່າປລັກອິນ."
 
-#: includes/class-woocommerce-provisioning.php:476
-msgid "Zinn® stack"
-msgstr "ສະແຕັກ Zinn®"
-
-#: includes/class-woocommerce-provisioning.php:477
-msgid "What the site is built on. WordPress unless you choose otherwise."
-msgstr "ສິ່ງທີ່ເວັບໄຊສ້າງຂຶ້ນເທິງນັ້ນ. WordPress ເວັ້ນເສຍແຕ່ທ່ານຈະເລືອກຢ່າງອື່ນ."
-
-#: includes/class-woocommerce-provisioning.php:484
-msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
-msgstr "ຈຳເປັນສຳລັບການໂຮສຕິ້ງ: ແພັກເກດທີ່ລູກຄ້າຂອງທ່ານຖືກຈັດໃສ່. ມັນກຳນົດໂຄຕ້າຂອງພວກເຂົາ ແລະ ລາຍການໃນໃບແຈ້ງຍອດຂາຍສົ່ງຂອງທ່ານ. ຄຳສັ່ງຊື້ສຳລັບສິນຄ້າທີ່ບໍ່ມີແພັກເກດຈະບໍ່ຖືກດຳເນີນການ."
-
-#: includes/class-woocommerce-provisioning.php:491
-msgid "Zinn® package (plan code)"
-msgstr "ແພັກເກດ Zinn® (ລະຫັດແຜນ)"
-
-#: includes/class-woocommerce-provisioning.php:500
-msgid "Zinn® package"
-msgstr "ແພັກເກດ Zinn®"
-
-#: includes/class-woocommerce-provisioning.php:503
-msgid "Choose a package"
-msgstr "ເລືອກແພັກເກດ"
-
-#: includes/class-woocommerce-provisioning.php:511
-msgid "Zinn® billing interval"
-msgstr "ໄລຍະເວລາຮອບບິນ Zinn®"
-
-#: includes/class-woocommerce-provisioning.php:512
-msgid "How often the client's line appears on your wholesale statement."
-msgstr "ຄວາມຖີ່ທີ່ແຖວຂອງລູກຄ້າປະກົດຢູ່ໃນໃບແຈ້ງຍອດຂາຍສົ່ງຂອງທ່ານ."
-
-#: includes/class-woocommerce-provisioning.php:515
-msgid "Monthly"
-msgstr "ລາຍເດືອນ"
-
-#: includes/class-woocommerce-provisioning.php:516
-msgid "Annual"
-msgstr "ລາຍປີ"
-
-#: includes/class-woocommerce-provisioning.php:581
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "ໂຮດຕິ້ງ Zinn®"
 
-#: includes/class-woocommerce-provisioning.php:605
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "ໄອດີການບໍລິການ"
 
-#: includes/class-woocommerce-provisioning.php:612
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "ບໍ່ມີຫຍັງຖືກຈັດສັນສຳລັບຄຳສັ່ງຊື້ນີ້."
 
@@ -953,45 +903,41 @@ msgid "Create a site for a client"
 msgstr "ສ້າງເວັບໄຊສຳລັບລູກຄ້າ"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
-msgstr "ສ້າງເວັບໄຊທີ່ໂຮສໄວ້ສຳລັບລູກຄ້າຄົນໜຶ່ງຂອງທ່ານ (client_id, product_line, primary_domain; stack_type, ຄ່າເລີ່ມຕົ້ນ wordpress). ລູກຄ້າຕ້ອງຢູ່ໃນແຜນການກ່ອນ (set-client-plan): ເວັບໄຊຈະຖືກບັນທຶກໄວ້ຕາມແຜນນັ້ນ ແລະ ຖືກຮຽກເກັບເງິນໄປຍັງບັນຊີຂອງທ່ານຕາມແຜນດັ່ງກ່າວ ຄືກັບມາຈາກຮ້ານຂອງທ່ານ."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "ສ້າງເວັບໄຊທີ່ໂຮສໄວ້ສຳລັບລູກຄ້າຂອງທ່ານຄົນໜຶ່ງ (client_id, product_line, primary_domain). ມັນຈະຖືກຮຽກເກັບເງິນໄປຍັງບັນຊີຂອງທ່ານຕາມແຜນຂອງລູກຄ້າ, ຄືກັນກັບຈາກຮ້ານຂອງທ່ານ."
 
-#: includes/mcp/class-abilities.php:224
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "ໂຈະເວັບໄຊຂອງລູກຄ້າ"
 
-#: includes/mcp/class-abilities.php:225
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "ເຮັດໃຫ້ເວັບໄຊຂອງລູກຄ້າຖືກລະງັບໄວ້ຍ້ອນບໍ່ມີການຊຳລະເງິນ (site_id; reason: ບັນທຶກຂອງທ່ານເອງ, ບໍ່ເຄີຍສະແດງໃຫ້ລູກຄ້າເຫັນ). ເວັບໄຊຈະຢຸດໃຫ້ບໍລິການຈົນກວ່າຈະຖືກຍົກເລີກການລະງັບ."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "ຍົກເລີກການລະງັບເວັບໄຊຂອງລູກຄ້າ"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "ຍົກເລີກການລະງັບຍ້ອນບໍ່ຊຳລະເງິນ, ເພື່ອໃຫ້ເວັບໄຊກັບມາເຮັດວຽກໄດ້ອີກຄັ້ງ (site_id)."
 
-#: includes/mcp/class-abilities.php:253
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "ອ່ານການຕັ້ງຄ່າ Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:254
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "ສົ່ງຄືນການຕັ້ງຄ່າຂອງປລັກອິນນີ້ (ທີ່ຢູ່ API, ແພັກເກດທີ່ຄຳສັ່ງຊື້ໃໝ່ໃຊ້, ຄຸນສົມບັດໃດທີ່ເປີດຢູ່). ຄີ API ຈະບໍ່ຖືກສົ່ງຄືນຢ່າງເດັດຂາດ, ພຽງແຕ່ບອກວ່າມີການບັນທຶກໄວ້ຫຼືບໍ່ເທົ່ານັ້ນ."
 
-#: includes/mcp/class-abilities.php:260
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "ປ່ຽນການຕັ້ງຄ່າ Reseller Toolkit"
 
-#: includes/mcp/class-abilities.php:261
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "ປ່ຽນແປງການຕັ້ງຄ່າທີ່ທ່ານສົ່ງ (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) ແລະ ຮັກສາສ່ວນທີ່ເຫຼືອໄວ້. ຄີ API ແລະ ທີ່ຢູ່ແມ່ນຖືກປ່ຽນແປງຢູ່ໜ້າຈໍເທົ່ານັ້ນ."
 
-#: includes/mcp/class-abilities.php:310
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "ກະລຸນາເພີ່ມລະຫັດ API ຕົວແທນຈຳໜ່າຍ Zinn Digital® ຂອງທ່ານໃນໜ້າຈໍ Reseller Toolkit ກ່ອນ."
-
-#: includes/mcp/class-abilities.php:479
-msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
-msgstr "ລູກຄ້ານີ້ຍັງບໍ່ທັນຢູ່ໃນແຜນໃດເທື່ອ. ກະລຸນາໃສ່ພວກເຂົາໃສ່ແຜນໃດໜຶ່ງດ້ວຍ set-client-plan, ຈາກນັ້ນຈຶ່ງສ້າງເວັບໄຊ."

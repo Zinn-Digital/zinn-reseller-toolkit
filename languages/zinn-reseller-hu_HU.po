@@ -331,101 +331,51 @@ msgstr "Nincs kapcsolódva: %s"
 msgid "Connected. Your reseller programme is %s."
 msgstr "Csatlakoztatva. A viszonteladói program: %s."
 
-#: includes/class-woocommerce-provisioning.php:121
+#: includes/class-woocommerce-provisioning.php:101
 msgid "No Zinn® API key is configured, so nothing was provisioned."
 msgstr "Nincs konfigurálva Zinn® API-kulcs, ezért semmi sem lett létesítve."
 
-#: includes/class-woocommerce-provisioning.php:138
+#: includes/class-woocommerce-provisioning.php:114
 msgid "This order did not include a domain name, so there was nothing to provision."
 msgstr "Ez a rendelés nem tartalmazott domainnevet, így nem volt mit kiépíteni."
 
+#: includes/class-woocommerce-provisioning.php:134
+msgid "The hosting platform did not return a site."
+msgstr "A tárhelyplatform nem adott vissza webhelyet."
+
 #. translators: 1: domain name, 2: hosting service id.
-#: includes/class-woocommerce-provisioning.php:166
+#: includes/class-woocommerce-provisioning.php:145
 #, php-format
 msgid "Zinn® hosting provisioned for %1$s (service %2$s)."
 msgstr "A(z) Zinn® tárhely kiépítve a következőhöz: %1$s (szolgáltatás: %2$s)."
 
-#. translators: %s: the package (plan code) set on the product.
-#: includes/class-woocommerce-provisioning.php:224
-#, php-format
-msgid "The hosting platform did not put the client on package \"%s\", so no site was created."
-msgstr "A tárhelyplatform nem helyezte át az ügyfelet a(z) „%s” csomagra, így nem jött létre webhely."
-
-#: includes/class-woocommerce-provisioning.php:239
-msgid "The hosting platform did not return a site."
-msgstr "A tárhelyplatform nem adott vissza webhelyet."
-
-#: includes/class-woocommerce-provisioning.php:290
-msgid "This hosting product has no Zinn® package, so nothing was provisioned and no client account was created. Choose a package in the product's Inventory tab, then set the order back to Processing."
-msgstr "Ez a tárhelytermék nem rendelkezik Zinn®-csomaggal, így semmi sem került kiosztásra, és nem jött létre ügyfélfiók. A termék Készlet lapján válasszunk ki egy csomagot, majd állítsuk vissza a rendelést Feldolgozás alatt állapotra."
-
-#: includes/class-woocommerce-provisioning.php:342
+#: includes/class-woocommerce-provisioning.php:209
 msgid "The hosting platform did not return a client account."
 msgstr "A tárhelyplatform nem adott vissza ügyfélfiókot."
 
 #. translators: %s: the reason provisioning failed.
-#: includes/class-woocommerce-provisioning.php:447
+#: includes/class-woocommerce-provisioning.php:314
 #, php-format
 msgid "Zinn® hosting was NOT provisioned: %s"
 msgstr "A Zinn® tárhely NEM lett kiépítve: %s"
 
-#: includes/class-woocommerce-provisioning.php:463
+#: includes/class-woocommerce-provisioning.php:330
 msgid "Zinn® product line"
 msgstr "Zinn® termékcsalád"
 
-#: includes/class-woocommerce-provisioning.php:464
+#: includes/class-woocommerce-provisioning.php:331
 msgid "The Zinn® product line to provision when this product is bought. Leave blank to use the default from the plugin settings."
 msgstr "A termék megvásárlásakor kiosztandó Zinn® termékcsalád. Hagyja üresen a bővítmény beállításaiban megadott alapértelmezett érték használatához."
 
-#: includes/class-woocommerce-provisioning.php:476
-msgid "Zinn® stack"
-msgstr "Zinn® szoftvercsomag"
-
-#: includes/class-woocommerce-provisioning.php:477
-msgid "What the site is built on. WordPress unless you choose otherwise."
-msgstr "Amire a webhely épül. Alapértelmezés szerint WordPress, hacsak nincs más kiválasztva."
-
-#: includes/class-woocommerce-provisioning.php:484
-msgid "Required for hosting: the package your client is put on. It sets their allowances and the line on your wholesale statement. An order for a product with no package is not provisioned."
-msgstr "Tárhelyhez szükséges: a csomag, amelyhez az ügyfél hozzá van rendelve. Ez határozza meg a korlátokat és a nagykereskedelmi kimutatásban szereplő tételt. A csomag nélküli termékre leadott rendelés nem kerül kiosztásra."
-
-#: includes/class-woocommerce-provisioning.php:491
-msgid "Zinn® package (plan code)"
-msgstr "Zinn®-csomag (díjcsomagkód)"
-
-#: includes/class-woocommerce-provisioning.php:500
-msgid "Zinn® package"
-msgstr "Zinn®-csomag"
-
-#: includes/class-woocommerce-provisioning.php:503
-msgid "Choose a package"
-msgstr "Csomag kiválasztása"
-
-#: includes/class-woocommerce-provisioning.php:511
-msgid "Zinn® billing interval"
-msgstr "Zinn® számlázási időköz"
-
-#: includes/class-woocommerce-provisioning.php:512
-msgid "How often the client's line appears on your wholesale statement."
-msgstr "Milyen gyakran jelenik meg az ügyfél sora a nagykereskedelmi kimutatáson."
-
-#: includes/class-woocommerce-provisioning.php:515
-msgid "Monthly"
-msgstr "Havi"
-
-#: includes/class-woocommerce-provisioning.php:516
-msgid "Annual"
-msgstr "Éves"
-
-#: includes/class-woocommerce-provisioning.php:581
+#: includes/class-woocommerce-provisioning.php:368
 msgid "Zinn® hosting"
 msgstr "Zinn® tárhely"
 
-#: includes/class-woocommerce-provisioning.php:605
+#: includes/class-woocommerce-provisioning.php:392
 msgid "Service id"
 msgstr "Szolgáltatás-azonosító"
 
-#: includes/class-woocommerce-provisioning.php:612
+#: includes/class-woocommerce-provisioning.php:399
 msgid "Nothing provisioned for this order."
 msgstr "Semmi sem került kiépítésre ehhez a rendeléshez."
 
@@ -955,45 +905,41 @@ msgid "Create a site for a client"
 msgstr "Webhely létrehozása egy ügyfél számára"
 
 #: includes/mcp/class-abilities.php:200
-msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain; stack_type, default wordpress). The client must be on a plan first (set-client-plan): the site is recorded against that plan and billed to your account at it, as from your shop."
-msgstr "Tárhelyes webhely létrehozása az egyik ügyfél számára (client_id, product_line, primary_domain; stack_type, alapértelmezett: wordpress). Az ügyfélnek először egy csomaggal kell rendelkeznie (set-client-plan): a webhely ezen csomaghoz lesz rögzítve, és ezen keresztül kerül kiszámlázásra a fiók felé, mint a saját áruházból."
+msgid "Creates a hosted site for one of your clients (client_id, product_line, primary_domain). It is billed to your account at the client's plan, as from your shop."
+msgstr "Tárhelyes webhelyet hoz létre az egyik ügyfél számára (client_id, product_line, primary_domain). A számlázása a felhasználói fiókra történik az ügyfél csomagja szerint, akárcsak a saját áruházból."
 
-#: includes/mcp/class-abilities.php:224
+#: includes/mcp/class-abilities.php:220
 msgid "Suspend a client's site"
 msgstr "Ügyfél webhelyének felfüggesztése"
 
-#: includes/mcp/class-abilities.php:225
+#: includes/mcp/class-abilities.php:221
 msgid "Puts a client's site on a non-payment hold (site_id; reason: your own note, never shown to the client). The site stops serving until it is unsuspended."
 msgstr "Fizetéselmaradás miatti felfüggesztésbe helyezi az ügyfél webhelyét (site_id; reason: saját megjegyzés, amely soha nem jelenik meg az ügyfélnek). A webhely kiszolgálása leáll a felfüggesztés feloldásáig."
 
-#: includes/mcp/class-abilities.php:243
+#: includes/mcp/class-abilities.php:239
 msgid "Unsuspend a client's site"
 msgstr "Ügyfél webhelye felfüggesztésének feloldása"
 
-#: includes/mcp/class-abilities.php:244
+#: includes/mcp/class-abilities.php:240
 msgid "Lifts a non-payment hold, so the site serves again (site_id)."
 msgstr "Feloldja a nemfizetés miatti zárolást, így a webhely újra működik (site_id)."
 
-#: includes/mcp/class-abilities.php:253
+#: includes/mcp/class-abilities.php:249
 msgid "Read the Reseller Toolkit settings"
 msgstr "A Reseller Toolkit beállításainak megtekintése"
 
-#: includes/mcp/class-abilities.php:254
+#: includes/mcp/class-abilities.php:250
 msgid "Returns this plugin's settings (the API address, the plan new orders use, which features are on). The API key is never returned, only whether one is saved."
 msgstr "Visszaadja a bővítmény beállításait (az API-címet, az új megrendelések által használt díjcsomagot, valamint a bekapcsolt funkciókat). Az API-kulcs soha nem kerül visszaadásra, csak az, hogy van-e elmentve egy."
 
-#: includes/mcp/class-abilities.php:260
+#: includes/mcp/class-abilities.php:256
 msgid "Change the Reseller Toolkit settings"
 msgstr "A Reseller Toolkit beállításainak módosítása"
 
-#: includes/mcp/class-abilities.php:261
+#: includes/mcp/class-abilities.php:257
 msgid "Changes the settings you send (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce) and keeps the rest. The API key and address are changed on the screen only."
 msgstr "Módosítja a beküldött beállításokat (plan_code, enable_domain_search, enable_panel_link, enable_woocommerce), a többit pedig megtartja. Az API-kulcs és a cím csak a képernyőn módosul."
 
-#: includes/mcp/class-abilities.php:310
+#: includes/mcp/class-abilities.php:306
 msgid "Add your Zinn Digital® reseller API key on the Reseller Toolkit screen first."
 msgstr "Először adja hozzá a Zinn Digital® viszonteladói API-kulcsot a Reseller Toolkit képernyőn."
-
-#: includes/mcp/class-abilities.php:479
-msgid "This client is not on a plan yet. Put them on one with set-client-plan, then create the site."
-msgstr "Ez az ügyfél még nem rendelkezik díjcsomaggal. Rendeljen hozzá egyet a set-client-plan segítségével, majd hozza létre a webhelyet."
