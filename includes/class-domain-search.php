@@ -53,10 +53,10 @@ class Domain_Search {
 		// ⛔ Inline, under a neutral handle (PF-442): a linked stylesheet's tag carries its id
 		// (`zinn-reseller-…-css`) and its URL (`/wp-content/plugins/zinn-reseller/…`) to every
 		// visitor of a RESELLER's site — this plugin is white-label, and our name is not theirs.
-		wp_register_style( 'zd-rt-domain-search', false, array(), ZINN_RESELLER_VERSION );
-		wp_enqueue_style( 'zd-rt-domain-search' );
+		wp_register_style( 'zdrt-domain-search', false, array(), ZINN_RESELLER_VERSION );
+		wp_enqueue_style( 'zdrt-domain-search' );
 		$css = (string) file_get_contents( dirname( __DIR__ ) . '/assets/domain-search.css' ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents -- the plugin's own stylesheet, read to inline it.
-		wp_add_inline_style( 'zd-rt-domain-search', str_replace( '<', '', $css ) );
+		wp_add_inline_style( 'zdrt-domain-search', str_replace( '<', '', $css ) );
 	}
 
 	/**
@@ -85,10 +85,10 @@ class Domain_Search {
 		// search form breaks the shareable result URL and expires for a cached page, and
 		// this request changes nothing — WordPress's own search form does the same.
 		// phpcs:ignore WordPress.Security.NonceVerification.Recommended
-		// `zd_domain` in the visitor's address bar (PF-442); `zinn_domain` still answers a link made before it.
+		// `zdrt_domain` in the visitor's address bar (PF-442); `zinn_domain` still answers a link made before it.
 		// phpcs:disable WordPress.Security.NonceVerification.Recommended -- a public search form.
-		if ( isset( $_GET['zd_domain'] ) ) {
-			$query = sanitize_text_field( wp_unslash( (string) $_GET['zd_domain'] ) );
+		if ( isset( $_GET['zdrt_domain'] ) ) {
+			$query = sanitize_text_field( wp_unslash( (string) $_GET['zdrt_domain'] ) );
 		} elseif ( isset( $_GET['zinn_domain'] ) ) {
 			$query = sanitize_text_field( wp_unslash( (string) $_GET['zinn_domain'] ) );
 		} else {
@@ -113,14 +113,14 @@ class Domain_Search {
 	 */
 	private static function form( array $atts, string $query ): void {
 		?>
-		<form class="zd-rt-domain-search" method="get" action="<?php echo esc_url( get_permalink() ); ?>" role="search">
-			<label class="screen-reader-text" for="zd-rt-domain">
+		<form class="zdrt-domain-search" method="get" action="<?php echo esc_url( get_permalink() ); ?>" role="search">
+			<label class="screen-reader-text" for="zdrt-domain">
 				<?php echo esc_html( $atts['placeholder'] ); ?>
 			</label>
 			<input
 				type="search"
-				id="zd-rt-domain"
-				name="zd_domain"
+				id="zdrt-domain"
+				name="zdrt_domain"
 				value="<?php echo esc_attr( $query ); ?>"
 				placeholder="<?php echo esc_attr( $atts['placeholder'] ); ?>"
 				autocomplete="off"
@@ -173,13 +173,13 @@ class Domain_Search {
 		$results = isset( $response['results'] ) && is_array( $response['results'] ) ? $response['results'] : array();
 		if ( empty( $results ) ) {
 			printf(
-				'<p class="zd-rt-domain-empty">%s</p>',
+				'<p class="zdrt-domain-empty">%s</p>',
 				esc_html__( 'No extensions were checked for that name.', 'zinn-reseller' )
 			);
 			return;
 		}
 
-		echo '<ul class="zd-rt-domain-results">';
+		echo '<ul class="zdrt-domain-results">';
 		foreach ( $results as $result ) {
 			self::result_row( is_array( $result ) ? $result : array() );
 		}
@@ -210,7 +210,7 @@ class Domain_Search {
 		$permanent = in_array( $status, array( 400, 401, 403, 404, 422 ), true );
 
 		printf(
-			'<p class="zd-rt-domain-error">%s</p>',
+			'<p class="zdrt-domain-error">%s</p>',
 			esc_html(
 				$permanent
 					? __( 'Domain search is unavailable on this site at the moment.', 'zinn-reseller' )
@@ -230,7 +230,7 @@ class Domain_Search {
 		}
 
 		printf(
-			'<p class="zd-rt-domain-error zd-rt-domain-error--admin"><strong>%s</strong> %s%s</p>',
+			'<p class="zdrt-domain-error zdrt-domain-error--admin"><strong>%s</strong> %s%s</p>',
 			esc_html__( 'Only administrators see this:', 'zinn-reseller' ),
 			esc_html( $error->get_error_message() ),
 			'' === $hint ? '' : ' ' . esc_html( $hint )
@@ -292,7 +292,7 @@ class Domain_Search {
 		// that would print the tag to the visitor instead of rendering it.
 		$buy = 'available' === $state ? self::buy_link( $fqdn ) : '';
 		printf(
-			'<li class="zd-rt-domain-result zd-rt-domain-result--%1$s"><span class="zd-rt-domain-name">%2$s</span> <span class="zd-rt-domain-state">%3$s</span>%4$s</li>',
+			'<li class="zdrt-domain-result zdrt-domain-result--%1$s"><span class="zdrt-domain-name">%2$s</span> <span class="zdrt-domain-state">%3$s</span>%4$s</li>',
 			esc_attr( $state ),
 			esc_html( $fqdn ),
 			esc_html( $label ),
@@ -348,7 +348,7 @@ class Domain_Search {
 			untrailingslashit( Settings::panel_base() ) . '/domains'
 		);
 		return sprintf(
-			' <a class="zd-rt-domain-buy" href="%1$s" rel="noopener">%2$s</a>',
+			' <a class="zdrt-domain-buy" href="%1$s" rel="noopener">%2$s</a>',
 			esc_url( $url ),
 			esc_html__( 'Register it', 'zinn-reseller' )
 		);

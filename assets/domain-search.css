@@ -17,61 +17,61 @@
  * block is missing for any reason.
  */
 
-.zd-rt-domain-search {
+.zdrt-domain-search {
 	display: flex;
-	gap: var(--zd-rt-domain-search-gap, 0.5rem);
+	gap: var(--zdrt-domain-search-gap, 0.5rem);
 	flex-wrap: wrap;
 	margin-block-end: 1.5rem;
-	font-size: var(--zd-rt-domain-search-fontsize, inherit);
+	font-size: var(--zdrt-domain-search-fontsize, inherit);
 }
 
-.zd-rt-domain-search input[type="search"] {
+.zdrt-domain-search input[type="search"] {
 	flex: 1 1 16rem;
 	min-inline-size: 0;
 }
 
-.zd-rt-domain-results {
+.zdrt-domain-results {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-.zd-rt-domain-result {
+.zdrt-domain-result {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: baseline;
 	gap: 0.5rem;
-	padding-block: var(--zd-rt-domain-search-rowpad, 0.6rem);
-	border-block-end: 1px solid var(--zd-rt-domain-search-rule, rgba(0, 0, 0, 0.1));
-	border-radius: var(--zd-rt-domain-search-radius, 0);
+	padding-block: var(--zdrt-domain-search-rowpad, 0.6rem);
+	border-block-end: 1px solid var(--zdrt-domain-search-rule, rgba(0, 0, 0, 0.1));
+	border-radius: var(--zdrt-domain-search-radius, 0);
 }
 
-.zd-rt-domain-name {
-	font-weight: var(--zd-rt-domain-search-nameweight, 600);
-	color: var(--zd-rt-domain-search-text, inherit);
+.zdrt-domain-name {
+	font-weight: var(--zdrt-domain-search-nameweight, 600);
+	color: var(--zdrt-domain-search-text, inherit);
 }
 
 /* The three states are three colours because they are three different answers, and
    the middle one is the point — see `result_row()` in class-domain-search.php. */
-.zd-rt-domain-result--available .zd-rt-domain-state {
-	color: var(--zd-rt-domain-search-available, #008a20);
+.zdrt-domain-result--available .zdrt-domain-state {
+	color: var(--zdrt-domain-search-available, #008a20);
 }
 
-.zd-rt-domain-result--unknown .zd-rt-domain-state {
-	color: var(--zd-rt-domain-search-unknown, #996800);
+.zdrt-domain-result--unknown .zdrt-domain-state {
+	color: var(--zdrt-domain-search-unknown, #996800);
 }
 
-.zd-rt-domain-result--taken .zd-rt-domain-state {
+.zdrt-domain-result--taken .zdrt-domain-state {
 	opacity: 0.65;
 }
 
-.zd-rt-domain-buy {
+.zdrt-domain-buy {
 	margin-inline-start: auto;
-	color: var(--zd-rt-domain-search-accent, inherit);
+	color: var(--zdrt-domain-search-accent, inherit);
 }
 
-.zd-rt-domain-error {
-	color: var(--zd-rt-domain-search-error, #b32d2e);
+.zdrt-domain-error {
+	color: var(--zdrt-domain-search-error, #b32d2e);
 }
 
 /*
@@ -79,7 +79,7 @@
  * visitor-facing error above it: it is a note to the person who can fix the setting,
  * not an alarm on somebody's shop front.
  */
-.zd-rt-domain-error--admin {
+.zdrt-domain-error--admin {
 	margin-block-start: 0.35em;
 	padding-inline-start: 0.75em;
 	border-inline-start: 3px solid #b32d2e;

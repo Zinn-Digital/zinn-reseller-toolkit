@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.27
+Stable tag: 1.7.29
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -173,6 +173,12 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.29 =
+* Note: the front-end prefix changed from zd_ / zd-rt- to zdrt_ / zdrt-. A panel link or cached page made before this update stops working: open the client panel again for a fresh link, and update any custom CSS that targeted the old .zd-rt- class names.
+
+= 1.7.28 =
+* WordPress.org review classes: no wp-config keys read (zinn-backups); 4-character zdrt front-end prefix (zinn-reseller).
 
 = 1.7.27 =
 * WordPress.org review fixes and a shared admin kit update (diagnostics and promotions panels).
