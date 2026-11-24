@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.25
+Stable tag: 1.7.27
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -173,6 +173,12 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.27 =
+* WordPress.org review fixes and a shared admin kit update (diagnostics and promotions panels).
+
+= 1.7.26 =
+* Shared MCP code update: the WordPress.org version no longer carries the MCP sign-in, and the Pro discount check no longer sends the site address in its user agent.
 
 = 1.7.25 =
 * WooCommerce hosting orders provision again. Each hosting product now has a stack (WordPress by default), a package and a billing interval. A paid order puts the client on the package first, then creates the site recorded against it, so it carries your wholesale statement line and the client's allowances.

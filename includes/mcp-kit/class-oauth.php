@@ -253,14 +253,13 @@ final class OAuth {
 	 * @return void
 	 */
 	public static function routes(): void {
-		$open = '__return_true';
 		register_rest_route(
 			self::NS,
 			'/oauth/\.well-known/(?:openid-configuration|oauth-authorization-server)',
 			array(
 				'methods'             => 'GET',
 				'callback'            => static fn() => self::json( self::metadata() ),
-				'permission_callback' => $open,
+				'permission_callback' => '__return_true', // Public on purpose: an OAuth 2.1 endpoint an AI app calls before it has a token.
 			)
 		);
 		register_rest_route(
@@ -269,7 +268,7 @@ final class OAuth {
 			array(
 				'methods'             => 'GET',
 				'callback'            => array( self::class, 'rest_resource_metadata' ),
-				'permission_callback' => $open,
+				'permission_callback' => '__return_true', // Public on purpose: an OAuth 2.1 endpoint an AI app calls before it has a token.
 			)
 		);
 		register_rest_route(
@@ -278,7 +277,7 @@ final class OAuth {
 			array(
 				'methods'             => 'POST',
 				'callback'            => array( self::class, 'register' ),
-				'permission_callback' => $open,
+				'permission_callback' => '__return_true', // Public on purpose: an OAuth 2.1 endpoint an AI app calls before it has a token.
 			)
 		);
 		register_rest_route(
@@ -287,7 +286,7 @@ final class OAuth {
 			array(
 				'methods'             => 'GET',
 				'callback'            => array( self::class, 'authorize' ),
-				'permission_callback' => $open,
+				'permission_callback' => '__return_true', // Public on purpose: an OAuth 2.1 endpoint an AI app calls before it has a token.
 			)
 		);
 		register_rest_route(
@@ -296,7 +295,7 @@ final class OAuth {
 			array(
 				'methods'             => 'POST',
 				'callback'            => array( self::class, 'token' ),
-				'permission_callback' => $open,
+				'permission_callback' => '__return_true', // Public on purpose: an OAuth 2.1 endpoint an AI app calls before it has a token.
 			)
 		);
 		register_rest_route(
@@ -305,7 +304,7 @@ final class OAuth {
 			array(
 				'methods'             => 'POST',
 				'callback'            => array( self::class, 'revoke' ),
-				'permission_callback' => $open,
+				'permission_callback' => '__return_true', // Public on purpose: an OAuth 2.1 endpoint an AI app calls before it has a token.
 			)
 		);
 	}
@@ -570,6 +569,8 @@ final class OAuth {
 				'timeout'             => 5,
 				'redirection'         => 0,
 				'limit_response_size' => 16384,
+				// WordPress's default value carries the site address; this host is the AI app's.
+				'user-agent'          => 'ZinnMcpKit/1',
 				'headers'             => array( 'Accept' => 'application/json' ),
 			)
 		);
@@ -1156,6 +1157,61 @@ final class OAuth {
 		}
 
 		return $out;
+	}
+
+	/**
+	 * The sign-in block of the MCP panel: whether AI apps can sign in here, and the apps the
+	 * current user has connected (render_panel() prints it; Server::sign_in() hands that HTML to the JavaScript panel).
+	 *
+	 * @return array{available: bool, apps: list<array<string, mixed>>, action: string}
+	 */
+	public static function describe(): array {
+		return array(
+			'available' => self::available(),
+			'apps'      => array_map(
+				static fn( array $app ): array => array(
+					'id'        => (string) $app['id'],
+					'name'      => (string) ( $app['client_name'] ?? '' ),
+					'created'   => (int) ( $app['created'] ?? 0 ),
+					'last_used' => (int) ( $app['last_used'] ?? 0 ),
+					'nonce'     => wp_create_nonce( 'zinn_mcp_disconnect_' . $app['id'] ),
+				),
+				self::connected()
+			),
+			'action'    => admin_url( 'admin-post.php' ),
+		);
+	}
+
+	/**
+	 * Print the sign-in block of the PHP-rendered MCP panel (Server::render_panel()).
+	 *
+	 * @param array<string, mixed> $oauth describe().
+	 * @return void
+	 */
+	public static function render_panel( array $oauth ): void {
+		?>
+		<?php if ( $oauth['available'] ) : ?>
+			<p><strong><?php esc_html_e( 'Claude and ChatGPT: sign in instead', 'zinn-reseller' ); ?></strong><br />
+			<?php esc_html_e( 'Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy.', 'zinn-reseller' ); ?></p>
+			<?php if ( ! empty( $oauth['apps'] ) ) : ?>
+				<p><?php esc_html_e( 'AI apps connected to your account:', 'zinn-reseller' ); ?></p>
+				<ul class="zd-mcp-panel__apps">
+					<?php foreach ( $oauth['apps'] as $app ) : ?>
+						<li>
+							<?php echo esc_html( $app['name'] ); ?>
+							<form method="post" action="<?php echo esc_url( $oauth['action'] ); ?>" style="display:inline">
+								<input type="hidden" name="action" value="zinn_mcp_oauth_disconnect" />
+								<input type="hidden" name="app" value="<?php echo esc_attr( $app['id'] ); ?>" />
+								<input type="hidden" name="_wpnonce" value="<?php echo esc_attr( $app['nonce'] ); ?>" />
+								<button type="submit" class="button-link"><?php esc_html_e( 'Disconnect', 'zinn-reseller' ); ?></button>
+							</form>
+						</li>
+					<?php endforeach; ?>
+				</ul>
+			<?php endif; ?>
+			<p><strong><?php esc_html_e( 'Other AI apps: an application password', 'zinn-reseller' ); ?></strong></p>
+		<?php endif; ?>
+		<?php
 	}
 
 	/**

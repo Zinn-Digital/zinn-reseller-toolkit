@@ -164,6 +164,10 @@ final class Adapter {
 	 * `Plugin::constants()` while its file loads, long before `plugins_loaded`, and then its copy
 	 * is `external` and already started, so this never runs beside it.
 	 *
+	 * The wordpress.org build of Page Builder Sandwich defines nothing in the `WP_` namespace: its
+	 * build renames the constant to `PBSW_MCP_VERSION` here AND in its bundled adapter's check
+	 * (wp/bin/build-plugin.php zinn_dotorg_pbs_library()), so the notice is not raised at all.
+	 *
 	 * ⛔ §2.36 suppression. Fact it rests on: WordPress core ships no MCP adapter, and the site
 	 * has no MCP Adapter plugin active (that plugin's copy would win and be started by its
 	 * owner). Re-check condition: remove once WordPress core or an installed adapter plugin

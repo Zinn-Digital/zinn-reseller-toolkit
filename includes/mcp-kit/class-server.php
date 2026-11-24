@@ -39,7 +39,7 @@ final class Server {
 	 * Boot the kit for a plugin.
 	 *
 	 * @param array<string, mixed> $config `id` (server id, the plugin slug), `rest_namespace`
-	 *                                     (e.g. `pbs/v1`), `name`, `description` (string or
+	 *                                     (e.g. `pbsw/v1`), `name`, `description` (string or
 	 *                                     callable), `version`,
 	 *                                     `capability` (to connect at all), `category`
 	 *                                     (`slug`, `label`, `description`), `enabled` (callable
@@ -62,9 +62,12 @@ final class Server {
 		if ( null !== $serving && (string) $config['id'] !== $serving ) {
 			return;
 		}
+		// dotorg-omit:begin
 		// Claude, ChatGPT and other AI apps can also sign in with OAuth 2.1 (this site is the
-		// authorization server). Application passwords keep working.
+		// authorization server). Application passwords keep working. Not in the WordPress.org
+		// build, which serves MCP with Application Passwords only (review round 5).
 		OAuth::offer( (string) $config['rest_namespace'] . '/mcp', self::text( $config['name'] ), (string) $config['capability'] );
+		// dotorg-omit:end
 		add_action( 'wp_abilities_api_categories_init', array( self::class, 'register_category' ) );
 		add_action( 'wp_abilities_api_init', $config['abilities'] );
 		add_action( 'mcp_adapter_init', array( self::class, 'create' ) );
@@ -80,7 +83,11 @@ final class Server {
 	 * @return list<string>
 	 */
 	public static function directory_hidden(): array {
-		if ( ! OAuth::directory_client() || ! function_exists( 'wp_get_abilities' ) ) {
+		$directory = false;
+		// dotorg-omit:begin
+		$directory = OAuth::directory_client();
+		// dotorg-omit:end
+		if ( ! $directory || ! function_exists( 'wp_get_abilities' ) ) {
 			return array();
 		}
 		$hidden = array();
@@ -130,7 +137,7 @@ final class Server {
 	 * A tool's result as an MCP `structuredContent` OBJECT.
 	 *
 	 * MCP (2025-06-18) requires `structuredContent` to be a JSON object, and the adapter returns
-	 * whatever the ability returned — so a list (`pbs/list-forms`, `tranzly/list-jobs`) or an empty
+	 * whatever the ability returned — so a list (`pbsw/list-forms`, `tranzly/list-jobs`) or an empty
 	 * result went out as a JSON ARRAY, and a spec-following client refuses the whole call: the
 	 * official TypeScript SDK answers "expected record, received array" (measured 2026-10-02 on
 	 * the review site, lane MCP-STORE: 5 tools across PBS and Tranzly). A list becomes
@@ -250,6 +257,24 @@ final class Server {
 	}
 
 	/**
+	 * The settings screen's AI-app sign-in block (a Pro feature), as HTML escaped where it is
+	 * rendered, for the PHP panel below and js/McpPanel.js alike. The WordPress.org build has no
+	 * sign-in (Application Passwords only), so there it is always '' and the screen shows nothing.
+	 *
+	 * @return string
+	 */
+	private static function sign_in(): string {
+		$html = '';
+		// dotorg-omit:begin
+		// The OAuth 2.1 sign-in and the apps connected through it (class-oauth.php).
+		ob_start();
+		OAuth::render_panel( OAuth::describe() );
+		$html = (string) ob_get_clean();
+		// dotorg-omit:end
+		return $html;
+	}
+
+	/**
 	 * What the settings screen shows: the switch, where to connect, and the tools.
 	 *
 	 * @return array<string, mixed>
@@ -265,20 +290,7 @@ final class Server {
 			'server'    => (string) ( $config['id'] ?? '' ),
 			'abilities' => self::enabled() ? self::ability_names() : array(),
 			'passwords' => admin_url( 'profile.php#application-passwords-section' ),
-			'oauth'     => array(
-				'available' => OAuth::available(),
-				'apps'      => array_map(
-					static fn( array $app ): array => array(
-						'id'        => (string) $app['id'],
-						'name'      => (string) ( $app['client_name'] ?? '' ),
-						'created'   => (int) ( $app['created'] ?? 0 ),
-						'last_used' => (int) ( $app['last_used'] ?? 0 ),
-						'nonce'     => wp_create_nonce( 'zinn_mcp_disconnect_' . $app['id'] ),
-					),
-					OAuth::connected()
-				),
-				'action'    => admin_url( 'admin-post.php' ),
-			),
+			'sign_in'   => self::sign_in(),
 			'docs'      => array(
 				'guide'      => esc_url_raw( (string) ( $config['docs']['guide'] ?? '' ) ),
 				'developers' => esc_url_raw( (string) ( $config['docs']['developers'] ?? '' ) ),
@@ -338,27 +350,9 @@ final class Server {
 						<?php esc_html_e( 'Connection address (MCP endpoint)', 'zinn-reseller' ); ?><br />
 						<code dir="ltr"><?php echo esc_html( $mcp['endpoint'] ); ?></code>
 					</p>
-					<?php if ( $mcp['oauth']['available'] ) : ?>
-						<p><strong><?php esc_html_e( 'Claude and ChatGPT: sign in instead', 'zinn-reseller' ); ?></strong><br />
-						<?php esc_html_e( 'Add the connection address as a custom connector in Claude, or as a custom MCP server in ChatGPT. They open this site so you can approve them; no password to copy.', 'zinn-reseller' ); ?></p>
-						<?php if ( ! empty( $mcp['oauth']['apps'] ) ) : ?>
-							<p><?php esc_html_e( 'AI apps connected to your account:', 'zinn-reseller' ); ?></p>
-							<ul class="zd-mcp-panel__apps">
-								<?php foreach ( $mcp['oauth']['apps'] as $app ) : ?>
-									<li>
-										<?php echo esc_html( $app['name'] ); ?>
-										<form method="post" action="<?php echo esc_url( $mcp['oauth']['action'] ); ?>" style="display:inline">
-											<input type="hidden" name="action" value="zinn_mcp_oauth_disconnect" />
-											<input type="hidden" name="app" value="<?php echo esc_attr( $app['id'] ); ?>" />
-											<input type="hidden" name="_wpnonce" value="<?php echo esc_attr( $app['nonce'] ); ?>" />
-											<button type="submit" class="button-link"><?php esc_html_e( 'Disconnect', 'zinn-reseller' ); ?></button>
-										</form>
-									</li>
-								<?php endforeach; ?>
-							</ul>
-						<?php endif; ?>
-						<p><strong><?php esc_html_e( 'Other AI apps: an application password', 'zinn-reseller' ); ?></strong></p>
-					<?php endif; ?>
+					<?php
+					echo $mcp['sign_in']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped field by field where Server::sign_in() renders it.
+					?>
 					<p><a href="<?php echo esc_url( $mcp['passwords'] ); ?>"><?php esc_html_e( 'Create an application password for your user', 'zinn-reseller' ); ?></a></p>
 					<p><?php esc_html_e( 'Add this to your AI app’s MCP settings, with your username and that password:', 'zinn-reseller' ); ?></p>
 					<pre class="zd-mcp-panel__config" dir="ltr"><?php echo esc_html( $config ); ?></pre>

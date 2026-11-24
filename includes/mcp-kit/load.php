@@ -25,5 +25,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once __DIR__ . '/class-adapter.php';
 require_once __DIR__ . '/class-ability.php';
 require_once __DIR__ . '/class-rest-bridge.php';
+// dotorg-omit:begin
+// The OAuth 2.1 sign-in for AI apps is not in the WordPress.org build (review round 5): that build
+// serves MCP with core Application Passwords only. wp/bin/build-plugin.php drops this region and
+// the file itself from every --dotorg build.
 require_once __DIR__ . '/class-oauth.php';
+// dotorg-omit:end
 require_once __DIR__ . '/class-server.php';
