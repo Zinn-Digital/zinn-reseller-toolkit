@@ -7,7 +7,7 @@ Tags: hosting, reseller, domains, woocommerce, api
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.29
+Stable tag: 1.7.30
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,15 @@ Sell Zinn Digital® hosting from your own site: search domains, sign clients int
 
 == Description ==
 
-If you resell Zinn® hosting, this plugin connects your own WordPress site to your reseller account so your customers never have to leave it.
+Run a hosting business from your own WordPress site. Zinn® Reseller Toolkit connects it to your Zinn® reseller account so your customers search for a domain, buy hosting through your own WooCommerce checkout and manage it, without ever leaving your brand.
+
+= At a glance =
+
+* **Live domain search** with your own prices, as a shortcode that needs no JavaScript.
+* **One-click sign-in** from your site to your customer's hosting panel.
+* **Hosting set up the moment a WooCommerce order is paid**, through your own payment gateway, with retries that can never provision twice.
+* **AI agents (MCP)**: let your own AI app see your reseller overview, add clients, set plans and create or suspend sites.
+* Every part is a separate switch; anything off loads no code at all.
 
 It has three parts and **they are separate switches**. Turn on only what you need — nothing that is switched off loads any code, registers any hook or enqueues any stylesheet.
 
@@ -52,6 +60,25 @@ Sell hosting as an ordinary WooCommerce product, take the money through your own
 * Every call is idempotent, so a gateway retry or an order moved from Processing to Completed can never provision twice.
 * If provisioning fails, the reason is written to the order as a note **and** shown in a panel on the order screen — never only to a PHP log where nobody would find it.
 
+**4. AI agents (MCP)**
+
+Connect an AI app such as Claude to this site with a WordPress application password, and it can work your reseller account for you: read your reseller overview, list or create clients, read or set a client's plan, list your plans and sites, create a site, and suspend or unsuspend one with your own note. Nothing happens unless an administrator connected the app and it called the action, and you can switch it off under **Reseller Toolkit → AI agents (MCP)**.
+
+= Compatibility =
+
+* WordPress 6.6 or later, PHP 8.2 or later, single site or multisite.
+* WooCommerce for provisioning on a paid order; the domain search and panel link work without it.
+* Any payment gateway WooCommerce supports: the money goes to your own account.
+* Works with most well-built WordPress themes and plugins.
+
+= Zinn® Pro Membership =
+
+Everything described above is free and stays free. If you want more, one Zinn® Pro Membership gives you the Pro versions of Page Builder Sandwich, Tranzly™, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from $149 a year: https://zinndigital.com/pro-membership
+
+= Free support, 24/7 =
+
+Help is free for everyone, free and Pro alike, around the clock. Ask on this plugin's wordpress.org support forum or at https://zinndigital.com/contact and Zinn Digital® answers.
+
 = Source code =
 
 The complete source is public at https://github.com/Zinn-Digital/zinn-reseller-toolkit
@@ -68,10 +95,9 @@ The complete source is public at https://github.com/Zinn-Digital/zinn-reseller-t
 
 = AI apps you connect (MCP sign-in) =
 
-Only when an AI app such as Claude or ChatGPT starts connecting to the site's MCP server does the site fetch that app's public OAuth client metadata from the address the app gives, for example `https://claude.ai/oauth/mcp-oauth-client-metadata` or `https://chatgpt.com/oauth/client.json`. No site content is sent.
+Only when an AI app such as Claude starts connecting to the site's MCP server does the site fetch that app's public OAuth client metadata from the address the app gives, for example `https://claude.ai/oauth/mcp-oauth-client-metadata` for Claude. Another AI app is reached only at the address that app gives, under its own terms and privacy policy. No site content is sent.
 
 * Claude: terms https://www.anthropic.com/legal/consumer-terms, privacy policy https://www.anthropic.com/legal/privacy
-* ChatGPT: terms https://openai.com/policies/terms-of-use/, privacy policy https://openai.com/policies/privacy-policy/
 
 This plugin lets you sell Zinn Digital® hosting from your own WordPress site. It is a front end
 for the Zinn® reseller API and requires a reseller account.
@@ -150,6 +176,14 @@ corrections and new languages can be contributed directly.
 
 == Frequently Asked Questions ==
 
+= Do I need a Zinn® reseller account? =
+
+Yes, for live prices, the panel link, provisioning and AI agents. The domain search works before you add a reseller key, using the public catalogue and its prices.
+
+= Can a payment retry create the hosting twice? =
+
+No. Every provisioning call is idempotent, so a gateway retry, or an order moved from Processing to Completed, provisions once. A failure is written to the order as a note and shown on the order screen.
+
 = Do my customers' payments go through Zinn®? =
 
 No. WooCommerce settles the money into your own account through your own gateway. This plugin runs after the order is paid and only tells the hosting platform to provision.
@@ -173,6 +207,9 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 3. A WooCommerce order: the Zinn® hosting panel shows what provisioning did, or why it did not.
 
 == Changelog ==
+
+= 1.7.30 =
+* Improved the plugin description: free 24/7 support for everyone, the Zinn® Pro Membership, and clearer English (UK) text.
 
 = 1.7.29 =
 * Note: the front-end prefix changed from zd_ / zd-rt- to zdrt_ / zdrt-. A panel link or cached page made before this update stops working: open the client panel again for a fresh link, and update any custom CSS that targeted the old .zd-rt- class names.
@@ -198,7 +235,7 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 * Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.
 
 = 1.7.22 =
-* The AI agents (MCP) panel now says to add the connection address as a custom MCP server in ChatGPT; developer mode is no longer needed.
+* The AI agents (MCP) panel now says to add the connection address as a custom MCP server in your AI app; developer mode is no longer needed.
 
 = 1.7.21 =
 * Improved: the shared settings framework is updated (no change to this plugin's settings screen).
@@ -216,7 +253,7 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 * AI agents (MCP): this plugin's tools now always appear to your AI app, even when another Zinn® plugin on the same site is an older version.
 
 = 1.7.16 =
-* More dependable AI app sign-in (MCP): Claude, ChatGPT and other AI apps connect to your site the same way whether a visitor, a scheduled task or a WP-CLI command started WordPress.
+* More dependable AI app sign-in (MCP): Claude and other AI apps connect to your site the same way whether a visitor, a scheduled task or a WP-CLI command started WordPress.
 
 = 1.7.15 =
 * Faster and lighter on servers: WP-CLI commands, scheduled tasks and AI agents (MCP) on your site now start with less memory, so they keep working beside large plugins such as WooCommerce.
@@ -243,7 +280,7 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 * Security-scan annotation on the AI agents (MCP) sign-in screen (no behaviour change): every value on its Allow button is escaped.
 
 = 1.7.7 =
-* AI apps (Claude, ChatGPT) can now sign in with OAuth on a site where this is the only Zinn® plugin with an AI-agent server; the sign-in did not start there.
+* AI apps such as Claude can now sign in with OAuth on a site where this is the only Zinn® plugin with an AI-agent server; the sign-in did not start there.
 
 = 1.7.6 =
 * MCP tools for AI connector directories: tool descriptions state only what each tool does (no references to other tools); every tool that takes input declares it; list results reach MCP clients as objects.
@@ -264,7 +301,7 @@ Yes. Settings are per site, and uninstalling clears them on every site in the ne
 * Security: the AI-app sign-in (MCP OAuth) checks a client's metadata address more strictly before fetching it (a public web address only, a limit per address, and a refused address remembered).
 
 = 1.7.0 =
-* AI apps such as Claude and ChatGPT can connect by signing in (OAuth 2.1) — no application password needed; every MCP tool declares whether it is read-only or destructive.
+* AI apps such as Claude can connect by signing in (OAuth 2.1) — no application password needed; every MCP tool declares whether it is read-only or destructive.
 
 = 1.6.2 =
 * Every bundled translation is redone with the current Google model: each locale in its own script (Serbian in Cyrillic), in the register its WordPress translation team uses, with the original spacing, placeholders and entities preserved.
